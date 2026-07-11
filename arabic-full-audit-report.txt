@@ -1,0 +1,221 @@
+ARABIC LOCALIZATION FULL AUDIT REPORT
+=======================================
+Generated after quick check + per-car review.
+
+EXECUTIVE SUMMARY
+-----------------
+The pageText.ar sections and the ar.json locale are now 100% free of Latin characters,
+but the generated Arabic car pages still show Spanish/English text because:
+
+1. The renderer (car-renderer-registry.js, car-renderer.js) contains many hardcoded
+   English/Spanish labels and fallback label maps that are not translated to Arabic.
+2. The car data JSONs are missing Arabic translations for whole sections (tires,
+   countryPricing, ownerReviews, profileData, usedGuide) and for some Arabic-specific
+   fields (drivetrainAr, badgeAr, versions.nameAr, comparisons.nameAr/fullNameAr).
+3. The ar.json "features" map is missing 43 keys used by version/comparison/options cards.
+4. The country-manager.js fiscal table shows region names and currencies in English/Spanish
+   because countryData does not provide Arabic region names and formatLocalMoney is hardcoded
+   to Spanish formatting.
+5. The renderers do not stringify objects safely, so some values appear as "[object Object]".
+
+MISSING FEATURE KEYS IN ar.json (43)
+------------------------------------
+0-100 km/h in 2.5 s
+0-100 km/h in 2.7 s
+0-100 km/h in 2.8 s
+0-100 km/h in 2.9 s
+0-100 km/h in 3.8 s
+17-touchscreen
+570 HP VR38DETT
+580 PS T-Hybrid
+585 HP V8 biturbo
+600 HP VR38DETT
+711 PS T-Hybrid
+727 HP y tracción M xDrive
+831 HP V8 hybrid
+AMG 4MATIC+
+AMG Performance seats
+AMG RIDE CONTROL+
+ATTESA E-TS AWD
+Ajustes de chasis más deportivos
+BMW OS 8.5 con pantalla curva
+Bose audio
+Carbon-ceramic brakes
+Elementos de carbono M
+Llantas de 21 pulgadas opcionales
+MBUX Hyperscreen
+MBUX standard
+NISMO Recaro seats
+Nissan Connect
+PASM
+PDK 8
+PTM AWD
+Sedan body style
+Standard equipment
+Suspensión adaptativa M
+apple-carplay
+autopilot
+bmw-os8
+comfort
+curved-display
+exterior
+interior
+performance
+safety
+technology
+
+Note: Some of these are full Spanish phrases (e.g. "Ajustes de chasis más deportivos")
+used directly as feature strings in car data. They should be translated and added to
+ar.json, or the data should be converted to feature keys and translated.
+
+MISSING ARABIC DATA SECTIONS PER CAR
+------------------------------------
+audi-rs3-2026:
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es, en, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - versions[0].nameAr missing
+  - versions[1].nameAr missing
+
+bmw-520d-xdrive-2026:
+  - tires (has es only, missing ar)
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es only, missing ar)
+  - profileData (has es only, missing ar)
+  - usedGuide (empty)
+  - basicInfo.badgeAr missing
+  - specs.drivetrainAr missing
+
+bmw-m5-2026:
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es, en, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - specs.drivetrainAr missing
+
+mercedes-amg-gt-2026:
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es, en, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - specs.drivetrainAr missing
+  - versions[0].nameAr missing
+  - versions[1].nameAr missing
+
+nissan-gtr-2026:
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es, en, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - specs.drivetrainAr missing
+  - versions[0].nameAr missing
+  - versions[1].nameAr missing
+
+porsche-911-2026:
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es, en, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - specs.drivetrainAr missing
+  - versions[0].nameAr missing
+  - versions[1].nameAr missing
+
+rs7-2026:
+  - countryPricing (has es, fr, missing ar)
+  - specs.drivetrainAr missing
+  - versions[2].nameAr missing
+
+tesla-model-s-plaid-2026:
+  - tires (has es, en, missing ar)
+  - countryPricing (has es, fr, missing ar)
+  - ownerReviews (has es only, missing ar)
+  - profileData (has es, en, missing ar)
+  - usedGuide (empty)
+  - basicInfo.badgeAr missing
+  - specs.drivetrainAr missing
+
+example-car and news are not production car pages and have most Arabic fields missing.
+
+HARDCODED RENDERER LABELS NOT TRANSLATED TO ARABIC
+---------------------------------------------------
+car-renderer-registry.js:
+  drivingExperience:
+    - Handling, Steering:, Body roll:, Grip:, Ride:
+    - Performance feel, Acceleration:, Braking:, Sound:, Transmission:
+    - Daily driving, Comfort:, Visibility:, Parking:, Motorway:
+  exteriorDesign:
+    - Aerodynamics, Cd:, Active aero: Sí
+    - Lighting, Headlights:, Taillights:, Signature:
+    - Wheels, Standard:, Optional:, Colors
+  technology:
+    - Head unit, Screen:, Resolution:, System:, Processor:
+    - Wireless Apple CarPlay, Wireless Android Auto
+    - Audio, Speakers:, Watts:
+    - Driver displays, Cluster:, Head-up display, Augmented reality nav
+    - Connectivity, App integration
+  safety:
+    - Ratings (used as heading for s.ratings)
+    - Euro NCAP, NHTSA (for s.rating.euroNCAP/nhtsa)
+    - Airbags, airbags
+    - Driver assist
+    - Structure
+  tires:
+    - Standard, Optional, Rear wear, Recommended, Sizes
+  ownershipDetails:
+    - Daily usability, Reliability, Long trips, City driving, Common issues
+    - Costes de mantenimiento (Spanish), Intervalo:, Revisión menor:, Revisión mayor:
+    - Impuesto de circulación:, Seguro:, Neumáticos:, Combustible:
+  maintenance:
+    - años, sin límite de km, Tren motriz
+  environmental:
+    - CO2, NOx, Particulas, Consumo
+  dealership:
+    - Solicitar prueba de conduccion, Configurador online, Financiacion
+    - all Spanish paragraph text
+  timeline:
+    - Revision
+  options:
+    - Si, No (worth it), currency formatting with es-ES
+  relatedCars:
+    - uses m.name instead of m.nameAr
+  verdict:
+    - Verdict (already has ar: "الحكم") but r.verdict value is not localized
+  interiorDeepDive:
+    - Arabic labels exist, but the "Interior cards" title is not localized
+
+car-renderer.js:
+  - specMap uses Spanish words for non-Arabic fallback and Arabic for some:
+      "0-100 en", "velocidades", "segundos", "L / 100 km"
+  - version card uses Intl.NumberFormat('es-ES') for currency (e.g. 165.000 €)
+  - featNames map is Spanish/English, used as fallback when ar.json feature is missing
+  - versionDescKey fallback for non-RS7 cars may not match pageText.versions keys
+  - `Version` fallback when name is missing
+
+FISCAL TABLE ISSUES (system/js/country-manager.js)
+-------------------------------------------------
+- updateFiscalTable reads c.fiscalRows and prints region names directly.
+- Region names (California, Texas, Florida, New York, Illinois, etc.) are not translated.
+- formatLocalMoney uses Spanish locale and EUR/USD symbols; for Arabic it should use
+  Arabic-Indic digits and Arabic formatting or at least the Arabic currency name.
+- The table headers do translate via t("fiscal.region"), etc.
+
+[object Object] BUGS
+--------------------
+- car-renderer-registry.js safety driverAssist: if a.driverAssist item is an object
+  and a.name is itself an object, it is returned as-is and later rendered as [object Object].
+- car-renderer-registry.js tires: if t.standard / t.recommended / t.optional items are
+  objects, they are concatenated as [object Object].
+- car-renderer-registry.js options: if opt.name is an object, it renders as [object Object].
+- car-renderer.js versions: featLabel may be an object if t() returns an object.
+
+RECOMMENDED FIX ORDER
+---------------------
+1. Add Arabic translations for the 43 missing feature keys in ar.json.
+2. Translate hardcoded section labels in car-renderer-registry.js and car-renderer.js
+   by introducing a label map per language or using t() keys.
+3. Add missing Arabic car data sections (tires, countryPricing, ownerReviews, profileData,
+   usedGuide, safety, versions.nameAr, comparisons.nameAr/fullNameAr, drivetrainAr, badgeAr).
+4. Fix [object Object] by coercing all displayed values to string with safe fallback.
+5. Translate fiscal table region names and currency formatting for Arabic in country-manager.js.
+6. Re-run build, tests, validate, and audit.

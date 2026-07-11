@@ -1,0 +1,341 @@
+/* ============================================
+   Cookie Consent Banner + Privacy Policy Modal
+   Vanilla CSS — no external dependencies
+   ============================================ */
+
+/* ── Cookie Banner ─────────────────────────── */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-top: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.4);
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px 24px;
+}
+
+.cookie-banner.cookie-banner--visible {
+    transform: translateY(0);
+}
+
+.cookie-banner__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.cookie-banner__text {
+    flex: 1;
+    min-width: 280px;
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cookie-banner__text strong {
+    color: #fff;
+    font-size: 15px;
+}
+
+.cookie-banner__text a {
+    color: #60a5fa;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cookie-banner__actions {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.cookie-banner__btn {
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.cookie-banner__btn--accept {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #fff;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.4);
+}
+
+.cookie-banner__btn--accept:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.5);
+}
+
+.cookie-banner__btn--decline {
+    background: transparent;
+    color: #94a3b8;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.cookie-banner__btn--decline:hover {
+    background: rgba(148, 163, 184, 0.1);
+    color: #cbd5e1;
+}
+
+/* ── Privacy Policy Modal ──────────────────── */
+.privacy-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.privacy-modal.privacy-modal--visible {
+    display: flex;
+}
+
+.privacy-modal__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.privacy-modal__dialog {
+    position: relative;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 16px;
+    max-width: 720px;
+    width: 100%;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+    animation: privacyModalIn 0.3s ease;
+}
+
+@keyframes privacyModalIn {
+    from { opacity: 0; transform: scale(0.95) translateY(20px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.privacy-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 28px 16px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.privacy-modal__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.privacy-modal__close {
+    background: rgba(148, 163, 184, 0.1);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    color: #94a3b8;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.privacy-modal__close:hover {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.3);
+    color: #ef4444;
+}
+
+.privacy-modal__body {
+    padding: 24px 28px;
+    overflow-y: auto;
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.privacy-modal__body h2 {
+    color: #60a5fa;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 24px 0 10px;
+}
+
+.privacy-modal__body h2:first-child {
+    margin-top: 0;
+}
+
+.privacy-modal__body p {
+    margin: 0 0 14px;
+}
+
+.privacy-modal__body ul {
+    margin: 0 0 14px;
+    padding-left: 20px;
+}
+
+.privacy-modal__body li {
+    margin-bottom: 6px;
+}
+
+.privacy-modal__body a {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+.privacy-modal__footer {
+    padding: 16px 28px 24px;
+    border-top: 1px solid rgba(148, 163, 184, 0.15);
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.privacy-modal__footer .cookie-banner__btn--accept {
+    padding: 10px 28px;
+}
+
+/* ── Light theme support ───────────────────── */
+.light .cookie-banner {
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+    border-top: 1px solid rgba(59, 130, 246, 0.2);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.1);
+}
+
+.light .cookie-banner__text {
+    color: #475569;
+}
+
+.light .cookie-banner__text strong {
+    color: #0f172a;
+}
+
+.light .cookie-banner__btn--decline {
+    color: #64748b;
+    border-color: rgba(100, 116, 139, 0.3);
+}
+
+.light .cookie-banner__btn--decline:hover {
+    background: rgba(100, 116, 139, 0.08);
+    color: #334155;
+}
+
+.light .privacy-modal__dialog {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-color: rgba(59, 130, 246, 0.15);
+}
+
+.light .privacy-modal__header {
+    border-bottom-color: rgba(100, 116, 139, 0.15);
+}
+
+.light .privacy-modal__title {
+    color: #0f172a;
+}
+
+.light .privacy-modal__close {
+    background: rgba(100, 116, 139, 0.08);
+    border-color: rgba(100, 116, 139, 0.15);
+    color: #64748b;
+}
+
+.light .privacy-modal__body {
+    color: #475569;
+}
+
+.light .privacy-modal__body h2 {
+    color: #2563eb;
+}
+
+.light .privacy-modal__footer {
+    border-top-color: rgba(100, 116, 139, 0.15);
+}
+
+/* ── RTL support ───────────────────────────── */
+[dir="rtl"] .cookie-banner__inner {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .cookie-banner__actions {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .privacy-modal__footer {
+    justify-content: flex-start;
+}
+
+/* ── Mobile responsive ─────────────────────── */
+@media (max-width: 640px) {
+    .cookie-banner {
+        padding: 14px 16px;
+    }
+
+    .cookie-banner__inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .cookie-banner__text {
+        min-width: auto;
+        font-size: 13px;
+    }
+
+    .cookie-banner__actions {
+        width: 100%;
+    }
+
+    .cookie-banner__btn {
+        flex: 1;
+        text-align: center;
+        padding: 10px 16px;
+    }
+
+    .privacy-modal {
+        padding: 12px;
+    }
+
+    .privacy-modal__dialog {
+        max-height: 90vh;
+        border-radius: 12px;
+    }
+
+    .privacy-modal__header {
+        padding: 18px 20px 12px;
+    }
+
+    .privacy-modal__title {
+        font-size: 18px;
+    }
+
+    .privacy-modal__body {
+        padding: 18px 20px;
+        font-size: 13px;
+    }
+
+    .privacy-modal__footer {
+        padding: 12px 20px 18px;
+    }
+}

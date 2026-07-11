@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mega Menu Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <span class="logo-icon">⬡</span>
+        <span>ProBrand</span>
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="nav-links">
+
+        <!-- 1. Simple link -->
+        <a href="#" class="nav-item">Home</a>
+
+        <!-- 2. Mega Menu: Products -->
+        <div class="nav-item has-mega">
+          <span>Products <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+
+          <div class="mega-menu mega-products">
+            <div class="mega-col">
+              <p class="col-title">🛒 Shop</p>
+              <a href="#"><span class="icon">👟</span> Footwear</a>
+              <a href="#"><span class="icon">👕</span> Clothing</a>
+              <a href="#"><span class="icon">⌚</span> Accessories</a>
+              <a href="#"><span class="icon">🎒</span> Bags</a>
+            </div>
+            <div class="mega-col">
+              <p class="col-title">✨ Collections</p>
+              <a href="#"><span class="icon">🌿</span> Eco Line</a>
+              <a href="#"><span class="icon">🔥</span> New Arrivals</a>
+              <a href="#"><span class="icon">⭐</span> Best Sellers</a>
+              <a href="#"><span class="icon">🎁</span> Gift Sets</a>
+            </div>
+            <div class="mega-col featured">
+              <p class="col-title">🏆 Featured</p>
+              <div class="featured-card">
+                <div class="featured-img">🌊</div>
+                <div class="featured-text">
+                  <strong>Summer Drop 2026</strong>
+                  <p>New collection just dropped. Fresh styles for the season.</p>
+                  <a href="#" class="btn-sm">Shop Now →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Mega Menu: Solutions -->
+        <div class="nav-item has-mega">
+          <span>Solutions <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+
+          <div class="mega-menu mega-solutions">
+            <div class="mega-grid">
+              <a href="#" class="solution-card">
+                <div class="s-icon">🚀</div>
+                <div>
+                  <strong>Startup Kit</strong>
+                  <p>Launch your product fast with our toolkit</p>
+                </div>
+              </a>
+              <a href="#" class="solution-card">
+                <div class="s-icon">🏢</div>
+                <div>
+                  <strong>Enterprise</strong>
+                  <p>Scalable tools for large organizations</p>
+                </div>
+              </a>
+              <a href="#" class="solution-card">
+                <div class="s-icon">🎨</div>
+                <div>
+                  <strong>Design System</strong>
+                  <p>Consistent UI components for your team</p>
+                </div>
+              </a>
+              <a href="#" class="solution-card">
+                <div class="s-icon">📊</div>
+                <div>
+                  <strong>Analytics Pro</strong>
+                  <p>Data-driven insights for growth</p>
+                </div>
+              </a>
+              <a href="#" class="solution-card">
+                <div class="s-icon">🔐</div>
+                <div>
+                  <strong>Security Suite</strong>
+                  <p>Enterprise-grade protection for your data</p>
+                </div>
+              </a>
+              <a href="#" class="solution-card">
+                <div class="s-icon">🌐</div>
+                <div>
+                  <strong>Global CDN</strong>
+                  <p>Deliver content fast worldwide</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Simple link -->
+        <a href="#" class="nav-item">Pricing</a>
+
+        <!-- 5. Mega Menu: Resources -->
+        <div class="nav-item has-mega">
+          <span>Resources <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+
+          <div class="mega-menu mega-resources">
+            <div class="mega-col">
+              <p class="col-title">📚 Learn</p>
+              <a href="#">Documentation</a>
+              <a href="#">Tutorials</a>
+              <a href="#">Blog</a>
+              <a href="#">Webinars</a>
+            </div>
+            <div class="mega-col">
+              <p class="col-title">🤝 Community</p>
+              <a href="#">Discord Server</a>
+              <a href="#">GitHub</a>
+              <a href="#">Forum</a>
+              <a href="#">Newsletter</a>
+            </div>
+            <div class="mega-col">
+              <p class="col-title">🛠 Tools</p>
+              <a href="#">API Reference</a>
+              <a href="#">Status Page</a>
+              <a href="#">Changelog</a>
+              <a href="#">Open Source</a>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- CTA -->
+      <div class="nav-cta">
+        <a href="#" class="btn-outline">Log In</a>
+        <a href="#" class="btn-primary">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════
+       HERO (just background content)
+  ═══════════════════════════════════════ -->
+  <main class="hero">
+    <div class="hero-content">
+      <div class="badge">✨ Mega Menu Demo</div>
+      <h1>Hover the nav items above<br/>to see the <span class="gradient-text">Mega Menu</span></h1>
+      <p>Each nav item has a different style of mega menu.<br/>Products → columns + featured card | Solutions → grid cards | Resources → 3 columns</p>
+      <div class="hero-arrows">
+        <span>↑</span>
+        <span>↑</span>
+        <span>↑</span>
+      </div>
+    </div>
+
+    <!-- Anatomy labels -->
+    <div class="anatomy">
+      <h2>🔍 Mega Menu Anatomy</h2>
+      <div class="anatomy-grid">
+        <div class="anatomy-card">
+          <span class="a-num">1</span>
+          <div>
+            <strong>Trigger (Nav Item)</strong>
+            <p>The link/button you hover or click to open the menu</p>
+          </div>
+        </div>
+        <div class="anatomy-card">
+          <span class="a-num">2</span>
+          <div>
+            <strong>Dropdown Panel</strong>
+            <p>The large panel that appears — can be full-width or contained</p>
+          </div>
+        </div>
+        <div class="anatomy-card">
+          <span class="a-num">3</span>
+          <div>
+            <strong>Columns / Groups</strong>
+            <p>Content organized in columns, categories, or grid cards</p>
+          </div>
+        </div>
+        <div class="anatomy-card">
+          <span class="a-num">4</span>
+          <div>
+            <strong>Featured / Promo</strong>
+            <p>Optional rich content: image cards, CTAs, banners</p>
+          </div>
+        </div>
+        <div class="anatomy-card">
+          <span class="a-num">5</span>
+          <div>
+            <strong>Close Trigger</strong>
+            <p>Clicking outside or moving mouse away closes the menu</p>
+          </div>
+        </div>
+        <div class="anatomy-card">
+          <span class="a-num">6</span>
+          <div>
+            <strong>Animation</strong>
+            <p>Smooth fade + slide to make it feel premium & polished</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

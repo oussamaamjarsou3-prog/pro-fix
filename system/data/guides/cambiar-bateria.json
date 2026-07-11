@@ -1,0 +1,491 @@
+{
+"id": "cambiar-bateria",
+    "slug": "cambiar-bateria",
+    "category": "maintenance",
+    "author": "CarSpecio Technical Team",
+    "publishedAt": "2026-06-20",
+    "updatedAt": "2026-06-28",
+    "heroImage": "../../images/placeholder.svg",
+    "readingTime": 6,
+    "difficulty": "beginner",
+    "status": "active",
+    "content": {
+        "es": {
+            "title": "Cómo cambiar la batería del coche paso a paso",
+            "excerpt": "Guía completa para cambiar la batería del coche en casa: elige la batería correcta (AGM, EFB, convencional), procedimiento exacto y cómo proteger la electrónica. Ahorra 40-80 euros.",
+            "intro": "La batería es el corazón eléctrico de tu coche. Cuando falla, el coche no arranca y suele ocurrir en el peor momento. Cambiarla en casa es sencillo, pero hay pasos críticos que la mayoría ignora: elegir la batería correcta, proteger la electrónica y respetar el orden de los bornes. Este proceso tarda 20-40 minutos y ahorra entre 40 y 80 euros.",
+            "keyTakeaways": [
+                "Desconecta SIEMPRE el borne negativo (-) primero al retirar, y conéctalo ÚLTIMO al instalar",
+                "La batería nueva debe coincidir en tensión (12V), capacidad (Ah) e intensidad de arranque en frío (CCA)",
+                "Los coches modernos con gestión electrónica pueden necesitar codificación de batería (BMW, Mercedes, Audi, Volvo)",
+                "Una batería completamente descargada pierde hasta el 30% de capacidad de forma permanente",
+                "El ácido de batería es corrosivo: usa siempre guantes de nitrilo y gafas de protección",
+                "La batería usada es residuo peligroso: llévala al punto limpio o a una tienda de recambios"
+            ],
+            "sections": [
+                {
+                    "id": "cuando-cambiar-bateria",
+                    "title": "¿Cuándo cambiar la batería? Señales de aviso",
+                    "content": "<p>Una batería convencional de plomo-ácido dura <strong>3-5 años</strong>. Las baterías AGM y EFB (para coches con Start-Stop) pueden llegar a 6-8 años pero son más caras de reponer.</p><p>Señales claras de que la batería está fallando:</p><ul><li><strong>Arranque lento o difícil</strong> — el motor cuesta girar, especialmente en frío</li><li><strong>Luz de batería encendida</strong> en el cuadro de instrumentos</li><li><strong>Electrónica errática</strong> — luces que parpadean, radio que se resetea, cierre centralizado lento</li><li><strong>Batería hinchada o con depósitos blancos</strong> en los bornes (sulfatación)</li><li><strong>Test de carga fallido</strong> — por debajo del 70% de la capacidad nominal</li><li><strong>Más de 4-5 años</strong> de antigüedad — sustitúyela preventivamente aunque arranque</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Muchas tiendas de recambios (Norauto, Midas, Factor Energía) ofrecen el test de batería gratis. Hazlo antes de comprar una nueva para confirmar que el alternador no es el problema."
+                    }
+                },
+                {
+                    "id": "elegir-bateria",
+                    "title": "Cómo elegir la batería correcta",
+                    "content": "<p>Instalar una batería incompatible puede dañar la electrónica. Consulta siempre el manual del propietario. Los parámetros clave son:</p><ul><li><strong>Tensión</strong>: 12V para todos los coches convencionales</li><li><strong>Capacidad (Ah)</strong>: La más común es 60-72 Ah. Nunca instales una de menor capacidad</li><li><strong>Corriente de arranque en frío (CCA)</strong>: igual o superior a la original</li><li><strong>Tecnología</strong>: Plomo-ácido convencional para coches sin Start-Stop (40-80 euros); EFB para Start-Stop básico (60-120 euros); AGM obligatoria para Start-Stop intensivo o recuperación de frenada como BMW EfficientDynamics, Mercedes BlueEFFICIENCY y Audi Mild Hybrid (100-200 euros). NUNCA sustituyas una AGM por una convencional</li><li><strong>Tamaño físico (grupo DIN)</strong>: debe coincidir para que encaje en el alojamiento</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Si tu coche original llevaba batería AGM, instala siempre AGM. Una batería convencional en un coche Start-Stop puede dañar la centralita de gestión de energía y generar averías costosas."
+                    }
+                },
+                {
+                    "id": "herramientas-bateria",
+                    "title": "Herramientas y materiales necesarios",
+                    "content": "<p>Ten todo preparado antes de empezar para no interrumpir el proceso:</p><ul><li><strong>Batería nueva</strong> con las especificaciones correctas</li><li><strong>Llave de vaso de 10 mm</strong> para los bornes (la mayoría de coches europeos; algunos usan 8, 12 o 13 mm)</li><li><strong>Llave para el soporte de la batería</strong> — normalmente 10 o 13 mm</li><li><strong>Guantes de nitrilo gruesos</strong> — el ácido de batería quema la piel</li><li><strong>Gafas de protección</strong> — la batería emite hidrógeno que puede inflamarse con chispas</li><li><strong>Spray limpiabornos o agua con bicarbonato</strong> para eliminar sulfatación</li><li><strong>Vaselina o grasa de litio</strong> para prevenir corrosión futura en los bornes</li><li><strong>Trapos o papel de cocina</strong></li><li>Opcional pero muy útil: <strong>Cargador de memoria OBD</strong> para mantener la tensión del circuito y no perder configuraciones de radio, ventanas y asientos de memoria</li></ul>"
+                },
+                {
+                    "id": "preparacion-bateria",
+                    "title": "Preparación antes del cambio",
+                    "content": "<p>Antes de tocar nada:</p><ol><li>Aparca en lugar <strong>ventilado, plano y seguro</strong>. Nunca en garaje cerrado — las baterías emiten hidrógeno inflamable</li><li>Apaga el motor completamente y retira la llave del contacto</li><li>Espera <strong>5-10 minutos</strong> para que el alternador descargue la tensión residual</li><li>Abre el capó y localiza la batería. En la mayoría de coches está en el compartimento motor; en algunos modelos como BMW Serie 5 y 7, Mercedes Clase E y S, o Porsche Cayenne está en el maletero o bajo el asiento trasero</li><li>Si tienes cargador de memoria OBD, conéctalo ahora al puerto OBD bajo el volante</li><li>Anota las emisoras de radio, posiciones de asientos con memoria y código del climatizador si no tienes cargador de memoria</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Si pierdes el código de la radio, búscalo en el manual del coche, en la tarjeta de código de los documentos, o llama al concesionario con el número de bastidor (VIN)."
+                    }
+                },
+                {
+                    "id": "desconexion-bateria",
+                    "title": "Desconectar y extraer la batería vieja",
+                    "content": "<p>El orden es crítico — un error puede provocar cortocircuito:</p><ol><li>Identifica los bornes: <strong>negativo (-)</strong> es el cable negro; <strong>positivo (+)</strong> es el cable rojo o tapa roja</li><li><strong>Afloja y retira PRIMERO el borne negativo (-)</strong>. Gira la tuerca en sentido antihorario. Aparta el cable y envuélvelo en un trapo para evitar contacto accidental con el metal</li><li>Afloja y retira el borne positivo (+). Cuidado: si la llave toca la carrocería mientras está en contacto con el positivo, hay cortocircuito</li><li>Retira el soporte o abrazadera que sujeta la batería</li><li>Levanta la batería con las dos manos. <strong>Pesa 12-22 kg</strong> — dobla las rodillas, no la espalda. Mantenla vertical para evitar derrames de ácido</li><li>Colócala en superficie plana, alejada de chispas y calor</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "NUNCA puentes el borne positivo (+) y el negativo (-) con una herramienta metálica. Producirá una chispa intensa, puede fundir la llave y dañar la centralita del coche."
+                    }
+                },
+                {
+                    "id": "limpieza-bornes",
+                    "title": "Limpieza de bornes y alojamiento",
+                    "content": "<p>Antes de instalar la batería nueva, limpia todo para garantizar buena conductividad y larga vida:</p><ol><li>Inspecciona los cables de los bornes. Si el aislamiento está agrietado o el terminal muy corroído, sustitúyelos — una mala conexión causa tantos problemas como una batería muerta</li><li>Limpia los terminales con un cepillo de latón o papel de lija fino. Si hay sulfatación abundante (polvo blanco-azulado), aplica agua con bicarbonato (1 cucharada en 250 ml), deja actuar 2 minutos y limpia con trapo húmedo. Seca bien</li><li>Limpia el alojamiento de la batería de restos de ácido o suciedad con el mismo método</li><li>Comprueba que el soporte está en buen estado — una batería que vibra se deteriora antes y sus placas internas se dañan</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Aplica una capa fina de vaselina o grasa de litio sobre los bornes limpios antes de conectar la batería nueva. Previene la corrosión durante años."
+                    }
+                },
+                {
+                    "id": "instalacion-bateria",
+                    "title": "Instalar la batería nueva y verificaciones finales",
+                    "content": "<p>El orden de conexión es el inverso al de desconexión:</p><ol><li>Coloca la batería nueva en el alojamiento en la <strong>misma orientación</strong> que la original — si los bornes quedan al revés, los cables no llegarán</li><li>Fija el soporte o abrazadera firmemente. La batería no debe moverse — la vibración es su peor enemiga</li><li><strong>Conecta PRIMERO el borne positivo (+)</strong>. Encaja el terminal rojo, aprieta la tuerca firmemente pero sin pasarte</li><li><strong>Conecta DESPUÉS el borne negativo (-)</strong>. Encaja el terminal negro, aprieta</li><li>Aplica vaselina sobre los terminales ya conectados</li><li>Arranca el motor. Debe arrancar inmediatamente y con fuerza. Si sigue costando arrancar, puede que el alternador esté fallando</li><li>Verifica que no hay luces de aviso en el cuadro de instrumentos. Resetea el reloj y las emisoras de radio si es necesario</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "En BMW Serie 1, 3, 5 y 7 desde 2002, Mercedes Clase C, E y S desde 2004, Audi y Volvo modernos, la batería nueva debe ser codificada por software como ISTA, XENTRY o herramienta OBD compatible como Launch o Autel. Sin esta codificación, el sistema de carga no se adapta y puede dañar la batería prematuramente."
+                    }
+                }
+            ],
+            "faqLabel": "Preguntas frecuentes sobre la batería del coche",
+            "faq": [
+                {
+                    "question": "¿Cuánto dura una batería de coche?",
+                    "answer": "Una batería convencional de plomo-ácido dura 3-5 años con uso normal. Las AGM pueden alcanzar 6-8 años. El frío extremo, los trayectos cortos frecuentes que no permiten la recarga completa y dejar el coche parado semanas son los factores que más acortan su vida. Si supera los 4 años, haz que la comprueben aunque arranque bien."
+                },
+                {
+                    "question": "¿Qué ocurre si desconecto el borne positivo primero?",
+                    "answer": "Si la llave u otro objeto metálico toca la carrocería mientras está en contacto con el positivo, se produce un cortocircuito que puede generar una chispa intensa, fundir el fusible principal, dañar la centralita o provocar un incendio. Siempre: negativo primero al desconectar, positivo primero al conectar."
+                },
+                {
+                    "question": "¿Perderé la configuración del coche al cambiar la batería?",
+                    "answer": "Sí, normalmente se resetean las emisoras de radio, posiciones de asientos y espejos con memoria, configuración del climatizador y en algunos modelos la calibración de las ventanas eléctricas. Para evitarlo, usa un cargador de memoria OBD desde 20 euros que mantiene la alimentación durante el cambio."
+                },
+                {
+                    "question": "¿Necesito codificar la batería nueva en mi coche?",
+                    "answer": "Sí, si tu coche es BMW desde 2002, Mercedes-Benz desde 2004, Audi con sistema AGM o EFB, Volvo o cualquier vehículo con sensor inteligente de batería IBS. Sin codificación, el alternador puede sobrecargar o infracargar la nueva batería. Un taller o herramienta OBD compatible realiza esta operación."
+                },
+                {
+                    "question": "¿Puedo instalar una batería de mayor capacidad (más Ah)?",
+                    "answer": "Sí, puedes instalar una de mayor capacidad siempre que las dimensiones físicas sean compatibles y la tecnología sea la misma. No sustituyas AGM por convencional. Mayor capacidad no daña el alternador. Nunca instales una de menor capacidad que la original en coches con alta demanda eléctrica."
+                },
+                {
+                    "question": "¿Qué hago con la batería vieja?",
+                    "answer": "Las baterías de plomo-ácido son residuos peligrosos con ácido sulfúrico y plomo. Llévala a un punto limpio, a una tienda de recambios que están obligadas por ley a aceptarla gratis según el RD 106/2008 o a un taller. Nunca la tires a la basura general."
+                }
+            ],
+            "seo": {
+                "title": "Cómo cambiar la batería del coche paso a paso | Guía completa CarSpecio",
+                "description": "Guía profesional para cambiar la batería del coche: elige entre AGM, EFB y convencional, procedimiento exacto, codificación y errores a evitar. Ahorra 40-80 euros.",
+                "keywords": ["cambiar batería coche", "batería AGM", "batería EFB", "CCA bateria", "codificacion bateria BMW", "cambio bateria paso a paso", "bateria coche muerta", "borne negativo primero"]
+            }
+        },
+        "en": {
+            "title": "How to Change Your Car Battery Step by Step",
+            "excerpt": "Complete professional guide to changing your car battery at home: choose the right battery (AGM, EFB, conventional), exact procedure, electronics protection and coding explained.",
+            "intro": "The battery is your car's electrical heart. When it fails, usually on the coldest morning of the year, the car will not start. Changing it at home is straightforward, but there are critical steps most people miss: choosing the correct battery type, protecting the car's electronics, and getting the terminal connection order right. The job takes 20-40 minutes and saves 35-70 pounds over a garage visit.",
+            "keyTakeaways": [
+                "Always disconnect the NEGATIVE (-) terminal first when removing, and connect it LAST when installing",
+                "The new battery must match the original in voltage (12V), capacity (Ah) and cold cranking amps (CCA)",
+                "Modern cars with energy management may need battery coding (BMW, Mercedes, Audi, Volvo)",
+                "A fully flat battery loses up to 30% capacity permanently — charge it before installing if stored",
+                "Battery acid is corrosive — always wear nitrile gloves and safety goggles",
+                "Used batteries are hazardous waste — take to a recycling centre or auto parts shop"
+            ],
+            "sections": [
+                {
+                    "id": "when-to-change-battery",
+                    "title": "When to Change the Battery: Warning Signs",
+                    "content": "<p>A standard lead-acid car battery lasts <strong>3-5 years</strong>. AGM and EFB batteries for Stop-Start cars can last 6-8 years but cost significantly more to replace.</p><p>Clear signs your battery is failing:</p><ul><li><strong>Slow or laboured cranking</strong> — the engine struggles to turn over, especially in cold weather</li><li><strong>Battery warning light</strong> illuminated on the dashboard</li><li><strong>Erratic electronics</strong> — flickering lights, radio resetting, sluggish central locking</li><li><strong>Swollen case or white deposits</strong> on the terminals (sulphation)</li><li><strong>Failed load test</strong> — below 70% of rated capacity</li><li><strong>Over 4-5 years old</strong> — replace preventively even if still starting</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Many auto parts retailers like Halfords and Euro Car Parts offer free battery testing. Do this before buying a new one to confirm the alternator is not the real culprit."
+                    }
+                },
+                {
+                    "id": "choosing-battery",
+                    "title": "How to Choose the Right Battery",
+                    "content": "<p>Fitting an incompatible battery can damage the car's electronics. Always check the owner's manual or original battery label. Key parameters:</p><ul><li><strong>Voltage</strong>: 12V for all conventional cars</li><li><strong>Capacity (Ah)</strong>: Most common is 60-72 Ah. Never fit lower capacity than original</li><li><strong>Cold Cranking Amps (CCA)</strong>: Match or exceed the original figure</li><li><strong>Technology</strong>: Conventional flooded lead-acid for non Stop-Start cars at 35-70 pounds; EFB for basic Stop-Start at 55-110 pounds; AGM mandatory for intensive Stop-Start or brake energy recovery at 90-180 pounds. NEVER replace AGM with conventional</li><li><strong>Physical size BCI or EN group</strong>: must match the original</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "If your car originally came with an AGM battery, always fit AGM. A conventional battery in a Stop-Start car can damage the battery management ECU and generate expensive faults."
+                    }
+                },
+                {
+                    "id": "tools-battery",
+                    "title": "Tools and Materials Needed",
+                    "content": "<p>Prepare everything before starting:</p><ul><li><strong>New battery</strong> with correct specifications</li><li><strong>10 mm spanner or socket</strong> — for terminals on most European cars; some use 8, 12 or 13 mm</li><li><strong>Socket for hold-down bracket</strong> — usually 10 or 13 mm</li><li><strong>Thick nitrile gloves</strong> — battery acid burns skin</li><li><strong>Safety goggles</strong> — hydrogen gas emitted by the battery can ignite with a spark</li><li><strong>Terminal cleaner spray or bicarbonate of soda solution</strong> — to remove sulphation</li><li><strong>Petroleum jelly or lithium grease</strong> — to prevent future corrosion on terminals</li><li><strong>Rags or paper towels</strong></li><li>Optional but very useful: <strong>OBD memory keeper</strong> — maintains circuit voltage during the swap so you do not lose radio codes, window calibrations and seat memory positions</li></ul>"
+                },
+                {
+                    "id": "preparation-battery",
+                    "title": "Preparation Before the Change",
+                    "content": "<p>Before touching anything:</p><ol><li>Park in a <strong>ventilated, flat and safe location</strong>. Never in a closed garage — batteries emit flammable hydrogen gas</li><li>Switch off the engine completely and remove the key</li><li>Wait at least <strong>5-10 minutes</strong> for the alternator to discharge residual voltage</li><li>Open the bonnet and locate the battery. Most cars: engine bay. Some models like BMW 5 and 7 Series, Mercedes E and S-Class, Porsche Cayenne: boot or under rear seat</li><li>If you have an OBD memory keeper, connect it now to the OBD port under the steering column</li><li>Note down radio presets, seat memory positions and climate control codes if you have no memory keeper</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "If you lose the radio code, check the owner's manual, the code card in the document wallet, or contact the dealer with your VIN number."
+                    }
+                },
+                {
+                    "id": "disconnecting-battery",
+                    "title": "Disconnecting and Removing the Old Battery",
+                    "content": "<p>The order is critical — a mistake here causes a short circuit:</p><ol><li>Identify terminals: <strong>negative (-)</strong> is the black cable; <strong>positive (+)</strong> is the red cable or red cover</li><li><strong>Loosen and remove the NEGATIVE (-) terminal FIRST</strong>. Turn anticlockwise. Pull clear and wrap in a rag to prevent accidental contact</li><li>Loosen and remove the positive (+) terminal. If the spanner touches the bodywork while contacting the positive, it will short circuit</li><li>Remove the hold-down bracket or clamp</li><li>Lift the battery with both hands. <strong>Weight: 12-22 kg</strong> — bend your knees. Keep upright to avoid acid spillage</li><li>Place on a flat surface, away from sparks and heat</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "NEVER bridge the positive (+) and negative (-) terminals with a metal tool. This will produce an intense arc, can melt the spanner, blow fuses and damage the ECU."
+                    }
+                },
+                {
+                    "id": "cleaning-terminals",
+                    "title": "Cleaning Terminals and Battery Tray",
+                    "content": "<p>Before fitting the new battery, clean everything for good conductivity:</p><ol><li>Inspect battery cables — if insulation is cracked or terminal heavily corroded, replace the cable</li><li>Clean cable terminals with a brass wire brush. For heavy sulphation with white-blue powder, apply bicarbonate of soda solution 1 tablespoon in 250 ml water, leave 2 minutes, wipe with damp cloth, dry thoroughly</li><li>Clean the battery tray with the same method</li><li>Check the hold-down bracket is in good condition — a vibrating battery discharges faster and damages its internal plates</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Apply a thin coat of petroleum jelly or lithium grease on clean terminals before connecting the new battery. Prevents corrosion for years."
+                    }
+                },
+                {
+                    "id": "installing-battery",
+                    "title": "Installing the New Battery and Final Checks",
+                    "content": "<p>Connection order is the reverse of disconnection:</p><ol><li>Place the new battery in the tray in the <strong>same orientation</strong> as the original — reversed, and the cables will not reach</li><li>Secure the hold-down bracket firmly — the battery must not move at all</li><li><strong>Connect the POSITIVE (+) terminal FIRST</strong>. Fit the red cable terminal, tighten firmly without overtightening</li><li><strong>Connect the NEGATIVE (-) terminal SECOND</strong>. Fit black terminal, tighten</li><li>Apply petroleum jelly over connected terminals</li><li>Start the engine — it should fire immediately and strongly. If it still cranks slowly, the alternator may be failing</li><li>Check for warning lights on the dashboard. Reset the clock and radio presets as needed</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "On BMW Series 1, 3, 5 and 7 from 2002, Mercedes-Benz C, E and S-Class from 2004, Audi and Volvo models, the new battery must be coded via software such as ISTA or XENTRY or a compatible OBD tool like Launch or Autel. Without this, the charging system will not adapt and may damage the battery prematurely."
+                    }
+                }
+            ],
+            "faqLabel": "Frequently Asked Questions About Car Batteries",
+            "faq": [
+                {
+                    "question": "How long does a car battery last?",
+                    "answer": "A standard lead-acid battery lasts 3-5 years with normal use. AGM batteries can last 6-8 years. Cold weather, frequent short trips which prevent full recharging, and leaving the car unused for weeks are the main factors that shorten battery life. If yours is over 4 years old, have it tested even if still starting."
+                },
+                {
+                    "question": "What happens if I disconnect the positive terminal first?",
+                    "answer": "If your spanner touches the bodywork while contacting the positive terminal, it creates a short circuit. This can produce an intense spark, blow the main fuse, damage the ECU or start a fire. Always: negative first when disconnecting, positive first when connecting."
+                },
+                {
+                    "question": "Will I lose my car settings when changing the battery?",
+                    "answer": "Typically yes: radio presets, seat and mirror memory, climate control settings, and on some models electric window calibrations need re-initialising. Use an OBD memory keeper from 15 pounds to maintain power during the swap."
+                },
+                {
+                    "question": "Does my new battery need coding?",
+                    "answer": "Yes, if your car is a BMW from 2002, Mercedes-Benz from 2004, Audi with EFB or AGM system, Volvo, or any vehicle with an Intelligent Battery Sensor IBS. Without coding, the alternator may overcharge or undercharge the battery. A dealer or OBD tool performs this."
+                },
+                {
+                    "question": "Can I fit a higher capacity battery with more Ah?",
+                    "answer": "Yes, as long as the physical dimensions are compatible and the technology matches. Do not replace AGM with conventional. Higher Ah will not damage the alternator. Never fit lower capacity than the original in cars with high electrical demands."
+                },
+                {
+                    "question": "What do I do with the old battery?",
+                    "answer": "Lead-acid batteries are hazardous waste containing sulphuric acid and lead. Take to a recycling centre, an auto parts shop legally required to accept free of charge, or a garage. Never put in general waste."
+                }
+            ],
+            "seo": {
+                "title": "How to Change Your Car Battery Step by Step | CarSpecio Guide",
+                "description": "Professional guide to changing your car battery: choose between AGM, EFB and conventional, exact procedure, battery coding and mistakes to avoid.",
+                "keywords": ["change car battery", "AGM battery", "EFB battery", "CCA battery", "BMW battery coding", "car battery replacement", "dead car battery", "negative terminal first"]
+            }
+        },
+        "fr": {
+            "title": "Comment changer la batterie de voiture pas à pas",
+            "excerpt": "Guide complet pour changer la batterie de voiture à la maison : choisir la bonne batterie AGM, EFB ou classique, procédure exacte et codage expliqué. Économisez 40 à 80 euros.",
+            "intro": "La batterie est le coeur électrique de votre voiture. Quand elle tombe en panne, souvent par grand froid, la voiture ne démarre plus. Changer la batterie soi-même est simple, mais il y a des étapes critiques que la plupart ignorent : choisir le bon type, protéger l'électronique et respecter l'ordre de connexion des bornes. L'opération prend 20 à 40 minutes et fait économiser 40 à 80 euros.",
+            "keyTakeaways": [
+                "Débranchez TOUJOURS la borne négative (-) en premier, et rebranchez-la EN DERNIER",
+                "La nouvelle batterie doit correspondre en tension (12V), capacité (Ah) et courant de démarrage à froid (CCA)",
+                "Les véhicules modernes peuvent nécessiter un codage de batterie (BMW, Mercedes, Audi, Volvo)",
+                "Une batterie complètement déchargée perd jusqu'à 30 % de capacité définitivement",
+                "L'acide de batterie est corrosif — portez toujours des gants et des lunettes de protection",
+                "Les batteries usagées sont des déchets dangereux — déposez-les en déchetterie ou chez un revendeur"
+            ],
+            "sections": [
+                {
+                    "id": "quand-changer-batterie",
+                    "title": "Quand changer la batterie ? Les signes d'alerte",
+                    "content": "<p>Une batterie au plomb classique dure <strong>3 à 5 ans</strong>. Les AGM et EFB pour voitures Start-Stop atteignent 6 à 8 ans mais coûtent plus cher.</p><p>Signes clairs d'une batterie défaillante :</p><ul><li><strong>Démarrage lent ou laborieux</strong> — le moteur peine à tourner, surtout par temps froid</li><li><strong>Voyant batterie allumé</strong> au tableau de bord</li><li><strong>Électronique erratique</strong> — phares clignotants, radio qui se réinitialise, verrouillage lent</li><li><strong>Boîtier gonflé ou dépôts blancs</strong> sur les bornes (sulfatation)</li><li><strong>Test de charge raté</strong> — en dessous de 70 % de la capacité nominale</li><li><strong>Plus de 4 à 5 ans</strong> — remplacez préventivement même si elle démarre encore</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "De nombreux magasins comme Norauto et Midas proposent le test de batterie gratuitement. Faites-le avant d'acheter une nouvelle pour confirmer que l'alternateur n'est pas en cause."
+                    }
+                },
+                {
+                    "id": "choisir-batterie",
+                    "title": "Comment choisir la bonne batterie",
+                    "content": "<p>Monter une batterie incompatible peut endommager l'électronique. Paramètres clés :</p><ul><li><strong>Tension</strong> : 12V pour tous les véhicules conventionnels</li><li><strong>Capacité (Ah)</strong> : La plus courante est 60 à 72 Ah. Ne montez jamais une capacité inférieure</li><li><strong>Courant de démarrage à froid (CCA)</strong> : Égalez ou dépassez l'original</li><li><strong>Technologie</strong> : Plomb-acide classique sans Start-Stop de 40 à 80 euros; EFB Start-Stop basique de 60 à 120 euros; AGM obligatoire pour Start-Stop intensif ou récupération d'énergie de 100 à 200 euros. Ne remplacez JAMAIS une AGM par une classique</li><li><strong>Dimensions groupe DIN</strong> : doivent correspondre au logement</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Si votre véhicule était équipé d'une AGM d'origine, montez toujours une AGM. Une batterie classique sur une voiture Start-Stop peut endommager le calculateur de gestion d'énergie."
+                    }
+                },
+                {
+                    "id": "outils-batterie",
+                    "title": "Outils et matériaux nécessaires",
+                    "content": "<p>Préparez tout avant de commencer :</p><ul><li><strong>Batterie neuve</strong> avec les spécifications correctes</li><li><strong>Clé plate ou douille 10 mm</strong> pour la plupart des véhicules européens</li><li><strong>Douille pour le support</strong> — généralement 10 ou 13 mm</li><li><strong>Gants en nitrile épais</strong></li><li><strong>Lunettes de protection</strong></li><li><strong>Spray nettoyant bornes ou eau avec bicarbonate</strong></li><li><strong>Vaseline ou graisse au lithium</strong></li><li><strong>Chiffons ou essuie-tout</strong></li><li>Optionnel mais très utile : <strong>Chargeur mémoire OBD</strong> pour ne pas perdre les configurations radio, sièges et vitres</li></ul>"
+                },
+                {
+                    "id": "preparation-batterie",
+                    "title": "Préparation avant le remplacement",
+                    "content": "<p>Avant de toucher quoi que ce soit :</p><ol><li>Garez-vous dans un endroit <strong>ventilé, plat et sécurisé</strong> — jamais dans un garage fermé</li><li>Coupez le moteur, retirez la clé</li><li>Attendez <strong>5 à 10 minutes</strong> pour que l'alternateur libère la tension résiduelle</li><li>Ouvrez le capot et localisez la batterie dans le compartiment moteur sur la plupart des véhicules, ou dans le coffre ou sous la banquette arrière sur certains BMW et Mercedes</li><li>Branchez le chargeur mémoire OBD si vous en avez un</li><li>Notez vos réglages radio, positions mémoire des sièges et code climatisation</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Si vous perdez le code radio, cherchez-le dans le manuel, la carte de code dans les documents, ou contactez le concessionnaire avec le VIN."
+                    }
+                },
+                {
+                    "id": "deconnexion-batterie",
+                    "title": "Déconnecter et retirer l'ancienne batterie",
+                    "content": "<p>L'ordre est critique — une erreur provoque un court-circuit :</p><ol><li>Identifiez les bornes : <strong>négative (-)</strong> est le câble noir ; <strong>positive (+)</strong> est le câble rouge ou couvercle rouge</li><li><strong>Desserrez et retirez D'ABORD la borne négative (-)</strong>. Sens antihoraire. Écartez le câble et enveloppez-le dans un chiffon</li><li>Retirez la borne positive (+). Si la clé touche la carrosserie en contactant le positif, court-circuit</li><li>Retirez le support ou la bride</li><li>Soulevez la batterie à deux mains — <strong>poids de 12 à 22 kg</strong>. Maintenez-la verticale</li><li>Posez sur surface plane, à l'écart des étincelles</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Ne reliez JAMAIS la borne positive et la borne négative avec un outil métallique. Arc intense, fusion possible de la clé et dommages au calculateur."
+                    }
+                },
+                {
+                    "id": "nettoyage-bornes",
+                    "title": "Nettoyage des bornes et du logement",
+                    "content": "<p>Avant de monter la batterie neuve :</p><ol><li>Inspectez les câbles — isolant craquelé ou terminal très corrodé : remplacez le câble</li><li>Nettoyez les terminaux avec une brosse en laiton. Sulfatation importante : bicarbonate plus eau, 2 minutes, essuyez et séchez bien</li><li>Nettoyez le logement de la batterie de la même façon</li><li>Vérifiez que le support est en bon état</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Appliquez de la vaseline ou graisse au lithium sur les bornes propres avant de brancher la nouvelle batterie. Prévient la corrosion pendant des années."
+                    }
+                },
+                {
+                    "id": "installation-batterie",
+                    "title": "Installer la nouvelle batterie et vérifications finales",
+                    "content": "<p>L'ordre de connexion est l'inverse du débranchement :</p><ol><li>Placez la batterie dans la <strong>même orientation</strong> que l'originale</li><li>Fixez solidement le support — la batterie ne doit pas bouger</li><li><strong>Connectez D'ABORD la borne positive (+)</strong> — câble rouge, serrez fermement</li><li><strong>Connectez ENSUITE la borne négative (-)</strong> — câble noir, serrez</li><li>Appliquez de la vaseline sur les terminaux connectés</li><li>Démarrez — le moteur doit partir immédiatement et vigoureusement</li><li>Vérifiez l'absence de voyants. Réinitialisez l'horloge et les stations radio</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Sur BMW Série 1, 3, 5 et 7 depuis 2002, Mercedes Classe C, E et S depuis 2004, Audi et Volvo, la nouvelle batterie doit être codée par logiciel ISTA, XENTRY ou outil OBD compatible. Sans codage, le système de charge ne s'adapte pas et peut endommager prématurément la batterie."
+                    }
+                }
+            ],
+            "faqLabel": "Questions fréquentes sur la batterie de voiture",
+            "faq": [
+                {
+                    "question": "Combien de temps dure une batterie de voiture ?",
+                    "answer": "Une batterie plomb-acide classique dure 3 à 5 ans. Les AGM atteignent 6 à 8 ans. Le grand froid, les trajets courts fréquents et laisser le véhicule à l'arrêt des semaines sont les principaux facteurs d'usure prématurée."
+                },
+                {
+                    "question": "Que se passe-t-il si je débranche la borne positive en premier ?",
+                    "answer": "Si la clé touche la carrosserie tout en contactant le positif, court-circuit. Étincelle intense, fusible principal grillé, calculateur endommagé, voire incendie. Toujours : négatif en premier au débranchement, positif en premier au branchement."
+                },
+                {
+                    "question": "Vais-je perdre les réglages de ma voiture ?",
+                    "answer": "En général oui : stations radio, mémoires de sièges, climatisation, et calibration de vitres sur certains modèles. Utilisez un chargeur mémoire OBD dès 20 euros pour maintenir l'alimentation."
+                },
+                {
+                    "question": "Ma nouvelle batterie doit-elle être codée ?",
+                    "answer": "Oui, si votre véhicule est BMW depuis 2002, Mercedes depuis 2004, Audi avec AGM ou EFB, Volvo ou tout véhicule avec capteur IBS. Sans codage, l'alternateur peut sur- ou sous-charger la batterie."
+                },
+                {
+                    "question": "Puis-je monter une batterie de plus grande capacité ?",
+                    "answer": "Oui, à condition que les dimensions soient compatibles et la technologie identique. Jamais une capacité inférieure à l'originale."
+                },
+                {
+                    "question": "Que faire de l'ancienne batterie ?",
+                    "answer": "Déposez-la en déchetterie ou chez un magasin de pièces auto obligation légale de reprise gratuite. Jamais dans les ordures ménagères."
+                }
+            ],
+            "seo": {
+                "title": "Comment changer la batterie de voiture pas à pas | Guide complet CarSpecio",
+                "description": "Guide professionnel pour changer la batterie : choisir entre AGM, EFB et classique, procédure exacte, codage et erreurs à éviter. Économisez 40 à 80 euros.",
+                "keywords": ["changer batterie voiture", "batterie AGM", "batterie EFB", "CCA batterie", "codage batterie BMW", "remplacement batterie", "borne négative premier"]
+            }
+        },
+        "ar": {
+            "title": "كيفية تغيير بطارية السيارة خطوة بخطوة",
+            "excerpt": "دليل احترافي شامل لتغيير بطارية السيارة في المنزل: اختيار البطارية الصحيحة AGM أو EFB أو تقليدية، الإجراء الدقيق وحماية الإلكترونيات.",
+            "intro": "البطارية هي القلب الكهربائي لسيارتك. عندما تتعطل وغالباً في أبرد الأيام لن تنطلق السيارة. تغييرها بنفسك أمر بسيط لكن هناك خطوات حاسمة يغفل عنها معظم الناس: اختيار نوع البطارية الصحيح وحماية إلكترونيات السيارة واحترام ترتيب توصيل الأقطاب. تستغرق العملية 20 إلى 40 دقيقة.",
+            "keyTakeaways": [
+                "افصل دائماً القطب السالب (-) أولاً عند الإزالة، واربطه أخيراً عند التركيب",
+                "يجب أن تطابق البطارية الجديدة الأصلية في الجهد 12V والسعة Ah وتيار التشغيل البارد CCA",
+                "السيارات الحديثة ذات إدارة الطاقة الإلكترونية قد تحتاج إلى برمجة البطارية",
+                "البطارية المفرغة تماماً تفقد حتى 30% من سعتها بشكل دائم",
+                "حمض البطارية خطير — ارتدِ دائماً قفازات نيتريل ونظارات واقية",
+                "البطاريات المستعملة نفايات خطرة — أوصلها لنقطة تجميع مخصصة"
+            ],
+            "sections": [
+                {
+                    "id": "cuando-cambiar-bateria-ar",
+                    "title": "متى تغير البطارية؟ علامات التحذير",
+                    "content": "<p>تدوم بطارية السيارة الكلاسيكية <strong>3 إلى 5 سنوات</strong>. بطاريات AGM وEFB لسيارات Start-Stop تصل إلى 6 إلى 8 سنوات لكنها أغلى.</p><p>علامات واضحة على فشل البطارية:</p><ul><li><strong>بدء تشغيل بطيء</strong> — المحرك يجاهد خاصة في الطقس البارد</li><li><strong>مصباح البطارية مضاء</strong> في لوحة العدادات</li><li><strong>إلكترونيات غير منتظمة</strong> — أضواء وامضة وراديو يعيد الضبط</li><li><strong>علبة منتفخة أو رواسب بيضاء</strong> على الأقطاب</li><li><strong>فشل اختبار التحميل</strong> — أقل من 70% من السعة الاسمية</li><li><strong>أكثر من 4 إلى 5 سنوات</strong> — استبدلها وقائياً</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "كثير من متاجر قطع الغيار تقدم اختبار البطارية مجاناً. قم بذلك قبل شراء بطارية جديدة للتأكد أن المشكلة ليست في المولد الكهربائي."
+                    }
+                },
+                {
+                    "id": "elegir-bateria-ar",
+                    "title": "كيفية اختيار البطارية الصحيحة",
+                    "content": "<p>تركيب بطارية غير متوافقة قد يضر بإلكترونيات السيارة. المعاملات الأساسية:</p><ul><li><strong>الجهد</strong>: 12V لجميع السيارات التقليدية</li><li><strong>السعة Ah</strong>: الأكثر شيوعاً 60 إلى 72 Ah. لا تركب أقل من الأصلية أبداً</li><li><strong>تيار التشغيل البارد CCA</strong>: يساوي أو يتجاوز الأصلية</li><li><strong>التقنية</strong>: رصاص-حمض تقليدي للسيارات بدون Start-Stop؛ EFB للـ Start-Stop الأساسي؛ AGM إلزامية للـ Start-Stop المكثف أو استعادة الطاقة. لا تستبدل AGM بتقليدية أبداً</li><li><strong>الحجم الفيزيائي</strong>: يجب أن يتطابق مع الأصلية</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "إذا كانت سيارتك مزودة أصلاً ببطارية AGM فركّب دائماً AGM. البطارية التقليدية في سيارة Start-Stop قد تتلف وحدة التحكم في إدارة الطاقة."
+                    }
+                },
+                {
+                    "id": "herramientas-bateria-ar",
+                    "title": "الأدوات والمواد اللازمة",
+                    "content": "<p>جهّز كل شيء قبل البدء:</p><ul><li><strong>بطارية جديدة</strong> بالمواصفات الصحيحة</li><li><strong>مفتاح 10 ملم</strong> لمعظم السيارات الأوروبية</li><li><strong>مفتاح للحامل</strong> — عادة 10 أو 13 ملم</li><li><strong>قفازات نيتريل سميكة</strong></li><li><strong>نظارات واقية</strong></li><li><strong>منظف أقطاب أو ماء وصودا الخبز</strong></li><li><strong>فازلين أو شحم ليثيوم</strong></li><li><strong>قطع قماش</strong></li><li>اختياري لكن مفيد جداً: <strong>حافظ ذاكرة OBD</strong> لعدم فقدان الإعدادات</li></ul>"
+                },
+                {
+                    "id": "preparacion-bateria-ar",
+                    "title": "التحضير قبل التغيير",
+                    "content": "<p>قبل لمس أي شيء:</p><ol><li>اركن في مكان <strong>جيد التهوية ومستوٍ وآمن</strong> — لا تعمل في جراج مغلق أبداً</li><li>أطفئ المحرك تماماً وأخرج المفتاح</li><li>انتظر <strong>5 إلى 10 دقائق</strong> ليتفريغ المولد من الجهد المتبقي</li><li>افتح الغطاء وحدد مكان البطارية</li><li>إذا كان لديك حافظ ذاكرة OBD وصّله الآن بمنفذ OBD</li><li>سجّل محطات الراديو ومواضع الذاكرة ورمز المكيف</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "إذا فقدت كود الراديو ابحث عنه في دليل المالك أو بطاقة الكود في وثائق السيارة أو اتصل بالوكالة مع رقم الشاصي VIN."
+                    }
+                },
+                {
+                    "id": "desconexion-bateria-ar",
+                    "title": "فصل وإزالة البطارية القديمة",
+                    "content": "<p>الترتيب حاسم — خطأ واحد قد يسبب قصراً كهربائياً:</p><ol><li>حدد الأقطاب: <strong>السالب (-)</strong> هو الكابل الأسود؛ <strong>الموجب (+)</strong> هو الكابل الأحمر</li><li><strong>افك وأزل القطب السالب (-) أولاً</strong>. في اتجاه عقارب الساعة المعاكس. أبعد الكابل ولفّه بقطعة قماش</li><li>افك وأزل القطب الموجب (+). احذر إذا لمس المفتاح الهيكل أثناء تواصله مع الموجب فسيحدث قصر</li><li>أزل الحامل أو المشبك</li><li>ارفع البطارية بكلتا يديك — <strong>الوزن 12 إلى 22 كجم</strong>. حافظ عليها رأسية</li><li>ضعها على سطح مستوٍ بعيداً عن الشرار والحرارة</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "لا توصل أبداً القطب الموجب والسالب بأداة معدنية في آن واحد. سيولّد قوساً كهربائياً قوياً يمكن أن يذيب المفتاح ويلحق الضرر بوحدة التحكم."
+                    }
+                },
+                {
+                    "id": "limpieza-bornes-ar",
+                    "title": "تنظيف الأقطاب ومقعد البطارية",
+                    "content": "<p>قبل تركيب البطارية الجديدة:</p><ol><li>افحص كابلات الأقطاب — عزل متشقق أو طرف متآكل جداً يعني استبدال الكابل</li><li>نظّف الأطراف بفرشاة نحاسية. للكبريتة الشديدة: صودا الخبز وماء، دقيقتان، امسح واجفف جيداً</li><li>نظّف مقعد البطارية بنفس الطريقة</li><li>تأكد أن الحامل بحالة جيدة</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "ضع طبقة رقيقة من الفازلين أو شحم الليثيوم على الأقطاب النظيفة قبل التوصيل. يمنع التآكل لسنوات."
+                    }
+                },
+                {
+                    "id": "instalacion-bateria-ar",
+                    "title": "تركيب البطارية الجديدة والفحص النهائي",
+                    "content": "<p>ترتيب التوصيل عكس الفصل تماماً:</p><ol><li>ضع البطارية الجديدة بنفس <strong>اتجاه الأصلية</strong> — إذا انعكست لن تصل الكابلات</li><li>ثبّت الحامل بإحكام — يجب أن لا تتحرك البطارية أبداً</li><li><strong>وصّل القطب الموجب (+) أولاً</strong> — الكابل الأحمر، أحكم الربط</li><li><strong>وصّل القطب السالب (-) بعده</strong> — الكابل الأسود، أحكم</li><li>ضع الفازلين على الأقطاب الموصولة</li><li>أشغّل المحرك — يجب أن ينطلق فوراً وبقوة</li><li>تحقق من عدم وجود مصابيح تحذيرية وأعد ضبط الساعة والراديو</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "في BMW السلسلة 1 و3 و5 و7 منذ 2002، Mercedes-Benz الفئة C وE وS منذ 2004، Audi وVolvo الحديثة، يجب برمجة البطارية الجديدة ببرنامج ISTA أو XENTRY أو أداة OBD متوافقة. بدون البرمجة لن يتكيف نظام الشحن وقد يتلف البطارية مبكراً."
+                    }
+                }
+            ],
+            "faqLabel": "أسئلة شائعة حول بطارية السيارة",
+            "faq": [
+                {
+                    "question": "كم تدوم بطارية السيارة؟",
+                    "answer": "البطارية التقليدية تدوم 3 إلى 5 سنوات. بطاريات AGM تصل إلى 6 إلى 8 سنوات. البرودة الشديدة والتنقلات القصيرة المتكررة وترك السيارة متوقفة لأسابيع هي العوامل الرئيسية للتدهور المبكر."
+                },
+                {
+                    "question": "ماذا يحدث إذا فصلت القطب الموجب أولاً؟",
+                    "answer": "إذا لمس المفتاح الهيكل المعدني أثناء تواصله مع الموجب ينتج قصر كهربائي يولّد شرارة قوية وقد يحرق الفتيل الرئيسي أو يتلف وحدة التحكم. دائماً: السالب أولاً عند الفصل، الموجب أولاً عند التوصيل."
+                },
+                {
+                    "question": "هل سأفقد إعدادات سيارتي عند تغيير البطارية؟",
+                    "answer": "عادةً نعم: محطات الراديو وذاكرة المقاعد والمرايا وإعدادات المكيف وفي بعض الطرازات معايرة النوافذ الكهربائية. استخدم حافظ ذاكرة OBD للحفاظ على التغذية الكهربائية أثناء التغيير."
+                },
+                {
+                    "question": "هل تحتاج البطارية الجديدة إلى برمجة؟",
+                    "answer": "نعم إذا كانت سيارتك BMW منذ 2002 أو Mercedes-Benz منذ 2004 أو Audi بنظام AGM أو EFB أو Volvo أو أي سيارة بمستشعر بطارية ذكي IBS. بدون البرمجة قد يشحن المولد البطارية بشكل غير صحيح."
+                },
+                {
+                    "question": "هل يمكنني تركيب بطارية بسعة أكبر؟",
+                    "answer": "نعم طالما أن الأبعاد الفيزيائية متوافقة والتقنية متطابقة. لا تستبدل AGM بتقليدية. السعة الأكبر لن تضر المولد. لا تركب أبداً سعة أقل من الأصلية."
+                },
+                {
+                    "question": "ماذا أفعل بالبطارية القديمة؟",
+                    "answer": "بطاريات الرصاص والحمض نفايات خطرة. أوصلها لنقطة تجميع مخصصة أو لمحل قطع غيار ملزمون قانونياً بقبولها مجاناً. لا تضعها مع النفايات العادية."
+                }
+            ],
+            "seo": {
+                "title": "كيفية تغيير بطارية السيارة خطوة بخطوة | دليل كارسبيسيو",
+                "description": "دليل احترافي لتغيير بطارية السيارة: الاختيار بين AGM وEFB والتقليدية، الإجراء الدقيق والبرمجة والأخطاء الشائعة.",
+                "keywords": ["تغيير بطارية سيارة", "بطارية AGM", "بطارية EFB", "CCA بطارية", "برمجة بطارية BMW", "تغيير البطارية", "القطب السالب أولاً"]
+            }
+        }
+    },
+    "summaryBox": {
+        "es": {
+            "title": "Resumen rápido",
+            "tocLabel": "Resumen",
+            "items": [
+                "Desconecta primero el borne negativo (-) y conéctalo el último",
+                "La batería nueva debe coincidir en tensión (12V), Ah y CCA con la original",
+                "Limpia los bornes con bicarbonato y aplica vaselina antes de conectar",
+                "Conecta primero el positivo (+) al instalar la batería nueva",
+                "Los coches BMW, Mercedes y Audi modernos necesitan codificación de batería",
+                "Lleva la batería vieja a un punto limpio — es residuo peligroso"
+            ]
+        },
+        "en": {
+            "title": "Quick Summary",
+            "tocLabel": "Summary",
+            "items": [
+                "Disconnect negative (-) first, connect it last",
+                "New battery must match original in voltage (12V), Ah and CCA",
+                "Clean terminals with bicarbonate, apply petroleum jelly before connecting",
+                "Connect positive (+) first when fitting the new battery",
+                "Modern BMW, Mercedes and Audi require battery coding",
+                "Take the old battery to a recycling centre — it is hazardous waste"
+            ]
+        },
+        "fr": {
+            "title": "Résumé rapide",
+            "tocLabel": "Résumé",
+            "items": [
+                "Déconnectez le négatif (-) en premier, rebranchez-le en dernier",
+                "La nouvelle batterie doit correspondre en tension (12V), Ah et CCA",
+                "Nettoyez les bornes au bicarbonate, appliquez de la vaseline avant connexion",
+                "Connectez le positif (+) en premier lors de l'installation",
+                "Les BMW, Mercedes et Audi modernes nécessitent un codage de batterie",
+                "Déposez l'ancienne batterie en déchetterie"
+            ]
+        },
+        "ar": {
+            "title": "ملخص سريع",
+            "tocLabel": "ملخص",
+            "items": [
+                "افصل السالب (-) أولاً واربطه أخيراً",
+                "يجب أن تطابق البطارية الجديدة الأصلية في الجهد والسعة وCCA",
+                "نظّف الأقطاب بالصودا وضع الفازلين قبل التوصيل",
+                "وصّل الموجب (+) أولاً عند التركيب",
+                "BMW وMercedes وAudi الحديثة تحتاج برمجة البطارية",
+                "أوصل البطارية القديمة لنقطة تجميع مخصصة"
+            ]
+        }
+    },
+    "tags": ["battery", "maintenance", "electrics", "DIY", "start-stop", "AGM", "EFB"],
+    "relatedCars": ["bmw-m5-2026", "audi-rs3-2026"],
+    "schemaVersion": "1.0"
+}

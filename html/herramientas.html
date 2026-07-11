@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+    <meta name="description" content="Centro de herramientas CarSpecio para calcular costes, comparar precios, estimar depreciacion y descubrir rankings premium.">
+    <title>Herramientas | CarSpecio</title>
+    <link rel="canonical" href="https://carspecio.com/herramientas.html">
+    <meta property="og:title" content="Herramientas | CarSpecio">
+    <meta property="og:description" content="Centro de herramientas CarSpecio para calcular costes, comparar precios, estimar depreciacion y descubrir rankings premium.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/herramientas.html">
+    <meta property="og:image" content="https://carspecio.com/images/hero-incio.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Herramientas | CarSpecio">
+    <meta name="twitter:description" content="Centro de herramientas CarSpecio para calcular costes, comparar precios y más.">
+    <meta name="twitter:image" content="https://carspecio.com/images/hero-incio.png">
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/home-global.css">
+    <link rel="stylesheet" href="css/lang-dropdown.css">
+    <link rel="stylesheet" href="css/home-dashboard.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/herramientas.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mega-menu-full.css">
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="dash-home herramientas-page">
+<a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools" class="active">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="dash-hero tools-hero" aria-labelledby="toolsHeroTitle">
+        <div class="dash-hero-bg" style="background-image: url('images/herramientas.png')"></div>
+        <div class="dash-hero-overlay"></div>
+        <div class="container dash-hero-inner tools-hero-inner">
+            <div class="tools-hero-copy">
+                <p class="hero-eyebrow" data-i18n="toolsPage.hero.eyebrow">DECISION LAB AUTO</p>
+                <h1 id="toolsHeroTitle" data-i18n="toolsPage.hero.title" data-i18n-html="true">Decide como un comprador <span class="accent">premium informado</span>.</h1>
+                <p class="tools-hero-text" data-i18n="toolsPage.hero.subtitle">Simula costes reales, compara precios, mide depreciacion y descubre rankings rapidos en un entorno mas claro, mas visual y pensado para compras premium en Espana.</p>
+                <div class="hero-buttons">
+                    <a href="#cost-calculator" class="hero-btn" data-i18n="toolsPage.hero.btnCalculate">Calcular mi escenario</a>
+                    <a href="compare.html" class="hero-btn secondary-btn" data-i18n="toolsPage.hero.btnCompare">Abrir comparador</a>
+                </div>
+                <div class="tools-trust-strip glass">
+                    <div class="tools-trust-item">
+                        <strong data-i18n="toolsPage.trust.item1Strong">4 analisis</strong>
+                        <span data-i18n="toolsPage.trust.item1Span">coste, precio, depreciacion y ranking</span>
+                    </div>
+                    <div class="tools-trust-item">
+                        <strong data-i18n="toolsPage.trust.item2Strong">Vision rapida</strong>
+                        <span data-i18n="toolsPage.trust.item2Span">resultados mas legibles y accionables</span>
+                    </div>
+                    <div class="tools-trust-item">
+                        <strong data-i18n="toolsPage.trust.item3Strong">Flujo premium</strong>
+                        <span data-i18n="toolsPage.trust.item3Span">alineado con el dashboard CarSpecio</span>
+                    </div>
+                </div>
+            </div>
+            <aside class="tools-hero-panel glass-strong reveal" aria-label="Resumen de uso recomendado">
+                <div class="panel-kicker" data-i18n="toolsPage.panel.kicker">Workflow recomendado</div>
+                <ol class="workflow-list">
+                    <li>
+                        <strong data-i18n="toolsPage.panel.step1Strong">1. Ajusta tu contexto</strong>
+                        <span data-i18n="toolsPage.panel.step1Span">empieza por kilometros, combustible y depreciacion anual.</span>
+                    </li>
+                    <li>
+                        <strong data-i18n="toolsPage.panel.step2Strong">2. Contrasta dos opciones</strong>
+                        <span data-i18n="toolsPage.panel.step2Span">valida rapidamente la diferencia de precio real entre modelos.</span>
+                    </li>
+                    <li>
+                        <strong data-i18n="toolsPage.panel.step3Strong">3. Mira el futuro</strong>
+                        <span data-i18n="toolsPage.panel.step3Span">cierra la decision con depreciacion y ranking por prioridad.</span>
+                    </li>
+                </ol>
+                <div class="panel-highlight">
+                    <span class="panel-highlight-label" data-i18n="toolsPage.panel.highlightLabel">Decision inteligente</span>
+                    <p data-i18n="toolsPage.panel.highlightText">El coste anual total suele ser la metrica que cambia la compra.</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <section class="stats-bar tools-stats" aria-label="Metricas del laboratorio CarSpecio">
+        <div class="container stats-bar-inner">
+            <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">📊</div>
+                <strong data-i18n="toolsPage.stats.item1Strong">Coste anual</strong>
+                <span data-i18n="toolsPage.stats.item1Span">estima el impacto real antes de comprar</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">VS</div>
+                <strong data-i18n="toolsPage.stats.item2Strong">Comparacion inmediata</strong>
+                <span data-i18n="toolsPage.stats.item2Span">dos modelos, una recomendacion mas clara</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">%</div>
+                <strong data-i18n="toolsPage.stats.item3Strong">Valor futuro</strong>
+                <span data-i18n="toolsPage.stats.item3Span">anticipa perdida acumulada por anos</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">TOP</div>
+                <strong data-i18n="toolsPage.stats.item4Strong">Rankings utiles</strong>
+                <span data-i18n="toolsPage.stats.item4Span">filtra por precio, potencia o fiabilidad</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section tools-overview" aria-labelledby="toolsSectionTitle">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2 id="toolsSectionTitle" data-i18n="toolsPage.overview.title">Herramientas disponibles</h2>
+                    <p data-i18n="toolsPage.overview.subtitle">Un centro de decision con bloques mas claros, ayudas contextuales y accesos directos a cada analisis.</p>
+                </div>
+            </div>
+            <div class="cards-grid tools-card-grid">
+                <article class="info-card tools-card reveal">
+                    <div class="tools-card-icon" aria-hidden="true">01</div>
+                    <span class="tools-card-badge" data-i18n="toolsPage.overview.card1Badge">Mas usado</span>
+                    <h3 data-i18n="toolsPage.overview.card1Title">Calculadora de coste anual</h3>
+                    <p data-i18n="toolsPage.overview.card1Text">Combina combustible, seguro, mantenimiento y depreciacion para ver el coste real de propiedad.</p>
+                    <a href="#cost-calculator" class="tools-card-link" data-i18n="toolsPage.overview.card1Link">Ir al analisis</a>
+                </article>
+                <article class="info-card tools-card reveal">
+                    <div class="tools-card-icon" aria-hidden="true">02</div>
+                    <span class="tools-card-badge" data-i18n="toolsPage.overview.card2Badge">Rapido</span>
+                    <h3 data-i18n="toolsPage.overview.card2Title">Comparador de precios</h3>
+                    <p data-i18n="toolsPage.overview.card2Text">Contrasta dos modelos y abre la comparativa completa cuando encuentres una diferencia relevante.</p>
+                    <a href="#priceTitle" class="tools-card-link" data-i18n="toolsPage.overview.card2Link">Comparar ahora</a>
+                </article>
+                <article class="info-card tools-card reveal">
+                    <div class="tools-card-icon" aria-hidden="true">03</div>
+                    <span class="tools-card-badge" data-i18n="toolsPage.overview.card3Badge">Valor futuro</span>
+                    <h3 data-i18n="toolsPage.overview.card3Title">Estimador de depreciacion</h3>
+                    <p data-i18n="toolsPage.overview.card3Text">Visualiza como cae el valor del coche con el paso de los anos y detecta escenarios menos favorables.</p>
+                    <a href="#deprTitle" class="tools-card-link" data-i18n="toolsPage.overview.card3Link">Ver estimacion</a>
+                </article>
+                <article class="info-card tools-card reveal">
+                    <div class="tools-card-icon" aria-hidden="true">04</div>
+                    <span class="tools-card-badge" data-i18n="toolsPage.overview.card4Badge">Sintesis</span>
+                    <h3 data-i18n="toolsPage.overview.card4Title">Rankings rapidos</h3>
+                    <p data-i18n="toolsPage.overview.card4Text">Obtiene listas accionables por precio, potencia y fiabilidad para acelerar la seleccion final.</p>
+                    <a href="#rankTitle" class="tools-card-link" data-i18n="toolsPage.overview.card4Link">Explorar ranking</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section dash-section--alt tools-benefits" aria-labelledby="toolsWhyTitle">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2 id="toolsWhyTitle" data-i18n="toolsPage.benefits.title">Por que usar estas herramientas</h2>
+                    <p data-i18n="toolsPage.benefits.subtitle">Menos intuicion, mas claridad. Cada modulo esta planteado para ayudarte a justificar una compra premium con mas confianza.</p>
+                </div>
+            </div>
+            <div class="tools-benefit-grid">
+                <article class="tools-benefit-card reveal">
+                    <h3 data-i18n="toolsPage.benefits.card1Title">Lectura instantanea</h3>
+                    <p data-i18n="toolsPage.benefits.card1Text">Resultados ordenados para detectar rapidamente donde se dispara el coste y cual es la opcion mas equilibrada.</p>
+                </article>
+                <article class="tools-benefit-card reveal">
+                    <h3 data-i18n="toolsPage.benefits.card2Title">Contexto realista</h3>
+                    <p data-i18n="toolsPage.benefits.card2Text">Ajusta kilometraje, combustible y tasa anual para acercar el escenario a tu uso real en Espana.</p>
+                </article>
+                <article class="tools-benefit-card reveal">
+                    <h3 data-i18n="toolsPage.benefits.card3Title">Decision mas segura</h3>
+                    <p data-i18n="toolsPage.benefits.card3Text">Pasa de la curiosidad inicial a una recomendacion tangible con menos friccion y mejor jerarquia visual.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cost-calculator tools-featured-tool" id="cost-calculator" aria-labelledby="calcTitle">
+        <div class="container">
+            <div class="section-title tools-section-title">
+                <span data-i18n="toolsPage.calc.badge">HERRAMIENTA DESTACADA</span>
+                <h2 id="calcTitle" data-i18n="toolsPage.calc.title">Calculadora de coste real anual</h2>
+                <p data-i18n="toolsPage.calc.subtitle">Empieza aqui si quieres saber cuanto cambia la compra cuando miras propiedad total, no solo precio de entrada.</p>
+            </div>
+
+            <div class="calc-layout tools-calc-layout">
+                <div class="calc-controls tool-card glass reveal">
+                    <div class="tool-panel-head">
+                        <h3 data-i18n="toolsPage.calc.panelTitle">Configura tu escenario</h3>
+                        <p data-i18n="toolsPage.calc.panelSubtitle">Ajusta los tres deslizadores y el modelo para obtener una lectura inmediata.</p>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="toolModelSelect" data-i18n="toolsPage.calc.modelLabel">Modelo</label>
+                        <select id="toolModelSelect" aria-label="Selecciona un modelo">
+                            <option value="" data-i18n="toolsPage.calc.modelPlaceholder">-- Selecciona un modelo --</option>
+                        </select>
+                        <small data-i18n="toolsPage.calc.modelHint">Selecciona el coche que quieres evaluar dentro del ecosistema CarSpecio.</small>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="kmInput">
+                            <span data-i18n="toolsPage.calc.kmLabel">Kilometros anuales</span>
+                            <strong id="kmDisplay">15.000 km</strong>
+                        </label>
+                        <input type="range" id="kmInput" min="5000" max="40000" step="1000" value="15000" aria-label="" data-i18n-aria="toolsPage.calc.kmAria">
+                        <small data-i18n="toolsPage.calc.kmHint">Ideal para distinguir un uso urbano ocasional de un uso intensivo en carretera.</small>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="fuelPriceInput">
+                            <span data-i18n="toolsPage.calc.fuelLabel">Precio combustible (EUR/L)</span>
+                            <strong id="fuelDisplay">1,75 EUR</strong>
+                        </label>
+                        <input type="range" id="fuelPriceInput" min="100" max="250" step="5" value="175" aria-label="" data-i18n-aria="toolsPage.calc.fuelAria">
+                        <small data-i18n="toolsPage.calc.fuelHint">Te permite tensionar el escenario con precios mas conservadores o mas exigentes.</small>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="deprRateInput">
+                            <span data-i18n="toolsPage.calc.deprLabel">Tasa de depreciacion anual</span>
+                            <strong id="deprDisplay">10%</strong>
+                        </label>
+                        <input type="range" id="deprRateInput" min="5" max="20" step="1" value="10" aria-label="" data-i18n-aria="toolsPage.calc.deprAria">
+                        <small data-i18n="toolsPage.calc.deprHint">La depreciacion suele ser el factor que mas altera la rentabilidad de compra.</small>
+                    </div>
+                </div>
+
+                <div class="calc-results tools-results-shell reveal">
+                    <div class="calc-result-card">
+                        <span data-i18n="toolsPage.calc.resultFuel">Combustible anual</span>
+                        <h3 id="costFuel" role="status">EUR0</h3>
+                        <p data-i18n="toolsPage.calc.resultFuelHint">Impacto del consumo segun tu kilometraje.</p>
+                    </div>
+
+                    <div class="calc-result-card">
+                        <span data-i18n="toolsPage.calc.resultInsurance">Seguro estimado</span>
+                        <h3 id="costInsurance" role="status">EUR0</h3>
+                        <p data-i18n="toolsPage.calc.resultInsuranceHint">Referencia anual orientativa del segmento.</p>
+                    </div>
+
+                    <div class="calc-result-card">
+                        <span data-i18n="toolsPage.calc.resultMaint">Mantenimiento</span>
+                        <h3 id="costMaint" role="status">EUR0</h3>
+                        <p data-i18n="toolsPage.calc.resultMaintHint">Incluye servicio y desgaste habitual.</p>
+                    </div>
+
+                    <div class="calc-result-card">
+                        <span data-i18n="toolsPage.calc.resultDep">Depreciacion</span>
+                        <h3 id="costDep" role="status">EUR0</h3>
+                        <p data-i18n="toolsPage.calc.resultDepHint">Perdida anual estimada de valor.</p>
+                    </div>
+
+                    <div class="calc-total">
+                        <span data-i18n="toolsPage.calc.totalLabel">Coste total estimado por ano</span>
+                        <h2 id="costTotal" role="status">EUR0</h2>
+                        <p id="costPerKm">€0,00 / km</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section tools-secondary-tool" aria-labelledby="priceTitle">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2 id="priceTitle" data-i18n="toolsPage.price.title">Comparador de precios rapido</h2>
+                    <p data-i18n="toolsPage.price.subtitle">Contrasta dos candidatos en segundos y pasa a la comparativa completa cuando lo necesites.</p>
+                </div>
+            </div>
+
+            <div class="tools-panel price-panel glass reveal">
+                <div class="tools-panel-head">
+                    <h3 data-i18n="toolsPage.price.panelTitle">Compara dos modelos</h3>
+                    <p data-i18n="toolsPage.price.panelSubtitle">Un resumen directo para detectar cual de las dos opciones entra mejor en tu rango de compra.</p>
+                </div>
+                <div class="price-compare tools-form-grid">
+                    <label>
+                        <span data-i18n="toolsPage.price.carA">Coche A</span>
+                        <select id="priceSelectA">
+                            <option value="">-- Selecciona --</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <span data-i18n="toolsPage.price.carB">Coche B</span>
+                        <select id="priceSelectB">
+                            <option value="">-- Selecciona --</option>
+                        </select>
+                    </label>
+
+                    <button id="priceCompareBtn" class="hero-btn" data-i18n="toolsPage.price.btnCompare">Comparar precios</button>
+                </div>
+
+                <div class="tools-result-stack">
+                    <div id="priceCompareResult" class="price-result" role="status" aria-live="polite" data-i18n="toolsPage.price.resultPlaceholder">Elige dos modelos.</div>
+                    <a id="openFullCompare" class="hero-btn secondary-btn" href="#" style="display:none;" data-i18n="toolsPage.price.btnFullCompare">Ver comparativa completa ?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section tools-secondary-tool" aria-labelledby="deprTitle">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2 id="deprTitle" data-i18n="toolsPage.depr.title">Estimador de depreciacion</h2>
+                    <p data-i18n="toolsPage.depr.subtitle">Proyecta la evolucion del valor y decide con una vision mas estrategica del ciclo de propiedad.</p>
+                </div>
+            </div>
+
+            <div class="tools-panel depr-panel glass reveal">
+                <div class="tools-panel-head">
+                    <h3 data-i18n="toolsPage.depr.panelTitle">Simula el valor futuro</h3>
+                    <p data-i18n="toolsPage.depr.panelSubtitle">El resultado se muestra en un contenedor preparado para tabla y lectura rapida.</p>
+                </div>
+                <div class="depr-grid tools-form-grid tools-form-grid--wide">
+                    <label>
+                        <span data-i18n="toolsPage.depr.modelLabel">Modelo</span>
+                        <select id="deprModelSelect">
+                            <option value="" data-i18n="toolsPage.price.selectPlaceholder">-- Selecciona --</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span data-i18n="toolsPage.depr.yearsLabel">Anos</span>
+                        <div class="number-field">
+                            <button type="button" class="number-btn number-decrement" data-target="deprYears" aria-label="" data-i18n-aria="toolsPage.depr.yearsDecrement">-</button>
+                            <input type="number" id="deprYears" value="5" min="1" max="30">
+                            <button type="button" class="number-btn number-increment" data-target="deprYears" aria-label="" data-i18n-aria="toolsPage.depr.yearsIncrement">+</button>
+                        </div>
+                    </label>
+
+                    <label>
+                        <span data-i18n="toolsPage.depr.rateLabel">Tasa anual (%)</span>
+                        <input type="number" id="deprRateTool" value="10" min="0" max="100">
+                    </label>
+
+                    <button id="deprCalcBtn" class="hero-btn" data-i18n="toolsPage.depr.btnCalc">Calcular depreciacion</button>
+                </div>
+
+                <div id="deprOutput" class="depr-output" role="status" aria-live="polite" data-i18n="toolsPage.depr.resultPlaceholder">Selecciona un modelo y pulsa calcular.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section tools-secondary-tool" aria-labelledby="rankTitle">
+        <div class="container">
+            <div class="section-head">
+                <div>
+                    <h2 id="rankTitle" data-i18n="toolsPage.rank.title">Rankings rapidos</h2>
+                    <p data-i18n="toolsPage.rank.subtitle">Activa el criterio que mas te importa y genera un top corto para orientar la decision final.</p>
+                </div>
+            </div>
+
+            <div class="tools-panel ranking-panel glass reveal">
+                <div class="tools-panel-head">
+                    <h3 data-i18n="toolsPage.rank.panelTitle">Ordena por prioridad</h3>
+                    <p data-i18n="toolsPage.rank.panelSubtitle">Precio, potencia o fiabilidad: elige un criterio y ajusta el numero de resultados.</p>
+                </div>
+                <div class="rank-controls">
+                    <button id="rankPrice" class="hero-btn" data-i18n="toolsPage.rank.btnPrice">Mejor precio</button>
+                    <button id="rankPower" class="hero-btn" data-i18n="toolsPage.rank.btnPower">Mas potencia</button>
+                    <button id="rankReli" class="hero-btn" data-i18n="toolsPage.rank.btnReli">Mejor fiabilidad</button>
+                    <label class="rank-top-control"><span data-i18n="toolsPage.rank.topLabel">Top</span>
+                        <div class="number-field number-field--compact">
+                            <button type="button" class="number-btn number-decrement" data-target="rankTopN" aria-label="" data-i18n-aria="toolsPage.rank.topDecrement">-</button>
+                            <input type="number" id="rankTopN" value="5" min="1" max="20">
+                            <button type="button" class="number-btn number-increment" data-target="rankTopN" aria-label="" data-i18n-aria="toolsPage.rank.topIncrement">+</button>
+                        </div>
+                    </label>
+                </div>
+
+                <div id="rankingsList" class="rankings-list" role="status" aria-live="polite" data-i18n="toolsPage.rank.resultPlaceholder">Haz clic en un boton para ver el ranking.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+</main>
+
+<script src="js/flag-icons.js"></script>
+<script src="js/mega-menu-data.js"></script>
+<script src="js/mega-menu.js"></script>
+<script src="js/i18n.js"></script>
+<script src="system/js/dropdowns.js"></script>
+<script src="js/script.js"></script>
+<script src="js/compare-data.js"></script>
+<script src="js/herramientas.js"></script>
+
+<script src="js/cookie-consent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/analytics-events.js" defer></script>
+</body>
+</html>
+
+
+

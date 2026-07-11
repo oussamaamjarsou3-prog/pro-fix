@@ -1,0 +1,4551 @@
+{
+  "id": "bmw-m5-2026",
+  "slug": "bmw-m5",
+  "brandId": "bmw",
+  "categoryId": "deportivos",
+  "modelYear": 2026,
+  "generation": "G90",
+  "bodyStyle": "sedan",
+  "doors": 4,
+  "seats": 5,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "phev",
+    "description": "V8 Twin-Turbo PHEV with 727 HP and AWD",
+    "descriptionAr": "محرك 8 أسطوانات توربيني مزدوج هجين قابل للشحن بـ 727 حصان ودفع رباعي"
+  },
+  "status": "active",
+  "launchDate": "2026-01-01",
+  "productionYears": {
+    "start": 2024,
+    "end": null
+  },
+  "basicInfo": {
+    "name": "M5 PHEV",
+    "fullModelName": "BMW M5 PHEV Competition",
+    "badge": "BMW M PERFORMANCE",
+    "tagline": "Potencia híbrida brutal con tecnología de vanguardia",
+    "description": "El BMW M5 2026 combina potencia híbrida brutal con tecnología de vanguardia y lujo premium.",
+    "longDescription": "El BMW M5 Competition 2026 representa la evolución definitiva de la berlina deportiva de BMW. Con su sistema híbrido plug-in que combina un motor V8 biturbo con motores eléctricos, ofrece 727 HP de potencia total y una experiencia de conducción única que equilibra rendimiento extremo con confort diario.",
+    "highlights": [
+      "Sistema híbrido plug-in con 727 HP",
+      "Aceleración 0-100 km/h en 3.0 segundos",
+      "Tracción xDrive AWD",
+      "Interior M Sport con materiales premium",
+      "Tecnología BMW Operating System 8.5"
+    ],
+    "taglineAr": "سيدان فائق هجين بـ 727 حصان ودفع أم",
+    "nameAr": "أم 5 هجينة",
+    "fullModelNameAr": "بي إم دبليو أم 5 هجينة كومبيتيشن",
+    "badgeAr": "أداء بي إم دبليو أم"
+  },
+  "specs": {
+    "engine": {
+      "type": "V8 Twin-Turbo Hybrid",
+      "displacement": {
+        "value": 4395,
+        "unit": "cc"
+      },
+      "cylinders": 8,
+      "configuration": "V",
+      "aspiration": "Twin-Turbo",
+      "fuelType": "plug-in-hybrid",
+      "fuelOctane": "98",
+      "compressionRatio": 10.5,
+      "bore": 89,
+      "stroke": 88.3,
+      "blockMaterial": "Aluminum",
+      "headMaterial": "Aluminum",
+      "oilCapacity": {
+        "value": 8.5,
+        "unit": "L"
+      },
+      "cooling": "Liquid",
+      "typeAr": "8 أسطوانات توين تيربو هجين",
+      "fuelTypeAr": "هجين قابلة للشحن"
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 8,
+      "brand": "M Steptronic",
+      "model": "8HP75",
+      "driveMode": "AWD",
+      "typeAr": "أوتوماتيك"
+    },
+    "suspension": {
+      "front": "Double Wishbone",
+      "rear": "Multi-link",
+      "adaptive": true,
+      "airSuspension": true,
+      "adjustableDampers": true
+    },
+    "brakes": {
+      "front": {
+        "type": "Ventilated Disc",
+        "diameter": 400,
+        "material": "Ceramic"
+      },
+      "rear": {
+        "type": "Ventilated Disc",
+        "diameter": 380,
+        "material": "Ceramic"
+      },
+      "abs": true,
+      "ebd": true,
+      "eba": true,
+      "parkingBrake": "Electric"
+    },
+    "steering": {
+      "type": "Electric Power",
+      "turningRadius": 12,
+      "adjustable": true
+    },
+    "wheels": {
+      "front": {
+        "size": "20x10.5J",
+        "tire": "285/40 ZR20"
+      },
+      "rear": {
+        "size": "21x11J",
+        "tire": "295/35 ZR21"
+      },
+      "spare": false
+    },
+    "fuelSystem": {
+      "type": "Direct Injection",
+      "fuelTank": {
+        "value": 70,
+        "unit": "L"
+      }
+    },
+    "drivetrain": {
+      "typeAr": "دفع رباعي (إكس درايف)"
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 727,
+      "unit": "HP",
+      "rpm": 6000
+    },
+    "torque": {
+      "value": 1000,
+      "unit": "Nm",
+      "rpm": 1800
+    },
+    "acceleration": {
+      "0-100": 3.5,
+      "0-200": 10.9,
+      "unit": "s"
+    },
+    "topSpeed": {
+      "value": 305,
+      "unit": "km/h",
+      "limited": true
+    },
+    "powerToWeight": {
+      "value": 363,
+      "unit": "HP/ton"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 5095,
+      "unit": "mm"
+    },
+    "width": 1973,
+    "height": 1488,
+    "wheelbase": 2995,
+    "weight": {
+      "curb": 2382,
+      "gross": 2500,
+      "unit": "kg"
+    },
+    "cargo": 466,
+    "groundClearance": {
+      "value": 125,
+      "unit": "mm"
+    },
+    "fuelTank": {
+      "value": 60,
+      "unit": "L"
+    }
+  },
+  "fuelEconomy": {
+    "petrol": {
+      "city": {
+        "value": 12.5,
+        "unit": "L/100km"
+      },
+      "highway": {
+        "value": 8.5,
+        "unit": "L/100km"
+      },
+      "combined": {
+        "value": 10.2,
+        "unit": "L/100km"
+      },
+      "co2": {
+        "value": 235,
+        "unit": "g/km"
+      }
+    },
+    "drivingStyles": {
+      "calm": {
+        "value": 9,
+        "unit": "L/100km"
+      },
+      "sport": {
+        "value": 15,
+        "unit": "L/100km"
+      }
+    },
+    "range": {
+      "city": {
+        "value": 640,
+        "unit": "km"
+      },
+      "highway": {
+        "value": 941,
+        "unit": "km"
+      }
+    },
+    "electric": {
+      "range": 43,
+      "charging": {
+        "ac": {
+          "power": 11,
+          "unit": "kW"
+        },
+        "dc": {
+          "power": 0,
+          "unit": "kW"
+        }
+      }
+    }
+  },
+  "electric": {
+    "batteryCapacity": 14.8,
+    "electricRange": 40,
+    "charging": {
+      "ac": {
+        "power": 11,
+        "time": 3
+      },
+      "dc": {
+        "power": 0,
+        "time": {
+          "value": 0,
+          "percentage": 0
+        }
+      }
+    },
+    "motor": {
+      "type": "Synchronous",
+      "count": 1,
+      "power": {
+        "value": 145,
+        "unit": "kW"
+      },
+      "torque": {
+        "value": 280,
+        "unit": "Nm"
+      }
+    }
+  },
+  "pricing": {
+    "base": {
+      "value": 125000,
+      "currency": "EUR"
+    },
+    "current": {
+      "value": 132000,
+      "currency": "EUR"
+    },
+    "tax": {
+      "value": 25000,
+      "currency": "EUR"
+    },
+    "insurance": {
+      "annual": 2400,
+      "currency": "EUR"
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "led-matrix",
+        "name": {
+          "es": "Faros LED Matrix",
+          "en": "Matrix LED headlights",
+          "fr": "Phares LED Matrix",
+          "ar": "مصابيح LED Matrix"
+        },
+        "description": "Faros LED con tecnología matrix e iluminación adaptativa",
+        "standard": true,
+        "category": "lighting"
+      },
+      {
+        "id": "panoramic-sunroof",
+        "name": {
+          "es": "Techo solar panorámico",
+          "en": "Panoramic sunroof",
+          "fr": "Toit ouvrant panoramique",
+          "ar": "سقف بانورامي"
+        },
+        "description": "Gran techo de cristal panorámico",
+        "standard": true,
+        "category": "body"
+      },
+      {
+        "id": "21-wheels",
+        "name": {
+          "es": "Llantas de 21 pulgadas",
+          "en": "21-inch alloy wheels",
+          "fr": "Jantes de 21 pouces",
+          "ar": "إطارات 21 إنش"
+        },
+        "description": "Llantas de aleación ligera M de 21 pulgadas",
+        "standard": false,
+        "category": "wheels"
+      },
+      {
+        "id": "sport-exhaust",
+        "name": {
+          "es": "Escape deportivo M",
+          "en": "M sport exhaust",
+          "fr": "Échappement sport M",
+          "ar": "عادم رياضي M"
+        },
+        "description": "Sistema de escape con válvulas activas y sonido deportivo",
+        "standard": false,
+        "category": "performance"
+      }
+    ],
+    "interior": [
+      {
+        "id": "merino-leather",
+        "name": {
+          "es": "Cuero Merino",
+          "en": "Merino leather",
+          "fr": "Cuir Merino",
+          "ar": "جلد Merino"
+        },
+        "description": "Tapicería premium en cuero Merino",
+        "standard": true,
+        "category": "upholstery"
+      },
+      {
+        "id": "carbon-trim",
+        "name": {
+          "es": "Detalles de carbono",
+          "en": "Carbon trim",
+          "fr": "Garnitures carbone",
+          "ar": "تفاصيل كربون"
+        },
+        "description": "Insertos interiores de fibra de carbono",
+        "standard": false,
+        "category": "trim"
+      },
+      {
+        "id": "virtual-cockpit",
+        "name": {
+          "es": "BMW Live Cockpit",
+          "en": "BMW Live Cockpit",
+          "fr": "BMW Live Cockpit",
+          "ar": "BMW Live Cockpit"
+        },
+        "description": "Cuadro de instrumentos digital de 12.3 pulgadas",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "mmi-touch",
+        "name": {
+          "es": "Pantalla táctil curva",
+          "en": "Curved touchscreen",
+          "fr": "Écran tactile courbé",
+          "ar": "شاشة لمس منحنية"
+        },
+        "description": "Pantalla táctil central de 14.9 pulgadas",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "harman-kardon",
+        "name": {
+          "es": "Harman Kardon",
+          "en": "Harman Kardon",
+          "fr": "Harman Kardon",
+          "ar": "Harman Kardon"
+        },
+        "description": "Sistema de sonido de 16 altavoces y 464 W",
+        "standard": true,
+        "category": "audio"
+      }
+    ],
+    "safety": [
+      {
+        "es": "Driving Assistant Professional",
+        "en": "Driving Assistant Professional",
+        "fr": "Driving Assistant Professional",
+        "ar": "Driving Assistant Professional"
+      },
+      {
+        "es": "Parking Assistant Plus",
+        "en": "Parking Assistant Plus",
+        "fr": "Parking Assistant Plus",
+        "ar": "Parking Assistant Plus"
+      },
+      {
+        "es": "Asistente de marcha atrás",
+        "en": "Reversing Assistant",
+        "fr": "Assistant de recul",
+        "ar": "مساعد الرجوع للخلف"
+      },
+      {
+        "es": "Aviso de cambio de carril",
+        "en": "Lane Change Warning",
+        "fr": "Avertissement de changement de voie",
+        "ar": "تحذير تغيير المسار"
+      },
+      {
+        "es": "Aviso de colisión",
+        "en": "Collision Warning",
+        "fr": "Avertissement de collision",
+        "ar": "تحذير الاصطدام"
+      },
+      {
+        "es": "Cámara 360°",
+        "en": "360-degree camera",
+        "fr": "Caméra 360°",
+        "ar": "كاميرا 360 درجة"
+      }
+    ],
+    "technology": [
+      {
+        "id": "head-up",
+        "name": {
+          "es": "Head-up display",
+          "en": "Head-up display",
+          "fr": "Head-up display",
+          "ar": "شاشة عرض أمامية"
+        },
+        "description": "Proyección de información en el parabrisas",
+        "standard": true,
+        "category": "display"
+      },
+      {
+        "id": "wireless-charging",
+        "name": {
+          "es": "Carga inalámbrica",
+          "en": "Wireless charging",
+          "fr": "Charge sans fil",
+          "ar": "شحن لاسلكي"
+        },
+        "description": "Base de carga inalámbrica para smartphone",
+        "standard": true,
+        "category": "connectivity"
+      },
+      {
+        "id": "digital-key",
+        "name": {
+          "es": "BMW Digital Key",
+          "en": "BMW Digital Key",
+          "fr": "BMW Digital Key",
+          "ar": "BMW Digital Key"
+        },
+        "description": "Llave digital para acceso y arranque mediante smartphone",
+        "standard": true,
+        "category": "security"
+      },
+      {
+        "id": "remote-software",
+        "name": {
+          "es": "Actualizaciones OTA",
+          "en": "Over-the-air updates",
+          "fr": "Mises à jour OTA",
+          "ar": "تحديثات OTA"
+        },
+        "description": "Actualizaciones de software remotas",
+        "standard": true,
+        "category": "software"
+      }
+    ],
+    "comfort": [
+      {
+        "id": "heated-seats",
+        "name": {
+          "es": "Asientos calefactables",
+          "en": "Heated front seats",
+          "fr": "Sièges avant chauffants",
+          "ar": "مقاعد أمامية مدفأة"
+        },
+        "description": "Asientos delanteros y traseros calefactables",
+        "standard": true,
+        "category": "seats"
+      },
+      {
+        "id": "ventilated-seats",
+        "name": {
+          "es": "Asientos ventilados",
+          "en": "Ventilated front seats",
+          "fr": "Sièges avant ventilés",
+          "ar": "مقاعد أمامية مبردة"
+        },
+        "description": "Asientos delanteros ventilados",
+        "standard": false,
+        "category": "seats"
+      },
+      {
+        "id": "massage-seats",
+        "name": {
+          "es": "Asientos con masaje",
+          "en": "Massage seats",
+          "fr": "Sièges massants",
+          "ar": "مقاعد بتدليك"
+        },
+        "description": "Función de masaje en asientos delanteros",
+        "standard": false,
+        "category": "seats"
+      },
+      {
+        "id": "soft-close",
+        "name": {
+          "es": "Cierre suave de puertas",
+          "en": "Soft-close doors",
+          "fr": "Fermeture douce des portes",
+          "ar": "إغلاق ناعم للأبواب"
+        },
+        "description": "Cierre automático suave de las puertas",
+        "standard": true,
+        "category": "convenience"
+      },
+      {
+        "id": "isofix",
+        "name": {
+          "es": "Anclajes ISOFIX",
+          "en": "ISOFIX anchors",
+          "fr": "Ancrages ISOFIX",
+          "ar": "مراسي ISOFIX"
+        },
+        "description": "Anclajes ISOFIX para sillas infantiles",
+        "standard": true,
+        "category": "child"
+      }
+    ],
+    "performance": [
+      {
+        "id": "m-aero",
+        "name": {
+          "es": "Aerodinámica M",
+          "en": "M aerodynamics",
+          "fr": "Aérodynamique M",
+          "ar": "ديناميكا هوائية M"
+        },
+        "description": "Paquete aerodinámico específico M",
+        "standard": true,
+        "category": "aerodynamics"
+      },
+      {
+        "id": "adaptive-suspension",
+        "name": {
+          "es": "Suspensión adaptativa M",
+          "en": "M adaptive suspension",
+          "fr": "Suspension adaptative M",
+          "ar": "تعليق M تكيفي"
+        },
+        "description": "Suspensión adaptativa con amortiguación controlada electrónicamente",
+        "standard": true,
+        "category": "chassis"
+      },
+      {
+        "id": "carbon-ceramic-brakes",
+        "name": {
+          "es": "Frenos carbono-cerámicos",
+          "en": "Carbon-ceramic brakes",
+          "fr": "Freins carbone-céramique",
+          "ar": "فرامل كربون-سيراميك"
+        },
+        "description": "Frenos carbono-cerámicos de alto rendimiento",
+        "standard": false,
+        "category": "braking"
+      },
+      {
+        "id": "active-diff",
+        "name": {
+          "es": "Diferencial trasero activo M",
+          "en": "M active rear differential",
+          "fr": "Différentiel arrière actif M",
+          "ar": "ديفرنشيل خلفي نشط M"
+        },
+        "description": "Diferencial trasero activo para mejor tracción",
+        "standard": true,
+        "category": "drivetrain"
+      }
+    ]
+  },
+  "safety": {
+    "rating": {
+      "euroNCAP": 5,
+      "nhtsa": 5
+    },
+    "airbags": 8,
+    "features": [
+      "ABS with EBD",
+      "Dynamic Stability Control",
+      "Traction Control",
+      "Hill Descent Control",
+      "Tyre Pressure Monitoring",
+      "ISOFIX points"
+    ],
+    "es": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontales",
+        "laterales delanteros",
+        "de cortina",
+        "de rodilla del conductor"
+      ],
+      "driverAssist": [
+        "Control de crucero adaptativo con Stop & Go",
+        "Asistente de mantenimiento de carril",
+        "Frenada de emergencia con detección de peatones y ciclistas",
+        "Sistema de visión nocturna con detección de animales",
+        "Cámara de 360 grados y sensores de aparcamiento"
+      ],
+      "structural": "Carrocería de aluminio y acero de alta resistencia con zonas de deformación programada. Estructura reforzada para soportar altas cargas laterales."
+    },
+    "en": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "front",
+        "front side",
+        "curtain",
+        "driver knee"
+      ],
+      "driverAssist": [
+        "Adaptive cruise control with Stop & Go",
+        "Lane keeping assistant",
+        "Emergency braking with pedestrian and cyclist detection",
+        "Night vision with animal detection",
+        "360-degree camera and parking sensors"
+      ],
+      "structural": "Aluminium and high-strength steel body with programmed deformation zones. Reinforced structure to withstand high side loads."
+    },
+    "fr": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontaux",
+        "latéraux avant",
+        "rideaux",
+        "genou du conducteur"
+      ],
+      "driverAssist": [
+        "Régulateur adaptatif avec Stop & Go",
+        "Assistant de maintien de voie",
+        "Freinage d'urgence avec détection de piétons et cyclistes",
+        "Vision nocturne avec détection d'animaux",
+        "Caméra 360° et capteurs de stationnement"
+      ],
+      "structural": "Carrosserie en aluminium et acier à haute résistance avec zones de déformation programmée. Structure renforcée pour supporter de hautes charges latérales."
+    },
+    "ar": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "أمامية",
+        "جانبية أمامية",
+        "ستائر",
+        "ركبة السائق"
+      ],
+      "driverAssist": [
+        "مثبت السرعة التكيفي مع Stop & Go",
+        "مساعد الحفاظ على المسار",
+        "فرامل الطوارئ مع اكتشاف المشاة والدراجين",
+        "رؤية ليلية مع اكتشاف الحيوانات",
+        "كاميرا 360 درجة ومستشعرات الوقوف"
+      ],
+      "structural": "هيكل من الألومنيوم والفولاذ عالي المقاومة مع مناطق تشوه مبرمجة. هيكل معزز لتحمل أحمال جانبية عالية."
+    }
+  },
+  "versions": [
+    {
+      "id": "m5-phev-base",
+      "slug": "m5-phev",
+      "name": "BMW M5 PHEV",
+      "price": {
+        "value": 149000,
+        "currency": "EUR"
+      },
+      "features": [
+        "727 HP y tracción M xDrive",
+        "BMW OS 8.5 con pantalla curva",
+        "Suspensión adaptativa M"
+      ],
+      "nameAr": "بي إم دبليو أم 5 هجينة",
+      "featuresAr": [
+        "727 حصان واي tracción إم إكس درايف",
+        "نظام بي إم دبليو 8.5 بشاشة منحنية",
+        "Suspensión adaptativa أم"
+      ],
+      "images": [
+        "images/bmw-m5.2026/bmw-m5.gallirey.png"
+      ]
+    },
+    {
+      "id": "m5-phev-competition",
+      "slug": "m5-phev-competition",
+      "name": "BMW M5 PHEV Competition",
+      "price": {
+        "value": 165000,
+        "currency": "EUR"
+      },
+      "features": [
+        "Ajustes de chasis más deportivos",
+        "Llantas de 21 pulgadas opcionales",
+        "Elementos de carbono M"
+      ],
+      "nameAr": "بي إم دبليو أم 5 هجينة كومبيتيشن",
+      "featuresAr": [
+        "Ajustes de chasis أمáإس deportivos",
+        "جنوط de 21 بوصة opcionales",
+        "Elementos de carbono أم"
+      ],
+      "images": [
+        "images/bmw-m5.2026/bmw-m5.Competition.png"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "images/bmw-m5.2026/bmw-m5.hero.png",
+    "gallery": [
+      {
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.png",
+        "alt": "BMW M5 PHEV vista frontal",
+        "category": "exterior",
+        "angle": "front"
+      },
+      {
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.1.png",
+        "alt": "BMW M5 PHEV vista lateral",
+        "category": "exterior",
+        "angle": "side"
+      },
+      {
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.2.png",
+        "alt": "BMW M5 PHEV vista trasera con escapes cuádruples",
+        "category": "exterior",
+        "angle": "rear"
+      },
+      {
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.3.png",
+        "alt": "BMW M5 PHEV interior con cuero Merino y fibra de carbono",
+        "category": "interior",
+        "angle": "dashboard"
+      },
+      {
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.4.png",
+        "alt": "BMW M5 PHEV detalle de llantas M de 21 pulgadas",
+        "category": "exterior",
+        "angle": "detail"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Frozen Deep Grey",
+        "hex": "#3a3a3a",
+        "type": "metallic",
+        "priceExtra": 0
+      },
+      {
+        "name": "Alpine White",
+        "hex": "#f5f5f5",
+        "type": "solid",
+        "priceExtra": 0
+      },
+      {
+        "name": "Toronto Red metallic",
+        "hex": "#8b0000",
+        "type": "metallic",
+        "priceExtra": 1200
+      }
+    ]
+  },
+  "seo": {
+    "title": "BMW M5 2026 - Review y Comparativa",
+    "description": "El BMW M5 2026 combina potencia híbrida brutal con tecnología de vanguardia y lujo premium.",
+    "keywords": [
+      "bmw",
+      "m5",
+      "deportivo",
+      "híbrido",
+      "berlina",
+      "xdrive"
+    ],
+    "ogTitle": "BMW M5 2026 - La berlina deportiva definitiva",
+    "ogDescription": "Descubre el BMW M5 2026: 727 HP híbridos, 0-100 en 3.0s, y tecnología de vanguardia.",
+    "ogImage": "/images/placeholder.svg"
+  },
+  "content": {
+    "review": "El BMW M5 es la berlina deportiva definitiva...",
+    "pros": [
+      "Potencia híbrida brutal",
+      "Tecnología avanzada",
+      "Confort diario"
+    ],
+    "cons": [
+      "Peso elevado",
+      "Consumo en ciudad",
+      "Precio de opciones"
+    ],
+    "verdict": "La mejor berlina deportiva híbrida del mercado",
+    "timeline": [
+      {
+        "km": 15000,
+        "title": "Mantenimiento anual",
+        "desc": "Cambio de aceite y filtros, revisión de sistema híbrido",
+        "cost": {
+          "value": 400,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة السنوية",
+        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين"
+      },
+      {
+        "km": 30000,
+        "title": "Revisión intermedia",
+        "desc": "Filtros, frenos, batería de alto voltaje y refrigerante",
+        "cost": {
+          "value": 900,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص الدوري المتوسط",
+        "descAr": "الفلاتر والفرامل وبطارية الجهد العالي وسوائل التبريد"
+      },
+      {
+        "km": 60000,
+        "title": "Gran servicio",
+        "desc": "Revisión mayor del V8, cambio de bujías, transmisión y diferencial",
+        "cost": {
+          "value": 2500,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة الكبرى",
+        "descAr": "الفحص الرئيسي لمحرك 8 أسطوانات، تغيير البواجي، ناقل الحركة والدفرنسي"
+      },
+      {
+        "km": 100000,
+        "title": "Frenos y neumáticos",
+        "desc": "Cambio de discos/ pastillas y juego de neumáticos performance",
+        "cost": {
+          "value": 4500,
+          "currency": "EUR"
+        },
+        "titleAr": "الفرامل والإطارات",
+        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية"
+      },
+      {
+        "km": 120000,
+        "title": "Revisión de cadena",
+        "desc": "Inspección de cadena de distribución y componentes híbridos",
+        "cost": {
+          "value": 3500,
+          "currency": "EUR"
+        },
+        "titleAr": "فحص السلسلة",
+        "descAr": "فحص سلسلة التوزيع والمكونات الهجينة"
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuánto consume el BMW M5 2026 en uso real?",
+        "answer": "En uso mixto, el M5 PHEV consume entre 8 y 12 L/100 km según el modo de conducción. En modo eléctrico puede recorrer hasta 69 km sin consumir gasolina."
+      },
+      {
+        "question": "¿Es fiable el sistema híbrido del BMW M5?",
+        "answer": "El sistema M Hybrid es robusto, pero los costes de reparación del sistema híbrido y el V8 biturbo son elevados fuera de garantía. Recomendamos mantenimiento oficial."
+      },
+      {
+        "question": "¿Cuál es el precio del BMW M5 2026?",
+        "answer": "El precio base en Europa ronda los 148 000 €. En Estados Unidos parte desde 123 300 USD. El precio final varía según impuestos y opciones."
+      },
+      {
+        "question": "¿Cuántos caballos tiene el BMW M5 2026?",
+        "answer": "El BMW M5 2026 entrega 727 HP de potencia combinada (585 HP del V8 biturbo + 197 HP del motor eléctrico) y 1000 Nm de par."
+      },
+      {
+        "question": "¿BMW M5 o Audi RS7?",
+        "answer": "El M5 es más potente y tecnológicamente avanzado gracias al híbrido, mientras que el RS7 ofrece un sonido V8 más tradicional y un diseño más elegante."
+      },
+      {
+        "question": "¿Cuánto cuesta el seguro del BMW M5?",
+        "answer": "El seguro anual en España ronda los 1.800–2.400 € dependiendo del perfil del conductor, cobertura y zona."
+      },
+      {
+        "question": "¿Vale la pena comprar un BMW M5 de segunda mano?",
+        "answer": "Sí, a partir de los 3-4 años la depreciación se estabiliza. Es importante revisar el historial de mantenimiento híbrido y el estado de la batería."
+      }
+    ],
+    "es": {
+      "review": "El BMW M5 PHEV representa la evolución definitiva del sedán deportivo de BMW. Bajo el capó descansa un V8 4.4 litros biturbo asociado a un motor eléctrico, con una potencia combinada de 727 HP y 1.000 Nm de par. La aceleración de 0 a 100 km/h se completa en 3,5 segundos y la velocidad máxima alcanza los 305 km/h. El chasis M, la tracción M xDrive y la suspensión adaptativa M aportan un equilibrio entre confort y deportividad. El interior es un santuario tecnológico con BMW Operating System 8.5, pantalla curva y acabados premium. Como inconvenientes, el peso supera las 2 toneladas, el consumo en modo híbrido es elevado y el precio de partida roza los 150.000 €. Para quien busca una berlina que lo haga todo a nivel excelente, el M5 PHEV es una opción difícil de superar.",
+      "pros": [
+        "Aceleración brutal y potencia de sobra",
+        "Interior tecnológico y confortable",
+        "Tracción total M xDrive para cualquier condición",
+        "Posibilidad de uso eléctrico diario (hasta 40 km)"
+      ],
+      "cons": [
+        "Peso superior a 2 toneladas",
+        "Precio de partida muy elevado",
+        "Costes de mantenimiento y neumáticos elevados"
+      ],
+      "verdict": "Sí. El BMW M5 PHEV combina prestaciones, tecnología y confort en un solo coche.",
+      "timeline": [
+        {
+          "km": 15000,
+          "title": "Revisión intermedia",
+          "desc": "Cambio de aceite, filtros, revisión de frenos y neumáticos.",
+          "cost": "950 €"
+        },
+        {
+          "km": 30000,
+          "title": "Gran servicio",
+          "desc": "Cambio de aceite, filtros, bujías, líquidos y revisión de suspensión.",
+          "cost": "2.400 €"
+        },
+        {
+          "km": 45000,
+          "title": "Transmisión y diferencial",
+          "desc": "Cambio de aceites de caja y diferencial, inspección de frenos.",
+          "cost": "1.800 €"
+        },
+        {
+          "km": 60000,
+          "title": "Neumáticos y correas",
+          "desc": "Juego de neumáticos performance y revisión de componentes de motor.",
+          "cost": "2.800 €"
+        },
+        {
+          "km": 90000,
+          "title": "Revisión mayor",
+          "desc": "Inspección profunda de motor, transmisión y sistema eléctrico de alto voltaje.",
+          "cost": "4.500 €"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuál es el precio del BMW M5 PHEV 2026?",
+          "answer": "El precio del BMW M5 PHEV 2026 en {{country}} empieza desde los {{priceNew}} para la versión base."
+        },
+        {
+          "question": "¿Qué motor tiene el BMW M5 PHEV?",
+          "answer": "El BMW M5 PHEV monta un V8 4.4 biturbo más un motor eléctrico, con 727 HP y 1.000 Nm de par."
+        },
+        {
+          "question": "¿Es fiable el BMW M5 PHEV?",
+          "answer": "Sí, si se mantiene correctamente según el programa oficial BMW y se revisa el sistema híbrido."
+        },
+        {
+          "question": "¿Cuánto consume el BMW M5 PHEV?",
+          "answer": "El consumo medio real es de unos 11,5 L/100km en uso mixto, con hasta 40 km de autonomía eléctrica."
+        },
+        {
+          "question": "¿Vale la pena comprarlo de ocasión?",
+          "answer": "Depende del estado y kilometraje. Revisa siempre el historial de mantenimiento y el sistema híbrido."
+        },
+        {
+          "question": "¿Qué rivales debería considerar?",
+          "answer": "Los principales rivales son {{car1}}, {{car2}} y {{car3}}."
+        },
+        {
+          "question": "¿Es adecuado para uso diario?",
+          "answer": "Sí, el M5 PHEV es cómodo y práctico para uso diario, con cinco plazas y buen maletero."
+        }
+      ],
+      "options": [
+        {
+          "id": "carbon-ceramic-brakes",
+          "name": "Frenos carbono-cerámicos M",
+          "description": "Discos de carbono-cerámica con mayor resistencia a la fatiga y menor peso.",
+          "priceExtra": 12000
+        },
+        {
+          "id": "executive-pack",
+          "name": "Pack Executive",
+          "description": "Asientos de confort, masaje, climatización de cuatro zonas y cortinillas.",
+          "priceExtra": 5000
+        },
+        {
+          "id": "driver-assistance-pro",
+          "name": "BMW Driving Assistance Pro",
+          "description": "Asistente de conducción semiautónomo con cambio de carril y maniobras de estacionamiento.",
+          "priceExtra": 2500
+        }
+      ],
+      "usedGuide": {
+        "card1Title": "Presupuesto recomendado",
+        "card1Items": [
+          "Entre 90.000 € y 110.000 € para unidades de 1-2 años",
+          "Revisar historial de servicio oficial BMW",
+          "Descartar coches con reprogramaciones sin garantía"
+        ],
+        "card2Title": "Verificar obligatoriamente",
+        "card2Items": [
+          "Estado de la batería de alto voltaje y garantía",
+          "Desgaste de frenos y neumáticos",
+          "Funcionamiento del sistema híbrido y carga"
+        ],
+        "card3Title": "Señales de alerta",
+        "card3Items": [
+          "Kilometraje muy bajo con muchos ciclos de carga (uso urbano intenso)",
+          "Golpes en el chasis o estructura de aluminio",
+          "Falta de actualizaciones de software BMW"
+        ],
+        "card4Title": "Mejor lugar para comprar",
+        "card4Items": [
+          "Concesionario BMW oficial con garantía de vehículo de ocasión",
+          "Plataformas de venta entre particulares con inspección mecánica"
+        ]
+      },
+      "versions": {
+        "base": {
+          "es": "Versión base con 727 HP, tracción M xDrive y equipamiento completo.",
+          "en": "Base version with 727 hp, M xDrive and full equipment.",
+          "fr": "Version de base avec 727 ch, M xDrive et équipement complet.",
+          "ar": "النسخة الأساسية بقوة 727 حصان ودفع M xDrive وتجهيز كامل."
+        },
+        "competition": {
+          "es": "M5 Competition con ajustes más deportivos y opciones de carbono.",
+          "en": "M5 Competition with sportier settings and carbon options.",
+          "fr": "M5 Competition avec réglages plus sportifs et options carbone.",
+          "ar": "M5 Competition مع إعدادات أكثر رياضية وخيارات كربون."
+        },
+        "cs": {
+          "es": "M5 CS con 750 HP, construcción ligera y edición limitada.",
+          "en": "M5 CS with 750 hp, lightweight construction and limited edition.",
+          "fr": "M5 CS avec 750 ch, construction légère et édition limitée.",
+          "ar": "M5 CS بقوة 750 حصان وبناء خفيف ونسخة محدودة."
+        }
+      },
+      "dep": {
+        "es": "El M5 PHEV puede perder alrededor del 35-40 % de su valor en 3 años, dependiendo del equipamiento y kilometraje.",
+        "en": "The M5 PHEV may lose around 35-40% of its value in 3 years, depending on equipment and mileage.",
+        "fr": "La M5 PHEV peut perdre environ 35-40 % de sa valeur en 3 ans, selon l'équipement et le kilométrage.",
+        "ar": "قد تخسر M5 PHEV حوالي 35-40% من قيمتها في 3 سنوات، حسب التجهيزات والميلومتراج."
+      },
+      "scoreDesc": "El BMW M5 PHEV obtiene una valoración global de 9.0/10 gracias a su potencia, tecnología y confort, aunque los costes de uso son elevados.",
+      "worthDesc": "Sí. El BMW M5 PHEV combina prestaciones, tecnología y confort en un solo coche."
+    },
+    "en": {
+      "review": "The BMW M5 PHEV represents the ultimate evolution of BMW's sports sedan. Under the hood sits a 4.4-litre twin-turbo V8 paired with an electric motor, delivering a combined 727 hp and 1,000 Nm of torque. Acceleration from 0 to 100 km/h is completed in 3.5 seconds and top speed reaches 305 km/h. The M chassis, M xDrive traction and M adaptive suspension provide a balance between comfort and sportiness. The interior is a technological sanctuary with BMW Operating System 8.5, curved display and premium finishes. Drawbacks include a weight above 2 tonnes, high consumption in hybrid mode and a starting price close to €150,000. For those seeking a sedan that does everything at an excellent level, the M5 PHEV is hard to beat.",
+      "pros": [
+        "Brutal acceleration and abundant power",
+        "Technological and comfortable interior",
+        "M xDrive all-wheel drive for any condition",
+        "Daily electric driving possible (up to 40 km)"
+      ],
+      "cons": [
+        "Weight above 2 tonnes",
+        "Very high starting price",
+        "High maintenance and tyre costs"
+      ],
+      "verdict": "Yes. The BMW M5 PHEV combines performance, technology and comfort in a single car.",
+      "timeline": [
+        {
+          "km": 15000,
+          "title": "Intermediate service",
+          "desc": "Oil change, filters, brake and tire inspection.",
+          "cost": "950 €"
+        },
+        {
+          "km": 30000,
+          "title": "Major service",
+          "desc": "Oil, filters, spark plugs, fluids and suspension check.",
+          "cost": "2.400 €"
+        },
+        {
+          "km": 45000,
+          "title": "Transmission and differential",
+          "desc": "Gearbox and differential oil change, brake inspection.",
+          "cost": "1.800 €"
+        },
+        {
+          "km": 60000,
+          "title": "Tires and belts",
+          "desc": "Performance tire set and engine component check.",
+          "cost": "2.800 €"
+        },
+        {
+          "km": 90000,
+          "title": "Major overhaul",
+          "desc": "Deep inspection of engine, transmission and high-voltage electrical system.",
+          "cost": "4.500 €"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is the price of the BMW M5 PHEV 2026?",
+          "answer": "The price of the BMW M5 PHEV 2026 in {{country}} starts from {{priceNew}} for the base version."
+        },
+        {
+          "question": "What engine does the BMW M5 PHEV have?",
+          "answer": "The BMW M5 PHEV has a 4.4 twin-turbo V8 plus an electric motor, with 727 hp and 1,000 Nm of torque."
+        },
+        {
+          "question": "Is the BMW M5 PHEV reliable?",
+          "answer": "Yes, if properly maintained according to the official BMW program and the hybrid system is checked."
+        },
+        {
+          "question": "How much does the BMW M5 PHEV consume?",
+          "answer": "Average real consumption is about 11.5 L/100km in mixed use, with up to 40 km of electric range."
+        },
+        {
+          "question": "Is it worth buying used?",
+          "answer": "Depends on condition and mileage. Always check the maintenance history and the hybrid system."
+        },
+        {
+          "question": "What rivals should I consider?",
+          "answer": "The main rivals are {{car1}}, {{car2}} and {{car3}}."
+        },
+        {
+          "question": "Is it suitable for daily use?",
+          "answer": "Yes, the M5 PHEV is comfortable and practical for daily use, with five seats and a good boot."
+        }
+      ],
+      "options": [
+        {
+          "id": "carbon-ceramic-brakes",
+          "name": "M carbon-ceramic brakes",
+          "description": "Carbon-ceramic discs with higher fade resistance and lower weight.",
+          "priceExtra": 12000
+        },
+        {
+          "id": "executive-pack",
+          "name": "Executive Pack",
+          "description": "Comfort seats, massage, four-zone climate control and sun blinds.",
+          "priceExtra": 5000
+        },
+        {
+          "id": "driver-assistance-pro",
+          "name": "BMW Driving Assistance Pro",
+          "description": "Semi-autonomous driving assistant with lane change and parking manoeuvres.",
+          "priceExtra": 2500
+        }
+      ],
+      "usedGuide": {
+        "card1Title": "Recommended budget",
+        "card1Items": [
+          "Between €90,000 and €110,000 for 1-2 year old units",
+          "Check official BMW service history",
+          "Discard cars with unverified tuning"
+        ],
+        "card2Title": "Mandatory checks",
+        "card2Items": [
+          "High-voltage battery condition and warranty",
+          "Brake and tyre wear",
+          "Hybrid system and charging operation"
+        ],
+        "card3Title": "Warning signs",
+        "card3Items": [
+          "Very low mileage with many charge cycles (intensive urban use)",
+          "Damage to chassis or aluminium structure",
+          "Missing BMW software updates"
+        ],
+        "card4Title": "Best place to buy",
+        "card4Items": [
+          "Official BMW dealer with approved used warranty",
+          "Private sale platforms with mechanical inspection"
+        ]
+      },
+      "versions": {
+        "base": {
+          "es": "Versión base con 727 HP, tracción M xDrive y equipamiento completo.",
+          "en": "Base version with 727 hp, M xDrive and full equipment.",
+          "fr": "Version de base avec 727 ch, M xDrive et équipement complet.",
+          "ar": "النسخة الأساسية بقوة 727 حصان ودفع M xDrive وتجهيز كامل."
+        },
+        "competition": {
+          "es": "M5 Competition con ajustes más deportivos y opciones de carbono.",
+          "en": "M5 Competition with sportier settings and carbon options.",
+          "fr": "M5 Competition avec réglages plus sportifs et options carbone.",
+          "ar": "M5 Competition مع إعدادات أكثر رياضية وخيارات كربون."
+        },
+        "cs": {
+          "es": "M5 CS con 750 HP, construcción ligera y edición limitada.",
+          "en": "M5 CS with 750 hp, lightweight construction and limited edition.",
+          "fr": "M5 CS avec 750 ch, construction légère et édition limitée.",
+          "ar": "M5 CS بقوة 750 حصان وبناء خفيف ونسخة محدودة."
+        }
+      },
+      "dep": {
+        "es": "El M5 PHEV puede perder alrededor del 35-40 % de su valor en 3 años, dependiendo del equipamiento y kilometraje.",
+        "en": "The M5 PHEV may lose around 35-40% of its value in 3 years, depending on equipment and mileage.",
+        "fr": "La M5 PHEV peut perdre environ 35-40 % de sa valeur en 3 ans, selon l'équipement et le kilométrage.",
+        "ar": "قد تخسر M5 PHEV حوالي 35-40% من قيمتها في 3 سنوات، حسب التجهيزات والميلومتراج."
+      },
+      "scoreDesc": "The BMW M5 PHEV scores 9.0/10 overall thanks to its power, technology and comfort, although running costs are high.",
+      "worthDesc": "Yes. The BMW M5 PHEV combines performance, technology and comfort in a single car."
+    },
+    "fr": {
+      "review": "La BMW M5 PHEV représente l'évolution ultime de la berline sportive BMW. Sous le capot repose un V8 4.4 litres biturbo associé à un moteur électrique, développant 727 ch et 1 000 Nm de couple. L'accélération de 0 à 100 km/h s'effectue en 3,5 secondes et la vitesse maximale atteint 305 km/h. Le châssis M, la traction M xDrive et la suspension adaptative M offrent un équilibre entre confort et sportivité. L'intérieur est un sanctuaire technologique avec BMW Operating System 8.5, écran incurvé et finitions premium. Les inconvénients incluent un poids supérieur à 2 tonnes, une consommation élevée en mode hybride et un prix de départ proche de 150 000 €. Pour ceux qui recherchent une berline qui fait tout à un niveau excellent, la M5 PHEV est difficile à battre.",
+      "pros": [
+        "Accélération brutale et puissance abondante",
+        "Intérieur technologique et confortable",
+        "M xDrive transmission intégrale pour toutes conditions",
+        "Conduite électrique quotidienne possible (jusqu'à 40 km)"
+      ],
+      "cons": [
+        "Poids supérieur à 2 tonnes",
+        "Prix de départ très élevé",
+        "Coûts d'entretien et de pneus élevés"
+      ],
+      "verdict": "Oui. La BMW M5 PHEV combine performances, technologie et confort en une seule voiture.",
+      "timeline": [
+        {
+          "km": 15000,
+          "title": "Service intermédiaire",
+          "desc": "Vidange d'huile, filtres, inspection des freins et pneus.",
+          "cost": "950 €"
+        },
+        {
+          "km": 30000,
+          "title": "Grand service",
+          "desc": "Huile, filtres, bougies, liquides et vérification de la suspension.",
+          "cost": "2.400 €"
+        },
+        {
+          "km": 45000,
+          "title": "Transmission et différentiel",
+          "desc": "Vidange des huiles de boîte et différentiel, inspection des freins.",
+          "cost": "1.800 €"
+        },
+        {
+          "km": 60000,
+          "title": "Pneus et courroies",
+          "desc": "Jeu de pneus performance et vérification des composants moteur.",
+          "cost": "2.800 €"
+        },
+        {
+          "km": 90000,
+          "title": "Révision majeure",
+          "desc": "Inspection approfondie du moteur, de la transmission et du système électrique haute tension.",
+          "cost": "4.500 €"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quel est le prix de la BMW M5 PHEV 2026 ?",
+          "answer": "Le prix de la BMW M5 PHEV 2026 en {{country}} commence à partir de {{priceNew}} pour la version de base."
+        },
+        {
+          "question": "Quel moteur a la BMW M5 PHEV ?",
+          "answer": "La BMW M5 PHEV a un V8 4.4 biturbo plus un moteur électrique, avec 727 ch et 1 000 Nm de couple."
+        },
+        {
+          "question": "La BMW M5 PHEV est-elle fiable ?",
+          "answer": "Oui, si elle est correctement entretenue selon le programme officiel BMW et que le système hybride est vérifié."
+        },
+        {
+          "question": "Quelle consommation pour la BMW M5 PHEV ?",
+          "answer": "La consommation moyenne réelle est d'environ 11,5 L/100km en usage mixte, avec jusqu'à 40 km d'autonomie électrique."
+        },
+        {
+          "question": "Vaut-il le coup d'acheter d'occasion ?",
+          "answer": "Dépend de l'état et du kilométrage. Vérifiez toujours l'historique d'entretien et le système hybride."
+        },
+        {
+          "question": "Quels rivaux devrais-je considérer ?",
+          "answer": "Les principaux rivaux sont {{car1}}, {{car2}} et {{car3}}."
+        },
+        {
+          "question": "Est-il adapté à un usage quotidien ?",
+          "answer": "Oui, la M5 PHEV est confortable et pratique pour un usage quotidien, avec cinq places et un bon coffre."
+        }
+      ],
+      "options": [
+        {
+          "id": "carbon-ceramic-brakes",
+          "name": "Freins carbone-céramique M",
+          "description": "Disques carbone-céramique avec meilleure résistance à la fatigue et poids réduit.",
+          "priceExtra": 12000
+        },
+        {
+          "id": "executive-pack",
+          "name": "Pack Executive",
+          "description": "Sièges confort, massage, climatisation quatre zones et pare-soleil.",
+          "priceExtra": 5000
+        },
+        {
+          "id": "driver-assistance-pro",
+          "name": "BMW Driving Assistance Pro",
+          "description": "Assistant de conduite semi-autonome avec changement de voie et manœuvres de stationnement.",
+          "priceExtra": 2500
+        }
+      ],
+      "usedGuide": {
+        "card1Title": "Budget recommandé",
+        "card1Items": [
+          "Entre 90 000 € et 110 000 € pour des unités de 1-2 ans",
+          "Vérifier l'historique de service officiel BMW",
+          "Écarter les voitures avec reprogrammations non garanties"
+        ],
+        "card2Title": "Vérifications obligatoires",
+        "card2Items": [
+          "État de la batterie haute tension et garantie",
+          "Usure des freins et pneus",
+          "Fonctionnement du système hybride et recharge"
+        ],
+        "card3Title": "Signaux d'alerte",
+        "card3Items": [
+          "Kilométrage très faible avec de nombreux cycles de charge (usage urbain intensif)",
+          "Chocs sur le châssis ou structure en aluminium",
+          "Absence de mises à jour logicielles BMW"
+        ],
+        "card4Title": "Meilleur endroit pour acheter",
+        "card4Items": [
+          "Concessionnaire BMW officiel avec garantie occasion approuvée",
+          "Plateformes de vente entre particuliers avec inspection mécanique"
+        ]
+      },
+      "versions": {
+        "base": {
+          "es": "Versión base con 727 HP, tracción M xDrive y equipamiento completo.",
+          "en": "Base version with 727 hp, M xDrive and full equipment.",
+          "fr": "Version de base avec 727 ch, M xDrive et équipement complet.",
+          "ar": "النسخة الأساسية بقوة 727 حصان ودفع M xDrive وتجهيز كامل."
+        },
+        "competition": {
+          "es": "M5 Competition con ajustes más deportivos y opciones de carbono.",
+          "en": "M5 Competition with sportier settings and carbon options.",
+          "fr": "M5 Competition avec réglages plus sportifs et options carbone.",
+          "ar": "M5 Competition مع إعدادات أكثر رياضية وخيارات كربون."
+        },
+        "cs": {
+          "es": "M5 CS con 750 HP, construcción ligera y edición limitada.",
+          "en": "M5 CS with 750 hp, lightweight construction and limited edition.",
+          "fr": "M5 CS avec 750 ch, construction légère et édition limitée.",
+          "ar": "M5 CS بقوة 750 حصان وبناء خفيف ونسخة محدودة."
+        }
+      },
+      "dep": {
+        "es": "El M5 PHEV puede perder alrededor del 35-40 % de su valor en 3 años, dependiendo del equipamiento y kilometraje.",
+        "en": "The M5 PHEV may lose around 35-40% of its value in 3 years, depending on equipment and mileage.",
+        "fr": "La M5 PHEV peut perdre environ 35-40 % de sa valeur en 3 ans, selon l'équipement et le kilométrage.",
+        "ar": "قد تخسر M5 PHEV حوالي 35-40% من قيمتها في 3 سنوات، حسب التجهيزات والميلومتراج."
+      },
+      "scoreDesc": "La BMW M5 PHEV obtient une note globale de 9,0/10 grâce à sa puissance, sa technologie et son confort, bien que les coûts d'usage soient élevés.",
+      "worthDesc": "Oui. La BMW M5 PHEV combine performances, technologie et confort en une seule voiture."
+    },
+    "ar": {
+      "review": "تمثل BMW M5 PHEV التطور النهائي للسيدان الرياضي من BMW. تحت الغطاء يوجد محرك V8 4.4 لتر توين تيربو مزود بمحرك كهربائي، ينتج قوة مجتمعة 727 حصان و 1,000 نيوتن متر عزم. يتم التسارع من 0 إلى 100 كم/س في 3.5 ثانية وتصل السرعة القصوى إلى 305 كم/س. يوفر هيكل M والدفع M xDrive والتعليق التكيفي M توازنًا بين الراحة والرياضية. الداخل هو ملاذ تقني مع BMW Operating System 8.5 وشاشة منحنية ولمسات فاخرة. تشمل العيوب وزنًا يتجاوز 2 طن واستهلاكًا مرتفعًا في الوضع الهجين وسعر بداية يقترب من 150,000 يورو. لمن يبحث عن سيدان تفعل كل شيء على مستوى ممتاز، M5 PHEV خيار صعب التفوق عليه.",
+      "pros": [
+        "تسارع وحشي وقوة وفيرة",
+        "داخل تقني ومريح",
+        "دفع M xDrive الرباعي لأي ظرف",
+        "القيادة الكهربائية اليومية ممكنة (حتى 40 كم)"
+      ],
+      "cons": [
+        "وزن يتجاوز 2 طن",
+        "سعر بداية مرتفع جدًا",
+        "تكاليف الصيانة والإطارات مرتفعة"
+      ],
+      "verdict": "نعم. تجمع BMW M5 PHEV بين الأداء والتقنية والراحة في سيارة واحدة.",
+      "timeline": [
+        {
+          "km": 15000,
+          "title": "خدمة متوسطة",
+          "desc": "تغيير الزيت والفلاتر وفحص الفرامل والإطارات.",
+          "cost": "950 €"
+        },
+        {
+          "km": 30000,
+          "title": "خدمة كبرى",
+          "desc": "زيت، فلاتر، بواجي، سوائل وفحص التعليق.",
+          "cost": "2.400 €"
+        },
+        {
+          "km": 45000,
+          "title": "ناقل الحركة والتفاضلي",
+          "desc": "تغيير زيت علبة التروس والتفاضلي، فحص الفرامل.",
+          "cost": "1.800 €"
+        },
+        {
+          "km": 60000,
+          "title": "إطارات وأحزمة",
+          "desc": "مجموعة إطارات رياضية وفحص مكونات المحرك.",
+          "cost": "2.800 €"
+        },
+        {
+          "km": 90000,
+          "title": "خدمة كبرى",
+          "desc": "فحص عميق للمحرك وناقل الحركة والنظام الكهربائي عالي الجهد.",
+          "cost": "4.500 €"
+        }
+      ],
+      "faq": [
+        {
+          "question": "ما هو سعر BMW M5 PHEV 2026؟",
+          "answer": "سعر BMW M5 PHEV 2026 في {{country}} يبدأ من {{priceNew}} للنسخة الأساسية."
+        },
+        {
+          "question": "ما هو محرك BMW M5 PHEV؟",
+          "answer": "BMW M5 PHEV لديها محرك V8 4.4 توين تيربو بالإضافة إلى محرك كهربائي، بقوة 727 حصان و 1,000 نيوتن متر عزم."
+        },
+        {
+          "question": "هل BMW M5 PHEV موثوقة؟",
+          "answer": "نعم، إذا تم صيانتها بشكل صحيح وفقًا لبرنامج BMW الرسمي وفحص النظام الهجين."
+        },
+        {
+          "question": "ما هو استهلاك BMW M5 PHEV؟",
+          "answer": "متوسط الاستهلاك الفعلي حوالي 11.5 لتر/100 كم في الاستخدام المختلط، مع ما يصل إلى 40 كم من المدى الكهربائي."
+        },
+        {
+          "question": "هل يستحق الشراء المستعمل؟",
+          "answer": "يعتمد على الحالة والميلومتراج. تحقق دائمًا من سجل الصيانة والنظام الهجين."
+        },
+        {
+          "question": "ما هي المنافسين الذين يجب أن أعتبرهم؟",
+          "answer": "المنافسون الرئيسيون هم {{car1}} و {{car2}} و {{car3}}."
+        },
+        {
+          "question": "هل هو مناسب للاستخدام اليومي؟",
+          "answer": "نعم، M5 PHEV مريحة وعملية للاستخدام اليومي، مع خمس مقاعد وصندوق جيد."
+        }
+      ],
+      "options": [
+        {
+          "id": "carbon-ceramic-brakes",
+          "name": "فرامل M كربون-سيراميك",
+          "description": "أقراص كربون-سيراميك بمقاومة أعلى للتآكل ووزن أقل.",
+          "priceExtra": 12000
+        },
+        {
+          "id": "executive-pack",
+          "name": "باقة Executive",
+          "description": "مقاعد مريحة، تدليك، تكييف رباعي المناطق وستائر شمسية.",
+          "priceExtra": 5000
+        },
+        {
+          "id": "driver-assistance-pro",
+          "name": "BMW Driving Assistance Pro",
+          "description": "مساعد قيادة شبه ذاتي مع تغيير المسار وحركات الوقوف.",
+          "priceExtra": 2500
+        }
+      ],
+      "usedGuide": {
+        "card1Title": "الميزانية الموصى بها",
+        "card1Items": [
+          "بين 90,000 و 110,000 يورو للسيارات بعمر 1-2 سنة",
+          "تحقق من سجل خدمة BMW الرسمي",
+          "تجنب السيارات المعدلة بدون ضمان"
+        ],
+        "card2Title": "فحوصات إلزامية",
+        "card2Items": [
+          "حالة بطارية الجهد العالي والضمان",
+          "تآكل الفرامل والإطارات",
+          "عمل النظام الهجين والشحن"
+        ],
+        "card3Title": "علامات التحذير",
+        "card3Items": [
+          "ميلومتراج منخفض جدًا مع العديد من دورات الشحن (استخدام مدني مكثف)",
+          "أضرار في الهيكل أو الهيكل الألومنيومي",
+          "عدم وجود تحديثات برمجيات BMW"
+        ],
+        "card4Title": "أفضل مكان للشراء",
+        "card4Items": [
+          "وكيل BMW الرسمي مع ضمان السيارات المستعملة المعتمد",
+          "منصات البيع بين الأفراد مع فحص ميكانيكي"
+        ]
+      },
+      "versions": {
+        "base": {
+          "es": "Versión base con 727 HP, tracción M xDrive y equipamiento completo.",
+          "en": "Base version with 727 hp, M xDrive and full equipment.",
+          "fr": "Version de base avec 727 ch, M xDrive et équipement complet.",
+          "ar": "النسخة الأساسية بقوة 727 حصان ودفع M xDrive وتجهيز كامل."
+        },
+        "competition": {
+          "es": "M5 Competition con ajustes más deportivos y opciones de carbono.",
+          "en": "M5 Competition with sportier settings and carbon options.",
+          "fr": "M5 Competition avec réglages plus sportifs et options carbone.",
+          "ar": "M5 Competition مع إعدادات أكثر رياضية وخيارات كربون."
+        },
+        "cs": {
+          "es": "M5 CS con 750 HP, construcción ligera y edición limitada.",
+          "en": "M5 CS with 750 hp, lightweight construction and limited edition.",
+          "fr": "M5 CS avec 750 ch, construction légère et édition limitée.",
+          "ar": "M5 CS بقوة 750 حصان وبناء خفيف ونسخة محدودة."
+        }
+      },
+      "dep": {
+        "es": "El M5 PHEV puede perder alrededor del 35-40 % de su valor en 3 años, dependiendo del equipamiento y kilometraje.",
+        "en": "The M5 PHEV may lose around 35-40% of its value in 3 years, depending on equipment and mileage.",
+        "fr": "La M5 PHEV peut perdre environ 35-40 % de sa valeur en 3 ans, selon l'équipement et le kilométrage.",
+        "ar": "قد تخسر M5 PHEV حوالي 35-40% من قيمتها في 3 سنوات، حسب التجهيزات والميلومتراج."
+      },
+      "scoreDesc": "تحصل BMW M5 PHEV على تقييم عام 9.0/10 بفضل قوتها وتقنيتها وراحتها، على الرغم من أن تكاليف التشغيل مرتفعة.",
+      "worthDesc": "نعم. تجمع BMW M5 PHEV بين الأداء والتقنية والراحة في سيارة واحدة."
+    }
+  },
+  "countryPricing": {
+    "us": {
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "flag": "🇺🇸",
+      "rivalAmg": 25650,
+      "maintenance": 1500,
+      "used3Range": "69,483 - 76,797 USD",
+      "fuelDefault": 350,
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          134390
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          131364
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          130857
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          133882
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          132847
+        ]
+      ],
+      "pricePerformance": 133900,
+      "inspection": 50,
+      "oilChange": 250,
+      "dep5": 54855,
+      "currency": "USD",
+      "priceNew": 121900,
+      "depAnnual": {
+        "used3": 16253,
+        "new": 24380,
+        "used5": 13409
+      },
+      "fuelMax": 500,
+      "options": [
+        4185,
+        999,
+        8370,
+        2092,
+        3105,
+        0,
+        5535,
+        1620
+      ],
+      "tyres": 1000,
+      "locale": "en-US",
+      "fuelMetric": false,
+      "insurance": 2194,
+      "fuelStep": 5,
+      "fuelMin": 250,
+      "dep3": 73140,
+      "priceCarbon": 145000,
+      "used5Range": "52,112 - 57,598 USD",
+      "name": "United States",
+      "rivalM5": 23625,
+      "roadTax": 61,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "flag": "🇮🇹",
+      "rivalAmg": 28120,
+      "maintenance": 2500,
+      "used3Range": "70,292 - 77,692 EUR",
+      "fuelDefault": 185,
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          150800
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          150770
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          150760
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          150750
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          150740
+        ]
+      ],
+      "pricePerformance": 134000,
+      "inspection": 120,
+      "oilChange": 300,
+      "dep5": 55494,
+      "currency": "EUR",
+      "priceNew": 123320,
+      "depAnnual": {
+        "used3": 16443,
+        "new": 24664,
+        "used5": 13565
+      },
+      "fuelMax": 230,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1400,
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "insurance": 2220,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 73992,
+      "priceCarbon": 147000,
+      "used5Range": "52,719 - 58,269 EUR",
+      "name": "Italia",
+      "rivalM5": 25900,
+      "roadTax": 450,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "fiscalHead": [
+        "Región",
+        "Impuesto matriculación",
+        "ITV",
+        "Precio final"
+      ],
+      "flag": "🇪🇸",
+      "rivalAmg": 28120,
+      "maintenance": 2000,
+      "used3Range": "71,132 - 78,620 EUR",
+      "fuelDefault": 165,
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          151380
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          151420
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          151350
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          151400
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          151360
+        ]
+      ],
+      "pricePerformance": 135000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 56157,
+      "currency": "EUR",
+      "priceNew": 124793,
+      "depAnnual": {
+        "used3": 16639,
+        "new": 24959,
+        "used5": 13727
+      },
+      "fuelMax": 200,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "insurance": 2246,
+      "fuelStep": 5,
+      "fuelMin": 140,
+      "dep3": 74876,
+      "priceCarbon": 148000,
+      "used5Range": "53,349 - 58,965 EUR",
+      "name": "España",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "fiscalHead": [
+        "Région",
+        "Malus CO₂",
+        "Carte grise",
+        "Prix final"
+      ],
+      "flag": "🇫🇷",
+      "rivalAmg": 28120,
+      "maintenance": 3100,
+      "used3Range": "77,378 - 85,523 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          163250
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          163220
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          163210
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          163200
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          163190
+        ]
+      ],
+      "pricePerformance": 147000,
+      "inspection": 90,
+      "oilChange": 340,
+      "dep5": 61088,
+      "currency": "EUR",
+      "priceNew": 135750,
+      "depAnnual": {
+        "used3": 18100,
+        "new": 27150,
+        "used5": 14932
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1550,
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "insurance": 2444,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 81450,
+      "priceCarbon": 160000,
+      "used5Range": "58,034 - 64,142 EUR",
+      "name": "France",
+      "rivalM5": 25900,
+      "roadTax": 68,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇲🇦",
+      "rivalAmg": 304000,
+      "maintenance": 11667,
+      "used3Range": "831,250 - 918,750 MAD",
+      "fuelDefault": 1150,
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          1750200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          1750180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          1750160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          1750150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          1750170
+        ]
+      ],
+      "pricePerformance": 1580000,
+      "inspection": 100,
+      "oilChange": 200,
+      "dep5": 656250,
+      "currency": "MAD",
+      "priceNew": 1458333,
+      "depAnnual": {
+        "used3": 194444,
+        "new": 291667,
+        "used5": 160417
+      },
+      "fuelMax": 1400,
+      "options": [
+        49600,
+        11840,
+        99200,
+        24800,
+        36800,
+        0,
+        65600,
+        19200
+      ],
+      "tyres": 6562,
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "insurance": 26250,
+      "fuelStep": 10,
+      "fuelMin": 1000,
+      "dep3": 875000,
+      "priceCarbon": 1720000,
+      "used5Range": "623,438 - 689,063 MAD",
+      "name": "المغرب",
+      "rivalM5": 280000,
+      "roadTax": 729,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer/Jahr",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "flag": "🇩🇪",
+      "rivalAmg": 28120,
+      "maintenance": 2900,
+      "used3Range": "69,550 - 76,871 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          145580
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          145620
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          145550
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          145600
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          145560
+        ]
+      ],
+      "pricePerformance": 132000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 54908,
+      "currency": "EUR",
+      "priceNew": 122017,
+      "depAnnual": {
+        "used3": 16269,
+        "new": 24403,
+        "used5": 13422
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "insurance": 2200,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 73210,
+      "priceCarbon": 145000,
+      "used5Range": "52,163 - 57,653 EUR",
+      "name": "Deutschland",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇦🇪",
+      "rivalAmg": 108300,
+      "maintenance": 4343,
+      "used3Range": "309,428 - 342,000 AED",
+      "fuelDefault": 280,
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          570300
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          570280
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          570250
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          570220
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          570200
+        ]
+      ],
+      "pricePerformance": 590000,
+      "inspection": 100,
+      "oilChange": 350,
+      "dep5": 244286,
+      "currency": "AED",
+      "priceNew": 542857,
+      "depAnnual": {
+        "used3": 72381,
+        "new": 108571,
+        "used5": 59714
+      },
+      "fuelMax": 350,
+      "options": [
+        17670,
+        4218,
+        35340,
+        8835,
+        13110,
+        0,
+        23370,
+        6840
+      ],
+      "tyres": 2443,
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "insurance": 9771,
+      "fuelStep": 5,
+      "fuelMin": 200,
+      "dep3": 325714,
+      "priceCarbon": 640000,
+      "used5Range": "232,072 - 256,500 AED",
+      "name": "الإمارات",
+      "rivalM5": 99750,
+      "roadTax": 271,
+      "exchangeRateEUR": 3.97
+    },
+    "gb": {
+      "fiscalHead": [
+        "Region",
+        "Road Tax",
+        "MOT",
+        "Final Price"
+      ],
+      "flag": "🇬🇧",
+      "rivalAmg": 23750,
+      "maintenance": 1800,
+      "used3Range": "52,488 - 58,013 GBP",
+      "fuelDefault": 150,
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          110555
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          110555
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          110555
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          110555
+        ]
+      ],
+      "pricePerformance": 100000,
+      "inspection": 55,
+      "oilChange": 280,
+      "dep5": 41437,
+      "currency": "GBP",
+      "priceNew": 92083,
+      "depAnnual": {
+        "used3": 12278,
+        "new": 18417,
+        "used5": 10129
+      },
+      "fuelMax": 200,
+      "options": [
+        3875,
+        925,
+        7750,
+        1938,
+        2875,
+        0,
+        5125,
+        1500
+      ],
+      "tyres": 1200,
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "insurance": 1657,
+      "fuelStep": 5,
+      "fuelMin": 120,
+      "dep3": 55250,
+      "priceCarbon": 110000,
+      "used5Range": "39,365 - 43,509 GBP",
+      "name": "United Kingdom",
+      "rivalM5": 21875,
+      "roadTax": 165,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇸🇦",
+      "rivalAmg": 110200,
+      "maintenance": 4261,
+      "used3Range": "303,602 - 335,560 SAR",
+      "fuelDefault": 230,
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          612730
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          612710
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          612690
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          612700
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          612680
+        ]
+      ],
+      "pricePerformance": 580000,
+      "inspection": 100,
+      "oilChange": 300,
+      "dep5": 239686,
+      "currency": "SAR",
+      "priceNew": 532635,
+      "depAnnual": {
+        "used3": 71018,
+        "new": 106527,
+        "used5": 58590
+      },
+      "fuelMax": 300,
+      "options": [
+        17980,
+        4292,
+        35960,
+        8990,
+        13340,
+        0,
+        23780,
+        6960
+      ],
+      "tyres": 2397,
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "insurance": 9587,
+      "fuelStep": 5,
+      "fuelMin": 180,
+      "dep3": 319581,
+      "priceCarbon": 630000,
+      "used5Range": "227,702 - 251,670 SAR",
+      "name": "السعودية",
+      "rivalM5": 101500,
+      "roadTax": 266,
+      "exchangeRateEUR": 4
+    }
+  },
+  "options": [
+    {
+      "id": "m-driver's-package",
+      "name": "M Driver's Package",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "high",
+      "nameAr": "أم قيادة'إس باقة"
+    },
+    {
+      "id": "m-sport-exhaust",
+      "name": "M Sport Exhaust",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "أم سبورت عادم"
+    },
+    {
+      "id": "m-carbon-ceramic-brakes",
+      "name": "M Carbon Ceramic Brakes",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "neutral",
+      "nameAr": "أم كربون فرامل سيراميك"
+    },
+    {
+      "id": "bowers--wilkins-diamond",
+      "name": "Bowers & Wilkins Diamond",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "باورز آند ويلكينز دايموند"
+    },
+    {
+      "id": "m-carbon-exterior-package",
+      "name": "M Carbon Exterior Package",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "high",
+      "nameAr": "أم كربون خارجية باقة"
+    },
+    {
+      "id": "asientos-traseros",
+      "name": "Asientos traseros",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "low",
+      "nameAr": "مقاعد خلفية"
+    },
+    {
+      "id": "m-shadow-line",
+      "name": "M Shadow Line",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "أم خط شادو"
+    },
+    {
+      "id": "techo-solar-panorámico",
+      "name": "Techo solar panorámico",
+      "price": {
+        "value": 0,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "neutral",
+      "nameAr": "سقف بانورامي"
+    }
+  ],
+  "problems": {
+    "es": [
+      "Cadena de distribución: elongación a los 80.000 km",
+      "Caja ZF 8HP: tirones en frío (bloqueo convertidor)",
+      "Turbo híbrido: costoso si falla (más de 8.000 €)",
+      "Frenos carbocerámicos: desgaste prematuro en ciudad",
+      "Suspensión trasera: bujes de goma a los 60.000 km"
+    ],
+    "en": [
+      "Timing chain: elongation at 80,000 km",
+      "ZF 8HP transmission: cold jerks (converter lockup)",
+      "Hybrid turbo: expensive if it fails (over €8,000)",
+      "Carbon-ceramic brakes: premature wear in city",
+      "Rear suspension: rubber bushings at 60,000 km"
+    ],
+    "fr": [
+      "Chaîne de distribution : élongation à 80 000 km",
+      "Boîte ZF 8HP : à-coups à froid (blocage convertisseur)",
+      "Turbo hybride : coûteux en cas de panne (plus de 8 000 €)",
+      "Freins carbo-céramiques : usure prématurée en ville",
+      "Suspension arrière : silent-blocs caoutchouc à 60 000 km"
+    ],
+    "ar": [
+      "سير التوقيت: تمطيط عند 80,000 كم",
+      "ناقل الحركة زد إف 8 إتش بي: ارتجاجات عند البرد (قفل المحول)",
+      "توربين هجين: مكلف إذا تعطل (أكثر من 8,000 يورو)",
+      "فرامل كربون-سيراميك: تآكل مبكر في المدينة",
+      "التعليق الخلفي: بوشات مطاطية عند 60,000 كم"
+    ]
+  },
+  "rating": {
+    "overall": 9,
+    "performance": 9.7,
+    "comfort": 9,
+    "technology": 9.3,
+    "design": 9.2,
+    "value": 8.3,
+    "reliability": 8.5
+  },
+  "nextYear": 2027,
+  "comparisons": [
+    {
+      "id": "audi-rs7",
+      "name": "Audi RS7",
+      "fullName": "Audi RS7 Sportback",
+      "slug": "rs7",
+      "relation": "competitor",
+      "nameAr": "أودي آر إس 7",
+      "fullNameAr": "أودي آر إس 7 سبورتباك"
+    },
+    {
+      "id": "mercedes-amg-gt",
+      "name": "Mercedes-AMG GT",
+      "fullName": "Mercedes-AMG GT 4-Door",
+      "slug": "mercedes-amg-gt",
+      "relation": "competitor",
+      "nameAr": "مرسيدس-أي أم جي جي تي",
+      "fullNameAr": "مرسيدس-أي أم جي جي تي 4 أبواب"
+    }
+  ],
+  "ownership": {
+    "es": {
+      "dailyUsability": "Berlina de 5 plazas con tracción total y modos de conducción adaptativos. Cómodo para viajes largos y usable a diario.",
+      "reliability": "Buena fiabilidad general si se sigue el mantenimiento oficial. El sistema híbrido añade complejidad y costes de reparación elevados.",
+      "longTrips": "Excelente para autopista: confort, potencia de adelantamiento y autonomía híbrida. Maletero de 466 L.",
+      "cityDriving": "Manejable en ciudad a pesar del tamaño. El modo eléctrico permite desplazamientos cortos sin emisiones.",
+      "commonIssues": [
+        {
+          "issue": "Desgaste prematuro de neumáticos traseros por el alto par y la tracción total",
+          "frequency": "common",
+          "cost": "1.800 € cada 15.000-20.000 km"
+        },
+        {
+          "issue": "Ruido de la suspensión adaptativa M en frío durante los primeros segundos",
+          "frequency": "occasional",
+          "cost": "Normalmente resuelto con lubricación, ~150 €"
+        },
+        {
+          "issue": "Problemas menores con BMW OS tras actualizaciones de software",
+          "frequency": "occasional",
+          "cost": "Resuelto por garantía o actualización OTA"
+        }
+      ],
+      "ownerReviews": [
+        {
+          "quote": "Llevo 40.000 km con mi M5 y sigue emocionándome cada vez que arranco. El consumo es alto, pero la sonrisa que me saca vale cada céntimo.",
+          "author": "Marcus T.",
+          "location": "Munich, Alemania",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Lo utilizo para viajes de negocios y escapadas de fin de semana. En modo Comfort es tan silencioso como un Serie 7, pero presionas M Mode y se transforma.",
+          "author": "Sophie L.",
+          "location": "Lyon, Francia",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "satisfactionRating": 9.2
+    },
+    "en": {
+      "dailyUsability": "5-seat sedan with AWD and adaptive driving modes. Comfortable for long trips and daily use.",
+      "reliability": "Good overall reliability if official maintenance is followed. The hybrid system adds complexity and high repair costs.",
+      "longTrips": "Excellent for highway: comfort, overtaking power and hybrid range. 466 L trunk.",
+      "cityDriving": "Manageable in city despite size. Electric mode allows short zero-emission trips.",
+      "commonIssues": [
+        {
+          "issue": "Premature rear tyre wear due to high torque and all-wheel drive",
+          "frequency": "common",
+          "cost": "€1,800 every 15,000-20,000 km"
+        },
+        {
+          "issue": "M adaptive suspension noise when cold during the first seconds",
+          "frequency": "occasional",
+          "cost": "Usually resolved with lubrication, ~€150"
+        },
+        {
+          "issue": "Minor BMW OS glitches after software updates",
+          "frequency": "occasional",
+          "cost": "Resolved under warranty or via OTA update"
+        }
+      ],
+      "ownerReviews": [
+        {
+          "quote": "I have covered 40,000 km with my M5 and it still excites me every time I start it. Fuel consumption is high, but the smile it puts on my face is worth every cent.",
+          "author": "Marcus T.",
+          "location": "Munich, Germany",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "I use it for business trips and weekend getaways. In Comfort mode it is as quiet as a 7 Series, but press M Mode and it transforms.",
+          "author": "Sophie L.",
+          "location": "Lyon, France",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "satisfactionRating": 9.2
+    },
+    "fr": {
+      "ownerReviews": [
+        {
+          "quote": "J'ai parcouru 40 000 km avec ma M5 et elle m'excite encore à chaque démarrage. La consommation est élevée, mais le sourire qu'elle me procure vaut chaque centime.",
+          "author": "Marcus T.",
+          "location": "Munich, Allemagne",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Je l'utilise pour les voyages d'affaires et les escapades de week-end. En mode Comfort, elle est aussi silencieuse qu'une Série 7, mais appuyez sur M Mode et elle se transforme.",
+          "author": "Sophie L.",
+          "location": "Lyon, France",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Usure prématurée des pneus arrière due au couple élevé et à la transmission intégrale",
+          "frequency": "common",
+          "cost": "1 800 € tous les 15 000-20 000 km"
+        },
+        {
+          "issue": "Bruits de suspension adaptative M à froid pendant les premières secondes",
+          "frequency": "occasional",
+          "cost": "Généralement résolu par lubrification, ~150 €"
+        },
+        {
+          "issue": "Pannes mineures de BMW OS après mises à jour logicielles",
+          "frequency": "occasional",
+          "cost": "Résolu sous garantie ou par mise à jour OTA"
+        }
+      ],
+      "satisfactionRating": 9.2,
+      "dailyUsability": "Berline 5 places à transmission intégrale et modes de conduite adaptatifs. Confortable pour les longs trajets et utilisable au quotidien.",
+      "reliability": "Bonne fiabilité générale si l'entretien officiel est suivi. Le système hybride ajoute de la complexité et des coûts de réparation élevés.",
+      "longTrips": "Excellent pour autoroute : confort, puissance de dépassement et autonomie hybride. Coffre de 466 L.",
+      "cityDriving": "Maniœuvrable en ville malgré la taille. Le mode électrique permet des déplacements courts sans émissions."
+    },
+    "ar": {
+      "ownerReviews": [
+        {
+          "quote": "قطعت 40,000 كم مع أم 5 الخاصة بي وما زالت تثيرني في كل مرة أشغلها. استهلاك الوقود مرتفع، لكن الابتسامة التي ترسمها على وجهي تستحق كل سنت.",
+          "author": "ماركوس",
+          "location": "ميونخ، ألمانيا",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "أستخدمها للرحلات العمل والعطلات الأسبوعية. في وضع الراحة، هي هادئة مثل السلسلة 7، لكن اضغط وضع أم وتتحول.",
+          "author": "صوفي",
+          "location": "ليون، فرنسا",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "تآكل مبكر للإطارات الخلفية بسبب العزم العالي والدفع الرباعي",
+          "frequency": "شائع",
+          "cost": "1,800 يورو كل 15,000-20,000 كم"
+        },
+        {
+          "issue": "ضوضاء التعليق التكيفي أم في البرودة خلال الثواني الأولى",
+          "frequency": "متوسط",
+          "cost": "عادة ما يُحل بالتشحيم، ~150 يورو"
+        },
+        {
+          "issue": "مشاكل طفيفة في بي إم دبليو أو إس بعد تحديثات البرمجيات",
+          "frequency": "متوسط",
+          "cost": "يُحل بموجب الضمان أو عبر تحديث عبر الهواء"
+        }
+      ],
+      "satisfactionRating": 9.2,
+      "dailyUsability": "سيدان 5 مقاعد بدفع رباعي وأوضاع قيادة تكيفية. مريحة للرحلات الطويلة وعملية للاستخدام اليومي.",
+      "reliability": "موثوقية جيدة بشكل عام إذا تم اتباع الصيانة الرسمية. النظام الهجين يضيف تعقيداً وتكاليف إصلاح مرتفعة.",
+      "longTrips": "ممتازة للطرق السريعة: راحة وقوة تجاوز ومدى هجين. صندوق 466 لتر.",
+      "cityDriving": "قابلة للمناورة في المدينة رغم حجمها. الوضع الكهربائي يسمح بالتنقلات القصيرة دون انبعاثات."
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 20 (máximo)",
+        "uk": "Grupo 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Aproximadamente 700 €/año en función de la comunidad autónoma",
+        "uk": "£2.745 primer año, £600 siguientes años"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 950,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2400,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/40 ZR20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "295/35 ZR21",
+          "costPerTyre": {
+            "value": 420,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Gasolina 98 RON / carga eléctrica",
+        "tankCapacity": {
+          "value": 70,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 11.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 20 (maximum)",
+        "uk": "Group 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Approximately €700/year depending on autonomous community",
+        "uk": "£2,745 first year, £600 subsequent years"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 950,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2400,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/40 ZR20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "295/35 ZR21",
+          "costPerTyre": {
+            "value": 420,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Petrol 98 RON / electric charge",
+        "tankCapacity": {
+          "value": 70,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 11.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "fr": {
+      "insuranceGroups": {
+        "spain": "Groupe 20 (maximum)",
+        "uk": "Groupe 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Environ 700 €/an selon la communauté autonome",
+        "uk": "£2 745 première année, £600 années suivantes"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 950,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2400,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/40 ZR20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "295/35 ZR21",
+          "costPerTyre": {
+            "value": 420,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Essence 98 RON / charge électrique",
+        "tankCapacity": {
+          "value": 70,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 11.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "ar": {
+      "insuranceGroups": {
+        "spain": "المجموعة 20 (الحد الأقصى)",
+        "uk": "المجموعة 50",
+        "germany": "تي كي 25"
+      },
+      "roadTax": {
+        "spain": "حوالي 700 €/سنة حسب المجتمع الذاتي",
+        "uk": "£2.745 طبقة أساس سنة, £600 التالية سنوات"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 950,
+          "currency": "يورو"
+        },
+        "costMajor": {
+          "value": 2400,
+          "currency": "يورو"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/40 ZR20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "يورو"
+          }
+        },
+        "rear": {
+          "size": "295/35 ZR21",
+          "costPerTyre": {
+            "value": 420,
+            "currency": "يورو"
+          }
+        }
+      },
+      "fuel": {
+        "type": "بنزين 98 أوكتان / شحن كهربائي",
+        "tankCapacity": {
+          "value": 70,
+          "unit": "لتر"
+        },
+        "realWorldCombined": {
+          "value": 11.5,
+          "unit": "ل/100 كم"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "El BMW M5 PHEV obtiene una valoración global de 9.0/10 gracias a su potencia, tecnología y confort, aunque los costes de uso son elevados.",
+      "worthDesc": "Sí. El BMW M5 PHEV combina prestaciones, tecnología y confort en un solo coche.",
+      "reviewText": "El {{fullModelName}} redefine la berlina deportiva con un sistema híbrido de 727 HP. Su V8 biturbo de 4.4 litros trabaja junto a un motor eléctrico para ofrecer aceleración de 3.5 s en 0-100 km/h y una velocidad máxima de 305 km/h. El interior combina materiales premium con la última tecnología BMW.",
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "timeline": [
+        {
+          "title": "Revisión intermedia",
+          "desc": "Cambio de aceite, filtros, revisión de frenos y neumáticos."
+        },
+        {
+          "title": "Gran servicio",
+          "desc": "Cambio de aceite, filtros, bujías, líquidos y revisión de suspensión."
+        },
+        {
+          "title": "Transmisión y diferencial",
+          "desc": "Cambio de aceites de caja y diferencial, inspección de frenos."
+        },
+        {
+          "title": "Neumáticos y correas",
+          "desc": "Juego de neumáticos performance y revisión de componentes de motor."
+        },
+        {
+          "title": "Revisión mayor",
+          "desc": "Inspección profunda de motor, transmisión y sistema eléctrico de alto voltaje."
+        }
+      ],
+      "faq": {
+        "q1": "¿Cuál es el precio del BMW M5 PHEV 2026?",
+        "a1": "El precio del BMW M5 PHEV 2026 en {{country}} empieza desde los {{priceNew}} para la versión base.",
+        "q2": "¿Qué motor tiene el BMW M5 PHEV?",
+        "a2": "El BMW M5 PHEV monta un V8 4.4 biturbo más un motor eléctrico, con 727 HP y 1.000 Nm de par.",
+        "q3": "¿Es fiable el BMW M5 PHEV?",
+        "a3": "Sí, si se mantiene correctamente según el programa oficial BMW y se revisa el sistema híbrido.",
+        "q4": "¿Cuánto consume el BMW M5 PHEV?",
+        "a4": "El consumo medio real es de unos 11,5 L/100km en uso mixto, con hasta 40 km de autonomía eléctrica.",
+        "q5": "¿Vale la pena comprarlo de ocasión?",
+        "a5": "Depende del estado y kilometraje. Revisa siempre el historial de mantenimiento y el sistema híbrido.",
+        "q6": "¿Qué rivales debería considerar?",
+        "a6": "Los principales rivales son {{car1}}, {{car2}} y {{car3}}.",
+        "q7": "¿Es adecuado para uso diario?",
+        "a7": "Sí, el M5 PHEV es cómodo y práctico para uso diario, con cinco plazas y buen maletero."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Excelente para autopista",
+          "desc": "El M5 brilla en viajes largos: confort, potencia y consumo razonable a velocidad constante.",
+          "score": 9.5
+        },
+        "city": {
+          "title": "Cómodo en ciudad",
+          "desc": "El M5 funciona bien en ciudad, aunque su tamaño y peso pueden ser desventajas en aparcamientos estrechos.",
+          "score": 7.5
+        },
+        "family": {
+          "title": "Uso familiar",
+          "desc": "El M5 ofrece espacio para la familia y equipaje, con lujo y seguridad.",
+          "score": 8.5
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "El M5 es un coche atractivo para coleccionistas por su exclusividad y motor V8 híbrido.",
+          "score": 8
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "El M5 es rápido, aunque su peso y enfoque de gran turismo limitan su pureza en circuito.",
+          "score": 8.5
+        }
+      },
+      "usedGuide": {
+        "card1Title": "Presupuesto recomendado",
+        "card1Items": [
+          "Entre 90.000 € y 110.000 € para unidades de 1-2 años",
+          "Revisar historial de servicio oficial BMW",
+          "Descartar coches con reprogramaciones sin garantía"
+        ],
+        "card2Title": "Verificar obligatoriamente",
+        "card2Items": [
+          "Estado de la batería de alto voltaje y garantía",
+          "Desgaste de frenos y neumáticos",
+          "Funcionamiento del sistema híbrido y carga"
+        ],
+        "card3Title": "Señales de alerta",
+        "card3Items": [
+          "Kilometraje muy bajo con muchos ciclos de carga (uso urbano intenso)",
+          "Golpes en el chasis o estructura de aluminio",
+          "Falta de actualizaciones de software BMW"
+        ],
+        "card4Title": "Mejor lugar para comprar",
+        "card4Items": [
+          "Concesionario BMW oficial con garantía de vehículo de ocasión",
+          "Plataformas de venta entre particulares con inspección mecánica"
+        ]
+      },
+      "dep": "El M5 PHEV puede perder alrededor del 35-40 % de su valor en 3 años, dependiendo del equipamiento y kilometraje.",
+      "versions": {
+        "sportbackDesc": "M5 PHEV Competition con equilibrio entre rendimiento y confort.",
+        "performanceDesc": "Mayor potencia y equipamiento M Carbon opcional.",
+        "carbonDesc": "Versión con paquetes carbono y exclusividad premium.",
+        "m5competitionDesc": "M5 PHEV Competition con 727 HP y equilibrio entre rendimiento y confort.",
+        "base": "Versión base con 727 HP, tracción M xDrive y equipamiento completo.",
+        "competition": "M5 Competition con ajustes más deportivos y opciones de carbono.",
+        "cs": "M5 CS con 750 HP, construcción ligera y edición limitada."
+      },
+      "pros": [
+        "Aceleración brutal y potencia de sobra",
+        "Interior tecnológico y confortable",
+        "Tracción total M xDrive para cualquier condición",
+        "Posibilidad de uso eléctrico diario (hasta 40 km)"
+      ],
+      "cons": [
+        "Peso superior a 2 toneladas",
+        "Precio de partida muy elevado",
+        "Costes de mantenimiento y neumáticos elevados"
+      ]
+    },
+    "en": {
+      "scoreDesc": "The BMW M5 PHEV scores 9.0/10 overall thanks to its power, technology and comfort, although running costs are high.",
+      "worthDesc": "Yes. The BMW M5 PHEV combines performance, technology and comfort in a single car.",
+      "reviewText": "The {{fullModelName}} redefines the sports sedan with a 727 HP hybrid system. Its 4.4-liter twin-turbo V8 works with an electric motor to deliver 0-100 km/h in 3.5 s and a top speed of 305 km/h. The interior combines premium materials with the latest BMW technology.",
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "timeline": [
+        {
+          "title": "Intermediate service",
+          "desc": "Oil change, filters, brake and tire inspection."
+        },
+        {
+          "title": "Major service",
+          "desc": "Oil, filters, spark plugs, fluids and suspension check."
+        },
+        {
+          "title": "Transmission and differential",
+          "desc": "Gearbox and differential oil change, brake inspection."
+        },
+        {
+          "title": "Tires and belts",
+          "desc": "Performance tire set and engine component check."
+        },
+        {
+          "title": "Major overhaul",
+          "desc": "Deep inspection of engine, transmission and high-voltage electrical system."
+        }
+      ],
+      "faq": {
+        "q1": "What is the price of the BMW M5 PHEV 2026?",
+        "a1": "The price of the BMW M5 PHEV 2026 in {{country}} starts from {{priceNew}} for the base version.",
+        "q2": "What engine does the BMW M5 PHEV have?",
+        "a2": "The BMW M5 PHEV has a 4.4 twin-turbo V8 plus an electric motor, with 727 hp and 1,000 Nm of torque.",
+        "q3": "Is the BMW M5 PHEV reliable?",
+        "a3": "Yes, if properly maintained according to the official BMW program and the hybrid system is checked.",
+        "q4": "How much does the BMW M5 PHEV consume?",
+        "a4": "Average real consumption is about 11.5 L/100km in mixed use, with up to 40 km of electric range.",
+        "q5": "Is it worth buying used?",
+        "a5": "Depends on condition and mileage. Always check the maintenance history and the hybrid system.",
+        "q6": "What rivals should I consider?",
+        "a6": "The main rivals are {{car1}}, {{car2}} and {{car3}}.",
+        "q7": "Is it suitable for daily use?",
+        "a7": "Yes, the M5 PHEV is comfortable and practical for daily use, with five seats and a good boot."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Excellent for highway",
+          "desc": "The M5 shines on long trips: comfort, power and reasonable consumption at constant speed.",
+          "score": 9.5
+        },
+        "city": {
+          "title": "Comfortable in city",
+          "desc": "The M5 works well in the city, although its size and weight can be disadvantages in tight parking spaces.",
+          "score": 7.5
+        },
+        "family": {
+          "title": "Family use",
+          "desc": "The M5 offers space for family and luggage, with luxury and safety.",
+          "score": 8.5
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "The M5 is an attractive car for collectors due to its exclusivity and hybrid V8 engine.",
+          "score": 8
+        },
+        "track": {
+          "title": "Track",
+          "desc": "The M5 is fast, although its weight and grand-touring focus limit its track purity.",
+          "score": 8.5
+        }
+      },
+      "usedGuide": {
+        "card1Title": "Recommended budget",
+        "card1Items": [
+          "Between €90,000 and €110,000 for 1-2 year old units",
+          "Check official BMW service history",
+          "Discard cars with unverified tuning"
+        ],
+        "card2Title": "Mandatory checks",
+        "card2Items": [
+          "High-voltage battery condition and warranty",
+          "Brake and tyre wear",
+          "Hybrid system and charging operation"
+        ],
+        "card3Title": "Warning signs",
+        "card3Items": [
+          "Very low mileage with many charge cycles (intensive urban use)",
+          "Damage to chassis or aluminium structure",
+          "Missing BMW software updates"
+        ],
+        "card4Title": "Best place to buy",
+        "card4Items": [
+          "Official BMW dealer with approved used warranty",
+          "Private sale platforms with mechanical inspection"
+        ]
+      },
+      "dep": "The M5 PHEV may lose around 35-40% of its value in 3 years, depending on equipment and mileage.",
+      "versions": {
+        "sportbackDesc": "M5 PHEV Competition with balance between performance and comfort.",
+        "performanceDesc": "More power and optional M Carbon equipment.",
+        "carbonDesc": "Version with carbon packages and premium exclusivity.",
+        "m5competitionDesc": "M5 PHEV Competition with 727 HP and balance between performance and comfort.",
+        "base": "Base version with 727 hp, M xDrive and full equipment.",
+        "competition": "M5 Competition with sportier settings and carbon options.",
+        "cs": "M5 CS with 750 hp, lightweight construction and limited edition."
+      },
+      "pros": [
+        "Brutal acceleration and abundant power",
+        "Technological and comfortable interior",
+        "M xDrive all-wheel drive for any condition",
+        "Daily electric driving possible (up to 40 km)"
+      ],
+      "cons": [
+        "Weight above 2 tonnes",
+        "Very high starting price",
+        "High maintenance and tyre costs"
+      ]
+    },
+    "fr": {
+      "timeline": [
+        {
+          "title": "Service intermédiaire",
+          "desc": "Vidange d'huile, filtres, inspection des freins et pneus."
+        },
+        {
+          "title": "Grand service",
+          "desc": "Huile, filtres, bougies, liquides et vérification de la suspension."
+        },
+        {
+          "title": "Transmission et différentiel",
+          "desc": "Vidange des huiles de boîte et différentiel, inspection des freins."
+        },
+        {
+          "title": "Pneus et courroies",
+          "desc": "Jeu de pneus performance et vérification des composants moteur."
+        },
+        {
+          "title": "Révision majeure",
+          "desc": "Inspection approfondie du moteur, de la transmission et du système électrique haute tension."
+        }
+      ],
+      "scoreDesc": "La BMW M5 PHEV obtient une note globale de 9,0/10 grâce à sa puissance, sa technologie et son confort, bien que les coûts d'usage soient élevés.",
+      "worthDesc": "Oui. La BMW M5 PHEV combine performances, technologie et confort en une seule voiture.",
+      "profileData": {
+        "highway": {
+          "score": 9.5,
+          "title": "Excellent pour autoroute",
+          "desc": "La M5 brille sur les longs trajets : confort, puissance et consommation raisonnable à vitesse constante."
+        },
+        "city": {
+          "score": 7.5,
+          "title": "Confortable en ville",
+          "desc": "La M5 fonctionne bien en ville, bien que sa taille et son poids puissent être des inconvénients dans les parkings étroits."
+        },
+        "family": {
+          "score": 8.5,
+          "title": "Usage familial",
+          "desc": "La M5 offre de l'espace pour la famille et les bagages, avec du luxe et de la sécurité."
+        },
+        "collector": {
+          "score": 8,
+          "title": "Collectionneur",
+          "desc": "La M5 est une voiture attrayante pour les collectionneurs grâce à son exclusivité et son moteur V8 hybride."
+        },
+        "track": {
+          "score": 8.5,
+          "title": "Circuit",
+          "desc": "La M5 est rapide, bien que son poids et son orientation grand tourisme limitent sa pureté sur circuit."
+        }
+      },
+      "faq": {
+        "q1": "Quel est le prix de la BMW M5 PHEV 2026 ?",
+        "a1": "Le prix de la BMW M5 PHEV 2026 en {{country}} commence à partir de {{priceNew}} pour la version de base.",
+        "q2": "Quel moteur a la BMW M5 PHEV ?",
+        "a2": "La BMW M5 PHEV a un V8 4.4 biturbo plus un moteur électrique, avec 727 ch et 1 000 Nm de couple.",
+        "q3": "La BMW M5 PHEV est-elle fiable ?",
+        "a3": "Oui, si elle est correctement entretenue selon le programme officiel BMW et que le système hybride est vérifié.",
+        "q4": "Quelle consommation pour la BMW M5 PHEV ?",
+        "a4": "La consommation moyenne réelle est d'environ 11,5 L/100km en usage mixte, avec jusqu'à 40 km d'autonomie électrique.",
+        "q5": "Vaut-il le coup d'acheter d'occasion ?",
+        "a5": "Dépend de l'état et du kilométrage. Vérifiez toujours l'historique d'entretien et le système hybride.",
+        "q6": "Quels rivaux devrais-je considérer ?",
+        "a6": "Les principaux rivaux sont {{car1}}, {{car2}} et {{car3}}.",
+        "q7": "Est-il adapté à un usage quotidien ?",
+        "a7": "Oui, la M5 PHEV est confortable et pratique pour un usage quotidien, avec cinq places et un bon coffre."
+      },
+      "usedGuide": {
+        "card1Title": "Budget recommandé",
+        "card1Items": [
+          "Entre 90 000 € et 110 000 € pour des unités de 1-2 ans",
+          "Vérifier l'historique de service officiel BMW",
+          "Écarter les voitures avec reprogrammations non garanties"
+        ],
+        "card2Title": "Vérifications obligatoires",
+        "card2Items": [
+          "État de la batterie haute tension et garantie",
+          "Usure des freins et pneus",
+          "Fonctionnement du système hybride et recharge"
+        ],
+        "card3Title": "Signaux d'alerte",
+        "card3Items": [
+          "Kilométrage très faible avec de nombreux cycles de charge (usage urbain intensif)",
+          "Chocs sur le châssis ou structure en aluminium",
+          "Absence de mises à jour logicielles BMW"
+        ],
+        "card4Title": "Meilleur endroit pour acheter",
+        "card4Items": [
+          "Concessionnaire BMW officiel avec garantie occasion approuvée",
+          "Plateformes de vente entre particuliers avec inspection mécanique"
+        ]
+      },
+      "versions": {
+        "base": "Version de base avec 727 ch, M xDrive et équipement complet.",
+        "competition": "M5 Competition avec réglages plus sportifs et options carbone.",
+        "cs": "M5 CS avec 750 ch, construction légère et édition limitée.",
+        "sportbackDesc": "M5 PHEV Competition avec équilibre entre performance et confort.",
+        "performanceDesc": "Plus de puissance et équipement M Carbon optionnel.",
+        "carbonDesc": "Version avec paquets carbone et exclusivité premium.",
+        "m5competitionDesc": "M5 PHEV Competition avec 727 HP et équilibre entre performance et confort."
+      },
+      "dep": "La M5 PHEV peut perdre environ 35-40 % de sa valeur en 3 ans, selon l'équipement et le kilométrage.",
+      "pros": [
+        "Accélération brutale et puissance abondante",
+        "Intérieur technologique et confortable",
+        "M xDrive transmission intégrale pour toutes conditions",
+        "Conduite électrique quotidienne possible (jusqu'à 40 km)"
+      ],
+      "cons": [
+        "Poids supérieur à 2 tonnes",
+        "Prix de départ très élevé",
+        "Coûts d'entretien et de pneus élevés"
+      ],
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "reviewText": "La {{fullModelName}} redéfinit la berline sportive avec un système hybride de 727 HP. Son V8 biturbo de 4.4 litres travaille avec un moteur électrique pour offrir une accélération de 3.5 s de 0 à 100 km/h et une vitesse maximale de 305 km/h. L'intérieur combine matériaux premium et dernière technologie BMW."
+    },
+    "ar": {
+      "timeline": [
+        {
+          "title": "خدمة متوسطة",
+          "desc": "تغيير الزيت والفلاتر وفحص الفرامل والإطارات."
+        },
+        {
+          "title": "خدمة كبرى",
+          "desc": "زيت، فلاتر، بواجي، سوائل وفحص التعليق."
+        },
+        {
+          "title": "ناقل الحركة والتفاضلي",
+          "desc": "تغيير زيت علبة التروس والتفاضلي، فحص الفرامل."
+        },
+        {
+          "title": "إطارات وأحزمة",
+          "desc": "مجموعة إطارات رياضية وفحص مكونات المحرك."
+        },
+        {
+          "title": "خدمة كبرى",
+          "desc": "فحص عميق للمحرك وناقل الحركة والنظام الكهربائي عالي الجهد."
+        }
+      ],
+      "scoreDesc": "تحصل بي إم دبليو أم 5 هجينة على تقييم عام 9.0/10 بفضل قوتها وتقنيتها وراحتها، على الرغم من أن تكاليف التشغيل مرتفعة.",
+      "worthDesc": "نعم. تجمع بي إم دبليو أم 5 هجينة بين الأداء والتقنية والراحة في سيارة واحدة.",
+      "profileData": {
+        "highway": {
+          "score": 9.5,
+          "title": "ممتاز للطريق السريع",
+          "desc": "تتألق أم 5 في الرحلات الطويلة: راحة وقوة واستهلاك معقول بسرعة ثابتة."
+        },
+        "city": {
+          "score": 7.5,
+          "title": "مريح في المدينة",
+          "desc": "تعمل أم 5 بشكل جيد في المدينة، على الرغم من أن حجمها ووزنها قد يكونان عيوبًا في أماكن الوقوف الضيقة."
+        },
+        "family": {
+          "score": 8.5,
+          "title": "استخدام عائلي",
+          "desc": "توفر أم 5 مساحة للعائلة والأمتعة، مع الفخامة والأمان."
+        },
+        "collector": {
+          "score": 8,
+          "title": "جامع",
+          "desc": "تُعد أم 5 سيارة جذابة للمجمعين بفضل حصرية ومحرك 8 أسطوانات الهجين."
+        },
+        "track": {
+          "score": 8.5,
+          "title": "حلبة",
+          "desc": "تُعد أم 5 سريعة، لكن وزنها وتركيزها على جران توريزمو يحدان من نقائها في الحلبة."
+        }
+      },
+      "faq": {
+        "q1": "ما هو سعر بي إم دبليو أم 5 هجينة 2026؟",
+        "a1": "سعر بي إم دبليو أم 5 هجينة 2026 في {{country}} يبدأ من {{priceNew}} للنسخة الأساسية.",
+        "q2": "ما هو محرك بي إم دبليو أم 5 هجينة؟",
+        "a2": "بي إم دبليو أم 5 هجينة لديها محرك 8 أسطوانات 4.4 توين تيربو بالإضافة إلى محرك كهربائي، بقوة 727 حصان و 1,000 نيوتن متر عزم.",
+        "q3": "هل بي إم دبليو أم 5 هجينة موثوقة؟",
+        "a3": "نعم، إذا تم صيانتها بشكل صحيح وفقًا لبرنامج بي إم دبليو الرسمي وفحص النظام الهجين.",
+        "q4": "ما هو استهلاك بي إم دبليو أم 5 هجينة؟",
+        "a4": "متوسط الاستهلاك الفعلي حوالي 11.5 لتر/100 كم في الاستخدام المختلط، مع ما يصل إلى 40 كم من المدى الكهربائي.",
+        "q5": "هل يستحق الشراء المستعمل؟",
+        "a5": "يعتمد على الحالة والميلومتراج. تحقق دائمًا من سجل الصيانة والنظام الهجين.",
+        "q6": "ما هي المنافسين الذين يجب أن أعتبرهم؟",
+        "a6": "المنافسون الرئيسيون هم {{car1}} و {{car2}} و {{car3}}.",
+        "q7": "هل هو مناسب للاستخدام اليومي؟",
+        "a7": "نعم، أم 5 السيارة الهجينة القابلة للشحن مريحة وعملية للاستخدام اليومي، مع خمس مقاعد وصندوق جيد."
+      },
+      "usedGuide": {
+        "card1Title": "الميزانية الموصى بها",
+        "card1Items": [
+          "بين 90,000 و 110,000 يورو للسيارات بعمر 1-2 سنة",
+          "تحقق من سجل خدمة بي إم دبليو الرسمي",
+          "تجنب السيارات المعدلة بدون ضمان"
+        ],
+        "card2Title": "فحوصات إلزامية",
+        "card2Items": [
+          "حالة بطارية الجهد العالي والضمان",
+          "تآكل الفرامل والإطارات",
+          "عمل النظام الهجين والشحن"
+        ],
+        "card3Title": "علامات التحذير",
+        "card3Items": [
+          "ميلومتراج منخفض جدًا مع العديد من دورات الشحن (استخدام مدني مكثف)",
+          "أضرار في الهيكل أو الهيكل الألومنيومي",
+          "عدم وجود تحديثات برمجيات بي إم دبليو"
+        ],
+        "card4Title": "أفضل مكان للشراء",
+        "card4Items": [
+          "وكيل بي إم دبليو الرسمي مع ضمان السيارات المستعملة المعتمد",
+          "منصات البيع بين الأفراد مع فحص ميكانيكي"
+        ]
+      },
+      "versions": {
+        "base": "النسخة الأساسية بقوة 727 حصان ودفع أم إكس درايف وتجهيز كامل.",
+        "competition": "أم 5 كومبيتيشن مع إعدادات أكثر رياضية وخيارات كربون.",
+        "cs": "أم 5 سي أس بقوة 750 حصان وبناء خفيف ونسخة محدودة.",
+        "sportbackDesc": "أم 5 السيارة الهجينة القابلة للشحن كومبيتيشن مع توازن بين الأداء والراحة.",
+        "performanceDesc": "مزيد من القوة وتجهيزات أم كربون اختيارية.",
+        "carbonDesc": "نسخة بباقات كربونية وحصرية فاخرة.",
+        "m5competitionDesc": "أم 5 السيارة الهجينة القابلة للشحن كومبيتيشن بـ 727 حصان وتوازن بين الأداء والراحة."
+      },
+      "dep": "قد تخسر أم 5 السيارة الهجينة القابلة للشحن حوالي 35-40% من قيمتها في 3 سنوات، حسب التجهيزات والميلومتراج.",
+      "pros": [
+        "تسارع وحشي وقوة وفيرة",
+        "داخل تقني ومريح",
+        "دفع أم إكس درايف الرباعي لأي ظرف",
+        "القيادة الكهربائية اليومية ممكنة (حتى 40 كم)"
+      ],
+      "cons": [
+        "وزن يتجاوز 2 طن",
+        "سعر بداية مرتفع جدًا",
+        "تكاليف الصيانة والإطارات مرتفعة"
+      ],
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "reviewText": "تعيد {{fullModelName}} تعريف السيدان الرياضية بنظام هجين بقوة 727 حصان. يعمل محرك 8 أسطوانات التوين تيربو سعة 4.4 لتر مع محرك كهربائي لتقديم تسارع 3.5 ثانية من 0 إلى 100 كم/س وسرعة قصوى 305 كم/س. يجمع الداخل بين المواد الفاخرة وأحدث تقنية بي إم دبليو."
+    }
+  },
+  "ownerReviews": {
+    "es": [
+      {
+        "quote": "He hecho 30.000 km con mi M5 y sigue impresionándome. El modo eléctrico para la ciudad es un plus inesperado.",
+        "author": "Luis M.",
+        "location": "Madrid, España",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "Es rápido, lujoso y práctico. Lo uso para viajes de negocio y escapadas. La caja ZF es brillante.",
+        "author": "Anna K.",
+        "location": "Múnich, Alemania",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "en": [
+      {
+        "quote": "I've done 30,000 km with my M5 and it still impresses me. Electric mode for the city is an unexpected bonus.",
+        "author": "Luis M.",
+        "location": "Madrid, Spain",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "It's fast, luxurious and practical. I use it for business trips and getaways. The ZF gearbox is brilliant.",
+        "author": "Anna K.",
+        "location": "Munich, Germany",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "fr": [
+      {
+        "quote": "J'ai parcouru 30 000 km avec ma M5 et elle m'impressionne toujours. Le mode électrique pour la ville est un plus inattendu.",
+        "author": "Luis M.",
+        "location": "Madrid, Espagne",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "Elle est rapide, luxueuse et pratique. Je l'utilise pour les voyages d'affaires et les escapades. La boîte ZF est brillante.",
+        "author": "Anna K.",
+        "location": "Munich, Allemagne",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "ar": [
+      {
+        "quote": "قطعت 30,000 كم مع أم 5 الخاصة بي وما زالت تثير إعجابي. الوضع الكهربائي للمدينة إضافة غير متوقعة.",
+        "author": "لويس م.",
+        "location": "مدريد، إسبانيا",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "سريعة وفاخرة وعملية. أستخدمها لرحلات العمل والنزهات. علبة التروس زد إف رائعة.",
+        "author": "آنا ك.",
+        "location": "ميونخ، ألمانيا",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ]
+  },
+  "profileData": {
+    "es": {
+      "highway": {
+        "score": "95/100",
+        "title": "Rey de la autopista",
+        "desc": "Confort, potencia y asistencias para viajes largos."
+      },
+      "city": {
+        "score": "75/100",
+        "title": "Ciudad con electricidad",
+        "desc": "Grande pero manejable, modo EV para trayectos cortos."
+      },
+      "family": {
+        "score": "85/100",
+        "title": "Familiar deportivo",
+        "desc": "5 plazas y maletero amplio para uso familiar."
+      },
+      "collector": {
+        "score": "90/100",
+        "title": "M híbrido",
+        "desc": "Primera M5 híbrida, interesante para coleccionistas."
+      },
+      "track": {
+        "score": "96/100",
+        "title": "Circuito",
+        "desc": "Tracción total y 727 HP para días de track."
+      }
+    },
+    "en": {
+      "highway": {
+        "score": "95/100",
+        "title": "Highway king",
+        "desc": "Comfort, power and assistance systems for long trips."
+      },
+      "city": {
+        "score": "75/100",
+        "title": "City with electricity",
+        "desc": "Large but manageable, EV mode for short trips."
+      },
+      "family": {
+        "score": "85/100",
+        "title": "Sporty family",
+        "desc": "5 seats and large trunk for family use."
+      },
+      "collector": {
+        "score": "90/100",
+        "title": "Hybrid M",
+        "desc": "First hybrid M5, interesting for collectors."
+      },
+      "track": {
+        "score": "96/100",
+        "title": "Track day",
+        "desc": "AWD and 727 HP for track days."
+      }
+    },
+    "fr": {
+      "highway": {
+        "score": "95/100",
+        "title": "Roi de l'autoroute",
+        "desc": "Confort, puissance et assistances pour les longs trajets."
+      },
+      "city": {
+        "score": "75/100",
+        "title": "Ville électrique",
+        "desc": "Grande mais maniœuvrable, mode EV pour les courts trajets."
+      },
+      "family": {
+        "score": "85/100",
+        "title": "Familiale sportive",
+        "desc": "5 places et grand coffre pour un usage familial."
+      },
+      "collector": {
+        "score": "90/100",
+        "title": "M hybride",
+        "desc": "Première M5 hybride, intéressante pour les collectionneurs."
+      },
+      "track": {
+        "score": "96/100",
+        "title": "Circuit",
+        "desc": "Transmission intégrale et 727 HP pour les jours de circuit."
+      }
+    },
+    "ar": {
+      "highway": {
+        "score": "95/100",
+        "title": "ملك الطريق السريع",
+        "desc": "راحة وقوة وأنظمة مساعدة للرحلات الطويلة."
+      },
+      "city": {
+        "score": "75/100",
+        "title": "مدينة بالكهرباء",
+        "desc": "كبيرة لكنها قابلة للمناورة، وضع كهربائي للمسافات القصيرة."
+      },
+      "family": {
+        "score": "85/100",
+        "title": "عائلية رياضية",
+        "desc": "5 مقاعد وصندوق كبير للاستخدام العائلي."
+      },
+      "collector": {
+        "score": "90/100",
+        "title": "أم هجينة",
+        "desc": "أول أم 5 هجينة، مثيرة للاهتمام للجامعين."
+      },
+      "track": {
+        "score": "96/100",
+        "title": "حلبة",
+        "desc": "دفع رباعي و 727 حصان لأيام الحلبة."
+      }
+    }
+  },
+  "usedGuide": {
+    "card1Title": "Kilometraje y estado",
+    "card1Items": [
+      "Hasta 50.000 km: mejor relación valor",
+      "Revisar historial híbrido oficial BMW",
+      "Evitar unidades sin mantenimiento de batería"
+    ],
+    "card2Title": "Mecánica",
+    "card2Items": [
+      "Revisar cadena de distribución",
+      "Probar cambios de la caja ZF",
+      "Comprobar estado de frenos y neumáticos"
+    ],
+    "card3Title": "Electrónica",
+    "card3Items": [
+      "Actualizaciones de software BMW",
+      "Funcionamiento del sistema híbrido",
+      "Pantallas y sistema iDrive"
+    ],
+    "card4Title": "Precio y reventa",
+    "card4Items": [
+      "Mejor compra a los 3-4 años",
+      "Unidades M Driver's Package valoradas",
+      "Colores clásicos: negro, gris, blanco"
+    ]
+  },
+  "review": {
+    "es": {
+      "summary": "El BMW M5 PHEV es una berlina deportiva híbrida de altas prestaciones que combina lujo, tecnología y una potencia de 727 HP.",
+      "fullText": "El BMW M5 PHEV representa la evolución definitiva del sedán deportivo de BMW. Bajo el capó descansa un V8 4.4 litros biturbo asociado a un motor eléctrico, con una potencia combinada de 727 HP y 1.000 Nm de par. La aceleración de 0 a 100 km/h se completa en 3,5 segundos y la velocidad máxima alcanza los 305 km/h. El chasis M, la tracción M xDrive y la suspensión adaptativa M aportan un equilibrio entre confort y deportividad. El interior es un santuario tecnológico con BMW Operating System 8.5, pantalla curva y acabados premium. Como inconvenientes, el peso supera las 2 toneladas, el consumo en modo híbrido es elevado y el precio de partida roza los 150.000 €. Para quien busca una berlina que lo haga todo a nivel excelente, el M5 PHEV es una opción difícil de superar.",
+      "verdict": "buy",
+      "bestFor": [
+        "Conductores que buscan potencia híbrida y lujo sin renunciar a la practicidad",
+        "Entusiastas de BMW que valoran la tecnología M y la aceleración brutal",
+        "Familias que necesitan espacio y cinco plazas con un plus de deportividad",
+        "Viajeros de larga distancia que aprecian el confort autobahn y la tecnología"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.5
+      }
+    },
+    "en": {
+      "summary": "The BMW M5 PHEV is a high-performance hybrid sports sedan that combines luxury, technology and 727 HP.",
+      "fullText": "The BMW M5 PHEV represents the ultimate evolution of BMW's sports sedan. Under the hood sits a 4.4-litre twin-turbo V8 paired with an electric motor, delivering a combined 727 hp and 1,000 Nm of torque. Acceleration from 0 to 100 km/h is completed in 3.5 seconds and top speed reaches 305 km/h. The M chassis, M xDrive traction and M adaptive suspension provide a balance between comfort and sportiness. The interior is a technological sanctuary with BMW Operating System 8.5, curved display and premium finishes. Drawbacks include a weight above 2 tonnes, high consumption in hybrid mode and a starting price close to €150,000. For those seeking a sedan that does everything at an excellent level, the M5 PHEV is hard to beat.",
+      "verdict": "buy",
+      "bestFor": [
+        "Drivers seeking hybrid power and luxury without sacrificing practicality",
+        "BMW enthusiasts who value M technology and brutal acceleration",
+        "Families needing space and five seats with added sportiness",
+        "Long-distance travellers who appreciate autobahn comfort and technology"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.5
+      }
+    },
+    "fr": {
+      "summary": "La BMW M5 PHEV est une berline sportive hybride haute performance qui allie luxe, technologie et 727 ch.",
+      "fullText": "La BMW M5 PHEV représente l'évolution ultime de la berline sportive BMW. Sous le capot repose un V8 4.4 litres biturbo associé à un moteur électrique, développant 727 ch et 1 000 Nm de couple. L'accélération de 0 à 100 km/h s'effectue en 3,5 secondes et la vitesse maximale atteint 305 km/h. Le châssis M, la traction M xDrive et la suspension adaptative M offrent un équilibre entre confort et sportivité. L'intérieur est un sanctuaire technologique avec BMW Operating System 8.5, écran incurvé et finitions premium. Les inconvénients incluent un poids supérieur à 2 tonnes, une consommation élevée en mode hybride et un prix de départ proche de 150 000 €. Pour ceux qui recherchent une berline qui fait tout à un niveau excellent, la M5 PHEV est difficile à battre.",
+      "verdict": "buy",
+      "bestFor": [
+        "Conducteurs recherchant puissance hybride et luxe sans sacrifier la praticité",
+        "Passionnés BMW qui apprécient la technologie M et l'accélération brutale",
+        "Familles ayant besoin d'espace et de cinq places avec une touche de sportivité",
+        "Voyageurs de longue distance qui apprécient le confort autobahn et la technologie"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.5
+      }
+    },
+    "ar": {
+      "summary": "بي إم دبليو أم 5 هجين هي سيدان رياضية هجينة عالية الأداء تجمع بين الفخامة والتقنية وقوة 727 حصان.",
+      "fullText": "تمثل بي إم دبليو أم 5 هجين التطور النهائي للسيدان الرياضي من بي إم دبليو. تحت الغطاء يوجد محرك محرك 8 أسطوانات 4.4 لتر توين تيربو مزود بمحرك كهربائي، ينتج قوة مجتمعة 727 حصان و 1,000 نيوتن متر عزم. يتم التسارع من 0 إلى 100 كم/س في 3.5 ثانية وتصل السرعة القصوى إلى 305 كم/س. يوفر هيكل أم والدفع إم إكس درايف والتعليق التكيفي أم توازنًا بين الراحة والرياضية. الداخل هو ملاذ تقني مع نظام بي إم دبليو 8.5 وشاشة منحنية ولمسات فاخرة. تشمل العيوب وزنًا يتجاوز 2 طن واستهلاكًا مرتفعًا في الوضع الهجين وسعر بداية يقترب من 150,000 يورو. لمن يبحث عن سيدان تفعل كل شيء على مستوى ممتاز، أم 5 هجين قابل للشحن خيار صعب التفوق عليه.",
+      "verdict": "شراء",
+      "bestFor": [
+        "السائقون الباحثون عن القوة الهجينة والفخامة دون التضحية بالعملية",
+        "عشاق بي إم دبليو الذين يقدرون تقنية أم والتسارع الوحشي",
+        "العائلات التي تحتاج مساحة وخمس مقاعد مع لمسة رياضية إضافية",
+        "المسافرون لمسافات طويلة الذين يقدرون راحة الأوتوبان والتقنية"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.5
+      }
+    }
+  },
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El chasis M del M5 está firmemente plantado en el asfalto gracias a la tracción M xDrive y al diferencial trasero activo.",
+        "steeringFeel": "Dirección precisa y bien ponderada, con respuesta progresiva que se endurece en modo M Dynamic.",
+        "bodyRoll": "Mínimo gracias a la suspensión adaptativa M. En modo Comfort permite algo más de balanceo para absorber baches.",
+        "gripLevels": "Extraordinarios. La tracción total distribuye el par de forma inteligente, permitiendo salidas seguras incluso con 1.000 Nm.",
+        "rideQuality": "En Comfort es sorprendentemente suave para una berlina deportiva. En modo Sport se vuelve firme y comunicativa."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal e inmediata. El par de 1.000 Nm está disponible desde bajas revoluciones, propulsando al M5 con una violencia controlada.",
+        "braking": "Los discos cerámicos de 400 mm delanteros ofrecen una mordida potente y resistencia a la fatiga.",
+        "sound": "El V8 biturbo produce un sonido grave y metálico; en modo Sport el escape se vuelve más agresivo.",
+        "transmission": "La M Steptronic de ocho velocidades cambia con suavidad en automático y con rapidez en manual."
+      },
+      "dailyDriving": {
+        "comfort": "Excelente para trayectos largos. Los asientos M Sport con ajuste eléctrico, calefacción y ventilación eliminan la fatiga.",
+        "visibility": "Buena hacia adelante; la cámara 360° y los sensores compensan los ángulos muertos.",
+        "parking": "Manejable para sus dimensiones gracias a sensores de aparcamiento y asistente de maniobra.",
+        "motorway": "Donde mejor se siente. El control de crucero adaptativo, el asistente de carril y la potencia de sobra permiten viajar sin esfuerzo."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The M5's M chassis is firmly planted thanks to M xDrive traction and the active rear differential.",
+        "steeringFeel": "Precise and well-weighted steering, with progressive response that firms up in M Dynamic mode.",
+        "bodyRoll": "Minimal thanks to M adaptive suspension. Comfort mode allows slightly more lean to absorb bumps.",
+        "gripLevels": "Extraordinary. All-wheel drive intelligently distributes torque, allowing safe launches even with 1,000 Nm.",
+        "rideQuality": "In Comfort it is surprisingly smooth for a sports sedan. In Sport mode it becomes firm and communicative."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal and immediate. The 1,000 Nm torque is available from low revs, propelling the M5 with controlled violence.",
+        "braking": "The 400 mm front ceramic discs provide powerful bite and fade resistance.",
+        "sound": "The twin-turbo V8 produces a deep, metallic sound; in Sport mode the exhaust becomes more aggressive.",
+        "transmission": "The eight-speed M Steptronic shifts smoothly in automatic and rapidly in manual."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent for long journeys. M Sport seats with electric adjustment, heating and ventilation eliminate fatigue.",
+        "visibility": "Good forward visibility; the 360° camera and sensors compensate for blind spots.",
+        "parking": "Manageable for its size thanks to parking sensors and manoeuvring assistant.",
+        "motorway": "Where it feels most at home. Adaptive cruise control, lane assist and abundant power allow effortless travel."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "Le châssis M de la M5 est fermement ancré grâce à la traction M xDrive et au différentiel arrière actif.",
+        "steeringFeel": "Direction précise et bien pondérée, avec une réponse progressive qui se durcit en mode M Dynamic.",
+        "bodyRoll": "Minimal grâce à la suspension adaptative M. Le mode Comfort autorise un peu plus de roulis pour absorber les bosses.",
+        "gripLevels": "Extraordinaires. La transmission intégrale distribue intelligemment le couple, permettant des départs en sécurité même avec 1 000 Nm.",
+        "rideQuality": "En Comfort, elle est étonnamment souple pour une berline sportive. En mode Sport, elle devient ferme et communicative."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutale et immédiate. Les 1 000 Nm de couple sont disponibles dès les bas régimes, propulsant la M5 avec une violence contrôlée.",
+        "braking": "Les disques céramiques avant de 400 mm offrent une mordance puissante et une résistance à la fatigue.",
+        "sound": "Le V8 biturbo produit un son grave et métallique; en mode Sport l'échappement devient plus agressif.",
+        "transmission": "La M Steptronic à huit rapports change avec douceur en automatique et rapidité en manuel."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent pour les longs trajets. Les sièges M Sport avec réglage électrique, chauffage et ventilation éliminent la fatigue.",
+        "visibility": "Bonne visibilité vers l'avant; la caméra 360° et les capteurs compensent les angles morts.",
+        "parking": "Maniœuvrable pour sa taille grâce aux capteurs de stationnement et à l'assistant de manœuvre.",
+        "motorway": "C'est là qu'elle se sent le mieux. Le régulateur adaptatif, l'assistant de voie et la puissance abondante permettent de voyager sans effort."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "هيكل أم الخاص بـ أم 5 متصل بقوة بالأسفلت بفضل دفع إم إكس درايف والتفاضلي الخلفي النشط.",
+        "steeringFeel": "توجيه دقيق ومتوازن الوزن مع استجابة تدريجية تتصلب في وضع أم ديناميكي.",
+        "bodyRoll": "قليل بفضل التعليق التكيفي أم. وضع الراحة يسمح بقليل من الاتزان لامتصاص المطبات.",
+        "gripLevels": "استثنائية. ينظم الدفع الرباعي العزم بذكاء، مما يسمح بالانطلاق الآمن حتى مع 1,000 نيوتن متر.",
+        "rideQuality": "في وضع الراحة، مريحة بشكل مدهش لسيدان رياضية. في وضع الرياضة تصبح صلبة وتواصلية."
+      },
+      "performanceFeel": {
+        "acceleration": "وحشية وفورية. عزم 1,000 نيوتن متر متاح من سرعات منخفضة، مما يدفع أم 5 بعنف منضبط.",
+        "braking": "أقراص الفرامل الأمامية السيراميكية مقاس 400 ملم تقدم قوة كبح فعالة ومقاومة للتآكل.",
+        "sound": "يُنتج محرك محرك 8 أسطوانات التوين تيربو صوتًا عميقًا ومعدنيًا؛ في وضع الرياضة يصبح العادم أكثر عدوانية.",
+        "transmission": "ناقل الحركة إم ستيبترونيك بثماني سرعات يتحول بسلاسة في الوضع الأوتوماتيكي وبسرعة في الوضع اليدوي."
+      },
+      "dailyDriving": {
+        "comfort": "ممتاز للرحلات الطويلة. مقاعد أم سبورت بضبط كهربائي وتدفئة وتبريد تزيل التعب.",
+        "visibility": "رؤية جيدة للأمام؛ الكاميرا المحيطية 360° والمستشعرات تعوض النقاط العمياء.",
+        "parking": "قابلة للمناورة بالنسبة لحجمها بفضل مستشعرات الوقوف ومساعد المناورة.",
+        "motorway": "هنا تشعر بأنها في بيئتها. مثبت السرعة التكيفي ومساعد المسار والقوة الوفيرة تتيح السفر دون جهد."
+      }
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "El BMW M5 PHEV luce una silueta de berlina deportiva que equilibra elegancia y agresividad. La parrilla M, las tomas de aire masivas y los escapes cuádruples dejan claro que no es un Serie 5 convencional.",
+      "stylingNotes": [
+        "Capó con nervios que albergan el V8 híbrido",
+        "Paragolpes delantero con tomas de aire de alto flujo",
+        "Aletas traseras ensanchadas y difusor aerodinámico",
+        "Escapes cuádruples M de 100 mm de diámetro",
+        "Llantas de aleación de 20 pulgadas en diseño M ligero",
+        "Faros LED Matrix con iluminación adaptativa"
+      ],
+      "dimensionsContext": "Con 5.095 mm de largo y 1.973 mm de ancho, el M5 PHEV es una berlina imponente. Su altura de 1.488 mm le confiere una postura baja y atlética, mientras que la batalla de 2.995 mm garantiza espacio interior.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Faros LED Matrix con láser opcional y iluminación adaptativa",
+        "taillights": "Pilotos LED continuos con animación de llegada y salida",
+        "signature": "Firma lumínica M distintiva en faros y pilotos"
+      },
+      "wheels": {
+        "standard": "20",
+        "optional": [
+          "21 pulgadas en diseño M de doble radios, negro mate",
+          "21 pulgadas en diseño M estrella, gris orbita"
+        ]
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Frozen Deep Grey",
+            "en": "Frozen Deep Grey",
+            "fr": "Frozen Deep Grey",
+            "ar": "Frozen Deep Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Toronto Red metallic",
+            "en": "Toronto Red metallic",
+            "fr": "Toronto Red metallic",
+            "ar": "Toronto Red metallic"
+          },
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "San Marino Blue metallic",
+            "en": "San Marino Blue metallic",
+            "fr": "San Marino Blue metallic",
+            "ar": "San Marino Blue metallic"
+          },
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "Frozen Black",
+            "en": "Frozen Black",
+            "fr": "Frozen Black",
+            "ar": "Frozen Black"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "en": {
+      "summary": "The BMW M5 PHEV wears a sports sedan silhouette that balances elegance and aggression. The M grille, massive air intakes and quad exhausts make it clear this is no ordinary 5 Series.",
+      "stylingNotes": [
+        "Power-domed hood housing the hybrid V8",
+        "Front bumper with high-flow air intakes",
+        "Widened rear fenders and aerodynamic diffuser",
+        "M quad exhaust outlets with 100 mm diameter",
+        "20-inch M light-alloy wheels",
+        "Matrix LED headlights with adaptive illumination"
+      ],
+      "dimensionsContext": "At 5,095 mm long and 1,973 mm wide, the M5 PHEV is an imposing sedan. Its 1,488 mm height gives it a low, athletic stance, while the 2,995 mm wheelbase guarantees interior space.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Matrix LED headlights with optional laser and adaptive illumination",
+        "taillights": "Continuous LED taillights with arrival and departure animation",
+        "signature": "Distinctive M light signature in headlights and taillights"
+      },
+      "wheels": {
+        "standard": "20",
+        "optional": [
+          "21-inch M double-spoke design in matte black",
+          "21-inch M star-spoke design in orbit grey"
+        ]
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Frozen Deep Grey",
+            "en": "Frozen Deep Grey",
+            "fr": "Frozen Deep Grey",
+            "ar": "Frozen Deep Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Toronto Red metallic",
+            "en": "Toronto Red metallic",
+            "fr": "Toronto Red metallic",
+            "ar": "Toronto Red metallic"
+          },
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "San Marino Blue metallic",
+            "en": "San Marino Blue metallic",
+            "fr": "San Marino Blue metallic",
+            "ar": "San Marino Blue metallic"
+          },
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "Frozen Black",
+            "en": "Frozen Black",
+            "fr": "Frozen Black",
+            "ar": "Frozen Black"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "fr": {
+      "summary": "La BMW M5 PHEV arbore une silhouette de berline sportive qui équilibre élégance et agressivité. La calandre M, les prises d'air massives et les sorties d'échappement quadruples indiquent qu'il ne s'agit pas d'une Série 5 ordinaire.",
+      "stylingNotes": [
+        "Capot bombé abritant le V8 hybride",
+        "Pare-chocs avant avec prises d'air à haut débit",
+        "Ailes arrière élargies et diffuseur aérodynamique",
+        "Sorties d'échappement M quadruples de 100 mm de diamètre",
+        "Jantes alliage léger M de 20 pouces",
+        "Phares Matrix LED avec éclairage adaptatif"
+      ],
+      "dimensionsContext": "Avec 5 095 mm de long et 1 973 mm de large, la M5 PHEV est une berline imposante. Sa hauteur de 1 488 mm lui confère une posture basse et athlétique, tandis que l'empattement de 2 995 mm garantit l'espace intérieur.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Phares Matrix LED avec laser optionnel et éclairage adaptatif",
+        "taillights": "Feux arrière LED continus avec animation d'arrivée et de départ",
+        "signature": "Signature lumineuse M distinctive dans les phares et feux arrière"
+      },
+      "wheels": {
+        "standard": "20",
+        "optional": [
+          "21 pouces en design M à doubles branches, noir mat",
+          "21 pouces en design M étoile, gris orbit"
+        ]
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Frozen Deep Grey",
+            "en": "Frozen Deep Grey",
+            "fr": "Frozen Deep Grey",
+            "ar": "Frozen Deep Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Toronto Red metallic",
+            "en": "Toronto Red metallic",
+            "fr": "Toronto Red metallic",
+            "ar": "Toronto Red metallic"
+          },
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "San Marino Blue metallic",
+            "en": "San Marino Blue metallic",
+            "fr": "San Marino Blue metallic",
+            "ar": "San Marino Blue metallic"
+          },
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": {
+            "es": "Frozen Black",
+            "en": "Frozen Black",
+            "fr": "Frozen Black",
+            "ar": "Frozen Black"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "ar": {
+      "summary": "تتزين بي إم دبليو أم 5 هجين بصيحة سيدان رياضية توازن بين الأناقة والعدوانية. الشبكة أم وفتحات الهواء الضخمة والمخارج الرباعية للعادم تجعل الأمر واضحًا أنها ليست السلسلة 5 عادية.",
+      "stylingNotes": [
+        "غطاء محرك مقبب يحتضن محرك محرك 8 أسطوانات الهجين",
+        "مصد أمامي بفتحات هواء عالية التدفق",
+        "حواف خلفية موسعة وموزع هواء ديناميكي",
+        "مخارج عادم أم رباعية بقطر 100 ملم",
+        "عجات ألمنيوم أم خفيفة مقاس 20 بوصة",
+        "مصابيح مصابيح ليد ماتريكس بإضاءة تكيفية"
+      ],
+      "dimensionsContext": "بطول 5,095 ملم وعرض 1,973 ملم، تُعد أم 5 هجين قابل للشحن سيدان مهيبة. ارتفاعها 1,488 ملم يمنحها مظهراً منخفضاً ورياضياً، بينما قاعدة العجلات 2,995 ملم تضمن مساحة داخلية واسعة.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "مصابيح مصابيح ليد ماتريكس مع ليزر اختياري وإضاءة تكيفية",
+        "taillights": "أضواء خلفية ليد متصلة مع رسوم متحركة للوصول والمغادرة",
+        "signature": "توقيع إضاءة أم مميز في المصابيح الأمامية والخلفية"
+      },
+      "wheels": {
+        "standard": "20",
+        "optional": [
+          "21 بوصة بتصميم أم بشعاع مزدوج، أسود مطفأ",
+          "21 بوصة بتصميم أم نجمي، رمادي مداري"
+        ]
+      },
+      "colors": [
+        {
+          "name": "رمادي داكن مطفي",
+          "hex": "#3a3a3a",
+          "type": "معدني",
+          "priceExtra": 0
+        },
+        {
+          "name": "أبيض ألبي",
+          "hex": "#f5f5f5",
+          "type": "صلب",
+          "priceExtra": 0
+        },
+        {
+          "name": "أحمر تورنتو معدني",
+          "hex": "#8b0000",
+          "type": "معدني",
+          "priceExtra": 1200
+        },
+        {
+          "name": "أزرق سان مارينو معدني",
+          "hex": "#001a4d",
+          "type": "معدني",
+          "priceExtra": 1200
+        },
+        {
+          "name": "أسود مطفي",
+          "hex": "#0a0a0a",
+          "type": "معدني",
+          "priceExtra": 2500
+        }
+      ]
+    }
+  },
+  "interior": {
+    "es": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "El interior del M5 PHEV es un santuario de lujo tecnológico. El cuero Merino, los insertos de carbono y la iluminación ambiental multicolor crean una atmósfera envolvente.",
+      "frontSeats": {
+        "comfort": "Asientos M Sport con refuerzo lateral generoso, ajuste eléctrico, calefacción, ventilación y masaje.",
+        "adjustment": "Ajuste eléctrico en múltiples direcciones con función de memoria y extensión del muslo.",
+        "material": "Cuero Merino perforado con costuras en rombo y logotipo M en los reposacabezas."
+      },
+      "rearSeats": {
+        "legroom": "Generoso para dos adultos. La batalla de 3.010 mm permite estirar las piernas cómodamente.",
+        "headroom": "Adecuado, aunque personas de más de 1,85 m notarán el techo en plazas traseras.",
+        "comfort": "Respaldos abatibles 40:20:40 con reposabrazos central, portavasillas y climatización de cuatro zonas.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 466,
+        "seatsDownCapacity": 1300,
+        "practicality": "El portón ofrece una boca de carga amplia. La capacidad de 530 litros crece hasta 1.400 litros con los asientos abatidos.",
+        "loadingLip": "Umbral de carga bajo y portón eléctrico para facilitar el acceso."
+      },
+      "infotainment": {
+        "screenSize": "12.3\" + 14.9\"",
+        "system": "BMW Operating System 8.5 con iDrive y control por voz",
+        "connectivity": [
+          "Apple CarPlay inalámbrico",
+          "Android Auto inalámbrico",
+          "BMW Digital Key",
+          "Wi-Fi hotspot",
+          "Bluetooth 5.0",
+          "Carga inalámbrica"
+        ],
+        "soundSystem": "Harman Kardon Logic 7 de 16 altavoces y 464 W",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "en": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "The M5 PHEV interior is a sanctuary of technological luxury. Merino leather, carbon-fibre inserts and multi-colour ambient lighting create an enveloping atmosphere.",
+      "frontSeats": {
+        "comfort": "M Sport seats with generous lateral support, electric adjustment, heating, ventilation and massage.",
+        "adjustment": "Electric adjustment in multiple directions with memory function and thigh extension.",
+        "material": "Perforated Merino leather with diamond stitching and M logos on the headrests."
+      },
+      "rearSeats": {
+        "legroom": "Generous for two adults. The 3,010 mm wheelbase allows comfortable leg stretching.",
+        "headroom": "Adequate, though occupants over 1.85 m will notice the roofline in the rear seats.",
+        "comfort": "40:20:40 split-folding backrests with centre armrest, cupholders and four-zone climate control.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 466,
+        "seatsDownCapacity": 1300,
+        "practicality": "The tailgate offers a wide loading aperture. The 530-litre capacity grows to 1,400 litres with seats folded.",
+        "loadingLip": "Low loading threshold and electric tailgate for easier access."
+      },
+      "infotainment": {
+        "screenSize": "12.3\" + 14.9\"",
+        "system": "BMW Operating System 8.5 with iDrive and voice control",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "BMW Digital Key",
+          "Wi-Fi hotspot",
+          "Bluetooth 5.0",
+          "Wireless charging"
+        ],
+        "soundSystem": "Harman Kardon Logic 7 with 16 speakers and 464 W",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "fr": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "L'intérieur de la M5 PHEV est un sanctuaire de luxe technologique. Le cuir Merino, les inserts en fibre de carbone et l'éclairage ambiant multicolore créent une atmosphère enveloppante.",
+      "frontSeats": {
+        "comfort": "Sièges M Sport avec maintien latéral généreux, réglage électrique, chauffage, ventilation et massage.",
+        "adjustment": "Réglage électrique en plusieurs directions avec fonction mémoire et extension de cuisse.",
+        "material": "Cuir Merino perforé avec coutures en losange et logos M sur les appuie-têtes."
+      },
+      "rearSeats": {
+        "legroom": "Généreux pour deux adultes. L'empattement de 3 010 mm permet d'étirer les jambes confortablement.",
+        "headroom": "Adéquat, bien que les personnes de plus de 1,85 m remarquent la ligne de toit aux places arrière.",
+        "comfort": "Dossiers rabattables 40:20:40 avec accoudoir central, porte-gobelets et climatisation quatre zones.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 466,
+        "seatsDownCapacity": 1300,
+        "practicality": "Le hayon offre une grande ouverture de chargement. La capacité de 530 litres passe à 1 400 litres avec les sièges rabattus.",
+        "loadingLip": "Seuil de chargement bas et hayon électrique pour un accès facilité."
+      },
+      "infotainment": {
+        "screenSize": "12.3\" + 14.9\"",
+        "system": "BMW Operating System 8.5 avec iDrive et contrôle vocal",
+        "connectivity": [
+          "Apple CarPlay sans fil",
+          "Android Auto sans fil",
+          "BMW Digital Key",
+          "Point d'accès Wi-Fi",
+          "Bluetooth 5.0",
+          "Recharge sans fil"
+        ],
+        "soundSystem": "Harman Kardon Logic 7 avec 16 haut-parleurs et 464 W",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "ar": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "مقصورة أم 5 هجين قابل للشحن هي ملاذ من الفخامة التقنية. الجلد ميرينو وإدراج ألياف الكربون والإضاءة المحيطة متعددة الألوان تخلق أجواءً محيطة.",
+      "frontSeats": {
+        "comfort": "مقاعد أم سبورت بدعم جانبي سخي، وضبط كهربائي، وتدفئة، وتبريد، وتدليك.",
+        "adjustment": "ضبط كهربائي بعدة اتجاهات مع وظيفة الذاكرة وتمديد الفخذ.",
+        "material": "جلد ميرينو مثقب بخياطة الماس وشعارات أم على مسندات الرأس."
+      },
+      "rearSeats": {
+        "legroom": "سخي لشخصين بالغين. قاعدة العجلات 3,010 ملم تتيح تمديد الساقين بارتياح.",
+        "headroom": "كافٍ، لكن الركاب الذين يتجاوز طولهم 1.85 م يلاحظون انخفاض السقف في المقاعد الخلفية.",
+        "comfort": "مساند ظهر قابلة للطي 40:20:40 مع مسند ذراع مركزي، وحاملات أكواب، وتكييف رباعي المناطق.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 466,
+        "seatsDownCapacity": 1300,
+        "practicality": "يوفر الباب الخلفي فتحة تحميل واسعة. السعة 530 لتر تتوسع إلى 1,400 لتر مع طي المقاعد.",
+        "loadingLip": "عتبة تحميل منخفضة وباب خلفي كهربائي لتسهيل الوصول."
+      },
+      "infotainment": {
+        "screenSize": "12.3\" + 14.9\"",
+        "system": "نظام بي إم دبليو 8.5 مع آي درايف والتحكم الصوتي",
+        "connectivity": [
+          "أبل كاربلاي لاسلكي",
+          "أندرويد أوتو لاسلكي",
+          "مفتاح بي إم دبليو الرقمي",
+          "نقطة اتصال واي فاي",
+          "بلوتوث 5.0",
+          "شحن لاسلكي"
+        ],
+        "soundSystem": "هارمان كاردون لوجيك 7 بـ 16 مكبر صوت و 464 واط",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    }
+  },
+  "technology": {
+    "es": {
+      "headUnit": {
+        "screenSize": "12.3\" + 14.9\"",
+        "resolution": "1920 x 720 / 2880 x 1080",
+        "system": "BMW Operating System 8.5 con iDrive",
+        "processor": "Qualcomm Snapdragon",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "BMW Intelligent Personal Assistant"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "BMW ConnectedDrive",
+        "myBMW app"
+      ],
+      "audio": {
+        "system": "Harman Kardon Logic 7",
+        "speakers": 16,
+        "watts": 464
+      },
+      "driverDisplays": {
+        "instrumentCluster": "BMW Live Cockpit Professional 12.3\" con gráficos M",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myBMW",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Android Auto"
+      ]
+    },
+    "en": {
+      "headUnit": {
+        "screenSize": "12.3\" + 14.9\"",
+        "resolution": "1920 x 720 / 2880 x 1080",
+        "system": "BMW Operating System 8.5 with iDrive",
+        "processor": "Qualcomm Snapdragon",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "BMW Intelligent Personal Assistant"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "BMW ConnectedDrive",
+        "myBMW app"
+      ],
+      "audio": {
+        "system": "Harman Kardon Logic 7",
+        "speakers": 16,
+        "watts": 464
+      },
+      "driverDisplays": {
+        "instrumentCluster": "BMW Live Cockpit Professional 12.3\" with M graphics",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myBMW",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Android Auto"
+      ]
+    },
+    "fr": {
+      "headUnit": {
+        "screenSize": "12.3\" + 14.9\"",
+        "resolution": "1920 x 720 / 2880 x 1080",
+        "system": "BMW Operating System 8.5 avec iDrive",
+        "processor": "Qualcomm Snapdragon",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Assistant Personnel Intelligent BMW"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "BMW ConnectedDrive",
+        "myBMW app"
+      ],
+      "audio": {
+        "system": "Harman Kardon Logic 7",
+        "speakers": 16,
+        "watts": 464
+      },
+      "driverDisplays": {
+        "instrumentCluster": "BMW Live Cockpit Professional 12.3\" avec graphiques M",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myBMW",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Android Auto"
+      ]
+    },
+    "ar": {
+      "headUnit": {
+        "screenSize": "12.3\" + 14.9\"",
+        "resolution": "1920 × 720 / 2880 × 1080",
+        "system": "نظام بي إم دبليو 8.5 مع آي درايف",
+        "processor": "كوالكوم سناب دراجون",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "مساعد بي إم دبليو الشخصي الذكي"
+      },
+      "connectivity": [
+        "5 جي",
+        "نقطة اتصال واي فاي",
+        "بي إم دبليو كونكتد درايف",
+        "تطبيق ماي بي إم دبليو"
+      ],
+      "audio": {
+        "system": "هارمان كاردون لوجيك 7",
+        "speakers": 16,
+        "watts": 464
+      },
+      "driverDisplays": {
+        "instrumentCluster": "لوحة بي إم دبليو المهنية 12.3 بوصة برسومات أم",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "ماي بي إم دبليو",
+        "سبوتيفاي",
+        "أمازون ميوزيك",
+        "أبل ميوزيك",
+        "أندرويد أوتو"
+      ]
+    }
+  },
+  "tires": {
+    "es": {
+      "standard": {
+        "es": "285/40 ZR20 delante y 295/35 ZR21 detrás",
+        "en": "285/40 ZR20 front and 295/35 ZR21 rear",
+        "fr": "285/40 ZR20 avant et 295/35 ZR21 arrière",
+        "ar": "285/40 ZR20 أمامية و 295/35 ZR21 خلفية"
+      },
+      "optional": [
+        "285/40 ZR21 delante y 295/30 ZR21 detrás"
+      ],
+      "rearWear": "Desgaste rápido de los neumáticos traseros si se explota el par de 1.000 Nm.",
+      "recommended": {
+        "es": "Michelin Pilot Sport 4 S o Pirelli P Zero",
+        "en": "Michelin Pilot Sport 4 S or Pirelli P Zero",
+        "fr": "Michelin Pilot Sport 4 S ou Pirelli P Zero",
+        "ar": "Michelin Pilot Sport 4 S أو Pirelli P Zero"
+      },
+      "sizes": {
+        "es": "20\" / 21\"",
+        "en": "20\" / 21\"",
+        "fr": "20\" / 21\"",
+        "ar": "20\" / 21\""
+      }
+    },
+    "en": {
+      "standard": {
+        "es": "285/40 ZR20 delante y 295/35 ZR21 detrás",
+        "en": "285/40 ZR20 front and 295/35 ZR21 rear",
+        "fr": "285/40 ZR20 avant et 295/35 ZR21 arrière",
+        "ar": "285/40 ZR20 أمامية و 295/35 ZR21 خلفية"
+      },
+      "optional": [
+        "285/40 ZR21 front and 295/30 ZR21 rear"
+      ],
+      "rearWear": "Fast rear tire wear if the 1,000 Nm torque is exploited.",
+      "recommended": {
+        "es": "Michelin Pilot Sport 4 S o Pirelli P Zero",
+        "en": "Michelin Pilot Sport 4 S or Pirelli P Zero",
+        "fr": "Michelin Pilot Sport 4 S ou Pirelli P Zero",
+        "ar": "Michelin Pilot Sport 4 S أو Pirelli P Zero"
+      },
+      "sizes": {
+        "es": "20\" / 21\"",
+        "en": "20\" / 21\"",
+        "fr": "20\" / 21\"",
+        "ar": "20\" / 21\""
+      }
+    },
+    "fr": {
+      "standard": {
+        "es": "285/40 ZR20 delante y 295/35 ZR21 detrás",
+        "en": "285/40 ZR20 front and 295/35 ZR21 rear",
+        "fr": "285/40 ZR20 avant et 295/35 ZR21 arrière",
+        "ar": "285/40 ZR20 أمامية و 295/35 ZR21 خلفية"
+      },
+      "optional": [
+        "285/40 ZR21 avant et 295/30 ZR21 arrière"
+      ],
+      "rearWear": "Usure rapide des pneus arrière si le couple de 1 000 Nm est exploité.",
+      "recommended": {
+        "es": "Michelin Pilot Sport 4 S o Pirelli P Zero",
+        "en": "Michelin Pilot Sport 4 S or Pirelli P Zero",
+        "fr": "Michelin Pilot Sport 4 S ou Pirelli P Zero",
+        "ar": "Michelin Pilot Sport 4 S أو Pirelli P Zero"
+      },
+      "sizes": {
+        "es": "20\" / 21\"",
+        "en": "20\" / 21\"",
+        "fr": "20\" / 21\"",
+        "ar": "20\" / 21\""
+      }
+    },
+    "ar": {
+      "standard": "285/40 ZR20 أمامية و 295/35 ZR21 خلفية",
+      "optional": [
+        "285/40 ZR21 أمامية و 295/30 ZR21 خلفية"
+      ],
+      "rearWear": "تآكل سريع للإطارات الخلفية عند استغلال عزم 1,000 نيوتن متر.",
+      "recommended": "ميشلان بايلوت سبورت 4 إس أو بيريلي بي زيرو",
+      "sizes": "20\" / 21\""
+    }
+  },
+  "interiorText": {
+    "es": {
+      "interior-quality": {
+        "title": "Materiales premium",
+        "desc": "Cuero Merino, fibra de carbono y aluminio cepillado en cada superficie."
+      },
+      "infotainment": {
+        "title": "Pantallas curvas",
+        "desc": "BMW OS 8.5 con pantalla táctil de 14.9\" y instrumentación digital de 12.3\"."
+      },
+      "sound-system": {
+        "title": "Harman Kardon",
+        "desc": "Sistema de 16 altavoces con sonido envolvente de 464 W."
+      },
+      "ambient-lighting": {
+        "title": "Iluminación ambiental",
+        "desc": "Luces de ambiente multicolor con paneles de fibra de carbono iluminados."
+      }
+    },
+    "en": {
+      "interior-quality": {
+        "title": "Premium materials",
+        "desc": "Merino leather, carbon fibre and brushed aluminium on every surface."
+      },
+      "infotainment": {
+        "title": "Curved displays",
+        "desc": "BMW OS 8.5 with 14.9\" touchscreen and 12.3\" digital instrumentation."
+      },
+      "sound-system": {
+        "title": "Harman Kardon",
+        "desc": "16-speaker system with 464 W surround sound."
+      },
+      "ambient-lighting": {
+        "title": "Ambient lighting",
+        "desc": "Multi-colour ambient lighting with illuminated carbon-fibre panels."
+      }
+    },
+    "fr": {
+      "interior-quality": {
+        "title": "Matériaux premium",
+        "desc": "Cuir Merino, fibre de carbone et aluminium brossé sur chaque surface."
+      },
+      "infotainment": {
+        "title": "Écrans incurvés",
+        "desc": "BMW OS 8.5 avec écran tactile 14,9\" et instrumentation numérique 12,3\"."
+      },
+      "sound-system": {
+        "title": "Harman Kardon",
+        "desc": "Système 16 haut-parleurs avec son surround 464 W."
+      },
+      "ambient-lighting": {
+        "title": "Éclairage ambiant",
+        "desc": "Éclairage ambiant multicolore avec panneaux en fibre de carbone illuminés."
+      }
+    },
+    "ar": {
+      "interior-quality": {
+        "title": "مواد فاخرة",
+        "desc": "جلد ميرينو وألياف كربون وألومنيوم مصقول في كل سطح."
+      },
+      "infotainment": {
+        "title": "شاشات منحنية",
+        "desc": "نظام بي إم دبليو 8.5 مع شاشة لمس 14.9 بوصة ولوحة عدادات رقمية 12.3 بوصة."
+      },
+      "sound-system": {
+        "title": "هارمان كاردون",
+        "desc": "نظام 16 مكبر صوت بصوت محيط بقوة 464 واط."
+      },
+      "ambient-lighting": {
+        "title": "الإضاءة المحيطة",
+        "desc": "إضاءة محيطة متعددة الألوان مع ألواح ألياف كربون مضاءة."
+      }
+    }
+  },
+  "interiorCards": [
+    {
+      "id": "interior-quality",
+      "icon": "seat",
+      "category": "materials"
+    },
+    {
+      "id": "infotainment",
+      "icon": "screen",
+      "category": "technology"
+    },
+    {
+      "id": "sound-system",
+      "icon": "sound",
+      "category": "audio"
+    },
+    {
+      "id": "ambient-lighting",
+      "icon": "light",
+      "category": "comfort"
+    }
+  ],
+  "relatedModels": [
+    {
+      "carId": "bmw-m8-competition",
+      "relation": "same-brand",
+      "id": "bmw-m8-competition",
+      "name": "BMW M8 Competition",
+      "slug": "bmw-m8-competition",
+      "type": "coupe",
+      "tagline": "El hermano coupé con aún más potencia"
+    },
+    {
+      "carId": "bmw-m4",
+      "relation": "competitor",
+      "id": "bmw-m4",
+      "name": "BMW M4",
+      "slug": "bmw-m4",
+      "type": "coupe",
+      "tagline": "Coupé más ligero y enfocado a circuito"
+    },
+    {
+      "carId": "bmw-x5m",
+      "relation": "competitor",
+      "id": "bmw-x5m",
+      "name": "BMW X5 M",
+      "slug": "bmw-x5m",
+      "type": "suv",
+      "tagline": "SUV de alto rendimiento con espacio familiar"
+    }
+  ],
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي (إكس درايف)",
+  "environmental": {
+    "es": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "Etiqueta ECO"
+    },
+    "en": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "ECO Label"
+    },
+    "fr": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "Label ECO"
+    },
+    "ar": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "ملصق ECO"
+    }
+  }
+}

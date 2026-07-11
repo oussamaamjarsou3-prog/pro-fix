@@ -1,0 +1,45 @@
+{
+  "id": "uk",
+  "name": "United Kingdom",
+  "currency": "GBP",
+  "currencySymbol": "£",
+  "units": {
+    "speed": "mph",
+    "distance": "miles",
+    "fuelEconomy": "mpg",
+    "volume": "L",
+    "weight": "kg"
+  },
+  "fuelPrices": {
+    "petrol": { "value": 1.50, "currency": "GBP", "unit": "L" },
+    "diesel": { "value": 1.55, "currency": "GBP", "unit": "L" },
+    "electric": { "value": 0.34, "currency": "GBP", "unit": "kWh" }
+  },
+  "taxes": {
+    "vat": 0.20,
+    "roadTax": {
+      "method": "co2-based",
+      "firstYear": [
+        { "threshold": 0, "rate": 0 },
+        { "threshold": 50, "rate": 10 },
+        { "threshold": 75, "rate": 30 },
+        { "threshold": 100, "rate": 130 },
+        { "threshold": 150, "rate": 220 },
+        { "threshold": 200, "rate": 370 },
+        { "threshold": null, "rate": 600 }
+      ],
+      "subsequentYears": { "rate": 165 }
+    }
+  },
+  "inspection": {
+    "name": "MOT",
+    "frequencyYears": 1,
+    "firstTestYears": 3
+  },
+  "localization": {
+    "dateFormat": "DD/MM/YYYY",
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "language": "en"
+  }
+}

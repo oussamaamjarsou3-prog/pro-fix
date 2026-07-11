@@ -1,0 +1,293 @@
+/* =========================================================
+   VARIABLES.CSS — CarSpecio Design System
+   Same palette as index.html / main.css
+========================================================= */
+
+/* Skip-to-content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent, #2563eb);
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 10000;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+    font-weight: 600;
+    transition: top 0.2s ease;
+}
+.skip-link:focus {
+    top: 0;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* Header search dropdown */
+.search-results {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 280px;
+    max-width: 360px;
+    background: var(--bg-card, #111827);
+    border: 1px solid var(--card-border, rgba(255,255,255,0.06));
+    border-radius: 12px;
+    box-shadow: var(--card-shadow, 0 12px 40px rgba(0,0,0,0.35));
+    z-index: 9999;
+    overflow: hidden;
+}
+.search-result {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 14px;
+    color: var(--text-primary, #fff);
+    text-decoration: none;
+    border-bottom: 1px solid var(--card-border, rgba(255,255,255,0.06));
+    transition: background 0.2s ease;
+}
+.search-result:last-child {
+    border-bottom: none;
+}
+.search-result:hover,
+.search-result.active {
+    background: rgba(59, 130, 246, 0.15);
+}
+.search-result-type {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-light, #3b82f6);
+}
+.search-result-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.search-result-category {
+    font-size: 0.75rem;
+    color: var(--text-muted, #94a3b8);
+}
+
+.search-no-results {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    color: var(--text-muted, #94a3b8);
+    text-align: center;
+}
+.search-result-name mark {
+    background: rgba(59, 130, 246, 0.25);
+    color: inherit;
+    border-radius: 2px;
+    padding: 0 1px;
+    font-style: normal;
+}
+
+/* Screen-reader-only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+:root {
+
+    /* COLORS — Base */
+    --bg-main:          #020617;
+    --bg-card:          #111827;
+    --bg-soft:          #111827;
+    --bg-section-a:     #020617;
+    --bg-section-b:     #020617;
+    --bg-section-c:     #020617;
+
+    /* TEXT */
+    --text-primary:     #ffffff;
+    --text-secondary:   #d1d5db;
+    --text-muted:       #94a3b8;
+
+    /* ACCENT */
+    --accent:           #2563eb;
+    --accent-light:     #3b82f6;
+    --accent-hover:     #60a5fa;
+    --accent-glow:      rgba(37, 99, 235, 0.35);
+    --accent-glow-hover:rgba(37, 99, 235, 0.45);
+
+    /* CARD */
+    --card-bg-from:     #111827;
+    --card-bg-to:       #111827;
+    --card-border:      rgba(255, 255, 255, 0.06);
+    --card-border-hover:#3b82f6;
+    --card-shadow:      0 12px 40px rgba(0, 0, 0, 0.35);
+    --card-shadow-hover:0 18px 50px rgba(37, 99, 235, 0.22);
+
+    /* SEMANTIC */
+    --success:          #22c55e;
+    --danger:           #ef4444;
+    --success-light:    #4ade80;
+    --warning:          #f59e0b;
+    --warning-light:    #fbbf24;
+    --danger-light:     #f87171;
+    --white:            #ffffff;
+    --black:            #000000;
+
+    /* CAR PAGE SPECIFIC */
+    --pros:             #6ee7b7;
+    --cons:             #fca5a5;
+    --highlight-from:   #111827;
+    --highlight-to:     #1e293b;
+
+    /* BORDER */
+    --border-subtle:    1px solid rgba(255, 255, 255, 0.06);
+    --border-light:     1px solid rgba(255, 255, 255, 0.10);
+    --border-card:      1px solid var(--card-border);
+
+    /* SHADOWS */
+    --shadow-sm:        0 10px 30px rgba(0, 0, 0, 0.35);
+    --shadow-lg:        0 20px 60px rgba(0, 0, 0, 0.45);
+
+    /* RADIUS */
+    --radius-sm:        12px;
+    --radius-md:        18px;
+    --radius-lg:        24px;
+    --radius-xl:        30px;
+
+    /* TRANSITIONS */
+    --transition:       0.3s ease;
+    --transition-lg:    0.5s ease;
+
+    --ease-out:         cubic-bezier(.16, 1, .3, 1);
+    --ease-inout:       cubic-bezier(.65, 0, .35, 1);
+    --duration-1:       160ms;
+    --duration-2:       320ms;
+    --duration-3:       640ms;
+
+    /* LAYOUT */
+    --container:        1400px;
+    --section-padding:  100px 8%;
+    --section-padding-mobile: 70px 20px;
+
+    --font-sans:        "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    --font-display:     "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+    --text-hero:        clamp(2.2rem, 4.1vw, 3.45rem);
+    --text-h1:          clamp(1.65rem, 2.7vw, 2.25rem);
+    --text-h2:          clamp(1.3rem, 2.1vw, 1.75rem);
+    --text-h3:          clamp(1.05rem, 1.4vw, 1.2rem);
+    --text-body:        0.975rem;
+    --text-small:       0.875rem;
+
+    --glass-bg:         rgba(17, 24, 39, 0.55);
+    --glass-bg-strong:  rgba(2, 6, 23, 0.72);
+    --glass-border:     1px solid rgba(255, 255, 255, 0.12);
+    --glass-border-soft:1px solid rgba(255, 255, 255, 0.08);
+    --glass-blur:       18px;
+    --glass-shadow:     0 18px 50px rgba(0, 0, 0, 0.35);
+
+    --reveal-distance:  14px;
+    --reveal-duration:  700ms;
+    --reveal-stagger:   80ms;
+}
+
+.glass {
+    background: var(--glass-bg);
+    border: var(--glass-border-soft);
+    box-shadow: var(--glass-shadow);
+}
+
+.glass-strong {
+    background: var(--glass-bg-strong);
+    border: var(--glass-border);
+    box-shadow: var(--glass-shadow);
+}
+
+@supports ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+    .glass,
+    .glass-strong {
+        backdrop-filter: blur(var(--glass-blur));
+        -webkit-backdrop-filter: blur(var(--glass-blur));
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --glass-blur: 14px;
+    }
+    body.light {
+        --glass-blur: 14px;
+    }
+}
+
+body.light {
+    --bg-main:          #f8fbff;
+    --bg-card:          #ffffff;
+    --bg-soft:          #f8fafc;
+    --bg-section-a:     #f8fbff;
+    --bg-section-b:     #eff6ff;
+    --bg-section-c:     #ffffff;
+    --text-primary:     #0f172a;
+    --text-secondary:   #475569;
+    --text-muted:       #64748b;
+    --accent:           rgb(37, 99, 235);
+    --accent-light:     rgb(96, 165, 250);
+    --accent-hover:     rgb(59, 130, 246);
+    --accent-glow:      rgba(37, 99, 235, 0.14);
+    --accent-glow-hover:rgba(37, 99, 235, 0.20);
+    --card-border:      rgba(15, 23, 42, 0.08);
+    --card-border-hover:rgb(96, 165, 250);
+    --card-shadow:      0 12px 40px rgba(37, 99, 235, 0.08);
+    --card-shadow-hover:0 18px 50px rgba(37, 99, 235, 0.12);
+    --border-subtle:    1px solid rgba(15, 23, 42, 0.08);
+    --border-light:     1px solid rgba(15, 23, 42, 0.12);
+
+    --glass-bg:         rgba(255, 255, 255, 0.72);
+    --glass-bg-strong:  rgba(248, 251, 255, 0.82);
+    --glass-border:     1px solid rgba(15, 23, 42, 0.12);
+    --glass-border-soft:1px solid rgba(15, 23, 42, 0.08);
+    --glass-shadow:     0 18px 50px rgba(2, 6, 23, 0.12);
+
+    /* CAR PAGE SPECIFIC - Light Mode */
+    --pros:             #059669;
+    --cons:             #dc2626;
+    --highlight-from:   #f1f5f9;
+    --highlight-to:     #e2e8f0;
+}
+
+/* html.light body: alias for inline theme-restore script applied before body exists */
+html.light body {
+    --bg-main:          #f8fbff;
+    --bg-card:          #ffffff;
+    --bg-soft:          #f8fafc;
+    --bg-section-a:     #f8fbff;
+    --bg-section-b:     #eff6ff;
+    --bg-section-c:     #ffffff;
+    --text-primary:     #0f172a;
+    --text-secondary:   #475569;
+    --text-muted:       #64748b;
+    --accent:           rgb(37, 99, 235);
+    --accent-light:     rgb(96, 165, 250);
+    --accent-hover:     rgb(59, 130, 246);
+    --accent-glow:      rgba(37, 99, 235, 0.14);
+    --accent-glow-hover:rgba(37, 99, 235, 0.20);
+    --card-border:      rgba(15, 23, 42, 0.08);
+    --card-border-hover:rgb(96, 165, 250);
+    --card-shadow:      0 12px 40px rgba(37, 99, 235, 0.08);
+    --card-shadow-hover:0 18px 50px rgba(37, 99, 235, 0.12);
+    --border-subtle:    1px solid rgba(15, 23, 42, 0.08);
+    --border-light:     1px solid rgba(15, 23, 42, 0.12);
+    --glass-bg:         rgba(255, 255, 255, 0.72);
+    --glass-bg-strong:  rgba(248, 251, 255, 0.82);
+    --glass-border:     1px solid rgba(15, 23, 42, 0.12);
+    --glass-border-soft:1px solid rgba(15, 23, 42, 0.08);
+    --glass-shadow:     0 18px 50px rgba(2, 6, 23, 0.12);
+    --pros:             #059669;
+    --cons:             #dc2626;
+    --highlight-from:   #f1f5f9;
+    --highlight-to:     #e2e8f0;
+}

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="{{DEFAULT_LANG}}" data-i18n-lang="{{DEFAULT_LANG}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    
+    <!-- Dynamic SEO Metadata -->
+    <title data-i18n="seo.title" id="seoTitle">Car Title</title>
+    <meta name="description" data-i18n="seo.description" content="" id="seoDescription">
+    <meta name="keywords" content="" id="seoKeywords">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="" id="ogTitle">
+    <meta property="og:description" content="" id="ogDescription">
+    <meta property="og:image" content="" id="ogImage">
+    <meta property="og:type" content="" id="ogType">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="" id="twitterCard">
+    <meta name="twitter:title" content="" id="twitterTitle">
+    <meta name="twitter:description" content="" id="twitterDescription">
+    <meta name="twitter:image" content="" id="twitterImage">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="" id="canonicalUrl">
+    
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+    <!-- Theme: apply before paint to avoid flash -->
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <!-- CSS: Car Page Design System -->
+    <link rel="stylesheet" href="css/car-page-bundle.min.css">
+    
+    <!-- Content renders immediately; car data is applied progressively -->
+
+</head>
+<body style="display:none;" id="page-body">
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="CarSpecio">
+            <picture>
+                <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+            </picture>
+        </a>
+        <nav class="site-nav" id="siteNav" aria-label="Principal">
+            <a href="index.html" data-i18n="navigation.home">Inicio</a>
+            <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+            <a href="reviews.html" data-i18n="navigation.reviews" class="active">Reviews</a>
+            <div class="nav-item mega-menu-container" id="megaMenuContainer">
+                <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+                <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                    <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú" data-i18n-aria="a11y.closeMenu">×</button>
+                    <div class="mega-menu__content">
+                        <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                            <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                            <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                            <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                            <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                            <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                        </nav>
+                        <div class="mega-menu__header">
+                            <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                            <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                        </div>
+                        <div class="mega-menu__search">
+                            <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca" data-i18n-aria="a11y.searchBrand">
+                            <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                        </div>
+                        <div class="mega-menu__step" id="stepBrands">
+                            <div class="mega-menu__brands" id="megaBrands"></div>
+                        </div>
+                        <div class="mega-menu__step" id="stepCategories">
+                            <div class="mega-menu__categories" id="megaCategories">
+                                <div class="mega-menu__categories-header">
+                                    <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                    <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                                </div>
+                                <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                            </div>
+                        </div>
+                        <div class="mega-menu__step" id="stepModels">
+                            <div class="mega-menu__models" id="megaModels">
+                                <div class="mega-menu__models-header">
+                                    <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                    <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                                </div>
+                                <div class="mega-menu__models-list" id="megaModelsList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+            <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+            <a href="guias/index.html" data-i18n="guides.breadcrumbGuides">Guías</a>
+            <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+            <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+
+        </nav>
+        <div class="header-tools">
+            <div class="nav-dropdown country-dropdown" data-dropdown>
+                <button type="button" class="tool-btn-country" id="countryToggle" data-dropdown-toggle aria-label="País" data-i18n-aria="a11y.country" aria-expanded="false">
+                    <span class="btn-icon">{{DEFAULT_COUNTRY_FLAG}}</span>
+                    <span class="btn-text">{{DEFAULT_COUNTRY}}</span>
+                </button>
+                <div class="dropdown-menu country-menu" id="countryMenu" data-dropdown-menu>
+                    {{COUNTRY_SELECTOR}}
+                </div>
+            </div>
+            <div class="nav-dropdown lang-dropdown" data-dropdown>
+                <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                    <span class="btn-icon" id="langIcon">{{DEFAULT_LANG_FLAG_IMG}}</span>
+                    <span class="btn-text" id="langLabel">{{DEFAULT_LANG_NAME}}</span>
+                </button>
+                <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                    {{LANGUAGE_SELECTOR}}
+                </div>
+            </div>
+            <label class="header-search glass" aria-label="Buscar" data-i18n-aria="a11y.search">
+                <span aria-hidden="true">🔍</span>
+                <input type="search" id="headerSearch" placeholder="Buscar..." data-i18n-placeholder="search.placeholder" autocomplete="off">
+            </label>
+            <button type="button" id="darkbtn" class="tool-btn" aria-label="Modo oscuro" data-i18n-aria="a11y.darkMode">&#9790;</button>
+            <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        </div>
+    </header>
+
+    <!-- Country Banner -->
+    <div class="country-banner glass-strong" id="countryBanner">
+        <span>{{DEFAULT_COUNTRY_FLAG}}</span>
+        <p><span data-i18n="banner.text">Mostrando precios y costes para:</span> <strong id="countryBannerName">{{DEFAULT_COUNTRY_NAME}}</strong></p>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb" id="breadcrumbNav">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="index.html"><span itemprop="name" data-i18n="breadcrumb.home">Inicio</span></a>
+                <meta itemprop="position" content="1">
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="marcas.html"><span itemprop="name" id="breadcrumbBrand">Marca</span></a>
+                <meta itemprop="position" content="2">
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name" id="breadcrumbModel">Modelo</span>
+                <meta itemprop="position" content="3">
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="car-hero" id="hero-section" hidden style="background-image: url('')">
+        <div class="car-overlay"></div>
+        <div class="car-content">
+            <span data-i18n="hero.badge" id="heroBadge">BADGE</span>
+            <h1 data-i18n="hero.title" id="heroTitle">Car Title</h1>
+            <p data-i18n="hero.subtitle" id="heroSubtitle">Subtitle</p>
+            <a href="#price" class="hero-btn" data-i18n="hero.cta">Ver análisis</a>
+            <a href="compare.html" class="hero-btn hero-btn--compare" id="compareBtn" aria-label="Comparar este coche">
+                <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+                <span data-i18n="navigation.compare">Comparar</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sticky Navigation -->
+    <div class="car-nav">
+        <a href="#review" data-i18n="sticky.review">Análisis</a>
+        <a href="#specs" data-i18n="sticky.specs">Especificaciones</a>
+        <a href="#driving-experience" data-i18n="sticky.driving">Conducción</a>
+        <a href="#exterior-design" data-i18n="sticky.exterior">Diseño</a>
+        <a href="#interior-deep-dive" data-i18n="sticky.interior">Interior</a>
+        <a href="#technology" data-i18n="sticky.technology">Tecnología</a>
+        <a href="#safety" data-i18n="sticky.safety">Seguridad</a>
+        <a href="#versions" data-i18n="sticky.versions">Versiones</a>
+        <a href="#gallery" data-i18n="sticky.gallery">Galería</a>
+        <a href="#price" data-i18n="sticky.price">Precio</a>
+        <a href="#cost-calculator" data-i18n="sticky.costs">Costes</a>
+        <a href="#depreciation" data-i18n="sticky.resale">Reventa</a>
+        <a href="#options" data-i18n="sticky.extras">Extras</a>
+        <a href="#timeline" data-i18n="sticky.service">Mantenimiento</a>
+        <a href="#profile-score" data-i18n="sticky.profile">Perfil</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </div>
+
+    <!-- Quick Info -->
+    <section class="quick-info" aria-label="Datos rápidos">
+        <div class="info-card">
+            <h2 id="quickPower">0 HP</h2>
+            <p data-i18n="quick.power">Potencia</p>
+        </div>
+        <div class="info-card">
+            <h2 id="quickAcceleration">0s</h2>
+            <p data-i18n="quick.acceleration">0 - 100 km/h</p>
+        </div>
+        <div class="info-card">
+            <h2 id="quickTopSpeed">0 km/h</h2>
+            <p data-i18n="quick.topSpeed">Velocidad máxima</p>
+        </div>
+        <div class="info-card">
+            <h2 id="countryQuickPrice">€0</h2>
+            <p id="countryQuickPriceLabel" data-i18n="quick.priceLabel">Precio en {{country}}</p>
+        </div>
+    </section>
+
+    <!-- Full Specifications -->
+    <section class="car-specs" id="specs">
+        <div class="section-title">
+            <span data-i18n="specs.tag">SPECIFICATIONS</span>
+            <h2 data-i18n="specs.title">Ficha técnica {{fullModelName}}</h2>
+        </div>
+        <div class="specs-table" id="specsTable">
+            <div class="spec-row">
+                <span data-i18n="specs.engineLabel">Motor</span>
+                <strong id="specEngine">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.powerLabel">Potencia</span>
+                <strong id="specPower">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.torqueLabel">Torque</span>
+                <strong id="specTorque">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.transmissionLabel">Transmisión</span>
+                <strong id="specTransmission">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.drivetrainLabel">Tracción</span>
+                <strong id="specDrivetrain">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.accelerationLabel">0-100 km/h</span>
+                <strong id="specAcceleration">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.topSpeedLabel">Velocidad máxima</span>
+                <strong id="specTopSpeed">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.consumptionLabel">Consumo medio</span>
+                <strong id="specConsumption">--</strong>
+            </div>
+            <div class="spec-row">
+                <span data-i18n="specs.weightLabel">Peso</span>
+                <strong id="specWeight">--</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Environmental Data -->
+    <section class="environmental-section" id="environmental" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="environmental.tag">ECO</span>
+            <h2 data-i18n="environmental.title">Datos medioambientales</h2>
+        </div>
+        <div class="environmental-grid" id="environmentalGrid"></div>
+    </section>
+
+    <!-- Review -->
+    <section class="car-review" id="review" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="review.tag">REVIEW</span>
+            <h2 data-i18n="review.title" id="reviewTitle">Análisis y veredicto</h2>
+        </div>
+        <div class="review-body" id="reviewBody"></div>
+        <div class="verdict-box" id="verdictBox"></div>
+    </section>
+
+    <!-- Owner Reviews -->
+    <section class="owner-reviews" id="owner-reviews" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="ownerReviews.tag">OWNERS</span>
+            <h2 data-i18n="ownerReviews.title">Opiniones de propietarios</h2>
+        </div>
+        <div class="owner-reviews-grid" id="ownerReviewsGrid"></div>
+        <div class="ownership-satisfaction" id="ownershipSatisfaction"></div>
+    </section>
+
+    <!-- Ownership / Maintenance Deep-dive -->
+    <section class="ownership-details" id="ownership-details" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="ownership.tag">RELIABILITY</span>
+            <h2 data-i18n="ownership.title">Mantenimiento y fiabilidad</h2>
+            <p data-i18n="ownership.subtitle">Problemas habituales y costes estimados de reparación.</p>
+        </div>
+        <div class="ownership-grid" id="ownershipGrid"></div>
+    </section>
+
+    <!-- Driving Experience -->
+    <section class="driving-experience" id="driving-experience" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="driving.tag">DRIVING</span>
+            <h2 data-i18n="driving.title" id="drivingTitle">Experiencia de conducción</h2>
+        </div>
+        <div class="driving-grid" id="drivingGrid"></div>
+    </section>
+
+    <!-- Exterior Design -->
+    <section class="exterior-design" id="exterior-design" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="exterior.tag">DESIGN</span>
+            <h2 data-i18n="exterior.title" id="exteriorTitle">Diseño exterior</h2>
+        </div>
+        <div class="exterior-body" id="exteriorBody"></div>
+    </section>
+
+    <!-- Interior Deep-dive -->
+    <section class="interior-deep-dive" id="interior-deep-dive" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="interior.tag">INTERIOR</span>
+            <h2 data-i18n="interior.title" id="interiorTitle">Interior y practicidad</h2>
+        </div>
+        <div class="interior-body" id="interiorBody"></div>
+        <div class="interior-grid" id="interiorGrid"></div>
+    </section>
+
+    <!-- Technology -->
+    <section class="technology-section" id="technology" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="technology.tag">TECH</span>
+            <h2 data-i18n="technology.title" id="technologyTitle">Tecnología e infotenimiento</h2>
+        </div>
+        <div class="technology-grid" id="technologyGrid"></div>
+    </section>
+
+    <!-- Safety -->
+    <section class="safety-section" id="safety" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="safety.tag">SAFETY</span>
+            <h2 data-i18n="safety.title" id="safetyTitle">Seguridad y asistencias</h2>
+        </div>
+        <div class="safety-body" id="safetyBody"></div>
+    </section>
+
+    <!-- Tires -->
+    <section class="tires-section" id="tires-section" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="tires.tag">TIRES</span>
+            <h2 data-i18n="tires.title">Neumáticos y ruedas</h2>
+        </div>
+        <div class="tires-grid" id="tiresGrid"></div>
+    </section>
+
+    <!-- Powertrain-specific dynamic sections -->
+    <section class="powertrain-sections" id="powertrain-sections" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="powertrain.tag">POWERTRAIN</span>
+            <h2 data-i18n="powertrain.title" id="powertrainTitle">Mecánica y rendimiento</h2>
+        </div>
+        <div class="powertrain-body" id="powertrainBody"></div>
+    </section>
+
+    <!-- Electric & Hybrid Data -->
+    <section class="electric-section" id="electric-section" aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="electric.tag">ELECTRIC</span>
+            <h2 data-i18n="electric.title" id="electricTitle">Datos eléctricos</h2>
+        </div>
+        <div class="electric-grid" id="electricGrid">
+            <div class="electric-card">
+                <h4 data-i18n="electric.battery">Batería</h4>
+                <span class="electric-value" id="electricBattery">--</span>
+                <span class="electric-unit">kWh</span>
+            </div>
+            <div class="electric-card">
+                <h4 data-i18n="electric.range">Autonomía</h4>
+                <span class="electric-value" id="electricRange">--</span>
+                <span class="electric-unit">km</span>
+            </div>
+            <div class="electric-card">
+                <h4 data-i18n="electric.acCharge">Carga AC</h4>
+                <span class="electric-value" id="electricAcPower">--</span>
+                <span class="electric-unit">kW</span>
+                <p class="electric-detail" id="electricAcTime">--</p>
+            </div>
+            <div class="electric-card">
+                <h4 data-i18n="electric.dcCharge">Carga rápida DC</h4>
+                <span class="electric-value" id="electricDcPower">--</span>
+                <span class="electric-unit">kW</span>
+                <p class="electric-detail" id="electricDcTime">--</p>
+            </div>
+            <div class="electric-card">
+                <h4 data-i18n="electric.motor">Motor eléctrico</h4>
+                <span class="electric-value" id="electricMotorPower">--</span>
+                <span class="electric-unit">kW</span>
+                <p class="electric-detail" id="electricMotorType">--</p>
+            </div>
+            <div class="electric-card">
+                <h4 data-i18n="electric.consumption">Consumo energético</h4>
+                <span class="electric-value" id="electricConsumption">--</span>
+                <span class="electric-unit">kWh/100km</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Cars -->
+    <section class="related-cars" id="related-cars" hidden aria-live="polite">
+        <div class="section-title">
+            <span data-i18n="related.tag">RELATED</span>
+            <h2 data-i18n="related.title" id="relatedCarsTitle">Modelos relacionados</h2>
+        </div>
+        <div class="related-cars-grid" id="relatedCarsGrid"></div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="car-gallery" id="gallery">
+        <div class="section-title">
+            <span data-i18n="gallery.tag">GALLERY</span>
+            <h2 data-i18n="gallery.title" id="galleryTitle">Galería</h2>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Gallery items will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- Price Section -->
+    <section class="price-section" id="price">
+        <div class="section-title">
+            <span data-i18n="price.tag">PRICE</span>
+            <h2 data-i18n="price.title" id="priceTitle">Precio del {{fullModelName}} en {{country}}</h2>
+            <p data-i18n="price.subtitle" id="priceSubtitle">Precio base, impuestos y costes reales. Datos actualizados 2026.</p>
+        </div>
+        <div class="price-card">
+            <div class="price-row">
+                <span data-i18n="price.basePrice">Precio base</span>
+                <span id="priceBase">€0</span>
+            </div>
+            <div class="price-row">
+                <span data-i18n="price.taxes">Impuestos</span>
+                <span id="priceTaxes">€0</span>
+            </div>
+            <div class="price-row total">
+                <span data-i18n="price.total">Precio total</span>
+                <span id="priceTotal">€0</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost Calculator -->
+    <section class="cost-calculator" id="cost-calculator">
+        <div class="section-title">
+            <span data-i18n="cost.tag">REAL COSTS</span>
+            <h2 data-i18n="cost.title">Costes reales anuales</h2>
+            <p data-i18n="cost.subtitle">Combustible, seguro, mantenimiento, depreciación. Calculadora interactiva.</p>
+        </div>
+        <div class="calculator-box calc-layout tools-calc-layout">
+            <div class="calculator-inputs calc-controls tool-card">
+                <div class="tool-panel-head">
+                    <h3 data-i18n="cost.calculator.title">Configura tu escenario</h3>
+                    <p data-i18n="cost.calculator.help">Ajusta los deslizadores para obtener una lectura inmediata del coste real de propiedad.</p>
+                </div>
+                <div class="input-group calc-field">
+                    <label for="annualKm">
+                        <span data-i18n="cost.calculator.annualKm">Kilómetros anuales</span>
+                        <strong id="kmDisplay">15,000 km</strong>
+                    </label>
+                    <input type="range" id="annualKm" min="5000" max="50000" value="15000" step="1000">
+                    <small data-i18n="cost.calculator.annualKmHelp">Ideal para distinguir un uso urbano ocasional de un uso intensivo en carretera.</small>
+                </div>
+                <div class="input-group calc-field">
+                    <label for="fuelPrice">
+                        <span data-i18n="cost.calculator.fuelPrice">Precio del combustible</span>
+                        <strong id="fuelDisplay">1,65 €</strong>
+                    </label>
+                    <input type="range" id="fuelPrice" min="120" max="220" step="5" value="165">
+                    <small data-i18n="cost.calculator.fuelPriceHelp">Tensión el escenario con precios más conservadores o más exigentes.</small>
+                </div>
+                <div class="input-group calc-field">
+                    <label for="purchaseType" data-i18n="cost.calculator.purchaseType">Tipo de compra</label>
+                    <select id="purchaseType">
+                        <option value="new" data-i18n="cost.calculator.new">Nuevo</option>
+                        <option value="used3" data-i18n="cost.calculator.used3">Ocasión 3 años</option>
+                        <option value="used5" data-i18n="cost.calculator.used5">Ocasión 5 años</option>
+                    </select>
+                    <small data-i18n="cost.calculator.purchaseTypeHelp">El tipo de compra afecta directamente a la depreciación anual.</small>
+                </div>
+                <div class="input-group calc-field">
+                    <label for="drivingStyle" data-i18n="cost.calculator.drivingStyle">Estilo de conducción</label>
+                    <select id="drivingStyle">
+                        <option value="calm" data-i18n="cost.calculator.calm">Tranquilo</option>
+                        <option value="mixed" data-i18n="cost.calculator.mixed">Mixto</option>
+                        <option value="sport" data-i18n="cost.calculator.sport">Deportivo</option>
+                    </select>
+                    <small data-i18n="cost.calculator.drivingStyleHelp">El estilo de conducción cambia el consumo medio estimado.</small>
+                </div>
+            </div>
+            <div class="calculator-results calc-results tools-results-shell">
+                <div class="calc-result-card">
+                    <span data-i18n="cost.calculator.fuel">Combustible</span>
+                    <h3 id="costFuel">€0</h3>
+                    <p data-i18n="cost.calculator.fuelDesc">Impacto del consumo según tu kilometraje.</p>
+                </div>
+                <div class="calc-result-card">
+                    <span data-i18n="cost.calculator.insurance">Seguro</span>
+                    <h3 id="costInsurance">€0</h3>
+                    <p data-i18n="cost.calculator.insuranceDesc">Referencia anual orientativa del segmento.</p>
+                </div>
+                <div class="calc-result-card">
+                    <span data-i18n="cost.calculator.maintenance">Mantenimiento</span>
+                    <h3 id="costMaint">€0</h3>
+                    <p data-i18n="cost.calculator.maintenanceDesc">Incluye servicio y desgaste habitual.</p>
+                </div>
+                <div class="calc-result-card">
+                    <span data-i18n="cost.calculator.depreciation">Depreciación</span>
+                    <h3 id="costDep">€0</h3>
+                    <p data-i18n="cost.calculator.depreciationDesc">Pérdida anual estimada de valor.</p>
+                </div>
+                <div class="calc-total">
+                    <span data-i18n="cost.calculator.total">Total anual</span>
+                    <h2 id="costTotal">€0</h2>
+                    <p id="costPerKm">€0 / km</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depreciation -->
+    <section class="depreciation-section" id="depreciation">
+        <div class="section-title">
+            <span data-i18n="dep.resaleTag">REVENTA</span>
+            <h2 data-i18n="dep.title" id="depTitle">Depreciación y reventa en {{country}}</h2>
+        </div>
+        <div class="depreciation-grid">
+            <div class="depreciation-card highlight-card">
+                <span class="card-label" data-i18n="dep.newPrice">Precio nuevo</span>
+                <h3 id="depNew">€0</h3>
+                <p id="depNewDesc" data-i18n="dep.newDesc">{{fullModelName}} base en {{country}}</p>
+            </div>
+            <div class="depreciation-card">
+                <span class="card-label" data-i18n="dep.year3">A los 3 años</span>
+                <h3 id="dep3">€0</h3>
+                <p data-i18n="dep.loss3" id="depLoss3">~{{loss3}}% de pérdida • {{km3}} km</p>
+                <div class="dep-bar"><div class="dep-fill" id="depFill3" style="width:68%"></div></div>
+            </div>
+            <div class="depreciation-card">
+                <span class="card-label" data-i18n="dep.year5">A los 5 años</span>
+                <h3 id="dep5">€0</h3>
+                <p data-i18n="dep.loss5" id="depLoss5">~{{loss5}}% de pérdida • {{km5}} km</p>
+                <div class="dep-bar"><div class="dep-fill" id="depFill5" style="width:54%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FISCAL / IMPUESTO DE MATRICULACIÓN -->
+    <section class="fiscal-section" id="fiscal">
+        <div class="section-title">
+            <span data-i18n="country.fiscalTag">IMPUESTOS</span>
+            <h2 data-i18n="country.fiscalTitle">Impuesto de matriculación en {{country}}</h2>
+            <p id="fiscalDesc" data-i18n="country.fiscalDesc">
+                El precio final en {{country}} varía según tu comunidad autónoma.
+                CO₂ del {{shortName}}: ~{{co2}} (tramo alto).
+            </p>
+        </div>
+        <div class="fiscal-table-wrap">
+            <table class="fiscal-table">
+                <thead id="fiscalTableHead"></thead>
+                <tbody id="fiscalTableBody"></tbody>
+            </table>
+        </div>
+        <p class="fiscal-note" id="fiscalNote" data-i18n="fiscal.note">Datos estimados. Consulta con tu hacienda autonómica.</p>
+    </section>
+
+    <!-- Versions -->
+    <section class="car-versions" id="versions">
+        <div class="section-title">
+            <span data-i18n="versions.tag">ALL VERSIONS</span>
+            <h2 data-i18n="versions.title" id="versionsTitle">Todas las versiones del {{fullModelName}} {{modelYear}}</h2>
+        </div>
+        <div class="versions-grid" id="versionsGrid">
+            <!-- Versions will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- Options -->
+    <section class="options-section" id="options">
+        <div class="section-title">
+            <span data-i18n="options.tag">OPTIONS GUIDE</span>
+            <h2 data-i18n="options.title" id="optionsTitle">Extras {{shortName}}: ¿cuáles valen la pena?</h2>
+            <p data-i18n="options.desc">Guía basada en experiencia de propietarios y impacto en reventa.</p>
+        </div>
+        <div class="options-table-wrap">
+            <table class="options-table">
+                <thead>
+                    <tr>
+                        <th data-i18n="options.colExtra">Extra / Paquete</th>
+                        <th data-i18n="options.colPrice">Precio aprox.</th>
+                        <th data-i18n="options.colWorth">¿Vale la pena?</th>
+                        <th data-i18n="options.colResale">Impacto reventa</th>
+                    </tr>
+                </thead>
+                <tbody id="optionsTableBody">
+                    <!-- Options will be dynamically loaded -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Maintenance costs -->
+    <section class="maintenance" id="maintenance">
+        <div class="section-title">
+            <span data-i18n="timeline.tag">MANTENIMIENTO</span>
+            <h2 data-i18n="timeline.title">Costes de mantenimiento {{shortName}}</h2>
+            <p data-i18n="maintenance.intro">El {{shortName}} requiere mantenimiento premium acorde a su motor {{engineType}}. Aquí tienes los costes estimados para mantenerlo en condiciones óptimas.</p>
+        </div>
+        <div class="maintenance-layout">
+            <div class="specs-table">
+                <div class="spec-row">
+                    <span data-i18n="maintenance.oilChange">Cambio de aceite</span>
+                    <strong id="maintOil">€0</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.tyres">Neumáticos</span>
+                    <strong id="maintTyres">€0</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.insurance">Seguro anual</span>
+                    <strong id="maintInsurance">€0</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.roadTax">Impuesto de circulación</span>
+                    <strong id="maintRoadTax">--</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.insuranceGroup">Grupo de seguro</span>
+                    <strong id="maintInsuranceGroup">--</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.interval">Intervalo de revisión</span>
+                    <strong id="maintInterval">--</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.minorService">Revisión menor</span>
+                    <strong id="maintMinor">--</strong>
+                </div>
+                <div class="spec-row">
+                    <span data-i18n="maintenance.majorService">Revisión mayor</span>
+                    <strong id="maintMajor">--</strong>
+                </div>
+            </div>
+            <div class="maintenance-info">
+                <div class="info-card">
+                    <h4 data-i18n="maintenance.fuelTitle">Combustible y autonomía</h4>
+                    <p><span data-i18n="maintenance.fuelType">Tipo</span>: <strong id="maintFuelType">--</strong></p>
+                    <p><span data-i18n="maintenance.realConsumption">Consumo real</span>: <strong id="maintRealConsumption">--</strong></p>
+                    <p><span data-i18n="maintenance.tank">Depósito</span>: <strong id="maintTank">--</strong></p>
+                </div>
+                <div class="info-card">
+                    <h4 data-i18n="maintenance.warrantyTitle">Garantía</h4>
+                    <p id="maintWarranty">--</p>
+                </div>
+                <div class="info-card">
+                    <h4 data-i18n="maintenance.tipsTitle">Consejos</h4>
+                    <ul data-i18n-list="maintenance.tips">
+                        <li>Revisa el desgaste de neumáticos traseros regularmente.</li>
+                        <li>Sigue el intervalo de cambio de aceite recomendado por el fabricante.</li>
+                        <li>Usa el combustible recomendado para evitar pérdida de potencia.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section" id="timeline">
+        <div class="section-title">
+            <span data-i18n="timeline.tag">SERVICE</span>
+            <h2 data-i18n="timeline.titleFull" id="timelineTitle">Timeline de mantenimiento {{shortName}}</h2>
+            <p data-i18n="timeline.subtitle">Intervalos oficiales y costes estimados.</p>
+        </div>
+        <div class="timeline-grid" id="timelineGrid">
+            <!-- Timeline items will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- Profile Score -->
+    <section class="profile-section" id="profile-score">
+        <div class="section-title">
+            <span data-i18n="profile.tag">PROFILE</span>
+            <h2 data-i18n="profile.title">Perfil de conductor ideal</h2>
+            <p data-i18n="profile.subtitle">¿Para quién es el {{fullModelName}}?</p>
+        </div>
+        <p class="profile-intro" data-i18n="profile.desc">Descubre si el {{fullModelName}} se adapta a tu estilo de conducción.</p>
+        <div class="profile-cards">
+            <button class="profile-card active" data-profile="highway" type="button" aria-pressed="true">
+                <span>🛣️</span>
+                <h3 data-i18n="profile.highway">Carretera</h3>
+                <p data-i18n="profile.highwaySub">Perfecto para viajes largos</p>
+            </button>
+            <button class="profile-card" data-profile="city" type="button" aria-pressed="false">
+                <span>🏙️</span>
+                <h3 data-i18n="profile.city">Ciudad</h3>
+                <p data-i18n="profile.citySub">Cómodo aunque grande</p>
+            </button>
+            <button class="profile-card" data-profile="family" type="button" aria-pressed="false">
+                <span>👨‍👩‍👧‍👦</span>
+                <h3 data-i18n="profile.family">Familiar</h3>
+                <p data-i18n="profile.familySub">Espacio y lujo</p>
+            </button>
+            <button class="profile-card" data-profile="collector" type="button" aria-pressed="false">
+                <span>🏆</span>
+                <h3 data-i18n="profile.collector">Coleccionista</h3>
+                <p data-i18n="profile.collectorSub">Exclusividad y diseño</p>
+            </button>
+            <button class="profile-card" data-profile="track" type="button" aria-pressed="false">
+                <span>🏁</span>
+                <h3 data-i18n="profile.track">Circuito</h3>
+                <p data-i18n="profile.trackSub">Potencia extrema</p>
+            </button>
+        </div>
+        <div class="profile-result">
+            <div class="profile-score-display">
+                <h3 id="profileScoreValue">--</h3>
+                <span>perfil</span>
+            </div>
+            <div class="profile-result-text">
+                <h4 id="profileResultTitle">--</h4>
+                <p id="profileResultDesc">--</p>
+            </div>
+            <div class="profile-bars" id="profileBars"></div>
+        </div>
+    </section>
+
+    <!-- Pros & Cons -->
+    <section class="pros-cons-section">
+        <div class="section-title">
+            <span data-i18n="pros.tag">PROS</span>
+            <h2 data-i18n="pros.title" id="prosTitle">Ventajas del {{shortName}}</h2>
+        </div>
+        <div class="pros-list" id="prosList">
+            <!-- Pros will be dynamically loaded -->
+        </div>
+        <div class="section-title">
+            <span data-i18n="cons.tag">CONS</span>
+            <h2 data-i18n="cons.title" id="consTitle">Desventajas del {{shortName}}</h2>
+        </div>
+        <div class="cons-list" id="consList">
+            <!-- Cons will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- Rating -->
+    <section class="rating-section" id="score">
+        <div class="section-title">
+            <span data-i18n="score.tag">SCORE</span>
+            <h2 data-i18n="score.title">Puntuación carspecio</h2>
+            <p data-i18n="score.subtitle" id="scoreSubtitle">Evaluación completa del {{fullModelName}}.</p>
+        </div>
+        <div class="rating-grid">
+            <div class="rating-item">
+                <span data-i18n="rating.overall">Global</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingOverall" style="width:0%"></div></div>
+                <span id="ratingOverallValue">0/10</span>
+            </div>
+            <div class="rating-item">
+                <span data-i18n="rating.performance">Rendimiento</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingPerformance" style="width:0%"></div></div>
+                <span id="ratingPerformanceValue">0/10</span>
+            </div>
+            <div class="rating-item">
+                <span data-i18n="rating.comfort">Confort</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingComfort" style="width:0%"></div></div>
+                <span id="ratingComfortValue">0/10</span>
+            </div>
+            <div class="rating-item">
+                <span data-i18n="rating.technology">Tecnología</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingTechnology" style="width:0%"></div></div>
+                <span id="ratingTechnologyValue">0/10</span>
+            </div>
+            <div class="rating-item">
+                <span data-i18n="rating.design">Diseño</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingDesign" style="width:0%"></div></div>
+                <span id="ratingDesignValue">0/10</span>
+            </div>
+            <div class="rating-item">
+                <span data-i18n="rating.value">Valor</span>
+                <div class="rating-bar"><div class="rating-fill" id="ratingValue" style="width:0%"></div></div>
+                <span id="ratingValueValue">0/10</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEMS -->
+    <section class="car-problems" id="problems">
+        <div class="section-title">
+            <span data-i18n="problems.tag">PROBLEMAS</span>
+            <h2 data-i18n="problems.title">Problemas comunes</h2>
+            <p data-i18n="problems.subtitle">Fallos reportados por propietarios y costes de reparación.</p>
+        </div>
+        <div class="problems-box">
+            <ul id="problemsList" class="problems-list">
+                <li class="problem-item">Cargando problemas reportados...</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- RIVAL COMPARISON -->
+    <section class="rival-comparison" id="comparison">
+        <div class="section-title">
+            <span data-i18n="comparison.tag">DILEMA PREMIUM</span>
+            <h2 data-i18n="comparison.title">¿{{shortName}} o {{car1}}? El gran duelo premium</h2>
+        </div>
+        <div class="compare-mini">
+            <div class="mini-card">
+                <h3 id="carName1" data-i18n="comparison.car1Name">{{car1FullName}}</h3>
+                <p id="carPros1" data-i18n="comparison.car1Desc">Lujo, tecnología y sonido deportivo. Tracción integral para cualquier situación.</p>
+            </div>
+            <div class="mini-card">
+                <h3 id="carName2" data-i18n="comparison.car2Name">{{car2FullName}}</h3>
+                <p id="carPros2" data-i18n="comparison.car2Desc">Pureza deportiva y dinámica de conducción superior.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="quiz-section" id="quiz">
+        <div class="section-title">
+            <span data-i18n="quiz.tag">TEST</span>
+            <h2 data-i18n="quiz.title">¿Cuál es tu coche ideal?</h2>
+            <p data-i18n="quiz.desc">4 preguntas para descubrir si eres más {{car1}} o {{car2}}.</p>
+        </div>
+        <div class="quiz-box" id="quizBox">
+            <div class="quiz-step active" data-step="1">
+                <h3 data-i18n="quiz.q1">1. ¿Uso principal del coche?</h3>
+                <div class="quiz-options">
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q1o1">Viajes largos y confort</button>
+                    <button class="quiz-opt" data-points="car2" data-i18n="quiz.q1o2">Conducción deportiva pura</button>
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q1o3">Mixto ciudad + autopista</button>
+                </div>
+            </div>
+            <div class="quiz-step" data-step="2">
+                <h3 data-i18n="quiz.q2">2. ¿Qué valoras más?</h3>
+                <div class="quiz-options">
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q2o1">Interior y tecnología</button>
+                    <button class="quiz-opt" data-points="car2" data-i18n="quiz.q2o2">Sensaciones al volante</button>
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q2o3">Sonido del motor</button>
+                </div>
+            </div>
+            <div class="quiz-step" data-step="3">
+                <h3 data-i18n="quiz.q3">3. ¿Necesitas espacio trasero?</h3>
+                <div class="quiz-options">
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q3o1">Sí, uso familiar ocasional</button>
+                    <button class="quiz-opt" data-points="car2" data-i18n="quiz.q3o2">No, solo conductor</button>
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q3o3">Algo, pero no prioritario</button>
+                </div>
+            </div>
+            <div class="quiz-step" data-step="4">
+                <h3 data-i18n="quiz.q4">4. ¿Prioridad en reventa?</h3>
+                <div class="quiz-options">
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q4o1">Estabilidad y demanda</button>
+                    <button class="quiz-opt" data-points="car2" data-i18n="quiz.q4o2">Emociones > reventa</button>
+                    <button class="quiz-opt" data-points="car1" data-i18n="quiz.q4o3">Minimizar pérdida</button>
+                </div>
+            </div>
+            <div class="quiz-result" id="quizResult" hidden>
+                <span class="card-label" data-i18n="quiz.resultLabel">Tu resultado</span>
+                <h3 id="quizResultTitle" data-i18n="comparison.car1Name">{{car1FullName}}</h3>
+                <p id="quizResultText"></p>
+                <a href="compare.html" class="hero-btn">Ver comparativa completa</a>
+            </div>
+            <div class="quiz-progress">
+                <div class="quiz-progress-bar" id="quizProgress"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USED CAR BUYING GUIDE -->
+    <section class="used-guide" id="used-guide">
+        <div class="section-title">
+            <span data-i18n="usedGuide.tag">GUÍA DE COMPRA</span>
+            <h2 data-i18n="usedGuide.title">Guía para comprar {{shortName}} de ocasión en {{country}}</h2>
+            <p data-i18n="usedGuide.subtitle">Rango de precios, puntos de inspección y mejores épocas para comprar.</p>
+        </div>
+        <div class="guide-grid">
+            <div class="guide-card tool-card">
+                <h3 data-i18n="usedGuide.card1Title">Presupuesto recomendado</h3>
+                <ul data-i18n-list="usedGuide.card1Items" data-i18n-list-class="">
+                    <li><strong>3 años:</strong> <span id="used3Range">--</span></li>
+                    <li><strong>5 años:</strong> <span id="used5Range">--</span></li>
+                </ul>
+            </div>
+            <div class="guide-card tool-card">
+                <h3 data-i18n="usedGuide.card2Title">Verificar obligatoriamente</h3>
+                <ul class="checklist" data-i18n-list="usedGuide.card2Items" data-i18n-list-class=""></ul>
+            </div>
+            <div class="guide-card tool-card">
+                <h3 data-i18n="usedGuide.card3Title">Señales de alerta</h3>
+                <ul class="warning-list" data-i18n-list="usedGuide.card3Items" data-i18n-list-class=""></ul>
+            </div>
+            <div class="guide-card tool-card">
+                <h3 data-i18n="usedGuide.card4Title">Mejor lugar para comprar</h3>
+                <ul data-i18n-list="usedGuide.card4Items" data-i18n-list-class=""></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="section-title">
+            <span data-i18n="faq.tag">FAQ</span>
+            <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
+            <p data-i18n="faq.subtitle" id="faqSubtitle">Respuestas a las dudas más comunes sobre el {{fullModelName}}.</p>
+        </div>
+        <div class="faq-list" id="faqList">
+            <!-- FAQ items will be dynamically loaded -->
+        </div>
+    </section>
+
+    </main><!-- /#main-content -->
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo" aria-label="CarSpecio">
+                        <picture>
+                            <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                            <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                            <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                        </picture>
+                    </div>
+                    <p class="footer-desc" data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+                    <div class="footer-social" aria-label="Redes sociales" data-i18n-aria="footer.social">
+                        <a href="https://wa.me/" class="social-icon" data-i18n-aria="footer.whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                        <a href="https://facebook.com" class="social-icon" data-i18n-aria="footer.facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://tiktok.com" class="social-icon" data-i18n-aria="footer.tiktok" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+                        <a href="https://x.com" class="social-icon" data-i18n-aria="footer.twitter" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L2.25 2.25h6.988l4.265 5.638 4.741-5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer.content">Contenido</h3>
+                    <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                    <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                    <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                    <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer.tools">Herramientas</h3>
+                    <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                    <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                    <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer.legal">Legal</h3>
+                    <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                    <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                    <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright" data-i18n="footer.copyrightFull">© 2026 CarSpecio. Todos los derechos reservados.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Reusable Templates -->
+    <template id="tpl-gallery-item">
+        <div class="gallery-item">
+            <img src="" alt="" loading="lazy">
+            <span class="gallery-caption"></span>
+        </div>
+    </template>
+
+    <template id="tpl-faq-item">
+        <details class="faq-item">
+            <summary class="faq-question"></summary>
+            <div class="faq-answer"></div>
+        </details>
+    </template>
+
+    <template id="tpl-version-card">
+        <div class="version-card">
+            <h4 class="version-name"></h4>
+            <p class="version-desc"></p>
+            <span class="version-price"></span>
+        </div>
+    </template>
+
+    <template id="tpl-rating-bar">
+        <div class="rating-bar">
+            <span class="rating-label"></span>
+            <div class="rating-track" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
+                <div class="rating-fill"></div>
+            </div>
+            <span class="rating-value"></span>
+        </div>
+    </template>
+
+    <script src="js/mega-menu-data.js" defer></script>
+    <script src="js/mega-menu.js" defer></script>
+    <script src="js/flag-icons.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/search-index.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/country-data.js" defer></script>
+    <script src="system/js/country-manager.js" defer></script>
+    <script src="js/car-renderer-registry.js?v=2"></script>
+    <script src="js/car-renderer.js"></script>
+    <script src="js/cost-calculator.js" defer></script>
+    <script src="js/car-sections-anim.js" defer></script>
+    <script src="js/emergency-fallback.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const carDataFile = 'system/data/car.json';
+            window.carRenderer = new CarRenderer(carDataFile);
+            async function initPage() {
+                await window.carRenderer.render();
+                document.dispatchEvent(new CustomEvent('car:rendered'));
+            }
+            initPage();
+        });
+    </script>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" hidden aria-modal="true" role="dialog">
+        <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+        <button class="lightbox-prev" aria-label="Imagen anterior">&#10094;</button>
+        <button class="lightbox-next" aria-label="Imagen siguiente">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Dropdown System -->
+    <script src="system/js/dropdowns.js" defer></script>
+    <script src="js/cookie-consent.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+    <script src="js/analytics-events.js" defer></script>
+</body>
+</html>

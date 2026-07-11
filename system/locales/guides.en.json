@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/locales/guides.en.json",
+  "language": "en",
+  "languageName": "English",
+  "_comment": "UI translations exclusive to guide pages. Guide content (intro, sections, FAQ) lives in system/data/guides/[slug].json. Add here only interface strings: labels, buttons, fixed section titles, etc.",
+
+  "page": {
+    "title": "Car Guides and Tips",
+    "heroTitle": "CarSpecio Guides",
+    "heroSubtitle": "Practical tips to take care of your car",
+    "breadcrumbHome": "Home",
+    "breadcrumbGuides": "Guides"
+  },
+
+  "meta": {
+    "titleSuffix": "| CarSpecio Guide",
+    "defaultDescription": "Practical car maintenance guides and tips."
+  },
+
+  "difficulty": {
+    "beginner": "Easy",
+    "intermediate": "Medium",
+    "advanced": "Advanced"
+  },
+
+  "readingTime": "{minutes} min read",
+
+  "toc": {
+    "title": "Contents",
+    "ariaLabel": "Table of contents"
+  },
+
+  "sidebar": {
+    "relatedGuidesTitle": "More guides",
+    "shareTitle": "Share this guide",
+    "summaryTitle": "Quick Summary",
+    "ariaLabel": "Guide sidebar"
+  },
+
+  "content": {
+    "keyTakeawaysTitle": "Key Takeaways",
+    "summaryTitle": "Quick Summary",
+    "faqTitle": "Frequently Asked Questions",
+    "sectionAnchorAriaLabel": "Copy link to this section"
+  },
+
+  "author": {
+    "updatedOn": "Updated",
+    "publishedOn": "Published on {date}",
+    "by": "By {author}",
+    "editorial": "Content reviewed by the CarSpecio editorial team."
+  },
+
+  "freshness": {
+    "warning": "This guide has not been updated in over 12 months. Some information may be outdated."
+  },
+
+  "related": {
+    "guidesTitle": "Related Guides",
+    "carsTitle": "Related Cars",
+    "seeAll": "See all"
+  },
+
+  "social": {
+    "shareTitle": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "shareOn": "Share on {platform}",
+    "twitter": "Twitter / X",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+
+  "completion": {
+    "title": "Finished reading?",
+    "indexButton": "Browse all guides",
+    "relatedButton": "Read next"
+  },
+
+  "cta": {
+    "title": "Need more help?",
+    "button": "Contact CarSpecio"
+  },
+
+  "index": {
+    "pageTitle": "Car Guides and Tips | CarSpecio",
+    "heroTitle": "CarSpecio Guides",
+    "heroSubtitle": "Practical tips to take care of your car",
+    "categoriesTitle": "Categories",
+    "featuredTitle": "Featured Guides",
+    "allGuides": "All Guides",
+    "seeAll": "See all",
+    "searchPlaceholder": "Search guides...",
+    "noResults": "No guides found for your search."
+  },
+
+  "categories": {
+    "car-buying": "Car Buying",
+    "maintenance": "Maintenance",
+    "breakdowns": "Breakdowns & Problems",
+    "fuel-consumption": "Fuel & Consumption",
+    "tires": "Tires",
+    "insurance": "Insurance",
+    "itv": "ITV",
+    "taxation": "Taxation",
+    "electric-cars": "Electric Cars",
+    "hybrid-cars": "Hybrid Cars",
+    "driving": "Driving",
+    "seasonal": "Winter & Summer"
+  },
+
+  "callout": {
+    "tip": "Tip",
+    "warning": "Warning",
+    "info": "Info",
+    "danger": "Danger"
+  },
+
+  "progress": {
+    "ariaLabel": "Reading progress",
+    "timeRemaining": "{minutes} min remaining",
+    "almostDone": "Almost done!"
+  },
+
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "openFaq": "Open question",
+    "closeFaq": "Close question",
+    "languageChanged": "Language changed to {lang}"
+  }
+}

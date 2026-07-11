@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/locales/guides.fr.json",
+  "language": "fr",
+  "languageName": "Français",
+  "_comment": "Traductions UI exclusives aux pages de guides. Le contenu de chaque guide (intro, sections, FAQ) se trouve dans system/data/guides/[slug].json. Ajouter ici uniquement les chaînes d'interface : labels, boutons, titres de sections fixes, etc.",
+
+  "page": {
+    "title": "Guides et conseils automobiles",
+    "heroTitle": "Guides CarSpecio",
+    "heroSubtitle": "Conseils pratiques pour prendre soin de votre voiture",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbGuides": "Guides"
+  },
+
+  "meta": {
+    "titleSuffix": "| Guide CarSpecio",
+    "defaultDescription": "Guides pratiques d'entretien automobile et conseils."
+  },
+
+  "difficulty": {
+    "beginner": "Facile",
+    "intermediate": "Moyen",
+    "advanced": "Avancé"
+  },
+
+  "readingTime": "{minutes} min de lecture",
+
+  "toc": {
+    "title": "Contenu",
+    "ariaLabel": "Table des matières"
+  },
+
+  "sidebar": {
+    "relatedGuidesTitle": "Plus de guides",
+    "shareTitle": "Partager ce guide",
+    "summaryTitle": "Résumé rapide",
+    "ariaLabel": "Barre latérale du guide"
+  },
+
+  "content": {
+    "keyTakeawaysTitle": "Points clés",
+    "summaryTitle": "Résumé rapide",
+    "faqTitle": "Questions fréquentes",
+    "sectionAnchorAriaLabel": "Copier le lien vers cette section"
+  },
+
+  "author": {
+    "updatedOn": "Mis à jour",
+    "publishedOn": "Publié le {date}",
+    "by": "Par {author}",
+    "editorial": "Contenu révisé par l'équipe éditoriale de CarSpecio."
+  },
+
+  "freshness": {
+    "warning": "Ce guide n'a pas été mis à jour depuis plus de 12 mois. Certaines informations peuvent être obsolètes."
+  },
+
+  "related": {
+    "guidesTitle": "Guides connexes",
+    "carsTitle": "Voitures connexes",
+    "seeAll": "Voir tout"
+  },
+
+  "social": {
+    "shareTitle": "Partager",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien copié !",
+    "shareOn": "Partager sur {platform}",
+    "twitter": "Twitter / X",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+
+  "completion": {
+    "title": "Vous avez fini de lire ?",
+    "indexButton": "Voir tous les guides",
+    "relatedButton": "Lire le suivant"
+  },
+
+  "cta": {
+    "title": "Besoin d'aide ?",
+    "button": "Contacter CarSpecio"
+  },
+
+  "index": {
+    "pageTitle": "Guides et conseils automobiles | CarSpecio",
+    "heroTitle": "Guides CarSpecio",
+    "heroSubtitle": "Conseils pratiques pour prendre soin de votre voiture",
+    "categoriesTitle": "Catégories",
+    "featuredTitle": "Guides en vedette",
+    "allGuides": "Tous les guides",
+    "seeAll": "Voir tout",
+    "searchPlaceholder": "Rechercher des guides...",
+    "noResults": "Aucun guide trouvé pour votre recherche."
+  },
+
+  "categories": {
+    "car-buying": "Achat de Voiture",
+    "maintenance": "Entretien",
+    "breakdowns": "Pannes & Problèmes",
+    "fuel-consumption": "Carburant & Consommation",
+    "tires": "Pneus",
+    "insurance": "Assurance",
+    "itv": "ITV",
+    "taxation": "Fiscalité",
+    "electric-cars": "Voitures Électriques",
+    "hybrid-cars": "Voitures Hybrides",
+    "driving": "Conduite",
+    "seasonal": "Hiver & Été"
+  },
+
+  "callout": {
+    "tip": "Conseil",
+    "warning": "Avertissement",
+    "info": "Information",
+    "danger": "Danger"
+  },
+
+  "progress": {
+    "ariaLabel": "Progression de lecture",
+    "timeRemaining": "{minutes} min restantes",
+    "almostDone": "Presque terminé !"
+  },
+
+  "a11y": {
+    "skipToContent": "Aller au contenu",
+    "openFaq": "Ouvrir la question",
+    "closeFaq": "Fermer la question",
+    "languageChanged": "Langue changée en {lang}"
+  }
+}

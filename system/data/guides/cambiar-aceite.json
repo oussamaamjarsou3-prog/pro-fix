@@ -1,0 +1,499 @@
+{
+    "id": "cambiar-aceite",
+    "slug": "cambiar-aceite",
+    "category": "maintenance",
+    "author": "CarSpecio Technical Team",
+    "publishedAt": "2026-06-20",
+    "updatedAt": "2026-06-28",
+    "heroImage": "../../images/placeholder.svg",
+    "readingTime": 10,
+    "difficulty": "beginner",
+    "status": "active",
+    "content": {
+        "es": {
+            "title": "Cómo cambiar el aceite del coche paso a paso",
+            "excerpt": "Guía completa con pasos detallados, herramientas necesarias y consejos profesionales para cambiar el aceite del motor en casa y ahorrar dinero.",
+            "intro": "Cambiar el aceite del motor es la operación de mantenimiento más importante que puedes hacer por tu coche. Un aceite limpio reduce la fricción, enfría el motor, arrastra las impurezas y puede aumentar la vida útil del motor hasta un 40%. Este proceso tarda unos 30–45 minutos y puede ahorrarte entre 40 € y 120 € por visita al taller.",
+            "keyTakeaways": [
+                "El aceite sucio puede aumentar el consumo de combustible hasta un 2%",
+                "Cambiar el filtro de aceite en cada sustitución es obligatorio",
+                "La viscosidad correcta (p.ej. 5W-30) está en el manual del vehículo",
+                "Nunca mezcles aceites de distintas viscosidades o bases",
+                "El aceite usado es residuo tóxico: llévalo a un punto limpio"
+            ],
+            "sections": [
+                {
+                    "id": "cuando-cambiar",
+                    "title": "¿Cuándo debo cambiar el aceite?",
+                    "content": "<p>La mayoría de fabricantes modernos recomiendan cambiar el aceite <strong>cada 10.000–15.000 km</strong> o una vez al año, lo que ocurra primero. Sin embargo, si conduces en condiciones severas (ciudad, mucho frío, remolque de cargas), el intervalo baja a <strong>5.000–7.500 km</strong>.</p><p>Señales de que necesitas cambio urgente:</p><ul><li>Nivel por debajo del mínimo en la varilla</li><li>Aceite negro y espeso (sano: ámbar o marrón claro)</li><li>Luz de aceite encendida en el cuadro</li><li>Ruido de traqueteo al arrancar en frío</li><li>Olor a quemado en el habitáculo</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Consulta siempre el manual del propietario. Algunos vehículos modernos con aceite sintético pueden llegar a 20.000 km, pero nunca superes los 2 años sin cambiar."
+                    }
+                },
+                {
+                    "id": "herramientas",
+                    "title": "Herramientas y materiales necesarios",
+                    "content": "<p>Antes de empezar, ten a mano todo esto para no interrumpir el proceso:</p><ul><li><strong>Aceite nuevo</strong> — Litros según el manual (normalmente 4–6 L). Elige la viscosidad correcta: 5W-30, 5W-40, 0W-20, etc.</li><li><strong>Filtro de aceite nuevo</strong> — Usa siempre uno de calidad (Mann, Bosch, Mahle). Un filtro barato puede fallar en días.</li><li><strong>Llave de cubo</strong> — Para el tapón de drenaje (generalmente 14, 17 o 19 mm).</li><li><strong>Llave de filtros</strong> — Ajustable o específica para tu motor.</li><li><strong>Gato hidráulico + caballetes de seguridad</strong> — Nunca trabajes bajo el coche apoyado solo en el gato.</li><li><strong>Bandeja de recogida</strong> — Capacidad mínima de 8 litros.</li><li><strong>Embudo, trapos, guantes de nitrilo</strong></li><li><strong>Arandela de cobre nueva</strong> — Para el tapón de drenaje (coste: ~0,50 €, ahorra fugas).</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Nunca uses gatos de tijera de fábrica para trabajar debajo del coche. Son solo para cambiar una rueda en la carretera. Usa siempre caballetes homologados."
+                    }
+                },
+                {
+                    "id": "elegir-aceite",
+                    "title": "Cómo elegir el aceite correcto",
+                    "content": "<p>Usar el aceite equivocado puede dañar el motor gravemente. Aquí el criterio:</p><ul><li><strong>Viscosidad</strong>: El código SAE (5W-30, 0W-40…) lo elige el fabricante. No lo cambies caprichosamente.</li><li><strong>Base</strong>: Mineral (más barato, para motores viejos), semisintético (equilibrado) o sintético (máxima protección, motores modernos).</li><li><strong>Especificación</strong>: Busca la norma ACEA (A3/B4, C3…) y la aprobación del fabricante (VW 504.00, BMW LL-04, Dexos…).</li></ul><p>Marcas fiables: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz. El precio importa: un buen sintético ronda los 7–15 €/litro.</p>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Si tu coche tiene Aviso de Mantenimiento Variable (BMW Condition Based Service, Mercedes ASSYST, etc.), resetea el contador del aceite después del cambio. Consulta el manual de usuario para el procedimiento exacto."
+                    }
+                },
+                {
+                    "id": "preparacion",
+                    "title": "Preparación del vehículo",
+                    "content": "<p>Sigue este orden exacto para no olvidar nada:</p><ol><li>Conduce el coche <strong>5–10 minutos</strong> para calentar el aceite a ~60°C — fluirá mejor y arrastrará más sedimentos. No lo calientes hasta el máximo operativo o quemarás tus manos.</li><li>Aparca en superficie plana y firme.</li><li>Apaga el motor y espera <strong>5 minutos</strong>.</li><li>Acciona el <strong>freno de mano</strong> y coloca cuñas en las ruedas traseras.</li><li>Abre el capó y <strong>retira la tapa del aceite</strong> del motor para facilitar el drenaje (crea vacío de otro modo).</li><li>Eleva el coche con el gato hidráulico por los puntos de elevación marcados en el umbral y coloca los <strong>caballetes de seguridad</strong>.</li></ol>"
+                },
+                {
+                    "id": "drenaje",
+                    "title": "Drenar el aceite viejo",
+                    "content": "<p>Esta es la fase más importante y la que más tiempo requiere:</p><ol><li>Coloca la bandeja de recogida bajo el cárter del motor.</li><li>Localiza el <strong>tapón de drenaje</strong> (parte inferior del cárter, generalmente apuntando hacia abajo o hacia un lateral).</li><li>Afloja el tapón con la llave de cubo girando <strong>en sentido antihorario</strong>. Hazlo despacio al final con los dedos para no perder el tapón en el aceite.</li><li>Deja drenar durante <strong>10–15 minutos</strong>. No en 2 minutos — el aceite viscoso necesita tiempo.</li><li>Observa el chorro: si sale con mucha espuma puede haber refrigerante mezclado (problema serio). Si es muy negro y hay partículas metálicas, el motor está desgastado.</li><li>Limpia la zona del tapón con un trapo.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "El aceite caliente puede causar quemaduras graves. Usa siempre guantes de nitrilo resistentes al calor y gafas de protección. Si el aceite sale disparado, aparta la cara."
+                    }
+                },
+                {
+                    "id": "filtro",
+                    "title": "Cambiar el filtro de aceite",
+                    "content": "<p>El filtro retiene partículas metálicas, carbonilla y contaminantes. Nunca lo reutilices:</p><ol><li>Localiza el filtro. Puede ser de tipo <strong>cartucho</strong> (carcasa plástica con filtro interno) o tipo <strong>rosca</strong> (lata metálica roscada directamente).</li><li>Usa la llave de filtros para girarlo <strong>en sentido antihorario</strong>. Si está muy apretado, pon un trapo para mejor agarre.</li><li>Vacía el aceite del filtro viejo en la bandeja. Limpia perfectamente la superficie de asiento del filtro en el motor.</li><li><strong>Humedece la junta de goma del filtro nuevo</strong> con aceite limpio — esto garantiza el sellado correcto y evita que la junta se pegue.</li><li>Enrosca el nuevo filtro a mano hasta que la junta toque la superficie, luego aprieta <strong>3/4 de vuelta más</strong>. NO uses herramienta para apretar — se deformará la junta.</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Si tu coche usa filtro de cartucho (BMW, Mercedes, Audi TDI…), compra también la junta tórica de repuesto de la carcasa. Reutilizarla puede causar fugas."
+                    }
+                },
+                {
+                    "id": "relleno",
+                    "title": "Rellenar con aceite nuevo y verificar",
+                    "content": "<p>La fase final antes de arrancar:</p><ol><li>Vuelve a colocar el tapón de drenaje con una <strong>arandela de cobre nueva</strong> y apriétalo al par correcto (normalmente 20–30 Nm — consulta el manual).</li><li>Baja el coche de los caballetes.</li><li>Con el embudo, vierte el <strong>80% de la cantidad total</strong> de aceite indicada en el manual (por ejemplo, si son 5 litros, echa 4 primero).</li><li>Vuelve a colocar la tapa del aceite, arranca el motor y déjalo correr <strong>30 segundos</strong> con el motor al ralentí. Comprueba que no haya fugas bajo el coche.</li><li>Apaga el motor, espera <strong>3 minutos</strong> para que el aceite baje al cárter.</li><li>Comprueba el nivel con la varilla: sácala, límpiala, introdúcela, sácala. El nivel debe estar entre el mínimo y el máximo, <strong>idealmente en el tercio superior</strong>.</li><li>Si es necesario, añade aceite poco a poco hasta alcanzar el nivel correcto.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Excederse del nivel máximo es tan peligroso como quedarse corto. El aceite de más puede ser aspirado por el sistema de ventilación del cárter, contaminar el catalizador y dañar sellos de aceite."
+                    }
+                },
+                {
+                    "id": "residuos",
+                    "title": "Gestión del aceite usado y limpieza",
+                    "content": "<p>El aceite de motor usado es un <strong>residuo peligroso</strong>. Está prohibido tirarlo al desagüe, al suelo o a la basura normal:</p><ul><li>Guárdalo en el recipiente original del aceite nuevo con tapa bien cerrada.</li><li>Llévalo a un <strong>punto limpio municipal</strong> o a un taller de coches (están obligados a recibirlo gratis).</li><li>En España, 1 litro de aceite puede contaminar hasta 1.000 litros de agua.</li></ul><p>Para limpiar los derrames, usa papel absorbente o aserrín. Si queda mancha en el suelo del garaje, aplica desengrasante doméstico y frota.</p>"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "¿Cada cuánto tiempo debo cambiar el aceite?",
+                    "answer": "Depende del tipo de aceite y de tu forma de conducir. Con aceite mineral: cada 5.000–7.500 km. Con semisintético: 7.500–10.000 km. Con sintético de calidad: 10.000–15.000 km o el intervalo indicado en el sistema de mantenimiento del vehículo, que puede llegar a 20.000 km en coches modernos. Nunca pases de 2 años sin cambiar, independientemente de los kilómetros."
+                },
+                {
+                    "question": "¿Puedo mezclar aceite nuevo con el aceite viejo que queda?",
+                    "answer": "Técnicamente puedes añadir aceite de la misma viscosidad y base para reponer nivel, pero nunca sustituye al cambio completo. El aceite viejo está contaminado con ácidos, partículas metálicas y productos de combustión. Mezclar solo diluye el problema temporalmente."
+                },
+                {
+                    "question": "¿Qué pasa si pongo demasiado aceite?",
+                    "answer": "El exceso de aceite (por encima del máximo en la varilla) crea espuma dentro del motor por la acción del cigüeñal. El aceite espumado no lubrica correctamente. Además puede ser aspirado por el sistema de ventilación del cárter (PCV), entrar en el colector de admisión y contaminar el catalizador. Si te pasas, drena el exceso con una jeringa de extracción o lleva el coche a un taller."
+                },
+                {
+                    "question": "¿Puedo cambiar solo el aceite sin cambiar el filtro?",
+                    "answer": "No es recomendable. El filtro viejo contiene aceite contaminado y partículas que se mezclarán con el aceite nuevo al arrancar el motor. Los fabricantes siempre especifican cambio de ambos simultáneamente. Un filtro nuevo cuesta entre 8 y 25 €, merece la pena."
+                },
+                {
+                    "question": "¿Cuánto aceite necesita mi coche?",
+                    "answer": "La capacidad del cárter varía según el motor: los 4 cilindros pequeños suelen necesitar 3,5–4,5 litros; los 6 cilindros 5–6 litros; los 8 cilindros 6–8 litros. Siempre consulta el manual del vehículo o la etiqueta bajo el capó. Añade siempre algo menos de la cantidad total y verifica con la varilla."
+                },
+                {
+                    "question": "¿El aceite sintético es mejor que el mineral?",
+                    "answer": "Sí, para la mayoría de motores modernos. El sintético ofrece mayor estabilidad térmica, mejor protección al arranque en frío, menor volatilidad y mayor resistencia a la oxidación. El mineral o semisintético puede ser adecuado para motores muy viejos con holguras elevadas, donde el sintético podría causar pequeñas fugas por sellos deteriorados."
+                }
+            ],
+            "seo": {
+                "title": "Cómo cambiar el aceite del coche paso a paso | Guía completa CarSpecio",
+                "description": "Guía profesional para cambiar el aceite del motor en casa: herramientas, elección de aceite, pasos detallados y consejos de mecánico. Ahorra 40–120€ por cambio.",
+                "keywords": ["cambiar aceite coche", "aceite motor", "mantenimiento coche DIY", "filtro aceite", "aceite sintetico", "viscosidad aceite motor", "cambio aceite paso a paso"]
+            }
+        },
+        "en": {
+            "title": "How to Change Your Car Oil Step by Step",
+            "excerpt": "Complete professional guide to changing engine oil at home: tools, oil selection, detailed steps, and mechanic tips to save money.",
+            "intro": "Engine oil change is the single most important maintenance you can do for your car. Clean oil reduces friction, cools the engine, carries away impurities, and can extend engine life by up to 40%. The process takes 30–45 minutes and can save you £35–£100 per service.",
+            "keyTakeaways": [
+                "Dirty oil can increase fuel consumption by up to 2%",
+                "Always replace the oil filter with every oil change",
+                "The correct viscosity (e.g. 5W-30) is in your vehicle manual",
+                "Never mix oils of different viscosities or base types",
+                "Used oil is toxic waste — take it to a recycling centre"
+            ],
+            "sections": [
+                {
+                    "id": "when-to-change",
+                    "title": "When should you change the oil?",
+                    "content": "<p>Most modern manufacturers recommend changing the oil <strong>every 10,000–15,000 km</strong> or once a year, whichever comes first. However, if you drive in severe conditions (city driving, extreme cold, towing), the interval drops to <strong>5,000–7,500 km</strong>.</p><p>Signs you need an urgent change:</p><ul><li>Level below the minimum on the dipstick</li><li>Black, thick oil (healthy: amber or light brown)</li><li>Oil warning light on the dashboard</li><li>Rattling noise on cold start</li><li>Burning smell in the cabin</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Always consult your owner's manual. Some modern vehicles with fully synthetic oil can go up to 20,000 km, but never exceed 2 years without changing."
+                    }
+                },
+                {
+                    "id": "tools",
+                    "title": "Tools and Materials Needed",
+                    "content": "<p>Have everything ready before you start:</p><ul><li><strong>New oil</strong> — Correct quantity (usually 4–6 L) and viscosity from your manual: 5W-30, 5W-40, 0W-20, etc.</li><li><strong>New oil filter</strong> — Quality brands: Mann, Bosch, Mahle. Cheap filters can fail within days.</li><li><strong>Socket wrench</strong> — For the drain plug (commonly 14, 17 or 19 mm).</li><li><strong>Oil filter wrench</strong> — Adjustable or engine-specific.</li><li><strong>Hydraulic jack + axle stands</strong> — Never work under a car supported only by a jack.</li><li><strong>Drain pan</strong> — Minimum 8-litre capacity.</li><li><strong>Funnel, rags, nitrile gloves</strong></li><li><strong>New copper washer</strong> — For the drain plug (~50p, prevents leaks).</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Never use the vehicle's scissor jack to work underneath it. Use only rated axle stands."
+                    }
+                },
+                {
+                    "id": "choosing-oil",
+                    "title": "How to Choose the Right Oil",
+                    "content": "<p>Using the wrong oil can seriously damage your engine:</p><ul><li><strong>Viscosity</strong>: The SAE code (5W-30, 0W-40…) is chosen by the manufacturer. Don't change it arbitrarily.</li><li><strong>Base</strong>: Mineral (cheaper, older engines), semi-synthetic (balanced), or fully synthetic (best protection, modern engines).</li><li><strong>Specification</strong>: Look for the ACEA rating (A3/B4, C3…) and manufacturer approval (VW 504.00, BMW LL-04, Dexos…).</li></ul><p>Reliable brands: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.</p>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "If your car has a Variable Maintenance Reminder (BMW CBS, Mercedes ASSYST, etc.), reset the oil service counter after the change."
+                    }
+                },
+                {
+                    "id": "preparation",
+                    "title": "Vehicle Preparation",
+                    "content": "<p>Follow this exact order:</p><ol><li>Drive the car <strong>5–10 minutes</strong> to warm the oil to ~60°C — it flows better and carries more deposits.</li><li>Park on a flat, firm surface.</li><li>Turn off the engine and wait <strong>5 minutes</strong>.</li><li>Apply the <strong>handbrake</strong> and place wheel chocks on the rear wheels.</li><li>Open the bonnet and <strong>remove the oil filler cap</strong> to allow proper drainage (prevents a vacuum).</li><li>Raise the car with the hydraulic jack at the marked jacking points and place <strong>axle stands</strong>.</li></ol>"
+                },
+                {
+                    "id": "draining",
+                    "title": "Draining the Old Oil",
+                    "content": "<p>The most important phase:</p><ol><li>Position the drain pan under the sump.</li><li>Locate the <strong>drain plug</strong> (bottom of the oil pan).</li><li>Loosen with the socket wrench <strong>counter-clockwise</strong>. Finish by hand to control the plug.</li><li>Let it drain for <strong>10–15 minutes</strong>.</li><li>Observe the oil: excessive foam may indicate coolant contamination; metallic particles indicate engine wear.</li><li>Clean around the drain plug seat with a rag.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Hot oil causes severe burns. Always wear heat-resistant nitrile gloves and eye protection."
+                    }
+                },
+                {
+                    "id": "filter",
+                    "title": "Changing the Oil Filter",
+                    "content": "<p>The filter traps metal particles, carbon, and contaminants. Never reuse it:</p><ol><li>Locate the filter — <strong>cartridge type</strong> (plastic housing) or <strong>spin-on type</strong> (metal canister).</li><li>Use the filter wrench to turn <strong>counter-clockwise</strong>.</li><li>Empty the old filter into the drain pan. Clean the filter seating surface on the engine.</li><li><strong>Lightly oil the rubber gasket</strong> of the new filter with clean oil.</li><li>Screw in by hand until the gasket contacts the surface, then tighten <strong>3/4 turn more</strong>. Do NOT use a wrench to tighten — you'll deform the gasket.</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "For cartridge filters (BMW, Mercedes, some Audi TDI), always replace the O-ring on the housing cap too."
+                    }
+                },
+                {
+                    "id": "refill",
+                    "title": "Refilling and Checking the Level",
+                    "content": "<p>The final phase before starting:</p><ol><li>Reinstall the drain plug with a <strong>new copper washer</strong> and tighten to the correct torque (typically 20–30 Nm).</li><li>Lower the car from the stands.</li><li>Using a funnel, pour in <strong>80% of the total specified quantity</strong> first.</li><li>Replace the oil filler cap, start the engine and let it idle for <strong>30 seconds</strong>. Check for leaks underneath.</li><li>Turn off the engine and wait <strong>3 minutes</strong> for oil to drain back into the sump.</li><li>Check the level with the dipstick: remove, wipe, insert fully, remove. The level should be between min and max, <strong>ideally in the upper third</strong>.</li><li>Add small amounts until you reach the correct level.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Overfilling is as dangerous as underfilling. Excess oil foams up, loses lubrication properties, and can contaminate the catalytic converter."
+                    }
+                },
+                {
+                    "id": "disposal",
+                    "title": "Disposing of Used Oil",
+                    "content": "<p>Used engine oil is <strong>hazardous waste</strong>. It is illegal to pour it down drains, into soil, or in general waste bins:</p><ul><li>Store it sealed in the original oil container.</li><li>Take it to a <strong>local recycling centre</strong> or any garage (they are required to accept it free of charge).</li><li>One litre of used oil can contaminate 1 million litres of groundwater.</li></ul>"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "How often should I change the oil?",
+                    "answer": "It depends on oil type and driving conditions. Mineral oil: every 5,000–7,500 km. Semi-synthetic: 7,500–10,000 km. Fully synthetic: 10,000–15,000 km, up to 20,000 km in modern vehicles with flexible service intervals. Never exceed 2 years regardless of mileage."
+                },
+                {
+                    "question": "Can I top up the oil instead of changing it?",
+                    "answer": "Topping up only replenishes the level — it doesn't replace the degraded base oil or remove contaminants. It's fine between changes if the level drops, but it never replaces a full oil change."
+                },
+                {
+                    "question": "What happens if I overfill the oil?",
+                    "answer": "Excess oil gets aerated by the crankshaft, forming foam that can't lubricate properly. It can also be drawn into the PCV system, contaminate the intake manifold and catalytic converter, and damage oil seals. Extract the excess with an oil suction pump."
+                },
+                {
+                    "question": "Can I change just the oil without replacing the filter?",
+                    "answer": "Not recommended. The old filter contains contaminated oil that immediately mixes with the fresh oil when you start the engine. All manufacturers specify replacing both simultaneously. A quality filter costs £7–£25 and is always worth it."
+                },
+                {
+                    "question": "How much oil does my car need?",
+                    "answer": "4-cylinder engines typically need 3.5–4.5 litres; 6-cylinders 5–6 litres; 8-cylinders 6–8 litres. Always check your owner's manual or the label under the bonnet. Add slightly less than the total and verify with the dipstick."
+                },
+                {
+                    "question": "Is fully synthetic oil better than mineral?",
+                    "answer": "Yes, for most modern engines. Synthetic oil offers superior thermal stability, better cold-start protection, lower volatility and greater oxidation resistance. Mineral oil may be appropriate for very old engines with high clearances, where synthetic could cause minor seal leaks."
+                }
+            ],
+            "seo": {
+                "title": "How to Change Your Car Oil Step by Step | Complete CarSpecio Guide",
+                "description": "Professional guide to changing engine oil at home: tools, oil selection, detailed steps, and mechanic tips. Save £35–£100 per service.",
+                "keywords": ["how to change car oil", "engine oil change", "car maintenance DIY", "oil filter change", "synthetic oil", "engine oil viscosity", "oil change step by step"]
+            }
+        },
+        "fr": {
+            "title": "Comment changer l'huile de sa voiture étape par étape",
+            "excerpt": "Guide complet pour changer l'huile moteur à domicile : outils, choix de l'huile, étapes détaillées et conseils de professionnel pour économiser sur l'entretien.",
+            "intro": "Le changement d'huile moteur est l'opération d'entretien la plus cruciale pour votre véhicule. Une huile propre réduit la friction, refroidit le moteur, élimine les impuretés et peut prolonger la durée de vie du moteur jusqu'à 40 %. Ce processus prend 30 à 45 minutes et vous permet d'économiser 40 à 120 € par vidange.",
+            "keyTakeaways": [
+                "Une huile sale peut augmenter la consommation de carburant jusqu'à 2 %",
+                "Toujours remplacer le filtre à huile à chaque vidange",
+                "La bonne viscosité (ex. 5W-30) est indiquée dans le manuel du véhicule",
+                "Ne jamais mélanger des huiles de viscosités ou bases différentes",
+                "L'huile usagée est un déchet dangereux — à déposer dans un point de collecte"
+            ],
+            "sections": [
+                {
+                    "id": "quand-changer",
+                    "title": "Quand faut-il changer l'huile ?",
+                    "content": "<p>La plupart des constructeurs modernes recommandent de changer l'huile <strong>tous les 10 000–15 000 km</strong> ou une fois par an, selon la première occurrence. En conduite sévère (ville, grand froid, remorquage), l'intervalle descend à <strong>5 000–7 500 km</strong>.</p><p>Signes indiquant un changement urgent :</p><ul><li>Niveau en dessous du minimum sur la jauge</li><li>Huile noire et épaisse (saine : ambrée ou brun clair)</li><li>Voyant d'huile allumé au tableau de bord</li><li>Cliquetis au démarrage à froid</li><li>Odeur de brûlé dans l'habitacle</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Consultez toujours le manuel du propriétaire. Certains véhicules modernes avec huile synthétique peuvent atteindre 20 000 km, mais ne dépassez jamais 2 ans sans vidange."
+                    }
+                },
+                {
+                    "id": "outils",
+                    "title": "Outils et matériaux nécessaires",
+                    "content": "<p>Préparez tout avant de commencer :</p><ul><li><strong>Huile neuve</strong> — Quantité et viscosité selon le manuel (5W-30, 5W-40, 0W-20…).</li><li><strong>Filtre à huile neuf</strong> — Marques fiables : Mann, Bosch, Mahle.</li><li><strong>Clé à douille</strong> — Pour le bouchon de vidange (14, 17 ou 19 mm).</li><li><strong>Clé à filtre</strong> — Réglable ou spécifique à votre moteur.</li><li><strong>Cric hydraulique + chandelles de sécurité</strong> — Ne travaillez jamais sous un véhicule maintenu uniquement par un cric.</li><li><strong>Bac de vidange</strong> — Capacité minimum 8 litres.</li><li><strong>Entonnoir, chiffons, gants en nitrile</strong></li><li><strong>Joint de cuivre neuf</strong> — Pour le bouchon de vidange.</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "N'utilisez jamais le cric ciseaux de bord pour travailler sous le véhicule. Utilisez uniquement des chandelles homologuées."
+                    }
+                },
+                {
+                    "id": "choix-huile",
+                    "title": "Comment choisir la bonne huile",
+                    "content": "<p>Utiliser la mauvaise huile peut gravement endommager le moteur :</p><ul><li><strong>Viscosité</strong> : Le code SAE (5W-30, 0W-40…) est défini par le constructeur.</li><li><strong>Base</strong> : Minérale (moins chère, moteurs anciens), semi-synthétique (équilibrée) ou synthétique (protection maximale).</li><li><strong>Spécification</strong> : Vérifiez la norme ACEA (A3/B4, C3…) et l'approbation constructeur (VW 504.00, BMW LL-04…).</li></ul><p>Marques fiables : Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.</p>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Si votre voiture dispose d'un indicateur de maintenance variable (BMW CBS, Mercedes ASSYST…), réinitialisez le compteur après la vidange."
+                    }
+                },
+                {
+                    "id": "preparation",
+                    "title": "Préparation du véhicule",
+                    "content": "<p>Suivez cet ordre précis :</p><ol><li>Conduisez la voiture <strong>5 à 10 minutes</strong> pour chauffer l'huile à environ 60°C.</li><li>Garez-vous sur une surface plane et stable.</li><li>Coupez le moteur et attendez <strong>5 minutes</strong>.</li><li>Serrez le <strong>frein à main</strong> et placez des cales derrière les roues arrière.</li><li>Ouvrez le capot et <strong>retirez le bouchon de remplissage d'huile</strong>.</li><li>Soulevez le véhicule avec le cric aux points de levage indiqués et posez les <strong>chandelles de sécurité</strong>.</li></ol>"
+                },
+                {
+                    "id": "vidange",
+                    "title": "Vidanger l'huile usagée",
+                    "content": "<p>Étape la plus importante :</p><ol><li>Placez le bac de vidange sous le carter.</li><li>Localisez le <strong>bouchon de vidange</strong>.</li><li>Desserrez avec la clé à douille <strong>dans le sens antihoraire</strong>. Finissez à la main.</li><li>Laissez vidanger <strong>10 à 15 minutes</strong>.</li><li>Observez l'huile : mousse excessive = possible mélange avec le liquide de refroidissement ; particules métalliques = usure moteur.</li><li>Nettoyez la zone du bouchon.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "L'huile chaude provoque des brûlures graves. Portez toujours des gants en nitrile résistants à la chaleur et des lunettes de protection."
+                    }
+                },
+                {
+                    "id": "filtre",
+                    "title": "Changer le filtre à huile",
+                    "content": "<p>Le filtre retient les particules métalliques et les contaminants. Ne le réutilisez jamais :</p><ol><li>Localisez le filtre — type <strong>cartouche</strong> ou type <strong>vissé</strong>.</li><li>Dévissez-le <strong>dans le sens antihoraire</strong> avec la clé à filtre.</li><li>Nettoyez parfaitement le siège du filtre sur le moteur.</li><li><strong>Lubrifiez le joint torique</strong> du nouveau filtre avec de l'huile propre.</li><li>Vissez à la main jusqu'au contact du joint, puis serrez <strong>3/4 de tour de plus</strong>. N'utilisez pas d'outil pour serrer.</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "Pour les filtres cartouche (BMW, Mercedes, Audi TDI…), remplacez également le joint torique du couvercle."
+                    }
+                },
+                {
+                    "id": "remplissage",
+                    "title": "Remplir et vérifier le niveau",
+                    "content": "<p>Dernière étape avant le démarrage :</p><ol><li>Remettez le bouchon de vidange avec un <strong>joint de cuivre neuf</strong> au couple recommandé (20–30 Nm).</li><li>Descendez le véhicule des chandelles.</li><li>Versez <strong>80 % de la quantité totale</strong> indiquée dans le manuel.</li><li>Remettez le bouchon de remplissage, démarrez et laissez tourner <strong>30 secondes</strong>. Vérifiez l'absence de fuites.</li><li>Coupez le moteur et attendez <strong>3 minutes</strong>.</li><li>Vérifiez le niveau avec la jauge : idéalement dans le <strong>tiers supérieur</strong> entre min et max.</li><li>Ajoutez si nécessaire jusqu'au niveau correct.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "Trop d'huile est aussi dangereux que pas assez. L'excès crée de la mousse, perd ses propriétés lubrifiantes et peut contaminer le catalyseur."
+                    }
+                },
+                {
+                    "id": "elimination",
+                    "title": "Élimination de l'huile usagée",
+                    "content": "<p>L'huile moteur usagée est un <strong>déchet dangereux</strong>. Il est interdit de la jeter dans les égouts, sur le sol ou dans les ordures ménagères :</p><ul><li>Conservez-la dans le bidon d'origine bien fermé.</li><li>Déposez-la dans une <strong>déchetterie</strong> ou chez un garagiste (obligé de l'accepter gratuitement).</li><li>1 litre d'huile usagée peut contaminer 1 million de litres d'eau.</li></ul>"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Combien de fois dois-je changer l'huile ?",
+                    "answer": "Selon le type d'huile : minérale toutes les 5 000–7 500 km, semi-synthétique 7 500–10 000 km, synthétique 10 000–15 000 km (jusqu'à 20 000 km sur véhicules modernes). Ne dépassez jamais 2 ans sans vidange."
+                },
+                {
+                    "question": "Peut-on mélanger différentes huiles ?",
+                    "answer": "On peut ajouter la même viscosité et base pour compléter le niveau, mais cela ne remplace pas une vidange complète. L'huile ancienne reste contaminée et dégradée."
+                },
+                {
+                    "question": "Que se passe-t-il si on met trop d'huile ?",
+                    "answer": "L'excès d'huile est fouetté par le vilebrequin et forme de la mousse qui ne lubrifie plus. Elle peut être aspirée dans le circuit de ventilation carter, contaminer l'admission et le catalyseur, et endommager les joints. Extrayez l'excès avec une pompe d'aspiration."
+                },
+                {
+                    "question": "Peut-on changer seulement l'huile sans le filtre ?",
+                    "answer": "Déconseillé. Le vieux filtre contient de l'huile contaminée qui se mélange immédiatement à la neuve au démarrage. Tous les constructeurs prescrivent le remplacement simultané. Un bon filtre coûte 8–25 €, c'est rentable."
+                },
+                {
+                    "question": "Combien de litres d'huile faut-il ?",
+                    "answer": "Les 4 cylindres nécessitent généralement 3,5–4,5 L ; les 6 cylindres 5–6 L ; les 8 cylindres 6–8 L. Vérifiez toujours le manuel ou l'étiquette sous le capot. Versez légèrement moins et contrôlez avec la jauge."
+                }
+            ],
+            "seo": {
+                "title": "Comment changer l'huile de sa voiture étape par étape | Guide CarSpecio",
+                "description": "Guide professionnel pour changer l'huile moteur soi-même : outils, choix de l'huile, étapes détaillées et conseils mécanicien. Économisez 40–120 € par vidange.",
+                "keywords": ["changer huile voiture", "vidange huile moteur", "entretien voiture maison", "filtre à huile", "huile synthétique", "viscosité huile moteur"]
+            }
+        },
+        "ar": {
+            "title": "كيفية تغيير زيت السيارة خطوة بخطوة",
+            "excerpt": "دليل احترافي شامل لتغيير زيت المحرك في المنزل: الأدوات، اختيار الزيت الصحيح، خطوات مفصلة ونصائح من ميكانيكي خبير.",
+            "intro": "تغيير زيت المحرك هو أهم عملية صيانة يمكنك إجراؤها لسيارتك. الزيت النظيف يقلل الاحتكاك ويبرد المحرك ويحمل الشوائب بعيداً، ويمكنه إطالة عمر المحرك حتى 40%. تستغرق العملية 30-45 دقيقة وتوفر لك 150-500 درهم في كل مرة.",
+            "keyTakeaways": [
+                "الزيت المتسخ يزيد استهلاك الوقود حتى 2%",
+                "استبدل فلتر الزيت دائماً مع كل تغيير",
+                "اللزوجة الصحيحة (مثل 5W-30) موجودة في دليل المركبة",
+                "لا تخلط أبداً زيوتاً بلزوجات أو قواعد مختلفة",
+                "الزيت المستعمل نفايات خطرة - خذه إلى نقطة تجميع"
+            ],
+            "sections": [
+                {
+                    "id": "cuando-cambiar-ar",
+                    "title": "متى يجب تغيير الزيت؟",
+                    "content": "<p>يوصي معظم المصنعين بتغيير الزيت <strong>كل 10,000-15,000 كم</strong> أو مرة في السنة أيهما يأتي أولاً. في ظروف القيادة القاسية (المدينة، البرد الشديد، السحب) ينخفض الفاصل إلى <strong>5,000-7,500 كم</strong>.</p><p>علامات تستوجب تغييراً عاجلاً:</p><ul><li>مستوى الزيت دون الحد الأدنى في عصا القياس</li><li>الزيت أسود وكثيف (السليم: بلون العنبر أو البني الفاتح)</li><li>إضاءة مؤشر الزيت في لوحة التحكم</li><li>صوت طرق عند الإقلاع على البارد</li><li>رائحة احتراق داخل المقصورة</li></ul>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "راجع دائماً دليل المالك. بعض السيارات الحديثة بزيت اصطناعي قد تصل إلى 20,000 كم، لكن لا تتجاوز سنتين دون تغيير أبداً."
+                    }
+                },
+                {
+                    "id": "herramientas-ar",
+                    "title": "الأدوات والمواد اللازمة",
+                    "content": "<p>اجهز كل شيء قبل البدء:</p><ul><li><strong>زيت جديد</strong> — الكمية واللزوجة حسب الدليل (5W-30، 5W-40، 0W-20...).</li><li><strong>فلتر زيت جديد</strong> — ماركات موثوقة: Mann، Bosch، Mahle.</li><li><strong>مفتاح بانة</strong> — لسدادة التصريف (14 أو 17 أو 19 مم).</li><li><strong>مفتاح فلاتر</strong> — قابل للتعديل أو خاص بمحركك.</li><li><strong>رافعة هيدروليكية + حوامل أمان</strong> — لا تعمل أبداً تحت سيارة مرفوعة بالرافعة فقط.</li><li><strong>وعاء تصريف</strong> — سعة 8 لترات على الأقل.</li><li><strong>قمع، خرق، قفازات نيتريل</strong></li><li><strong>حلقة نحاسية جديدة</strong> — لسدادة التصريف.</li></ul>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "لا تستخدم رافعة المقص المرفقة مع السيارة للعمل تحتها. استخدم حوامل الأمان المعتمدة فقط."
+                    }
+                },
+                {
+                    "id": "elegir-aceite-ar",
+                    "title": "كيف تختار الزيت الصحيح",
+                    "content": "<p>استخدام الزيت الخاطئ قد يتلف المحرك بشكل خطير:</p><ul><li><strong>اللزوجة</strong>: يحددها المصنع (5W-30، 0W-40...)، لا تغيرها بشكل عشوائي.</li><li><strong>القاعدة</strong>: معدني (أرخص، للمحركات القديمة)، شبه اصطناعي (متوازن)، أو اصطناعي كامل (حماية قصوى).</li><li><strong>المواصفة</strong>: ابحث عن تصنيف ACEA (A3/B4، C3...) وموافقة المصنع (VW 504.00، BMW LL-04...).</li></ul><p>ماركات موثوقة: Castrol Edge، Mobil 1، Liqui Moly، Shell Helix Ultra، Total Quartz.</p>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "إذا كانت سيارتك مزودة بنظام تذكير الصيانة المتغير (BMW CBS، Mercedes ASSYST...)، أعد ضبط عداد تغيير الزيت بعد الانتهاء."
+                    }
+                },
+                {
+                    "id": "preparacion-ar",
+                    "title": "تحضير المركبة",
+                    "content": "<p>اتبع هذا الترتيب بالضبط:</p><ol><li>قد السيارة <strong>5-10 دقائق</strong> لتسخين الزيت إلى ~60 درجة مئوية.</li><li>اركن على سطح مستوٍ وصلب.</li><li>أوقف المحرك وانتظر <strong>5 دقائق</strong>.</li><li>اشد <strong>فرامل اليد</strong> وضع أوتاداً خلف العجلات الخلفية.</li><li>افتح الغطاء و<strong>أزل غطاء سكب الزيت</strong> لتسهيل التصريف.</li><li>ارفع السيارة من نقاط الرفع المحددة وضع <strong>حوامل الأمان</strong>.</li></ol>"
+                },
+                {
+                    "id": "drenaje-ar",
+                    "title": "تصريف الزيت القديم",
+                    "content": "<p>المرحلة الأهم:</p><ol><li>ضع وعاء التصريف تحت الكارتر.</li><li>حدد موقع <strong>سدادة التصريف</strong>.</li><li>افكها بمفتاح البانة <strong>عكس اتجاه عقارب الساعة</strong>. أكمل بيدك حتى لا تسقط السدادة.</li><li>دع الزيت يتصرف لمدة <strong>10-15 دقيقة</strong>.</li><li>راقب الزيت: رغوة مفرطة = اختلاط محتمل بسائل التبريد؛ جزيئات معدنية = تآكل المحرك.</li><li>نظف منطقة السدادة بخرقة.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "الزيت الساخن يسبب حروقاً بالغة. ارتدِ دائماً قفازات نيتريل مقاومة للحرارة ونظارة وقاية."
+                    }
+                },
+                {
+                    "id": "filtro-ar",
+                    "title": "تغيير فلتر الزيت",
+                    "content": "<p>الفلتر يحتجز الجزيئات المعدنية والملوثات. لا تعيد استخدامه أبداً:</p><ol><li>حدد موقع الفلتر — نوع <strong>خرطوشة</strong> أو نوع <strong>لولبي</strong>.</li><li>استخدم مفتاح الفلاتر للفه <strong>عكس عقارب الساعة</strong>.</li><li>نظف سطح تركيب الفلتر على المحرك.</li><li><strong>ادهن الحلقة المطاطية للفلتر الجديد</strong> بزيت نظيف.</li><li>لفه يدوياً حتى يلامس الحلقة السطح، ثم أحكم <strong>ثلاثة أرباع دورة إضافية</strong>. لا تستخدم أداة للإحكام.</li></ol>",
+                    "callout": {
+                        "type": "tip",
+                        "text": "لفلاتر الخرطوشة (BMW، Mercedes، Audi TDI...)، استبدل أيضاً حلقة الغطاء المطاطية."
+                    }
+                },
+                {
+                    "id": "relleno-ar",
+                    "title": "إعادة التعبئة وفحص المستوى",
+                    "content": "<p>المرحلة الأخيرة:</p><ol><li>أعد تركيب سدادة التصريف مع <strong>حلقة نحاسية جديدة</strong> بعزم 20-30 نيوتن متر.</li><li>انزل السيارة من الحوامل.</li><li>اسكب <strong>80% من الكمية الإجمالية</strong> أولاً.</li><li>أعد غطاء الزيت، أشغل المحرك 30 ثانية على الفراغ، تحقق من عدم وجود تسرب.</li><li>أوقف المحرك وانتظر <strong>3 دقائق</strong>.</li><li>فحص المستوى بعصا القياس: اسحبها، امسحها، أدخلها، اسحبها. المستوى يجب أن يكون في <strong>الثلث العلوي بين الحد الأدنى والأقصى</strong>.</li><li>أضف زيتاً حسب الحاجة.</li></ol>",
+                    "callout": {
+                        "type": "warning",
+                        "text": "الزيادة في الزيت خطيرة مثل النقص. الزيت الزائد يتحول إلى رغوة تفقد خصائص التشحيم وقد تتلف المحول الحفزي."
+                    }
+                },
+                {
+                    "id": "residuos-ar",
+                    "title": "التخلص من الزيت المستعمل",
+                    "content": "<p>زيت المحرك المستعمل <strong>نفايات خطرة</strong>. يُحظر صبه في المجاري أو التربة أو القمامة العادية:</p><ul><li>احتفظ به محكم الإغلاق في الوعاء الأصلي.</li><li>خذه إلى <strong>نقطة تجميع النفايات</strong> أو أي ورشة ميكانيكية (ملزمة بقبوله مجاناً).</li><li>لتر واحد من الزيت المستعمل يمكنه تلويث مليون لتر من المياه الجوفية.</li></ul>"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "كم مرة يجب أن أغير الزيت؟",
+                    "answer": "حسب نوع الزيت: معدني كل 5,000-7,500 كم؛ شبه اصطناعي 7,500-10,000 كم؛ اصطناعي كامل 10,000-15,000 كم وقد يصل لـ20,000 كم في السيارات الحديثة. لا تتجاوز سنتين بدون تغيير أبداً."
+                },
+                {
+                    "question": "هل يمكن خلط الزيت الجديد مع القديم؟",
+                    "answer": "يمكن إضافة نفس اللزوجة والقاعدة لتعويض المستوى، لكنه لا يغني أبداً عن التغيير الكامل. الزيت القديم ملوث بالأحماض والجزيئات المعدنية."
+                },
+                {
+                    "question": "ماذا يحدث إذا وضعت زيتاً زائداً؟",
+                    "answer": "الزيت الزائد يتحول إلى رغوة بفعل عمود الكرنك وتفقد الرغوة خصائص التشحيم. يمكن أيضاً امتصاصها في نظام تهوية الكارتر وتلويث مجمع السحب والمحول الحفزي. استخرج الزائد بمضخة شفط."
+                },
+                {
+                    "question": "هل يمكن تغيير الزيت فقط دون الفلتر؟",
+                    "answer": "غير موصى به. الفلتر القديم يحتوي زيتاً ملوثاً يختلط فوراً بالزيت الجديد عند الإقلاع. جميع المصنعين يوصون باستبدالهما معاً. فلتر جيد يكلف 30-80 درهم وهو يستحق."
+                },
+                {
+                    "question": "كم لتراً من الزيت تحتاج سيارتي؟",
+                    "answer": "محركات 4 سلندر: عادةً 3.5-4.5 لتر؛ 6 سلندر: 5-6 لتر؛ 8 سلندر: 6-8 لتر. تحقق دائماً من دليل المالك أو الملصق تحت الغطاء. اسكب أقل من الكمية الكلية وتحقق بعصا القياس."
+                },
+                {
+                    "question": "هل الزيت الاصطناعي أفضل من المعدني؟",
+                    "answer": "نعم، لمعظم المحركات الحديثة. الزيت الاصطناعي يوفر استقراراً حرارياً أفضل، وحماية أقوى عند الإقلاع البارد، وتطايراً أقل ومقاومة أعلى للأكسدة. الزيت المعدني قد يكون مناسباً للمحركات القديمة جداً ذات الهوامش العالية."
+                }
+            ],
+            "seo": {
+                "title": "كيفية تغيير زيت السيارة خطوة بخطوة | دليل كارسبيسيو الشامل",
+                "description": "دليل احترافي لتغيير زيت المحرك في المنزل: الأدوات، اختيار الزيت، خطوات مفصلة ونصائح من خبراء. وفر 150-500 درهم في كل تغيير.",
+                "keywords": ["تغيير زيت السيارة", "صيانة المحرك", "تغيير فلتر الزيت", "زيت اصطناعي", "لزوجة الزيت", "صيانة السيارة في المنزل"]
+            }
+        }
+    },
+    "summaryBox": {
+        "es": {
+            "title": "Resumen rápido",
+            "tocLabel": "Resumen",
+            "items": [
+                "Calienta el motor 5–10 min antes de empezar",
+                "Usa siempre gato hidráulico + caballetes de seguridad",
+                "Deja drenar el aceite viejo 10–15 minutos",
+                "Humedece la junta del filtro nuevo con aceite limpio",
+                "Aprieta el filtro solo a mano + 3/4 vuelta más",
+                "Añade el 80% del aceite, arranca, verifica fugas y comprueba nivel"
+            ]
+        },
+        "en": {
+            "title": "Quick Summary",
+            "tocLabel": "Summary",
+            "items": [
+                "Warm the engine 5–10 min before starting",
+                "Always use hydraulic jack + axle stands",
+                "Let old oil drain for 10–15 minutes",
+                "Lightly oil the new filter gasket with clean oil",
+                "Tighten filter by hand only + 3/4 turn",
+                "Add 80% of oil first, start engine, check for leaks, verify level"
+            ]
+        },
+        "fr": {
+            "title": "Résumé rapide",
+            "tocLabel": "Résumé",
+            "items": [
+                "Chauffez le moteur 5–10 min avant de commencer",
+                "Utilisez toujours cric hydraulique + chandelles de sécurité",
+                "Laissez vider l'huile 10–15 minutes",
+                "Lubrifiez le joint du nouveau filtre avec de l'huile propre",
+                "Serrez le filtre à la main seulement + 3/4 de tour",
+                "Versez 80% de l'huile, démarrez, vérifiez les fuites et le niveau"
+            ]
+        },
+        "ar": {
+            "title": "ملخص سريع",
+            "tocLabel": "ملخص",
+            "items": [
+                "سخن المحرك 5-10 دقائق قبل البدء",
+                "استخدم دائماً رافعة هيدروليكية + حوامل أمان",
+                "دع الزيت القديم يتصرف 10-15 دقيقة",
+                "ادهن حلقة الفلتر الجديد بالزيت النظيف",
+                "أحكم الفلتر يدوياً فقط + ثلاثة أرباع دورة",
+                "اسكب 80% من الزيت أولاً، أشغل المحرك، تحقق من التسرب والمستوى"
+            ]
+        }
+    },
+    "tags": ["oil", "maintenance", "engine", "DIY", "filter"],
+    "relatedCars": ["bmw-m5-2026", "audi-rs7-2026"],
+    "schemaVersion": "1.0"
+}

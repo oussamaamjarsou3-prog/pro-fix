@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+    <meta name="description" data-i18n="reviewsPage.subtitle" content="Análisis detallados de los mejores coches del mercado con datos reales y opiniones expertas.">
+    <title data-i18n="reviewsPage.pageTitle">Reviews | CarSpecio</title>
+    <link rel="canonical" href="https://carspecio.com/reviews.html">
+    <meta property="og:title" content="Reviews | CarSpecio">
+    <meta property="og:description" content="Análisis detallados de los mejores coches del mercado con datos reales y opiniones expertas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/reviews.html">
+    <meta property="og:image" content="https://carspecio.com/images/hero-incio.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reviews | CarSpecio">
+    <meta name="twitter:description" content="Análisis detallados de los mejores coches del mercado con datos reales y opiniones expertas.">
+    <meta name="twitter:image" content="https://carspecio.com/images/hero-incio.png">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/home-global.css">
+    <link rel="stylesheet" href="css/lang-dropdown.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home-dashboard.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mega-menu-full.css">
+
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-home dash-home">
+<a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews" class="active">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<main id="main-content">
+    <!-- HERO -->
+    <section class="dash-hero reviews-hero">
+        <div class="dash-hero-bg" style="background-image: url('images/hero-incio.png')"></div>
+        <div class="hero-bg-overlay"></div>
+        <div class="container dash-hero-content">
+            <h1 class="reveal" data-i18n="reviewsPage.title">Reviews de coches premium</h1>
+            <p class="reveal" data-i18n="reviewsPage.subtitle">Análisis detallados de los mejores coches del mercado con datos reales y opiniones expertas.</p>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="dash-section">
+        <div class="container">
+            <div class="section-head">
+                <h2 data-i18n="reviewsPage.sectionTitle">Reviews destacadas</h2>
+                <p class="section-subtitle" data-i18n="reviewsPage.allSectionTitle">Todas las reviews</p>
+            </div>
+
+            <div class="reviews-search">
+                <input type="search" id="reviewsSearch" class="reviews-search-input" data-i18n-placeholder="reviewsPage.searchPlaceholder" placeholder="Buscar por marca, modelo o categoría..." aria-label="Buscar reviews">
+            </div>
+
+            <div class="reviews-grid">
+        <div class="lang-block" data-lang="es">
+            <div class="card-grid card-grid--4">
+            <a href="rs7.html" class="card review-card" data-search="audi rs7 audi deportivos" data-category="deportivos" data-price="94316">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/rs7.hero.2026.png" alt="Audi RS7" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">Audi RS7</h3>
+                    <p class="card-text">El Audi RS7 es una berlina deportiva de altas prestaciones que combina el lujo de un gran turismo con la brutalidad de un superdeportivo. Su motor V8 biturbo de 591 CV ofrece una aceleración demoledora, mientras que el interior de cuero Valcona y la tecnología MMI crean un ambiente premium sin concesiones.</p>
+                    <div class="card-footer"><span>Audi</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="rs3.html" class="card review-card" data-search="audi rs 3 sportback audi deportivos" data-category="deportivos" data-price="71826">
+                <div class="card-image"><span class="card-rating">8.6</span><img src="/images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS 3 Sportback" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">Audi RS 3 Sportback</h3>
+                    <p class="card-text">El Audi RS3 es un compacto deportivo de altas prestaciones con un motor de 5 cilindros turbo, tracción quattro y un sonido inconfundible.</p>
+                    <div class="card-footer"><span>Audi</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="bmw-m5.html" class="card review-card" data-search="bmw m5 phev competition bmw deportivos" data-category="deportivos" data-price="124793">
+                <div class="card-image"><span class="card-rating">9</span><img src="images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV Competition" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">BMW M5 PHEV Competition</h3>
+                    <p class="card-text">El BMW M5 PHEV es una berlina deportiva híbrida de altas prestaciones que combina lujo, tecnología y una potencia de 727 HP.</p>
+                    <div class="card-footer"><span>BMW</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="bmw-520d.html" class="card review-card" data-search="bmw 520d xdrive bmw sedán" data-category="sedan" data-price="47615">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/bmw-520d/bmw-520d.hero.png" alt="BMW 520d xDrive" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sedán</span></div>
+                    <h3 class="card-title">BMW 520d xDrive</h3>
+                    <p class="card-text">El BMW 520d xDrive representa la evolucion del diesel premium. Su motor 2.0L de 197 CV con sistema mild-hybrid de 48V ofrece un consumo contenido sin renunciar al confort y la tecnologia de una berlina de lujo.</p>
+                    <div class="card-footer"><span>BMW</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="mercedes-amg-gt.html" class="card review-card" data-search="mercedes-amg gt 63 s e performance mercedes-benz deportivos" data-category="deportivos" data-price="190000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 63 S E PERFORMANCE" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">Mercedes-AMG GT 63 S E PERFORMANCE</h3>
+                    <p class="card-text">El Mercedes-AMG GT 63 S E Performance combina el sonido y la potencia de un V8 biturbo con la eficiencia de un híbrido enchufable, ofreciendo un GT de lujo capaz de superar a muchos superdeportivos en aceleración.</p>
+                    <div class="card-footer"><span>Mercedes-Benz</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="nissan-gtr.html" class="card review-card" data-search="nissan gt-r nismo nissan deportivos" data-category="deportivos" data-price="200000">
+                <div class="card-image"><span class="card-rating">9.1</span><img src="/images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R NISMO" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">Nissan GT-R NISMO</h3>
+                    <p class="card-text">El Nissan GT-R NISMO es un superdeportivo japonés que ofrece aceleración de hipercar por una fracción del precio, con tracción total y un motor V6 twin-turbo legendaria.</p>
+                    <div class="card-footer"><span>Nissan</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="porsche-911.html" class="card review-card" data-search="porsche 911 turbo s porsche deportivos" data-category="deportivos" data-price="235000">
+                <div class="card-image"><span class="card-rating">9.4</span><img src="/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 Turbo S" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Deportivos</span></div>
+                    <h3 class="card-title">Porsche 911 Turbo S</h3>
+                    <p class="card-text">El Porsche 911 Turbo S es el superdeportivo de calle más completo del mundo: rápido, refinado y utilizable a diario.</p>
+                    <div class="card-footer"><span>Porsche</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="model-s-plaid.html" class="card review-card" data-search="tesla model s plaid tesla eléctricos" data-category="electricos" data-price="100000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/tesla-s-plaid/tesla-hero.png" alt="Tesla Model S Plaid" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Eléctricos</span></div>
+                    <h3 class="card-title">Tesla Model S Plaid</h3>
+                    <p class="card-text">El Tesla Model S Plaid redefine lo que un sedan electrico puede lograr. Con 1020 CV de potencia combinada de tres motores, alcanza los 100 km/h en 2.1 segundos, superando a muchos superdeportivos.</p>
+                    <div class="card-footer"><span>Tesla</span><span>Ver review</span></div>
+                </div>
+            </a>
+            <a href="vw-passat-variant.html" class="card review-card" data-search="volkswagen passat variant volkswagen familiar" data-category="familiar" data-price="38000">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/volkswagen-passat.2026/passat-hero.png" alt="Volkswagen Passat Variant" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Familiar</span></div>
+                    <h3 class="card-title">Volkswagen Passat Variant</h3>
+                    <p class="card-text">El VW Passat Variant representa la evolucion del familiar por excelencia. Su motor 2.0 TDI de 150 CV ofrece un consumo contenido sin renunciar al confort y la tecnologia de un familiar de lujo.</p>
+                    <div class="card-footer"><span>Volkswagen</span><span>Ver review</span></div>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="lang-block" data-lang="en">
+            <div class="card-grid card-grid--4">
+            <a href="rs7.html" class="card review-card" data-search="audi rs7 audi sports" data-category="deportivos" data-price="94316">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/rs7.hero.2026.png" alt="Audi RS7" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">Audi RS7</h3>
+                    <p class="card-text">The Audi RS7 is a high-performance luxury sportback that combines grand-touring refinement with supercar-level brutality. Its twin-turbo V8 produces 591 hp, launching the car to 100 km/h in 3.6 seconds, while the Valcona leather interior and MMI technology create an atmosphere of uncompromising premium quality.</p>
+                    <div class="card-footer"><span>Audi</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="rs3.html" class="card review-card" data-search="audi rs 3 sportback audi sports" data-category="deportivos" data-price="71826">
+                <div class="card-image"><span class="card-rating">8.6</span><img src="/images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS 3 Sportback" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">Audi RS 3 Sportback</h3>
+                    <p class="card-text">The Audi RS3 is a high-performance compact sports car with a turbocharged 5-cylinder engine, quattro traction and an unmistakable sound.</p>
+                    <div class="card-footer"><span>Audi</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="bmw-m5.html" class="card review-card" data-search="bmw m5 phev competition bmw sports" data-category="deportivos" data-price="124793">
+                <div class="card-image"><span class="card-rating">9</span><img src="images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV Competition" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">BMW M5 PHEV Competition</h3>
+                    <p class="card-text">The BMW M5 PHEV is a high-performance hybrid sports sedan that combines luxury, technology and 727 HP.</p>
+                    <div class="card-footer"><span>BMW</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="bmw-520d.html" class="card review-card" data-search="bmw 520d xdrive bmw sedan" data-category="sedan" data-price="47615">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/bmw-520d/bmw-520d.hero.png" alt="BMW 520d xDrive" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sedan</span></div>
+                    <h3 class="card-title">BMW 520d xDrive</h3>
+                    <p class="card-text">The BMW 520d xDrive represents the evolution of the premium diesel sedan. Its 197 hp 2.0L engine with a 48V mild-hybrid system offers contained consumption without sacrificing the comfort and technology of a luxury sedan.</p>
+                    <div class="card-footer"><span>BMW</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="mercedes-amg-gt.html" class="card review-card" data-search="mercedes-amg gt 63 s e performance mercedes-benz sports" data-category="deportivos" data-price="190000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 63 S E PERFORMANCE" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">Mercedes-AMG GT 63 S E PERFORMANCE</h3>
+                    <p class="card-text">The Mercedes-AMG GT 63 S E Performance combines the sound and power of a twin-turbo V8 with plug-in hybrid efficiency, delivering a luxury GT capable of outpacing many supercars in acceleration.</p>
+                    <div class="card-footer"><span>Mercedes-Benz</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="nissan-gtr.html" class="card review-card" data-search="nissan gt-r nismo nissan sports" data-category="deportivos" data-price="200000">
+                <div class="card-image"><span class="card-rating">9.1</span><img src="/images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R NISMO" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">Nissan GT-R NISMO</h3>
+                    <p class="card-text">The Nissan GT-R NISMO is a Japanese supercar offering hypercar acceleration for a fraction of the price, with all-wheel drive and a legendary twin-turbo V6.</p>
+                    <div class="card-footer"><span>Nissan</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="porsche-911.html" class="card review-card" data-search="porsche 911 turbo s porsche sports" data-category="deportivos" data-price="235000">
+                <div class="card-image"><span class="card-rating">9.4</span><img src="/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 Turbo S" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sports</span></div>
+                    <h3 class="card-title">Porsche 911 Turbo S</h3>
+                    <p class="card-text">The Porsche 911 Turbo S is the most complete road supercar: fast, refined and usable every day.</p>
+                    <div class="card-footer"><span>Porsche</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="model-s-plaid.html" class="card review-card" data-search="tesla model s plaid tesla electric" data-category="electricos" data-price="100000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/tesla-s-plaid/tesla-hero.png" alt="Tesla Model S Plaid" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Electric</span></div>
+                    <h3 class="card-title">Tesla Model S Plaid</h3>
+                    <p class="card-text">The Tesla Model S Plaid redefines what an electric sedan can achieve. With 1,020 hp from three motors, it hits 100 km/h in 2.1 seconds, outpacing many supercars.</p>
+                    <div class="card-footer"><span>Tesla</span><span>View review</span></div>
+                </div>
+            </a>
+            <a href="vw-passat-variant.html" class="card review-card" data-search="volkswagen passat variant volkswagen family" data-category="familiar" data-price="38000">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/volkswagen-passat.2026/passat-hero.png" alt="Volkswagen Passat Variant" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Family</span></div>
+                    <h3 class="card-title">Volkswagen Passat Variant</h3>
+                    <p class="card-text">The VW Passat Variant represents the evolution of the estate par excellence. Its 150 hp 2.0 TDI engine offers contained consumption without sacrificing the comfort and technology of a luxury estate.</p>
+                    <div class="card-footer"><span>Volkswagen</span><span>View review</span></div>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="lang-block" data-lang="fr">
+            <div class="card-grid card-grid--4">
+            <a href="rs7.html" class="card review-card" data-search="audi rs7 audi sportives" data-category="deportivos" data-price="94316">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/rs7.hero.2026.png" alt="Audi RS7" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">Audi RS7</h3>
+                    <p class="card-text">L'Audi RS7 est une berline sportive de hautes performances qui allie le raffinement d'un grand tourisme à la brutalité d'une supercar. Son V8 biturbo de 591 ch propulse la voiture de 0 à 100 km/h en 3,6 secondes, tandis que l'intérieur en cuir Valcona et la technologie MMI créent une atmosphère premium sans compromis.</p>
+                    <div class="card-footer"><span>Audi</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="rs3.html" class="card review-card" data-search="audi rs 3 sportback audi sportives" data-category="deportivos" data-price="71826">
+                <div class="card-image"><span class="card-rating">8.6</span><img src="/images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS 3 Sportback" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">Audi RS 3 Sportback</h3>
+                    <p class="card-text">L'Audi RS3 est une compacte sportive haute performance avec un moteur 5 cylindres turbo, une traction quattro et un son inimitable.</p>
+                    <div class="card-footer"><span>Audi</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="bmw-m5.html" class="card review-card" data-search="bmw m5 phev competition bmw sportives" data-category="deportivos" data-price="124793">
+                <div class="card-image"><span class="card-rating">9</span><img src="images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV Competition" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">BMW M5 PHEV Competition</h3>
+                    <p class="card-text">La BMW M5 PHEV est une berline sportive hybride haute performance qui allie luxe, technologie et 727 ch.</p>
+                    <div class="card-footer"><span>BMW</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="bmw-520d.html" class="card review-card" data-search="bmw 520d xdrive bmw berline" data-category="sedan" data-price="47615">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/bmw-520d/bmw-520d.hero.png" alt="BMW 520d xDrive" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Berline</span></div>
+                    <h3 class="card-title">BMW 520d xDrive</h3>
+                    <p class="card-text">La BMW 520d xDrive représente l'évolution de la berline diesel premium. Son moteur 2.0L de 197 ch avec système mild-hybrid 48V offre une consommation contenue sans renoncer au confort et à la technologie d'une berline de luxe.</p>
+                    <div class="card-footer"><span>BMW</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="mercedes-amg-gt.html" class="card review-card" data-search="mercedes-amg gt 63 s e performance mercedes-benz sportives" data-category="deportivos" data-price="190000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 63 S E PERFORMANCE" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">Mercedes-AMG GT 63 S E PERFORMANCE</h3>
+                    <p class="card-text">La Mercedes-AMG GT 63 S E Performance combine le son et la puissance d'un V8 biturbo avec l'efficacité d'un hybride rechargeable, offrant un GT de luxe capable de surpasser de nombreuses supercars en accélération.</p>
+                    <div class="card-footer"><span>Mercedes-Benz</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="nissan-gtr.html" class="card review-card" data-search="nissan gt-r nismo nissan sportives" data-category="deportivos" data-price="200000">
+                <div class="card-image"><span class="card-rating">9.1</span><img src="/images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R NISMO" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">Nissan GT-R NISMO</h3>
+                    <p class="card-text">La Nissan GT-R NISMO est une supercar japonaise offrant une accélération d'hypercar pour une fraction du prix, avec traction intégrale et un V6 biturbo légendaire.</p>
+                    <div class="card-footer"><span>Nissan</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="porsche-911.html" class="card review-card" data-search="porsche 911 turbo s porsche sportives" data-category="deportivos" data-price="235000">
+                <div class="card-image"><span class="card-rating">9.4</span><img src="/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 Turbo S" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Sportives</span></div>
+                    <h3 class="card-title">Porsche 911 Turbo S</h3>
+                    <p class="card-text">La Porsche 911 Turbo S est la supercar de route la plus complète : rapide, raffinée et utilisable au quotidien.</p>
+                    <div class="card-footer"><span>Porsche</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="model-s-plaid.html" class="card review-card" data-search="tesla model s plaid tesla électriques" data-category="electricos" data-price="100000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/tesla-s-plaid/tesla-hero.png" alt="Tesla Model S Plaid" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Électriques</span></div>
+                    <h3 class="card-title">Tesla Model S Plaid</h3>
+                    <p class="card-text">La Tesla Model S Plaid redéfinit ce qu'une berline électrique peut accomplir. Avec 1 020 ch produits par trois moteurs, elle atteint 100 km/h en 2,1 secondes, dépassant de nombreuses supercars.</p>
+                    <div class="card-footer"><span>Tesla</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            <a href="vw-passat-variant.html" class="card review-card" data-search="volkswagen passat variant volkswagen familiale" data-category="familiar" data-price="38000">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/volkswagen-passat.2026/passat-hero.png" alt="Volkswagen Passat Variant" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>Familiale</span></div>
+                    <h3 class="card-title">Volkswagen Passat Variant</h3>
+                    <p class="card-text">La VW Passat Variant represente l'evolution du break par excellence. Son moteur 2.0 TDI de 150 ch offre une consommation contenue sans sacrifier le confort et la technologie d'un break de luxe.</p>
+                    <div class="card-footer"><span>Volkswagen</span><span>Voir l'essai</span></div>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="lang-block" data-lang="ar">
+            <div class="card-grid card-grid--4">
+            <a href="rs7.html" class="card review-card" data-search="audi rs7 audi رياضية" data-category="deportivos" data-price="94316">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/rs7.hero.2026.png" alt="Audi RS7" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">Audi RS7</h3>
+                    <p class="card-text">أودي آر إس 7 هي سيارة سيدان رياضية فاخرة عالية الأداء تجمع بين راحة سيارات الجران توريزمو وقوة السوبركار. محرك محرك 8 أسطوانات التوين تيربو بقوة 591 حصان يدفع السيارة من 0 إلى 100 كم/س في 3.6 ثانية، بينما الجلد فالكونا والتقنية إم إم آي يخلقان أجواء فاخرة بلا تنازلات.</p>
+                    <div class="card-footer"><span>Audi</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="rs3.html" class="card review-card" data-search="audi rs 3 sportback audi رياضية" data-category="deportivos" data-price="71826">
+                <div class="card-image"><span class="card-rating">8.6</span><img src="/images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS 3 Sportback" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">Audi RS 3 Sportback</h3>
+                    <p class="card-text">أودي آر إس 3 هي سيارة رياضية مدمجة عالية الأداء مع محرك 5 أسطوانات توربو، دفع كواترو وصوت لا يُخطأ.</p>
+                    <div class="card-footer"><span>Audi</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="bmw-m5.html" class="card review-card" data-search="bmw m5 phev competition bmw رياضية" data-category="deportivos" data-price="124793">
+                <div class="card-image"><span class="card-rating">9</span><img src="images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV Competition" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">BMW M5 PHEV Competition</h3>
+                    <p class="card-text">بي إم دبليو أم 5 هجين هي سيدان رياضية هجينة عالية الأداء تجمع بين الفخامة والتقنية وقوة 727 حصان.</p>
+                    <div class="card-footer"><span>BMW</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="bmw-520d.html" class="card review-card" data-search="bmw 520d xdrive bmw سيدان" data-category="sedan" data-price="47615">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/bmw-520d/bmw-520d.hero.png" alt="BMW 520d xDrive" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>سيدان</span></div>
+                    <h3 class="card-title">BMW 520d xDrive</h3>
+                    <p class="card-text">تمثل بي إم دبليو 520 دي إكس درايف تطور السيدان الديزل الفاخر. محركها 2.0 لتر بقوة 197 حصان مع نظام هجين خفيف 48 فولت يقدم استهلاكاً محدوداً دون التخلي عن راحة وتقنية السيدان الفاخر.</p>
+                    <div class="card-footer"><span>BMW</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="mercedes-amg-gt.html" class="card review-card" data-search="mercedes-amg gt 63 s e performance mercedes-benz رياضية" data-category="deportivos" data-price="190000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 63 S E PERFORMANCE" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">Mercedes-AMG GT 63 S E PERFORMANCE</h3>
+                    <p class="card-text">تجمع مرسيدس-أي إم جي جي تي 63 إس إي بيرفورمانس بين صوت وقوة محرك محرك 8 أسطوانات توين تيربو وكفاءة الهجين القابس للشحن، لتقدم جي تي فاخرة قادرة على التفوق على العديد من السيارات الخارقة في التسارع.</p>
+                    <div class="card-footer"><span>Mercedes-Benz</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="nissan-gtr.html" class="card review-card" data-search="nissan gt-r nismo nissan رياضية" data-category="deportivos" data-price="200000">
+                <div class="card-image"><span class="card-rating">9.1</span><img src="/images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R NISMO" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">Nissan GT-R NISMO</h3>
+                    <p class="card-text">نيسان جي تي آر نيسمو هي سوبركار يابانية تقدم تسارع سيارة هايبركار بجزء بسيط من السعر، مع دفع كلي ومحرك محرك 6 أسطوانات توين تيربو أسطوري.</p>
+                    <div class="card-footer"><span>Nissan</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="porsche-911.html" class="card review-card" data-search="porsche 911 turbo s porsche رياضية" data-category="deportivos" data-price="235000">
+                <div class="card-image"><span class="card-rating">9.4</span><img src="/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 Turbo S" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>رياضية</span></div>
+                    <h3 class="card-title">Porsche 911 Turbo S</h3>
+                    <p class="card-text">بورش 911 تيربو إس هي السوبركار الكاملة للطريق: سريعة، راقية وقابلة للاستخدام اليومي.</p>
+                    <div class="card-footer"><span>Porsche</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="model-s-plaid.html" class="card review-card" data-search="tesla model s plaid tesla كهربائية" data-category="electricos" data-price="100000">
+                <div class="card-image"><span class="card-rating">9.2</span><img src="/images/tesla-s-plaid/tesla-hero.png" alt="Tesla Model S Plaid" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>كهربائية</span></div>
+                    <h3 class="card-title">Tesla Model S Plaid</h3>
+                    <p class="card-text">تعيد تيسلا موديل إس بليد تعريف ما يمكن أن تحققه السيدان الكهربائية. بقوة 1020 حصان من ثلاثة محركات، تصل إلى 100 كم/س في 2.1 ثانية، متفوقة على العديد من السوبركار.</p>
+                    <div class="card-footer"><span>Tesla</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            <a href="vw-passat-variant.html" class="card review-card" data-search="volkswagen passat variant volkswagen عائلية" data-category="familiar" data-price="38000">
+                <div class="card-image"><span class="card-rating">8.5</span><img src="images/volkswagen-passat.2026/passat-hero.png" alt="Volkswagen Passat Variant" loading="lazy"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span>عائلية</span></div>
+                    <h3 class="card-title">Volkswagen Passat Variant</h3>
+                    <p class="card-text">تمثل فولكس فاجن باسات فاريانت تطور السيارة العائلية بامتياز. محركها 2.0 تي دي آي بقوة 150 حصان يقدم استهلاكاً محدوداً دون التخلي عن راحة وتقنية السيارة العائلية الفاخرة.</p>
+                    <div class="card-footer"><span>Volkswagen</span><span>عرض المراجعة</span></div>
+                </div>
+            </a>
+            </div>
+        </div>
+            </div>
+            <p class="reviews-empty" id="reviewsEmpty" data-i18n="reviewsPage.emptyResults" hidden>No se encontraron reviews</p>
+        </div>
+    </section><!-- FOOTER -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+</main>
+
+<script src="js/flag-icons.js"></script>
+<script src="js/mega-menu-data.js" defer></script>
+<script src="js/mega-menu.js" defer></script>
+<script src="js/i18n.js"></script>
+<script src="js/script.js" defer></script>
+<script src="system/js/dropdowns.js"></script>
+
+<script>
+(function() {
+    const searchInput = document.getElementById('reviewsSearch');
+    if (!searchInput) return;
+
+    function getBudgetFilter() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('budget');
+    }
+
+    function getCategoryFilter() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('categoria');
+    }
+
+    function filterReviews() {
+        const query = searchInput.value.toLowerCase().trim();
+        const currentLang = document.documentElement.lang || 'es';
+        const activeBlock = document.querySelector('.reviews-grid .lang-block[data-lang="' + currentLang + '"]');
+        if (!activeBlock) return;
+
+        const budget = getBudgetFilter();
+        let budgetMin = null, budgetMax = null;
+        if (budget) {
+            const parts = budget.split('-');
+            budgetMin = parseFloat(parts[0]);
+            budgetMax = parts[1] ? parseFloat(parts[1]) : null;
+        }
+
+        const catFilter = getCategoryFilter();
+
+        const cards = activeBlock.querySelectorAll('.review-card');
+        let visible = 0;
+
+        cards.forEach(card => {
+            const text = (card.getAttribute('data-search') || '').toLowerCase();
+            const title = card.querySelector('.card-title')?.textContent.toLowerCase() || '';
+            const price = parseFloat(card.getAttribute('data-price'));
+            const cardCat = card.getAttribute('data-category') || '';
+            const textMatch = !query || text.includes(query) || title.includes(query);
+            let priceMatch = true;
+            if (budgetMin != null) {
+                if (isNaN(price)) priceMatch = false;
+                else if (price < budgetMin) priceMatch = false;
+                else if (budgetMax != null && price >= budgetMax) priceMatch = false;
+            }
+            let catMatch = true;
+            if (catFilter) {
+                catMatch = cardCat === catFilter;
+            }
+            const match = textMatch && priceMatch && catMatch;
+            card.style.display = match ? '' : 'none';
+            if (match) visible++;
+        });
+
+        const emptyMsg = document.getElementById('reviewsEmpty');
+        if (emptyMsg) emptyMsg.hidden = visible > 0;
+
+        var subtitle = document.querySelector('.section-subtitle');
+        if (subtitle) {
+            if (catFilter) {
+                var catNames = {
+                    deportivos: 'Deportivos', sedan: 'Sedán', suv: 'SUV',
+                    electricos: 'Eléctricos', compactos: 'Compactos',
+                    hatchback: 'Hatchback', familiar: 'Familiar',
+                    pickup: 'Pickup', 'híbridos': 'Híbridos', lujo: 'Lujo'
+                };
+                subtitle.textContent = catNames[catFilter] || catFilter;
+            } else if (budgetMin != null) {
+                subtitle.textContent = budgetMax != null
+                    ? '€' + budgetMin.toLocaleString('es-ES') + ' - €' + budgetMax.toLocaleString('es-ES')
+                    : 'Desde €' + budgetMin.toLocaleString('es-ES');
+            }
+        }
+    }
+
+    searchInput.addEventListener('input', filterReviews);
+    document.addEventListener('i18n:ready', filterReviews);
+    document.addEventListener('DOMContentLoaded', filterReviews);
+    if (document.readyState !== 'loading') filterReviews();
+})();
+</script>
+<script src="js/cookie-consent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/analytics-events.js" defer></script>
+</body>
+
+</html>

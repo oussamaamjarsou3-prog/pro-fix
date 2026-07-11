@@ -1,0 +1,1818 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/schemas/master-car-schema.json",
+  "title": "Master Car Schema",
+  "description": "Comprehensive car data schema for CarSpecio platform - scalable to 15,000+ models across multiple languages and applications",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "brandId",
+    "categoryId",
+    "basicInfo",
+    "specs",
+    "performance",
+    "dimensions",
+    "fuelEconomy",
+    "pricing",
+    "features",
+    "safety",
+    "versions",
+    "images",
+    "seo",
+    "content"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique car identifier (e.g., 'audi-rs7-2026')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier (e.g., 'rs7')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "brandId": {
+      "type": "string",
+      "description": "Reference to brand schema",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "categoryId": {
+      "type": "string",
+      "description": "Reference to category schema",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "modelYear": {
+      "type": "integer",
+      "description": "Model year",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "generation": {
+      "type": "string",
+      "description": "Car generation (e.g., 'C8', 'G30')"
+    },
+    "bodyStyle": {
+      "type": "string",
+      "description": "Body style (sedan, hatchback, suv, coupe, convertible, wagon, pickup, etc.)",
+      "enum": ["sedan", "hatchback", "suv", "coupe", "convertible", "wagon", "pickup", "van", "minivan", "roadster", "other"]
+    },
+    "doors": {
+      "type": "integer",
+      "description": "Number of doors",
+      "minimum": 2,
+      "maximum": 5
+    },
+    "seats": {
+      "type": "integer",
+      "description": "Number of seats",
+      "minimum": 2,
+      "maximum": 9
+    },
+    "drivetrain": {
+      "type": "string",
+      "description": "Drivetrain type",
+      "enum": ["fwd", "rwd", "awd", "4wd"]
+    },
+    "enginePosition": {
+      "type": "string",
+      "description": "Engine position",
+      "enum": ["front", "rear", "mid"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Car status",
+      "enum": ["active", "discontinued", "upcoming", "concept"]
+    },
+    "launchDate": {
+      "type": "string",
+      "description": "Launch date (ISO 8601 format)",
+      "format": "date"
+    },
+    "discontinuationDate": {
+      "type": "string",
+      "description": "Discontinuation date (ISO 8601 format)",
+      "format": "date"
+    },
+    "productionYears": {
+      "type": "object",
+      "description": "Production year range",
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 1900
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1900
+        }
+      }
+    }
+  },
+    "basicInfo": {
+      "type": "object",
+      "description": "Basic car information",
+      "required": ["name", "fullModelName"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Car name (e.g., 'RS7')"
+        },
+        "fullModelName": {
+          "type": "string",
+          "description": "Full model name (e.g., 'Audi RS7 Sportback')"
+        },
+        "badge": {
+          "type": "string",
+          "description": "Badge text for hero section"
+        },
+        "tagline": {
+          "type": "string",
+          "description": "Marketing tagline"
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description"
+        },
+        "longDescription": {
+          "type": "string",
+          "description": "Detailed description"
+        },
+        "highlights": {
+          "type": "array",
+          "description": "Key highlights",
+          "items": {
+            "type": "string"
+          }
+        }
+      }    
+    },
+    "specs": {
+      "type": "object",
+      "description": "Technical specifications",
+      "properties": {
+        "engine": {
+          "type": "object",
+          "description": "Engine specifications",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Engine type (e.g., 'V8 Twin-Turbo', 'Inline-6', 'Electric Motor')"
+            },
+            "displacement": {
+              "type": "object",
+              "description": "Engine displacement",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["cc", "L"]
+                }
+              }
+            },
+            "cylinders": {
+              "type": "integer",
+              "description": "Number of cylinders"
+            },
+            "configuration": {
+              "type": "string",
+              "description": "Engine configuration (e.g., 'V', 'Inline', 'Boxer', 'W')"
+            },
+            "aspiration": {
+              "type": "string",
+              "description": "Aspiration type (e.g., 'Turbo', 'Supercharged', 'Naturally Aspirated', 'Electric')"
+            },
+            "fuelType": {
+              "type": "string",
+              "description": "Fuel type",
+              "enum": ["petrol", "diesel", "electric", "hybrid", "plug-in-hybrid", "hydrogen", "lpg", "cng"]
+            },
+            "fuelOctane": {
+              "type": "string",
+              "description": "Required fuel octane rating (e.g., '95', '98', 'Premium')"
+            },
+            "compressionRatio": {
+              "type": "number",
+              "description": "Compression ratio"
+            },
+            "bore": {
+              "type": "number",
+              "description": "Bore in mm"
+            },
+            "stroke": {
+              "type": "number",
+              "description": "Stroke in mm"
+            },
+            "blockMaterial": {
+              "type": "string",
+              "description": "Engine block material (e.g., 'Aluminum', 'Iron')"
+            },
+            "headMaterial": {
+              "type": "string",
+              "description": "Cylinder head material (e.g., 'Aluminum')"
+            },
+            "oilCapacity": {
+              "type": "object",
+              "description": "Oil capacity",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L", "qt"]
+                }
+              }
+            },
+            "cooling": {
+              "type": "string",
+              "description": "Cooling system (e.g., 'Liquid', 'Air')"
+            }
+          }
+        },
+        "transmission": {
+          "type": "object",
+          "description": "Transmission specifications",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Transmission type (e.g., 'Automatic', 'Manual', 'CVT', 'DCT', 'Direct Drive')"
+            },
+            "gears": {
+              "type": "integer",
+              "description": "Number of gears"
+            },
+            "brand": {
+              "type": "string",
+              "description": "Transmission brand (e.g., 'ZF', 'Aisin', 'PDK')"
+            },
+            "model": {
+              "type": "string",
+              "description": "Transmission model"
+            },
+            "driveMode": {
+              "type": "string",
+              "description": "Drive mode (e.g., 'RWD', 'AWD', '4WD')"
+            }
+          }
+        },
+        "suspension": {
+          "type": "object",
+          "description": "Suspension specifications",
+          "properties": {
+            "front": {
+              "type": "string",
+              "description": "Front suspension type"
+            },
+            "rear": {
+              "type": "string",
+              "description": "Rear suspension type"
+            },
+            "adaptive": {
+              "type": "boolean",
+              "description": "Has adaptive suspension"
+            },
+            "airSuspension": {
+              "type": "boolean",
+              "description": "Has air suspension"
+            },
+            "adjustableDampers": {
+              "type": "boolean",
+              "description": "Has adjustable dampers"
+            }
+          }
+        },
+        "brakes": {
+          "type": "object",
+          "description": "Brake specifications",
+          "properties": {
+            "front": {
+              "type": "object",
+              "description": "Front brakes",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Brake type (e.g., 'Ventilated Disc', 'Disc', 'Drum')"
+                },
+                "diameter": {
+                  "type": "number",
+                  "description": "Diameter in mm"
+                },
+                "material": {
+                  "type": "string",
+                  "description": "Brake material (e.g., 'Ceramic', 'Composite', 'Cast Iron')"
+                }
+              }
+            },
+            "rear": {
+              "type": "object",
+              "description": "Rear brakes",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "diameter": {
+                  "type": "number"
+                },
+                "material": {
+                  "type": "string"
+                }
+              }
+            },
+            "abs": {
+              "type": "boolean",
+              "description": "Has ABS"
+            },
+            "ebd": {
+              "type": "boolean",
+              "description": "Has EBD"
+            },
+            "eba": {
+              "type": "boolean",
+              "description": "Has EBA"
+            },
+            "parkingBrake": {
+              "type": "string",
+              "description": "Parking brake type (e.g., 'Electric', 'Handbrake')"
+            }
+          }
+        },
+        "steering": {
+          "type": "object",
+          "description": "Steering specifications",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Steering type (e.g., 'Rack and Pinion', 'Electric Power', 'Hydraulic Power')"
+            },
+            "turningRadius": {
+              "type": "number",
+              "description": "Turning radius in meters"
+            },
+            "adjustable": {
+              "type": "boolean",
+              "description": "Has adjustable steering"
+            }
+          }
+        },
+        "wheels": {
+          "type": "object",
+          "description": "Wheel and tire specifications",
+          "properties": {
+            "front": {
+              "type": "object",
+              "description": "Front wheel specifications",
+              "properties": {
+                "size": {
+                  "type": "string",
+                  "description": "Wheel size (e.g., '21x9.5J')"
+                },
+                "tire": {
+                  "type": "string",
+                  "description": "Tire size (e.g., '275/35R21')"
+                }
+              }
+            },
+            "rear": {
+              "type": "object",
+              "description": "Rear wheel specifications",
+              "properties": {
+                "size": {
+                  "type": "string"
+                },
+                "tire": {
+                  "type": "string"
+                }
+              }
+            },
+            "spareTire": {
+              "type": "string",
+              "description": "Spare tire type (e.g., 'Full-size', 'Compact', 'None')"
+            }
+          }
+        },
+        "electrical": {
+          "type": "object",
+          "description": "Electrical system specifications",
+          "properties": {
+            "battery": {
+              "type": "string",
+              "description": "Battery type (e.g., '12V Lead-Acid', '12V AGM', '12V Lithium')"
+            },
+            "alternator": {
+              "type": "number",
+              "description": "Alternator output in Amps"
+            },
+            "voltage": {
+              "type": "number",
+              "description": "System voltage in Volts"
+            }
+          }
+        }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "description": "Performance specifications",
+      "properties": {
+        "power": {
+          "type": "object",
+          "description": "Power output",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["HP", "kW", "PS", "bhp"]
+            },
+            "rpm": {
+              "type": "string",
+              "description": "Power output RPM (e.g., '6000-6500')"
+            }
+          }
+        },
+        "torque": {
+          "type": "object",
+          "description": "Torque output",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["Nm", "lb-ft"]
+            },
+            "rpm": {
+              "type": "string",
+              "description": "Torque output RPM (e.g., '2000-4500')"
+            }
+          }
+        },
+        "acceleration": {
+          "type": "object",
+          "description": "Acceleration times",
+          "properties": {
+            "zeroToSixty": {
+              "type": "number",
+              "description": "0-60 mph time in seconds"
+            },
+            "zeroToHundred": {
+              "type": "number",
+              "description": "0-100 km/h time in seconds"
+            },
+            "zeroToTwoHundred": {
+              "type": "number",
+              "description": "0-200 km/h time in seconds"
+            },
+            "standingQuarterMile": {
+              "type": "number",
+              "description": "Standing quarter mile time in seconds"
+            }
+          }
+        },
+        "topSpeed": {
+          "type": "object",
+          "description": "Top speed",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["km/h", "mph"]
+            },
+            "limited": {
+              "type": "boolean",
+              "description": "Is electronically limited"
+            },
+            "unlimited": {
+              "type": "number",
+              "description": "Unlimited top speed if applicable"
+            }
+          }
+        },
+        "powerToWeight": {
+          "type": "object",
+          "description": "Power to weight ratio",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["HP/ton", "kW/kg"]
+            }
+          }
+        },
+        "braking": {
+          "type": "object",
+          "description": "Braking performance",
+          "properties": {
+            "hundredToZero": {
+              "type": "number",
+              "description": "100-0 km/h braking distance in meters"
+            },
+            "sixtyToZero": {
+              "type": "number",
+              "description": "60-0 mph braking distance in feet"
+            }
+          }
+        },
+        "handling": {
+          "type": "object",
+          "description": "Handling characteristics",
+          "properties": {
+            "lateralG": {
+              "type": "number",
+              "description": "Lateral G-force on skidpad"
+            },
+            "slalomSpeed": {
+              "type": "number",
+              "description": "Slalom speed in km/h"
+            }
+          }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "description": "Vehicle dimensions",
+      "properties": {
+        "length": {
+          "type": "object",
+          "description": "Overall length",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "in"]
+            }
+          }
+        },
+        "width": {
+          "type": "object",
+          "description": "Overall width",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "in"]
+            }
+          }
+        },
+        "height": {
+          "type": "object",
+          "description": "Overall height",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "in"]
+            }
+          }
+        },
+        "wheelbase": {
+          "type": "object",
+          "description": "Wheelbase",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "in"]
+            }
+          }
+        },
+        "track": {
+          "type": "object",
+          "description": "Track width",
+          "properties": {
+            "front": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["mm", "in"]
+                }
+              }
+            },
+            "rear": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["mm", "in"]
+                }
+              }
+            }
+          }
+        },
+        "groundClearance": {
+          "type": "object",
+          "description": "Ground clearance",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "in"]
+            }
+          }
+        },
+        "curbWeight": {
+          "type": "object",
+          "description": "Curb weight",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["kg", "lbs"]
+            }
+          }
+        },
+        "grossWeight": {
+          "type": "object",
+          "description": "Gross vehicle weight",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["kg", "lbs"]
+            }
+          }
+        },
+        "cargoCapacity": {
+          "type": "object",
+          "description": "Cargo capacity",
+          "properties": {
+            "seatsUp": {
+              "type": "object",
+              "description": "Cargo with seats up",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L", "cu ft"]
+                }
+              }
+            },
+            "seatsDown": {
+              "type": "object",
+              "description": "Cargo with seats down",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L", "cu ft"]
+                }
+              }
+            }
+          }
+        },
+        "fuelTank": {
+          "type": "object",
+          "description": "Fuel tank capacity",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["L", "gal"]
+            }
+          }
+        }
+      }
+    },
+    "fuelEconomy": {
+      "type": "object",
+      "description": "Fuel economy and emissions",
+      "properties": {
+        "consumption": {
+          "type": "object",
+          "description": "Fuel consumption",
+          "properties": {
+            "city": {
+              "type": "object",
+              "description": "City consumption",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L/100km", "mpg", "km/L"]
+                }
+              }
+            },
+            "highway": {
+              "type": "object",
+              "description": "Highway consumption",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L/100km", "mpg", "km/L"]
+                }
+              }
+            },
+            "combined": {
+              "type": "object",
+              "description": "Combined consumption",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["L/100km", "mpg", "km/L"]
+                }
+              }
+            }
+          }
+        },
+        "drivingStyles": {
+          "type": "object",
+          "description": "Consumption by driving style",
+          "properties": {
+            "calm": {
+              "type": "number",
+              "description": "Calm driving consumption in L/100km"
+            },
+            "mixed": {
+              "type": "number",
+              "description": "Mixed driving consumption in L/100km"
+            },
+            "sport": {
+              "type": "number",
+              "description": "Sport driving consumption in L/100km"
+            }
+          }
+        },
+        "range": {
+          "type": "object",
+          "description": "Driving range",
+          "properties": {
+            "city": {
+              "type": "object",
+              "description": "City range",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["km", "mi"]
+                }
+              }
+            },
+            "highway": {
+              "type": "object",
+              "description": "Highway range",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["km", "mi"]
+                }
+              }
+            },
+            "combined": {
+              "type": "object",
+              "description": "Combined range",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["km", "mi"]
+                }
+              }
+            }
+          }
+        },
+        "emissions": {
+          "type": "object",
+          "description": "Emissions",
+          "properties": {
+            "co2": {
+              "type": "object",
+              "description": "CO2 emissions",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["g/km", "g/mi"]
+                },
+                "standard": {
+                  "type": "string",
+                  "description": "Emissions standard (e.g., 'Euro 6', 'Euro 6d', 'Euro 7')"
+                }
+              }
+            },
+            "nox": {
+              "type": "object",
+              "description": "NOx emissions",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["g/km", "mg/km"]
+                }
+              }
+            },
+            "particulates": {
+              "type": "object",
+              "description": "Particulate emissions",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["g/km", "mg/km"]
+                }
+              }
+            }
+          }
+        },
+        "electric": {
+          "type": "object",
+          "description": "Electric vehicle specific data",
+          "properties": {
+            "batteryCapacity": {
+              "type": "object",
+              "description": "Battery capacity",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["kWh"]
+                }
+              }
+            },
+            "electricRange": {
+              "type": "object",
+              "description": "Electric range",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["km", "mi"]
+                }
+              }
+            },
+            "charging": {
+              "type": "object",
+              "description": "Charging specifications",
+              "properties": {
+                "ac": {
+                  "type": "object",
+                  "description": "AC charging",
+                  "properties": {
+                    "power": {
+                      "type": "number",
+                      "description": "Charging power in kW"
+                    },
+                    "time": {
+                      "type": "number",
+                      "description": "Charging time in hours"
+                    }
+                  }
+                },
+                "dc": {
+                  "type": "object",
+                  "description": "DC fast charging",
+                  "properties": {
+                    "power": {
+                      "type": "number",
+                      "description": "Charging power in kW"
+                    },
+                    "time": {
+                      "type": "object",
+                      "description": "Charging time",
+                      "properties": {
+                    "value": {
+                      "type": "number"
+                    },
+                    "percentage": {
+                      "type": "number",
+                      "description": "Charge percentage (e.g., 10-80)"
+                    },
+                    "unit": {
+                      "type": "string",
+                      "enum": ["min"]
+                    }
+                  }
+                }
+              }
+            },
+            "motor": {
+              "type": "object",
+              "description": "Electric motor specifications",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Motor type (e.g., 'Permanent Magnet', 'Induction')"
+                },
+                "count": {
+                  "type": "integer",
+                  "description": "Number of motors"
+                },
+                "power": {
+                  "type": "object",
+                  "description": "Motor power",
+                  "properties": {
+                    "value": {
+                      "type": "number"
+                    },
+                    "unit": {
+                      "type": "string",
+                      "enum": ["HP", "kW"]
+                    }
+                  }
+                },
+                "torque": {
+                  "type": "object",
+                  "description": "Motor torque",
+                  "properties": {
+                    "value": {
+                      "type": "number"
+                    },
+                    "unit": {
+                      "type": "string",
+                      "enum": ["Nm", "lb-ft"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "description": "Pricing information",
+      "properties": {
+        "basePrice": {
+          "type": "object",
+          "description": "Base price",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string",
+              "description": "Currency code (ISO 4217)",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "region": {
+              "type": "string",
+              "description": "Region code (e.g., 'ES', 'US', 'DE')"
+            }
+          }
+        },
+        "regionalPricing": {
+          "type": "array",
+          "description": "Regional pricing variations",
+          "items": {
+            "type": "object",
+            "properties": {
+              "region": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "price": {
+                "type": "number"
+              },
+              "currency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "taxes": {
+                "type": "object",
+                "description": "Regional taxes",
+                "properties": {
+                  "registrationTax": {
+                    "type": "number",
+                    "description": "Registration tax percentage"
+                  },
+                  "vat": {
+                    "type": "number",
+                    "description": "VAT percentage"
+                  },
+                  "roadTax": {
+                    "type": "number",
+                    "description": "Annual road tax"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "depreciation": {
+          "type": "object",
+          "description": "Depreciation data",
+          "properties": {
+            "year1": {
+              "type": "object",
+              "description": "Value after 1 year",
+              "properties": {
+                "percentage": {
+                  "type": "number",
+                  "description": "Percentage of original value"
+                },
+                "km": {
+                  "type": "number",
+                  "description": "Estimated kilometers"
+                }
+              }
+            },
+            "year3": {
+              "type": "object",
+              "description": "Value after 3 years",
+              "properties": {
+                "percentage": {
+                  "type": "number"
+                },
+                "km": {
+                  "type": "number"
+                }
+              }
+            },
+            "year5": {
+              "type": "object",
+              "description": "Value after 5 years",
+              "properties": {
+                "percentage": {
+                  "type": "number"
+                },
+                "km": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "ownershipCosts": {
+          "type": "object",
+          "description": "Annual ownership costs",
+          "properties": {
+            "insurance": {
+              "type": "object",
+              "description": "Annual insurance cost",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                }
+              }
+            },
+            "maintenance": {
+              "type": "object",
+              "description": "Annual maintenance cost",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                }
+              }
+            },
+            "fuel": {
+              "type": "object",
+              "description": "Estimated annual fuel cost",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "annualKm": {
+                  "type": "number",
+                  "description": "Assumed annual kilometers"
+                }
+              }
+            },
+            "tyres": {
+              "type": "object",
+              "description": "Annual tyre cost",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                }
+              }
+            },
+            "inspection": {
+              "type": "object",
+              "description": "Annual inspection cost",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "description": "Car features",
+      "properties": {
+        "exterior": {
+          "type": "array",
+          "description": "Exterior features",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Feature identifier"
+              },
+              "name": {
+                "type": "string",
+                "description": "Feature name"
+              },
+              "description": {
+                "type": "string",
+                "description": "Feature description"
+              },
+              "standard": {
+                "type": "boolean",
+                "description": "Is standard or optional"
+              },
+              "category": {
+                "type": "string",
+                "description": "Feature category (e.g., 'lighting', 'aerodynamics', 'wheels')"
+              }
+            }
+          }
+        },
+        "interior": {
+          "type": "array",
+          "description": "Interior features",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "standard": {
+                "type": "boolean"
+              },
+              "category": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "technology": {
+          "type": "array",
+          "description": "Technology features",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "standard": {
+                "type": "boolean"
+              },
+              "category": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "comfort": {
+          "type": "array",
+          "description": "Comfort features",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "standard": {
+                "type": "boolean"
+              },
+              "category": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "performance": {
+          "type": "array",
+          "description": "Performance features",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "standard": {
+                "type": "boolean"
+              },
+              "category": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "description": "Safety features and ratings",
+      "properties": {
+        "ratings": {
+          "type": "object",
+          "description": "Safety ratings",
+          "properties": {
+            "euroNCAP": {
+              "type": "object",
+              "description": "Euro NCAP rating",
+              "properties": {
+                "overall": {
+                  "type": "number",
+                  "description": "Overall score out of 5"
+                },
+                "adultOccupant": {
+                  "type": "number",
+                  "description": "Adult occupant score out of 5"
+                },
+                "childOccupant": {
+                  "type": "number",
+                  "description": "Child occupant score out of 5"
+                },
+                "pedestrian": {
+                  "type": "number",
+                  "description": "Pedestrian score out of 5"
+                },
+                "safetyAssist": {
+                  "type": "number",
+                  "description": "Safety assist score out of 5"
+                },
+                "year": {
+                  "type": "integer",
+                  "description": "Test year"
+                }
+              }
+            },
+            "iihs": {
+              "type": "object",
+              "description": "IIHS rating",
+              "properties": {
+                "overall": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "smallOverlapFront": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "moderateOverlapFront": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "side": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "roofStrength": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "headRestraints": {
+                  "type": "string",
+                  "enum": ["Good", "Acceptable", "Marginal", "Poor"]
+                },
+                "year": {
+                  "type": "integer"
+                }
+              }
+            },
+            "nhtsa": {
+              "type": "object",
+              "description": "NHTSA rating",
+              "properties": {
+                "overall": {
+                  "type": "number",
+                  "description": "Overall score out of 5"
+                },
+                "frontal": {
+                  "type": "number",
+                  "description": "Frontal crash score out of 5"
+                },
+                "side": {
+                  "type": "number",
+                  "description": "Side crash score out of 5"
+                },
+                "rollover": {
+                  "type": "number",
+                  "description": "Rollover score out of 5"
+                },
+                "year": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        "airbags": {
+          "type": "object",
+          "description": "Airbag configuration",
+          "properties": {
+            "front": {
+              "type": "integer",
+              "description": "Number of front airbags"
+            },
+            "side": {
+              "type": "integer",
+              "description": "Number of side airbags"
+            },
+            "curtain": {
+              "type": "integer",
+              "description": "Number of curtain airbags"
+            },
+            "knee": {
+              "type": "integer",
+              "description": "Number of knee airbags"
+            }
+          }
+        },
+        "driverAssist": {
+          "type": "array",
+          "description": "Driver assistance systems",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "standard": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "structural": {
+          "type": "array",
+          "description": "Structural safety features",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "versions": {
+      "type": "array",
+      "description": "Car versions/trims",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "price"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "price": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "currency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              }
+            }
+          },
+          "features": {
+            "type": "array",
+            "description": "Version-specific features",
+            "items": {
+              "type": "string"
+            }
+          },
+          "specs": {
+            "type": "object",
+            "description": "Version-specific specs overrides"
+          },
+          "images": {
+            "type": "array",
+            "description": "Version-specific images",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "object",
+      "description": "Image assets",
+      "properties": {
+        "hero": {
+          "type": "string",
+          "description": "Hero image URL"
+        },
+        "gallery": {
+          "type": "array",
+          "description": "Gallery images",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "alt": {
+                "type": "string",
+                "description": "Alt text"
+              },
+              "category": {
+                "type": "string",
+                "description": "Image category (exterior, interior, engine, etc.)"
+              },
+              "angle": {
+                "type": "string",
+                "description": "Image angle (front, rear, side, 3/4, etc.)"
+              }
+            }
+          }
+        },
+        "thumbnails": {
+          "type": "array",
+          "description": "Thumbnail images",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "description": "SEO data",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "SEO title"
+        },
+        "description": {
+          "type": "string",
+          "description": "SEO description"
+        },
+        "keywords": {
+          "type": "array",
+          "description": "SEO keywords",
+          "items": {
+            "type": "string"
+          }
+        },
+        "og": {
+          "type": "object",
+          "description": "Open Graph data",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          }
+        },
+        "twitter": {
+          "type": "object",
+          "description": "Twitter card data",
+          "properties": {
+            "card": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "description": "Content sections",
+      "properties": {
+        "pros": {
+          "type": "array",
+          "description": "Pros list",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cons": {
+          "type": "array",
+          "description": "Cons list",
+          "items": {
+            "type": "string"
+          }
+        },
+        "review": {
+          "type": "string",
+          "description": "Full review text"
+        },
+        "faq": {
+          "type": "array",
+          "description": "FAQ items",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "timeline": {
+          "type": "array",
+          "description": "Service/maintenance timeline",
+          "items": {
+            "type": "object",
+            "properties": {
+              "km": {
+                "type": "number",
+                "description": "Service interval in km"
+              },
+              "months": {
+                "type": "number",
+                "description": "Service interval in months"
+              },
+              "service": {
+                "type": "string",
+                "description": "Service description"
+              },
+              "cost": {
+                "type": "object",
+                "description": "Estimated cost",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string",
+                    "pattern": "^[A-Z]{3}$"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options": {
+          "type": "array",
+          "description": "Optional extras/packages",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "price": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string",
+                    "pattern": "^[A-Z]{3}$"
+                  }
+                }
+              },
+              "worthIt": {
+                "type": "boolean",
+                "description": "Is it worth it?"
+              },
+              "resaleImpact": {
+                "type": "string",
+                "enum": ["high", "medium", "neutral", "low"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "comparisons": {
+      "type": "array",
+      "description": "Related car comparisons",
+      "items": {
+        "type": "object",
+        "properties": {
+          "carId": {
+            "type": "string",
+            "description": "Reference to car schema"
+          },
+          "similarity": {
+            "type": "number",
+            "description": "Similarity score (0-100)"
+          },
+          "category": {
+            "type": "string",
+            "description": "Comparison category (direct, segment, price, performance)"
+          }
+        }
+      }
+    },
+    "relatedModels": {
+      "type": "array",
+      "description": "Related car models",
+      "items": {
+        "type": "object",
+        "properties": {
+          "carId": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string",
+            "enum": ["same-brand", "same-segment", "competitor", "alternative"]
+          }
+        }
+      }
+    },
+    "rating": {
+      "type": "object",
+      "description": "Overall rating",
+      "properties": {
+        "overall": {
+          "type": "number",
+          "description": "Overall score out of 10"
+        },
+        "performance": {
+          "type": "number",
+          "description": "Performance score out of 10"
+        },
+        "comfort": {
+          "type": "number",
+          "description": "Comfort score out of 10"
+        },
+        "technology": {
+          "type": "number",
+          "description": "Technology score out of 10"
+        },
+        "design": {
+          "type": "number",
+          "description": "Design score out of 10"
+        },
+        "value": {
+          "type": "number",
+          "description": "Value score out of 10"
+        },
+        "reliability": {
+          "type": "number",
+          "description": "Reliability score out of 10"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "System metadata",
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "updatedBy": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string",
+          "description": "Data version"
+        },
+        "source": {
+          "type": "string",
+          "description": "Data source"
+        },
+         "verified": {
+          "type": "boolean",
+          "description": "Data verification status"
+        }
+      }
+    }
+  }
+ }
+}

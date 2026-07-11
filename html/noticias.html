@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es" data-i18n-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del mundo del motor | CarSpecio</title>
+    <meta name="description" content="Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.">
+    <meta name="keywords" content="noticias coches, novedades automóvil, motor, car news">
+    <link rel="canonical" href="https://carspecio.com/noticias.html">
+    <meta property="og:title" content="Noticias del mundo del motor">
+    <meta property="og:description" content="Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/noticias.html">
+    <meta property="og:image" content="https://carspecio.com/images/placeholder.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Noticias del mundo del motor">
+    <meta name="twitter:description" content="Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.">
+    <meta name="twitter:image" content="https://carspecio.com/images/placeholder.svg">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <link rel="stylesheet" href="css/car-page-bundle.min.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <main id="main-content" class="news-page">
+        <nav aria-label="Breadcrumb" class="news-breadcrumb">
+            <a href="index.html" data-i18n="breadcrumb.home">Inicio</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current" aria-current="page">Noticias</span>
+        </nav>
+
+        <section class="news-section">
+            <div class="lang-block" data-lang="es">
+            <div class="section-title">
+                <span>NEWS</span>
+                <h1>Noticias del mundo del motor</h1>
+                <p>Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.</p>
+            </div>
+        </div><div class="lang-block" data-lang="en" hidden>
+            <div class="section-title">
+                <span>NEWS</span>
+                <h1>Car news from around the world</h1>
+                <p>The latest news, updates and launches from the automotive world. Global coverage from the leading motoring sources.</p>
+            </div>
+        </div><div class="lang-block" data-lang="fr" hidden>
+            <div class="section-title">
+                <span>NEWS</span>
+                <h1>Actualités auto du monde entier</h1>
+                <p>Les dernières actualités, nouveautés et lancements de l'univers automobile. Couverture mondiale des principales sources automobiles.</p>
+            </div>
+        </div><div class="lang-block" data-lang="ar" hidden>
+            <div class="section-title">
+                <span>NEWS</span>
+                <h1>أخبار السيارات من حول العالم</h1>
+                <p>آخر الأخبار والتجديدات والإطلاقات من عالم السيارات. تغطية عالمية من أبرز المصادر المتخصصة.</p>
+            </div>
+        </div>
+
+            <div class="lang-block" data-lang="es"><div class="news-filters"><button class="news-filter active" data-filter="all">Todas</button>
+<button class="news-filter" data-filter="lanzamientos">Lanzamientos</button>
+<button class="news-filter" data-filter="rendimiento">Rendimiento</button>
+<button class="news-filter" data-filter="eléctricos">Eléctricos</button>
+<button class="news-filter" data-filter="tecnología">Tecnología</button></div></div><div class="lang-block" data-lang="en" hidden><div class="news-filters"><button class="news-filter active" data-filter="all">All</button>
+<button class="news-filter" data-filter="lanzamientos">Launches</button>
+<button class="news-filter" data-filter="rendimiento">Performance</button>
+<button class="news-filter" data-filter="eléctricos">Electric</button>
+<button class="news-filter" data-filter="tecnología">Technology</button></div></div><div class="lang-block" data-lang="fr" hidden><div class="news-filters"><button class="news-filter active" data-filter="all">Toutes</button>
+<button class="news-filter" data-filter="lanzamientos">Lancements</button>
+<button class="news-filter" data-filter="rendimiento">Performance</button>
+<button class="news-filter" data-filter="eléctricos">Électriques</button>
+<button class="news-filter" data-filter="tecnología">Technologie</button></div></div><div class="lang-block" data-lang="ar" hidden><div class="news-filters"><button class="news-filter active" data-filter="all">الكل</button>
+<button class="news-filter" data-filter="lanzamientos">الإطلاقات</button>
+<button class="news-filter" data-filter="rendimiento">الأداء</button>
+<button class="news-filter" data-filter="eléctricos">الكهربائية</button>
+<button class="news-filter" data-filter="tecnología">التقنية</button></div></div>
+
+            <div class="lang-block" data-lang="es"><div class="news-grid">
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-link" aria-label="Audi RS3 Competition Limited 2026: 750 unidades para celebrar 50 años del cinco cilindros">
+                    <img class="news-card-image" src="../images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS3 Competition Limited 2026: 750 unidades para celebrar 50 años del cinco cilindros" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span></span> audi-media-center</span>
+                        <span>28 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs3-competition-limited-2026.html">Audi RS3 Competition Limited 2026: 750 unidades para celebrar 50 años del cinco cilindros</a></h2>
+                    <p class="news-card-excerpt">Audi Sport presenta una edición limitada del RS3 con 400 CV, suspensión coilover ajustable, frenos de carbono-cerámica y producción restringida a 750 unidades para celebrar el motor cinco cilindros en línea.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs3</span><span class="news-card-tag">competition limited</span><span class="news-card-tag">cinco cilindros</span></div>
+                        <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-link" aria-label="Porsche 911 GTS T-Hybrid: el bóxer más puro se electrifica">
+                    <img class="news-card-image" src="../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 GTS T-Hybrid: el bóxer más puro se electrifica" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>25 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/porsche-911-hybrid-2026.html">Porsche 911 GTS T-Hybrid: el bóxer más puro se electrifica</a></h2>
+                    <p class="news-card-excerpt">Porsche introduce el sistema T-Hybrid en el 911 GTS: un bóxer de 3.6 litros con turbo eléctrico y un motor de 54 CV integrado en la caja PDK, para una potencia combinada de 532 CV. El conjunto funciona a 400 V con una batería de 1.1 kWh y acelera de 0 a 100 km/h en aproximadamente 2.7 segundos.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">porsche</span><span class="news-card-tag">911</span><span class="news-card-tag">gts</span><span class="news-card-tag">t-hybrid</span><span class="news-card-tag">deportivos</span></div>
+                        <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="rendimiento">
+                <a href="noticias/bmw-m5-phev-record.html" class="news-card-link" aria-label="BMW M5 PHEV: 727 CV y un récord en el Nürburgring">
+                    <img class="news-card-image" src="../images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV: 727 CV y un récord en el Nürburgring" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">rendimiento</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Motor Trend</span>
+                        <span>24 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/bmw-m5-phev-record.html">BMW M5 PHEV: 727 CV y un récord en el Nürburgring</a></h2>
+                    <p class="news-card-excerpt">BMW presenta el M5 PHEV, una berlina deportiva híbrida enchufable con un V8 biturbo de 4.4 litros y un motor eléctrico que juntos producen 727 CV. El M5 PHEV se ha convertido en la berlina de serie más rápida del Nürburgring Nordschleife, con un tiempo de 7:35.060.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">bmw</span><span class="news-card-tag">m5</span><span class="news-card-tag">phev</span><span class="news-card-tag">berlina</span></div>
+                        <a href="noticias/bmw-m5-phev-record.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs7-performance-2026.html" class="news-card-link" aria-label="Audi RS7 Performance 2026: 630 CV de pura elegancia deportiva">
+                    <img class="news-card-image" src="../images/rs7.2.2026.png" alt="Audi RS7 Performance 2026: 630 CV de pura elegancia deportiva" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇬🇧</span> Autocar</span>
+                        <span>22 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs7-performance-2026.html">Audi RS7 Performance 2026: 630 CV de pura elegancia deportiva</a></h2>
+                    <p class="news-card-excerpt">Audi renueva el RS7 con la versión Performance, elevando la potencia del V8 biturbo a 630 CV y mejorando la dinámica sin renunciar al confort diario.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs7</span><span class="news-card-tag">performance</span><span class="news-card-tag">lujo</span></div>
+                        <a href="noticias/audi-rs7-performance-2026.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="eléctricos">
+                <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-link" aria-label="Tesla actualiza el Model S Plaid con más autonomía y carga más rápida">
+                    <img class="news-card-image" src="../images/tesla-s-plaid/tesla-hero.png" alt="Tesla actualiza el Model S Plaid con más autonomía y carga más rápida" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">eléctricos</span>
+                        <span class="news-card-source"><span>🌍</span> Motor1.com</span>
+                        <span>20 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/tesla-model-s-plaid-refresh.html">Tesla actualiza el Model S Plaid con más autonomía y carga más rápida</a></h2>
+                    <p class="news-card-excerpt">La berlina eléctrica de alta performance recibe mejoras en la batería y la electrónica de potencia, logrando hasta 640 km de autonomía real.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">tesla</span><span class="news-card-tag">model s</span><span class="news-card-tag">plaid</span><span class="news-card-tag">eléctrico</span></div>
+                        <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="tecnología">
+                <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-link" aria-label="Mercedes-AMG GT 4 Puertas recibe una puesta a punto tecnológica">
+                    <img class="news-card-image" src="../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 4 Puertas recibe una puesta a punto tecnológica" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">tecnología</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>18 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/mercedes-amg-gt-4-door-update.html">Mercedes-AMG GT 4 Puertas recibe una puesta a punto tecnológica</a></h2>
+                    <p class="news-card-excerpt">Mercedes renueva el sistema de infoentretenimiento y la conducción asistida del AMG GT 4 Puertas, además de introducir nuevas opciones de personalización.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">mercedes</span><span class="news-card-tag">amg gt</span><span class="news-card-tag">tecnología</span></div>
+                        <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-link" aria-label="Nissan GT-R Final Edition: la despedida del mito japonés">
+                    <img class="news-card-image" src="../images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R Final Edition: la despedida del mito japonés" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Autoblog</span>
+                        <span>15 jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/nissan-gt-r-final-edition.html">Nissan GT-R Final Edition: la despedida del mito japonés</a></h2>
+                    <p class="news-card-excerpt">Nissan anuncia la edición de despedida del GT-R R35 con 600 CV, producción limitada y un homenaje a décadas de dominio en la escena deportiva.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">nissan</span><span class="news-card-tag">gt-r</span><span class="news-card-tag">final edition</span><span class="news-card-tag">japonés</span></div>
+                        <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-read">Leer más →</a>
+                    </div>
+                </div>
+            </article></div></div><div class="lang-block" data-lang="en" hidden><div class="news-grid">
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-link" aria-label="Audi RS3 Competition Limited 2026: 750 units to celebrate 50 years of the inline-five">
+                    <img class="news-card-image" src="../images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS3 Competition Limited 2026: 750 units to celebrate 50 years of the inline-five" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span></span> audi-media-center</span>
+                        <span>28 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs3-competition-limited-2026.html">Audi RS3 Competition Limited 2026: 750 units to celebrate 50 years of the inline-five</a></h2>
+                    <p class="news-card-excerpt">Audi Sport presents a limited edition RS3 with 400 hp, adjustable coilover suspension, carbon-ceramic brakes and production restricted to 750 units to celebrate the inline-five engine.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs3</span><span class="news-card-tag">competition limited</span><span class="news-card-tag">cinco cilindros</span></div>
+                        <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-link" aria-label="Porsche 911 GTS T-Hybrid: the purest boxer goes hybrid">
+                    <img class="news-card-image" src="../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 GTS T-Hybrid: the purest boxer goes hybrid" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>25 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/porsche-911-hybrid-2026.html">Porsche 911 GTS T-Hybrid: the purest boxer goes hybrid</a></h2>
+                    <p class="news-card-excerpt">Porsche introduces the T-Hybrid system in the 911 GTS: a 3.6-litre boxer with an electric turbo and a 54 hp motor integrated into the PDK gearbox, for a combined output of 532 hp. The system runs at 400 V with a 1.1 kWh battery and accelerates from 0 to 100 km/h in approximately 2.7 seconds.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">porsche</span><span class="news-card-tag">911</span><span class="news-card-tag">gts</span><span class="news-card-tag">t-hybrid</span><span class="news-card-tag">deportivos</span></div>
+                        <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="rendimiento">
+                <a href="noticias/bmw-m5-phev-record.html" class="news-card-link" aria-label="BMW M5 PHEV: 727 hp and a record at the Nürburgring">
+                    <img class="news-card-image" src="../images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV: 727 hp and a record at the Nürburgring" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">rendimiento</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Motor Trend</span>
+                        <span>24 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/bmw-m5-phev-record.html">BMW M5 PHEV: 727 hp and a record at the Nürburgring</a></h2>
+                    <p class="news-card-excerpt">BMW introduces the M5 PHEV, a plug-in hybrid sports saloon with a 4.4-litre V8 biturbo and an electric motor that together produce 727 hp. The M5 PHEV has become the fastest production saloon on the Nürburgring Nordschleife, with a time of 7:35.060.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">bmw</span><span class="news-card-tag">m5</span><span class="news-card-tag">phev</span><span class="news-card-tag">berlina</span></div>
+                        <a href="noticias/bmw-m5-phev-record.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs7-performance-2026.html" class="news-card-link" aria-label="Audi RS7 Performance 2026: 630 hp of pure sports elegance">
+                    <img class="news-card-image" src="../images/rs7.2.2026.png" alt="Audi RS7 Performance 2026: 630 hp of pure sports elegance" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇬🇧</span> Autocar</span>
+                        <span>22 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs7-performance-2026.html">Audi RS7 Performance 2026: 630 hp of pure sports elegance</a></h2>
+                    <p class="news-card-excerpt">Audi renews the RS7 with the Performance version, raising the power of the V8 biturbo to 630 hp and improving dynamics without giving up daily comfort.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs7</span><span class="news-card-tag">performance</span><span class="news-card-tag">lujo</span></div>
+                        <a href="noticias/audi-rs7-performance-2026.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="eléctricos">
+                <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-link" aria-label="Tesla updates the Model S Plaid with more range and faster charging">
+                    <img class="news-card-image" src="../images/tesla-s-plaid/tesla-hero.png" alt="Tesla updates the Model S Plaid with more range and faster charging" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">eléctricos</span>
+                        <span class="news-card-source"><span>🌍</span> Motor1.com</span>
+                        <span>20 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/tesla-model-s-plaid-refresh.html">Tesla updates the Model S Plaid with more range and faster charging</a></h2>
+                    <p class="news-card-excerpt">The high-performance electric saloon receives improvements in the battery and power electronics, achieving up to 640 km of real range.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">tesla</span><span class="news-card-tag">model s</span><span class="news-card-tag">plaid</span><span class="news-card-tag">eléctrico</span></div>
+                        <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="tecnología">
+                <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-link" aria-label="Mercedes-AMG GT 4 Door receives a technological tune-up">
+                    <img class="news-card-image" src="../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 4 Door receives a technological tune-up" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">tecnología</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>18 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/mercedes-amg-gt-4-door-update.html">Mercedes-AMG GT 4 Door receives a technological tune-up</a></h2>
+                    <p class="news-card-excerpt">Mercedes renews the infotainment system and assisted driving of the AMG GT 4 Door, in addition to introducing new customisation options.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">mercedes</span><span class="news-card-tag">amg gt</span><span class="news-card-tag">tecnología</span></div>
+                        <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-link" aria-label="Nissan GT-R Final Edition: the farewell of the Japanese myth">
+                    <img class="news-card-image" src="../images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R Final Edition: the farewell of the Japanese myth" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Autoblog</span>
+                        <span>15 Jun 2026</span>
+                    </div>
+                    <h2><a href="noticias/nissan-gt-r-final-edition.html">Nissan GT-R Final Edition: the farewell of the Japanese myth</a></h2>
+                    <p class="news-card-excerpt">Nissan announces the farewell edition of the GT-R R35 with 600 hp, limited production and a tribute to decades of dominance on the sports scene.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">nissan</span><span class="news-card-tag">gt-r</span><span class="news-card-tag">final edition</span><span class="news-card-tag">japonés</span></div>
+                        <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-read">Read more →</a>
+                    </div>
+                </div>
+            </article></div></div><div class="lang-block" data-lang="fr" hidden><div class="news-grid">
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-link" aria-label="Audi RS3 Competition Limited 2026 : 750 unités pour célébrer 50 ans du cinq cylindres">
+                    <img class="news-card-image" src="../images/audi-rs3.2026/rs3-hero.jpeg" alt="Audi RS3 Competition Limited 2026 : 750 unités pour célébrer 50 ans du cinq cylindres" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span></span> audi-media-center</span>
+                        <span>28 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs3-competition-limited-2026.html">Audi RS3 Competition Limited 2026 : 750 unités pour célébrer 50 ans du cinq cylindres</a></h2>
+                    <p class="news-card-excerpt">Audi Sport présente une édition limitée du RS3 avec 400 ch, suspension coilover réglable, freins carbone-céramique et production restreinte à 750 unités pour célébrer le moteur cinq cylindres en ligne.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs3</span><span class="news-card-tag">competition limited</span><span class="news-card-tag">cinco cilindros</span></div>
+                        <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-link" aria-label="Porsche 911 GTS T-Hybrid : le boxer le plus pur s'électrifie">
+                    <img class="news-card-image" src="../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="Porsche 911 GTS T-Hybrid : le boxer le plus pur s'électrifie" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>25 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/porsche-911-hybrid-2026.html">Porsche 911 GTS T-Hybrid : le boxer le plus pur s'électrifie</a></h2>
+                    <p class="news-card-excerpt">Porsche introduit le système T-Hybrid dans la 911 GTS : un boxer 3,6 litres avec turbo électrique et un moteur de 54 ch intégré à la boîte PDK, pour une puissance combinée de 532 ch. L'ensemble fonctionne à 400 V avec une batterie de 1,1 kWh et accélère de 0 à 100 km/h en environ 2,7 secondes.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">porsche</span><span class="news-card-tag">911</span><span class="news-card-tag">gts</span><span class="news-card-tag">t-hybrid</span><span class="news-card-tag">deportivos</span></div>
+                        <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="rendimiento">
+                <a href="noticias/bmw-m5-phev-record.html" class="news-card-link" aria-label="BMW M5 PHEV : 727 ch et un record au Nürburgring">
+                    <img class="news-card-image" src="../images/bmw-m5.2026/bmw-m5.hero.png" alt="BMW M5 PHEV : 727 ch et un record au Nürburgring" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">rendimiento</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Motor Trend</span>
+                        <span>24 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/bmw-m5-phev-record.html">BMW M5 PHEV : 727 ch et un record au Nürburgring</a></h2>
+                    <p class="news-card-excerpt">BMW présente la M5 PHEV, une berline sportive hybride rechargeable avec un V8 biturbo 4,4 litres et un moteur électrique qui produisent ensemble 727 ch. La M5 PHEV est devenue la berline de série la plus rapide du Nürburgring Nordschleife, avec un temps de 7:35,060.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">bmw</span><span class="news-card-tag">m5</span><span class="news-card-tag">phev</span><span class="news-card-tag">berlina</span></div>
+                        <a href="noticias/bmw-m5-phev-record.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs7-performance-2026.html" class="news-card-link" aria-label="Audi RS7 Performance 2026 : 630 ch de pure élégance sportive">
+                    <img class="news-card-image" src="../images/rs7.2.2026.png" alt="Audi RS7 Performance 2026 : 630 ch de pure élégance sportive" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇬🇧</span> Autocar</span>
+                        <span>22 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs7-performance-2026.html">Audi RS7 Performance 2026 : 630 ch de pure élégance sportive</a></h2>
+                    <p class="news-card-excerpt">Audi renouvelle le RS7 avec la version Performance, élevant la puissance du V8 biturbo à 630 ch et améliorant la dynamique sans renoncer au confort quotidien.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs7</span><span class="news-card-tag">performance</span><span class="news-card-tag">lujo</span></div>
+                        <a href="noticias/audi-rs7-performance-2026.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="eléctricos">
+                <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-link" aria-label="Tesla actualise la Model S Plaid avec plus d'autonomie et une charge plus rapide">
+                    <img class="news-card-image" src="../images/tesla-s-plaid/tesla-hero.png" alt="Tesla actualise la Model S Plaid avec plus d'autonomie et une charge plus rapide" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">eléctricos</span>
+                        <span class="news-card-source"><span>🌍</span> Motor1.com</span>
+                        <span>20 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/tesla-model-s-plaid-refresh.html">Tesla actualise la Model S Plaid avec plus d'autonomie et une charge plus rapide</a></h2>
+                    <p class="news-card-excerpt">La berline électrique haute performance reçoit des améliorations de la batterie et de l'électronique de puissance, atteignant jusqu'à 640 km d'autonomie réelle.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">tesla</span><span class="news-card-tag">model s</span><span class="news-card-tag">plaid</span><span class="news-card-tag">eléctrico</span></div>
+                        <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="tecnología">
+                <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-link" aria-label="Mercedes-AMG GT 4 Portes reçoit une mise au point technologique">
+                    <img class="news-card-image" src="../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="Mercedes-AMG GT 4 Portes reçoit une mise au point technologique" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">tecnología</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>18 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/mercedes-amg-gt-4-door-update.html">Mercedes-AMG GT 4 Portes reçoit une mise au point technologique</a></h2>
+                    <p class="news-card-excerpt">Mercedes renouvelle le système d'infodivertissement et la conduite assistée de l'AMG GT 4 Portes, en plus d'introduire de nouvelles options de personnalisation.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">mercedes</span><span class="news-card-tag">amg gt</span><span class="news-card-tag">tecnología</span></div>
+                        <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-link" aria-label="Nissan GT-R Final Edition : l'adieu du mythe japonais">
+                    <img class="news-card-image" src="../images/nissan-gtr.2026/nissan-gtr-hero.png" alt="Nissan GT-R Final Edition : l'adieu du mythe japonais" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Autoblog</span>
+                        <span>15 juin 2026</span>
+                    </div>
+                    <h2><a href="noticias/nissan-gt-r-final-edition.html">Nissan GT-R Final Edition : l'adieu du mythe japonais</a></h2>
+                    <p class="news-card-excerpt">Nissan annonce l'édition d'adieu du GT-R R35 avec 600 ch, une production limitée et un hommage aux décennies de domination sur la scène sportive.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">nissan</span><span class="news-card-tag">gt-r</span><span class="news-card-tag">final edition</span><span class="news-card-tag">japonés</span></div>
+                        <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-read">Lire la suite →</a>
+                    </div>
+                </div>
+            </article></div></div><div class="lang-block" data-lang="ar" hidden><div class="news-grid">
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-link" aria-label="أودي آر إس 3 كومبتيشن ليميتد 2026: 750 وحدة للاحتفال بـ 50 عاماً من المحرك خماسي الأسطوانات">
+                    <img class="news-card-image" src="../images/audi-rs3.2026/rs3-hero.jpeg" alt="أودي آر إس 3 كومبتيشن ليميتد 2026: 750 وحدة للاحتفال بـ 50 عاماً من المحرك خماسي الأسطوانات" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span></span> audi-media-center</span>
+                        <span>٢٨ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs3-competition-limited-2026.html">أودي آر إس 3 كومبتيشن ليميتد 2026: 750 وحدة للاحتفال بـ 50 عاماً من المحرك خماسي الأسطوانات</a></h2>
+                    <p class="news-card-excerpt">تقدم أودي سبورت إصداراً محدوداً من آر إس 3 بـ 400 حصان، تعليق كويل أوفر قابل للضبط، مكابح كربون-سيراميك وإنتاج محدود بـ 750 وحدة للاحتفال بمحرك خماسي الأسطوانات بخط مستقيم.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs3</span><span class="news-card-tag">competition limited</span><span class="news-card-tag">cinco cilindros</span></div>
+                        <a href="noticias/audi-rs3-competition-limited-2026.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-link" aria-label="بورش 911 جي تي أس تي-هايبريد: المحرك الأكثر نقاءً يتحول للهجينة">
+                    <img class="news-card-image" src="../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png" alt="بورش 911 جي تي أس تي-هايبريد: المحرك الأكثر نقاءً يتحول للهجينة" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>٢٥ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/porsche-911-hybrid-2026.html">بورش 911 جي تي أس تي-هايبريد: المحرك الأكثر نقاءً يتحول للهجينة</a></h2>
+                    <p class="news-card-excerpt">تقدم بورش نظام تي-هايبريد في 911 جي تي أس: محرك بوكسر 3.6 لتر مع توربين كهربائي ومحرك 54 حصان مدمج في علبة بي دي كي، لقوة إجمالية 532 حصان. يعمل النظام على 400 فولت مع بطارية 1.1 كيلوواط ساعة ويتسارع من 0 إلى 100 كم/س في حوالي 2.7 ثانية.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">porsche</span><span class="news-card-tag">911</span><span class="news-card-tag">gts</span><span class="news-card-tag">t-hybrid</span><span class="news-card-tag">deportivos</span></div>
+                        <a href="noticias/porsche-911-hybrid-2026.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="rendimiento">
+                <a href="noticias/bmw-m5-phev-record.html" class="news-card-link" aria-label="بي إم دبليو أم 5 هجين قابل للشحن: 727 حصان ورقم قياسي في نوربرغرينغ">
+                    <img class="news-card-image" src="../images/bmw-m5.2026/bmw-m5.hero.png" alt="بي إم دبليو أم 5 هجين قابل للشحن: 727 حصان ورقم قياسي في نوربرغرينغ" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">rendimiento</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Motor Trend</span>
+                        <span>٢٤ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/bmw-m5-phev-record.html">بي إم دبليو أم 5 هجين قابل للشحن: 727 حصان ورقم قياسي في نوربرغرينغ</a></h2>
+                    <p class="news-card-excerpt">تقدم بي إم دبليو أم 5 هجين قابل للشحن، سيدان رياضية هجينة قابلة للشحن مع محرك في 8 مزدوج التوربين 4.4 لتر ومحرك كهربائي ينتجان معاً 727 حصان. أصبحت أم 5 هجين قابل للشحن أسرع سيدان إنتاجية في حلبة نوربرغرينغ نوردشلايفه، بزمن 7:35.060.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">bmw</span><span class="news-card-tag">m5</span><span class="news-card-tag">phev</span><span class="news-card-tag">berlina</span></div>
+                        <a href="noticias/bmw-m5-phev-record.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/audi-rs7-performance-2026.html" class="news-card-link" aria-label="أودي آر أس 7 بيرفورمانس 2026: 630 حصان من الأناقة الرياضية النقية">
+                    <img class="news-card-image" src="../images/rs7.2.2026.png" alt="أودي آر أس 7 بيرفورمانس 2026: 630 حصان من الأناقة الرياضية النقية" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇬🇧</span> Autocar</span>
+                        <span>٢٢ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/audi-rs7-performance-2026.html">أودي آر أس 7 بيرفورمانس 2026: 630 حصان من الأناقة الرياضية النقية</a></h2>
+                    <p class="news-card-excerpt">تجدد أودي آر أس 7 بنسخة بيرفورمانس، رافعةً قوة في 8 المزدوج التوربين إلى 630 حصان وتحسين الديناميكيات دون التخلي عن الراحة اليومية.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">audi</span><span class="news-card-tag">rs7</span><span class="news-card-tag">performance</span><span class="news-card-tag">lujo</span></div>
+                        <a href="noticias/audi-rs7-performance-2026.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="eléctricos">
+                <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-link" aria-label="تحديث تسلا موديل أس بليد بمدى أطول وشحن أسرع">
+                    <img class="news-card-image" src="../images/tesla-s-plaid/tesla-hero.png" alt="تحديث تسلا موديل أس بليد بمدى أطول وشحن أسرع" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">eléctricos</span>
+                        <span class="news-card-source"><span>🌍</span> Motor1.com</span>
+                        <span>٢٠ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/tesla-model-s-plaid-refresh.html">تحديث تسلا موديل أس بليد بمدى أطول وشحن أسرع</a></h2>
+                    <p class="news-card-excerpt">تحصل السيدان الكهربائي عالي الأداء على تحسينات في البطارية وإلكترونيات الطاقة، لتحقيق ما يصل إلى 640 كم من المدى الفعلي.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">tesla</span><span class="news-card-tag">model s</span><span class="news-card-tag">plaid</span><span class="news-card-tag">eléctrico</span></div>
+                        <a href="noticias/tesla-model-s-plaid-refresh.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="tecnología">
+                <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-link" aria-label="تحديث تقني لـ مرسيدس-أي أم جي جي تي 4 أبواب">
+                    <img class="news-card-image" src="../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png" alt="تحديث تقني لـ مرسيدس-أي أم جي جي تي 4 أبواب" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">tecnología</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Car and Driver</span>
+                        <span>١٨ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/mercedes-amg-gt-4-door-update.html">تحديث تقني لـ مرسيدس-أي أم جي جي تي 4 أبواب</a></h2>
+                    <p class="news-card-excerpt">تجدد مرسيدس نظام المعلومات والترفيه والقيادة المساعدة في أي أم جي جي تي 4 أبواب، بالإضافة إلى تقديم خيارات تخصيص جديدة.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">mercedes</span><span class="news-card-tag">amg gt</span><span class="news-card-tag">tecnología</span></div>
+                        <a href="noticias/mercedes-amg-gt-4-door-update.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article>
+            <article class="news-card" data-category="lanzamientos">
+                <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-link" aria-label="نيسان جي تي آر نسخة النهاية: وداع الأسطورة اليابانية">
+                    <img class="news-card-image" src="../images/nissan-gtr.2026/nissan-gtr-hero.png" alt="نيسان جي تي آر نسخة النهاية: وداع الأسطورة اليابانية" loading="lazy">
+                </a>
+                <div class="news-card-body">
+                    <div class="news-card-meta">
+                        <span class="news-card-category">lanzamientos</span>
+                        <span class="news-card-source"><span>🇺🇸</span> Autoblog</span>
+                        <span>١٥ يونيو ٢٠٢٦</span>
+                    </div>
+                    <h2><a href="noticias/nissan-gt-r-final-edition.html">نيسان جي تي آر نسخة النهاية: وداع الأسطورة اليابانية</a></h2>
+                    <p class="news-card-excerpt">تعلن نيسان عن نسخة الوداع من جي تي آر آر 35 بقوة 600 حصان، إنتاج محدود، وتحية لعقود من الهيمنة على الساحة الرياضية.</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-tags"><span class="news-card-tag">nissan</span><span class="news-card-tag">gt-r</span><span class="news-card-tag">final edition</span><span class="news-card-tag">japonés</span></div>
+                        <a href="noticias/nissan-gt-r-final-edition.html" class="news-card-read">← اقرأ المزيد</a>
+                    </div>
+                </div>
+            </article></div></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <script src="js/mega-menu-data.js" defer></script>
+    <script src="js/mega-menu.js" defer></script>
+    <script src="js/flag-icons.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="system/js/dropdowns.js" defer></script>
+    <script src="js/news.js" defer></script>
+    <script src="js/cookie-consent.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+    <script src="js/analytics-events.js" defer></script>
+    <script type="application/json" id="newsTitlesData">{"es":"Noticias del mundo del motor","en":"Car news from around the world","fr":"Actualités auto du monde entier","ar":"أخبار السيارات من حول العالم"}</script>
+    <script>
+        function updateNewsTitle() {
+            const dataEl = document.getElementById('newsTitlesData');
+            const titles = dataEl ? JSON.parse(dataEl.textContent) : {};
+            const lang = (typeof currentLang === 'function' && currentLang()) || document.documentElement.lang || 'es';
+            const title = titles[lang] || titles.es;
+            if (title) document.title = title + ' | CarSpecio';
+        }
+        document.addEventListener('i18n:ready', updateNewsTitle);
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updateNewsTitle);
+        } else {
+            updateNewsTitle();
+        }
+    </script>
+</body>
+</html>

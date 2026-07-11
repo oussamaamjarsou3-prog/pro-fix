@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/schemas/category-schema.json",
+  "title": "Category Schema",
+  "description": "Vehicle category schema for carspecio platform - scalable to all vehicle categories",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "icon"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique category identifier (e.g., 'deportivos', 'suv', 'electricos')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Category name (e.g., 'Deportivos', 'SUV', 'Eléctricos')"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Category icon (emoji or SVG)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Category description"
+    },
+    "segment": {
+      "type": "string",
+      "description": "Market segment",
+      "enum": ["economy", "mainstream", "premium", "luxury", "supercar"]
+    },
+    "bodyStyles": {
+      "type": "array",
+      "description": "Body styles in this category",
+      "items": {
+        "type": "string",
+        "enum": ["sedan", "hatchback", "suv", "coupe", "convertible", "wagon", "pickup", "van", "minivan", "roadster", "other"]
+      }
+    },
+    "characteristics": {
+      "type": "object",
+      "description": "Category characteristics",
+      "properties": {
+        "performance": {
+          "type": "string",
+          "description": "Performance level (e.g., 'high', 'medium', 'low')"
+        },
+        "practicality": {
+          "type": "string",
+          "description": "Practicality level (e.g., 'high', 'medium', 'low')"
+        },
+        "fuelEfficiency": {
+          "type": "string",
+          "description": "Fuel efficiency level (e.g., 'high', 'medium', 'low')"
+        },
+        "luxury": {
+          "type": "string",
+          "description": "Luxury level (e.g., 'high', 'medium', 'low')"
+        },
+        "technology": {
+          "type": "string",
+          "description": "Technology level (e.g., 'high', 'medium', 'low')"
+        }
+      }
+    },
+    "targetAudience": {
+      "type": "array",
+      "description": "Target audience",
+      "items": {
+        "type": "string",
+        "enum": ["young", "family", "business", "enthusiast", "luxury", "eco-conscious", "practical"]
+      }
+    },
+    "priceRange": {
+      "type": "object",
+      "description": "Typical price range",
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      }
+    },
+    "popularBrands": {
+      "type": "array",
+      "description": "Popular brands in this category",
+      "items": {
+        "type": "string"
+      }
+    },
+    "popularModels": {
+      "type": "array",
+      "description": "Popular models in this category",
+      "items": {
+        "type": "string"
+      }
+    },
+    "competitors": {
+      "type": "array",
+      "description": "Competitor categories",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trends": {
+      "type": "array",
+      "description": "Current trends in this category",
+      "items": {
+        "type": "string"
+      }
+    },
+    "seo": {
+      "type": "object",
+      "description": "SEO data",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "System metadata",
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "updatedBy": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

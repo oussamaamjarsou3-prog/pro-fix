@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/registry/guide-registry.json",
+  "title": "Guide Registry",
+  "description": "Central registry for all guides in CarSpecio platform - Single Source of Truth",
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-20",
+  "baseUrl": "https://carspecio.com",
+  "categories": [
+    { "id": "car-buying", "icon": "🚗" },
+    { "id": "maintenance", "icon": "🔧" },
+    { "id": "breakdowns", "icon": "⚠️" },
+    { "id": "fuel-consumption", "icon": "⛽" },
+    { "id": "tires", "icon": "🛞" },
+    { "id": "insurance", "icon": "🛡️" },
+    { "id": "itv", "icon": "📋" },
+    { "id": "taxation", "icon": "💶" },
+    { "id": "electric-cars", "icon": "🔋" },
+    { "id": "hybrid-cars", "icon": "⚡" },
+    { "id": "driving", "icon": "🚦" },
+    { "id": "seasonal", "icon": "❄️" }
+  ],
+  "guides": [
+    {
+      "id": "cambiar-aceite",
+      "slug": "cambiar-aceite",
+      "categoryId": "maintenance",
+      "status": "active",
+      "dataFile": "system/data/guides/cambiar-aceite.json",
+      "htmlFile": "guias/cambiar-aceite.html",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "cambiar-frenos",
+      "slug": "cambiar-frenos",
+      "categoryId": "maintenance",
+      "status": "active",
+      "dataFile": "system/data/guides/cambiar-frenos.json",
+      "htmlFile": "guias/cambiar-frenos.html",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "id": "cambiar-bateria",
+      "slug": "cambiar-bateria",
+      "categoryId": "maintenance",
+      "status": "active",
+      "dataFile": "system/data/guides/cambiar-bateria.json",
+      "htmlFile": "guias/cambiar-bateria.html",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "metadata": {
+    "totalGuides": 3,
+    "activeGuides": 3,
+    "categoriesCount": 12
+  }
+}

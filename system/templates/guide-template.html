@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!--
+    CarSpecio Guide Page Template
+    Generates static HTML pages for each guide from guide data
+    Output: html/guias/[slug].html
+-->
+<html lang="es" data-i18n-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Dynamic SEO Metadata -->
+    <title>{{seoTitle}}</title>
+    <meta name="description" content="{{seoDescription}}">
+    <meta name="keywords" content="{{seoKeywords}}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{seoTitle}}">
+    <meta property="og:description" content="{{seoDescription}}">
+    <meta property="og:image" content="{{heroImage}}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{canonicalUrl}}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{seoTitle}}">
+    <meta name="twitter:description" content="{{seoDescription}}">
+    <meta name="twitter:image" content="{{heroImage}}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{canonicalUrl}}">
+    {{hreflangTags}}
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">{{jsonLd}}</script>
+    <script type="application/ld+json">{{breadcrumbJsonLd}}</script>
+
+    <link rel="icon" href="../assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="../assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
+    <!-- Theme: apply before paint to avoid flash -->
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/guide-page-bundle.min.css">
+
+    <!-- Content renders immediately -->
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress" role="progressbar" aria-label="Progreso de lectura" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" data-reading-time="{{readingTime}}">
+        <div class="reading-progress__bar" id="readingProgressBar"></div>
+        <span class="reading-progress__tooltip" id="readingProgressTooltip" aria-hidden="true"></span>
+    </div>
+
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+    <a href="../index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="../index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="../compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="../reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="../diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="../guias/index.html" data-i18n="navigation.guides" class="active">Guías</a>
+        <a href="../herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="../contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="guide-breadcrumb">
+        <a href="../index.html" data-i18n="guides.breadcrumbHome">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html" data-i18n="guides.breadcrumbGuides">Guías</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html#{{categorySlug}}">{{categoryName}}</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current" aria-current="page">{{guideTitle}}</span>
+    </nav>
+
+    <div id="a11yAnnouncer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Hero Section -->
+    <section class="guide-hero" id="heroSection" style="background-image: url('{{heroImage}}')">
+        <div class="guide-hero-overlay"></div>
+        <div class="guide-hero-content">
+            <span class="guide-category-badge">{{categoryName}}</span>
+            <h1 id="guideTitle">{{guideTitle}}</h1>
+            <p class="guide-meta">
+                <span class="guide-author">{{author}}</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-date">{{publishedAt}}</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-reading-time">{{readingTime}}</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Author Block -->
+    {{authorBlock}}
+
+    <!-- Freshness Banner -->
+    {{freshnessBanner}}
+
+    <!-- Guide Layout -->
+    <div class="guide-layout">
+        <!-- Sidebar: TOC + Summary -->
+        <aside class="guide-sidebar">
+            <!-- Key Takeaways -->
+            {{keyTakeaways}}
+
+            <!-- Summary Box -->
+            <div class="guide-summary-box" id="summaryBox">
+                <h2 data-i18n="guides.summaryTitle">Resumen rápido</h2>
+                {{summaryBoxContent}}
+            </div>
+
+            <!-- Table of Contents -->
+            <nav class="guide-toc" aria-label="Tabla de contenidos" id="guideToc">
+                <button class="guide-toc__toggle" id="tocToggle" type="button" aria-expanded="true" aria-controls="guideTocItems">
+                    <span data-i18n="guides.tocTitle">Contenido</span>
+                    <svg class="guide-toc__chevron" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+                </button>
+                <ol id="guideTocItems">{{tocItems}}</ol>
+            </nav>
+
+            <!-- Sidebar: Related Guides -->
+            {{sidebarRelatedGuides}}
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content" class="guide-main">
+            <!-- Intro -->
+            <div class="guide-intro">{{intro}}</div>
+
+            <!-- Content Sections -->
+            <article class="guide-content">
+                {{sectionsContent}}
+            </article>
+
+            <!-- FAQ -->
+            <section class="guide-faq" id="faq">
+                <h2 data-i18n="guides.faqTitle">Preguntas frecuentes</h2>
+                <div class="faq-list">{{faqContent}}</div>
+            </section>
+
+            <!-- Social Share -->
+            <section class="guide-share" aria-label="Compartir guía">
+                <p class="guide-share__label" data-i18n="guides.shareLabel">Comparte esta guía</p>
+                <div class="guide-share__buttons" role="group" aria-label="Opciones para compartir">
+                    <a class="guide-share__btn guide-share__btn--whatsapp" id="shareWhatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en WhatsApp">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.854L.054 23.25a.75.75 0 0 0 .916.916l5.396-1.478A11.954 11.954 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.712 9.712 0 0 1-4.95-1.355l-.354-.212-3.664 1.003 1.003-3.664-.212-.354A9.712 9.712 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--facebook" id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--twitter" id="shareTwitter" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en X (Twitter)">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L2.25 2.25h6.988l4.265 5.638 4.741-5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <span>X</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--linkedin" id="shareLinkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en LinkedIn">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <button class="guide-share__btn guide-share__btn--copy" id="shareCopy" type="button" aria-label="Copiar enlace">
+                        <svg class="share-icon-copy" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <svg class="share-icon-check" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span class="share-copy-label" data-i18n="guides.shareCopyLink">Copiar enlace</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Related Guides -->
+            <section class="guide-related" id="related-guides">
+                <h2 data-i18n="guides.relatedGuidesTitle">Guías relacionadas</h2>
+                <div class="guide-cards">{{relatedGuideCards}}</div>
+            </section>
+
+            <!-- Related Cars -->
+            <section class="guide-related-cars" id="related-cars">
+                <h2 data-i18n="guides.relatedCarsTitle">Coches relacionados</h2>
+                <div class="car-mini-cards">{{relatedCarCards}}</div>
+            </section>
+
+            <!-- Feedback -->
+            <section class="guide-feedback" id="guideFeedback" aria-label="Valoración de la guía">
+                <p class="guide-feedback__question" data-i18n="guides.feedbackQuestion">¿Te ha resultado útil esta guía?</p>
+                <div class="guide-feedback__buttons" role="group" aria-label="Valorar guía">
+                    <button class="guide-feedback__btn guide-feedback__btn--yes" id="feedbackYes" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                        <span data-i18n="guides.feedbackYes">Sí</span>
+                    </button>
+                    <button class="guide-feedback__btn guide-feedback__btn--no" id="feedbackNo" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10z"/><path d="M17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>
+                        <span data-i18n="guides.feedbackNo">No</span>
+                    </button>
+                </div>
+                <p class="guide-feedback__thanks" id="feedbackThanks" aria-live="polite" hidden></p>
+            </section>
+
+            <!-- Reading Completion CTA -->
+            <div class="completion-cta" id="completionCta" hidden aria-live="polite">
+                <button class="completion-cta__close" id="completionCtaClose" type="button" aria-label="Cerrar">✕</button>
+                <p class="completion-cta__title" data-i18n="guides.completionTitle">¿Has terminado de leer?</p>
+                <div class="completion-cta__actions">
+                    <a href="index.html" class="completion-cta__btn completion-cta__btn--index" data-i18n="guides.completionIndex">Ver todas las guías</a>
+                    {{completionRelatedLink}}
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <section class="guide-cta">
+                <h2 data-i18n="guides.ctaTitle">¿Necesitas más ayuda?</h2>
+                <a href="../contacto.html" class="hero-btn" data-i18n="guides.ctaButton">Contactar con CarSpecio</a>
+            </section>
+        </main>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Volver al inicio de la página" hidden>
+        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="../reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="../compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="../noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="../guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="../diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="../herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="../marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="../contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="../privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="../cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="../terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="../../js/mega-menu-data.js" defer></script>
+    <script src="../../js/mega-menu.js" defer></script>
+    <script src="../../js/flag-icons.js" defer></script>
+    <script src="../../js/i18n.js" defer></script>
+    <script src="../../js/search-index.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+    <script src="../../js/cookie-consent.js" defer></script>
+    <script src="../../js/analytics.js" defer></script>
+    <script src="../../js/analytics-events.js" defer></script>
+
+    <script>
+        const guideDataFile = '{{dataFilePath}}';
+        window.__preloadedGuideData = "__PRELOADED_GUIDE_DATA__";
+
+        function announce(text) {
+            const announcer = document.getElementById('a11yAnnouncer');
+            if (announcer) {
+                announcer.textContent = '';
+                setTimeout(() => { announcer.textContent = text; }, 100);
+            }
+        }
+
+        // Switch guide content to the active language (global for i18n.js)
+        window.applyPageText = function() {
+            const data = window.__preloadedGuideData;
+            if (!data || !data.content) return;
+            let lang = (typeof currentLang === 'function' ? currentLang() : window.currentLang) || 'es';
+            const content = data.content[lang] || data.content.es;
+            if (!content) return;
+            // If fallback to ES was used, force lang to ES so lang-block visibility matches
+            if (!data.content[lang]) lang = 'es';
+
+            // Title
+            const titleEl = document.getElementById('guideTitle');
+            if (titleEl && content.title) {
+                const titleSpan = titleEl.querySelector(`.lang-title[data-lang="${lang}"]`);
+                if (titleSpan) titleSpan.textContent = content.title;
+            }
+
+            // SEO metadata
+            if (content.seo) {
+                document.title = content.seo.title || document.title;
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc && content.seo.description) metaDesc.setAttribute('content', content.seo.description);
+                const metaKeywords = document.querySelector('meta[name="keywords"]');
+                if (metaKeywords && content.seo.keywords) metaKeywords.setAttribute('content', content.seo.keywords.join(', '));
+            }
+
+            // Language blocks
+            document.querySelectorAll('.lang-block, .lang-card-content').forEach(block => {
+                block.hidden = block.dataset.lang !== lang;
+            });
+
+            // Breadcrumb current title
+            const breadcrumbCurrent = document.querySelector('.breadcrumb-current');
+            if (breadcrumbCurrent && content.title) breadcrumbCurrent.textContent = content.title;
+
+            // Category badge
+            const catId = data.category;
+            if (catId && typeof t === 'function') {
+                const catName = t('guides.categories.' + catId) || catId;
+                document.querySelectorAll('.guide-category-badge').forEach(badge => {
+                    badge.textContent = catName;
+                });
+            }
+
+            // Rebuild TOC for current language
+            const tocEl = document.getElementById('guideTocItems');
+            if (tocEl && content.sections) {
+                let tocHtml = '';
+                content.sections.forEach((section, idx) => {
+                    tocHtml += `<li><a href="#${section.id}">${idx + 1}. ${section.title}</a></li>`;
+                });
+                if (data.summaryBox && data.summaryBox[lang]) {
+                    tocHtml += `<li><a href="#summaryBox">${content.sections.length + 1}. ${data.summaryBox[lang].tocLabel || 'Resumen rápido'}</a></li>`;
+                }
+                if (content.faq && content.faq.length > 0) {
+                    tocHtml += `<li><a href="#faq">${content.sections.length + 2}. ${content.faqLabel || 'Preguntas frecuentes'}</a></li>`;
+                }
+                tocEl.innerHTML = tocHtml;
+            }
+
+            // Re-init FAQ accordion after language switch
+            if (typeof initGuideFaq === 'function') initGuideFaq();
+
+            // Announce language change and move focus to main content
+            announce(`Idioma cambiado a ${String(lang || 'es').toUpperCase()}`);
+            const main = document.getElementById('main-content');
+            if (main && main.tabIndex === -1) main.focus();
+        };
+
+        // Reading Progress Bar + Time Remaining Tooltip
+        (function() {
+            const bar = document.getElementById('readingProgressBar');
+            const container = document.getElementById('readingProgress');
+            const tooltip = document.getElementById('readingProgressTooltip');
+            const article = document.getElementById('main-content');
+            if (!bar || !article) return;
+
+            const totalMins = parseInt(container.getAttribute('data-reading-time'), 10) || 0;
+
+            function updateProgress() {
+                const articleTop = article.getBoundingClientRect().top + window.scrollY;
+                const articleHeight = article.offsetHeight;
+                const viewportHeight = window.innerHeight;
+                const scrolled = window.scrollY + viewportHeight - articleTop;
+                const pct = Math.min(100, Math.max(0, Math.round((scrolled / articleHeight) * 100)));
+                bar.style.width = pct + '%';
+                container.setAttribute('aria-valuenow', pct);
+                checkMilestones(pct);
+
+                if (tooltip && totalMins > 0) {
+                    if (pct <= 0) {
+                        tooltip.textContent = totalMins + ' min';
+                        tooltip.style.opacity = '0';
+                    } else if (pct >= 100) {
+                        tooltip.textContent = '✓';
+                        tooltip.style.opacity = '1';
+                    } else {
+                        const remaining = Math.max(1, Math.ceil(totalMins * (1 - pct / 100)));
+                        tooltip.textContent = remaining + ' min';
+                        tooltip.style.opacity = '1';
+                    }
+                    const barPct = Math.min(96, Math.max(2, pct));
+                    tooltip.style.left = barPct + '%';
+                }
+            }
+
+            // Analytics milestones
+            const milestones = { 25: false, 50: false, 75: false, 100: false };
+            function checkMilestones(pct) {
+                for (const threshold of [25, 50, 75, 100]) {
+                    if (!milestones[threshold] && pct >= threshold) {
+                        milestones[threshold] = true;
+                        document.dispatchEvent(new CustomEvent('guide:milestone', { detail: { threshold: threshold, guide: window.location.pathname } }));
+                    }
+                }
+            }
+
+            let ticking = false;
+            window.addEventListener('scroll', function() {
+                if (!ticking) {
+                    requestAnimationFrame(function() { updateProgress(); ticking = false; });
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            updateProgress();
+        })();
+
+        // Social Share Buttons
+        (function() {
+            const canonical = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+
+            function getTitle() {
+                const visible = document.querySelector('#guideTitle .lang-title:not([hidden])');
+                return visible ? visible.textContent.trim() : document.title;
+            }
+
+            function buildUrls() {
+                const url = encodeURIComponent(canonical);
+                const title = encodeURIComponent(getTitle());
+                return {
+                    whatsapp: 'https://wa.me/?text=' + title + '%20' + url,
+                    facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + url,
+                    twitter:  'https://x.com/intent/tweet?url=' + url + '&text=' + title,
+                    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=' + url + '&title=' + title
+                };
+            }
+
+            function initShareLinks() {
+                const urls = buildUrls();
+                const wa = document.getElementById('shareWhatsapp');
+                const fb = document.getElementById('shareFacebook');
+                const tw = document.getElementById('shareTwitter');
+                const li = document.getElementById('shareLinkedin');
+                if (wa) wa.href = urls.whatsapp;
+                if (fb) fb.href = urls.facebook;
+                if (tw) tw.href = urls.twitter;
+                if (li) li.href = urls.linkedin;
+            }
+
+            function initCopyLink() {
+                const btn = document.getElementById('shareCopy');
+                if (!btn) return;
+                btn.addEventListener('click', function() {
+                    if (!navigator.clipboard) {
+                        const ta = document.createElement('textarea');
+                        ta.value = canonical;
+                        ta.setAttribute('readonly', '');
+                        ta.style.cssText = 'position:absolute;left:-9999px';
+                        document.body.appendChild(ta);
+                        ta.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(ta);
+                        onCopied();
+                    } else {
+                        navigator.clipboard.writeText(canonical).then(onCopied);
+                    }
+                });
+
+                function onCopied() {
+                    const copyIcon = btn.querySelector('.share-icon-copy');
+                    const checkIcon = btn.querySelector('.share-icon-check');
+                    const label = btn.querySelector('.share-copy-label');
+                    if (copyIcon) copyIcon.style.display = 'none';
+                    if (checkIcon) checkIcon.style.display = '';
+                    if (label) label.textContent = '¡Copiado!';
+                    btn.setAttribute('aria-label', 'Enlace copiado');
+                    announce('Enlace copiado al portapapeles');
+                    setTimeout(function() {
+                        if (copyIcon) copyIcon.style.display = '';
+                        if (checkIcon) checkIcon.style.display = 'none';
+                        if (label) {
+                            label.textContent = 'Copiar enlace';
+                            label.setAttribute('data-i18n', 'guides.shareCopyLink');
+                        }
+                        btn.setAttribute('aria-label', 'Copiar enlace');
+                    }, 2500);
+                }
+            }
+
+            initShareLinks();
+            initCopyLink();
+
+            document.addEventListener('i18n:ready', initShareLinks);
+        })();
+
+        // Back to Top Button
+        (function() {
+            const btn = document.getElementById('backToTop');
+            if (!btn) return;
+            const THRESHOLD = 400;
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > THRESHOLD) {
+                    btn.hidden = false;
+                } else {
+                    btn.hidden = true;
+                }
+            }, { passive: true });
+
+            btn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                document.querySelector('.skip-link') && document.querySelector('.skip-link').focus();
+            });
+        })();
+
+        // Feedback Widget
+        (function() {
+            const yesBtn = document.getElementById('feedbackYes');
+            const noBtn  = document.getElementById('feedbackNo');
+            const thanks = document.getElementById('feedbackThanks');
+            if (!yesBtn || !noBtn || !thanks) return;
+
+            const guideId = window.location.pathname.split('/').pop().replace('.html', '') || 'guide';
+            const storageKey = 'profix-feedback-' + guideId;
+
+            function applyVote(vote) {
+                yesBtn.setAttribute('aria-pressed', String(vote === 'yes'));
+                noBtn.setAttribute('aria-pressed',  String(vote === 'no'));
+                yesBtn.disabled = true;
+                noBtn.disabled  = true;
+                thanks.textContent = vote === 'yes' ? '¡Gracias! Nos alegra que te haya ayudado.' : 'Gracias por tu opinión. Seguiremos mejorando.';
+                thanks.hidden = false;
+            }
+
+            const stored = localStorage.getItem(storageKey);
+            if (stored === 'yes' || stored === 'no') {
+                applyVote(stored);
+            }
+
+            yesBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'yes');
+                applyVote('yes');
+                announce('Valoración positiva guardada');
+            });
+            noBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'no');
+                applyVote('no');
+                announce('Valoración guardada');
+            });
+        })();
+
+        // Task 3: Copy Link to Section
+        (function() {
+            const BASE = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+            document.querySelectorAll('.section-anchor').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = btn.getAttribute('data-section-id');
+                    const url = BASE.split('#')[0] + '#' + sectionId;
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(url).then(function() {
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        }).catch(function() {});
+                    } else {
+                        try {
+                            const ta = document.createElement('textarea');
+                            ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+                            document.body.appendChild(ta); ta.focus(); ta.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(ta);
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        } catch(e) {}
+                    }
+                });
+            });
+        })();
+
+        // Task 4: Reading Completion CTA
+        (function() {
+            const cta = document.getElementById('completionCta');
+            if (!cta) return;
+            const sessionKey = 'profix-completion-' + (window.location.pathname.split('/').pop().replace('.html','') || 'guide');
+            if (sessionStorage.getItem(sessionKey)) return;
+            let shown = false;
+            const progressBar = document.getElementById('readingProgressBar');
+            window.addEventListener('scroll', function() {
+                if (shown) return;
+                const bar = progressBar;
+                if (!bar) return;
+                const pct = parseFloat(bar.style.width) || 0;
+                if (pct >= 90) {
+                    shown = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                    cta.hidden = false;
+                    cta.classList.add('visible');
+                }
+            }, { passive: true });
+            const closeBtn = document.getElementById('completionCtaClose');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    cta.hidden = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                });
+            }
+        })();
+
+        // Task 5: TOC Active State
+        (function() {
+            const tocList = document.getElementById('guideTocItems');
+            if (!tocList || !window.IntersectionObserver) return;
+            const sectionEls = document.querySelectorAll('.guide-content .lang-block:not([hidden]) section[id], .guide-content section[id]');
+            if (!sectionEls.length) return;
+            const tocLinks = tocList.querySelectorAll('a[href^="#"]');
+            function setActive(id) {
+                tocLinks.forEach(function(a) {
+                    const active = a.getAttribute('href') === '#' + id;
+                    a.classList.toggle('toc-active', active);
+                    if (active) a.setAttribute('aria-current', 'true');
+                    else a.removeAttribute('aria-current');
+                });
+            }
+            const io = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) setActive(entry.target.id);
+                });
+            }, { rootMargin: '-10% 0px -75% 0px', threshold: 0 });
+            sectionEls.forEach(function(el) { io.observe(el); });
+        })();
+
+        // Show content when ready (global for i18n:ready event)
+        window.showContent = function() {
+            const loader = document.getElementById('pageLoader');
+            if (loader) loader.classList.add('hidden');
+            document.body.classList.add('content-ready');
+        };
+
+        // Initialize i18n
+        if (typeof loadLanguage === 'function') {
+            loadLanguage('es');
+        }
+
+        // Collapsible TOC
+        (function() {
+            const toc = document.getElementById('guideToc');
+            const toggle = document.getElementById('tocToggle');
+            const list = document.getElementById('guideTocItems');
+            if (!toggle || !list) return;
+            function updateToggle() {
+                const collapsed = list.classList.contains('collapsed');
+                toggle.setAttribute('aria-expanded', String(!collapsed));
+                toggle.classList.toggle('is-collapsed', collapsed);
+            }
+            toggle.addEventListener('click', function() {
+                list.classList.toggle('collapsed');
+                updateToggle();
+            });
+            function onResize() {
+                if (window.innerWidth > 900) {
+                    list.classList.remove('collapsed');
+                    updateToggle();
+                }
+            }
+            window.addEventListener('resize', onResize);
+            onResize();
+        })();
+
+        // Image Lightbox
+        (function() {
+            const lb = document.getElementById('guideLightbox');
+            const img = document.getElementById('lightboxImg');
+            const close = document.getElementById('lightboxClose');
+            if (!lb || !img || !close) return;
+            function open(src, alt) {
+                img.src = src; img.alt = alt || '';
+                lb.hidden = false;
+                document.body.style.overflow = 'hidden';
+                close.focus();
+            }
+            function closeLb() {
+                lb.hidden = true;
+                img.src = ''; img.alt = '';
+                document.body.style.overflow = '';
+            }
+            document.querySelectorAll('.guide-content img').forEach(function(el) {
+                el.style.cursor = 'zoom-in';
+                el.addEventListener('click', function() { open(el.src, el.alt); });
+            });
+            close.addEventListener('click', closeLb);
+            lb.addEventListener('click', function(e) { if (e.target === lb) closeLb(); });
+            document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Apply immediately on DOMContentLoaded — no flash, no delay
+            showContent();
+            applyPageText();
+
+            document.addEventListener('i18n:ready', showContent);
+            document.addEventListener('i18n:ready', applyPageText);
+        }); // end DOMContentLoaded
+    </script>
+
+    <!-- Dropdown System -->
+    <script src="../../system/js/dropdowns.js" defer></script>
+
+    <script>
+        function initGuideFaq() {
+            document.querySelectorAll('.faq-item').forEach((item, idx) => {
+                const btn = item.querySelector('.faq-question');
+                const ans = item.querySelector('.faq-answer');
+                if (!btn || !ans) return;
+
+                btn.setAttribute('aria-expanded', 'false');
+                ans.setAttribute('id', ans.id || `faq-answer-${idx}`);
+                btn.setAttribute('aria-controls', ans.id);
+                ans.setAttribute('role', 'region');
+                ans.setAttribute('aria-labelledby', btn.id || `faq-question-${idx}`);
+                if (!btn.id) btn.id = `faq-question-${idx}`;
+                ans.hidden = true;
+
+                const toggle = (e) => {
+                    e.preventDefault();
+                    const expanded = btn.getAttribute('aria-expanded') === 'true';
+                    btn.setAttribute('aria-expanded', String(!expanded));
+                    ans.hidden = expanded;
+                };
+
+                // Remove previous listeners to avoid duplicates after re-init
+                const newBtn = btn.cloneNode(true);
+                btn.parentNode.replaceChild(newBtn, btn);
+                newBtn.addEventListener('click', toggle);
+                newBtn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggle(e);
+                    }
+                });
+            });
+        }
+        document.addEventListener('DOMContentLoaded', initGuideFaq);
+    </script>
+
+    <!-- Image Lightbox -->
+    <div class="guide-lightbox" id="guideLightbox" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button class="guide-lightbox__close" id="lightboxClose" type="button" aria-label="Cerrar">✕</button>
+        <img class="guide-lightbox__img" id="lightboxImg" src="" alt="">
+    </div>
+</body>
+</html>

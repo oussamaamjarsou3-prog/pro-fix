@@ -1,0 +1,3252 @@
+{
+  "id": "porsche-911-2026",
+  "slug": "porsche-911",
+  "brandId": "porsche",
+  "categoryId": "deportivos",
+  "modelYear": 2026,
+  "generation": "992",
+  "bodyStyle": "coupe",
+  "doors": 2,
+  "seats": 4,
+  "drivetrain": "awd",
+  "enginePosition": "rear",
+  "powertrain": {
+    "type": "petrol",
+    "description": "Flat-6 Twin-Turbo T-Hybrid with 711 HP and AWD",
+    "descriptionAr": "محرك 6 أسطوانات بوكسر توربيني مزدوج تي هجين بـ 711 حصان ودفع رباعي"
+  },
+  "status": "active",
+  "launchDate": "2026-01-01",
+  "productionYears": {
+    "start": 2019,
+    "end": null
+  },
+  "basicInfo": {
+    "name": "911",
+    "fullModelName": "Porsche 911 Turbo S",
+    "badge": "PORSCHE",
+    "tagline": "El icono deportivo por excelencia con motor boxer híbrido T-Hybrid",
+    "description": "El Porsche 911 Turbo S es el 911 de calle más potente de la historia con tecnología T-Hybrid.",
+    "longDescription": "El Porsche 911 Turbo S 2026 representa la cúspide del rendimiento de Porsche. Su motor boxer 3.6L twin-turbo con sistema T-Hybrid de 400 V entrega 711 PS y 800 Nm, acelerando de 0 a 100 km/h en 2.5 segundos y alcanzando 322 km/h.",
+    "highlights": [
+      "Motor boxer 3.6L twin-turbo T-Hybrid con 711 PS",
+      "Aceleración 0-100 km/h en 2.5 segundos",
+      "Tracción Porsche Traction Management (PTM) AWD",
+      "Turbos eléctricos (eTurbo) para respuesta inmediata",
+      "Porsche Active Suspension Management (PASM)",
+      "Techo de fibra de carbono opcional"
+    ],
+    "taglineAr": "الأيقونة الرياضية بامتياز بمحرك بوكسر هجين توربيني",
+    "nameAr": "911",
+    "fullModelNameAr": "بورش 911 توربو أس",
+    "badgeAr": "بورش"
+  },
+  "specs": {
+    "engine": {
+      "type": "Flat-6 Twin-Turbo T-Hybrid",
+      "displacement": {
+        "value": 3600,
+        "unit": "cc"
+      },
+      "cylinders": 6,
+      "configuration": "Flat",
+      "aspiration": "Twin-Turbo",
+      "fuelType": "petrol",
+      "fuelOctane": 98,
+      "compressionRatio": 10,
+      "bore": 97.5,
+      "stroke": 80,
+      "blockMaterial": "Aluminum",
+      "headMaterial": "Aluminum",
+      "oilCapacity": {
+        "value": 9.5,
+        "unit": "L"
+      },
+      "cooling": "Liquid",
+      "typeAr": "محرك 6 أسطوانات معاكس توين تيربو هجين توربيني",
+      "fuelTypeAr": "بنزين"
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 8,
+      "brand": "PDK",
+      "model": "PDK",
+      "driveMode": "AWD",
+      "typeAr": "أوتوماتيك"
+    },
+    "suspension": {
+      "front": "MacPherson",
+      "rear": "Multi-link",
+      "adaptive": true,
+      "airSuspension": false,
+      "adjustableDampers": true
+    },
+    "brakes": {
+      "front": {
+        "type": "Ventilated Disc",
+        "diameter": 420,
+        "material": "Carbon Ceramic"
+      },
+      "rear": {
+        "type": "Ventilated Disc",
+        "diameter": 410,
+        "material": "Carbon Ceramic"
+      },
+      "abs": true,
+      "ebd": true,
+      "eba": true,
+      "parkingBrake": "Electric"
+    },
+    "steering": {
+      "type": "Electric Power",
+      "turningRadius": 11.2,
+      "adjustable": true
+    },
+    "wheels": {
+      "front": {
+        "size": "20x9.5J",
+        "tire": "255/35R20"
+      },
+      "rear": {
+        "size": "21x11.5J",
+        "tire": "315/30R21"
+      },
+      "spare": false
+    },
+    "fuelSystem": {
+      "type": "Direct Injection",
+      "fuelTank": {
+        "value": 67,
+        "unit": "L"
+      }
+    },
+    "drivetrain": {
+      "typeAr": "دفع رباعي"
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 711,
+      "unit": "PS",
+      "rpm": 6750
+    },
+    "torque": {
+      "value": 800,
+      "unit": "Nm",
+      "rpm": 2300
+    },
+    "acceleration": {
+      "0-100": 2.5,
+      "0-200": 10.5,
+      "unit": "s"
+    },
+    "topSpeed": {
+      "value": 322,
+      "unit": "km/h",
+      "limited": true
+    },
+    "powerToWeight": {
+      "value": 325,
+      "unit": "HP/ton"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 4553,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1900,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1302,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2450,
+      "unit": "mm"
+    },
+    "weight": {
+      "curb": 1660,
+      "gross": 2050,
+      "unit": "kg"
+    },
+    "cargo": {
+      "value": 132,
+      "unit": "L"
+    },
+    "groundClearance": {
+      "value": 100,
+      "unit": "mm"
+    },
+    "fuelTank": {
+      "value": 67,
+      "unit": "L"
+    }
+  },
+  "fuelEconomy": {
+    "petrol": {
+      "city": {
+        "value": 13.5,
+        "unit": "L/100km"
+      },
+      "highway": {
+        "value": 9.8,
+        "unit": "L/100km"
+      },
+      "combined": {
+        "value": 11.8,
+        "unit": "L/100km"
+      },
+      "co2": {
+        "value": 266,
+        "unit": "g/km"
+      },
+      "drivingStyles": {
+        "calm": {
+          "value": 9.5,
+          "unit": "L/100km"
+        },
+        "sport": {
+          "value": 17,
+          "unit": "L/100km"
+        }
+      },
+      "range": {
+        "city": {
+          "value": 496,
+          "unit": "km"
+        },
+        "highway": {
+          "value": 684,
+          "unit": "km"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "base": {
+      "value": 245000,
+      "currency": "EUR"
+    },
+    "current": {
+      "value": 270000,
+      "currency": "EUR"
+    },
+    "tax": {
+      "value": 55000,
+      "currency": "EUR"
+    },
+    "insurance": {
+      "annual": 4500,
+      "currency": "EUR"
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "active-spoiler",
+        "name": {
+          "es": "Alerón activo",
+          "en": "Active spoiler",
+          "fr": "Aileron actif",
+          "ar": "جناح نشط"
+        },
+        "description": {
+          "es": "Alerón trasero que se ajusta automáticamente según velocidad y modo.",
+          "en": "Rear wing that adjusts automatically by speed and mode.",
+          "fr": "Aileron arrière qui se règle automatiquement selon la vitesse et le mode.",
+          "ar": "جناح خلفي يتكيف تلقائياً حسب السرعة والوضع."
+        },
+        "standard": true,
+        "category": "aero"
+      },
+      {
+        "id": "pdls-plus",
+        "name": {
+          "es": "PDLS Plus",
+          "en": "PDLS Plus",
+          "fr": "PDLS Plus",
+          "ar": "PDLS Plus"
+        },
+        "description": {
+          "es": "Faros LED Matrix System con asistencia de luz de carretera.",
+          "en": "LED Matrix System headlights with high-beam assist.",
+          "fr": "Phares LED Matrix System avec assistance de feux de route.",
+          "ar": "مصابيح LED Matrix System مع مساعدة الضوء العالي."
+        },
+        "standard": true,
+        "category": "lights"
+      }
+    ],
+    "interior": [
+      {
+        "id": "sport-plus-seats",
+        "name": {
+          "es": "Asientos Sport Plus",
+          "en": "Sport Plus seats",
+          "fr": "Sièges Sport Plus",
+          "ar": "مقاعد Sport Plus"
+        },
+        "description": {
+          "es": "Asientos de 18 ajustes con calefacción, ventilación y masaje.",
+          "en": "18-way seats with heating, ventilation and massage.",
+          "fr": "Sièges 18 réglages avec chauffage, ventilation et massage.",
+          "ar": "مقاعد 18 وضعية مع تدفئة، تهوية وتدليك."
+        },
+        "standard": true,
+        "category": "seats"
+      },
+      {
+        "id": "curved-display",
+        "name": {
+          "es": "Pantalla curvada",
+          "en": "Curved display",
+          "fr": "Écran incurvé",
+          "ar": "شاشة منحنية"
+        },
+        "description": {
+          "es": "Pantalla digital de 12.6 pulgadas con instrumentación clásica.",
+          "en": "12.6-inch digital display with classic instrumentation.",
+          "fr": "Écran numérique 12,6 pouces avec instrumentation classique.",
+          "ar": "شاشة رقمية 12.6 بوصة مع أجهزة كلاسيكية."
+        },
+        "standard": true,
+        "category": "tech"
+      }
+    ],
+    "safety": [
+      {
+        "es": "Porsche InnoDrive",
+        "en": "Porsche InnoDrive",
+        "fr": "Porsche InnoDrive",
+        "ar": "Porsche InnoDrive"
+      },
+      {
+        "es": "Modo Wet Porsche",
+        "en": "Porsche Wet Mode",
+        "fr": "Porsche Wet Mode",
+        "ar": "Porsche Wet Mode"
+      },
+      {
+        "es": "Asistente de cambio de carril",
+        "en": "Lane Change Assist",
+        "fr": "Assistant de changement de voie",
+        "ar": "مساعد تغيير المسار"
+      },
+      {
+        "es": "Frenos Porsche Surface Coated",
+        "en": "Porsche Surface Coated Brakes",
+        "fr": "Freins Porsche Surface Coated",
+        "ar": "فرامل Porsche Surface Coated"
+      },
+      {
+        "es": "Asistente de visión nocturna",
+        "en": "Night Vision Assist",
+        "fr": "Assistant de vision nocturne",
+        "ar": "مساعد الرؤية الليلية"
+      },
+      {
+        "es": "Vista 360°",
+        "en": "Surround View",
+        "fr": "Vue panoramique",
+        "ar": "منظر محيطي"
+      }
+    ],
+    "technology": [
+      {
+        "id": "pcm",
+        "name": {
+          "es": "PCM",
+          "en": "PCM",
+          "fr": "PCM",
+          "ar": "PCM"
+        },
+        "description": {
+          "es": "Porsche Communication Management con navegación y conectividad.",
+          "en": "Porsche Communication Management with navigation and connectivity.",
+          "fr": "Porsche Communication Management avec navigation et connectivité.",
+          "ar": "Porsche Communication Management مع ملاحة واتصال."
+        },
+        "standard": true,
+        "category": "infotainment"
+      },
+      {
+        "id": "innodrive",
+        "name": {
+          "es": "Porsche InnoDrive",
+          "en": "Porsche InnoDrive",
+          "fr": "Porsche InnoDrive",
+          "ar": "Porsche InnoDrive"
+        },
+        "description": {
+          "es": "Asistente de conducción adaptativo con predicción de ruta.",
+          "en": "Adaptive driving assistant with route prediction.",
+          "fr": "Assistant de conduite adaptatif avec prédiction d'itinéraire.",
+          "ar": "مساعد قيادة تكيفي مع التنبؤ بالطريق."
+        },
+        "standard": true,
+        "category": "safety"
+      }
+    ],
+    "comfort": [
+      {
+        "id": "climate-control",
+        "name": {
+          "es": "Climatización de 3 zonas",
+          "en": "3-zone climate",
+          "fr": "Climatisation 3 zones",
+          "ar": "تكييف 3 مناطق"
+        },
+        "description": {
+          "es": "Control de temperatura independiente para conductor, pasajero y plazas traseras.",
+          "en": "Independent temperature control for driver, passenger and rear seats.",
+          "fr": "Contrôle de température indépendant pour conducteur, passager et places arrière.",
+          "ar": "تحكم مستقل في الحرارة للسائق والراكب والمقاعد الخلفية."
+        },
+        "standard": true,
+        "category": "climate"
+      },
+      {
+        "id": "wireless-charging",
+        "name": {
+          "es": "Carga inalámbrica",
+          "en": "Wireless charging",
+          "fr": "Charge sans fil",
+          "ar": "شحن لاسلكي"
+        },
+        "description": {
+          "es": "Base de carga inalámbrica para smartphone.",
+          "en": "Wireless charging pad for smartphone.",
+          "fr": "Plateau de charge sans fil pour smartphone.",
+          "ar": "قاعدة شحن لاسلكي للهاتف الذكي."
+        },
+        "standard": true,
+        "category": "convenience"
+      }
+    ],
+    "performance": [
+      {
+        "id": "pasm",
+        "name": {
+          "es": "PASM",
+          "en": "PASM",
+          "fr": "PASM",
+          "ar": "PASM"
+        },
+        "description": {
+          "es": "Suspensión activa Porsche con amortiguadores adaptativos.",
+          "en": "Porsche Active Suspension Management with adaptive dampers.",
+          "fr": "Suspension active Porsche avec amortisseurs adaptatifs.",
+          "ar": "نظام Porsche Active Suspension Management مع مخمدات تكيفية."
+        },
+        "standard": true,
+        "category": "chassis"
+      },
+      {
+        "id": "ptm",
+        "name": {
+          "es": "PTM",
+          "en": "PTM",
+          "fr": "PTM",
+          "ar": "PTM"
+        },
+        "description": {
+          "es": "Porsche Traction Management: tracción total con vectorización de par.",
+          "en": "Porsche Traction Management: all-wheel drive with torque vectoring.",
+          "fr": "Porsche Traction Management : traction intégrale avec vectorisation de couple.",
+          "ar": "Porsche Traction Management: دفع رباعي مع تحويل العزم."
+        },
+        "standard": true,
+        "category": "drivetrain"
+      }
+    ]
+  },
+  "safety": {
+    "rating": {
+      "euroNCAP": 5,
+      "nhtsa": 5
+    },
+    "airbags": 6,
+    "features": [
+      "ABS with EBD",
+      "PASM",
+      "PSM",
+      "Hill Hold Assist",
+      "Tyre Pressure Monitoring",
+      "ISOFIX points"
+    ],
+    "es": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontales",
+        "laterales",
+        "de cortina",
+        "de rodilla"
+      ],
+      "driverAssist": [
+        "Porsche InnoDrive",
+        "Asistente de cambio de carril",
+        "Visión nocturna",
+        "Wet Mode",
+        "Cámara 360",
+        "Frenada de emergencia"
+      ],
+      "structural": "Estructura de aluminio y acero de alta resistencia con jaula de seguridad integral."
+    },
+    "en": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "front",
+        "side",
+        "curtain",
+        "knee"
+      ],
+      "driverAssist": [
+        "Porsche InnoDrive",
+        "Lane change assist",
+        "Night vision",
+        "Wet Mode",
+        "360 camera",
+        "Emergency braking"
+      ],
+      "structural": "High-strength aluminum and steel structure with integral safety cage."
+    },
+    "fr": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontales",
+        "latérales",
+        "rideaux",
+        "genoux"
+      ],
+      "driverAssist": [
+        "Porsche InnoDrive",
+        "Assistance de changement de voie",
+        "Vision nocturne",
+        "Wet Mode",
+        "Caméra 360",
+        "Freinage d'urgence"
+      ],
+      "structural": "Structure en aluminium et acier à haute résistance avec cage de sécurité intégrale."
+    },
+    "ar": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "أمامية",
+        "جانبية",
+        "ستائرية",
+        "ركبة"
+      ],
+      "driverAssist": [
+        "Porsche InnoDrive",
+        "مساعد تغيير المسار",
+        "رؤية ليلية",
+        "Wet Mode",
+        "كاميرا 360",
+        "فرامل الطوارئ"
+      ],
+      "structural": "هيكل من الألومنيوم والفولاذ عالي المقاومة مع قفص أمان متكامل."
+    }
+  },
+  "versions": [
+    {
+      "id": "911-turbo-s",
+      "slug": "911turbos",
+      "name": "911 Turbo S",
+      "price": {
+        "value": 270000,
+        "currency": "EUR"
+      },
+      "features": [
+        "711 PS T-Hybrid",
+        "0-100 km/h in 2.5 s",
+        "PTM AWD",
+        "PASM",
+        "Carbon-ceramic brakes"
+      ],
+      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
+      "nameAr": "911 تيربو إس",
+      "featuresAr": [
+        "711 حصان تي هجين",
+        "0-100 كم/h بوصة 2.5 إس",
+        "نظام الدفع الرباعي بي تي إم",
+        "باسم",
+        "كربون-فرامل سيراميك"
+      ]
+    },
+    {
+      "id": "911-turbo",
+      "slug": "911turbo",
+      "name": "911 Turbo",
+      "price": {
+        "value": 230000,
+        "currency": "EUR"
+      },
+      "features": [
+        "580 PS T-Hybrid",
+        "0-100 km/h in 2.8 s",
+        "PTM AWD",
+        "PASM",
+        "PDK 8"
+      ],
+      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png",
+      "nameAr": "911 تيربو",
+      "featuresAr": [
+        "580 حصان تي هجين",
+        "0-100 كم/h بوصة 2.8 إس",
+        "نظام الدفع الرباعي بي تي إم",
+        "باسم",
+        "بي دي كي 8"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+    "gallery": [
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.png",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.png",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.png",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.png",
+      "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
+      "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png"
+    ],
+    "colors": [
+      "Guards Red",
+      "Shark Blue",
+      "Carrera White",
+      "Jet Black Metallic"
+    ],
+    "galleryCaptions": {
+      "es": [
+        "Vista frontal con faros LED Matrix",
+        "Perfil trasero con alas anchas y alerón activo",
+        "Interior con Curved Display",
+        "Detalle de llanta trasera de 21 pulgadas"
+      ],
+      "en": [
+        "Front view with LED Matrix headlights",
+        "Rear profile with wide fenders and active spoiler",
+        "Interior with Curved Display",
+        "21-inch rear wheel detail"
+      ],
+      "fr": [
+        "Vue avant avec phares LED Matrix",
+        "Profil arrière avec ailes larges et aileron actif",
+        "Intérieur avec Curved Display",
+        "Détail de la jante arrière 21 pouces"
+      ],
+      "ar": [
+        "المنظور الأمامي مع مصابيح LED Matrix",
+        "الجانب الخلفي مع رفارف عريضة وجناح نشط",
+        "المقصورة مع Curved Display",
+        "تفاصيل العجلة الخلفية 21 بوصة"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Porsche 911 2026 - Review y Comparativa",
+    "description": "El Porsche 911 es el icono deportivo por excelencia con más de 50 aÃñs de historia y rendimiento legendario.",
+    "keywords": [
+      "porsche",
+      "911",
+      "deportivo",
+      "icono",
+      "alemania",
+      "turbo"
+    ],
+    "ogTitle": "Porsche 911 2026 - El icono deportivo definitivo",
+    "ogDescription": "Descubre el Porsche 911 2026: 650 HP, 0-100 en 2.7s, y más de 50 aÃñs de historia.",
+    "ogImage": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png"
+  },
+  "content": {
+    "review": "El Porsche 911 es el icono deportivo por excelencia...",
+    "pros": [
+      "Aceleración increíble",
+      "Excelente reventa",
+      "Conducción de referencia"
+    ],
+    "cons": [
+      "Muy caro",
+      "Poco espacio trasero",
+      "Opciones muy costosas"
+    ],
+    "verdict": "El mejor deportivo del mercado",
+    "timeline": [
+      {
+        "km": 10000,
+        "title": "Mantenimiento anual",
+        "desc": "Cambio de aceite y filtros, revisión del sistema T-Hybrid y PDK",
+        "cost": {
+          "value": 800,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة السنوية",
+        "descAr": "تغيير الزيت والفلاتر، فحص نظام تي هجين وبي دي كي"
+      },
+      {
+        "km": 20000,
+        "title": "Revisión intermedia",
+        "desc": "Filtros, frenos, líquidos y batería de alto voltaje",
+        "cost": {
+          "value": 1800,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص الدوري المتوسط",
+        "descAr": "الفلاتر والفرامل والسوائل وبطارية الجهد العالي"
+      },
+      {
+        "km": 40000,
+        "title": "Gran servicio",
+        "desc": "Revisión del boxer turbo, bujías, transmisión PDK y diferenciales",
+        "cost": {
+          "value": 3500,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة الكبرى",
+        "descAr": "فحص المحرك بوكسر تيربو، البواجي، ناقل الحركة بي دي كي والدفرنسيات"
+      },
+      {
+        "km": 60000,
+        "title": "Frenos y neumáticos",
+        "desc": "Cambio de discos/pastillas carbono-cerámicos y juego de neumáticos",
+        "cost": {
+          "value": 6500,
+          "currency": "EUR"
+        },
+        "titleAr": "الفرامل والإطارات",
+        "descAr": "تغيير الأقراص/الفحمات الكربونية-سيراميك ومجموعة الإطارات"
+      },
+      {
+        "km": 80000,
+        "title": "Revisión de híbrido",
+        "desc": "Inspección del sistema T-Hybrid, turbos eléctricos y refrigeración",
+        "cost": {
+          "value": 4500,
+          "currency": "EUR"
+        },
+        "titleAr": "فحص النظام الهجين",
+        "descAr": "فحص نظام تي هجين، التوربينات الكهربائية والتبريد"
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuánta potencia tiene el Porsche 911 Turbo S 2026?",
+        "answer": "El Porsche 911 Turbo S 2026 entrega 711 PS (523 kW) y 800 Nm de par con su sistema T-Hybrid."
+      },
+      {
+        "question": "¿Cuánto acelera el 911 Turbo S de 0 a 100 km/h?",
+        "answer": "El 911 Turbo S acelera de 0 a 100 km/h en 2.5 segundos y de 0 a 200 km/h en 8.4 segundos."
+      },
+      {
+        "question": "¿Cuál es el precio del Porsche 911 Turbo S 2026?",
+        "answer": "El precio base en Estados Unidos es de 270.300 USD. En Europa, desde aproximadamente 245.000 €."
+      },
+      {
+        "question": "¿Es fiable el sistema T-Hybrid del 911 Turbo S?",
+        "answer": "La tecnología T-Hybrid es derivada de la competición. Requiere mantenimiento Porsche oficial y el sistema híbrido puede ser costoso fuera de garantía."
+      },
+      {
+        "question": "¿Porsche 911 Turbo S o BMW M5?",
+        "answer": "El 911 Turbo S es más ligero, dinámico y prestigioso. El M5 ofrece más espacio y 4 plazas reales."
+      },
+      {
+        "question": "¿Cuánto consume el 911 Turbo S?",
+        "answer": "El consumo combinado WLTP es de 11.5–11.8 L/100 km. En uso real deportivo, puede superar los 15 L/100 km."
+      },
+      {
+        "question": "¿Vale la pena comprar un 911 Turbo S de segunda mano?",
+        "answer": "Sí, si se busca el mejor 911 de calle. Revisar historial Porsche, mantenimiento del T-Hybrid y estado de frenos."
+      }
+    ],
+    "es": {
+      "pros": [
+        "Aceleración increíble",
+        "Excelente reventa",
+        "Conducción de referencia"
+      ],
+      "cons": [
+        "Muy caro",
+        "Poco espacio trasero",
+        "Opciones muy costosas"
+      ]
+    },
+    "en": {
+      "pros": [
+        "Incredible acceleration",
+        "Excellent resale value",
+        "Benchmark driving experience"
+      ],
+      "cons": [
+        "Very expensive",
+        "Little rear space",
+        "Very costly options"
+      ]
+    },
+    "fr": {
+      "pros": [
+        "Accélération incroyable",
+        "Excellente valeur de revente",
+        "Conducción de référence"
+      ],
+      "cons": [
+        "Très cher",
+        "Peu d'espace arrière",
+        "Options très coûteuses"
+      ]
+    },
+    "ar": {
+      "pros": [
+        "تسارع لا يصدق",
+        "قيمة إعادة بيع ممتازة",
+        "قيادة مرجعية"
+      ],
+      "cons": [
+        "غالي جداً",
+        "مساحة خلفية قليلة",
+        "خيارات مكلفة جداً"
+      ]
+    }
+  },
+  "countryPricing": {
+    "us": {
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "flag": "🇺🇸",
+      "rivalAmg": 25650,
+      "maintenance": 2162,
+      "used3Range": "154,071 - 170,289 USD",
+      "fuelDefault": 350,
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          297630
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          291043
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          289942
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          296529
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          294306
+        ]
+      ],
+      "pricePerformance": 284300,
+      "inspection": 50,
+      "oilChange": 250,
+      "dep5": 121635,
+      "currency": "USD",
+      "priceNew": 270300,
+      "depAnnual": {
+        "used3": 36040,
+        "new": 54060,
+        "used5": 29733
+      },
+      "fuelMax": 500,
+      "options": [
+        4185,
+        999,
+        8370,
+        2092,
+        3105,
+        0,
+        5535,
+        1620
+      ],
+      "tyres": 1216,
+      "locale": "en-US",
+      "fuelMetric": false,
+      "insurance": 4865,
+      "fuelStep": 5,
+      "fuelMin": 250,
+      "dep3": 162180,
+      "priceCarbon": 300000,
+      "used5Range": "115,553 - 127,717 USD",
+      "name": "United States",
+      "rivalM5": 23625,
+      "roadTax": 135,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "flag": "🇮🇹",
+      "rivalAmg": 28120,
+      "maintenance": 2500,
+      "used3Range": "131,100 - 144,900 EUR",
+      "fuelDefault": 185,
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          280950
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          280920
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          280910
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          280900
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          280890
+        ]
+      ],
+      "pricePerformance": 245000,
+      "inspection": 120,
+      "oilChange": 300,
+      "dep5": 103500,
+      "currency": "EUR",
+      "priceNew": 230000,
+      "depAnnual": {
+        "used3": 30667,
+        "new": 46000,
+        "used5": 25300
+      },
+      "fuelMax": 230,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1400,
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "insurance": 4140,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 138000,
+      "priceCarbon": 260000,
+      "used5Range": "98,325 - 108,675 EUR",
+      "name": "Italia",
+      "rivalM5": 25900,
+      "roadTax": 450,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "fiscalHead": [
+        "RegiÃ³n",
+        "Impuesto matriculaciÃ³n",
+        "ITV",
+        "Precio final"
+      ],
+      "flag": "🇪🇸",
+      "rivalAmg": 28120,
+      "maintenance": 2000,
+      "used3Range": "133,950 - 148,050 EUR",
+      "fuelDefault": 165,
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          284730
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          284770
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          284700
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          284750
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          284710
+        ]
+      ],
+      "pricePerformance": 250000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 105750,
+      "currency": "EUR",
+      "priceNew": 235000,
+      "depAnnual": {
+        "used3": 31333,
+        "new": 47000,
+        "used5": 25850
+      },
+      "fuelMax": 200,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "insurance": 4230,
+      "fuelStep": 5,
+      "fuelMin": 140,
+      "dep3": 141000,
+      "priceCarbon": 265000,
+      "used5Range": "100,463 - 111,038 EUR",
+      "name": "España",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "fiscalHead": [
+        "RÃ©gion",
+        "Malus COâ‚‚",
+        "Carte grise",
+        "Prix final"
+      ],
+      "flag": "🇫🇷",
+      "rivalAmg": 28120,
+      "maintenance": 3100,
+      "used3Range": "131,100 - 144,900 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          276350
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          276320
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          276310
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          276300
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          276290
+        ]
+      ],
+      "pricePerformance": 245000,
+      "inspection": 90,
+      "oilChange": 340,
+      "dep5": 103500,
+      "currency": "EUR",
+      "priceNew": 230000,
+      "depAnnual": {
+        "used3": 30667,
+        "new": 46000,
+        "used5": 25300
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1550,
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "insurance": 4140,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 138000,
+      "priceCarbon": 260000,
+      "used5Range": "98,325 - 108,675 EUR",
+      "name": "France",
+      "rivalM5": 25900,
+      "roadTax": 115,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇲🇦",
+      "rivalAmg": 304000,
+      "maintenance": 28000,
+      "used3Range": "1,995,000 - 2,205,000 MAD",
+      "fuelDefault": 1150,
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          4200200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          4200180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          4200160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          4200150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          4200170
+        ]
+      ],
+      "pricePerformance": 3800000,
+      "inspection": 100,
+      "oilChange": 200,
+      "dep5": 1575000,
+      "currency": "MAD",
+      "priceNew": 3500000,
+      "depAnnual": {
+        "used3": 466667,
+        "new": 700000,
+        "used5": 385000
+      },
+      "fuelMax": 1400,
+      "options": [
+        49600,
+        11840,
+        99200,
+        24800,
+        36800,
+        0,
+        65600,
+        19200
+      ],
+      "tyres": 15750,
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "insurance": 63000,
+      "fuelStep": 10,
+      "fuelMin": 1000,
+      "dep3": 2100000,
+      "priceCarbon": 4100000,
+      "used5Range": "1,496,250 - 1,653,750 MAD",
+      "name": "المغرب",
+      "rivalM5": 280000,
+      "roadTax": 1750,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer/Jahr",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "flag": "🇩🇪",
+      "rivalAmg": 28120,
+      "maintenance": 2900,
+      "used3Range": "129,807 - 143,471 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          271380
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          271420
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          271350
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          271400
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          271360
+        ]
+      ],
+      "pricePerformance": 240000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 102479,
+      "currency": "EUR",
+      "priceNew": 227731,
+      "depAnnual": {
+        "used3": 30364,
+        "new": 45546,
+        "used5": 25050
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "insurance": 4099,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 136639,
+      "priceCarbon": 255000,
+      "used5Range": "97,355 - 107,603 EUR",
+      "name": "Deutschland",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇦🇪",
+      "rivalAmg": 108300,
+      "maintenance": 7493,
+      "used3Range": "533,900 - 590,100 AED",
+      "fuelDefault": 280,
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          983800
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          983780
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          983750
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          983720
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          983700
+        ]
+      ],
+      "pricePerformance": 1000000,
+      "inspection": 100,
+      "oilChange": 350,
+      "dep5": 421500,
+      "currency": "AED",
+      "priceNew": 936667,
+      "depAnnual": {
+        "used3": 124889,
+        "new": 187333,
+        "used5": 103033
+      },
+      "fuelMax": 350,
+      "options": [
+        17670,
+        4218,
+        35340,
+        8835,
+        13110,
+        0,
+        23370,
+        6840
+      ],
+      "tyres": 4215,
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "insurance": 16860,
+      "fuelStep": 5,
+      "fuelMin": 200,
+      "dep3": 562000,
+      "priceCarbon": 1100000,
+      "used5Range": "400,425 - 442,575 AED",
+      "name": "الإمارات",
+      "rivalM5": 99750,
+      "roadTax": 468,
+      "exchangeRateEUR": 3.97
+    },
+    "gb": {
+      "fiscalHead": [
+        "Region",
+        "Road Tax",
+        "MOT",
+        "Final Price"
+      ],
+      "flag": "🇬🇧",
+      "rivalAmg": 23750,
+      "maintenance": 1800,
+      "used3Range": "94,763 - 104,738 GBP",
+      "fuelDefault": 150,
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          199555
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          199555
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          199555
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          199555
+        ]
+      ],
+      "pricePerformance": 180000,
+      "inspection": 55,
+      "oilChange": 280,
+      "dep5": 74813,
+      "currency": "GBP",
+      "priceNew": 166250,
+      "depAnnual": {
+        "used3": 22167,
+        "new": 33250,
+        "used5": 18287
+      },
+      "fuelMax": 200,
+      "options": [
+        3875,
+        925,
+        7750,
+        1938,
+        2875,
+        0,
+        5125,
+        1500
+      ],
+      "tyres": 1200,
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "insurance": 2993,
+      "fuelStep": 5,
+      "fuelMin": 120,
+      "dep3": 99750,
+      "priceCarbon": 195000,
+      "used5Range": "71,072 - 78,554 GBP",
+      "name": "United Kingdom",
+      "rivalM5": 21875,
+      "roadTax": 165,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇸🇦",
+      "rivalAmg": 110200,
+      "maintenance": 7780,
+      "used3Range": "554,337 - 612,689 SAR",
+      "fuelDefault": 230,
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          1118600
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          1118580
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          1118560
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          1118570
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          1118550
+        ]
+      ],
+      "pricePerformance": 1050000,
+      "inspection": 100,
+      "oilChange": 300,
+      "dep5": 437635,
+      "currency": "SAR",
+      "priceNew": 972522,
+      "depAnnual": {
+        "used3": 129670,
+        "new": 194504,
+        "used5": 106977
+      },
+      "fuelMax": 300,
+      "options": [
+        17980,
+        4292,
+        35960,
+        8990,
+        13340,
+        0,
+        23780,
+        6960
+      ],
+      "tyres": 4376,
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "insurance": 17505,
+      "fuelStep": 5,
+      "fuelMin": 180,
+      "dep3": 583513,
+      "priceCarbon": 1150000,
+      "used5Range": "415,753 - 459,517 SAR",
+      "name": "السعودية",
+      "rivalM5": 101500,
+      "roadTax": 486,
+      "exchangeRateEUR": 4
+    }
+  },
+  "options": [
+    {
+      "id": "carbon-roof",
+      "name": {
+        "es": "Techo de carbono",
+        "en": "Carbon roof",
+        "fr": "Toit carbone",
+        "ar": "سقف كربون"
+      },
+      "description": {
+        "es": "Techo ligero de fibra de carbono que reduce el centro de gravedad.",
+        "en": "Lightweight carbon fiber roof that lowers the center of gravity.",
+        "fr": "Toit léger en fibre de carbone qui abaisse le centre de gravité.",
+        "ar": "سقف خفيف من ألياف الكربون يخفض مركز الثقل."
+      },
+      "priceExtra": {
+        "value": 4000,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Techo de carbono",
+        "en": "Carbon roof",
+        "fr": "Toit carbone",
+        "ar": "سقف كربون"
+      }
+    },
+    {
+      "id": "burmester-audio",
+      "name": {
+        "es": "Burmester 3D High-End",
+        "en": "Burmester 3D High-End",
+        "fr": "Burmester 3D High-End",
+        "ar": "Burmester 3D High-End"
+      },
+      "description": {
+        "es": "Sistema de audio de 13 altavoces y 855 W.",
+        "en": "13-speaker 855 W audio system.",
+        "fr": "Système audio 13 haut-parleurs 855 W.",
+        "ar": "نظام صوت 13 مكبر 855 واط."
+      },
+      "priceExtra": {
+        "value": 2500,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Burmester 3D High-End",
+        "en": "Burmester 3D High-End",
+        "fr": "Burmester 3D High-End",
+        "ar": "Burmester 3D High-End"
+      }
+    },
+    {
+      "id": "porsche-carbon-ceramic",
+      "name": {
+        "es": "PCCB",
+        "en": "PCCB",
+        "fr": "PCCB",
+        "ar": "PCCB"
+      },
+      "description": {
+        "es": "Frenos carbono-cerámicos Porsche Ceramic Composite Brake.",
+        "en": "Porsche Ceramic Composite Brake carbon-ceramic brakes.",
+        "fr": "Freins carbone-céramique Porsche Ceramic Composite Brake.",
+        "ar": "فرامل كربون-سيراميك Porsche Ceramic Composite Brake."
+      },
+      "priceExtra": {
+        "value": 9000,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "PCCB",
+        "en": "PCCB",
+        "fr": "PCCB",
+        "ar": "PCCB"
+      }
+    }
+  ],
+  "problems": {
+    "es": [
+      "IMS bearing: revisar en modelos previos",
+      "PDK: corte de embrague en modo Sport+",
+      "Refrigeración: sobrecalentamiento en tráfico intenso",
+      "Neumáticos traseros: ~15.000 km con uso deportivo",
+      "Sistema de escape: válvulas que se atascan"
+    ],
+    "en": [
+      "IMS bearing: check on previous models",
+      "PDK: clutch slip in Sport+ mode",
+      "Cooling: overheating in heavy traffic",
+      "Rear tires: ~15,000 km with sporty use",
+      "Exhaust system: valves that stick"
+    ],
+    "fr": [
+      "Roulement IMS : à vérifier sur les modèles précédents",
+      "PDK : patinage d'embrayage en mode Sport+",
+      "Refroidissement : surchauffe en trafic dense",
+      "Pneus arrière : ~15 000 km avec usage sportif",
+      "Système d'échappement : valves qui coincent"
+    ],
+    "ar": [
+      "تحمل آي إم إس: تحقق في الطرازات السابقة",
+      "بي دي كي: انزلاق القابض في وضع سبورت بلس",
+      "التبريد: ارتفاع الحرارة في الزحام الشديد",
+      "الإطارات الخلفية: ~15,000 كم مع الاستخدام الرياضي",
+      "نظام العادم: صمامات تلتصق"
+    ]
+  },
+  "rating": {
+    "overall": 9.4,
+    "performance": 9.9,
+    "comfort": 8.8,
+    "technology": 9.3,
+    "design": 9.6,
+    "value": 8,
+    "reliability": 8.5
+  },
+  "nextYear": 2027,
+  "comparisons": [
+    {
+      "carId": "nissan-gtr-2026",
+      "category": "performance",
+      "similarity": 82,
+      "summary": {
+        "es": "La GT-R es más barata y potente en cifras; la 911 Turbo S es más refinada, rápida y equilibrada.",
+        "en": "The GT-R is cheaper and more powerful on paper; the 911 Turbo S is more refined, faster and balanced.",
+        "fr": "La GT-R est moins chère et plus puissante sur le papier; la 911 Turbo S est plus raffinée, rapide et équilibrée.",
+        "ar": "GT-R أرخص وأكثر قوة على الورق؛ 911 Turbo S أكثر refinement وسرعة وتوازناً."
+      },
+      "nameAr": "نيسان جي تي-آر",
+      "fullNameAr": "نيسان جي تي-آر نيسمو"
+    },
+    {
+      "carId": "mercedes-amg-gt-2026",
+      "category": "performance",
+      "similarity": 80,
+      "summary": {
+        "es": "El AMG GT es más lujoso y tecnológico; la 911 Turbo S es más ágil, eficiente y de mejor valor residual.",
+        "en": "The AMG GT is more luxurious and tech-forward; the 911 Turbo S is more agile, efficient and holds value better.",
+        "fr": "L'AMG GT est plus luxueux et technologique; la 911 Turbo S est plus agile, efficace et conserve mieux sa valeur.",
+        "ar": "AMG GT أكثر فخامة وتقنية؛ 911 Turbo S أكثر رشاقة وكفاءة وتحافظ على قيمتها أكثر."
+      },
+      "nameAr": "مرسيدس-أي أم جي جي تي",
+      "fullNameAr": "مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس"
+    }
+  ],
+  "ownership": {
+    "es": {
+      "dailyUsability": "El 911 Turbo S es el superdeportivo más usable a diario. Confort, tracción AWD y suspensión adaptativa lo hacen polivalente.",
+      "reliability": "Mecánica probada y robusta; los motores boxer y la caja PDK tienen larga vida con mantenimiento adecuado.",
+      "longTrips": "Excelente para viajes largos: confort, maletero de 132 L y autonomía razonable.",
+      "cityDriving": "Manejable en ciudad con buena visibilidad frontal. Suspensión adaptativa suaviza baches.",
+      "commonIssues": [
+        {
+          "issue": "PDK y T-Hybrid",
+          "frequency": "Poco frecuente",
+          "cost": "+ 8.000 €"
+        },
+        {
+          "issue": "Frenos carbono-cerámicos",
+          "frequency": "Track",
+          "cost": "5.000 – 8.000 €"
+        },
+        {
+          "issue": "Turbos eléctricos",
+          "frequency": "60.000 – 80.000 km",
+          "cost": "4.000 – 7.000 €"
+        },
+        {
+          "issue": "PASM y amortiguadores",
+          "frequency": "80.000 km",
+          "cost": "2.000 – 4.000 €"
+        }
+      ],
+      "summary": "Experiencia de propiedad excepcional: un superdeportivo que no necesita excusas para usarlo cada día.",
+      "serviceSchedule": "Cada 15.000 km o 1 año: revisión menor. Cada 30.000 km: filtros, bujías y fluidos.",
+      "issues": "Posibles costos elevados de consumibles de carbono-cerámica y neumáticos traseros en circuito.",
+      "community": "Comunidad global de Porsche enorme, clubs de propietarios y eventos exclusivos.",
+      "dailySuitability": "Excelente para uso diario gracias al confort, visibilidad y fiabilidad."
+    },
+    "en": {
+      "dailyUsability": "The 911 Turbo S is the most usable supercar daily. Comfort, AWD and adaptive suspension make it versatile.",
+      "reliability": "Proven and robust mechanics; boxer engines and PDK gearbox have long lives with proper maintenance.",
+      "longTrips": "Excellent for long trips: comfort, 132 L trunk and reasonable range.",
+      "cityDriving": "Manageable in the city with good forward visibility. Adaptive suspension smooths bumps.",
+      "commonIssues": [
+        {
+          "issue": "PDK and T-Hybrid",
+          "frequency": "Rare",
+          "cost": "€8,000+"
+        },
+        {
+          "issue": "Carbon-ceramic brakes",
+          "frequency": "Track",
+          "cost": "€5,000 – €8,000"
+        },
+        {
+          "issue": "Electric turbos",
+          "frequency": "60,000 – 80,000 km",
+          "cost": "€4,000 – €7,000"
+        },
+        {
+          "issue": "PASM and dampers",
+          "frequency": "80,000 km",
+          "cost": "€2,000 – €4,000"
+        }
+      ],
+      "summary": "Exceptional ownership experience: a supercar that needs no excuses for daily use.",
+      "serviceSchedule": "Every 15,000 km or 1 year: minor service. Every 30,000 km: filters, spark plugs and fluids.",
+      "issues": "Possible high costs for carbon-ceramic consumables and rear tires on track.",
+      "community": "Huge global Porsche community, owner clubs and exclusive events.",
+      "dailySuitability": "Excellent for daily use thanks to comfort, visibility and reliability."
+    },
+    "fr": {
+      "summary": "Expérience de possession exceptionnelle : une supercar qui n'a pas besoin d'excuses pour être utilisée quotidiennement.",
+      "reliability": "Mécanique éprouvée et robuste; les moteurs boxer et la boîte PDK ont une longue durée de vie avec un entretien adéquat.",
+      "serviceSchedule": "Tous les 15 000 km ou 1 an : révision mineure. Tous les 30 000 km : filtres, bougies et fluides.",
+      "issues": "Coûts élevés possibles des consommables carbone-céramique et des pneus arrière sur circuit.",
+      "community": "Énorme communauté mondiale Porsche, clubs de propriétaires et événements exclusifs.",
+      "dailySuitability": "Excellente pour un usage quotidien grâce au confort, à la visibilité et à la fiabilité.",
+      "dailyUsability": "Le 911 Turbo S est le supercar le plus utilisable au quotidien. Confort, transmission AWD et suspension adaptative le rendent polyvalent.",
+      "longTrips": "Excellent pour les longs trajets : confort, coffre de 132 L et autonomie raisonnable.",
+      "cityDriving": "Maniœuvrable en ville avec bonne visibilité avant. Suspension adaptative amortit les bosses."
+    },
+    "ar": {
+      "summary": "تجربة ملكية استثنائية: سوبركار لا تحتاج إلى أعذار للاستخدام اليومي.",
+      "reliability": "ميكانيكا مجربة وقوية؛ محركات بوكسر وعلبة بي دي كي بعمر طويل مع الصيانة المناسبة.",
+      "serviceSchedule": "كل 15,000 كم أو سنة: صيانة بسيطة. كل 30,000 كم: فلاتر، بوجيهات وسوائل.",
+      "issues": "تكاليف محتملة مرتفعة لاستهلاكيات الكربون-سيراميك والإطارات الخلفية في الحلبة.",
+      "community": "مجتمع بورش العالمي الضخم، نوادي المالكين وفعاليات حصرية.",
+      "dailySuitability": "ممتازة للاستخدام اليومي بفضل الراحة والرؤية والموثوقية.",
+      "dailyUsability": "911 توربو إس هي السيارة الخارقة الأكثر استخداماً يومياً. الراحة والدفع الرباعي والتعليق التكيفي تجعلها متعددة الاستخدامات.",
+      "longTrips": "ممتازة للرحلات الطويلة: راحة، صندوق 132 لتر ومدى معقول.",
+      "cityDriving": "قابلة للمناورة في المدينة مع رؤية أمامية جيدة. التعليق التكيفي يخفف المطبات."
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 20 (máximo)",
+        "uk": "Grupo 50",
+        "germany": "TK30"
+      },
+      "roadTax": {
+        "spain": "Aproximadamente 1.000 €/año",
+        "uk": "£2.700 primer año",
+        "germany": "Según potencia y emisiones"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 800,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 3500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/35 R20",
+          "costPerTyre": {
+            "value": 400,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "315/30 R21",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "Consumo medio real de 11-13 L/100 km; en autopista puede bajar a 9 L/100 km.",
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 100000
+        }
+      },
+      "summary": "El Turbo S es caro de comprar y mantener, pero más eficiente y fiable que la mayoría de superdeportivos de su potencia.",
+      "maintenance": "Revisión anual entre 1.500 y 2.500 EUR en taller oficial; componentes de alta calidad y duraderos.",
+      "insurance": "Seguro a todo riesgo entre 3.000 y 5.000 EUR/año según país y perfil.",
+      "depreciation": "Las 911 Turbo S suelen retener valor mejor que rivales más exclusivos.",
+      "tax": "Impuesto elevado por CO2 y potencia; depende mucho del país."
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 20 (maximum)",
+        "uk": "Group 50",
+        "germany": "TK30"
+      },
+      "roadTax": {
+        "spain": "Approximately €1,000/year",
+        "uk": "£2,700 first year",
+        "germany": "Based on power and emissions"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 800,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 3500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/35 R20",
+          "costPerTyre": {
+            "value": 400,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "315/30 R21",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "Real-world average 11-13 L/100 km; on highway it can drop to 9 L/100 km.",
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 100000
+        }
+      },
+      "summary": "The Turbo S is expensive to buy and run, but more efficient and reliable than most supercars of its power.",
+      "maintenance": "Annual service between 1,500 and 2,500 EUR at an official workshop; high-quality, durable components.",
+      "insurance": "Comprehensive insurance between 3,000 and 5,000 EUR/year depending on country and profile.",
+      "depreciation": "911 Turbo S models typically retain value better than more exclusive rivals.",
+      "tax": "High tax due to CO2 and power; varies greatly by country."
+    },
+    "fr": {
+      "summary": "La Turbo S est chère à l'achat et à l'usage, mais plus efficace et fiable que la plupart des supercars de cette puissance.",
+      "fuel": "Consommation réelle moyenne de 11-13 L/100 km; sur autoroute elle peut descendre à 9 L/100 km.",
+      "maintenance": "Révision annuelle entre 1 500 et 2 500 EUR chez un atelier officiel; composants de haute qualité et durables.",
+      "insurance": "Assurance tous risques entre 3 000 et 5 000 EUR/an selon le pays et le profil.",
+      "depreciation": "Les 911 Turbo S conservent généralement mieux leur valeur que des rivales plus exclusives.",
+      "tax": "Taxe élevée en raison du CO2 et de la puissance; varie fortement selon les pays."
+    },
+    "ar": {
+      "summary": "تيربو إس غالية الشراء والتشغيل، لكنها أكثر كفاءة وموثوقية من معظم السوبركار بنفس القدرة.",
+      "fuel": "متوسط ​​استهلاك حقيقي 11-13 لتر/100 كم؛ على الطريق السريع يمكن أن ينخفض إلى 9 لتر/100 كم.",
+      "maintenance": "الصيانة السنوية بين 1,500 و2,500 يورو في ورشة رسمية؛ قطع عالية الجودة ومتينة.",
+      "insurance": "تأمين شامل بين 3,000 و5,000 يورو/سنة حسب الدولة والملف.",
+      "depreciation": "911 تيربو إس عادة ما تحتفظ بقيمتها أفضل من المنافسين الأكثر حصرية.",
+      "tax": "ضريبة مرتفعة بسبب ثاني أكسيد الكربون والقدرة؛ تختلف كثيراً حسب الدولة."
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "La 911 Turbo S obtiene puntuaciones casi perfectas en rendimiento, tecnología y diseño.",
+      "worthDesc": "Aunque es cara, es una de las superdeportivos más completas y equilibradas del mercado.",
+      "reviewText": "La Porsche 911 Turbo S 2026 es el equilibrio definitivo entre rendimiento extremo y uso diario. Su tecnología T-Hybrid, tracción total y chasis refinado la convierten en la supercar más racional y emocional a la vez.",
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "timeline": [
+        "15000 km: revisión anual",
+        "30000 km: filtros y fluidos",
+        "60000 km: frenos y neumáticos",
+        "90000 km: revisión mayor"
+      ],
+      "faq": {
+        "q1": "¿Cuánta potencia tiene el Porsche 911 Turbo S 2026?",
+        "a1": "El Porsche 911 Turbo S 2026 entrega 711 PS (523 kW) y 800 Nm de par con su sistema T-Hybrid.",
+        "q2": "¿Cuánto acelera el 911 Turbo S de 0 a 100 km/h?",
+        "a2": "El 911 Turbo S acelera de 0 a 100 km/h en 2.5 segundos y de 0 a 200 km/h en 8.4 segundos.",
+        "q3": "¿Cuál es el precio del Porsche 911 Turbo S 2026?",
+        "a3": "El precio base en Estados Unidos es de 270.300 USD. En Europa, desde aproximadamente 245.000 €.",
+        "q4": "¿Es fiable el sistema T-Hybrid del 911 Turbo S?",
+        "a4": "La tecnología T-Hybrid es derivada de la competición. Requiere mantenimiento Porsche oficial y el sistema híbrido puede ser costoso fuera de garantía.",
+        "q5": "¿Porsche 911 Turbo S o BMW M5?",
+        "a5": "El 911 Turbo S es más ligero, dinámico y prestigioso. El M5 ofrece más espacio y 4 plazas reales.",
+        "q6": "¿Cuánto consume el 911 Turbo S?",
+        "a6": "El consumo combinado WLTP es de 11.5–11.8 L/100 km. En uso real deportivo, puede superar los 15 L/100 km.",
+        "q7": "¿Vale la pena comprar un 911 Turbo S de segunda mano?",
+        "a7": "Sí, si se busca el mejor 911 de calle. Revisar historial Porsche, mantenimiento del T-Hybrid y estado de frenos."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autopista",
+          "desc": "Confort, potencia y autonomía para viajes largos."
+        },
+        "city": {
+          "title": "Ciudad",
+          "desc": "Manejable con suspensión adaptativa y buena visibilidad."
+        },
+        "family": {
+          "title": "Familiar",
+          "desc": "4 plazas y maletero de 132 L, uso familiar ocasional."
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "El 911 más potente de calle, pieza de futuro."
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "Vuelta al Nürburgring en 7:03.92 minutos."
+        },
+        "engineCode": "3.6 T-Hybrid",
+        "drivetrain": "PTM AWD",
+        "transmission": "PDK 8",
+        "weight": 1660,
+        "power": 711,
+        "0to100": 2.5
+      },
+      "usedGuide": {
+        "card1Title": "Kilometraje y estado",
+        "card1Items": [
+          "Hasta 40.000 km: mejor relación valor",
+          "Revisar historial Porsche oficial",
+          "Evitar unidades con muchos track days"
+        ],
+        "card2Title": "Mecánica",
+        "card2Items": [
+          "Revisar sistema T-Hybrid y PDK",
+          "Probar turbos eléctricos",
+          "Comprobar estado de frenos y neumáticos"
+        ],
+        "card3Title": "Electrónica",
+        "card3Items": [
+          "Actualizaciones PCM y Porsche Connect",
+          "Funcionamiento del T-Hybrid",
+          "Pantallas y asistentes de conducción"
+        ],
+        "card4Title": "Precio y reventa",
+        "card4Items": [
+          "Mejor compra a los 2-3 años",
+          "Unidades con Sport Chrono y carbono valoradas",
+          "Colores clásicos: Guards Red, Carrara White, Jet Black"
+        ]
+      },
+      "dep": {
+        "loss3": "~25% de pérdida a los 3 años",
+        "loss5": "~45% de pérdida a los 5 años"
+      },
+      "versions": {
+        "sportbackDesc": "Porsche 911 Turbo S con 711 PS y T-Hybrid.",
+        "performanceDesc": "Mayor potencia y equipamiento Sport Chrono.",
+        "carbonDesc": "Paquetes carbono y exclusividad premium.",
+        "porsche911turboDesc": "Porsche 911 Turbo S con 711 PS y tracción PTM."
+      },
+      "buyStatus": "Altamente recomendada",
+      "pros": [
+        "0-100 km/h en 2.5 s",
+        "Confort y refinamiento de GT",
+        "Tracción total PTM",
+        "Tecnología T-Hybrid",
+        "Valor residual sólido"
+      ],
+      "cons": [
+        "Precio muy elevado",
+        "Opciones caras",
+        "Sonido menos visceral que aspirados",
+        "Peso de más de 1.6 toneladas"
+      ]
+    },
+    "en": {
+      "scoreDesc": "The 911 Turbo S scores near-perfect marks in performance, technology and design.",
+      "worthDesc": "Although expensive, it is one of the most complete and balanced supercars on the market.",
+      "reviewText": "The 2026 Porsche 911 Turbo S is the definitive balance between extreme performance and daily usability. Its T-Hybrid technology, all-wheel drive and refined chassis make it the most rational and emotional supercar at once.",
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "timeline": [
+        "15,000 km: annual service",
+        "30,000 km: filters and fluids",
+        "60,000 km: brakes and tires",
+        "90,000 km: major service"
+      ],
+      "faq": {
+        "q1": "How much power does the Porsche 911 Turbo S 2026 have?",
+        "a1": "The Porsche 911 Turbo S 2026 delivers 711 PS (523 kW) and 800 Nm of torque with its T-Hybrid system.",
+        "q2": "How fast does the 911 Turbo S accelerate from 0 to 100 km/h?",
+        "a2": "The 911 Turbo S accelerates from 0 to 100 km/h in 2.5 seconds and from 0 to 200 km/h in 8.4 seconds.",
+        "q3": "What is the price of the Porsche 911 Turbo S 2026?",
+        "a3": "The base price in the United States is 270,300 USD. In Europe, from approximately 245,000 €.",
+        "q4": "Is the T-Hybrid system of the 911 Turbo S reliable?",
+        "a4": "The T-Hybrid technology is derived from racing. It requires official Porsche maintenance and the hybrid system can be expensive outside of warranty.",
+        "q5": "Porsche 911 Turbo S or BMW M5?",
+        "a5": "The 911 Turbo S is lighter, more dynamic and prestigious. The M5 offers more space and 4 real seats.",
+        "q6": "How much does the 911 Turbo S consume?",
+        "a6": "The combined WLTP consumption is 11.5–11.8 L/100 km. In real sporty use, it can exceed 15 L/100 km.",
+        "q7": "Is it worth buying a second-hand 911 Turbo S?",
+        "a7": "Yes, if you are looking for the best road 911. Check Porsche history, T-Hybrid maintenance and brake condition."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Highway",
+          "desc": "Comfort, power and range for long trips."
+        },
+        "city": {
+          "title": "City",
+          "desc": "Manageable with adaptive suspension and good visibility."
+        },
+        "family": {
+          "title": "Family",
+          "desc": "4 seats and 132 L trunk, occasional family use."
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "The most powerful road 911, a future classic."
+        },
+        "track": {
+          "title": "Track",
+          "desc": "Nürburgring lap in 7:03.92 minutes."
+        },
+        "engineCode": "3.6 T-Hybrid",
+        "drivetrain": "PTM AWD",
+        "transmission": "PDK 8",
+        "weight": 1660,
+        "power": 711,
+        "0to100": 2.5
+      },
+      "usedGuide": {
+        "card1Title": "Mileage and condition",
+        "card1Items": [
+          "Up to 40,000 km: best value",
+          "Check official Porsche history",
+          "Avoid units with many track days"
+        ],
+        "card2Title": "Mechanics",
+        "card2Items": [
+          "Check T-Hybrid system and PDK",
+          "Test electric turbos",
+          "Check brakes and tyres"
+        ],
+        "card3Title": "Electronics",
+        "card3Items": [
+          "PCM and Porsche Connect updates",
+          "T-Hybrid operation",
+          "Screens and driver assists"
+        ],
+        "card4Title": "Price and resale",
+        "card4Items": [
+          "Best buy at 2-3 years",
+          "Sport Chrono and carbon units valued",
+          "Classic colors: Guards Red, Carrara White, Jet Black"
+        ]
+      },
+      "dep": {
+        "loss3": "~25% loss at 3 years",
+        "loss5": "~45% loss at 5 years"
+      },
+      "versions": {
+        "sportbackDesc": "Porsche 911 Turbo S with 711 PS and T-Hybrid.",
+        "performanceDesc": "More power and Sport Chrono equipment.",
+        "carbonDesc": "Carbon packages and premium exclusivity.",
+        "porsche911turboDesc": "Porsche 911 Turbo S with 711 PS and PTM AWD."
+      },
+      "buyStatus": "Highly recommended",
+      "pros": [
+        "0-100 km/h in 2.5 s",
+        "GT comfort and refinement",
+        "PTM all-wheel drive",
+        "T-Hybrid technology",
+        "Strong residual value"
+      ],
+      "cons": [
+        "Very high price",
+        "Expensive options",
+        "Less visceral sound than naturally aspirated",
+        "Weight over 1.6 tonnes"
+      ]
+    },
+    "fr": {
+      "scoreDesc": "La 911 Turbo S obtient des notes quasi parfaites en performance, technologie et design.",
+      "worthDesc": "Bien que chère, c'est l'une des supercars les plus complètes et équilibrées du marché.",
+      "buyStatus": "Fortement recommandée",
+      "reviewText": "La Porsche 911 Turbo S 2026 est l'équilibre définitif entre performance extrême et usage quotidien. Sa technologie T-Hybrid, sa traction intégrale et son châssis raffiné en font la supercar la plus rationnelle et émotionnelle à la fois.",
+      "pros": [
+        "0-100 km/h en 2,5 s",
+        "Confort et raffinement de GT",
+        "Traction intégrale PTM",
+        "Technologie T-Hybrid",
+        "Valeur résiduelle solide"
+      ],
+      "cons": [
+        "Prix très élevé",
+        "Options chères",
+        "Son moins viscéral que les atmosphériques",
+        "Poids supérieur à 1,6 tonne"
+      ],
+      "timeline": [
+        "15 000 km : révision annuelle",
+        "30 000 km : filtres et fluides",
+        "60 000 km : freins et pneus",
+        "90 000 km : révision majeure"
+      ],
+      "profileData": {
+        "engineCode": "3.6 T-Hybrid",
+        "drivetrain": "PTM AWD",
+        "transmission": "PDK 8",
+        "weight": 1660,
+        "power": 711,
+        "0to100": 2.5,
+        "highway": {
+          "score": "92/100",
+          "title": "Autoroute",
+          "desc": "Rapide, confortable et raffinée."
+        },
+        "city": {
+          "score": "80/100",
+          "title": "Ville",
+          "desc": "Maniable pour une supercar."
+        },
+        "family": {
+          "score": "75/100",
+          "title": "Famille",
+          "desc": "4 places et 132 L de coffre avant."
+        },
+        "collector": {
+          "score": "96/100",
+          "title": "Collection",
+          "desc": "La meilleure 911 de route jamais construite."
+        },
+        "track": {
+          "score": "98/100",
+          "title": "Circuit",
+          "desc": "Nürburgring en 7:03.92."
+        }
+      },
+      "faq": {
+        "q1": "Quelle est la puissance de la Porsche 911 Turbo S 2026 ?",
+        "a1": "La Porsche 911 Turbo S 2026 développe 711 PS (523 kW) et 800 Nm de couple avec son système T-Hybrid.",
+        "q2": "Quelle est l'accélération de la 911 Turbo S de 0 à 100 km/h ?",
+        "a2": "La 911 Turbo S accélère de 0 à 100 km/h en 2.5 secondes et de 0 à 200 km/h en 8.4 secondes.",
+        "q3": "Quel est le prix de la Porsche 911 Turbo S 2026 ?",
+        "a3": "Le prix de base aux États-Unis est de 270 300 USD. En Europe, à partir d'environ 245 000 €.",
+        "q4": "Le système T-Hybrid de la 911 Turbo S est-il fiable ?",
+        "a4": "La technologie T-Hybrid est dérivée de la compétition. Elle nécessite un entretien Porsche officiel et le système hybride peut être coûteux hors garantie.",
+        "q5": "Porsche 911 Turbo S ou BMW M5 ?",
+        "a5": "La 911 Turbo S est plus légère, dynamique et prestigieuse. La M5 offre plus d'espace et 4 vraies places.",
+        "q6": "Quelle est la consommation de la 911 Turbo S ?",
+        "a6": "La consommation combinée WLTP est de 11.5–11.8 L/100 km. En usage sportif réel, elle peut dépasser 15 L/100 km.",
+        "q7": "Vaut-il le coup d'acheter une 911 Turbo S d'occasion ?",
+        "a7": "Oui, si l'on cherche la meilleure 911 de route. Vérifier l'historique Porsche, l'entretien du T-Hybrid et l'état des freins."
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "usedGuide": {
+        "card1Title": "Kilométrage et état",
+        "card1Items": [
+          "Jusqu'à 40 000 km : meilleur rapport qualité-prix",
+          "Vérifier l'historique Porsche officiel",
+          "Éviter les unités avec beaucoup de track days"
+        ],
+        "card2Title": "Mécanique",
+        "card2Items": [
+          "Vérifier le système T-Hybrid et PDK",
+          "Tester les turbos électriques",
+          "Vérifier l'état des freins et pneus"
+        ],
+        "card3Title": "Électronique",
+        "card3Items": [
+          "Mises à jour PCM et Porsche Connect",
+          "Fonctionnement du T-Hybrid",
+          "Écrans et assistants de conduite"
+        ],
+        "card4Title": "Prix et revente",
+        "card4Items": [
+          "Meilleur achat à 2-3 ans",
+          "Unités avec Sport Chrono et carbone valorisées",
+          "Couleurs classiques : Guards Red, Carrara White, Jet Black"
+        ]
+      },
+      "dep": {
+        "loss3": "~25% de perte à 3 ans",
+        "loss5": "~45% de perte à 5 ans"
+      },
+      "versions": {
+        "sportbackDesc": "Porsche 911 Turbo S avec 711 PS et T-Hybrid.",
+        "performanceDesc": "Plus de puissance et équipement Sport Chrono.",
+        "carbonDesc": "Paquets carbone et exclusivité premium.",
+        "porsche911turboDesc": "Porsche 911 Turbo S avec 711 PS et traction PTM."
+      }
+    },
+    "ar": {
+      "scoreDesc": "تحصل 911 توربو أس على درجات شبه مثالية في الأداء والتقنية والتصميم.",
+      "worthDesc": "على الرغم من غلاء ثمنها، إنها واحدة من أكثر السوبركارات اكتمالاً وتوازناً في السوق.",
+      "buyStatus": "موصى بها بشدة",
+      "reviewText": "بورش 911 توربو أس 2026 هي التوازن النهائي بين الأداء المتطرف والاستخدام اليومي. تقنية الهجين التوربيني، الدفع الرباعي والهيكل الملمس يجعلونها أكثر السوبركارات عقلانية وعاطفية في آن واحد.",
+      "pros": [
+        "0-100 كم/س في 2.5 ثانية",
+        "راحة وتنعيم على مستوى السيارات الرياضية الفاخرة",
+        "دفع رباعي نظام الدفع الرباعي",
+        "تقنية الهجين التوربيني",
+        "قيمة متبقية قوية"
+      ],
+      "cons": [
+        "سعر مرتفع جداً",
+        "خيارات غالية",
+        "صوت أقل حماسية من المحركات الطبيعية",
+        "وزن أكثر من 1.6 طن"
+      ],
+      "timeline": [
+        "15,000 كم: الصيانة السنوية",
+        "30,000 كم: الفلاتر والسوائل",
+        "60,000 كم: الفرامل والإطارات",
+        "90,000 كم: الصيانة الكبرى"
+      ],
+      "profileData": {
+        "engineCode": "3.6 الهجين التوربيني",
+        "drivetrain": "دفع رباعي نظام الدفع الرباعي",
+        "transmission": "ناقل الحركة المزدوج ناقل حركة مزدوج 8 سرعات",
+        "weight": 1660,
+        "power": 711,
+        "0to100": 2.5,
+        "highway": {
+          "score": "92/100",
+          "title": "الطريق السريع",
+          "desc": "سريعة ومريحة ومتطورة."
+        },
+        "city": {
+          "score": "80/100",
+          "title": "المدينة",
+          "desc": "قابلة للمناورة بالنسبة لسوبركار."
+        },
+        "family": {
+          "score": "75/100",
+          "title": "العائلة",
+          "desc": "4 مقاعد وصندوق أمامي 132 لتر."
+        },
+        "collector": {
+          "score": "96/100",
+          "title": "الجامع",
+          "desc": "أفضل 911 طرق على الإطلاق."
+        },
+        "track": {
+          "score": "98/100",
+          "title": "الحلبة",
+          "desc": "نوربورغرينغ في 7:03.92."
+        }
+      },
+      "faq": {
+        "q1": "ما قوة بورش 911 توربو أس 2026؟",
+        "a1": "تولد بورش 911 توربو أس 2026 711 حصان (523 كيلو واط) و 800 نيوتن متر من عزم الدوران مع نظام الهجين التوربيني.",
+        "q2": "كم تسارع 911 توربو أس من 0 إلى 100 كم/س؟",
+        "a2": "تسارع 911 توربو أس من 0 إلى 100 كم/س في 2.5 ثانية ومن 0 إلى 200 كم/س في 8.4 ثانية.",
+        "q3": "ما سعر بورش 911 توربو أس 2026؟",
+        "a3": "السعر الأساسي في الولايات المتحدة 270,300 دولار. في أوروبا، من حوالي 245,000 يورو.",
+        "q4": "هل نظام الهجين التوربيني في 911 توربو أس موثوق؟",
+        "a4": "تقنية الهجين التوربيني مشتقة من سباقات السيارات. تتطلب صيانة بورش رسمية ويمكن أن يكون النظام الهجين مكلفاً خارج الضمان.",
+        "q5": "بورش 911 توربو أس أم بي إم دبليو أم 5؟",
+        "a5": "911 توربو أس أخف وأكثر ديناميكية وهيبة. أم 5 توفر مساحة أكبر و4 مقاعد حقيقية.",
+        "q6": "ما استهلاك 911 توربو أس؟",
+        "a6": "الاستهلاك المختلط الاختبار الأوروبي هو 11.5-11.8 لتر/100 كم. في الاستخدام الرياضي الحقيقي، يمكن أن يتجاوز 15 لتر/100 كم.",
+        "q7": "هل يستحق شراء 911 توربو أس مستعمل؟",
+        "a7": "نعم، إذا كنت تبحث عن أفضل 911 للطرق. تحقق من سجل بورش وصيانة الهجين التوربيني وحالة الفرامل."
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "usedGuide": {
+        "card1Title": "الكيلومتراج والحالة",
+        "card1Items": [
+          "حتى 40,000 كم: أفضل قيمة",
+          "التحقق من سجل بورش الرسمي",
+          "تجنب السيارات مع العديد من أيام الحلبة"
+        ],
+        "card2Title": "الميكانيكا",
+        "card2Items": [
+          "التحقق من نظام الهجين التوربيني و ناقل الحركة المزدوج",
+          "اختبار التوربينات الكهربائية",
+          "التحقق من حالة الفرامل والإطارات"
+        ],
+        "card3Title": "الإلكترونيات",
+        "card3Items": [
+          "تحديثات نظام المعلومات والترفيه و بورش للاتصال",
+          "عمل الهجين التوربيني",
+          "الشاشات ومساعدات القيادة"
+        ],
+        "card4Title": "السعر وإعادة البيع",
+        "card4Items": [
+          "أفضل شراء من 2-3 سنوات",
+          "السيارات بـ الكرونو الرياضي وكربون ذات قيمة أعلى",
+          "ألوان كلاسيكية: أحمر الحرس، أبيض كارارا، أسود جيت"
+        ]
+      },
+      "dep": {
+        "loss3": "~25% خسارة بعد 3 سنوات",
+        "loss5": "~45% خسارة بعد 5 سنوات"
+      },
+      "versions": {
+        "sportbackDesc": "بورش 911 توربو أس بـ 711 حصان و الهجين التوربيني.",
+        "performanceDesc": "مزيد من القوة وتجهيزات الكرونو الرياضي.",
+        "carbonDesc": "باقات كربونية وحصرية فاخرة.",
+        "porsche911turboDesc": "بورش 911 توربو أس بـ 711 حصان ودفع نظام الدفع الرباعي."
+      }
+    }
+  },
+  "ownerReviews": {
+    "es": [
+      {
+        "quote": "Mi 911 Turbo S es perfecto para todo: track, autopista y ciudad. La respuesta de los turbos eléctricos es otro nivel.",
+        "author": "Hans W.",
+        "location": "Zúrich, Suiza",
+        "ownsSince": "2025",
+        "rating": 9.9
+      },
+      {
+        "quote": "He tenido varios 911 y este es el mejor. El T-Hybrid mejora todo sin sacrificar el sonido del boxer.",
+        "author": "Isabella M.",
+        "location": "Milán, Italia",
+        "ownsSince": "2025",
+        "rating": 9.7
+      }
+    ],
+    "en": [
+      {
+        "quote": "My 911 Turbo S is perfect for everything: track, highway and city. The electric turbo response is on another level.",
+        "author": "Hans W.",
+        "location": "Zurich, Switzerland",
+        "ownsSince": "2025",
+        "rating": 9.9
+      },
+      {
+        "quote": "I've owned several 911s and this is the best. The T-Hybrid improves everything without sacrificing the boxer sound.",
+        "author": "Isabella M.",
+        "location": "Milan, Italy",
+        "ownsSince": "2025",
+        "rating": 9.7
+      }
+    ],
+    "fr": [
+      {
+        "quote": "Mi 911 Turbo S es perfecto para todo: track, autopista y ciudad. La respuesta de los turbos eléctricos es otro nivel.",
+        "author": "Hans W.",
+        "location": "Zúrich, Suiza",
+        "ownsSince": "2025",
+        "rating": 9.9
+      },
+      {
+        "quote": "He tenido varios 911 y este es el mejor. El T-Hybrid mejora todo sin sacrificar el sonido del boxer.",
+        "author": "Isabella M.",
+        "location": "Milán, Italia",
+        "ownsSince": "2025",
+        "rating": 9.7
+      }
+    ],
+    "ar": [
+      {
+        "quote": "Mi 911 Turbo S es perfecto para todo: track, autopista y ciudad. La respuesta de los turbos eléctricos es otro nivel.",
+        "author": "Hans W.",
+        "location": "Zúrich, Suiza",
+        "ownsSince": "2025",
+        "rating": 9.9
+      },
+      {
+        "quote": "He tenido varios 911 y este es el mejor. El T-Hybrid mejora todo sin sacrificar el sonido del boxer.",
+        "author": "Isabella M.",
+        "location": "Milán, Italia",
+        "ownsSince": "2025",
+        "rating": 9.7
+      }
+    ]
+  },
+  "profileData": {
+    "es": {
+      "highway": {
+        "score": "92/100",
+        "title": "Autopista",
+        "desc": "Rápido, confortable y refinado."
+      },
+      "city": {
+        "score": "80/100",
+        "title": "Ciudad",
+        "desc": "Manejable para ser un superdeportivo."
+      },
+      "family": {
+        "score": "75/100",
+        "title": "Familiar",
+        "desc": "4 plazas y 132 L de maletero."
+      },
+      "collector": {
+        "score": "96/100",
+        "title": "Coleccionista",
+        "desc": "El mejor 911 de calle de la historia."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "Circuito",
+        "desc": "Nürburgring en 7:03.92."
+      }
+    },
+    "en": {
+      "highway": {
+        "score": "92/100",
+        "title": "Highway",
+        "desc": "Fast, comfortable and refined."
+      },
+      "city": {
+        "score": "80/100",
+        "title": "City",
+        "desc": "Manageable for a supercar."
+      },
+      "family": {
+        "score": "75/100",
+        "title": "Family",
+        "desc": "4 seats and 132 L trunk."
+      },
+      "collector": {
+        "score": "96/100",
+        "title": "Collector",
+        "desc": "The best road 911 ever."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "Track",
+        "desc": "Nürburgring in 7:03.92."
+      }
+    },
+    "fr": {
+      "highway": {
+        "score": "92/100",
+        "title": "Autoroute",
+        "desc": "Rapide, confortable et raffinée."
+      },
+      "city": {
+        "score": "80/100",
+        "title": "Ville",
+        "desc": "Maniable pour une supercar."
+      },
+      "family": {
+        "score": "75/100",
+        "title": "Famille",
+        "desc": "4 places et 132 L de coffre avant."
+      },
+      "collector": {
+        "score": "96/100",
+        "title": "Collection",
+        "desc": "La meilleure 911 de route jamais construite."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "Circuit",
+        "desc": "Nürburgring en 7:03.92."
+      }
+    },
+    "ar": {
+      "highway": {
+        "score": "92/100",
+        "title": "الطريق السريع",
+        "desc": "سريعة ومريحة ومتطورة."
+      },
+      "city": {
+        "score": "80/100",
+        "title": "المدينة",
+        "desc": "قابلة للمناورة بالنسبة لسوبركار."
+      },
+      "family": {
+        "score": "75/100",
+        "title": "العائلة",
+        "desc": "4 مقاعد وصندوق أمامي 132 لتر."
+      },
+      "collector": {
+        "score": "96/100",
+        "title": "الجامع",
+        "desc": "أفضل 911 طرق على الإطلاق."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "الحلبة",
+        "desc": "نوربورغرينغ في 7:03.92."
+      }
+    }
+  },
+  "usedGuide": {
+    "card1Title": "Kilometraje y estado",
+    "card1Items": [
+      "Hasta 40.000 km: mejor relación valor",
+      "Revisar historial Porsche oficial",
+      "Evitar unidades con muchos track days"
+    ],
+    "card2Title": "Mecánica",
+    "card2Items": [
+      "Revisar sistema T-Hybrid y PDK",
+      "Probar turbos eléctricos",
+      "Comprobar estado de frenos y neumáticos"
+    ],
+    "card3Title": "Electrónica",
+    "card3Items": [
+      "Actualizaciones PCM y Porsche Connect",
+      "Funcionamiento del T-Hybrid",
+      "Pantallas y asistentes de conducción"
+    ],
+    "card4Title": "Precio y reventa",
+    "card4Items": [
+      "Mejor compra a los 2-3 años",
+      "Unidades con Sport Chrono y carbono valoradas",
+      "Colores clásicos: Guards Red, Carrara White, Jet Black"
+    ]
+  },
+  "review": {
+    "es": {
+      "summary": "El Porsche 911 Turbo S es el superdeportivo de calle más completo del mundo: rápido, refinado y utilizable a diario.",
+      "fullText": "El Porsche 911 Turbo S 2026 representa la cúspide del 911 de calle. Su motor boxer 3.6L biturbo con sistema T-Hybrid de 400 V entrega 711 PS y 800 Nm, lanzando el coche de 0 a 100 km/h en 2.5 segundos. La tracción total PTM, la caja PDK de 8 velocidades y la suspensión PASM trabajan a la perfección para ofrecer una conducción simultáneamente brutal y refinada. A diferencia de rivales más extremos, el 911 Turbo S puede usarse como coche diario sin sacrificar el rendimiento de circuito. El interior combina lujo, tecnología y ergonomía. Es caro, pero también es uno de los superdeportivos mejor resueltos de la historia.",
+      "verdict": "buy",
+      "bestFor": [
+        "Rendimiento diario",
+        "Viajes largos",
+        "Track days ocasionales"
+      ],
+      "scoreBreakdown": {
+        "Rendimiento": 9.8,
+        "Confort": 8.5,
+        "Tecnología": 9,
+        "Diseño": 9.2,
+        "Valor": 8.5
+      }
+    },
+    "en": {
+      "summary": "The Porsche 911 Turbo S is the most complete road supercar: fast, refined and usable every day.",
+      "fullText": "The 2026 Porsche 911 Turbo S represents the pinnacle of road-going 911s. Its 3.6L twin-turbo boxer engine with a 400 V T-Hybrid system delivers 711 PS and 800 Nm, launching the car from 0-100 km/h in 2.5 seconds. The PTM all-wheel-drive, 8-speed PDK gearbox and PASM suspension work in perfect harmony to deliver driving that is both brutal and refined. Unlike more extreme rivals, the 911 Turbo S can be used as a daily car without sacrificing track performance. The interior combines luxury, technology and ergonomics. It is expensive, but also one of the most accomplished supercars ever built.",
+      "verdict": "buy",
+      "bestFor": [
+        "Daily performance",
+        "Long trips",
+        "Occasional track days"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.8,
+        "Comfort": 8.5,
+        "Technology": 9,
+        "Design": 9.2,
+        "Value": 8.5
+      }
+    },
+    "fr": {
+      "summary": "La Porsche 911 Turbo S est la supercar de route la plus complète : rapide, raffinée et utilisable au quotidien.",
+      "fullText": "La Porsche 911 Turbo S 2026 représente le sommet des 911 routières. Son moteur boxer 3.6L biturbo avec système T-Hybrid de 400 V développe 711 PS et 800 Nm, propulsant la voiture de 0 à 100 km/h en 2,5 secondes. La traction intégrale PTM, la boîte PDK à 8 rapports et la suspension PASM travaillent en parfaite harmonie pour offrir une conduiture à la fois brutale et raffinée. Contrairement à des rivales plus extrêmes, la 911 Turbo S peut être utilisée au quotidien sans sacrifier les performances sur circuit. L'intérieur combine luxe, technologie et ergonomie. Elle est chère, mais c'est aussi l'une des supercars les plus abouties jamais construites.",
+      "verdict": "buy",
+      "bestFor": [
+        "Performance quotidienne",
+        "Voyages longs",
+        "Journées circuit occasionnelles"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.8,
+        "Confort": 8.5,
+        "Technologie": 9,
+        "Design": 9.2,
+        "Valeur": 8.5
+      }
+    },
+    "ar": {
+      "summary": "بورش 911 تيربو إس هي السوبركار الكاملة للطريق: سريعة، راقية وقابلة للاستخدام اليومي.",
+      "fullText": "بورش 911 تيربو إس 2026 تمثل قمة سيارات 911 للطريق. محرك بوكسر 3.6 لتر توين تيربو مع نظام تي هجين 400 فولت ينتج 711 حصان و800 نيوتن متر، مما يدفع السيارة من 0 إلى 100 كم/س في 2.5 ثانية. الدفع الرباعي بي تي إم، علبة بي دي كي من 8 سرعات وتعليق باسم يعملون بتناغم مثالي لتقديم قيادة عنيفة وراقية في آن واحد. على عكس المنافسين الأكثر تطرفاً، يمكن استخدام 911 تيربو إس كسيارة يومية دون التضحية بأداء الحلبة. المقصورة تجمع بين الفخامة والتقنية والتقنية البشرية. إنها غالية، لكنها أيضاً واحدة من أكثر السوبركارات إنجازاً في التاريخ.",
+      "verdict": "شراء",
+      "bestFor": [
+        "الأداء اليومي",
+        "الرحلات الطويلة",
+        "أيام الحلبة العرضية"
+      ],
+      "scoreBreakdown": {
+        "الأداء": 9.8,
+        "الراحة": 8.5,
+        "التقنية": 9,
+        "التصميم": 9.2,
+        "القيمة": 8.5
+      }
+    }
+  },
+  "handling": {
+    "es": {
+      "summary": "El 911 Turbo S combina tracción, agilidad y estabilidad a velocidades que parecen imposibles.",
+      "bodyRoll": "Controlado por PASM activo; el chasis se mantiene plano incluso al límite.",
+      "grip": "Tracción total PTM con vectorización de par y neumáticos de alto rendimiento.",
+      "steeringFeel": "Dirección precisa y comunicativa, con peso variable según velocidad y modo.",
+      "balance": "A pesar del motor trasero, la distribución de peso es neutral; el trasero sigue el programa.",
+      "trackWorthiness": "Frenos, refrigeración y transmisión resisten tandas en circuito sin protestar."
+    },
+    "en": {
+      "summary": "The 911 Turbo S combines traction, agility and stability at seemingly impossible speeds.",
+      "bodyRoll": "Controlled by active PASM; the chassis stays flat even at the limit.",
+      "grip": "PTM all-wheel drive with torque vectoring and high-performance tires.",
+      "steeringFeel": "Precise and communicative steering, with variable weight by speed and mode.",
+      "balance": "Despite the rear engine, weight distribution is neutral; the rear follows the program.",
+      "trackWorthiness": "Brakes, cooling and transmission withstand track sessions without complaint."
+    },
+    "fr": {
+      "summary": "La 911 Turbo S combine traction, agilité et stabilité à des vitesses qui semblent impossibles.",
+      "bodyRoll": "Contrôlée par PASM actif; le châssis reste plat même à la limite.",
+      "grip": "Traction intégrale PTM avec vectorisation de couple et pneus haute performance.",
+      "steeringFeel": "Direction précise et communicative, avec un poids variable selon la vitesse et le mode.",
+      "balance": "Malgré le moteur arrière, la répartition du poids est neutre; l'arrière suit le programme.",
+      "trackWorthiness": "Freins, refroidissement et transmission résistent aux sessions sur circuit sans protester."
+    },
+    "ar": {
+      "summary": "911 Turbo S تجمع بين الجذب والرشاقة والاستقرار بسرعات تبدو مستحيلة.",
+      "bodyRoll": "يتحكم فيها PASM النشط؛ الهيكل يظل مسطحاً حتى عند الحد.",
+      "grip": "دفع رباعي PTM مع تحويل العزم وإطارات عالية الأداء.",
+      "steeringFeel": "توجيه دقيق وتواصلي بوزن متغير حسب السرعة والوضع.",
+      "balance": "على الرغم من المحرك الخلفي، فإن توزيع الوزن محايد؛ الخلف يتبع البرنامج.",
+      "trackWorthiness": "الفرامل والتبريد والناقل يتحملون جولات الحلبة دون شكوى."
+    }
+  },
+  "performanceFeel": {
+    "es": {
+      "summary": "La aceleración es instantánea y el paso por curva parece desafiar la física.",
+      "acceleration": "0-100 km/h en 2.5 s con una respuesta lineal que no da tregua.",
+      "braking": "Frenos carbono-cerámicos de 420 mm delante con deceleración brutal y repetible.",
+      "transmission": "PDK de 8 velocidades: cambios casi imperceptibles y múltiples modos.",
+      "powertrainResponse": "El eTurbo elimina el lag; el par está disponible desde 2.000 rpm.",
+      "sound": "Sonido boxer característico con silbido de turbo; silencioso en modo normal."
+    },
+    "en": {
+      "summary": "Acceleration is instant and cornering seems to defy physics.",
+      "acceleration": "0-100 km/h in 2.5 s with linear, relentless response.",
+      "braking": "420 mm front carbon-ceramic brakes with brutal and repeatable deceleration.",
+      "transmission": "8-speed PDK: almost imperceptible shifts and multiple modes.",
+      "powertrainResponse": "The eTurbo eliminates lag; torque is available from 2,000 rpm.",
+      "sound": "Characteristic boxer sound with turbo whistle; quiet in normal mode."
+    },
+    "fr": {
+      "summary": "L'accélération est instantanée et le passage en virage semble défier la physique.",
+      "acceleration": "0-100 km/h en 2,5 s avec une réponse linéaire et implacable.",
+      "braking": "Freins carbone-céramique de 420 mm à l'avant avec une décélération brutale et répétable.",
+      "transmission": "PDK à 8 rapports : changements presque imperceptibles et modes multiples.",
+      "powertrainResponse": "L'eTurbo élimine le turbo lag; le couple est disponible dès 2 000 tr/min.",
+      "sound": "Son boxer caractéristique avec sifflement de turbo; silencieux en mode normal."
+    },
+    "ar": {
+      "summary": "التسارع فوري والمرور في المنعطفات يبدو وكأنه يتحدى الفيزياء.",
+      "acceleration": "0-100 كم/س في 2.5 ثانية باستجابة خطية ولا تهاون.",
+      "braking": "فرامل كربون-سيراميك 420 مم أمامية بإبطاء وحشي وقابل للتكرار.",
+      "transmission": "PDK من 8 سرعات: تبديلات شبه غير محسوسة وأوضاع متعددة.",
+      "powertrainResponse": "eTurbo يقضي على التأخر؛ العزم متوفر من 2,000 دورة في الدقيقة.",
+      "sound": "صوت بوكسر مميز مع صفير التيربو؛ هادئ في الوضع العادي."
+    }
+  },
+  "dailyDriving": {
+    "es": {
+      "summary": "Es sorprendentemente civilizado para un coche de 700 CV; el mejor superdeportivo para usar a diario.",
+      "comfort": "PASM adaptativo suaviza el paso por baches en modos Comfort y Sport.",
+      "practicality": "Dos plazas traseras reducidas y un maletero delantero de 132 L; útil para escapadas cortas.",
+      "visibility": "Buena visibilidad frontal; retrovisores amplios y cámaras ayudan a maniobrar.",
+      "noise": "Modo Normal mantiene el escape y la transmisión en silencio; modos deportivos despiertan el sonido.",
+      "fuelEfficiency": "11-13 L/100 km reales en uso mixto; en autopista puede bajar de 10 L/100 km."
+    },
+    "en": {
+      "summary": "Surprisingly civilized for a 700 hp car; the best supercar for daily use.",
+      "comfort": "Adaptive PASM softens bumps in Comfort and Sport modes.",
+      "practicality": "Two small rear seats and a 132 L front trunk; useful for short getaways.",
+      "visibility": "Good forward visibility; large mirrors and cameras help maneuvering.",
+      "noise": "Normal mode keeps exhaust and transmission quiet; sport modes wake the sound.",
+      "fuelEfficiency": "11-13 L/100 km in mixed real use; on highway it can drop below 10 L/100 km."
+    },
+    "fr": {
+      "summary": "Étonnamment civilisée pour une voiture de 700 ch; la meilleure supercar pour un usage quotidien.",
+      "comfort": "PASM adaptatif adoucit les bosses en modes Comfort et Sport.",
+      "practicality": "Deux petites places arrière et un coffre avant de 132 L; utile pour les escapades courtes.",
+      "visibility": "Bonne visibilité avant; grands rétroviseurs et caméras facilitent les manœuvres.",
+      "noise": "Le mode Normal garde l'échappement et la transmission silencieux; les modes sport réveillent le son.",
+      "fuelEfficiency": "11-13 L/100 km en usage réel mixte; sur autoroute elle peut descendre sous 10 L/100 km."
+    },
+    "ar": {
+      "summary": "متحضرة بشكل مفاجئ لسيارة بـ 700 حصان؛ أفضل سوبركار للاستخدام اليومي.",
+      "comfort": "PASM التكيفي يلطف المطبات في أوضاع Comfort و Sport.",
+      "practicality": "مقعدين خلفيين صغيرين وصندوق أمامي 132 لتر؛ مفيد للرحلات القصيرة.",
+      "visibility": "رؤية أمامية جيدة؛ المرايا الكبيرة والكاميرات تساعد في المناورات.",
+      "noise": "الوضع Normal يبقي العادم والناقل هادئين؛ الأوضاع الرياضية تيقظ الصوت.",
+      "fuelEfficiency": "11-13 لتر/100 كم في الاستخدام المختلط؛ على الطريق السريع يمكن أن تنخفض إلى 10 لتر/100 كم."
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "Diseño icónico de 911 pero más musculoso, con alas anchas y aerodinámica activa.",
+      "front": "Parachoques ancho con tomas de aire funcionales, faros LED Matrix System y alerón delantero activo.",
+      "side": "Aletas traseras anchas, llantas de 20/21 pulgadas y línea de techo fluida.",
+      "rear": "Alerón trasero activo, doble salida de escape cuádruple y difusor integrado.",
+      "aerodynamics": "Aerodinámica activa Porsche con spoilers frontales y traseros que se ajustan según velocidad y modo.",
+      "lights": "Faros LED Matrix System con luces diurnas características de cuatro puntos.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "en": {
+      "summary": "Iconic 911 design but more muscular, with wide fenders and active aerodynamics.",
+      "front": "Wide bumper with functional air intakes, LED Matrix System headlights and active front spoiler.",
+      "side": "Wide rear fenders, 20/21-inch wheels and flowing roofline.",
+      "rear": "Active rear spoiler, quad exhaust outlets and integrated diffuser.",
+      "aerodynamics": "Active Porsche aerodynamics with front and rear spoilers that adjust by speed and mode.",
+      "lights": "LED Matrix System headlights with characteristic four-point daytime running lights.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "fr": {
+      "summary": "Design 911 iconique mais plus musclé, avec des ailes larges et une aérodynamique active.",
+      "front": "Pare-chocs large avec prises d'air fonctionnelles, phares LED Matrix System et spoiler avant actif.",
+      "side": "Ailes arrière larges, jantes 20/21 pouces et ligne de toit fluide.",
+      "rear": "Aileron arrière actif, doubles sorties d'échappement quadruples et diffuseur intégré.",
+      "aerodynamics": "Aérodynamique Porsche active avec spoilers avant et arrière qui se règlent selon la vitesse et le mode.",
+      "lights": "Phares LED Matrix System avec feux diurnes caractéristiques à quatre points.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "ar": {
+      "summary": "تصميم 911 الأيقوني لكن أكثر عضلية، بجناحات عريضة وديناميكية هوائية نشطة.",
+      "front": "مصد عريض بفتحات تهوية فعالة، مصابيح مصابيح ليد ماتريكس نظام وسبويلر أمامي نشط.",
+      "side": "رفارف خلفية عريضة، عجلات 20/21 بوصة وخط سقف انسيابي.",
+      "rear": "جناح خلفي نشط، أربع مخارج عادم وموزع هوائي مدمج.",
+      "aerodynamics": "ديناميكية هوائية بورش نشطة مع سبويلر أمامية وخلفية تتكيف حسب السرعة والوضع.",
+      "lights": "مصابيح مصابيح ليد ماتريكس نظام مع أضواء نهارية مميزة بأربع نقاط.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    }
+  },
+  "interior": {
+    "es": {
+      "summary": "Interior de primer nivel, con materiales premium, ergonomía perfecta y tecnología moderna.",
+      "materials": "Cuero, Alcantara, metal cepillado y carbono opcional; montaje impecable.",
+      "seats": "Asientos Sport Plus con 18 regulaciones, calefacción, ventilación y opción de masaje.",
+      "ergonomics": "Volante GT perfecto, mandos a mano y pantalla curvada bien integrada.",
+      "space": "Espacio frontal generoso; plazas traseras para niños o equipaje. Maletero delantero de 132 L.",
+      "visibility": "Excelente posición de conducción y visibilidad; cámaras complementan los ángulos muertos."
+    },
+    "en": {
+      "summary": "Top-tier interior with premium materials, perfect ergonomics and modern technology.",
+      "materials": "Leather, Alcantara, brushed metal and optional carbon fiber; impeccable fit.",
+      "seats": "Sport Plus seats with 18 adjustments, heating, ventilation and optional massage.",
+      "ergonomics": "Perfect GT steering wheel, controls at hand and well-integrated curved display.",
+      "space": "Generous front space; rear seats for children or luggage. 132 L front trunk.",
+      "visibility": "Excellent driving position and visibility; cameras complement blind spots."
+    },
+    "fr": {
+      "summary": "Intérieur de premier ordre avec des matériaux premium, une ergonomie parfaite et une technologie moderne.",
+      "materials": "Cuir, Alcantara, métal brossé et carbone optionnel; ajustement impeccable.",
+      "seats": "Sièges Sport Plus avec 18 réglages, chauffage, ventilation et massage optionnel.",
+      "ergonomics": "Volant GT parfait, commandes à portée de main et écran incurvé bien intégré.",
+      "space": "Espace avant généreux; places arrière pour enfants ou bagages. Coffre avant de 132 L.",
+      "visibility": "Excellente position de conduite et visibilité; caméras complètent les angles morts."
+    },
+    "ar": {
+      "summary": "مقصورة من الطراز الأول مع مواد بريميوم، وتقنية بشرية مثالية وتقنية حديثة.",
+      "materials": "جلد، ألكانتارا، معدن مصقول وكربون اختياري؛ تركيبة لا تشوبها شائبة.",
+      "seats": "مقاعد سبورت بلس مع 18 وضعية، تدفئة، تهوية وتدليك اختياري.",
+      "ergonomics": "دركسون جي تي مثالي، ضوابط في متناول اليد وشاشة منحنية متكاملة جيداً.",
+      "space": "مساحة أمامية واسعة؛ مقاعد خلفية للأطفال أو الأمتعة. صندوق أمامي 132 لتر.",
+      "visibility": "وضعية قيادة ورؤية ممتازة؛ الكاميرات تكمل الزوايا الميتة."
+    }
+  },
+  "interiorCards": {
+    "es": [
+      {
+        "title": "Asientos Sport Plus",
+        "description": "18 regulaciones, calefacción, ventilación y opción de masaje.",
+        "image": "/images/porsche-911-interior-1.jpg"
+      },
+      {
+        "title": "Curved Display",
+        "description": "Pantalla digital curvada con instrumentación clásica de tacómetro central.",
+        "image": "/images/porsche-911-interior-2.jpg"
+      },
+      {
+        "title": "Volante GT",
+        "description": "Volante deportivo con levas de metal y modo Sport Response.",
+        "image": "/images/porsche-911-interior-3.jpg"
+      }
+    ],
+    "en": [
+      {
+        "title": "Sport Plus seats",
+        "description": "18 adjustments, heating, ventilation and optional massage.",
+        "image": "/images/porsche-911-interior-1.jpg"
+      },
+      {
+        "title": "Curved Display",
+        "description": "Curved digital display with classic central tachometer instrumentation.",
+        "image": "/images/porsche-911-interior-2.jpg"
+      },
+      {
+        "title": "GT steering wheel",
+        "description": "Sport steering wheel with metal paddles and Sport Response mode.",
+        "image": "/images/porsche-911-interior-3.jpg"
+      }
+    ],
+    "fr": [
+      {
+        "title": "Sièges Sport Plus",
+        "description": "18 réglages, chauffage, ventilation et massage optionnel.",
+        "image": "/images/porsche-911-interior-1.jpg"
+      },
+      {
+        "title": "Curved Display",
+        "description": "Écran numérique incurvé avec instrumentation classique et tachymètre central.",
+        "image": "/images/porsche-911-interior-2.jpg"
+      },
+      {
+        "title": "Volant GT",
+        "description": "Volant sport avec palettes métalliques et mode Sport Response.",
+        "image": "/images/porsche-911-interior-3.jpg"
+      }
+    ],
+    "ar": [
+      {
+        "title": "مقاعد سبورت بلس",
+        "description": "18 وضعية، تدفئة، تهوية وتدليك اختياري.",
+        "image": "/images/porsche-911-interior-1.jpg"
+      },
+      {
+        "title": "شاشة منحنية",
+        "description": "شاشة رقمية منحنية بأجهزة كلاسيكية وعداد سرعة مركزي.",
+        "image": "/images/porsche-911-interior-2.jpg"
+      },
+      {
+        "title": "دركسون جي تي",
+        "description": "دركسون رياضي مع مجدافات معدنية ووضع استجابة سبورت.",
+        "image": "/images/porsche-911-interior-3.jpg"
+      }
+    ]
+  },
+  "interiorText": {
+    "es": {
+      "title": "Interior Turbo S",
+      "description": "El habitáculo del 911 Turbo S eleva el estándar de los superdeportivos con materiales de lujo, tecnología intuitiva y una ergonomía que invita a conducir miles de kilómetros.",
+      "highlights": [
+        "Asientos Sport Plus de 18 ajustes",
+        "Pantalla Curved Display",
+        "Volante GT con Sport Response"
+      ]
+    },
+    "en": {
+      "title": "Turbo S interior",
+      "description": "The 911 Turbo S cabin raises the supercar standard with luxury materials, intuitive technology and ergonomics that invite long drives.",
+      "highlights": [
+        "18-way Sport Plus seats",
+        "Curved Display",
+        "GT steering wheel with Sport Response"
+      ]
+    },
+    "fr": {
+      "title": "Intérieur Turbo S",
+      "description": "L'habitacle de la 911 Turbo S élève le standard des supercars avec des matériaux luxueux, une technologie intuitive et une ergonomie qui invite à rouler des milliers de kilomètres.",
+      "highlights": [
+        "Sièges Sport Plus 18 réglages",
+        "Curved Display",
+        "Volant GT avec Sport Response"
+      ]
+    },
+    "ar": {
+      "title": "مقصورة تيربو إس",
+      "description": "مقصورة 911 تيربو إس ترفع معايير السوبركار مع مواد فاخرة، تقنية بديهية وتقنية بشرية تدعو للقيادة لآلاف الكيلومترات.",
+      "highlights": [
+        "مقاعد سبورت بلس 18 وضعية",
+        "شاشة منحنية",
+        "دركسون جي تي مع استجابة سبورت"
+      ]
+    }
+  },
+  "technology": {
+    "es": {
+      "summary": "Porsche Communication Management y asistentes avanzados convierten al 911 en un coche conectado y seguro.",
+      "infotainment": "PCM con pantalla curvada de 12.6 pulgadas, navegación, Apple CarPlay/Android Auto y Bose/Burmester opcional.",
+      "driverAssist": "Porsche InnoDrive, asistente de cambio de carril, visión nocturna, cámara 360 y Wet Mode.",
+      "connectivity": "Porsche Connect, Wi-Fi, servicios en la nube y app móvil.",
+      "performanceTech": "PASM, PTM, eTurbo, PDCC, vectorización de par y launch control.",
+      "charging": "Carga inalámbrica, múltiples USB-C y toma de 12 V."
+    },
+    "en": {
+      "summary": "Porsche Communication Management and advanced assistants make the 911 a connected and safe car.",
+      "infotainment": "PCM with 12.6-inch curved display, navigation, Apple CarPlay/Android Auto and optional Bose/Burmester.",
+      "driverAssist": "Porsche InnoDrive, lane change assist, night vision, 360 camera and Wet Mode.",
+      "connectivity": "Porsche Connect, Wi-Fi, cloud services and mobile app.",
+      "performanceTech": "PASM, PTM, eTurbo, PDCC, torque vectoring and launch control.",
+      "charging": "Wireless charging, multiple USB-C and 12 V socket."
+    },
+    "fr": {
+      "summary": "Porsche Communication Management et les assistants avancés font de la 911 une voiture connectée et sûre.",
+      "infotainment": "PCM avec écran incurvé de 12,6 pouces, navigation, Apple CarPlay/Android Auto et Bose/Burmester en option.",
+      "driverAssist": "Porsche InnoDrive, assistance de changement de voie, vision nocturne, caméra 360 et Wet Mode.",
+      "connectivity": "Porsche Connect, Wi-Fi, services cloud et app mobile.",
+      "performanceTech": "PASM, PTM, eTurbo, PDCC, vectorisation de couple et launch control.",
+      "charging": "Charge sans fil, multiples USB-C et prise 12 V."
+    },
+    "ar": {
+      "summary": "نظام بورش للتواصل والمساعدات المتقدمة تجعل 911 سيارة متصلة وآمنة.",
+      "infotainment": "بي سي إم مع شاشة منحنية 12.6 بوصة، ملاحة، أبل كاربلاي / أندرويد أوتو و بوز/بورميستر اختياري.",
+      "driverAssist": "نظام بورش إنودرايف، مساعد تغيير المسار، رؤية ليلية، كاميرا 360 و وضع الرطوبة.",
+      "connectivity": "بورش كونكت، واي فاي، خدمات سحابية وتطبيق جوال.",
+      "performanceTech": "باسم، بي تي إم، إي تيربو، بي دي سي سي، تحويل العزم وانطلاق التسارع.",
+      "charging": "شحن لاسلكي، منافذ يو إس بي-سي متعددة ومقبس 12 فولت."
+    }
+  },
+  "tires": {
+    "es": {
+      "summary": "Configuración de neumáticos asimétrica de 20/21 pulgadas para maximizar agarre y estética.",
+      "front": "255/35R20 en llanta de 9.5J.",
+      "rear": "315/30R21 en llanta de 11.5J.",
+      "brands": "Pirelli P Zero, Michelin Pilot Sport 4S o Bridgestone Potenza Sport de serie.",
+      "seasons": "Neumáticos de verano de alto rendimiento; se recomienda juego de invierno en climas fríos.",
+      "costs": "Juego completo entre 2.000 y 3.000 EUR según marca."
+    },
+    "en": {
+      "summary": "Asymmetric 20/21-inch tire setup to maximize grip and looks.",
+      "front": "255/35R20 on 9.5J wheel.",
+      "rear": "315/30R21 on 11.5J wheel.",
+      "brands": "Pirelli P Zero, Michelin Pilot Sport 4S or Bridgestone Potenza Sport as standard.",
+      "seasons": "High-performance summer tires; winter set recommended for cold climates.",
+      "costs": "Full set between 2,000 and 3,000 EUR depending on brand."
+    },
+    "fr": {
+      "summary": "Configuration de pneus asymétrique 20/21 pouces pour maximiser l'adhérence et l'esthétique.",
+      "front": "255/35R20 sur jante 9.5J.",
+      "rear": "315/30R21 sur jante 11.5J.",
+      "brands": "Pirelli P Zero, Michelin Pilot Sport 4S ou Bridgestone Potenza Sport en série.",
+      "seasons": "Pneus été haute performance; jeu hiver recommandé pour les climats froids.",
+      "costs": "Jeu complet entre 2 000 et 3 000 EUR selon la marque."
+    },
+    "ar": {
+      "summary": "إعداد إطارات غير متماثل 20/21 بوصة لزيادة القبضة والمظهر.",
+      "front": "255/35 20 على عجلة 9.5.",
+      "rear": "315/30 21 على عجلة 11.5.",
+      "brands": "بيريلي بي زيرو أو ميشلان بايلوت سبورت 4 إس أو بريدجستون بوتنزا سبورت كمعيار.",
+      "seasons": "إطارات صيفية عالية الأداء؛ يُنصح بمجموعة شتاء للمناخات الباردة.",
+      "costs": "مجموعة كاملة بين 2,000 و3,000 يورو حسب العلامة."
+    }
+  },
+  "relatedModels": [
+    {
+      "carId": "audi-rs7-2026",
+      "relation": "alternative",
+      "name": {
+        "es": "Audi RS7",
+        "en": "Audi RS7",
+        "fr": "Audi RS7",
+        "ar": "Audi RS7"
+      }
+    },
+    {
+      "carId": "nissan-gtr-2026",
+      "relation": "rival",
+      "name": {
+        "es": "Nissan GT-R",
+        "en": "Nissan GT-R",
+        "fr": "Nissan GT-R",
+        "ar": "Nissan GT-R"
+      }
+    },
+    {
+      "carId": "mercedes-amg-gt-2026",
+      "relation": "rival",
+      "name": {
+        "es": "Mercedes-AMG GT",
+        "en": "Mercedes-AMG GT",
+        "fr": "Mercedes-AMG GT",
+        "ar": "Mercedes-AMG GT"
+      }
+    }
+  ],
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El 911 Turbo S combina tracción, agilidad y estabilidad a velocidades que parecen imposibles.",
+        "bodyRoll": "Controlado por PASM activo; el chasis se mantiene plano incluso al límite.",
+        "grip": "Tracción total PTM con vectorización de par y neumáticos de alto rendimiento.",
+        "steeringFeel": "Dirección precisa y comunicativa, con peso variable según velocidad y modo.",
+        "balance": "A pesar del motor trasero, la distribución de peso es neutral; el trasero sigue el programa.",
+        "trackWorthiness": "Frenos, refrigeración y transmisión resisten tandas en circuito sin protestar."
+      },
+      "performanceFeel": {
+        "summary": "La aceleración es instantánea y el paso por curva parece desafiar la física.",
+        "acceleration": "0-100 km/h en 2.5 s con una respuesta lineal que no da tregua.",
+        "braking": "Frenos carbono-cerámicos de 420 mm delante con deceleración brutal y repetible.",
+        "transmission": "PDK de 8 velocidades: cambios casi imperceptibles y múltiples modos.",
+        "powertrainResponse": "El eTurbo elimina el lag; el par está disponible desde 2.000 rpm.",
+        "sound": "Sonido boxer característico con silbido de turbo; silencioso en modo normal."
+      },
+      "dailyDriving": {
+        "summary": "Es sorprendentemente civilizado para un coche de 700 CV; el mejor superdeportivo para usar a diario.",
+        "comfort": "PASM adaptativo suaviza el paso por baches en modos Comfort y Sport.",
+        "practicality": "Dos plazas traseras reducidas y un maletero delantero de 132 L; útil para escapadas cortas.",
+        "visibility": "Buena visibilidad frontal; retrovisores amplios y cámaras ayudan a maniobrar.",
+        "noise": "Modo Normal mantiene el escape y la transmisión en silencio; modos deportivos despiertan el sonido.",
+        "fuelEfficiency": "11-13 L/100 km reales en uso mixto; en autopista puede bajar de 10 L/100 km."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The 911 Turbo S combines traction, agility and stability at seemingly impossible speeds.",
+        "bodyRoll": "Controlled by active PASM; the chassis stays flat even at the limit.",
+        "grip": "PTM all-wheel drive with torque vectoring and high-performance tires.",
+        "steeringFeel": "Precise and communicative steering, with variable weight by speed and mode.",
+        "balance": "Despite the rear engine, weight distribution is neutral; the rear follows the program.",
+        "trackWorthiness": "Brakes, cooling and transmission withstand track sessions without complaint."
+      },
+      "performanceFeel": {
+        "summary": "Acceleration is instant and cornering seems to defy physics.",
+        "acceleration": "0-100 km/h in 2.5 s with linear, relentless response.",
+        "braking": "420 mm front carbon-ceramic brakes with brutal and repeatable deceleration.",
+        "transmission": "8-speed PDK: almost imperceptible shifts and multiple modes.",
+        "powertrainResponse": "The eTurbo eliminates lag; torque is available from 2,000 rpm.",
+        "sound": "Characteristic boxer sound with turbo whistle; quiet in normal mode."
+      },
+      "dailyDriving": {
+        "summary": "Surprisingly civilized for a 700 hp car; the best supercar for daily use.",
+        "comfort": "Adaptive PASM softens bumps in Comfort and Sport modes.",
+        "practicality": "Two small rear seats and a 132 L front trunk; useful for short getaways.",
+        "visibility": "Good forward visibility; large mirrors and cameras help maneuvering.",
+        "noise": "Normal mode keeps exhaust and transmission quiet; sport modes wake the sound.",
+        "fuelEfficiency": "11-13 L/100 km in mixed real use; on highway it can drop below 10 L/100 km."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "La 911 Turbo S combine traction, agilité et stabilité à des vitesses qui semblent impossibles.",
+        "bodyRoll": "Contrôlée par PASM actif; le châssis reste plat même à la limite.",
+        "grip": "Traction intégrale PTM avec vectorisation de couple et pneus haute performance.",
+        "steeringFeel": "Direction précise et communicative, avec un poids variable selon la vitesse et le mode.",
+        "balance": "Malgré le moteur arrière, la répartition du poids est neutre; l'arrière suit le programme.",
+        "trackWorthiness": "Freins, refroidissement et transmission résistent aux sessions sur circuit sans protester."
+      },
+      "performanceFeel": {
+        "summary": "L'accélération est instantanée et le passage en virage semble défier la physique.",
+        "acceleration": "0-100 km/h en 2,5 s avec une réponse linéaire et implacable.",
+        "braking": "Freins carbone-céramique de 420 mm à l'avant avec une décélération brutale et répétable.",
+        "transmission": "PDK à 8 rapports : changements presque imperceptibles et modes multiples.",
+        "powertrainResponse": "L'eTurbo élimine le turbo lag; le couple est disponible dès 2 000 tr/min.",
+        "sound": "Son boxer caractéristique avec sifflement de turbo; silencieux en mode normal."
+      },
+      "dailyDriving": {
+        "summary": "Étonnamment civilisée pour une voiture de 700 ch; la meilleure supercar pour un usage quotidien.",
+        "comfort": "PASM adaptatif adoucit les bosses en modes Comfort et Sport.",
+        "practicality": "Deux petites places arrière et un coffre avant de 132 L; utile pour les escapades courtes.",
+        "visibility": "Bonne visibilité avant; grands rétroviseurs et caméras facilitent les manœuvres.",
+        "noise": "Le mode Normal garde l'échappement et la transmission silencieux; les modes sport réveillent le son.",
+        "fuelEfficiency": "11-13 L/100 km en usage réel mixte; sur autoroute elle peut descendre sous 10 L/100 km."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "911 تيربو إس تجمع بين الجذب والرشاقة والاستقرار بسرعات تبدو مستحيلة.",
+        "bodyRoll": "يتحكم فيها باسم النشط؛ الهيكل يظل مسطحاً حتى عند الحد.",
+        "grip": "دفع رباعي بي تي إم مع تحويل العزم وإطارات عالية الأداء.",
+        "steeringFeel": "توجيه دقيق وتواصلي بوزن متغير حسب السرعة والوضع.",
+        "balance": "على الرغم من المحرك الخلفي، فإن توزيع الوزن محايد؛ الخلف يتبع البرنامج.",
+        "trackWorthiness": "الفرامل والتبريد والناقل يتحملون جولات الحلبة دون شكوى."
+      },
+      "performanceFeel": {
+        "summary": "التسارع فوري والمرور في المنعطفات يبدو وكأنه يتحدى الفيزياء.",
+        "acceleration": "0-100 كم/س في 2.5 ثانية باستجابة خطية ولا تهاون.",
+        "braking": "فرامل كربون-سيراميك 420 مم أمامية بإبطاء وحشي وقابل للتكرار.",
+        "transmission": "بي دي كي من 8 سرعات: تبديلات شبه غير محسوسة وأوضاع متعددة.",
+        "powertrainResponse": "إي تيربو يقضي على التأخر؛ العزم متوفر من 2,000 دورة في الدقيقة.",
+        "sound": "صوت بوكسر مميز مع صفير التيربو؛ هادئ في الوضع العادي."
+      },
+      "dailyDriving": {
+        "summary": "متحضرة بشكل مفاجئ لسيارة بـ 700 حصان؛ أفضل سوبركار للاستخدام اليومي.",
+        "comfort": "باسم التكيفي يلطف المطبات في أوضاع الراحة و سبورت.",
+        "practicality": "مقعدين خلفيين صغيرين وصندوق أمامي 132 لتر؛ مفيد للرحلات القصيرة.",
+        "visibility": "رؤية أمامية جيدة؛ المرايا الكبيرة والكاميرات تساعد في المناورات.",
+        "noise": "الوضع عادي يبقي العادم والناقل هادئين؛ الأوضاع الرياضية تيقظ الصوت.",
+        "fuelEfficiency": "11-13 لتر/100 كم في الاستخدام المختلط؛ على الطريق السريع يمكن أن تنخفض إلى 10 لتر/100 كم."
+      }
+    }
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي"
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Noticias del mundo del motor",
+    "description": "Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.",
+    "updated": "2026-06-29",
+    "translations": {
+      "es": {
+        "title": "Noticias del mundo del motor",
+        "description": "Las últimas noticias, novedades y lanzamientos del mundo del automóvil. Cobertura global de las principales fuentes automotrices.",
+        "filters": {
+          "all": "Todas",
+          "lanzamientos": "Lanzamientos",
+          "rendimiento": "Rendimiento",
+          "eléctricos": "Eléctricos",
+          "tecnología": "Tecnología"
+        }
+      },
+      "en": {
+        "title": "Car news from around the world",
+        "description": "The latest news, updates and launches from the automotive world. Global coverage from the leading motoring sources.",
+        "filters": {
+          "all": "All",
+          "lanzamientos": "Launches",
+          "rendimiento": "Performance",
+          "eléctricos": "Electric",
+          "tecnología": "Technology"
+        }
+      },
+      "fr": {
+        "title": "Actualités auto du monde entier",
+        "description": "Les dernières actualités, nouveautés et lancements de l'univers automobile. Couverture mondiale des principales sources automobiles.",
+        "filters": {
+          "all": "Toutes",
+          "lanzamientos": "Lancements",
+          "rendimiento": "Performance",
+          "eléctricos": "Électriques",
+          "tecnología": "Technologie"
+        }
+      },
+      "ar": {
+        "title": "أخبار السيارات من حول العالم",
+        "description": "آخر الأخبار والتجديدات والإطلاقات من عالم السيارات. تغطية عالمية من أبرز المصادر المتخصصة.",
+        "filters": {
+          "all": "الكل",
+          "lanzamientos": "الإطلاقات",
+          "rendimiento": "الأداء",
+          "eléctricos": "الكهربائية",
+          "tecnología": "التقنية"
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "topgear",
+      "name": "Top Gear",
+      "url": "https://www.topgear.com",
+      "flag": "🇬🇧"
+    },
+    {
+      "id": "motortrend",
+      "name": "Motor Trend",
+      "url": "https://www.motortrend.com",
+      "flag": "🇺🇸"
+    },
+    {
+      "id": "caranddriver",
+      "name": "Car and Driver",
+      "url": "https://www.caranddriver.com",
+      "flag": "🇺🇸"
+    },
+    {
+      "id": "autocar",
+      "name": "Autocar",
+      "url": "https://www.autocar.co.uk",
+      "flag": "🇬🇧"
+    },
+    {
+      "id": "motor1",
+      "name": "Motor1.com",
+      "url": "https://www.motor1.com",
+      "flag": "🌍"
+    },
+    {
+      "id": "autoblog",
+      "name": "Autoblog",
+      "url": "https://www.autoblog.com",
+      "flag": "🇺🇸"
+    }
+  ],
+  "pageText": {
+    "ar": {}
+  }
+}

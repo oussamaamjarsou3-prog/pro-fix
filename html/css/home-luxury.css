@@ -1,0 +1,629 @@
+/* =========================================================
+   HOME-LUXURY.CSS — Premium automotive identity
+========================================================= */
+
+.luxury-home {
+    --container: 1680px;
+    --section-padding: 140px 5%;
+    --section-padding-mobile: 88px 20px;
+    --lux-gold: #d4b87a;
+    --lux-gold-soft: rgba(212, 184, 122, 0.12);
+    --lux-gold-border: rgba(212, 184, 122, 0.35);
+    --font-display: "Syne", "Poppins", sans-serif;
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+}
+
+.luxury-home .eyebrow-gold {
+    color: var(--lux-gold);
+    letter-spacing: 0.22em;
+}
+
+.luxury-home .section-title-lux h2,
+.luxury-home .showcase-title,
+.luxury-home .hero-display {
+    font-family: var(--font-display);
+}
+
+.luxury-home .section-title-lux h2 {
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+}
+
+.luxury-home .section-title-left {
+    text-align: left;
+    margin-bottom: 56px;
+}
+
+.luxury-home .section-title-left h2 {
+    margin-top: 16px;
+}
+
+/* ================= HEADER LUXURY ================= */
+/* Header/nav styles unified in home-global.css — .luxury-home overrides removed */
+
+.luxury-home .btn-header {
+    padding: 12px 28px;
+    background: transparent;
+    border: 1px solid var(--lux-gold-border);
+    color: var(--lux-gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.luxury-home .btn-header:hover {
+    background: var(--lux-gold-soft);
+    color: var(--lux-gold);
+    transform: none;
+}
+
+/* ================= HERO LUXURY ================= */
+
+.luxury-home .hero-luxury {
+    min-height: 100vh;
+}
+
+.luxury-home .overlay-luxury {
+    background:
+        linear-gradient(105deg, rgba(2, 6, 23, 0.92) 0%, rgba(2, 6, 23, 0.55) 45%, rgba(2, 6, 23, 0.75) 100%),
+        linear-gradient(0deg, rgba(2, 6, 23, 1) 0%, transparent 35%);
+}
+
+.luxury-home .hero-grain {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0.04;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.luxury-home .hero-inner {
+    min-height: 100vh;
+    padding: 140px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.luxury-home .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 56px;
+    align-items: center;
+}
+
+.luxury-home .hero-brand-line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 8px;
+}
+
+.luxury-home .hero-line {
+    width: 48px;
+    height: 1px;
+    background: linear-gradient(90deg, var(--lux-gold), transparent);
+}
+
+.luxury-home .badge-lux {
+    background: var(--lux-gold-soft) !important;
+    border: 1px solid var(--lux-gold-border) !important;
+    color: var(--lux-gold) !important;
+    font-size: 11px !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+    padding: 10px 20px !important;
+    border-radius: 0 !important;
+}
+
+.luxury-home .hero-kicker {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--lux-gold);
+    margin: 20px 0 16px;
+}
+
+.luxury-home .hero-display {
+    font-size: clamp(48px, 6.5vw, 88px);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+    margin-bottom: 28px;
+    text-transform: none;
+}
+
+.luxury-home .hero-display em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 600;
+    color: var(--lux-gold);
+    font-size: 1.05em;
+}
+
+.luxury-home .hero-lead {
+    font-size: clamp(18px, 2.2vw, 22px);
+    line-height: 1.7;
+    max-width: 520px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 40px;
+}
+
+.luxury-home .btn-lux-primary {
+    padding: 18px 36px !important;
+    font-size: 13px !important;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    background: linear-gradient(135deg, var(--accent) 0%, #1d4ed8 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(37, 99, 235, 0.35);
+}
+
+.luxury-home .btn-lux-ghost {
+    padding: 18px 36px !important;
+    font-size: 13px !important;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    border: 1px solid var(--lux-gold-border) !important;
+    color: var(--lux-gold) !important;
+    background: rgba(2, 6, 23, 0.4) !important;
+}
+
+.luxury-home .btn-lux-ghost:hover {
+    background: var(--lux-gold-soft) !important;
+    border-color: var(--lux-gold) !important;
+}
+
+/* Hero side panel */
+
+.luxury-home .hero-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.luxury-home .hero-stat-card {
+    padding: 32px 36px;
+    background: rgba(17, 24, 39, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transition: border-color var(--transition), transform var(--transition);
+}
+
+.luxury-home .hero-stat-card:hover {
+    border-color: var(--lux-gold-border);
+    transform: translateX(8px);
+}
+
+.luxury-home .hero-stat-card-alt {
+    border-left: 3px solid var(--lux-gold);
+}
+
+.luxury-home .hero-stat-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lux-gold);
+    margin-bottom: 12px;
+}
+
+.luxury-home .hero-stat-card strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.luxury-home .hero-stat-card p {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.luxury-home .hero-stat-link {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-hover);
+}
+
+.luxury-home .hero-trust-lux {
+    border-top: 1px solid rgba(212, 184, 122, 0.15);
+    margin-top: 56px;
+    padding-top: 32px;
+    gap: 32px 48px;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.luxury-home .trust-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--lux-gold);
+    border-radius: 50%;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.luxury-home .hero-scroll {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: color var(--transition);
+}
+
+.luxury-home .hero-scroll:hover {
+    color: var(--lux-gold);
+}
+
+.luxury-home .hero-scroll-icon {
+    font-size: 18px;
+    animation: luxBounce 2s ease infinite;
+}
+
+@keyframes luxBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+/* ================= MARQUEE ================= */
+
+.brand-marquee {
+    padding: 28px 0;
+    background: #000;
+    border-top: 1px solid rgba(212, 184, 122, 0.12);
+    border-bottom: 1px solid rgba(212, 184, 122, 0.12);
+    overflow: hidden;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 80px;
+    width: max-content;
+    animation: marqueeScroll 40s linear infinite;
+}
+
+.marquee-track span {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.12);
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.marquee-track span:hover {
+    color: rgba(212, 184, 122, 0.4);
+}
+
+@keyframes marqueeScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* ================= SHOWCASE BAND ================= */
+
+.showcase-band {
+    position: relative;
+    min-height: 72vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.showcase-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center 40%;
+    transform: scale(1.05);
+    transition: transform 8s ease;
+}
+
+.showcase-band:hover .showcase-bg {
+    transform: scale(1.1);
+}
+
+.showcase-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(2, 6, 23, 0.95) 0%, rgba(2, 6, 23, 0.4) 60%, rgba(2, 6, 23, 0.7) 100%);
+}
+
+.showcase-content {
+    position: relative;
+    z-index: 5;
+    max-width: 720px;
+    padding: 100px 0;
+}
+
+.showcase-title {
+    font-size: clamp(44px, 6vw, 72px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 20px 0 24px;
+}
+
+.showcase-content p {
+    font-size: 20px;
+    line-height: 1.75;
+    color: var(--text-secondary);
+}
+
+/* ================= TRUST LUXURY ================= */
+
+.trust-strip-lux {
+    padding: 120px 0;
+    background: var(--bg-main);
+}
+
+.trust-card-lux {
+    text-align: left;
+    padding: 40px 36px;
+    background: linear-gradient(145deg, rgba(17, 24, 39, 0.9) 0%, rgba(2, 6, 23, 0.6) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-top: 2px solid transparent;
+    transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.trust-card-lux:hover {
+    border-top-color: var(--lux-gold);
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.trust-num {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(212, 184, 122, 0.25);
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.trust-card-lux h3 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.trust-card-lux p {
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* ================= CATEGORIES LUXURY ================= */
+
+.luxury-home .categories {
+    padding: var(--section-padding);
+    background: linear-gradient(180deg, var(--bg-main) 0%, #0a0f1a 100%);
+}
+
+.luxury-home .category-card {
+    height: 520px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.luxury-home .category-content h3 {
+    font-family: var(--font-display);
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.luxury-home .category-btn {
+    border-radius: 0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 14px 28px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.luxury-home .category-card:hover .category-btn {
+    background: var(--lux-gold);
+    border-color: var(--lux-gold);
+    color: #020617;
+}
+
+.luxury-home .category-tag {
+    border-radius: 0;
+    letter-spacing: 0.15em;
+    background: var(--lux-gold);
+    color: #020617;
+}
+
+.luxury-home .filter-btn {
+    border-radius: 0;
+    padding: 14px 28px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.luxury-home .filter-btn.active {
+    background: var(--lux-gold);
+    border-color: var(--lux-gold);
+    color: #020617;
+}
+
+/* ================= CARDS & STATS ================= */
+
+.luxury-home .card {
+    border-radius: 4px;
+}
+
+.luxury-home .card img {
+    height: 320px;
+}
+
+.luxury-home .card-content {
+    padding: 32px;
+}
+
+.luxury-home .card-content h3 {
+    font-family: var(--font-display);
+    font-size: 26px;
+}
+
+.luxury-home .stat-box {
+    padding: 48px 32px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgba(17, 24, 39, 0.8) 0%, rgba(2, 6, 23, 0.5) 100%);
+}
+
+.luxury-home .stat-box h2 {
+    font-family: var(--font-display);
+    font-size: 56px;
+    background: linear-gradient(135deg, var(--lux-gold) 0%, var(--accent-hover) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.luxury-home .featured-title-lux {
+    font-family: var(--font-display);
+    font-size: clamp(36px, 4vw, 52px) !important;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.luxury-home .featured-image img {
+    height: 680px;
+    border-radius: 4px;
+}
+
+.luxury-home .stats-lux {
+    padding: 120px 0;
+    background: #0a0f1a;
+}
+
+.luxury-home .step-card {
+    border-radius: 4px;
+    padding: 40px 36px;
+}
+
+.luxury-home .step-num {
+    font-family: var(--font-serif);
+    font-size: 42px;
+    color: rgba(212, 184, 122, 0.35);
+}
+
+.luxury-home .home-cta-inner {
+    border-radius: 4px;
+    padding: 64px 72px;
+    background:
+        linear-gradient(135deg, rgba(212, 184, 122, 0.08) 0%, rgba(17, 24, 39, 0.95) 40%),
+        linear-gradient(180deg, #111827 0%, #020617 100%);
+    border: 1px solid var(--lux-gold-border);
+}
+
+.luxury-home .home-cta-text h2 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4vw, 48px);
+}
+
+.luxury-home .search-box {
+    max-width: 720px;
+    padding: 22px 28px;
+    border-radius: 0;
+    background: rgba(17, 24, 39, 0.8);
+}
+
+.luxury-home .search-section {
+    padding: 100px 0 40px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+}
+
+.luxury-home .search-wrap {
+    padding: 48px;
+    background: var(--bg-card);
+    border: 1px solid rgba(212, 184, 122, 0.12);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.luxury-home .search-label {
+    font-family: var(--font-display);
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--lux-gold);
+    margin-bottom: 20px;
+}
+
+/* ================= RESPONSIVE LUXURY ================= */
+
+@media (max-width: 1100px) {
+    .luxury-home .hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .luxury-home .hero-panel {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .luxury-home .hero-stat-card {
+        flex: 1;
+        min-width: 260px;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Mobile header handled by home-global.css — .luxury-home override removed */
+
+    .luxury-home .hero-display {
+        font-size: clamp(40px, 10vw, 56px);
+    }
+
+    .luxury-home .hero-panel {
+        flex-direction: column;
+    }
+
+    .showcase-band {
+        min-height: 60vh;
+    }
+
+    .showcase-title {
+        font-size: 36px;
+    }
+
+    .luxury-home .category-card {
+        height: 440px;
+    }
+
+    .luxury-home .hero-scroll {
+        display: none;
+    }
+}

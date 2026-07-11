@@ -1,0 +1,22 @@
+{
+  "name": "carspecio",
+  "version": "2.5.0",
+  "description": "CarSpecio static site generation and production readiness audit",
+  "scripts": {
+    "build": "node system/build.js",
+    "test": "node system/tests/run-tests.js",
+    "validate": "node system/validators/car-validator.js && node system/validators/guide-validator.js && node system/validators/registry-validator.js && node system/validators/link-validator.js",
+    "audit": "node system/tests/run-tests.js && node system/build.js && node system/validators/link-validator.js",
+    "serve": "npx serve . -p 3000"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "lighthouse": "^13.4.0",
+    "sharp": "^0.35.2",
+    "simple-icons": "^16.24.0"
+  }
+}

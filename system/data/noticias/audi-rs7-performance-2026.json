@@ -1,0 +1,513 @@
+{
+    "id": "audi-rs7-performance-2026",
+    "slug": "audi-rs7-performance-2026",
+    "source": "autocar",
+    "category": "lanzamientos",
+    "date": "2026-06-22",
+    "readingTime": 5,
+    "image": "../images/rs7.2.2026.png",
+    "externalUrl": "https://www.autocar.co.uk/car-news/new-cars/audi-rs7-performance-2026",
+    "tags": [
+        "audi",
+        "rs7",
+        "performance",
+        "lujo"
+    ],
+    "relatedCars": [
+        {
+            "slug": "rs7",
+            "name": "Audi RS7",
+            "image": "../images/rs7.hero.2026.png"
+        }
+    ],
+    "relatedNews": [
+        "bmw-m5-phev-record",
+        "porsche-911-hybrid-2026"
+    ],
+    "translations": {
+        "es": {
+            "title": "Audi RS7 Performance 2026: 630 CV de pura elegancia deportiva",
+            "subtitle": "Audi eleva el listón de su fastback deportivo con una versión Performance que no renuncia ni al confort ni a la usabilidad.",
+            "excerpt": "Audi renueva el RS7 con la versión Performance, elevando la potencia del V8 biturbo a 630 CV y mejorando la dinámica sin renunciar al confort diario.",
+            "imageCaption": "Audi RS7 Performance 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "V8 biturbo aún más potente",
+                    "paragraphs": [
+                        "Audi presenta la versión Performance de su RS7 Sportback, una evolución que eleva la potencia del V8 4.0 TFSI biturbo a 630 CV, 39 CV más que el RS7 estándar. El par máximo es de 850 Nm, disponible casi desde el ralentí gracias a los dos turbos colocados en el interior de la V del motor."
+                    ]
+                },
+                {
+                    "id": "dinamica",
+                    "heading": "Dinámica y confort en equilibrio",
+                    "paragraphs": [
+                        "La tracción Quattro permanente sigue siendo el sello distintivo del RS7 Performance. Con una gestión electrónica más agresiva del diferencial trasero y una suspensión neumática específica, el deportivo alemán mejora su comportamiento en curva sin perder la suavidad que lo hace utilizable a diario.",
+                        "A pesar de superar los 2.000 kg, el RS7 Performance acelera de 0 a 100 km/h en menos de 3,4 segundos y alcanza una velocidad máxima limitada a 305 km/h, ampliable a 320 km/h con el paquete RS Dynamic."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Nueva variante Performance del Audi RS7 Sportback.",
+                "Potencia del V8 4.0 TFSI elevada a 630 CV (+39 CV) y 850 Nm de par.",
+                "Aceleración de 0 a 100 km/h en menos de 3,4 segundos y velocidad máxima de 305 km/h.",
+                "Diseño fastback, tracción Quattro y habitabilidad para cinco pasajeros."
+            ],
+            "previousModel": {
+                "name": "Audi RS7 Sportback (2020-2025)",
+                "year": "2020-2025",
+                "summary": "V8 4.0 TFSI de 591 CV y 800 Nm, con tracción Quattro y chasis más orientado al confort. El Performance amplifica el lado deportivo sin perder usabilidad."
+            },
+            "whatChanged": [
+                {
+                    "title": "Más potencia y par:",
+                    "text": "Sube de 591 a 630 CV y de 800 a 850 Nm, con una gestión más agresiva de los turbos."
+                },
+                {
+                    "title": "Diferencial deportivo:",
+                    "text": "La distribución del par trasero es más proactiva, permitiendo un comportamiento más ágil en curvas cerradas."
+                },
+                {
+                    "title": "Suspensión específica:",
+                    "text": "La suspensión neumática del Performance es un 10% más rígida en modo dinámico, reduciendo la inclinación."
+                },
+                {
+                    "title": "Velocidad máxima:",
+                    "text": "305 km/h de serie, ampliable a 320 km/h con el paquete RS Dynamic."
+                }
+            ],
+            "newTechnology": [
+                "El V8 4.0 TFSI con desconexión de cilindros mantiene su eficiencia en conducción suave, a pesar de los 630 CV. El sistema de admisión y refrigeración se ha reforzado para soportar el aumento de potencia.",
+                "La gestión de la tracción Quattro se sincroniza con el diferencial trasero deportivo, enviando más par a la rueda exterior para reducir el subviraje.",
+                "La dirección progresiva y los frenos de carbono-cerámica opcionales mejoran la capacidad de repetición en conducción intensa."
+            ],
+            "marketContext": "El RS7 Performance se sitúa entre el BMW M5 PHEV y el Mercedes-AMG GT 4 puertas. Audi no apuesta por la hibridación enchufable, pero compite con un V8 clásico, diseño coupé y un interior más espacioso que el GT 4 puertas.",
+            "pricing": {
+                "price": "Desde 145.000 €",
+                "market": "Europa",
+                "availability": "Llegada prevista a finales de 2025",
+                "note": "El paquete RS Dynamic y las opciones de carbono aumentan el precio final."
+            },
+            "prosCons": {
+                "pros": [
+                    "Diseño fastback con habitabilidad para cinco pasajeros.",
+                    "V8 clásico y tracción Quattro sin depender de un enchufe.",
+                    "Equilibrio entre confort diario y performance extrema."
+                ],
+                "cons": [
+                    "Peso superior al de rivales más ligeros.",
+                    "Precio elevado una vez añadidas las opciones de carbono.",
+                    "Sin opción híbrida ni eléctrica en esta generación."
+                ]
+            },
+            "opinion": "El RS7 Performance es el coche perfecto para quien busca un diseño de coupé cuatro puertas, un interior de lujo y una mecánica capaz de humillar a muchos deportivos. Audi sigue dominando la fórmula de la berlina de alta performance, y esta versión Performance añade el temperamento que le faltaba al RS7 estándar.",
+            "stats": [
+                {
+                    "value": "630 CV",
+                    "label": "Potencia"
+                },
+                {
+                    "value": "850 Nm",
+                    "label": "Par máximo"
+                },
+                {
+                    "value": "3,4 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "305 km/h",
+                    "label": "Velocidad máxima"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2010",
+                    "title": "Nacimiento del RS7 Sportback",
+                    "desc": "Audi presenta la primera generación de su fastback deportivo."
+                },
+                {
+                    "date": "2019",
+                    "title": "Segunda generación",
+                    "desc": "El RS7 se renueva con un diseño más agresivo y un chasis más avanzado."
+                },
+                {
+                    "date": "2026",
+                    "title": "RS7 Performance",
+                    "desc": "Audi eleva la potencia del V8 a 630 CV en la nueva variante Performance."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El V8 4.0 TFSI del RS7 Performance utiliza desconexión de cilindros, permitiendo circular como un cuatro cilindros en trayectos suaves para ahorrar combustible."
+            },
+            "quote": {
+                "text": "El RS7 Performance demuestra que un coche de cuatro puertas puede ser tan emocionante como un deportivo puro.",
+                "author": "Audi Sport"
+            },
+            "warningBox": null
+        },
+        "en": {
+            "title": "Audi RS7 Performance 2026: 630 hp of pure sports elegance",
+            "subtitle": "Audi raises the bar for its sports fastback with a Performance version that sacrifices neither comfort nor usability.",
+            "excerpt": "Audi renews the RS7 with the Performance version, raising the power of the V8 biturbo to 630 hp and improving dynamics without giving up daily comfort.",
+            "imageCaption": "Audi RS7 Performance 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "Even more powerful V8 biturbo",
+                    "paragraphs": [
+                        "Audi presents the Performance version of its RS7 Sportback, an evolution that raises the power of the 4.0 TFSI V8 biturbo to 630 hp, 39 hp more than the standard RS7. Maximum torque is 850 Nm, available almost from idle thanks to the two turbos placed inside the V of the engine."
+                    ]
+                },
+                {
+                    "id": "dinamica",
+                    "heading": "Dynamics and comfort in balance",
+                    "paragraphs": [
+                        "Permanent Quattro traction remains the hallmark of the RS7 Performance. With more aggressive electronic management of the rear differential and specific air suspension, the German sports car improves its cornering behaviour without losing the smoothness that makes it usable every day.",
+                        "Despite exceeding 2,000 kg, the RS7 Performance accelerates from 0 to 100 km/h in less than 3.4 seconds and reaches a top speed limited to 305 km/h, extendable to 320 km/h with the RS Dynamic package."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "New Performance variant of the Audi RS7 Sportback.",
+                "Power of the 4.0 TFSI V8 raised to 630 hp (+39 hp) and 850 Nm of torque.",
+                "Acceleration from 0 to 100 km/h in less than 3.4 seconds and top speed of 305 km/h.",
+                "Fastback design, Quattro traction and room for five passengers."
+            ],
+            "previousModel": {
+                "name": "Audi RS7 Sportback (2020-2025)",
+                "year": "2020-2025",
+                "summary": "4.0 TFSI V8 of 591 hp and 800 Nm, with Quattro traction and a chassis more oriented to comfort. The Performance amplifies the sporty side without losing usability."
+            },
+            "whatChanged": [
+                {
+                    "title": "More power and torque:",
+                    "text": "It rises from 591 to 630 hp and from 800 to 850 Nm, with more aggressive turbo management."
+                },
+                {
+                    "title": "Sport differential:",
+                    "text": "The rear torque distribution is more proactive, allowing more agile behaviour in tight corners."
+                },
+                {
+                    "title": "Specific suspension:",
+                    "text": "The Performance air suspension is 10% stiffer in dynamic mode, reducing body roll."
+                },
+                {
+                    "title": "Top speed:",
+                    "text": "305 km/h as standard, extendable to 320 km/h with the RS Dynamic package."
+                }
+            ],
+            "newTechnology": [
+                "The 4.0 TFSI V8 with cylinder deactivation maintains its efficiency in gentle driving, despite the 630 hp. The intake and cooling system has been reinforced to withstand the power increase.",
+                "Quattro traction management is synchronised with the sport rear differential, sending more torque to the outer wheel to reduce understeer.",
+                "Progressive steering and optional carbon-ceramic brakes improve the ability to repeat intense driving."
+            ],
+            "marketContext": "The RS7 Performance sits between the BMW M5 PHEV and the Mercedes-AMG GT 4-door. Audi does not opt for plug-in hybridisation, but competes with a classic V8, coupé design and a more spacious interior than the GT 4-door.",
+            "pricing": {
+                "price": "From €145,000",
+                "market": "Europe",
+                "availability": "Expected arrival at the end of 2025",
+                "note": "The RS Dynamic package and carbon options increase the final price."
+            },
+            "prosCons": {
+                "pros": [
+                    "Fastback design with room for five passengers.",
+                    "Classic V8 and Quattro traction without relying on a plug.",
+                    "Balance between daily comfort and extreme performance."
+                ],
+                "cons": [
+                    "Weight higher than lighter rivals.",
+                    "High price once carbon options are added.",
+                    "No hybrid or electric option in this generation."
+                ]
+            },
+            "opinion": "The RS7 Performance is the perfect car for those looking for a four-door coupé design, a luxurious interior and a mechanics capable of humbling many sports cars. Audi continues to dominate the high-performance saloon formula, and this Performance version adds the temperament that the standard RS7 lacked.",
+            "stats": [
+                {
+                    "value": "630 hp",
+                    "label": "Power"
+                },
+                {
+                    "value": "850 Nm",
+                    "label": "Maximum torque"
+                },
+                {
+                    "value": "3.4 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "305 km/h",
+                    "label": "Top speed"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2010",
+                    "title": "RS7 Sportback born",
+                    "desc": "Audi introduces the first generation of its sports fastback."
+                },
+                {
+                    "date": "2019",
+                    "title": "Second generation",
+                    "desc": "The RS7 is renewed with a more aggressive design and a more advanced chassis."
+                },
+                {
+                    "date": "2026",
+                    "title": "RS7 Performance",
+                    "desc": "Audi raises the power of the V8 to 630 hp in the new Performance variant."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The RS7 Performance's 4.0 TFSI V8 uses cylinder deactivation, allowing it to drive as a four-cylinder on gentle journeys to save fuel."
+            },
+            "quote": {
+                "text": "The RS7 Performance proves that a four-door car can be as exciting as a pure sports car.",
+                "author": "Audi Sport"
+            },
+            "warningBox": null
+        },
+        "fr": {
+            "title": "Audi RS7 Performance 2026 : 630 ch de pure élégance sportive",
+            "subtitle": "Audi relève le niveau de son fastback sportif avec une version Performance qui ne sacrifie ni le confort ni l'usabilité.",
+            "excerpt": "Audi renouvelle le RS7 avec la version Performance, élevant la puissance du V8 biturbo à 630 ch et améliorant la dynamique sans renoncer au confort quotidien.",
+            "imageCaption": "Audi RS7 Performance 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "V8 biturbo encore plus puissant",
+                    "paragraphs": [
+                        "Audi présente la version Performance de son RS7 Sportback, une évolution qui élève la puissance du V8 4.0 TFSI biturbo à 630 ch, soit 39 ch de plus que le RS7 standard. Le couple maximum atteint 850 Nm, disponible presque depuis le ralenti grâce aux deux turbos placés à l'intérieur du V du moteur."
+                    ]
+                },
+                {
+                    "id": "dinamica",
+                    "heading": "Dynamique et confort en équilibre",
+                    "paragraphs": [
+                        "La traction Quattro permanente reste la marque de fabrique du RS7 Performance. Avec une gestion électronique plus agressive du différentiel arrière et une suspension pneumatique spécifique, la sportive allemande améliore son comportement en courbe sans perdre la douceur qui la rend utilisable au quotidien.",
+                        "Malgré une masse supérieure à 2 000 kg, le RS7 Performance accélère de 0 à 100 km/h en moins de 3,4 secondes et atteint une vitesse maximale limitée à 305 km/h, extensible à 320 km/h avec le pack RS Dynamic."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Nouvelle variante Performance de l'Audi RS7 Sportback.",
+                "Puissance du V8 4.0 TFSI élevée à 630 ch (+39 ch) et 850 Nm de couple.",
+                "Accélération de 0 à 100 km/h en moins de 3,4 secondes et vitesse de pointe de 305 km/h.",
+                "Design fastback, traction Quattro et habitabilité pour cinq passagers."
+            ],
+            "previousModel": {
+                "name": "Audi RS7 Sportback (2020-2025)",
+                "year": "2020-2025",
+                "summary": "V8 4.0 TFSI de 591 ch et 800 Nm, avec traction Quattro et châssis plus orienté vers le confort. Le Performance amplifie le côté sportif sans perdre l'usabilité."
+            },
+            "whatChanged": [
+                {
+                    "title": "Plus de puissance et de couple :",
+                    "text": "Il passe de 591 à 630 ch et de 800 à 850 Nm, avec une gestion plus agressive des turbos."
+                },
+                {
+                    "title": "Différentiel sport :",
+                    "text": "Le répartition du couple arrière est plus proactive, permettant un comportement plus agile dans les virages serrés."
+                },
+                {
+                    "title": "Suspension spécifique :",
+                    "text": "La suspension pneumatique du Performance est 10 % plus rigide en mode dynamique, réduisant les roulis."
+                },
+                {
+                    "title": "Vitesse de pointe :",
+                    "text": "305 km/h de série, extensible à 320 km/h avec le pack RS Dynamic."
+                }
+            ],
+            "newTechnology": [
+                "Le V8 4.0 TFSI avec désactivation de cylindres maintient son efficacité en conduite douce, malgré les 630 ch. Le système d'admission et de refroidissement a été renforcé pour supporter l'augmentation de puissance.",
+                "La gestion de la traction Quattro se synchronise avec le différentiel arrière sport, envoyant plus de couple à la roue extérieure pour réduire le sous-virage.",
+                "La direction progressive et les freins en carbo-céramique optionnels améliorent la capacité de répétition en conduite intense."
+            ],
+            "marketContext": "Le RS7 Performance se situe entre la BMW M5 PHEV et la Mercedes-AMG GT 4 portes. Audi n'opta pas pour l'hybridation rechargeable, mais compétit avec un V8 classique, un design coupé et un intérieur plus spacieux que le GT 4 portes.",
+            "pricing": {
+                "price": "À partir de 145 000 €",
+                "market": "Europe",
+                "availability": "Arrivée prévue fin 2025",
+                "note": "Le pack RS Dynamic et les options en carbone augmentent le prix final."
+            },
+            "prosCons": {
+                "pros": [
+                    "Design fastback avec habitabilité pour cinq passagers.",
+                    "V8 classique et traction Quattro sans dépendre d'une prise.",
+                    "Équilibre entre confort quotidien et performance extrême."
+                ],
+                "cons": [
+                    "Poids supérieur à des rivaux plus légers.",
+                    "Prix élevé une fois ajoutées les options en carbone.",
+                    "Sans option hybride ni électrique sur cette génération."
+                ]
+            },
+            "opinion": "Le RS7 Performance est la voiture parfaite pour qui recherche un design de coupé quatre portes, un intérieur de luxe et une mécanique capable de humilier beaucoup de sportives. Audi continue de dominer la formule de la berline de haute performance, et cette version Performance ajoute le tempérament qui manquait au RS7 standard.",
+            "stats": [
+                {
+                    "value": "630 ch",
+                    "label": "Puissance"
+                },
+                {
+                    "value": "850 Nm",
+                    "label": "Couple maximum"
+                },
+                {
+                    "value": "3,4 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "305 km/h",
+                    "label": "Vitesse maximale"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2010",
+                    "title": "Naissance du RS7 Sportback",
+                    "desc": "Audi présente la première génération de son fastback sportif."
+                },
+                {
+                    "date": "2019",
+                    "title": "Deuxième génération",
+                    "desc": "Le RS7 se renouvelle avec un design plus agressif et un châssis plus avancé."
+                },
+                {
+                    "date": "2026",
+                    "title": "RS7 Performance",
+                    "desc": "Audi porte la puissance du V8 à 630 ch dans la nouvelle variante Performance."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "Le V8 4.0 TFSI du RS7 Performance utilise la désactivation de cylindres, lui permettant de rouler en quatre cylindres sur les trajets doux pour économiser du carburant."
+            },
+            "quote": {
+                "text": "Le RS7 Performance prouve qu'une voiture quatre portes peut être aussi excitante qu'une sportive pure.",
+                "author": "Audi Sport"
+            },
+            "warningBox": null
+        },
+        "ar": {
+            "title": "أودي آر أس 7 بيرفورمانس 2026: 630 حصان من الأناقة الرياضية النقية",
+            "subtitle": "ترفع أودي سقف فاستباك الرياضي بنسخة بيرفورمانس لا تضحي بالراحة أو القابلية للاستخدام.",
+            "excerpt": "تجدد أودي آر أس 7 بنسخة بيرفورمانس، رافعةً قوة في 8 المزدوج التوربين إلى 630 حصان وتحسين الديناميكيات دون التخلي عن الراحة اليومية.",
+            "imageCaption": "أودي آر أس 7 بيرفورمانس 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "في 8 مزدوج التوربين أكثر قوة",
+                    "paragraphs": [
+                        "تقدم أودي نسخة بيرفورمانس من آر أس 7 سبورت باك، تطوير يرفع قوة محرك في 8 سعة 4.0 لتر تي أف أس آي المزدوج التوربين إلى 630 حصان، بزيادة 39 حصان عن آر أس 7 القياسي. يصل العزم الأقصى إلى 850 نيوتن متر، متاحاً تقريباً من الخمول بفضل التوربينين المثبتين داخل في المحرك."
+                    ]
+                },
+                {
+                    "id": "dinamica",
+                    "heading": "توازن بين الديناميكية والراحة",
+                    "paragraphs": [
+                        "يظل الدفع الرباعي كواترو الدائم السمة المميزة لـ آر أس 7 بيرفورمانس. مع إدارة إلكترونية أكثر عدوانية للنفور الخلفي ونظام تعليق هوائي خاص، تحسن السيارة الرياضية الألمانية سلوكها في المنعطفات دون فقدان السلاسة التي تجعلها قابلة للاستخدام يومياً.",
+                        "على الرغم من تجاوزها 2,000 كجم، تتسارع آر أس 7 بيرفورمانس من 0 إلى 100 كم/س في أقل من 3.4 ثانية وتصل إلى سرعة قصوى محدودة 305 كم/س، قابلة للتمديد إلى 320 كم/س مع حزمة آر أس دايناميك."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "نسخة بيرفورمانس جديدة من أودي آر أس 7 سبورت باك.",
+                "قوة محرك في 8 سعة 4.0 لتر تي أف أس آي مرتفعة إلى 630 حصان (+39 حصان) وعزم 850 نيوتن متر.",
+                "تسارع 0-100 كم/س في أقل من 3.4 ثانية وسرعة قصوى 305 كم/س.",
+                "تصميم فاستباك، دفع كواترو ومساحة لخمسة ركاب."
+            ],
+            "previousModel": {
+                "name": "أودي آر أس 7 سبورت باك (2020-2025)",
+                "year": "2020-2025",
+                "summary": "محرك في 8 سعة 4.0 لتر تي أف أس آي بقوة 591 حصان وعزم 800 نيوتن متر، مع دفع كواترو وهيكل أكثر توجهاً نحو الراحة. تضخم بيرفورمانس الجانب الرياضي دون فقدان القابلية للاستخدام."
+            },
+            "whatChanged": [
+                {
+                    "title": "قوة وعزم أكبر:",
+                    "text": "تزيد من 591 إلى 630 حصان ومن 800 إلى 850 نيوتن متر، مع إدارة أكثر عدوانية للتوربينات."
+                },
+                {
+                    "title": "نفور رياضي:",
+                    "text": "توزيع العزم الخلفي أكثر استباقية، مما يسمح بسلوك أكثر رشاقة في المنعطفات الضيقة."
+                },
+                {
+                    "title": "تعليق خاص:",
+                    "text": "التعليق الهوائي لـ بيرفورمانس أكثر صلابة بنسبة 10% في الوضع الديناميكي، مما يقلل التمايل."
+                },
+                {
+                    "title": "السرعة القصوى:",
+                    "text": "305 كم/س قياسياً، قابلة للتمديد إلى 320 كم/س مع حزمة آر أس دايناميك."
+                }
+            ],
+            "newTechnology": [
+                "يحافظ محرك في 8 سعة 4.0 لتر تي أف أس آي مع إلغاء أسطوانات على كفاءته في القيادة الهادئة، على الرغم من 630 حصان. تم تعزيز نظام التهوية والتبريد لتحمل زيادة القوة.",
+                "تتزامن إدارة الدفع الرباعي كواترو مع النفور الخلفي الرياضي، إرسال المزيد من العزم للعجلة الخارجية لتقليل الانزلاق الأمامي.",
+                "تحسن التوجيه التدريجي ومكابح الكربون-سيراميك الاختيارية القدرة على تكرار القيادة المكثفة."
+            ],
+            "marketContext": "تقع آر أس 7 بيرفورمانس بين بي إم دبليو أم 5 هجين قابل للشحن ومرسيدس-أي أم جي جي تي 4 أبواب. لا تختار أودي الهجين القابل للشحن، بل تتنافس بمحرك في 8 كلاسيكي وتصميم كوبيه ومقصورة أكثر اتساعاً من جي تي 4 أبواب.",
+            "pricing": {
+                "price": "ابتداءً من 145,000 يورو",
+                "market": "أوروبا",
+                "availability": "من المتوقع الوصول في أواخر 2025",
+                "note": "تزيد حزمة آر أس دايناميك وخيارات الكربون من السعر النهائي."
+            },
+            "prosCons": {
+                "pros": [
+                    "تصميم فاستباك مع مساحة لخمسة ركاب.",
+                    "في 8 كلاسيكي ودفع كواترو دون الحاجة إلى قابس.",
+                    "توازن بين الراحة اليومية والأداء المتطرف."
+                ],
+                "cons": [
+                    "وزن أعلى من المنافسين الأخف.",
+                    "سعر مرتفع بمجرد إضافة خيارات الكربون.",
+                    "لا توجد خيار هجين أو كهربائي في هذا الجيل."
+                ]
+            },
+            "opinion": "آر أس 7 بيرفورمانس هي السيارة المثالية لمن يبحث عن تصميم كوبيه بأربعة أبواب، ومقصورة فاخرة، وميكانيكا قادرة على إحراج العديد من السيارات الرياضية. تواصل أودي هيمنة على صيغة السيدان عالية الأداء، وتضيف هذه النسخة بيرفورمانس الحماسة التي كان ينقصها آر أس 7 القياسي.",
+            "stats": [
+                {
+                    "value": "630 حصان",
+                    "label": "القوة"
+                },
+                {
+                    "value": "850 نيوتن متر",
+                    "label": "العزم الأقصى"
+                },
+                {
+                    "value": "3.4 ثانية",
+                    "label": "0-100 كم/س"
+                },
+                {
+                    "value": "305 كم/س",
+                    "label": "السرعة القصوى"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2010",
+                    "title": "ولادة آر أس 7 سبورت باك",
+                    "desc": "تقدم أودي الجيل الأول من فاستباك الرياضي."
+                },
+                {
+                    "date": "2019",
+                    "title": "الجيل الثاني",
+                    "desc": "تتجدد آر أس 7 بتصميم أكثر عدوانية وهيكل أكثر تقدماً."
+                },
+                {
+                    "date": "2026",
+                    "title": "آر أس 7 بيرفورمانس",
+                    "desc": "ترفع أودي قوة في 8 إلى 630 حصان في نسخة بيرفورمانس الجديدة."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "يستخدم محرك في 8 سعة 4.0 لتر تي أف أس آي في آر أس 7 بيرفورمانس إلغاء الأسطوانات، مما يسمح له بالسير بأربع أسطوانات في الرحلات الهادئة لتوفير الوقود."
+            },
+            "quote": {
+                "text": "تثبت آر أس 7 بيرفورمانس أن سيارة بأربعة أبواب يمكن أن تكون مثيرة مثل السيارة الرياضية النقية.",
+                "author": "أودي سبورت"
+            },
+            "warningBox": null
+        }
+    }
+}

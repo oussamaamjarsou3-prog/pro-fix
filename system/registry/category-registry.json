@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/registry/category-registry.json",
+  "title": "Category Registry",
+  "description": "Central registry for all car categories in carspecio platform",
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-16",
+  "categories": [
+    {
+      "id": "deportivos",
+      "name": "Deportivos",
+      "nameEn": "Sports Cars",
+      "icon": "🏎️",
+      "description": "High-performance sports cars focused on speed and driving dynamics",
+      "descriptionEn": "High-performance sports cars focused on speed and driving dynamics"
+    },
+    {
+      "id": "suv",
+      "name": "SUV",
+      "nameEn": "SUV",
+      "icon": "🚙",
+      "description": "Sport Utility Vehicles with higher ground clearance and spacious interiors",
+      "descriptionEn": "Sport Utility Vehicles with higher ground clearance and spacious interiors"
+    },
+    {
+      "id": "electricos",
+      "name": "Eléctricos",
+      "nameEn": "Electric",
+      "icon": "⚡",
+      "description": "Fully electric vehicles powered by batteries",
+      "descriptionEn": "Fully electric vehicles powered by batteries"
+    },
+    {
+      "id": "sedan",
+      "name": "Sedán",
+      "nameEn": "Sedan",
+      "icon": "🚗",
+      "description": "Traditional three-box passenger cars with separate trunk",
+      "descriptionEn": "Traditional three-box passenger cars with separate trunk"
+    },
+    {
+      "id": "hatchback",
+      "name": "Hatchback",
+      "nameEn": "Hatchback",
+      "icon": "🚘",
+      "description": "Compact cars with rear door that opens upwards including rear window",
+      "descriptionEn": "Compact cars with rear door that opens upwards including rear window"
+    },
+    {
+      "id": "compactos",
+      "name": "Compactos",
+      "nameEn": "Compact",
+      "icon": "🚕",
+      "description": "Small cars ideal for city driving and fuel efficiency",
+      "descriptionEn": "Small cars ideal for city driving and fuel efficiency"
+    },
+    {
+      "id": "familiar",
+      "name": "Familiar",
+      "nameEn": "Family",
+      "icon": "🚌",
+      "description": "Family-oriented vehicles with extra space and seating capacity",
+      "descriptionEn": "Family-oriented vehicles with extra space and seating capacity"
+    },
+    {
+      "id": "pickup",
+      "name": "Pickup",
+      "nameEn": "Pickup",
+      "icon": "🛻",
+      "description": "Trucks with open cargo bed for work and utility purposes",
+      "descriptionEn": "Trucks with open cargo bed for work and utility purposes"
+    },
+    {
+      "id": "híbridos",
+      "name": "Híbridos",
+      "nameEn": "Hybrid",
+      "icon": "🌿",
+      "description": "Vehicles combining internal combustion engine with electric motor",
+      "descriptionEn": "Vehicles combining internal combustion engine with electric motor"
+    },
+    {
+      "id": "lujo",
+      "name": "Lujo",
+      "nameEn": "Luxury",
+      "icon": "👑",
+      "description": "Premium vehicles with high-end features and luxury materials",
+      "descriptionEn": "Premium vehicles with high-end features and luxury materials"
+    }
+  ],
+  "metadata": {
+    "totalCategories": 10,
+    "icons": {
+      "deportivos": "🏎️",
+      "suv": "🚙",
+      "electricos": "⚡",
+      "sedan": "🚗",
+      "hatchback": "🚘",
+      "compactos": "🚕",
+      "familiar": "🚌",
+      "pickup": "🛻",
+      "híbridos": "🌿",
+      "lujo": "👑"
+    }
+  }
+}

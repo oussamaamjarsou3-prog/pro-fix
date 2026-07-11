@@ -1,0 +1,199 @@
+(() => {
+    function log(...args){ console.log('[herramientas]', ...args); }
+    document.addEventListener('DOMContentLoaded', ()=>{
+        const cars = window.CARSPECIO_COMPARE_CARS || window.carspecio_COMPARE_CARS || {};
+
+        // Calculator elements
+        const modelSelect = document.getElementById('toolModelSelect');
+        const kmInput = document.getElementById('kmInput');
+        const fuelPriceInput = document.getElementById('fuelPriceInput');
+        const deprRateInput = document.getElementById('deprRateInput');
+        const kmDisplay = document.getElementById('kmDisplay');
+        const fuelDisplay = document.getElementById('fuelDisplay');
+        const deprDisplay = document.getElementById('deprDisplay');
+        const costFuel = document.getElementById('costFuel');
+        const costInsurance = document.getElementById('costInsurance');
+        const costMaint = document.getElementById('costMaint');
+        const costDep = document.getElementById('costDep');
+        const costTotal = document.getElementById('costTotal');
+        const costPerKm = document.getElementById('costPerKm');
+
+        function formatEur(n){
+            return '€' + Math.round(n).toLocaleString('es-ES');
+        }
+
+        function formatDecimal(n) {
+            return n.toFixed(2).replace('.', ',');
+        }
+
+        function clearOptions(sel){
+            if (!sel) return;
+            while(sel.options && sel.options.length>1) sel.remove(1);
+        }
+
+        function populateModels(){
+            if (!modelSelect) return;
+            clearOptions(modelSelect);
+            Object.keys(cars).forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name; opt.textContent = name; modelSelect.appendChild(opt);
+            });
+            log('models populated', Object.keys(cars).length);
+        }
+
+        // Live calculator update
+        function updateCalculator(){
+            const modelName = modelSelect ? modelSelect.value : '';
+            const km = kmInput ? Number(kmInput.value) || 15000 : 15000;
+            const fuelPrice = fuelPriceInput ? Number(fuelPriceInput.value) / 100 : 1.75; // Range is 100-250 = 1.00-2.50€
+            const deprRate = deprRateInput ? Number(deprRateInput.value) : 10;
+
+            // Update slider displays
+            if (kmDisplay) kmDisplay.textContent = km.toLocaleString('es-ES') + ' km';
+            if (fuelDisplay) fuelDisplay.textContent = formatDecimal(fuelPrice) + ' €';
+            if (deprDisplay) deprDisplay.textContent = deprRate + '%';
+
+            if (!modelName) {
+                if (costFuel) costFuel.textContent = '€0';
+                if (costInsurance) costInsurance.textContent = '€0';
+                if (costMaint) costMaint.textContent = '€0';
+                if (costDep) costDep.textContent = '€0';
+                if (costTotal) costTotal.textContent = '€0';
+                if (costPerKm) costPerKm.textContent = '˜ €0,00 / km';
+                return;
+            }
+
+            const car = cars[modelName];
+            if (!car) return;
+
+            const consumption = car.consumptionNum || 12;
+            const price = car.priceNum || 100000;
+            const insurance = 2500; // Estimated annual
+            const maintenance = 3500; // Estimated annual
+
+            // Calculations
+            const fuelAnnual = Math.round(consumption * (km / 100) * fuelPrice);
+            const depreciationAnnual = Math.round(price * (deprRate / 100));
+            const totalAnnual = fuelAnnual + insurance + maintenance + depreciationAnnual;
+            const perKmCost = km ? (totalAnnual / km) : 0;
+
+            // Update result cards
+            if (costFuel) costFuel.textContent = formatEur(fuelAnnual);
+            if (costInsurance) costInsurance.textContent = formatEur(insurance);
+            if (costMaint) costMaint.textContent = formatEur(maintenance);
+            if (costDep) costDep.textContent = formatEur(depreciationAnnual);
+            if (costTotal) costTotal.textContent = formatEur(totalAnnual);
+            if (costPerKm) costPerKm.textContent = '˜ €' + formatDecimal(perKmCost) + ' / km';
+        }
+
+        // Price comparator
+        const priceA = document.getElementById('priceSelectA');
+        const priceB = document.getElementById('priceSelectB');
+        const priceBtn = document.getElementById('priceCompareBtn');
+        const priceOut = document.getElementById('priceCompareResult');
+        const openFull = document.getElementById('openFullCompare');
+
+        function populatePriceSelects(){
+            if (!priceA || !priceB) return;
+            clearOptions(priceA); clearOptions(priceB);
+            Object.keys(cars).forEach(name => {
+                const o1 = document.createElement('option'); o1.value = name; o1.textContent = name;
+                const o2 = document.createElement('option'); o2.value = name; o2.textContent = name;
+                priceA.appendChild(o1); priceB.appendChild(o2);
+            });
+            log('price selects populated');
+        }
+
+        function comparePrices(){
+            if (!priceA || !priceB || !priceOut) return;
+            const a = priceA.value; const b = priceB.value;
+            if (!a || !b) { priceOut.textContent = 'Selecciona dos modelos distintos.'; if(openFull) openFull.style.display='none'; return; }
+            if (a === b) { priceOut.textContent = 'Selecciona dos modelos diferentes.'; if(openFull) openFull.style.display='none'; return; }
+            const ca = cars[a]; const cb = cars[b];
+            const pa = ca ? (ca.priceNum || 0) : 0; const pb = cb ? (cb.priceNum || 0) : 0;
+            const diff = Math.abs(pa - pb); const cheaper = pa < pb ? a : b;
+            priceOut.innerHTML = `<p><strong>${a}:</strong> ${ca && ca.price ? ca.price : pa ? '€'+pa : 'N/D'}</p><p><strong>${b}:</strong> ${cb && cb.price ? cb.price : pb ? '€'+pb : 'N/D'}</p><p><strong>Diferencia:</strong> €${diff.toLocaleString('es-ES')}</p><p>Recomendado (según precio): <strong>${cheaper}</strong></p>`;
+            if (openFull) {
+                openFull.href = `compare.html?car1=${encodeURIComponent(a)}&car2=${encodeURIComponent(b)}`;
+                openFull.style.display='inline-flex';
+            }
+        }
+
+        // Depreciation & rankings hooks (functions only)
+        const deprModel = document.getElementById('deprModelSelect');
+        const deprYears = document.getElementById('deprYears');
+        const deprRateTool = document.getElementById('deprRateTool');
+        const deprBtn = document.getElementById('deprCalcBtn');
+        const deprOut = document.getElementById('deprOutput');
+
+        function populateDeprModels(){ if (!deprModel) return; clearOptions(deprModel); Object.keys(cars).forEach(name=>{ const o=document.createElement('option'); o.value=name; o.textContent=name; deprModel.appendChild(o); }); log('depr models populated'); }
+
+        function calcDepreciation(){
+            if (!deprModel || !deprOut) return;
+            const name = deprModel.value; const years = Number(deprYears.value) || 5; const rate = Number(deprRateTool.value) || 10; const car = cars[name];
+            if (!car){ deprOut.textContent = 'Selecciona un modelo válido.'; return; }
+            const start = car.priceNum || 0; let value = start; let html = '<table style="width:100%; border-collapse:collapse"><thead><tr><th>Año</th><th>Valor estimado</th><th>Pérdida acumulada</th></tr></thead><tbody>';
+            for (let y=1;y<=years;y++){ const loss = Math.round(value * (rate/100)); value = Math.round(value - loss); const lostTotal = start - value; html += `<tr><td style="padding:6px">${y}</td><td style="padding:6px">${formatEur(value)}</td><td style="padding:6px">${formatEur(lostTotal)}</td></tr>`; }
+            html += '</tbody></table>'; deprOut.innerHTML = html;
+        }
+
+        // Rankings
+        const rankPriceBtn = document.getElementById('rankPrice');
+        const rankPowerBtn = document.getElementById('rankPower');
+        const rankReliBtn = document.getElementById('rankReli');
+        const rankTopN = document.getElementById('rankTopN');
+        const rankOut = document.getElementById('rankingsList');
+
+        function parseReliability(r){ if (!r) return 0; return parseFloat(String(r).replace(',', '.')) || 0; }
+        function showRanking(metric, desc, topN){ if (!rankOut) return; const arr = Object.keys(cars).map(name=>({name, v: (cars[name][metric+'Num']!==undefined)?cars[name][metric+'Num']:(metric==='reliability'?parseReliability(cars[name].reliability):0), raw: cars[name]})); if(metric==='price') arr.sort((a,b)=>a.v-b.v); else arr.sort((a,b)=>b.v-a.v); const requested = Math.max(1,Math.min(50,Number(topN)||5)); const available = arr.length; const limit = Math.min(requested, available); let html=`<h3>Top ${limit} de ${available} — ${desc}</h3><ol>`; arr.slice(0,limit).forEach(item=>{ const label = item.raw.price || (item.v?('€'+item.v):'N/D'); html += `<li><strong>${item.name}</strong> — ${label}</li>`; }); html += '</ol>'; if(requested > available){ html += `<p style="margin-top:10px; color:var(--text-secondary);">Solo hay ${available} modelos disponibles en los datos.</p>`; } rankOut.innerHTML = html; }
+
+        // Number controls for rankTopN
+        function changeNumberValue(targetId, delta) {
+            const input = document.getElementById(targetId);
+            if (!input) return;
+            const min = parseFloat(input.min) || 1;
+            const max = parseFloat(input.max) || 50;
+            const step = parseFloat(input.step) || 1;
+            let value = parseFloat(input.value) || 5;
+            value = Math.max(min, Math.min(max, value + delta * step));
+            input.value = value;
+        }
+
+        function setupNumberButtons() {
+            const btns = document.querySelectorAll('.number-btn');
+            btns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = btn.dataset.target;
+                    const delta = btn.classList.contains('number-increment') ? 1 : -1;
+                    changeNumberValue(targetId, delta);
+                });
+            });
+        }
+
+        // Wait for car data if needed
+        function waitForCars(cb, attempts=12, delay=150){ if (Object.keys(window.carspecio_COMPARE_CARS||{}).length){ cb(); } else if(attempts>0){ setTimeout(()=>waitForCars(cb, attempts-1, delay), delay); } else { console.warn('herramientas: car data not available'); cb(); } }
+
+        waitForCars(()=>{
+            try{
+                populateModels(); populatePriceSelects(); populateDeprModels(); setupNumberButtons();
+            }catch(e){ console.error('herramientas init error', e); }
+        });
+
+        // Attach listeners
+        if (modelSelect) modelSelect.addEventListener('change', (e)=>{ updateCalculator(); });
+        if (kmInput) kmInput.addEventListener('input', updateCalculator);
+        if (fuelPriceInput) fuelPriceInput.addEventListener('input', updateCalculator);
+        if (deprRateInput) deprRateInput.addEventListener('input', updateCalculator);
+        if (priceBtn) priceBtn.addEventListener('click', (e)=>{ e.preventDefault(); comparePrices(); });
+        if (deprBtn) deprBtn.addEventListener('click', (e)=>{ e.preventDefault(); calcDepreciation(); });
+        if (rankPriceBtn) rankPriceBtn.addEventListener('click', ()=> showRanking('price','Mejor precio (más barato)', Number(rankTopN.value)));
+        if (rankPowerBtn) rankPowerBtn.addEventListener('click', ()=> showRanking('power','Más potencia', Number(rankTopN.value)));
+        if (rankReliBtn) rankReliBtn.addEventListener('click', ()=> showRanking('reliability','Mejor fiabilidad', Number(rankTopN.value)));
+
+        // Initial display
+        updateCalculator();
+
+        log('herramientas script initialized');
+    });
+})();

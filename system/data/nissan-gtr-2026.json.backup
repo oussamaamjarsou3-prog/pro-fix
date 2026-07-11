@@ -1,0 +1,2863 @@
+{
+  "id": "nissan-gtr-2026",
+  "slug": "nissan-gtr",
+  "brandId": "nissan",
+  "categoryId": "deportivos",
+  "modelYear": 2026,
+  "generation": "R35",
+  "bodyStyle": "coupe",
+  "doors": 2,
+  "seats": 4,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "petrol",
+    "description": "V6 Twin-Turbo petrol with 600 HP and ATTESA E-TS AWD",
+    "descriptionAr": "محرك 6 أسطوانات توربيني مزدوج بنزين بـ 600 حصان ودفع رباعي أتيسا إي-تي-إس"
+  },
+  "status": "active",
+  "launchDate": "2026-01-01",
+  "productionYears": {
+    "start": 2007,
+    "end": null
+  },
+  "basicInfo": {
+    "name": "GT-R",
+    "fullModelName": "Nissan GT-R NISMO",
+    "badge": "NISMO",
+    "tagline": "El superdeportivo japonés legendario conocido como Godzilla",
+    "description": "El Nissan GT-R es el superdeportivo japonés legendario conocido como Godzilla por su rendimiento brutal.",
+    "longDescription": "El Nissan GT-R NISMO representa la cúspide del rendimiento de Nissan en el segmento de superdeportivos. Con su motor VR38DETT V6 twin-turbo y tracción ATTESA E-TS, ofrece una experiencia de conducción única que equilibra potencia brutal con manejabilidad excepcional.",
+    "highlights": [
+      "Motor VR38DETT V6 Twin-Turbo con 600 HP",
+      "Aceleración 0-100 km/h en 2.7 segundos",
+      "Tracción ATTESA E-TS AWD",
+      "Interior NISMO con asientos Recaro",
+      "Nissan Connect con navegación"
+    ],
+    "taglineAr": "غودزيلا اليابانية: وحشية في كل منعطف",
+    "nameAr": "جي تي-آر",
+    "fullModelNameAr": "نيسان جي تي-آر نيسمو",
+    "badgeAr": "نيسمو"
+  },
+  "specs": {
+    "engine": {
+      "type": "V6 Twin-Turbo",
+      "displacement": {
+        "value": 3799,
+        "unit": "cc"
+      },
+      "cylinders": 6,
+      "configuration": "V",
+      "aspiration": "Twin-Turbo",
+      "fuelType": "petrol",
+      "fuelOctane": 98,
+      "compressionRatio": 9,
+      "bore": 95.5,
+      "stroke": 88.4,
+      "blockMaterial": "Aluminum",
+      "headMaterial": "Aluminum",
+      "oilCapacity": {
+        "value": 7.5,
+        "unit": "L"
+      },
+      "cooling": "Liquid",
+      "typeAr": "6 أسطوانات توين تيربو",
+      "fuelTypeAr": "بنزين"
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 6,
+      "brand": "GR6",
+      "model": "GR6",
+      "driveMode": "AWD",
+      "typeAr": "أوتوماتيك"
+    },
+    "suspension": {
+      "front": "Double Wishbone",
+      "rear": "Multi-link",
+      "adaptive": true,
+      "airSuspension": false,
+      "adjustableDampers": true
+    },
+    "brakes": {
+      "front": {
+        "type": "Ventilated Disc",
+        "diameter": 390,
+        "material": "Carbon Ceramic"
+      },
+      "rear": {
+        "type": "Ventilated Disc",
+        "diameter": 380,
+        "material": "Carbon Ceramic"
+      },
+      "abs": true,
+      "ebd": true,
+      "eba": true,
+      "parkingBrake": "Electric"
+    },
+    "steering": {
+      "type": "Electric Power",
+      "turningRadius": 11.5,
+      "adjustable": true
+    },
+    "wheels": {
+      "front": {
+        "size": "20x9.5J",
+        "tire": "285/35R20"
+      },
+      "rear": {
+        "size": "20x10.5J",
+        "tire": "295/35R20"
+      },
+      "spare": false
+    },
+    "fuelSystem": {
+      "type": "Direct Injection",
+      "fuelTank": {
+        "value": 74,
+        "unit": "L"
+      }
+    },
+    "drivetrain": {
+      "typeAr": "دفع رباعي (أتيسا إي-تي أس)"
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 600,
+      "unit": "HP",
+      "rpm": 6800
+    },
+    "torque": {
+      "value": 652,
+      "unit": "Nm",
+      "rpm": 3600
+    },
+    "acceleration": {
+      "0-100": 2.7,
+      "0-200": 10.8,
+      "unit": "s"
+    },
+    "topSpeed": {
+      "value": 330,
+      "unit": "km/h",
+      "limited": true
+    },
+    "powerToWeight": {
+      "value": 316,
+      "unit": "HP/ton"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 4710,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1895,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1370,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2775,
+      "unit": "mm"
+    },
+    "weight": {
+      "curb": 1740,
+      "gross": 2100,
+      "unit": "kg"
+    },
+    "cargo": {
+      "value": 315,
+      "unit": "L"
+    },
+    "groundClearance": {
+      "value": 110,
+      "unit": "mm"
+    }
+  },
+  "fuelEconomy": {
+    "petrol": {
+      "city": {
+        "value": 14.7,
+        "unit": "L/100km"
+      },
+      "highway": {
+        "value": 10.7,
+        "unit": "L/100km"
+      },
+      "combined": {
+        "value": 13.1,
+        "unit": "L/100km"
+      },
+      "co2": {
+        "value": 305,
+        "unit": "g/km"
+      }
+    }
+  },
+  "pricing": {
+    "base": {
+      "value": 195000,
+      "currency": "EUR"
+    },
+    "current": {
+      "value": 221000,
+      "currency": "EUR"
+    },
+    "tax": {
+      "value": 45000,
+      "currency": "EUR"
+    },
+    "insurance": {
+      "annual": 3500,
+      "currency": "EUR"
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "nismo-aero",
+        "name": {
+          "es": "Paquete aerodinámico NISMO",
+          "en": "NISMO aero package",
+          "fr": "Pack aérodynamique NISMO",
+          "ar": "حزمة ديناميكية هوائية NISMO"
+        },
+        "description": {
+          "es": "Alerón, difusor y splitter optimizados en túnel de viento.",
+          "en": "Wing, diffuser and splitter optimized in wind tunnel.",
+          "fr": "Aileron, diffuseur et splitter optimisés en soufflerie.",
+          "ar": "جناح وموزع وsplitter محسّن في النفق الهوائي."
+        },
+        "standard": true,
+        "category": "aero"
+      },
+      {
+        "id": "carbon-hood",
+        "name": {
+          "es": "Capó de carbono",
+          "en": "Carbon hood",
+          "fr": "Capot carbone",
+          "ar": "غطاء محرك كربون"
+        },
+        "description": {
+          "es": "Capó ligero con tomas de aire funcionales.",
+          "en": "Lightweight hood with functional air intakes.",
+          "fr": "Capot léger avec prises d'air fonctionnelles.",
+          "ar": "غطاء محرك خفيف بفتحات تهوية فعالة."
+        },
+        "standard": true,
+        "category": "body"
+      }
+    ],
+    "interior": [
+      {
+        "id": "recaro-seats",
+        "name": {
+          "es": "Asientos Recaro",
+          "en": "Recaro seats",
+          "fr": "Sièges Recaro",
+          "ar": "مقاعد Recaro"
+        },
+        "description": {
+          "es": "Asientos deportivos de concha con calefacción.",
+          "en": "Sports shell seats with heating.",
+          "fr": "Sièges sport coque avec chauffage.",
+          "ar": "مقاعد رياضية قشرية مع تدفئة."
+        },
+        "standard": true,
+        "category": "seats"
+      },
+      {
+        "id": "nismo-wheel",
+        "name": {
+          "es": "Volante NISMO",
+          "en": "NISMO steering wheel",
+          "fr": "Volant NISMO",
+          "ar": "دركسون NISMO"
+        },
+        "description": {
+          "es": "Volante en Alcantara con línea de referencia roja.",
+          "en": "Alcantara steering wheel with red reference stripe.",
+          "fr": "Volant Alcantara avec ligne de référence rouge.",
+          "ar": "دركسون ألكانتارا مع خط مرجعي أحمر."
+        },
+        "standard": true,
+        "category": "comfort"
+      }
+    ],
+    "safety": [
+      "Nissan Safety Shield 360",
+      "Intelligent Cruise Control",
+      "Lane Departure Warning",
+      "Blind Spot Warning",
+      "Rear Cross Traffic Alert",
+      "Around View Monitor"
+    ],
+    "technology": [
+      {
+        "id": "nissan-connect",
+        "name": {
+          "es": "Nissan Connect",
+          "en": "Nissan Connect",
+          "fr": "Nissan Connect",
+          "ar": "Nissan Connect"
+        },
+        "description": {
+          "es": "Pantalla de 8 pulgadas con navegación y conectividad smartphone.",
+          "en": "8-inch display with navigation and smartphone connectivity.",
+          "fr": "Écran 8 pouces avec navigation et connectivité smartphone.",
+          "ar": "شاشة 8 بوصة مع ملاحة واتصال الهاتف الذكي."
+        },
+        "standard": true,
+        "category": "infotainment"
+      },
+      {
+        "id": "around-view",
+        "name": {
+          "es": "Around View Monitor",
+          "en": "Around View Monitor",
+          "fr": "Around View Monitor",
+          "ar": "Around View Monitor"
+        },
+        "description": {
+          "es": "Vista cenital del vehículo para maniobras lentas.",
+          "en": "Top-down view of the vehicle for low-speed maneuvers.",
+          "fr": "Vue aérienne du véhicule pour les manœuvres lentes.",
+          "ar": "منظر علوي للسيارة للمناورات البطيئة."
+        },
+        "standard": true,
+        "category": "safety"
+      }
+    ],
+    "comfort": [
+      {
+        "id": "dual-climate",
+        "name": {
+          "es": "Climatización bizona",
+          "en": "Dual-zone climate",
+          "fr": "Climatisation bi-zone",
+          "ar": "تكييف ثنائي المنطقة"
+        },
+        "description": {
+          "es": "Control de temperatura independiente para conductor y acompañante.",
+          "en": "Independent temperature control for driver and passenger.",
+          "fr": "Contrôle de température indépendant pour conducteur et passager.",
+          "ar": "تحكم مستقل في الحرارة للسائق والراكب."
+        },
+        "standard": true,
+        "category": "climate"
+      },
+      {
+        "id": "bose-audio",
+        "name": {
+          "es": "Audio Bose",
+          "en": "Bose audio",
+          "fr": "Système Bose",
+          "ar": "نظام Bose الصوتي"
+        },
+        "description": {
+          "es": "Sistema de sonido premium de 11 altavoces.",
+          "en": "11-speaker premium sound system.",
+          "fr": "Système audio premium 11 haut-parleurs.",
+          "ar": "نظام صوت مميز 11 مكبر."
+        },
+        "standard": true,
+        "category": "audio"
+      }
+    ],
+    "performance": [
+      {
+        "id": "attesa-ets",
+        "name": {
+          "es": "ATTESA E-TS",
+          "en": "ATTESA E-TS",
+          "fr": "ATTESA E-TS",
+          "ar": "ATTESA E-TS"
+        },
+        "description": {
+          "es": "Tracción total inteligente que distribuye par entre ejes.",
+          "en": "Intelligent all-wheel drive that distributes torque between axles.",
+          "fr": "Traction intelligente qui distribue le couple entre les essieux.",
+          "ar": "دفع كلي ذكي يوزع العزم بين المحاور."
+        },
+        "standard": true,
+        "category": "drivetrain"
+      },
+      {
+        "id": "carbon-ceramic-brakes",
+        "name": {
+          "es": "Frenos carbono-cerámicos",
+          "en": "Carbon-ceramic brakes",
+          "fr": "Freins carbone-céramique",
+          "ar": "فرامل كربون-سيراميك"
+        },
+        "description": {
+          "es": "Discos de 390 mm delanteros con pinzas de 6 pistones.",
+          "en": "390 mm front discs with 6-piston calipers.",
+          "fr": "Disques de 390 mm à l'avant avec étriers 6 pistons.",
+          "ar": "أقراص 390 مم أمامية مع كاليبر 6 مكابس."
+        },
+        "standard": true,
+        "category": "brakes"
+      }
+    ]
+  },
+  "safety": {
+    "rating": {
+      "euroNCAP": 5,
+      "nhtsa": 5
+    },
+    "airbags": 6,
+    "features": [
+      "ABS with EBD",
+      "VDC",
+      "TCS",
+      "Hill Start Assist",
+      "Tyre Pressure Monitoring",
+      "ISOFIX points"
+    ],
+    "es": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontales",
+        "laterales",
+        "de cortina",
+        "de rodilla"
+      ],
+      "driverAssist": [
+        "Control crucero inteligente",
+        "Alerta de salida de carril",
+        "Alerta de punto ciego",
+        "Tráfico cruzado trasero",
+        "Monitor de alrededor",
+        "Frenada de emergencia"
+      ],
+      "structural": "Chasis reforzado con zonas de deformación programada y jaula de seguridad integral."
+    },
+    "en": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "front",
+        "side",
+        "curtain",
+        "knee"
+      ],
+      "driverAssist": [
+        "Intelligent cruise control",
+        "Lane departure warning",
+        "Blind spot warning",
+        "Rear cross-traffic alert",
+        "Around-view monitor",
+        "Emergency braking"
+      ],
+      "structural": "Reinforced chassis with programmed crumple zones and integral safety cage."
+    },
+    "fr": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "frontales",
+        "latérales",
+        "rideaux",
+        "genoux"
+      ],
+      "driverAssist": [
+        "Régulateur adaptatif",
+        "Alerte de sortie de voie",
+        "Alerte d'angle mort",
+        "Alerte de trafic transversal",
+        "Caméra 360°",
+        "Freinage d'urgence"
+      ],
+      "structural": "Châssis renforcé avec zones de déformation programmées et cage de sécurité intégrale."
+    },
+    "ar": {
+      "ratings": {
+        "euroNCAP": 5,
+        "nhtsa": 5,
+        "overall": 5
+      },
+      "airbags": [
+        "أمامية",
+        "جانبية",
+        "ستائرية",
+        "ركبة"
+      ],
+      "driverAssist": [
+        "مثبت سرعة ذكي",
+        "تنبيه مغادرة المسار",
+        "تنبيه النقطة العمياء",
+        "تنبيه حركة المرور العرضية",
+        "مراقبة محيطية",
+        "فرامل الطوارئ"
+      ],
+      "structural": "هيكل معزز بمناطق انفعال مبرمجة وقفص أمان متكامل."
+    }
+  },
+  "versions": [
+    {
+      "id": "gtr-nismo",
+      "slug": "gtrnismo",
+      "name": "GT-R NISMO",
+      "price": {
+        "value": 195000,
+        "currency": "EUR"
+      },
+      "features": [
+        "600 HP VR38DETT",
+        "0-100 km/h in 2.7 s",
+        "ATTESA E-TS AWD",
+        "Carbon-ceramic brakes",
+        "NISMO Recaro seats"
+      ],
+      "image": "/images/nissan-gtr.2026/gtr-nismo.png",
+      "nameAr": "جي تي آر نيسمو",
+      "featuresAr": [
+        "600 حصان ڤي آر 38 دي إي تي تي",
+        "0-100 كم/h بوصة 2.7 إس",
+        "نظام الدفع الرباعي أتيسا إي-تي-إس",
+        "كربون-فرامل سيراميك",
+        "مقاعد ريكارو نيسمو"
+      ]
+    },
+    {
+      "id": "gtr-premium",
+      "slug": "gtrpremium",
+      "name": "GT-R Premium",
+      "price": {
+        "value": 165000,
+        "currency": "EUR"
+      },
+      "features": [
+        "570 HP VR38DETT",
+        "0-100 km/h in 2.9 s",
+        "ATTESA E-TS AWD",
+        "Bose audio",
+        "Nissan Connect"
+      ],
+      "image": "/images/nissan-gtr.2026/gtr-premium.png",
+      "nameAr": "جي تي آر ممتاز",
+      "featuresAr": [
+        "570 حصان ڤي آر 38 دي إي تي تي",
+        "0-100 كم/h بوصة 2.9 إس",
+        "نظام الدفع الرباعي أتيسا إي-تي-إس",
+        "نظام صوت بوز",
+        "نيسان كونكت"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+    "gallery": [
+      "/images/nissan-gtr.2026/gtr-galirey.png",
+      "/images/nissan-gtr.2026/gtr-galirey.1.png",
+      "/images/nissan-gtr.2026/gtr-galirey.2.png",
+      "/images/nissan-gtr.2026/gtr-galirey.3.png",
+      "/images/nissan-gtr.2026/gtr-galirey.4.png",
+      "/images/nissan-gtr.2026/gtr-galirey.5.png"
+    ],
+    "colors": [
+      "Bayside Blue",
+      "Super Silver",
+      "Vibrant Red",
+      "Midnight Purple"
+    ],
+    "galleryCaptions": {
+      "es": [
+        "Vista frontal con parrilla distintiva",
+        "Perfil cupé con llantas forjadas",
+        "Interior NISMO con asientos Recaro",
+        "Alerón trasero de carbono"
+      ],
+      "en": [
+        "Front view with distinctive grille",
+        "Coupe profile with forged wheels",
+        "NISMO interior with Recaro seats",
+        "Rear carbon wing"
+      ],
+      "fr": [
+        "Vue avant avec calandre distinctive",
+        "Profil coupé avec jantes forgées",
+        "Intérieur NISMO avec sièges Recaro",
+        "Aileron arrière en carbone"
+      ],
+      "ar": [
+        "المنظور الأمامي مع الشبكة المميزة",
+        "الجانب الكوبيه مع العجلات المعدنية",
+        "مقصورة NISMO مع مقاعد Recaro",
+        "الجناح الخلفي من الكربون"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Nissan GT-R 2026 - Review y Comparativa",
+    "description": "El Nissan GT-R es el superdeportivo japonés legendario conocido como Godzilla por su rendimiento brutal.",
+    "keywords": [
+      "nissan",
+      "gtr",
+      "deportivo",
+      "japonés",
+      "godzilla",
+      "nismo"
+    ],
+    "ogTitle": "Nissan GT-R 2026 - El Godzilla japonés",
+    "ogDescription": "Descubre el Nissan GT-R 2026: 600 HP, 0-100 en 2.7s, y el legendario rendimiento japonés.",
+    "ogImage": "/images/nissan-gtr.2026/nissan-gtr-hero.png"
+  },
+  "content": {
+    "review": "El Nissan GT-R es el superdeportivo japonés legendario...",
+    "pros": [
+      "Relación precio/rendimiento",
+      "Aceleración brutal",
+      "Tracción total"
+    ],
+    "cons": [
+      "Interior envejecido",
+      "Peso elevado",
+      "Marca menos premium"
+    ],
+    "verdict": "El mejor superdeportivo japonés del mercado",
+    "timeline": [
+      {
+        "km": 10000,
+        "title": "Mantenimiento anual",
+        "desc": "Cambio de aceite y filtros, revisión de transmisión GR6",
+        "cost": {
+          "value": 600,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة السنوية",
+        "descAr": "تغيير الزيت والفلاتر، فحص ناقل الحركة جي آر 6"
+      },
+      {
+        "km": 20000,
+        "title": "Revisión intermedia",
+        "desc": "Filtros, refrigerante, diferenciales y bujías",
+        "cost": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص الدوري المتوسط",
+        "descAr": "الفلاتر وسوائل التبريد والدفرنسيات والبواجي"
+      },
+      {
+        "km": 40000,
+        "title": "Gran servicio",
+        "desc": "Revisión mayor del VR38DETT, cambio de bujías y transmisión",
+        "cost": {
+          "value": 2500,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة الكبرى",
+        "descAr": "الفحص الرئيسي لمحرك ڤي آر 38 دي إي تي تي، تغيير البواجي وناقل الحركة"
+      },
+      {
+        "km": 60000,
+        "title": "Frenos y neumáticos",
+        "desc": "Cambio de discos/pastillas carbono-cerámicos y juego de neumáticos",
+        "cost": {
+          "value": 6000,
+          "currency": "EUR"
+        },
+        "titleAr": "الفرامل والإطارات",
+        "descAr": "تغيير الأقراص/الفحمات الكربونية-سيراميك ومجموعة الإطارات"
+      },
+      {
+        "km": 80000,
+        "title": "Revisión de turbos",
+        "desc": "Inspección de turbos, intercoolers y sistema de refrigeración",
+        "cost": {
+          "value": 3500,
+          "currency": "EUR"
+        },
+        "titleAr": "فحص التوربينات",
+        "descAr": "فحص التوربينات والمبردات المضادة ونظام التبريد"
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuántos caballos tiene el Nissan GT-R NISMO 2026?",
+        "answer": "El Nissan GT-R NISMO 2026 entrega 600 HP y 652 Nm de par con su motor VR38DETT V6 twin-turbo."
+      },
+      {
+        "question": "¿Cuánto acelera el GT-R NISMO de 0 a 100 km/h?",
+        "answer": "El GT-R NISMO acelera de 0 a 100 km/h en aproximadamente 2.7 segundos."
+      },
+      {
+        "question": "¿Cuál es el precio del Nissan GT-R NISMO 2026?",
+        "answer": "En Estados Unidos, el GT-R NISMO tiene un precio base de 221.090 USD. En Europa, precios similares en torno a 200.000 €."
+      },
+      {
+        "question": "¿Es fiable el Nissan GT-R?",
+        "answer": "El VR38DETT es muy robusto si se mantiene correctamente. La transmisión GR6 y los turbos requieren revisiones específicas."
+      },
+      {
+        "question": "¿Nissan GT-R o Porsche 911 Turbo S?",
+        "answer": "El GT-R ofrece más potencia bruta y tracción AWD por menos precio. El 911 Turbo S tiene mejor refinamiento y prestige."
+      },
+      {
+        "question": "¿Cuánto consume el GT-R NISMO?",
+        "answer": "El consumo combinado real ronda los 13-15 L/100 km. En circuito puede superar los 20 L/100 km."
+      },
+      {
+        "question": "¿Vale la pena comprar un Nissan GT-R de segunda mano?",
+        "answer": "Sí, si se busca rendimiento bruto a buen precio. Revisar historial de mantenimiento, estado de turbos y transmisión GR6."
+      }
+    ]
+  },
+  "countryPricing": {
+    "us": {
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "flag": "🇺🇸",
+      "rivalAmg": 25650,
+      "maintenance": 1769,
+      "used3Range": "126,021 - 139,287 USD",
+      "fuelDefault": 20,
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          243499
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          238093
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          237188
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          242595
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          240766
+        ]
+      ],
+      "pricePerformance": 235000,
+      "inspection": 50,
+      "oilChange": 250,
+      "dep5": 99491,
+      "currency": "USD",
+      "priceNew": 221090,
+      "depAnnual": {
+        "used3": 29479,
+        "new": 44218,
+        "used5": 24320
+      },
+      "fuelMax": 25,
+      "options": [
+        4185,
+        999,
+        8370,
+        2092,
+        3105,
+        0,
+        5535,
+        1620
+      ],
+      "tyres": 1000,
+      "locale": "en-US",
+      "fuelMetric": false,
+      "insurance": 3980,
+      "fuelStep": 1,
+      "fuelMin": 15,
+      "dep3": 132654,
+      "priceCarbon": 250000,
+      "used5Range": "94,516 - 104,466 USD",
+      "name": "United States",
+      "rivalM5": 23625,
+      "roadTax": 111,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "flag": "🇮🇹",
+      "rivalAmg": 28120,
+      "maintenance": 2500,
+      "used3Range": "114,000 - 126,000 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          244350
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          244320
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          244310
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          244300
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          244290
+        ]
+      ],
+      "pricePerformance": 215000,
+      "inspection": 120,
+      "oilChange": 300,
+      "dep5": 90000,
+      "currency": "EUR",
+      "priceNew": 200000,
+      "depAnnual": {
+        "used3": 26667,
+        "new": 40000,
+        "used5": 22000
+      },
+      "fuelMax": 250,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1400,
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "insurance": 3600,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 120000,
+      "priceCarbon": 230000,
+      "used5Range": "85,500 - 94,500 EUR",
+      "name": "Italia",
+      "rivalM5": 25900,
+      "roadTax": 450,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "fiscalHead": [
+        "RegiÃ³n",
+        "Impuesto matriculaciÃ³n",
+        "ITV",
+        "Precio final"
+      ],
+      "flag": "🇪🇸",
+      "rivalAmg": 28120,
+      "maintenance": 2000,
+      "used3Range": "114,000 - 126,000 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          242380
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          242420
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          242350
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          242400
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          242360
+        ]
+      ],
+      "pricePerformance": 215000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 90000,
+      "currency": "EUR",
+      "priceNew": 200000,
+      "depAnnual": {
+        "used3": 26667,
+        "new": 40000,
+        "used5": 22000
+      },
+      "fuelMax": 250,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "insurance": 3600,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 120000,
+      "priceCarbon": 230000,
+      "used5Range": "85,500 - 94,500 EUR",
+      "name": "España",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "fiscalHead": [
+        "RÃ©gion",
+        "Malus COâ‚‚",
+        "Carte grise",
+        "Prix final"
+      ],
+      "flag": "🇫🇷",
+      "rivalAmg": 28120,
+      "maintenance": 3100,
+      "used3Range": "116,850 - 129,150 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          246350
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          246320
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          246310
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          246300
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          246290
+        ]
+      ],
+      "pricePerformance": 220000,
+      "inspection": 90,
+      "oilChange": 340,
+      "dep5": 92250,
+      "currency": "EUR",
+      "priceNew": 205000,
+      "depAnnual": {
+        "used3": 27333,
+        "new": 41000,
+        "used5": 22550
+      },
+      "fuelMax": 250,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1550,
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "insurance": 3690,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 123000,
+      "priceCarbon": 235000,
+      "used5Range": "87,638 - 96,863 EUR",
+      "name": "France",
+      "rivalM5": 25900,
+      "roadTax": 103,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇲🇦",
+      "rivalAmg": 304000,
+      "maintenance": 20000,
+      "used3Range": "1,425,000 - 1,575,000 MAD",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          3000200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          3000180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          3000160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          3000150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          3000170
+        ]
+      ],
+      "pricePerformance": 2700000,
+      "inspection": 100,
+      "oilChange": 200,
+      "dep5": 1125000,
+      "currency": "MAD",
+      "priceNew": 2500000,
+      "depAnnual": {
+        "used3": 333333,
+        "new": 500000,
+        "used5": 275000
+      },
+      "fuelMax": 250,
+      "options": [
+        49600,
+        11840,
+        99200,
+        24800,
+        36800,
+        0,
+        65600,
+        19200
+      ],
+      "tyres": 11250,
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "insurance": 45000,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 1500000,
+      "priceCarbon": 2900000,
+      "used5Range": "1,068,750 - 1,181,250 MAD",
+      "name": "المغرب",
+      "rivalM5": 280000,
+      "roadTax": 1250,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer/Jahr",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "flag": "🇩🇪",
+      "rivalAmg": 28120,
+      "maintenance": 2900,
+      "used3Range": "119,700 - 132,300 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          250280
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          250320
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          250250
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          250300
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          250260
+        ]
+      ],
+      "pricePerformance": 225000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 94500,
+      "currency": "EUR",
+      "priceNew": 210000,
+      "depAnnual": {
+        "used3": 28000,
+        "new": 42000,
+        "used5": 23100
+      },
+      "fuelMax": 250,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "insurance": 3780,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 126000,
+      "priceCarbon": 240000,
+      "used5Range": "89,775 - 99,225 EUR",
+      "name": "Deutschland",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇦🇪",
+      "rivalAmg": 108300,
+      "maintenance": 6002,
+      "used3Range": "427,663 - 472,681 AED",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          788100
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          788080
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          788050
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          788020
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          788000
+        ]
+      ],
+      "pricePerformance": 780000,
+      "inspection": 100,
+      "oilChange": 350,
+      "dep5": 337629,
+      "currency": "AED",
+      "priceNew": 750286,
+      "depAnnual": {
+        "used3": 100038,
+        "new": 150057,
+        "used5": 82531
+      },
+      "fuelMax": 250,
+      "options": [
+        17670,
+        4218,
+        35340,
+        8835,
+        13110,
+        0,
+        23370,
+        6840
+      ],
+      "tyres": 3376,
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "insurance": 13505,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 450172,
+      "priceCarbon": 820000,
+      "used5Range": "320,748 - 354,510 AED",
+      "name": "الإمارات",
+      "rivalM5": 99750,
+      "roadTax": 375,
+      "exchangeRateEUR": 3.97
+    },
+    "gb": {
+      "fiscalHead": [
+        "Region",
+        "Road Tax",
+        "MOT",
+        "Final Price"
+      ],
+      "flag": "🇬🇧",
+      "rivalAmg": 23750,
+      "maintenance": 1800,
+      "used3Range": "83,122 - 91,872 GBP",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          175050
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          175050
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          175050
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          175050
+        ]
+      ],
+      "pricePerformance": 160000,
+      "inspection": 55,
+      "oilChange": 280,
+      "dep5": 65623,
+      "currency": "GBP",
+      "priceNew": 145829,
+      "depAnnual": {
+        "used3": 19444,
+        "new": 29166,
+        "used5": 16041
+      },
+      "fuelMax": 250,
+      "options": [
+        3875,
+        925,
+        7750,
+        1938,
+        2875,
+        0,
+        5125,
+        1500
+      ],
+      "tyres": 1200,
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "insurance": 2625,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 87497,
+      "priceCarbon": 175000,
+      "used5Range": "62,342 - 68,904 GBP",
+      "name": "United Kingdom",
+      "rivalM5": 21875,
+      "roadTax": 165,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇸🇦",
+      "rivalAmg": 110200,
+      "maintenance": 6478,
+      "used3Range": "461,574 - 510,160 SAR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          931445
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          931425
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          931405
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          931415
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          931395
+        ]
+      ],
+      "pricePerformance": 850000,
+      "inspection": 100,
+      "oilChange": 300,
+      "dep5": 364400,
+      "currency": "SAR",
+      "priceNew": 809778,
+      "depAnnual": {
+        "used3": 107970,
+        "new": 161956,
+        "used5": 89076
+      },
+      "fuelMax": 250,
+      "options": [
+        17980,
+        4292,
+        35960,
+        8990,
+        13340,
+        0,
+        23780,
+        6960
+      ],
+      "tyres": 3644,
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "insurance": 14576,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 485867,
+      "priceCarbon": 900000,
+      "used5Range": "346,180 - 382,620 SAR",
+      "name": "السعودية",
+      "rivalM5": 101500,
+      "roadTax": 405,
+      "exchangeRateEUR": 4
+    }
+  },
+  "options": [
+    {
+      "id": "nismo-carbon-pack",
+      "name": {
+        "es": "Paquete carbono NISMO",
+        "en": "NISMO carbon pack",
+        "fr": "Pack carbone NISMO",
+        "ar": "حزمة الكربون NISMO"
+      },
+      "description": {
+        "es": "Alerón, difusor, tapas de espejos y splitter en fibra de carbono.",
+        "en": "Carbon fiber wing, diffuser, mirror caps and splitter.",
+        "fr": "Aileron, diffuseur, coques de rétroviseurs et splitter en fibre de carbone.",
+        "ar": "جناح، موزع، أغطية مرايا و splitter من ألياف الكربون."
+      },
+      "priceExtra": {
+        "value": 12000,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Paquete carbono NISMO",
+        "en": "NISMO carbon pack",
+        "fr": "Pack carbone NISMO",
+        "ar": "حزمة الكربون NISMO"
+      }
+    },
+    {
+      "id": "bayside-blue-paint",
+      "name": {
+        "es": "Pintura Bayside Blue",
+        "en": "Bayside Blue paint",
+        "fr": "Peinture Bayside Blue",
+        "ar": "طلاء Bayside Blue"
+      },
+      "description": {
+        "es": "Color icónico de GT-R con acabado metálico multicaspa.",
+        "en": "Iconic GT-R color with multi-layer metallic finish.",
+        "fr": "Couleur emblématique de la GT-R avec fini métallique multicouche.",
+        "ar": "اللون الأيقوني للـ GT-R مع طلاء معدني متعدد الطبقات."
+      },
+      "priceExtra": {
+        "value": 3500,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Pintura Bayside Blue",
+        "en": "Bayside Blue paint",
+        "fr": "Peinture Bayside Blue",
+        "ar": "طلاء Bayside Blue"
+      }
+    },
+    {
+      "id": "track-brake-pads",
+      "name": {
+        "es": "Pastillas de freno track",
+        "en": "Track brake pads",
+        "fr": "Plaquettes de frein circuit",
+        "ar": "قماش فرامل الحلبة"
+      },
+      "description": {
+        "es": "Pastillas de alto agarre para uso intensivo en circuito.",
+        "en": "High-grip pads for intensive track use.",
+        "fr": "Plaquettes à fort coefficient d'adhérence pour usage intensif en circuit.",
+        "ar": "قماش فرامل بقبضة عالية للاستخدام المكثف في الحلبة."
+      },
+      "priceExtra": {
+        "value": 800,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Pastillas de freno track",
+        "en": "Track brake pads",
+        "fr": "Plaquettes de frein circuit",
+        "ar": "قماش فرامل الحلبة"
+      }
+    }
+  ],
+  "problems": {
+    "es": [
+      "Transmisión DCT: fragilidad con launch control",
+      "Turbos: lag en bajas revoluciones",
+      "Chasis: rigidez extrema, confort reducido",
+      "Neumáticos: desgaste acelerado en tracción trasera",
+      "Sistema de audio: calidad inferior al segmento"
+    ],
+    "en": [
+      "DCT transmission: fragility with launch control",
+      "Turbos: lag at low rpm",
+      "Chassis: extreme stiffness, reduced comfort",
+      "Tires: accelerated wear on rear-wheel drive",
+      "Audio system: below-segment quality"
+    ],
+    "fr": [
+      "Boîte DCT : fragilité avec le launch control",
+      "Turbos : latence aux bas régimes",
+      "Châssis : rigidité extrême, confort réduit",
+      "Pneus : usure accélérée en traction arrière",
+      "Système audio : qualité inférieure au segment"
+    ],
+    "ar": [
+      "ناقل الحركة ناقل حركة مزدوج القابض: ضعف مع نظام الانطلاق",
+      "التوربينات: تأخر في الدورات المنخفضة",
+      "الهيكل: صلابة مفرطة، راحة أقل",
+      "الإطارات: تآكل سريع في الدفع الخلفي",
+      "نظام الصوت: جودة أقل من الفئة"
+    ]
+  },
+  "rating": {
+    "overall": 9.1,
+    "performance": 9.9,
+    "comfort": 7.5,
+    "technology": 7.8,
+    "design": 9,
+    "value": 8.2,
+    "reliability": 8
+  },
+  "nextYear": 2027,
+  "comparisons": [
+    {
+      "carId": "porsche-911-2026",
+      "category": "performance",
+      "similarity": 82,
+      "summary": {
+        "es": "La 911 Turbo S es más refinada y rápida; la GT-R ofrece más potencia bruta por menos dinero.",
+        "en": "The 911 Turbo S is more refined and faster; the GT-R offers more raw power for less money.",
+        "fr": "La 911 Turbo S est plus raffinée et plus rapide; la GT-R offre plus de puissance brute pour moins cher.",
+        "ar": "911 Turbo S أكثر refinement وسرعة؛ GT-R تقدم قوة خام أكثر بأقل سعر."
+      },
+      "nameAr": "بورش 911",
+      "fullNameAr": "بورش 911 توربو أس"
+    },
+    {
+      "carId": "mercedes-amg-gt-2026",
+      "category": "performance",
+      "similarity": 78,
+      "summary": {
+        "es": "El AMG GT es más lujoso y tecnológico; la GT-R gana en aceleración y tracción AWD.",
+        "en": "The AMG GT is more luxurious and tech-forward; the GT-R wins on acceleration and AWD traction.",
+        "fr": "L'AMG GT est plus luxueux et technologique; la GT-R gagne en accélération et traction AWD.",
+        "ar": "AMG GT أكثر فخامة وتقنية؛ GT-R تتفوق في التسارع والجذب AWD."
+      },
+      "nameAr": "مرسيدس-أي أم جي جي تي",
+      "fullNameAr": "مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس"
+    }
+  ],
+  "ownership": {
+    "es": {
+      "dailyUsability": "Coupé de 4 plazas con tracción AWD. Cómodo para trayectos cortos pero con suspensión deportiva rígida.",
+      "reliability": "Motor VR38DETT robusto, pero la transmisión GR6, turbos y diferenciales requieren mantenimiento estricto.",
+      "longTrips": "Capaz de viajes largos aunque el ruido y la suspensión deportiva pueden cansar. Autonomía limitada por consumo.",
+      "cityDriving": "No es ideal para ciudad diaria. Suspensión dura, bajos y visibilidad reducida. Mejor para fines de semana.",
+      "commonIssues": [
+        {
+          "issue": "Transmisión GR6",
+          "frequency": "Frecuente",
+          "cost": "3.000 – 8.000 €"
+        },
+        {
+          "issue": "Turbos VR38DETT",
+          "frequency": "60.000 – 80.000 km",
+          "cost": "4.000 – 7.000 €"
+        },
+        {
+          "issue": "Frenos carbocerámicos",
+          "frequency": "Track",
+          "cost": "4.000 – 6.000 €"
+        },
+        {
+          "issue": "Sistema ATTESA",
+          "frequency": "Ocasional",
+          "cost": "1.500 – 3.000 €"
+        }
+      ],
+      "summary": "Propiedad emocionante pero exigente: el GT-R premia a quienes mantienen la mecánica a punto y lo usan en track days.",
+      "serviceSchedule": "Cada 10.000 km o 1 año: cambio de aceite y filtros. Cada 40.000 km: bujías, refrigerante y revisión de transmisión.",
+      "issues": "Posible desgaste prematuro de rodamientos de transmisión y sobrecalentamiento en circuitos si no se revisa refrigerante.",
+      "community": "Comunidad enorme de fans y preparadores; abundancia de piezas y conocimiento compartido.",
+      "dailySuitability": " usable a diario, aunque firme y ruidoso; ideal como fin de semana o track day."
+    },
+    "en": {
+      "dailyUsability": "4-seat coupe with AWD. Comfortable for short trips but with a stiff sporty suspension.",
+      "reliability": "Robust VR38DETT engine, but the GR6 transmission, turbos and differentials require strict maintenance.",
+      "longTrips": "Capable of long trips although noise and sporty suspension can tire. Limited range due to consumption.",
+      "cityDriving": "Not ideal for daily city use. Stiff suspension, low ride height and reduced visibility. Better for weekends.",
+      "commonIssues": [
+        {
+          "issue": "GR6 transmission",
+          "frequency": "Common",
+          "cost": "€3,000 – €8,000"
+        },
+        {
+          "issue": "VR38DETT turbos",
+          "frequency": "60,000 – 80,000 km",
+          "cost": "€4,000 – €7,000"
+        },
+        {
+          "issue": "Carbon ceramic brakes",
+          "frequency": "Track",
+          "cost": "€4,000 – €6,000"
+        },
+        {
+          "issue": "ATTESA system",
+          "frequency": "Occasional",
+          "cost": "€1,500 – €3,000"
+        }
+      ],
+      "summary": "An exciting but demanding ownership experience: the GT-R rewards those who keep the mechanics in top shape and use it on track days.",
+      "serviceSchedule": "Every 10,000 km or 1 year: oil and filter change. Every 40,000 km: spark plugs, coolant and transmission inspection.",
+      "issues": "Possible premature transmission bearing wear and overheating on track if coolant is not checked.",
+      "community": "Huge fan and tuner community; abundant parts and shared knowledge.",
+      "dailySuitability": "Usable daily, though firm and noisy; ideal as a weekend or track-day car."
+    },
+    "fr": {
+      "summary": "Expérience de possession passionnante mais exigeante : la GT-R récompense ceux qui maintiennent la mécanique en parfait état et l'utilisent sur circuit.",
+      "reliability": "Moteur VR38DETT robuste, mais la boîte GR6, les turbos et les différentiels nécessitent un entretien strict.",
+      "serviceSchedule": "Tous les 10 000 km ou 1 an : vidange et filtres. Tous les 40 000 km : bougies, liquide de refroidissement et inspection de la boîte.",
+      "issues": "Usure prématurée possible des roulements de transmission et surchauffe sur circuit si le liquide de refroidissement n'est pas vérifié.",
+      "community": "Énorme communauté de fans et de préparateurs; pièces abondantes et connaissances partagées.",
+      "dailySuitability": "Utilisable au quotidien, bien que ferme et bruyante; idéale comme voiture de week-end ou de circuit."
+    },
+    "ar": {
+      "summary": "تجربة ملكية مثيرة ولكنها تتطلب جهدًا: جي تي آر تكافئ من يحافظ على الميكانيك في أفضل حالة ويستخدمها في أيام الحلبة.",
+      "reliability": "محرك ڤي آر 38 دي إي تي تي قوي، لكن علبة جي آر 6 والتيربينات والدفرنسات تتطلب صيانة صارمة.",
+      "serviceSchedule": "كل 10,000 كم أو سنة: تغيير الزيت والفلاتر. كل 40,000 كم: البوجيهات، مبرد المحرك وفحص العلبة.",
+      "issues": "احتمال تآكل مبكر لمحامل الناقل والاحتراق في الحلبة إذا لم يتم فحص المبرد.",
+      "community": "مجتمع ضخم من المعجبين والمعدلين؛ قطع غيار وفيرة ومعرفة مشتركة.",
+      "dailySuitability": "قابلة للاستخدام اليومي، لكنها صلبة وصاخبة؛ مثالية كسيارة نهاية الأسبوع أو الحلبة."
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 20 (máximo)",
+        "uk": "Grupo 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Aproximadamente 900 €/año",
+        "uk": "£2.500 primer año",
+        "germany": "Según cilindrada"
+      },
+      "servicing": {
+        "intervalKm": 10000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 600,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "295/35 R20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "Consumo medio real de 13-15 L/100 km; en circuito puede superar 22 L/100 km.",
+      "warranty": {
+        "years": 3,
+        "km": 100000,
+        "powertrain": {
+          "years": 5,
+          "km": 100000
+        }
+      },
+      "summary": "El GT-R es costoso de mantener por consumo, seguro y desgaste de frenos/neumáticos, pero más barato que rivales europeos de similar potencia.",
+      "maintenance": "Mantenimiento anual alrededor de 1.200-1.800 EUR con especialista; transmisión GR6 y turbos requieren revisión.",
+      "insurance": "Seguro a todo riesgo entre 2.500 y 4.000 EUR/año según país y historial.",
+      "depreciation": "La demanda de culto frena la depreciación; modelo NISMO mantiene valor mejor que versiones estándar.",
+      "tax": "Impuesto de matriculación elevado por CO2 y potencia en países europeos."
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 20 (maximum)",
+        "uk": "Group 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Approximately €900/year",
+        "uk": "£2,500 first year",
+        "germany": "Based on displacement"
+      },
+      "servicing": {
+        "intervalKm": 10000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 600,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "295/35 R20",
+          "costPerTyre": {
+            "value": 380,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "Real-world average 13-15 L/100 km; on track it can exceed 22 L/100 km.",
+      "warranty": {
+        "years": 3,
+        "km": 100000,
+        "powertrain": {
+          "years": 5,
+          "km": 100000
+        }
+      },
+      "summary": "The GT-R is expensive to run due to fuel, insurance and brake/tire wear, but cheaper than European rivals of similar power.",
+      "maintenance": "Annual maintenance around 1,200-1,800 EUR with a specialist; GR6 transmission and turbos need attention.",
+      "insurance": "Comprehensive insurance between 2,500 and 4,000 EUR/year depending on country and history.",
+      "depreciation": "Cult demand slows depreciation; the NISMO model holds value better than standard versions.",
+      "tax": "High registration tax due to CO2 and power in European countries."
+    },
+    "fr": {
+      "summary": "La GT-R est coûteuse à l'usage à cause du carburant, de l'assurance et de l'usure freins/pneus, mais moins chère que les rivales européennes de puissance similaire.",
+      "fuel": "Consommation réelle moyenne de 13-15 L/100 km; sur circuit elle peut dépasser 22 L/100 km.",
+      "maintenance": "Entretien annuel autour de 1 200-1 800 EUR avec un spécialiste; la boîte GR6 et les turbos nécessitent une surveillance.",
+      "insurance": "Assurance tous risques entre 2 500 et 4 000 EUR/an selon le pays et l'historique.",
+      "depreciation": "La demande culte ralentit la dépréciation; le modèle NISMO conserve mieux sa valeur que les versions standard.",
+      "tax": "Taxe d'immatriculation élevée en raison du CO2 et de la puissance dans les pays européens."
+    },
+    "ar": {
+      "summary": "جي تي آر مكلفة في التشغيل بسبب الوقود والتأمين واستهلاك الفرامل/الإطارات، لكنها أرخص من المنافسين الأوروبيين بنفس القدرة.",
+      "fuel": "متوسط ​​استهلاك حقيقي 13-15 لتر/100 كم؛ في الحلبة يمكن أن تتجاوز 22 لتر/100 كم.",
+      "maintenance": "الصيانة السنوية حوالي 1,200-1,800 يورو مع متخصص؛ علبة جي آر 6 والتيربينات تحتاجان عناية.",
+      "insurance": "تأمين شامل بين 2,500 و4,000 يورو/سنة حسب الدولة والسجل.",
+      "depreciation": "الطلب الجماهيري يبطئ الاستهلاك؛ طراز نيسمو يحافظ على قيمته أكثر من النسخ العادية.",
+      "tax": "ضريبة تسجيل مرتفعة بسبب ثاني أكسيد الكربون والقدرة في الدول الأوروبية."
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "La GT-R NISMO obtiene una nota muy alta en rendimiento y valor, con puntuaciones sólidas en conducción y diseño.",
+      "worthDesc": "Es una de las mejores opciones para quien busca aceleración brutal sin pagar el precio de un hipercar europeo.",
+      "reviewText": "El Nissan GT-R NISMO es Godzilla en estado puro: brutalmente rápido, capaz en circuito y con una comunidad enorme. Su plataforma envejece, pero la mecánica sigue siendo sobresaliente.",
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "timeline": [
+        "10000 km: revisión anual",
+        "20000 km: filtros y fluidos",
+        "40000 km: revisión mayor",
+        "60000 km: frenos y neumáticos"
+      ],
+      "faq": {
+        "q1": "¿Cuántos caballos tiene el Nissan GT-R NISMO 2026?",
+        "a1": "El Nissan GT-R NISMO 2026 entrega 600 HP y 652 Nm de par con su motor VR38DETT V6 twin-turbo.",
+        "q2": "¿Cuánto acelera el GT-R NISMO de 0 a 100 km/h?",
+        "a2": "El GT-R NISMO acelera de 0 a 100 km/h en aproximadamente 2.7 segundos.",
+        "q3": "¿Cuál es el precio del Nissan GT-R NISMO 2026?",
+        "a3": "En Estados Unidos, el GT-R NISMO tiene un precio base de 221.090 USD. En Europa, precios similares en torno a 200.000 €.",
+        "q4": "¿Es fiable el Nissan GT-R?",
+        "a4": "El VR38DETT es muy robusto si se mantiene correctamente. La transmisión GR6 y los turbos requieren revisiones específicas.",
+        "q5": "¿Nissan GT-R o Porsche 911 Turbo S?",
+        "a5": "El GT-R ofrece más potencia bruta y tracción AWD por menos precio. El 911 Turbo S tiene mejor refinamiento y prestige.",
+        "q6": "¿Cuánto consume el GT-R NISMO?",
+        "a6": "El consumo combinado real ronda los 13-15 L/100 km. En circuito puede superar los 20 L/100 km.",
+        "q7": "¿Vale la pena comprar un Nissan GT-R de segunda mano?",
+        "a7": "Sí, si se busca rendimiento bruto a buen precio. Revisar historial de mantenimiento, estado de turbos y transmisión GR6."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autopista",
+          "desc": "Rápido y estable, aunque el ruido y consumo son elevados."
+        },
+        "city": {
+          "title": "Ciudad",
+          "desc": "No es su hábitat natural: duro, bajo y poco práctico."
+        },
+        "family": {
+          "title": "Familiar",
+          "desc": "4 plazas teóricas, trasero muy reducido."
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "R35 NISMO, una leyenda moderna del JDM."
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "Donde mejor se desempeña: AWD, turbos y frenos."
+        },
+        "engineCode": "VR38DETT",
+        "drivetrain": "ATTESA E-TS AWD",
+        "transmission": "GR6 6DCT",
+        "weight": 1740,
+        "power": 600,
+        "0to100": 2.7
+      },
+      "usedGuide": {
+        "card1Title": "Kilometraje y estado",
+        "card1Items": [
+          "Hasta 40.000 km: mejor relación valor",
+          "Revisar historial Nissan/NISMO",
+          "Evitar unidades con mapas de potencia agresivos"
+        ],
+        "card2Title": "Mecánica",
+        "card2Items": [
+          "Revisar turbos e intercoolers",
+          "Probar cambios de la GR6",
+          "Comprobar estado de frenos y neumáticos"
+        ],
+        "card3Title": "Electrónica",
+        "card3Items": [
+          "Actualizaciones del sistema ATTESA",
+          "Funcionamiento de Nissan Connect",
+          "Sensores y cámaras"
+        ],
+        "card4Title": "Precio y reventa",
+        "card4Items": [
+          "Mejor compra a los 3-5 años",
+          "Ediciones NISMO y T-spec valoradas",
+          "Colores icónicos: blanco, gris, rojo"
+        ]
+      },
+      "dep": {
+        "loss3": "~30% de pérdida a los 3 años",
+        "loss5": "~50% de pérdida a los 5 años"
+      },
+      "versions": {
+        "sportbackDesc": "Nissan GT-R NISMO con 600 HP y tracción ATTESA E-TS.",
+        "performanceDesc": "Mayor potencia y equipamiento NISMO.",
+        "carbonDesc": "Fibra de carbono y exclusividad NISMO.",
+        "nissangtrnismoDesc": "Nissan GT-R NISMO con 600 HP y aero de competición."
+      },
+      "buyStatus": "Recomendada",
+      "pros": [
+        "Aceleración 0-100 km/h en 2.7 s",
+        "Tracción total y gran agarre",
+        "Mecánica robusta y tuneable",
+        "Relación precio/rendimiento"
+      ],
+      "cons": [
+        "Interior envejecido",
+        "Peso elevado",
+        "Mantenimiento exigente",
+        "Tecnología limitada frente a rivales"
+      ]
+    },
+    "en": {
+      "scoreDesc": "The GT-R NISMO scores very high in performance and value, with solid marks for driving and design.",
+      "worthDesc": "One of the best choices for those seeking brutal acceleration without paying the price of a European hypercar.",
+      "reviewText": "The Nissan GT-R NISMO is Godzilla in pure form: brutally fast, capable on track and with a huge community. Its platform is aging, but the drivetrain remains outstanding.",
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "timeline": [
+        "10,000 km: annual service",
+        "20,000 km: filters and fluids",
+        "40,000 km: major service",
+        "60,000 km: brakes and tires"
+      ],
+      "faq": {
+        "q1": "How many horsepower does the Nissan GT-R NISMO 2026 have?",
+        "a1": "The Nissan GT-R NISMO 2026 delivers 600 HP and 652 Nm of torque with its VR38DETT V6 twin-turbo engine.",
+        "q2": "How fast does the GT-R NISMO accelerate from 0 to 100 km/h?",
+        "a2": "The GT-R NISMO accelerates from 0 to 100 km/h in approximately 2.7 seconds.",
+        "q3": "What is the price of the Nissan GT-R NISMO 2026?",
+        "a3": "In the United States, the GT-R NISMO has a base price of 221,090 USD. In Europe, similar prices around 200,000 €.",
+        "q4": "Is the Nissan GT-R reliable?",
+        "a4": "The VR38DETT is very robust if properly maintained. The GR6 transmission and turbos require specific checks.",
+        "q5": "Nissan GT-R or Porsche 911 Turbo S?",
+        "a5": "The GT-R offers more raw power and AWD traction for less price. The 911 Turbo S has better refinement and prestige.",
+        "q6": "How much does the GT-R NISMO consume?",
+        "a6": "Real combined consumption is around 13-15 L/100 km. On track it can exceed 20 L/100 km.",
+        "q7": "Is it worth buying a second-hand Nissan GT-R?",
+        "a7": "Yes, if you are looking for raw performance at a good price. Check maintenance history, turbo condition and GR6 transmission."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Highway",
+          "desc": "Fast and stable, although noise and consumption are high."
+        },
+        "city": {
+          "title": "City",
+          "desc": "Not its natural habitat: stiff, low and impractical."
+        },
+        "family": {
+          "title": "Family",
+          "desc": "4 theoretical seats, very small rear."
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "R35 NISMO, a modern JDM legend."
+        },
+        "track": {
+          "title": "Track",
+          "desc": "Where it performs best: AWD, turbos and brakes."
+        },
+        "engineCode": "VR38DETT",
+        "drivetrain": "ATTESA E-TS AWD",
+        "transmission": "GR6 6DCT",
+        "weight": 1740,
+        "power": 600,
+        "0to100": 2.7
+      },
+      "usedGuide": {
+        "card1Title": "Mileage and condition",
+        "card1Items": [
+          "Up to 40,000 km: best value",
+          "Check Nissan/NISMO history",
+          "Avoid units with aggressive power maps"
+        ],
+        "card2Title": "Mechanics",
+        "card2Items": [
+          "Check turbos and intercoolers",
+          "Test GR6 shifts",
+          "Check brakes and tyres"
+        ],
+        "card3Title": "Electronics",
+        "card3Items": [
+          "ATTESA system updates",
+          "Nissan Connect operation",
+          "Sensors and cameras"
+        ],
+        "card4Title": "Price and resale",
+        "card4Items": [
+          "Best buy at 3-5 years",
+          "NISMO and T-spec editions valued",
+          "Iconic colors: white, grey, red"
+        ]
+      },
+      "dep": {
+        "loss3": "~30% loss at 3 years",
+        "loss5": "~50% loss at 5 years"
+      },
+      "versions": {
+        "sportbackDesc": "Nissan GT-R NISMO with 600 HP and ATTESA E-TS AWD.",
+        "performanceDesc": "More power and NISMO equipment.",
+        "carbonDesc": "Carbon fiber and NISMO exclusivity.",
+        "nissangtrnismoDesc": "Nissan GT-R NISMO with 600 HP and racing aero."
+      },
+      "buyStatus": "Recommended",
+      "pros": [
+        "0-100 km/h in 2.7 s",
+        "All-wheel drive and huge grip",
+        "Robust and tuneable engine",
+        "Performance-per-price ratio"
+      ],
+      "cons": [
+        "Aged interior",
+        "Heavy weight",
+        "Demanding maintenance",
+        "Limited technology versus rivals"
+      ]
+    },
+    "fr": {
+      "scoreDesc": "La GT-R NISMO obtient une note très élevée en performance et valeur, avec des scores solides en conduite et design.",
+      "worthDesc": "C'est l'une des meilleures options pour ceux qui recherchent une accélération brutale sans payer le prix d'une hypercar européenne.",
+      "buyStatus": "Recommandée",
+      "reviewText": "La Nissan GT-R NISMO est Godzilla à l'état pur : brutalement rapide, capable sur circuit et avec une immense communauté. Sa plateforme vieillit, mais la mécanique reste exceptionnelle.",
+      "pros": [
+        "0-100 km/h en 2,7 s",
+        "Traction intégrale et immense adhérence",
+        "Moteur robuste et tunable",
+        "Rapport performance-prix"
+      ],
+      "cons": [
+        "Intérieur vieillissant",
+        "Poids élevé",
+        "Entretien exigeant",
+        "Technologie limitée face aux rivales"
+      ],
+      "timeline": [
+        "10 000 km : révision annuelle",
+        "20 000 km : filtres et fluides",
+        "40 000 km : révision majeure",
+        "60 000 km : freins et pneus"
+      ],
+      "profileData": {
+        "engineCode": "VR38DETT",
+        "drivetrain": "ATTESA E-TS AWD",
+        "transmission": "GR6 6DCT",
+        "weight": 1740,
+        "power": 600,
+        "0to100": 2.7
+      },
+      "faq": {
+        "q1": "Combien de chevaux a la Nissan GT-R NISMO 2026 ?",
+        "a1": "La Nissan GT-R NISMO 2026 développe 600 HP et 652 Nm de couple avec son moteur VR38DETT V6 biturbo.",
+        "q2": "Quelle est l'accélération de 0 à 100 km/h de la GT-R NISMO ?",
+        "a2": "La GT-R NISMO accélère de 0 à 100 km/h en environ 2.7 secondes.",
+        "q3": "Quel est le prix de la Nissan GT-R NISMO 2026 ?",
+        "a3": "Aux États-Unis, la GT-R NISMO a un prix de base de 221 090 USD. En Europe, des prix similaires autour de 200 000 €.",
+        "q4": "La Nissan GT-R est-elle fiable ?",
+        "a4": "Le VR38DETT est très robuste s'il est bien entretenu. La boîte GR6 et les turbos nécessitent des révisions spécifiques.",
+        "q5": "Nissan GT-R ou Porsche 911 Turbo S ?",
+        "a5": "La GT-R offre plus de puissance brute et une traction AWD pour moins cher. La 911 Turbo S a un meilleur raffinement et prestige.",
+        "q6": "Quelle est la consommation de la GT-R NISMO ?",
+        "a6": "La consommation combinée réelle est d'environ 13-15 L/100 km. En circuit, elle peut dépasser 20 L/100 km.",
+        "q7": "Vaut-il le coup d'acheter une Nissan GT-R d'occasion ?",
+        "a7": "Oui, si l'on cherche des performances brutes à bon prix. Vérifier l'historique d'entretien, l'état des turbos et de la boîte GR6."
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "usedGuide": {
+        "card1Title": "Kilométrage et état",
+        "card1Items": [
+          "Jusqu'à 40 000 km : meilleur rapport qualité-prix",
+          "Vérifier l'historique Nissan/NISMO",
+          "Éviter les unités avec cartographies agressives"
+        ],
+        "card2Title": "Mécanique",
+        "card2Items": [
+          "Vérifier turbos et intercoolers",
+          "Tester les passages de la GR6",
+          "Vérifier l'état des freins et pneus"
+        ],
+        "card3Title": "Électronique",
+        "card3Items": [
+          "Mises à jour du système ATTESA",
+          "Fonctionnement de Nissan Connect",
+          "Capteurs et caméras"
+        ],
+        "card4Title": "Prix et revente",
+        "card4Items": [
+          "Meilleur achat à 3-5 ans",
+          "Éditions NISMO et T-spec valorisées",
+          "Couleurs iconiques : blanc, gris, rouge"
+        ]
+      },
+      "dep": {
+        "loss3": "~30% de perte à 3 ans",
+        "loss5": "~50% de perte à 5 ans"
+      },
+      "versions": {
+        "sportbackDesc": "Nissan GT-R NISMO avec 600 HP et traction ATTESA E-TS.",
+        "performanceDesc": "Plus de puissance et équipement NISMO.",
+        "carbonDesc": "Fibre de carbone et exclusivité NISMO.",
+        "nissangtrnismoDesc": "Nissan GT-R NISMO avec 600 HP et aéro de compétition."
+      }
+    },
+    "ar": {
+      "scoreDesc": "تحصل جي تي-آر نيسمو على درجة عالية جداً في الأداء والقيمة، مع درجات جيدة في القيادة والتصميم.",
+      "worthDesc": "إنها واحدة من أفضل الخيارات لمن يبحث عن تسارع وحشي دون دفع سعر السيارة الأوروبية الهايبركار.",
+      "buyStatus": "موصى بها",
+      "reviewText": "نيسان جي تي-آر نيسمو هي غودزيلا في أقصى صورها: سريعة بشكل وحشي، قادرة على الحلبة وتحظى بمجتمع ضخم. منصتها تتقدم في السن، لكن الميكانيكا لا تزال متميزة.",
+      "pros": [
+        "0-100 كم/س في 2.7 ثانية",
+        "دفع كلي وقبضة هائلة",
+        "محرك قوي وقابل للتعديل",
+        "نسبة الأداء إلى السعر"
+      ],
+      "cons": [
+        "مقصورة قديمة",
+        "وزن مرتفع",
+        "صيانة متطلبة",
+        "تقنية محدودة مقارنة بالمنافسين"
+      ],
+      "timeline": [
+        "10,000 كم: الصيانة السنوية",
+        "20,000 كم: الفلاتر والسوائل",
+        "40,000 كم: الصيانة الكبرى",
+        "60,000 كم: الفرامل والإطارات"
+      ],
+      "profileData": {
+        "engineCode": "في آر38 ديت",
+        "drivetrain": "أتيسا إي-تي أس دفع رباعي",
+        "transmission": "جي آر6 ناقل حركة مزدوج 6 سرعات",
+        "weight": 1740,
+        "power": 600,
+        "0to100": 2.7
+      },
+      "faq": {
+        "q1": "كم حصان لدى نيسان جي تي-آر نيسمو 2026؟",
+        "a1": "تولد نيسان جي تي-آر نيسمو 2026 600 حصان و 652 نيوتن متر من عزم الدوران بمحرك في آر38 ديت محرك 6 أسطوانات شاحنين توربينيين.",
+        "q2": "كم تسارع جي تي-آر نيسمو من 0 إلى 100 كم/س؟",
+        "a2": "تسارع جي تي-آر نيسمو من 0 إلى 100 كم/س في حوالي 2.7 ثانية.",
+        "q3": "ما سعر نيسان جي تي-آر نيسمو 2026؟",
+        "a3": "في الولايات المتحدة، سعر جي تي-آر نيسمو الأساسي 221,090 دولار. في أوروبا، أسعار مماثلة حوالي 200,000 يورو.",
+        "q4": "هل نيسان جي تي-آر موثوقة؟",
+        "a4": "محرك في آر38 ديت قوي جداً إذا تم صيانته بشكل صحيح. ناقل الحركة جي آر6 والتوربينات تحتاجان فحوصات محددة.",
+        "q5": "نيسان جي تي-آر أم بورش 911 توربو أس؟",
+        "a5": "توفر جي تي-آر قوة أكبر ودفع رباعي بسعر أقل. 911 توربو أس تتمتع بجودة أعلى وهيبة أكبر.",
+        "q6": "ما استهلاك جي تي-آر نيسمو؟",
+        "a6": "الاستهلاك المختلط الحقيقي حوالي 13-15 لتر/100 كم. في الحلبة يمكن أن يتجاوز 20 لتر/100 كم.",
+        "q7": "هل يستحق شراء نيسان جي تي-آر مستعمل؟",
+        "a7": "نعم، إذا كنت تبحث عن أداء خام بسعر جيد. تحقق من سجل الصيانة وحالة التوربينات وناقل الحركة جي آر6."
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "usedGuide": {
+        "card1Title": "الكيلومتراج والحالة",
+        "card1Items": [
+          "حتى 40,000 كم: أفضل قيمة",
+          "التحقق من سجل نيسان/نيسمو",
+          "تجنب السيارات بخرائط قوة عدوانية"
+        ],
+        "card2Title": "الميكانيكا",
+        "card2Items": [
+          "التحقق من التوربينات والمبردات",
+          "اختبار تغييرات جي آر6",
+          "التحقق من حالة الفرامل والإطارات"
+        ],
+        "card3Title": "الإلكترونيات",
+        "card3Items": [
+          "تحديثات نظام أتيسا",
+          "عمل نيسان للاتصال",
+          "المستشعرات والكاميرات"
+        ],
+        "card4Title": "السعر وإعادة البيع",
+        "card4Items": [
+          "أفضل شراء من 3-5 سنوات",
+          "إصدارات نيسمو و تي-سبيك ذات قيمة أعلى",
+          "ألوان أيقونية: أبيض، رمادي، أحمر"
+        ]
+      },
+      "dep": {
+        "loss3": "~30% خسارة بعد 3 سنوات",
+        "loss5": "~50% خسارة بعد 5 سنوات"
+      },
+      "versions": {
+        "sportbackDesc": "نيسان جي تي-آر نيسمو بـ 600 حصان ودفع أتيسا إي-تي أس.",
+        "performanceDesc": "مزيد من القوة وتجهيزات نيسمو.",
+        "carbonDesc": "ألياف كربونية وحصرية نيسمو.",
+        "nissangtrnismoDesc": "نيسان جي تي-آر نيسمو بـ 600 حصان وهواء سباقات."
+      }
+    }
+  },
+  "ownerReviews": {
+    "es": [
+      {
+        "quote": "Mi GT-R NISMO es pura adrenalina. La aceleración desde parado es brutal y el sonido del VR38 es inconfundible.",
+        "author": "Kenji T.",
+        "location": "Tokio, Japón",
+        "ownsSince": "2024",
+        "rating": 9.8
+      },
+      {
+        "quote": "Requiere respeto y mantenimiento, pero es un superdeportivo accesible. El AWD te salva en cualquier situación.",
+        "author": "Marc S.",
+        "location": "Stuttgart, Alemania",
+        "ownsSince": "2023",
+        "rating": 9
+      }
+    ],
+    "en": [
+      {
+        "quote": "My GT-R NISMO is pure adrenaline. The acceleration from standstill is brutal and the VR38 sound is unmistakable.",
+        "author": "Kenji T.",
+        "location": "Tokyo, Japan",
+        "ownsSince": "2024",
+        "rating": 9.8
+      },
+      {
+        "quote": "It requires respect and maintenance, but it's an accessible supercar. The AWD saves you in any situation.",
+        "author": "Marc S.",
+        "location": "Stuttgart, Germany",
+        "ownsSince": "2023",
+        "rating": 9
+      }
+    ]
+  },
+  "profileData": {
+    "es": {
+      "highway": {
+        "score": "85/100",
+        "title": "Autopista",
+        "desc": "Rápido y estable, alto consumo."
+      },
+      "city": {
+        "score": "55/100",
+        "title": "Ciudad",
+        "desc": "Duro, bajo e impráctico."
+      },
+      "family": {
+        "score": "60/100",
+        "title": "Familiar",
+        "desc": "4 plazas, trasero reducido."
+      },
+      "collector": {
+        "score": "95/100",
+        "title": "Coleccionista",
+        "desc": "Leyenda moderna del JDM."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "Circuito",
+        "desc": "Rendimiento máximo con AWD."
+      }
+    },
+    "en": {
+      "highway": {
+        "score": "85/100",
+        "title": "Highway",
+        "desc": "Fast and stable, high consumption."
+      },
+      "city": {
+        "score": "55/100",
+        "title": "City",
+        "desc": "Stiff, low and impractical."
+      },
+      "family": {
+        "score": "60/100",
+        "title": "Family",
+        "desc": "4 seats, small rear."
+      },
+      "collector": {
+        "score": "95/100",
+        "title": "Collector",
+        "desc": "Modern JDM legend."
+      },
+      "track": {
+        "score": "98/100",
+        "title": "Track",
+        "desc": "Maximum performance with AWD."
+      }
+    }
+  },
+  "usedGuide": {
+    "card1Title": "Kilometraje y estado",
+    "card1Items": [
+      "Hasta 40.000 km: mejor relación valor",
+      "Revisar historial Nissan/NISMO",
+      "Evitar unidades con mapas de potencia agresivos"
+    ],
+    "card2Title": "Mecánica",
+    "card2Items": [
+      "Revisar turbos e intercoolers",
+      "Probar cambios de la GR6",
+      "Comprobar estado de frenos y neumáticos"
+    ],
+    "card3Title": "Electrónica",
+    "card3Items": [
+      "Actualizaciones del sistema ATTESA",
+      "Funcionamiento de Nissan Connect",
+      "Sensores y cámaras"
+    ],
+    "card4Title": "Precio y reventa",
+    "card4Items": [
+      "Mejor compra a los 3-5 años",
+      "Ediciones NISMO y T-spec valoradas",
+      "Colores icónicos: blanco, gris, rojo"
+    ]
+  },
+  "review": {
+    "es": {
+      "summary": "El Nissan GT-R NISMO es un superdeportivo japonés que ofrece aceleración de hipercar por una fracción del precio, con tracción total y un motor V6 twin-turbo legendaria.",
+      "fullText": "El Nissan GT-R NISMO 2026, apodado Godzilla, sigue siendo una referencia en el mundo de los superdeportivos accesibles. Su motor VR38DETT 3.8L V6 twin-turbo desarrolla 600 HP y 652 Nm de par, gestionados por la célebre transmisión GR6 de doble embrague y el sistema ATTESA E-TS que envía par al eje trasero. Acelera de 0 a 100 km/h en 2.7 segundos y alcanza 330 km/h. El chasis está reforzado con fibra de carbono, los frenos son carbono-cerámicos y la aerodinámica genera carga real. El interior, aunque menos lujoso que el de rivales europeos, es funcional y deportivo con asientos Recaro y el sistema Nissan Connect. Es un coche visceral, rápido y con una comunidad de aficionados enorme. Su mayor virtud es la relación rendimiento-precio; su mayor defecto, el envejecimiento de la plataforma R35.",
+      "verdict": "buy",
+      "bestFor": [
+        "Aceleración brutal",
+        "Track days",
+        "Relación precio/rendimiento"
+      ],
+      "scoreBreakdown": {
+        "Rendimiento": 9.7,
+        "Confort": 7.5,
+        "Tecnología": 7.8,
+        "Diseño": 8.6,
+        "Valor": 9
+      }
+    },
+    "en": {
+      "summary": "The Nissan GT-R NISMO is a Japanese supercar offering hypercar acceleration for a fraction of the price, with all-wheel drive and a legendary twin-turbo V6.",
+      "fullText": "The 2026 Nissan GT-R NISMO, nicknamed Godzilla, remains a benchmark in the world of accessible supercars. Its VR38DETT 3.8L V6 twin-turbo engine produces 600 hp and 652 Nm of torque, managed by the famous GR6 dual-clutch transmission and the ATTESA E-TS system that sends torque to the rear axle. It accelerates from 0-100 km/h in 2.7 seconds and reaches 330 km/h. The chassis is reinforced with carbon fiber, the brakes are carbon-ceramic and the aerodynamics generate real downforce. The interior, although less luxurious than European rivals, is functional and sporty with Recaro seats and Nissan Connect. It is a visceral, fast car with a huge fan community. Its greatest virtue is the performance-per-dollar ratio; its biggest flaw, the aging R35 platform.",
+      "verdict": "buy",
+      "bestFor": [
+        "Brutal acceleration",
+        "Track days",
+        "Performance-per-price ratio"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.7,
+        "Comfort": 7.5,
+        "Technology": 7.8,
+        "Design": 8.6,
+        "Value": 9
+      }
+    },
+    "fr": {
+      "summary": "La Nissan GT-R NISMO est une supercar japonaise offrant une accélération d'hypercar pour une fraction du prix, avec traction intégrale et un V6 biturbo légendaire.",
+      "fullText": "La Nissan GT-R NISMO 2026, surnommée Godzilla, reste une référence dans le monde des supercars accessibles. Son moteur VR38DETT 3.8L V6 biturbo développe 600 ch et 652 Nm de couple, gérés par la célèbre transmission GR6 à double embrayage et le système ATTESA E-TS qui envoie le couple à l'essieu arrière. Elle accélère de 0 à 100 km/h en 2,7 secondes et atteint 330 km/h. Le châssis est renforcé en fibre de carbone, les freins sont carbone-céramique et l'aérodynamique génère un appui réel. L'intérieur, bien que moins luxueux que les rivales européennes, est fonctionnel et sportif avec des sièges Recaro et Nissan Connect. C'est une voiture viscérale, rapide et avec une immense communauté de fans. Sa plus grande vertu est le rapport performance-prix; son plus grand défaut, le vieillissement de la plateforme R35.",
+      "verdict": "buy",
+      "bestFor": [
+        "Accélération brutale",
+        "Journées circuit",
+        "Rapport performance-prix"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.7,
+        "Confort": 7.5,
+        "Technologie": 7.8,
+        "Design": 8.6,
+        "Valeur": 9
+      }
+    },
+    "ar": {
+      "summary": "نيسان جي تي آر نيسمو هي سوبركار يابانية تقدم تسارع سيارة هايبركار بجزء بسيط من السعر، مع دفع كلي ومحرك محرك 6 أسطوانات توين تيربو أسطوري.",
+      "fullText": "نيسان جي تي آر نيسمو 2026، الملقبة بـ غودزيلا، لا تزال مرجعاً في عالم السوبركار المتاحة. محرك ڤي آر 38 دي إي تي تي 3.8 لتر محرك 6 أسطوانات توين تيربو ينتج 600 حصان و652 نيوتن متر من عزم الدوران، يتم إدارته بواسطة علبة جي آر 6 الشهيرة بقابض مزدوج ونظام أتيسا إي-تي-إس الذي يرسل العزم للمحور الخلفي. تتسارع من 0 إلى 100 كم/س في 2.7 ثانية وتصل إلى 330 كم/س. الهيكل معزز بألياف الكربون، والفرامل من كربون-سيراميك، والديناميكا الهوائية تولد قوة دفع حقيقية. المقصورة، على الرغم من أنها أقل فخامة من المنافسين الأوروبيين، إلا أنها عملية ورياضية مع مقاعد ريكارو ونظام نيسان كونكت. إنها سيارة حماسية وسريعة وبها مجتمع ضخم من المعجبين. إن أعظم فضيلة لها هي نسبة الأداء إلى السعر؛ وأكبر عيبها، تقادم منصة آر 35.",
+      "verdict": "شراء",
+      "bestFor": [
+        "تسارع وحشي",
+        "أيام الحلبة",
+        "نسبة الأداء إلى السعر"
+      ],
+      "scoreBreakdown": {
+        "الأداء": 9.7,
+        "الراحة": 7.5,
+        "التقنية": 7.8,
+        "التصميم": 8.6,
+        "القيمة": 9
+      }
+    }
+  },
+  "handling": {
+    "es": {
+      "summary": "El GT-R es una máquina de tracción y precisión: pesado pero capaz de generar velocidades de paso por curva incompatibles con su tamaño.",
+      "bodyRoll": "Mínimo gracias a suspensiones firmes, barra estabilizadora delantera y ajustes específicos de NISMO.",
+      "grip": "Inmensa adherencia con neumáticos específicos y ATTESA E-TS que distribuye par entre ejes.",
+      "steeringFeel": "Dirección precisa y rápida, con buena retroalimentación para ser asistida eléctricamente.",
+      "balance": "Tendencia a subviraje controlado; el eje trasero puede girar con el acelerador si se desconecta la estabilidad.",
+      "trackWorthiness": "Creado para el circuito: frena tarde, acelera pronto y aguanta tandas con una fiabilidad rara en superdeportivos."
+    },
+    "en": {
+      "summary": "The GT-R is a traction and precision machine: heavy but capable of cornering speeds that defy its size.",
+      "bodyRoll": "Minimal thanks to firm suspension, front anti-roll bar and NISMO-specific tuning.",
+      "grip": "Immense grip with bespoke tires and ATTESA E-TS that distributes torque between axles.",
+      "steeringFeel": "Precise and quick steering, with good feedback for an electric-assisted rack.",
+      "balance": "Controlled understeer tendency; the rear axle can rotate with throttle if stability is turned off.",
+      "trackWorthiness": "Built for the track: brakes late, accelerates early and survives sessions with rare reliability for a supercar."
+    },
+    "fr": {
+      "summary": "La GT-R est une machine de traction et de précision : lourde mais capable de vitesses en virage incompatibles avec sa taille.",
+      "bodyRoll": "Minimal grâce à une suspension ferme, barre anti-roulis avant et réglages spécifiques NISMO.",
+      "grip": "Adhérence immense avec des pneus spécifiques et l'ATTESA E-TS qui distribue le couple entre les essieux.",
+      "steeringFeel": "Direction précise et rapide, avec un bon retour d'information pour une assistance électrique.",
+      "balance": "Tendance au sous-virage contrôlé; l'essieu arrière peut pivoter à l'accélérateur si la stabilité est désactivée.",
+      "trackWorthiness": "Conçue pour le circuit : freine tard, accélère tôt et résiste aux sessions avec une fiabilité rare pour une supercar."
+    },
+    "ar": {
+      "summary": "GT-R هي آلة جذب ودقة: ثقيلة لكنها قادرة على سرعات في المنعطفات تتحدى حجمها.",
+      "bodyRoll": "حدودي بفضل التعليق الرياضي، وقضيب التثبيت الأمامي وضبط NISMO الخاص.",
+      "grip": "قبضة هائلة مع إطارات خاصة ونظام ATTESA E-TS الذي يوزع العزم بين المحاور.",
+      "steeringFeel": "توجيه دقيق وسريع مع استجابة جيدة لمساعد كهربائي.",
+      "balance": "ميل للانحراف الأمامي المتحكم فيه؛ يمكن للمحور الخلفي الدوران بالدعس إذا تم إيقاف الثبات.",
+      "trackWorthiness": "مصممة للحلبة: تفرمل متأخراً، تتسارع مبكراً وتتحمل الجولات بموثوقية نادرة للسوبركار."
+    }
+  },
+  "performanceFeel": {
+    "es": {
+      "summary": "La aceleración es violenta e inmediata; el sonido del V6 twin-turbo es distintivo y la frenada carbono-cerámica no se cansa.",
+      "acceleration": "0-100 km/h en 2.7 s con una banda de par tan ancha que parece no tener fin.",
+      "braking": "Frenos carbono-cerámicos de 390 mm delante que soportan tandas enteras sin fading apreciable.",
+      "transmission": "Caja GR6 de doble embrague: cambios rápidos y secos en modo manual, suaves en modo automático.",
+      "powertrainResponse": "Respuesta inmediata por encima de 2.000 rpm; los turbos spoolan rápido y la entrega es lineal.",
+      "sound": "Rugido mecánico del V6 con silbido de turbos y pops de escape en modos deportivos."
+    },
+    "en": {
+      "summary": "Acceleration is violent and immediate; the twin-turbo V6 sound is distinctive and carbon-ceramic brakes never tire.",
+      "acceleration": "0-100 km/h in 2.7 s with a torque band so wide it seems endless.",
+      "braking": "390 mm front carbon-ceramic brakes that withstand full sessions without noticeable fade.",
+      "transmission": "GR6 dual-clutch gearbox: rapid and snappy shifts in manual mode, smooth in automatic.",
+      "powertrainResponse": "Immediate response above 2,000 rpm; turbos spool quickly and delivery is linear.",
+      "sound": "Mechanical V6 roar with turbo whistle and exhaust pops in sport modes."
+    },
+    "fr": {
+      "summary": "L'accélération est violente et immédiate; le son du V6 biturbo est distinctif et les freins carbone-céramique ne se fatiguent pas.",
+      "acceleration": "0-100 km/h en 2,7 s avec une plage de couple si large qu'elle semble infinie.",
+      "braking": "Freins carbone-céramique de 390 mm à l'avant qui supportent des sessions complètes sans fading notable.",
+      "transmission": "Boîte GR6 à double embrayage : changements rapides et secs en mode manuel, doux en mode automatique.",
+      "powertrainResponse": "Réponse immédiate au-dessus de 2 000 tr/min; les turbos se remplissent rapidement et la livraison est linéaire.",
+      "sound": "Rugissement mécanique du V6 avec sifflement des turbos et pops d'échappement en modes sport."
+    },
+    "ar": {
+      "summary": "التسارع عنيف وفوري؛ صوت V6 توين تيربو مميز وفرامل الكربون-سيراميك لا تتعب.",
+      "acceleration": "0-100 كم/س في 2.7 ثانية مع نطاق عزم واسع يبدو بلا نهاية.",
+      "braking": "فرامل كربون-سيراميك 390 مم أمامية تتحمل جولات كاملة دون اختفاء ملحوظ.",
+      "transmission": "علبة GR6 بقابض مزدوج: تبديلات سريعة وجافة في الوضع اليدوي، ناعمة في الوضع التلقائي.",
+      "powertrainResponse": "استجابة فورية فوق 2,000 دورة في الدقيقة؛ تيربينات تملأ بسرعة والتسليم خطي.",
+      "sound": "زمجرة ميكانيكية للـ V6 مع صفير التيربينات وفرقعات العادم في الأوضاع الرياضية."
+    }
+  },
+  "dailyDriving": {
+    "es": {
+      "summary": "No es un coche cómodo para la ciudad, pero en autopista o carreteras anchas es sorprendentemente civilizado.",
+      "comfort": "Suspensión firme que filtra baches pequeños pero transmite cada irregularidad importante.",
+      "practicality": "Cuatro plazas reducidas y un maletero de 315 L; válido para viajes cortos en pareja.",
+      "visibility": "Visibilidad delantera aceptable; pilares gruesos y luneta pequeña dificultan la visión trasera.",
+      "noise": "En modo normal es razonablemente silencioso; en modos R o Race, el escape y la transmisión son evidentes.",
+      "fuelEfficiency": "13-15 L/100 km reales; en ciudad o tráfico puede superar los 18 L/100 km."
+    },
+    "en": {
+      "summary": "Not a comfortable city car, but on highways or wide roads it is surprisingly civilized.",
+      "comfort": "Firm suspension that filters small bumps but transmits every major irregularity.",
+      "practicality": "Four tight seats and a 315 L trunk; suitable for short trips as a couple.",
+      "visibility": "Acceptable forward visibility; thick pillars and small rear window make reversing harder.",
+      "noise": "Reasonably quiet in normal mode; in R or Race modes, exhaust and transmission noise are obvious.",
+      "fuelEfficiency": "13-15 L/100 km in real use; in city or traffic it can exceed 18 L/100 km."
+    },
+    "fr": {
+      "summary": "Ce n'est pas une voiture confortable en ville, mais sur autoroute ou routes larges elle est étonnamment civilisée.",
+      "comfort": "Suspension ferme qui filtre les petits trous mais transmet chaque irrégularité importante.",
+      "practicality": "Quatre places réduites et un coffre de 315 L; valable pour des voyages courts en couple.",
+      "visibility": "Visibilité avant acceptable; piliers épais et lunette arrière petite rendent la marche arrière plus difficile.",
+      "noise": "Raisonnablement silencieuse en mode normal; en modes R ou Race, l'échappement et la transmission sont évidents.",
+      "fuelEfficiency": "13-15 L/100 km en usage réel; en ville ou dans les embouteillages, elle peut dépasser 18 L/100 km."
+    },
+    "ar": {
+      "summary": "ليست سيارة مريحة للمدينة، لكن على الطرق السريعة أو الطرق الواسعة فهي متحضرة بشكل مفاجئ.",
+      "comfort": "تعليق رياضي يصفح المطبات الصغيرة لكن ينقل كل عدم انتظام كبير.",
+      "practicality": "أربع مقاعد ضيقة وصندوق 315 لتر؛ مناسب للرحلات القصيرة للزوجين.",
+      "visibility": "رؤية أمامية مقبولة؛ الأعمدة السميكة والنافذة الخلفية الصغيرة تجعل الرجوع للخلف أصعب.",
+      "noise": "هادئة بشكل معقول في الوضع العادي؛ في أوضاع R أو Race، يكون صوت العادم والناقل واضحاً.",
+      "fuelEfficiency": "13-15 لتر/100 كم في الاستخدام الحقيقي؛ في المدينة أو الازدحام يمكن أن تتجاوز 18 لتر/100 كم."
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "Silueta cupé musculosa con alerón trasero prominente y detalles NISMO en fibra de carbono.",
+      "front": "Parrilla distintiva con boca central, faros LED múltiples y labio delantero en fibra de carbono.",
+      "side": "Aletas anchas, línea de cintura ascendente y llantas forjadas de 20 pulgadas.",
+      "rear": "Alerón de carbono ajustable, cuatro salidas de escape y difusor aerodinámico.",
+      "aerodynamics": "Paquete aerodinámico NISMO probado en túnel de viento que genera carga real sin drag excesivo.",
+      "lights": "Faros LED adaptativos con firma característica de cuatro círculos."
+    },
+    "en": {
+      "summary": "Muscular coupe silhouette with a prominent rear wing and NISMO carbon-fiber details.",
+      "front": "Distinctive grille with central mouth, multi-LED headlights and carbon-fiber front lip.",
+      "side": "Wide fenders, rising beltline and 20-inch forged wheels.",
+      "rear": "Adjustable carbon wing, quad exhaust outlets and aerodynamic diffuser.",
+      "aerodynamics": "NISMO wind-tunnel-tested aero package that generates real downforce without excessive drag.",
+      "lights": "Adaptive LED headlights with the characteristic four-circle signature."
+    },
+    "fr": {
+      "summary": "Silhouette de coupé musclée avec un aileron arrière imposant et des détails NISMO en fibre de carbone.",
+      "front": "Calandre distinctive avec bouche centrale, phares LED multiples et lèvre avant en fibre de carbone.",
+      "side": "Ailes larges, ligne de ceinture ascendante et jantes forgées de 20 pouces.",
+      "rear": "Aileron en carbone réglable, quatre sorties d'échappement et diffuseur aérodynamique.",
+      "aerodynamics": "Paquet aérodynamique NISMO testé en soufflerie qui génère un appui réel sans traînée excessive.",
+      "lights": "Phares LED adaptatifs avec la signature caractéristique de quatre cercles."
+    },
+    "ar": {
+      "summary": "صيحة كوبيه عضلية مع جناح خلفي بارز وتفاصيل نيسمو من ألياف الكربون.",
+      "front": "شبكة مميزة مع فم مركزي، مصابيح ليد متعددة وشفة أمامية من ألياف الكربون.",
+      "side": "رفارف عريضة، خط حزام متصاعد وعجلات معدنية مقاس 20 بوصة.",
+      "rear": "جناح كربون قابل للضبط، أربع مخارج عادم وموزع هوائي.",
+      "aerodynamics": "حزمة ديناميكية هوائية نيسمو تم اختبارها في النفق الهوائي تولد قوة دفع حقيقية بدون مقاومة زائدة.",
+      "lights": "مصابيح ليد تكيفية مع التوقيع المميز بأربع دوائر."
+    }
+  },
+  "interior": {
+    "es": {
+      "summary": "Cabina orientada al conductor, con materiales decentes y asientos Recaro que abrazan en curvas.",
+      "materials": "Alcantara, plásticos suaves y detalles de fibra de carbono real.",
+      "seats": "Asientos Recaro deportivos con ajuste eléctrico, calefacción y buen agarre lateral.",
+      "ergonomics": "Los mandos principales están bien ubicados; la pantalla táctil es algo lenta en respuesta.",
+      "space": "Espacio frontal correcto; las plazas traseras son de emergencia y el maletero es de 315 L.",
+      "visibility": "Posición de conducción baja con buena visión frontal; retrovisores grandes compensan la luneta pequeña."
+    },
+    "en": {
+      "summary": "Driver-focused cabin with decent materials and Recaro seats that hug you in corners.",
+      "materials": "Alcantara, soft plastics and real carbon-fiber accents.",
+      "seats": "Sporty Recaro seats with electric adjustment, heating and strong lateral support.",
+      "ergonomics": "Main controls are well placed; the touchscreen response is somewhat slow.",
+      "space": "Front space is adequate; rear seats are emergency-use only and the trunk is 315 L.",
+      "visibility": "Low driving position with good forward visibility; large mirrors compensate for the small rear window."
+    },
+    "fr": {
+      "summary": "Habitacle orienté conducteur, avec des matériaux corrects et des sièges Recaro qui vous maintiennent en virage.",
+      "materials": "Alcantara, plastiques souples et détails en fibre de carbone réelle.",
+      "seats": "Sièges sport Recaro avec réglage électrique, chauffage et bon maintien latéral.",
+      "ergonomics": "Les commandes principales sont bien placées; l'écran tactile est un peu lent à répondre.",
+      "space": "L'espace avant est correct; les places arrière sont d'urgence et le coffre est de 315 L.",
+      "visibility": "Position de conduite basse avec bonne visibilité avant; de grands rétroviseurs compensent la petite lunette arrière."
+    },
+    "ar": {
+      "summary": "مقصورة موجهة للسائق مع مواد لائقة ومقاعد ريكارو التي تحتضنك في المنعطفات.",
+      "materials": "ألكانتارا، بلاستيك ناعم وتفاصيل من ألياف الكربون الحقيقية.",
+      "seats": "مقاعد رياضية ريكارو مع تعديل كهربائي، تدفئة ودعم جانبي جيد.",
+      "ergonomics": "الضوابط الرئيسية في مكانها الصحيح؛ شاشة اللمس بطيئة الاستجابة نوعاً ما.",
+      "space": "المساحة الأمامية كافية؛ المقاعد الخلفية للاستخدام الطارئ والصندوق 315 لتر.",
+      "visibility": "وضعية قيادة منخفضة مع رؤية أمامية جيدة؛ المرايا الكبيرة تعوض النافذة الخلفية الصغيرة."
+    }
+  },
+  "interiorCards": {
+    "es": [
+      {
+        "title": "Asientos Recaro",
+        "description": "Concha rígida con acolchado específico para soportar altas cargas laterales.",
+        "image": "/images/nissan-gtr-interior-1.jpg"
+      },
+      {
+        "title": "Volante NISMO",
+        "description": "Recubierto en Alcantara con línea de referencia roja y levas metálicas.",
+        "image": "/images/nissan-gtr-interior-2.jpg"
+      },
+      {
+        "title": "Pantalla Nissan Connect",
+        "description": "Display de 8 pulgadas con navegación, Apple CarPlay y Android Auto.",
+        "image": "/images/nissan-gtr-interior-3.jpg"
+      }
+    ],
+    "en": [
+      {
+        "title": "Recaro seats",
+        "description": "Rigid shell with specific padding to withstand high lateral loads.",
+        "image": "/images/nissan-gtr-interior-1.jpg"
+      },
+      {
+        "title": "NISMO steering wheel",
+        "description": "Alcantara-wrapped with red reference stripe and metal paddle shifters.",
+        "image": "/images/nissan-gtr-interior-2.jpg"
+      },
+      {
+        "title": "Nissan Connect screen",
+        "description": "8-inch display with navigation, Apple CarPlay and Android Auto.",
+        "image": "/images/nissan-gtr-interior-3.jpg"
+      }
+    ],
+    "fr": [
+      {
+        "title": "Sièges Recaro",
+        "description": "Coque rigide avec rembourrage spécifique pour supporter de fortes charges latérales.",
+        "image": "/images/nissan-gtr-interior-1.jpg"
+      },
+      {
+        "title": "Volant NISMO",
+        "description": "Gaine Alcantara avec ligne de référence rouge et palettes métalliques.",
+        "image": "/images/nissan-gtr-interior-2.jpg"
+      },
+      {
+        "title": "Écran Nissan Connect",
+        "description": "Écran 8 pouces avec navigation, Apple CarPlay et Android Auto.",
+        "image": "/images/nissan-gtr-interior-3.jpg"
+      }
+    ],
+    "ar": [
+      {
+        "title": "مقاعد ريكارو",
+        "description": "قشرة صلبة بحشوة خاصة لتحمل الأحمال الجانبية العالية.",
+        "image": "/images/nissan-gtr-interior-1.jpg"
+      },
+      {
+        "title": "دركسون نيسمو",
+        "description": "مغطى بألكانتارا مع خط مرجعي أحمر ومجدافات معدنية.",
+        "image": "/images/nissan-gtr-interior-2.jpg"
+      },
+      {
+        "title": "شاشة نيسان كونكت",
+        "description": "شاشة 8 بوصة مع ملاحة، أبل كاربلاي و أندرويد أوتو.",
+        "image": "/images/nissan-gtr-interior-3.jpg"
+      }
+    ]
+  },
+  "interiorText": {
+    "es": {
+      "title": "Interior NISMO",
+      "description": "El interior prioriza la función sobre la sofisticación. Los asientos Recaro, el volante NISMO y la instrumentación clásica transmiten el carácter de Godzilla.",
+      "highlights": [
+        "Asientos Recaro de alto agarre",
+        "Alcantara y carbono en puntos clave",
+        "Pantalla táctil de 8 pulgadas"
+      ]
+    },
+    "en": {
+      "title": "NISMO interior",
+      "description": "The interior prioritizes function over sophistication. The Recaro seats, NISMO steering wheel and classic instrumentation convey Godzilla's character.",
+      "highlights": [
+        "High-grip Recaro seats",
+        "Alcantara and carbon at key points",
+        "8-inch touchscreen"
+      ]
+    },
+    "fr": {
+      "title": "Intérieur NISMO",
+      "description": "L'intérieur privilégie la fonction à la sophistication. Les sièges Recaro, le volant NISMO et l'instrumentation classique transmettent le caractère de Godzilla.",
+      "highlights": [
+        "Sièges Recaro à fort maintien",
+        "Alcantara et carbone aux points clés",
+        "Écran tactile 8 pouces"
+      ]
+    },
+    "ar": {
+      "title": "مقصورة نيسمو",
+      "description": "المقصورة تمنح الأولوية للوظيفة على التطور. مقاعد ريكارو، دركسون نيسمو والأجهزة الكلاسيكية تنقل شخصية غودزيلا.",
+      "highlights": [
+        "مقاعد ريكارو بقبضة عالية",
+        "ألكانتارا وكربون في النقاط الرئيسية",
+        "شاشة لمس 8 بوصة"
+      ]
+    }
+  },
+  "technology": {
+    "es": {
+      "summary": "Nissan Connect cubre lo esencial: navegación, conectividad y asistentes básicos, pero no alcanza el nivel de rivales europeos.",
+      "infotainment": "Sistema Nissan Connect de 8 pulgadas con navegación, Apple CarPlay y Android Auto.",
+      "driverAssist": "Nissan Safety Shield 360 con control crucero inteligente, alerta de cambio de carril y tráfico cruzado.",
+      "connectivity": "Bluetooth, USB y conexión a servicios Nissan Connect.",
+      "performanceTech": "ATTESA E-TS, transmisión GR6 con launch control y modos de conducción R, Race y Normal.",
+      "charging": "Cargador USB-A y toma de 12 V; no dispone de carga inalámbrica de serie."
+    },
+    "en": {
+      "summary": "Nissan Connect covers the essentials: navigation, connectivity and basic assistants, but does not match European rivals.",
+      "infotainment": "8-inch Nissan Connect system with navigation, Apple CarPlay and Android Auto.",
+      "driverAssist": "Nissan Safety Shield 360 with intelligent cruise control, lane-change alert and rear cross-traffic alert.",
+      "connectivity": "Bluetooth, USB and Nissan Connect services.",
+      "performanceTech": "ATTESA E-TS, GR6 transmission with launch control and R, Race and Normal drive modes.",
+      "charging": "USB-A charger and 12 V socket; no wireless charging as standard."
+    },
+    "fr": {
+      "summary": "Nissan Connect couvre l'essentiel : navigation, connectivité et assistants de base, sans atteindre le niveau des rivales européennes.",
+      "infotainment": "Système Nissan Connect de 8 pouces avec navigation, Apple CarPlay et Android Auto.",
+      "driverAssist": "Nissan Safety Shield 360 avec régulateur adaptatif, alerte de changement de voie et trafic transversal arrière.",
+      "connectivity": "Bluetooth, USB et services Nissan Connect.",
+      "performanceTech": "ATTESA E-TS, boîte GR6 avec launch control et modes de conduite R, Race et Normal.",
+      "charging": "Chargeur USB-A et prise 12 V; pas de charge sans fil en série."
+    },
+    "ar": {
+      "summary": "نيسان كونكت يغطي الأساسيات: الملاحة والاتصال والمساعدات الأساسية، لكنه لا يصل إلى مستوى المنافسين الأوروبيين.",
+      "infotainment": "نظام نيسان كونكت مقاس 8 بوصة مع ملاحة، أبل كاربلاي و أندرويد أوتو.",
+      "driverAssist": "نيسان سيفتي شيلد 360 مع مثبت سرعة ذكي، تنبيه تغيير المسار وحركة المرور العرضية الخلفية.",
+      "connectivity": "بلوتوث، يو إس بي وخدمات نيسان كونكت.",
+      "performanceTech": "أتيسا إي-تي-إس، علبة جي آر 6 مع نظام الانطلاق و أوضاع القيادة أر و سباق و عادي.",
+      "charging": "شاحن يو إس بي-أي ومقبس 12 فولت؛ لا يوجد شحن لاسلكي قياسي."
+    }
+  },
+  "tires": {
+    "es": {
+      "summary": "Equipa neumáticos de alto rendimiento en llantas de 20 pulgadas; el desgaste es alto si se usa en circuito.",
+      "front": "285/35R20 en llanta de 9.5J con compuestos deportivos.",
+      "rear": "295/35R20 en llanta de 10.5J para transmitir el par sin patinar.",
+      "brands": "Dunlop SP Sport Maxx, Bridgestone Potenza o Michelin Pilot Sport 4S recomendados.",
+      "seasons": "De verano de alto rendimiento; en climas fríos se necesita un juego de invierno o clima mixto.",
+      "costs": "Juego completo entre 1.400 y 2.200 EUR según marca y compuesto."
+    },
+    "en": {
+      "summary": "Fits high-performance tires on 20-inch wheels; wear is high if used on track.",
+      "front": "285/35R20 on 9.5J wheel with sport compounds.",
+      "rear": "295/35R20 on 10.5J wheel to transmit torque without slipping.",
+      "brands": "Dunlop SP Sport Maxx, Bridgestone Potenza or Michelin Pilot Sport 4S recommended.",
+      "seasons": "High-performance summer tires; in cold climates a winter or all-season set is needed.",
+      "costs": "Full set between 1,400 and 2,200 EUR depending on brand and compound."
+    },
+    "fr": {
+      "summary": "Monte des pneus haute performance sur jantes de 20 pouces; l'usure est élevée si utilisée sur circuit.",
+      "front": "285/35R20 sur jante 9.5J avec gommes sport.",
+      "rear": "295/35R20 sur jante 10.5J pour transmettre le couple sans patiner.",
+      "brands": "Dunlop SP Sport Maxx, Bridgestone Potenza ou Michelin Pilot Sport 4S recommandés.",
+      "seasons": "Pneus été haute performance; dans les climats froids, un jeu hiver ou toutes saisons est nécessaire.",
+      "costs": "Jeu complet entre 1 400 et 2 200 EUR selon la marque et le composé."
+    },
+    "ar": {
+      "summary": "تستخدم إطارات عالية الأداء على عجلات 20 بوصة؛ الاستهلاك مرتفع إذا استخدمت في الحلبة.",
+      "front": "285/35 20 على عجلة 9.5 بخلطات رياضية.",
+      "rear": "295/35 20 على عجلة 10.5 لنقل العزم بدون انزلاق.",
+      "brands": "دنلوب إس بي سبورت ماكس أو بريدجستون بوتنزا أو ميشلان بايلوت سبورت 4 إس موصى بها.",
+      "seasons": "إطارات صيفية عالية الأداء؛ في المناخات الباردة يحتاج مجموعة شتاء أو كل الفصول.",
+      "costs": "مجموعة كاملة بين 1,400 و2,200 يورو حسب العلامة والخلطة."
+    }
+  },
+  "relatedModels": [
+    {
+      "carId": "mercedes-amg-gt-2026",
+      "relation": "rival",
+      "name": {
+        "es": "Mercedes-AMG GT",
+        "en": "Mercedes-AMG GT",
+        "fr": "Mercedes-AMG GT",
+        "ar": "Mercedes-AMG GT"
+      }
+    },
+    {
+      "carId": "porsche-911-2026",
+      "relation": "rival",
+      "name": {
+        "es": "Porsche 911",
+        "en": "Porsche 911",
+        "fr": "Porsche 911",
+        "ar": "Porsche 911"
+      }
+    },
+    {
+      "carId": "audi-rs3-2026",
+      "relation": "alternative",
+      "name": {
+        "es": "Audi RS3",
+        "en": "Audi RS3",
+        "fr": "Audi RS3",
+        "ar": "Audi RS3"
+      }
+    }
+  ],
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El GT-R es una máquina de tracción y precisión: pesado pero capaz de generar velocidades de paso por curva incompatibles con su tamaño.",
+        "bodyRoll": "Mínimo gracias a suspensiones firmes, barra estabilizadora delantera y ajustes específicos de NISMO.",
+        "grip": "Inmensa adherencia con neumáticos específicos y ATTESA E-TS que distribuye par entre ejes.",
+        "steeringFeel": "Dirección precisa y rápida, con buena retroalimentación para ser asistida eléctricamente.",
+        "balance": "Tendencia a subviraje controlado; el eje trasero puede girar con el acelerador si se desconecta la estabilidad.",
+        "trackWorthiness": "Creado para el circuito: frena tarde, acelera pronto y aguanta tandas con una fiabilidad rara en superdeportivos."
+      },
+      "performanceFeel": {
+        "summary": "La aceleración es violenta e inmediata; el sonido del V6 twin-turbo es distintivo y la frenada carbono-cerámica no se cansa.",
+        "acceleration": "0-100 km/h en 2.7 s con una banda de par tan ancha que parece no tener fin.",
+        "braking": "Frenos carbono-cerámicos de 390 mm delante que soportan tandas enteras sin fading apreciable.",
+        "transmission": "Caja GR6 de doble embrague: cambios rápidos y secos en modo manual, suaves en modo automático.",
+        "powertrainResponse": "Respuesta inmediata por encima de 2.000 rpm; los turbos spoolan rápido y la entrega es lineal.",
+        "sound": "Rugido mecánico del V6 con silbido de turbos y pops de escape en modos deportivos."
+      },
+      "dailyDriving": {
+        "summary": "No es un coche cómodo para la ciudad, pero en autopista o carreteras anchas es sorprendentemente civilizado.",
+        "comfort": "Suspensión firme que filtra baches pequeños pero transmite cada irregularidad importante.",
+        "practicality": "Cuatro plazas reducidas y un maletero de 315 L; válido para viajes cortos en pareja.",
+        "visibility": "Visibilidad delantera aceptable; pilares gruesos y luneta pequeña dificultan la visión trasera.",
+        "noise": "En modo normal es razonablemente silencioso; en modos R o Race, el escape y la transmisión son evidentes.",
+        "fuelEfficiency": "13-15 L/100 km reales; en ciudad o tráfico puede superar los 18 L/100 km."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The GT-R is a traction and precision machine: heavy but capable of cornering speeds that defy its size.",
+        "bodyRoll": "Minimal thanks to firm suspension, front anti-roll bar and NISMO-specific tuning.",
+        "grip": "Immense grip with bespoke tires and ATTESA E-TS that distributes torque between axles.",
+        "steeringFeel": "Precise and quick steering, with good feedback for an electric-assisted rack.",
+        "balance": "Controlled understeer tendency; the rear axle can rotate with throttle if stability is turned off.",
+        "trackWorthiness": "Built for the track: brakes late, accelerates early and survives sessions with rare reliability for a supercar."
+      },
+      "performanceFeel": {
+        "summary": "Acceleration is violent and immediate; the twin-turbo V6 sound is distinctive and carbon-ceramic brakes never tire.",
+        "acceleration": "0-100 km/h in 2.7 s with a torque band so wide it seems endless.",
+        "braking": "390 mm front carbon-ceramic brakes that withstand full sessions without noticeable fade.",
+        "transmission": "GR6 dual-clutch gearbox: rapid and snappy shifts in manual mode, smooth in automatic.",
+        "powertrainResponse": "Immediate response above 2,000 rpm; turbos spool quickly and delivery is linear.",
+        "sound": "Mechanical V6 roar with turbo whistle and exhaust pops in sport modes."
+      },
+      "dailyDriving": {
+        "summary": "Not a comfortable city car, but on highways or wide roads it is surprisingly civilized.",
+        "comfort": "Firm suspension that filters small bumps but transmits every major irregularity.",
+        "practicality": "Four tight seats and a 315 L trunk; suitable for short trips as a couple.",
+        "visibility": "Acceptable forward visibility; thick pillars and small rear window make reversing harder.",
+        "noise": "Reasonably quiet in normal mode; in R or Race modes, exhaust and transmission noise are obvious.",
+        "fuelEfficiency": "13-15 L/100 km in real use; in city or traffic it can exceed 18 L/100 km."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "La GT-R est une machine de traction et de précision : lourde mais capable de vitesses en virage incompatibles avec sa taille.",
+        "bodyRoll": "Minimal grâce à une suspension ferme, barre anti-roulis avant et réglages spécifiques NISMO.",
+        "grip": "Adhérence immense avec des pneus spécifiques et l'ATTESA E-TS qui distribue le couple entre les essieux.",
+        "steeringFeel": "Direction précise et rapide, avec un bon retour d'information pour une assistance électrique.",
+        "balance": "Tendance au sous-virage contrôlé; l'essieu arrière peut pivoter à l'accélérateur si la stabilité est désactivée.",
+        "trackWorthiness": "Conçue pour le circuit : freine tard, accélère tôt et résiste aux sessions avec une fiabilité rare pour une supercar."
+      },
+      "performanceFeel": {
+        "summary": "L'accélération est violente et immédiate; le son du V6 biturbo est distinctif et les freins carbone-céramique ne se fatiguent pas.",
+        "acceleration": "0-100 km/h en 2,7 s avec une plage de couple si large qu'elle semble infinie.",
+        "braking": "Freins carbone-céramique de 390 mm à l'avant qui supportent des sessions complètes sans fading notable.",
+        "transmission": "Boîte GR6 à double embrayage : changements rapides et secs en mode manuel, doux en mode automatique.",
+        "powertrainResponse": "Réponse immédiate au-dessus de 2 000 tr/min; les turbos se remplissent rapidement et la livraison est linéaire.",
+        "sound": "Rugissement mécanique du V6 avec sifflement des turbos et pops d'échappement en modes sport."
+      },
+      "dailyDriving": {
+        "summary": "Ce n'est pas une voiture confortable en ville, mais sur autoroute ou routes larges elle est étonnamment civilisée.",
+        "comfort": "Suspension ferme qui filtre les petits trous mais transmet chaque irrégularité importante.",
+        "practicality": "Quatre places réduites et un coffre de 315 L; valable pour des voyages courts en couple.",
+        "visibility": "Visibilité avant acceptable; piliers épais et lunette arrière petite rendent la marche arrière plus difficile.",
+        "noise": "Raisonnablement silencieuse en mode normal; en modes R ou Race, l'échappement et la transmission sont évidents.",
+        "fuelEfficiency": "13-15 L/100 km en usage réel; en ville ou dans les embouteillages, elle peut dépasser 18 L/100 km."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "جي تي آر هي آلة جذب ودقة: ثقيلة لكنها قادرة على سرعات في المنعطفات تتحدى حجمها.",
+        "bodyRoll": "حدودي بفضل التعليق الرياضي، وقضيب التثبيت الأمامي وضبط نيسمو الخاص.",
+        "grip": "قبضة هائلة مع إطارات خاصة ونظام أتيسا إي-تي-إس الذي يوزع العزم بين المحاور.",
+        "steeringFeel": "توجيه دقيق وسريع مع استجابة جيدة لمساعد كهربائي.",
+        "balance": "ميل للانحراف الأمامي المتحكم فيه؛ يمكن للمحور الخلفي الدوران بالدعس إذا تم إيقاف الثبات.",
+        "trackWorthiness": "مصممة للحلبة: تفرمل متأخراً، تتسارع مبكراً وتتحمل الجولات بموثوقية نادرة للسوبركار."
+      },
+      "performanceFeel": {
+        "summary": "التسارع عنيف وفوري؛ صوت محرك 6 أسطوانات توين تيربو مميز وفرامل الكربون-سيراميك لا تتعب.",
+        "acceleration": "0-100 كم/س في 2.7 ثانية مع نطاق عزم واسع يبدو بلا نهاية.",
+        "braking": "فرامل كربون-سيراميك 390 مم أمامية تتحمل جولات كاملة دون اختفاء ملحوظ.",
+        "transmission": "علبة جي آر 6 بقابض مزدوج: تبديلات سريعة وجافة في الوضع اليدوي، ناعمة في الوضع التلقائي.",
+        "powertrainResponse": "استجابة فورية فوق 2,000 دورة في الدقيقة؛ تيربينات تملأ بسرعة والتسليم خطي.",
+        "sound": "زمجرة ميكانيكية للـ محرك 6 أسطوانات مع صفير التيربينات وفرقعات العادم في الأوضاع الرياضية."
+      },
+      "dailyDriving": {
+        "summary": "ليست سيارة مريحة للمدينة، لكن على الطرق السريعة أو الطرق الواسعة فهي متحضرة بشكل مفاجئ.",
+        "comfort": "تعليق رياضي يصفح المطبات الصغيرة لكن ينقل كل عدم انتظام كبير.",
+        "practicality": "أربع مقاعد ضيقة وصندوق 315 لتر؛ مناسب للرحلات القصيرة للزوجين.",
+        "visibility": "رؤية أمامية مقبولة؛ الأعمدة السميكة والنافذة الخلفية الصغيرة تجعل الرجوع للخلف أصعب.",
+        "noise": "هادئة بشكل معقول في الوضع العادي؛ في أوضاع أر أو سباق، يكون صوت العادم والناقل واضحاً.",
+        "fuelEfficiency": "13-15 لتر/100 كم في الاستخدام الحقيقي؛ في المدينة أو الازدحام يمكن أن تتجاوز 18 لتر/100 كم."
+      }
+    }
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي (أتيسا إي-تي أس)"
+}

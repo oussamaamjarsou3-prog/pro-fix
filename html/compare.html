@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+
+    <title data-i18n="compare.pageTitle">Comparativas | CarSpecio</title>
+    <meta name="description" data-i18n="compare.pageDescription" content="Compara coches por precio, prestaciones, consumo y características. Herramienta de comparación inteligente entre modelos.">
+    <link rel="canonical" href="https://carspecio.com/compare.html">
+    <meta property="og:title" content="Comparativas | CarSpecio">
+    <meta property="og:description" content="Compara coches por precio, prestaciones, consumo y características. Herramienta de comparación inteligente entre modelos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/compare.html">
+    <meta property="og:image" content="https://carspecio.com/images/hero-incio.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comparativas | CarSpecio">
+    <meta name="twitter:description" content="Compara coches por precio, prestaciones, consumo y características.">
+    <meta name="twitter:image" content="https://carspecio.com/images/hero-incio.png">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/home-global.css">
+    <link rel="stylesheet" href="css/lang-dropdown.css">
+    <link rel="stylesheet" href="css/home-dashboard.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/compare.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mega-menu-full.css">
+
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <style>
+        /* Glassmorphism Search Panel */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(20px) saturate(1.8);
+            -webkit-backdrop-filter: blur(20px) saturate(1.8);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255,255,255,0.05) inset;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-panel:hover {
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255,255,255,0.1) inset;
+            transform: translateY(-2px);
+        }
+        .glass-select, .glass-input {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 14px;
+            color: #fff;
+            padding: 12px 16px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            outline: none;
+            width: 100%;
+        }
+        .glass-select:focus, .glass-input:focus {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.35);
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+        }
+        .glass-select option {
+            background: #1a1a2e;
+            color: #fff;
+        }
+        .glass-label {
+            display: block;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .glass-btn {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2E5090 100%);
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(30, 58, 95, 0.3);
+        }
+        .glass-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(46, 80, 144, 0.45);
+            background: linear-gradient(135deg, #162d4a 0%, #254575 100%);
+        }
+        .budget-stepper {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 14px;
+            padding: 4px;
+            transition: all 0.3s ease;
+        }
+        .budget-stepper:focus-within {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.35);
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+        }
+        .budget-input {
+            background: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            box-shadow: none !important;
+            text-align: center;
+            flex: 1;
+            padding: 8px 4px;
+            -moz-appearance: textfield;
+            appearance: textfield;
+        }
+        .budget-input::-webkit-outer-spin-button,
+        .budget-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .step-btn {
+            width: 26px;
+            height: 26px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+            padding: 0;
+            line-height: 1;
+            user-select: none;
+            position: relative;
+            z-index: 2;
+            pointer-events: all;
+        }
+        .step-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            transform: scale(1.1);
+        }
+        .step-btn:active {
+            transform: scale(0.95);
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .budget-hint {
+            display: none;
+            color: rgba(255, 255, 255, 0.45);
+            font-size: 11px;
+            margin-top: 4px;
+            font-style: italic;
+        }
+        .budget-euro {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 500;
+            margin-right: 2px;
+            user-select: none;
+        }
+        .glass-swap {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+        }
+        .glass-swap:hover {
+            transform: rotate(180deg) scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+        }
+        .glass-hint {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+            text-align: center;
+            margin-top: 8px;
+            min-height: 20px;
+            transition: color 0.3s ease;
+        }
+        .glass-hint.active {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        .animate-slide-up {
+            animation: slideUp 0.6s ease-out forwards;
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        .shimmer-text {
+            background: linear-gradient(90deg, rgba(255,255,255,0.4), rgba(255,255,255,0.9), rgba(255,255,255,0.4));
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shimmer 3s linear infinite;
+        }
+
+        /* Collapsible Filters - Desktop: always visible, toggle hidden */
+        .filters-toggle { display: none; }
+        .collapsible-filters { display: block; }
+
+        @media (max-width: 768px) {
+            /* --- Search Panel --- */
+            .compare-search-panel {
+                padding: 16px 14px !important;
+                border-radius: 14px !important;
+                margin: 0 12px 16px !important;
+                width: auto !important;
+            }
+            .compare-search-row--top,
+            .compare-search-row--cars {
+                grid-template-columns: 1fr !important;
+                gap: 10px !important;
+            }
+            .glass-btn {
+                padding: 14px 24px !important;
+                font-size: 15px !important;
+            }
+            .glass-swap {
+                width: 40px !important;
+                height: 40px !important;
+                font-size: 18px !important;
+                margin: 4px auto !important;
+            }
+            .budget-stepper { max-width: 100% !important; }
+            .budget-hint { display: block !important; }
+            .step-btn {
+                width: 30px !important;
+                height: 30px !important;
+                font-size: 16px !important;
+            }
+            .glass-input, .glass-select {
+                min-height: 44px !important;
+                font-size: 16px !important;
+            }
+
+            /* --- Popular Cards (Horizontal Scroll Carousel) --- */
+            .popular-compare-grid {
+                display: flex !important;
+                flex-wrap: nowrap !important;
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+                scroll-snap-type: x mandatory !important;
+                scroll-behavior: smooth !important;
+                gap: 8px !important;
+                padding-bottom: 8px !important;
+                scrollbar-width: none !important;
+                justify-content: flex-start !important;
+            }
+            .popular-compare-grid::-webkit-scrollbar {
+                display: none !important;
+            }
+            .popular-compare-card {
+                flex: 0 0 auto !important;
+                width: 160px !important;
+                min-width: 160px !important;
+                padding: 10px 10px !important;
+                border-radius: 12px !important;
+                font-size: 11px !important;
+                scroll-snap-align: start !important;
+            }
+            .popular-compare-card strong { font-size: 12px !important; }
+            .popular-compare-card .popular-vs { font-size: 10px !important; }
+
+            /* --- Section blocks --- */
+            .compare-section-block,
+            .compare-popular-inner,
+            .compare-scores-inner {
+                padding: 40px 16px !important;
+            }
+            .compare-content h1 {
+                font-size: clamp(28px, 9vw, 40px) !important;
+                line-height: 1.1 !important;
+            }
+            .compare-popular-inner h2 {
+                font-size: 20px !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            .compare-popular-inner > p {
+                font-size: 12px !important;
+                margin-bottom: 14px !important;
+            }
+
+            /* --- Collapsible Filters --- */
+            .filters-toggle {
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
+                background: rgba(255, 255, 255, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 12px;
+                color: rgba(255, 255, 255, 0.8);
+                font-family: 'Poppins', sans-serif;
+                font-size: 13px;
+                font-weight: 500;
+                padding: 10px 16px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                flex-shrink: 0;
+                white-space: nowrap;
+            }
+            .filters-toggle:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+            .filters-toggle[aria-expanded="true"] {
+                background: rgba(59, 130, 246, 0.2);
+                border-color: rgba(59, 130, 246, 0.4);
+                color: #60a5fa;
+            }
+            .collapsible-filters {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, padding 0.3s ease;
+                opacity: 0;
+            }
+            .collapsible-filters.open {
+                max-height: 600px;
+                opacity: 1;
+                padding-top: 10px;
+            }
+            .compare-search-row--filters {
+                grid-template-columns: 1fr !important;
+                gap: 10px !important;
+            }
+            .compare-search-row--top {
+                display: flex !important;
+                flex-direction: row !important;
+                gap: 10px !important;
+                align-items: flex-end !important;
+            }
+            .compare-search-row--top .cmp-field--grow {
+                flex: 1 !important;
+            }
+
+            /* --- Quick Stats --- */
+            .quick-stats {
+                grid-template-columns: 1fr 1fr 1fr !important;
+                gap: 8px !important;
+                padding: 16px 12px !important;
+            }
+            .quick-card {
+                padding: 14px 8px !important;
+                border-radius: 12px !important;
+                text-align: center !important;
+            }
+            .quick-card span {
+                font-size: 11px !important;
+                display: block !important;
+                margin-bottom: 4px !important;
+            }
+            .quick-card h3 {
+                font-size: 13px !important;
+                margin-top: 0 !important;
+            }
+
+            /* --- Car images --- */
+            .compare-images {
+                grid-template-columns: 1fr 1fr !important;
+                gap: 10px !important;
+                padding: 0 12px !important;
+            }
+            .compare-car img { height: 160px !important; border-radius: 12px !important; }
+            .compare-car .compare-info h3 { font-size: 14px !important; margin-bottom: 4px !important; }
+            .compare-car .details-text { font-size: 11px !important; }
+
+            /* --- Table --- */
+            .compare-table {
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+            }
+            .compare-table .table-row div {
+                padding: 12px 6px !important;
+                font-size: 12px !important;
+                white-space: nowrap !important;
+            }
+            .compare-table .table-row div:first-child {
+                white-space: normal !important;
+                min-width: 80px !important;
+            }
+
+            /* --- Scores --- */
+            .score-bars-grid {
+                grid-template-columns: 1fr !important;
+                gap: 14px !important;
+            }
+            .score-bar-track { height: 28px !important; }
+            .score-bar-fill { border-radius: 8px !important; }
+            .score-value { font-size: 13px !important; }
+
+            /* --- Pros/Cons --- */
+            .pros-grid {
+                grid-template-columns: 1fr 1fr !important;
+                gap: 10px !important;
+            }
+            .pros-card, .cons-card {
+                padding: 14px 10px !important;
+                border-radius: 12px !important;
+            }
+            .pros-card h3, .cons-card h3 {
+                font-size: 14px !important;
+                margin-bottom: 10px !important;
+            }
+            .pros-card h4, .cons-card h4 {
+                font-size: 12px !important;
+                margin-bottom: 8px !important;
+            }
+            .pros-card li, .cons-card li {
+                font-size: 12px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 4px !important;
+            }
+            .pros-card ul, .cons-card ul {
+                padding-left: 14px !important;
+            }
+
+            /* --- Choice --- */
+            .choice-container {
+                grid-template-columns: 1fr !important;
+                gap: 14px !important;
+            }
+            .choice-box {
+                padding: 24px 16px !important;
+                border-radius: 14px !important;
+            }
+            .choice-box h4 { font-size: 18px !important; }
+            .choice-box p { font-size: 14px !important; }
+            .choice-tag { font-size: 12px !important; padding: 6px 14px !important; }
+
+            /* --- Costs --- */
+            .costs-table-wrap {
+                margin: 0 -16px !important;
+                border-radius: 0 !important;
+                width: calc(100% + 32px) !important;
+                overflow-x: auto !important;
+            }
+            .costs-table th, .costs-table td {
+                padding: 10px 8px !important;
+                font-size: 12px !important;
+            }
+            .annual-cost { font-size: 28px !important; }
+
+            /* --- Insights --- */
+            .insights-grid {
+                grid-template-columns: 1fr 1fr !important;
+                gap: 10px !important;
+            }
+            .insight-card {
+                padding: 14px 10px !important;
+                border-radius: 12px !important;
+            }
+            .insight-card .insight-icon {
+                font-size: 20px !important;
+                margin-bottom: 6px !important;
+            }
+            .insight-card h3 {
+                font-size: 13px !important;
+                margin-bottom: 6px !important;
+            }
+            .insight-card p {
+                font-size: 12px !important;
+                line-height: 1.4 !important;
+            }
+
+            /* --- Specs (DETAILED ANALYSIS) --- */
+            .specs-container {
+                grid-template-columns: 1fr 1fr !important;
+                gap: 10px !important;
+                padding: 0 12px !important;
+            }
+            .specs-card {
+                padding: 16px 10px !important;
+                border-radius: 14px !important;
+            }
+            .specs-card h3 {
+                font-size: 14px !important;
+                margin-bottom: 12px !important;
+                text-align: center !important;
+            }
+            .spec-item {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 2px !important;
+                margin-bottom: 10px !important;
+                padding-bottom: 8px !important;
+            }
+            .spec-item span {
+                font-size: 11px !important;
+                color: rgba(255,255,255,0.5) !important;
+            }
+            .spec-item strong {
+                font-size: 12px !important;
+                word-break: break-word !important;
+            }
+
+            /* --- Winner --- */
+            .winner-card {
+                padding: 40px 20px !important;
+                border-radius: 20px !important;
+            }
+            .winner-card h2 { font-size: 26px !important; }
+            .winner-card p { font-size: 15px !important; }
+
+            /* --- CTA / Related --- */
+            .car-page-box {
+                grid-template-columns: 1fr !important;
+                border-radius: 20px !important;
+            }
+            .car-page-content { padding: 30px 20px !important; }
+            .car-page-content h2 { font-size: 24px !important; }
+            .car-page-content p { font-size: 15px !important; }
+            .related-grid {
+                grid-template-columns: 1fr !important;
+                gap: 12px !important;
+            }
+            .related-card img { height: 200px !important; border-radius: 14px !important; }
+        }
+
+        /* Floating Scroll to Top Button */
+        .float-compare-btn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            left: auto;
+            transform: none;
+            z-index: 10000;
+            background: linear-gradient(135deg, #1e3a5f 0%, #2E5090 100%);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1;
+            box-shadow: 0 10px 30px rgba(30, 58, 95, 0.45);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .float-compare-btn.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .float-compare-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(46, 80, 144, 0.55);
+        }
+        .float-compare-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Sticky Table Header */
+        .page-compare .compare-table { overflow: visible !important; }
+        .page-compare .table-row.heading {
+            position: sticky;
+            top: 64px;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Parallax Hero */
+        .page-compare .dash-hero-bg {
+            background-attachment: fixed;
+            transform: scale(1.1);
+            transition: transform 0.1s ease-out;
+        }
+
+        @media (max-width: 768px) {
+            .float-compare-btn { display: flex !important; }
+            .page-compare .table-row.heading { top: 56px; }
+            .page-compare .dash-hero-bg {
+                background-attachment: scroll;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="page-compare dash-home">
+<a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare" class="active">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<main id="main-content">
+
+<section class="dash-hero compare-page-hero" aria-labelledby="compareHeroTitle">
+    <div class="dash-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2000')"></div>
+    <div class="dash-hero-overlay"></div>
+    <div class="container dash-hero-inner">
+        <p class="hero-eyebrow" data-i18n="compare.heroEyebrow">COMPARATIVA PREMIUM</p>
+        <h1 id="compareHeroTitle" data-i18n="compare.heroTitle">Compara. Analiza. <span class="accent">Decide mejor.</span></h1>
+        <p class="compare-hero-lead" data-i18n="compare.heroSubtitle">Precios, costes en España, pros/contras y datos reales - todo en un solo duelo.</p>
+
+        <div class="compare-search-panel glass-panel animate-slide-up" id="compareSearchPanel">
+            <div class="compare-search-row compare-search-row--top">
+                <label class="cmp-field cmp-field--grow">
+                    <span class="glass-label" data-i18n="compare.searchLabel">Buscar modelo</span>
+                    <input type="search" id="carModelSearch" list="carModelsList" placeholder="Busca un modelo" data-i18n-placeholder="compare.searchPlaceholder" autocomplete="off" class="glass-input">
+                    <datalist id="carModelsList"></datalist>
+                </label>
+                <button type="button" class="filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="collapsibleFilters">
+                    <span data-i18n="compare.filtersBtn">⚙️ Filtros</span>
+                </button>
+            </div>
+            <div class="collapsible-filters" id="collapsibleFilters">
+                <div class="compare-search-row compare-search-row--filters">
+                    <label class="cmp-field">
+                        <span class="glass-label" data-i18n="compare.categoryLabel">Categoría</span>
+                        <select id="categoryFilter" class="glass-select"></select>
+                    </label>
+                    <div class="cmp-field">
+                        <span class="glass-label" data-i18n="compare.budgetLabel">Presupuesto máx.</span>
+                        <div class="budget-stepper">
+                            <button type="button" class="step-btn" id="budgetMinus" aria-label="Bajar presupuesto">-</button>
+                            <span class="budget-euro">€</span>
+                            <input type="number" id="budgetFilter" class="glass-input budget-input" placeholder="Ej. 150000" data-i18n-placeholder="compare.budgetPlaceholder" min="0" step="5000">
+                            <button type="button" class="step-btn" id="budgetPlus" aria-label="Subir presupuesto">+</button>
+                        </div>
+                        <span class="budget-hint" data-i18n="compare.budgetHint">💡 Sugerencia: ajusta con +/- o escribe tu límite</span>
+                    </div>
+                    <label class="cmp-field">
+                        <span class="glass-label" data-i18n="compare.fuelLabel">Combustible</span>
+                        <select id="fuelFilter" class="glass-select">
+                            <option value="" data-i18n="compare.fuelAll">Todos</option>
+                            <option value="gasolina" data-i18n="compare.fuelGasoline">Gasolina</option>
+                            <option value="diesel" data-i18n="compare.fuelDiesel">Diésel</option>
+                            <option value="electric" data-i18n="compare.fuelElectric">Eléctrico</option>
+                            <option value="hybrid" data-i18n="compare.fuelHybrid">Híbrido</option>
+                        </select>
+                    </label>
+                    <label class="cmp-field">
+                        <span class="glass-label" data-i18n="compare.sortLabel">Ordenar por</span>
+                        <select id="sortFilter" class="glass-select">
+                            <option value="" data-i18n="compare.sortNone">↓ Sin ordenar ↑</option>
+                            <option value="price_asc" data-i18n="compare.sortPriceAsc">Precio: más barato primero</option>
+                            <option value="price_desc" data-i18n="compare.sortPriceDesc">Precio: más caro primero</option>
+                            <option value="power_desc" data-i18n="compare.sortPowerDesc">Potencia: más potente primero</option>
+                            <option value="consumption_asc" data-i18n="compare.sortConsumptionAsc">Consumo: menos gasta primero</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="compare-search-row compare-search-row--cars">
+                <label class="cmp-field cmp-field--car">
+                    <span class="glass-label" data-i18n="compare.car1Label">Coche 1</span>
+                    <select id="compareSelect1" class="glass-select"></select>
+                </label>
+                <button type="button" id="swapBtn" class="glass-swap" aria-label="Intercambiar coches">↔</button>
+                <label class="cmp-field cmp-field--car">
+                    <span class="glass-label" data-i18n="compare.car2Label">Coche 2</span>
+                    <select id="compareSelect2" class="glass-select"></select>
+                </label>
+                <button type="button" id="runCompareBtn" class="glass-btn" data-i18n="compare.compareBtn">Comparar →</button>
+            </div>
+            <p class="glass-hint" id="searchHint" aria-live="polite"></p>
+        </div>
+
+        <p class="hero-popular">
+            <span data-i18n="compare.quickDuels">Duelos rápidos:</span>
+            <a href="#" data-preset="Audi RS7|BMW M5 PHEV Competition">RS7 vs M5</a>
+            <a href="#" data-preset="Audi RS7|Porsche 911 Turbo S">RS7 vs 911</a>
+            <a href="#" data-preset="Porsche 911 Turbo S|Mercedes-AMG GT 63 S E PERFORMANCE">911 vs AMG</a>
+        </p>
+    </div>
+</section>
+
+<!-- COMPARATIVAS POPULARES -->
+<section class="compare-popular animate-fade-in">
+    <div class="compare-popular-inner">
+        <h2 data-i18n="compare.popularTitle">Comparativas populares</h2>
+        <p data-i18n="compare.popularSubtitle">Elige un duelo preparado o selecciona modelos arriba</p>
+        <div class="popular-compare-grid" id="popularCompareGrid"></div>
+    </div>
+</section>
+
+<!-- COMPARE IMAGES -->
+
+<section class="compare-images compare-section-block" id="compareAnchor">
+
+    <!-- CAR 1 -->
+
+    <a id="car1Link" href="#" class="compare-car">
+
+        <img id="car1Image" src="images/placeholder.svg" alt="Car 1" data-i18n="compare.car1Label">
+
+        <div class="compare-info">
+
+            <h3 id="car1Name">Coche 1</h3>
+
+            <span class="details-text" data-i18n="compare.viewDetails">
+                Ver detalles →
+            </span>
+
+        </div>
+
+    </a>
+
+    <!-- CAR 2 -->
+
+    <a id="car2Link" href="#" class="compare-car">
+
+        <img id="car2Image" src="images/placeholder.svg" alt="Car 2" data-i18n="compare.car2Label">
+
+        <div class="compare-info">
+
+            <h3 id="car2Name">Coche 2</h3>
+
+            <span class="details-text" data-i18n="compare.viewDetails">
+                Ver detalles →
+            </span>
+
+        </div>
+
+    </a>
+
+</section>
+<!-- ================= COMPARE TABLE ================= -->
+
+<section class="compare-table-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.carSpecs">CAR SPECS</span>
+
+        <h2 id="tableTitle" data-i18n="compare.selectTwoCars">Selecciona dos coches</h2>
+
+    </div>
+
+    <div class="compare-table">
+
+        <div class="table-row heading">
+
+            <div data-i18n="compare.specifications">Especificaciones</div>
+            <div id="costCar1">Coche 1</div>
+            <div id="costCar2">Coche 2</div>
+
+        </div>
+
+        <div class="table-row">
+            <div data-i18n="compare.table.power">Potencia</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.acceleration">0 - 100</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.topSpeed">Velocidad máxima</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.price">Precio</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.consumption">Consumo</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.torque">Par motor</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.trunk">Maletero</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+        <div class="table-row">
+            <div data-i18n="compare.table.co2">CO2 (WLTP)</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+
+                <div class="table-row electric-hybrid-row" style="display: none;">
+            <div data-i18n="compare.table.battery">Capacidad batería</div>
+            <div id="batteryRow1">--</div>
+            <div id="batteryRow2">--</div>
+        </div>
+
+        <div class="table-row electric-hybrid-row" style="display: none;">
+            <div data-i18n="compare.table.electricRange">Autonomía eléctrica</div>
+            <div id="electricRangeRow1">--</div>
+            <div id="electricRangeRow2">--</div>
+        </div>
+
+        <div class="table-row electric-row" style="display: none;">
+            <div data-i18n="compare.table.chargingTime">Tiempo de carga</div>
+            <div id="chargingTimeRow1">--</div>
+            <div id="chargingTimeRow2">--</div>
+        </div>
+
+        <div class="table-row electric-row" style="display: none;">
+            <div data-i18n="compare.table.chargingSpeed">Velocidad de carga</div>
+            <div id="chargingSpeedRow1">--</div>
+            <div id="chargingSpeedRow2">--</div>
+        </div>
+
+        <div class="table-row hybrid-row" style="display: none;">
+            <div data-i18n="compare.table.electricMode">Modo eléctrico</div>
+            <div id="electricModeRow1">--</div>
+            <div id="electricModeRow2">--</div>
+        </div>
+
+<div class="table-row">
+            <div data-i18n="compare.table.drivetrain">Tracción</div>
+            <div id="driveRow1">--</div>
+            <div id="driveRow2">--</div>
+        </div>
+
+        <div class="table-row">
+            <div data-i18n="compare.table.seats">Plazas</div>
+            <div id="seatsRow1">--</div>
+            <div id="seatsRow2">--</div>
+        </div>
+
+        <div class="table-row">
+            <div data-i18n="compare.table.reliability">Fiabilidad</div>
+            <div id="relRow1">--</div>
+            <div id="relRow2">--</div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- BARRAS VISUALES -->
+<section class="compare-scores animate-fade-in">
+    <div class="compare-scores-inner">
+        <h2 data-i18n="compare.visualSummary">Resumen visual</h2>
+        <div class="score-bars-grid">
+            <div class="score-block">
+                <h3 data-i18n="compare.power">Potencia</h3>
+                <div class="score-row" id="scorePower1"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 1}">Coche 1</span><div class="score-track"><div class="score-fill"></div></div></div>
+                <div class="score-row" id="scorePower2"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 2}">Coche 2</span><div class="score-track"><div class="score-fill"></div></div></div>
+            </div>
+            <div class="score-block">
+                <h3 data-i18n="compare.acceleration">Aceleración (0-100)</h3>
+                <div class="score-row" id="scoreAccel1"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 1}">Coche 1</span><div class="score-track"><div class="score-fill"></div></div></div>
+                <div class="score-row" id="scoreAccel2"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 2}">Coche 2</span><div class="score-track"><div class="score-fill"></div></div></div>
+            </div>
+            <div class="score-block">
+                <h3 data-i18n="compare.priceRatio">Relación precio</h3>
+                <div class="score-row" id="scoreValue1"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 1}">Coche 1</span><div class="score-track"><div class="score-fill score-fill-alt"></div></div></div>
+                <div class="score-row" id="scoreValue2"><span class="score-label" data-i18n="compare.carLabel" data-i18n-variables="{&quot;num&quot;: 2}">Coche 2</span><div class="score-track"><div class="score-fill score-fill-alt"></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="quick-stats animate-fade-in">
+
+    <div class="quick-card">
+        <span data-i18n="compare.quickStats.fastest">⚡ Más rápido</span>
+        <h3 id="fastestCar">--</h3>
+    </div>
+    <div class="quick-card">
+        <span data-i18n="compare.quickStats.mostPowerful">💪 Más potente</span>
+        <h3 id="powerCar">--</h3>
+    </div>
+    <div class="quick-card">
+        <span data-i18n="compare.quickStats.mostEfficient">⚡ Más eficiente</span>
+        <h3 id="efficientCar">--</h3>
+    </div>
+
+</section>
+<!-- ================= PROS CONS ================= -->
+
+<section class="pros-cons animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.prosConsLabel">PROS & CONS</span>
+
+        <h2 data-i18n="compare.prosCons">Ventajas y desventajas</h2>
+
+    </div>
+
+    <div class="pros-grid">
+
+        <!-- CAR 1 -->
+
+        <div class="pros-card">
+
+            <h3 id="car1ProsName">Coche 1</h3>
+
+            <ul class="pros" id="car1Pros">
+                <li>--</li>
+            </ul>
+
+            <ul class="cons" id="car1Cons">
+                <li>--</li>
+            </ul>
+
+        </div>
+
+        <!-- CAR 2 -->
+
+        <div class="pros-card">
+
+            <h3 id="car2ProsName">Coche 2</h3>
+
+            <ul class="pros" id="car2Pros">
+                <li>--</li>
+            </ul>
+
+            <ul class="cons" id="car2Cons">
+                <li>--</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= WHICH SHOULD YOU BUY ================= -->
+
+<section class="buy-choice animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.buyingGuide">BUYING GUIDE</span>
+
+        <h2 data-i18n="compare.buyTitle">¿Cuál deberías comprar?</h2>
+
+    </div>
+
+    <div class="choice-container">
+
+        <div class="choice-box">
+
+            <h3 id="buy1Title">--</h3>
+
+            <ul id="buy1List">
+                <li>--</li>
+            </ul>
+
+        </div>
+
+        <div class="choice-box">
+
+            <h3 id="buy2Title">--</h3>
+
+            <ul id="buy2List">
+                <li>--</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= REAL COSTS ================= -->
+
+<section class="real-costs animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.realCosts">REAL COSTS IN SPAIN</span>
+
+        <h2 data-i18n="compare.costsTitle">Costes reales en España</h2>
+
+    </div>
+
+    <div class="costs-table">
+
+        <table>
+
+            <tr>
+                <th></th>
+                <th id="costHeader1">Coche 1</th>
+                <th id="costHeader2">Coche 2</th>
+            </tr>
+            <tr>
+                <td data-i18n="compare.insurance">Seguro anual</td>
+                <td id="insurance1">--</td>
+                <td id="insurance2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.itv">ITV</td>
+                <td id="itv1">--</td>
+                <td id="itv2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.maintenance">Mantenimiento anual</td>
+                <td id="maintenance1">--</td>
+                <td id="maintenance2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumption">Consumo medio</td>
+                <td id="consumption1">--</td>
+                <td id="consumption2">--</td>
+            </tr>
+
+            <tr>
+                <td data-i18n="compare.fuelAnnual">Combustible/año (15.000 km)</td>
+                <td id="fuelAnnual1">--</td>
+                <td id="fuelAnnual2">--</td>
+            </tr>
+
+            <tr>
+                <td data-i18n="compare.totalAnnual">Coste total estimado/año</td>
+                <td id="totalAnnual1">--</td>
+                <td id="totalAnnual2">--</td>
+            </tr>
+
+            <tr>
+                <td data-i18n="compare.table.reliability">Fiabilidad</td>
+                <td id="reliability1">--</td>
+                <td id="reliability2">--</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- ================= DIMENSIONS ================= -->
+
+<section class="dimensions-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.dimensions">DIMENSIONS</span>
+
+        <h2 data-i18n="compare.dimensionsTitle">Dimensiones</h2>
+
+    </div>
+
+    <div class="dimensions-table">
+
+        <table>
+
+            <tr>
+                <th></th>
+                <th id="dimHeader1">Coche 1</th>
+                <th id="dimHeader2">Coche 2</th>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.length">Longitud</td>
+                <td id="length1">--</td>
+                <td id="length2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.width">Anchura</td>
+                <td id="width1">--</td>
+                <td id="width2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.height">Altura</td>
+                <td id="height1">--</td>
+                <td id="height2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.wheelbase">Batalla</td>
+                <td id="wheelbase1">--</td>
+                <td id="wheelbase2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.weight">Peso</td>
+                <td id="weight1">--</td>
+                <td id="weight2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.trunk">Maletero (asientos arriba)</td>
+                <td id="trunk1">--</td>
+                <td id="trunk2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.dimensions.fuelTank">Depósito combustible</td>
+                <td id="fuelTank1">--</td>
+                <td id="fuelTank2">--</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- INSIGHTS COMPRADOR -->
+<section class="buyer-insights compare-section-block animate-fade-in">
+    <div class="section-title">
+        <span data-i18n="compare.buyerLabel">PARA EL COMPRADOR</span>
+        <h2 data-i18n="compare.insightsTitle">Lo que más te importa al decidir</h2>
+        <p data-i18n="compare.buyerSubtitle">Resumen práctico según los dos modelos elegidos</p>
+    </div>
+    <div class="insights-grid">
+        <article class="insight-card">
+            <span class="insight-icon">🎯</span>
+            <h3 data-i18n="compare.bestFor">Mejor para</h3>
+            <p id="insightBestFor1">--</p>
+            <p id="insightBestFor2">--</p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-icon">🎯</span>
+            <h3 data-i18n="compare.drivetrain">Tracción</h3>
+            <p><strong id="insightDrive1">--</strong> vs <strong id="insightDrive2">--</strong></p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-icon">🎯</span>
+            <h3 data-i18n="compare.seats">Plazas</h3>
+            <p><strong id="insightSeats1">--</strong> vs <strong id="insightSeats2">--</strong></p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-icon">🎯</span>
+            <h3 data-i18n="compare.fuelSavings">Ahorro anual combustible</h3>
+            <p id="insightFuelSave">--</p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-icon">🎯</span>
+            <h3 data-i18n="compare.priceDiff">Diferencia de precio</h3>
+            <p id="insightPriceDiff">--</p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-icon">⚠️</span>
+            <h3 data-i18n="compare.runningCost">Seguro + mantenimiento</h3>
+            <p id="insightRunningCost">--</p>
+        </article>
+    </div>
+</section>
+
+<!-- ================= DETAILED SPECS ================= -->
+
+<section class="detailed-specs animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.detailedAnalysis">DETAILED ANALYSIS</span>
+
+        <h2 data-i18n="compare.detailedAnalysisLabel">
+            Análisis completo
+        </h2>
+
+        <p id="detailSubtitle" data-i18n="compare.selectTwoCarsAnalysis">
+            Selecciona dos coches para ver el análisis completo.
+        </p>
+
+    </div>
+
+    <div class="specs-container">
+
+        <!-- CAR 1 -->
+
+        <div class="specs-card">
+
+            <h3 id="detailCar1" data-i18n="compare.car1Label">Coche 1</h3>
+
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.engineType">Tipo de motor</span><strong id="d1Engine">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.cylinders">Cilindros</span><strong id="d1Cylinders">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.turbo">Turbo</span><strong id="d1Aspiration">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.torque">Torque</span><strong id="d1Torque">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.weight">Peso</span><strong id="d1Weight">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.chassis">Material del chasis</span><strong id="d1Chassis">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.consumption">Consumo</span><strong id="d1Consumption">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.range">Autonomía</span><strong id="d1Range">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.suspension">Suspensión</span><strong id="d1Suspension">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.drivetrain">Tracción</span><strong id="d1Drivetrain">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.transmission">Transmisión</span><strong id="d1Transmission">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.maintenance">Costo de mantenimiento</span><strong id="d1Maintenance">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.reliability">Fiabilidad</span><strong id="d1Reliability">--</strong></div>
+
+        </div>
+
+        <!-- CAR 2 -->
+
+        <div class="specs-card">
+
+            <h3 id="detailCar2" data-i18n="compare.car2Label">Coche 2</h3>
+
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.engineType">Tipo de motor</span><strong id="d2Engine">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.cylinders">Cilindros</span><strong id="d2Cylinders">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.turbo">Turbo</span><strong id="d2Aspiration">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.torque">Torque</span><strong id="d2Torque">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.weight">Peso</span><strong id="d2Weight">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.chassis">Material del chasis</span><strong id="d2Chassis">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.consumption">Consumo</span><strong id="d2Consumption">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.range">Autonomía</span><strong id="d2Range">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.suspension">Suspensión</span><strong id="d2Suspension">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.drivetrain">Tracción</span><strong id="d2Drivetrain">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.transmission">Transmisión</span><strong id="d2Transmission">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.maintenance">Costo de mantenimiento</span><strong id="d2Maintenance">--</strong></div>
+            <div class="spec-item"><span data-i18n="compare.detailedSpecs.reliability">Fiabilidad</span><strong id="d2Reliability">--</strong></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.features">FEATURES</span>
+
+        <h2 data-i18n="compare.featuresTitle">Equipamiento y características</h2>
+
+    </div>
+
+    <div class="features-container">
+
+        <!-- CAR 1 -->
+
+        <div class="features-card">
+
+            <h3 id="featCar1">Coche 1</h3>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.exterior">Exterior</h4>
+                <ul id="featExt1" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.interior">Interior</h4>
+                <ul id="featInt1" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.technology">Tecnología</h4>
+                <ul id="featTech1" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.safety">Seguridad</h4>
+                <ul id="featSafe1" class="feature-list"></ul>
+            </div>
+
+        </div>
+
+        <!-- CAR 2 -->
+
+        <div class="features-card">
+
+            <h3 id="featCar2">Coche 2</h3>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.exterior">Exterior</h4>
+                <ul id="featExt2" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.interior">Interior</h4>
+                <ul id="featInt2" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.technology">Tecnología</h4>
+                <ul id="featTech2" class="feature-list"></ul>
+            </div>
+
+            <div class="feature-category">
+                <h4 data-i18n="compare.features.safety">Seguridad</h4>
+                <ul id="featSafe2" class="feature-list"></ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= DETAILED CONSUMPTION ================= -->
+
+<section class="consumption-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.consumption">CONSUMPTION</span>
+
+        <h2 data-i18n="compare.consumptionTitle">Consumo detallado</h2>
+
+    </div>
+
+    <div class="consumption-table">
+
+        <table>
+
+            <tr>
+                <th></th>
+                <th id="consHeader1">Coche 1</th>
+                <th id="consHeader2">Coche 2</th>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.city">Ciudad</td>
+                <td id="cityCons1">--</td>
+                <td id="cityCons2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.highway">Carretera</td>
+                <td id="highwayCons1">--</td>
+                <td id="highwayCons2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.combined">Mixto</td>
+                <td id="combinedCons1">--</td>
+                <td id="combinedCons2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.calm">Conducción tranquila</td>
+                <td id="calmCons1">--</td>
+                <td id="calmCons2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.sport">Conducción deportiva</td>
+                <td id="sportCons1">--</td>
+                <td id="sportCons2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.rangeCity">Autonomía ciudad</td>
+                <td id="rangeCity1">--</td>
+                <td id="rangeCity2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.consumptionDetails.rangeHighway">Autonomía carretera</td>
+                <td id="rangeHighway1">--</td>
+                <td id="rangeHighway2">--</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- ================= DEPRECIATION ================= -->
+
+<section class="depreciation-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.depreciation">DEPRECIATION</span>
+
+        <h2 data-i18n="compare.depreciationTitle">Valor residual</h2>
+
+    </div>
+
+    <div class="depreciation-table">
+
+        <table>
+
+            <tr>
+                <th></th>
+                <th id="depHeader1">Coche 1</th>
+                <th id="depHeader2">Coche 2</th>
+            </tr>
+            <tr>
+                <td data-i18n="compare.depreciation.year1">Tras 1 año</td>
+                <td id="depYear1_1">--</td>
+                <td id="depYear1_2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.depreciation.year3">Tras 3 años</td>
+                <td id="depYear3_1">--</td>
+                <td id="depYear3_2">--</td>
+            </tr>
+            <tr>
+                <td data-i18n="compare.depreciation.year5">Tras 5 años</td>
+                <td id="depYear5_1">--</td>
+                <td id="depYear5_2">--</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- ================= INTERIOR TECHNOLOGY ================= -->
+
+<section class="interior-tech-section animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.interiorTech">INTERIOR TECHNOLOGY</span>
+
+        <h2 data-i18n="compare.interiorTechTitle">Tecnología interior</h2>
+
+    </div>
+
+    <div class="interior-tech-container">
+
+        <!-- CAR 1 -->
+
+        <div class="interior-tech-card">
+
+            <h3 id="intTechCar1">Coche 1</h3>
+
+            <div id="intTechCards1" class="interior-tech-cards"></div>
+
+        </div>
+
+        <!-- CAR 2 -->
+
+        <div class="interior-tech-card">
+
+            <h3 id="intTechCar2">Coche 2</h3>
+
+            <div id="intTechCards2" class="interior-tech-cards"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WINNER ================= -->
+
+<section class="winner-section animate-fade-in">
+
+    <div class="winner-card">
+
+        <span data-i18n="compare.sections.bestPerformance">
+            BEST PERFORMANCE
+        </span>
+
+        <h2 id="winnerTitle" data-i18n="compare.winnerTitle">
+            Selecciona dos coches
+        </h2>
+
+        <p id="winnerText" data-i18n="compare.selectTwoCarsAnalysis">
+            Selecciona dos coches para ver el análisis completo.
+        </p>
+
+        <a id="winnerLink" href="#" class="hero-btn" data-i18n="compare.viewFullReview">
+            Ver review completa
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= WINNER CTA ================= -->
+
+<section class="car-page-cta animate-fade-in" id="winnerCta">
+
+    <div class="car-page-box">
+
+        <div class="car-page-image">
+
+            <img id="ctaImage" src="" alt="">
+
+        </div>
+
+        <div class="car-page-content">
+
+            <span data-i18n="compare.noticias">NOTICIAS</span>
+
+            <h2 id="ctaTitle">--</h2>
+
+            <p id="ctaDesc">--</p>
+
+            <div class="car-page-features">
+
+                <div class="feature" data-i18n="compare.noticiasFeatures.latestNews">✓ Últimas noticias</div>
+                <div class="feature" data-i18n="compare.noticiasFeatures.industryUpdates">✓ Actualizaciones del sector</div>
+                <div class="feature" data-i18n="compare.noticiasFeatures.marketTrends">✓ Tendencias del mercado</div>
+                <div class="feature" data-i18n="compare.noticiasFeatures.expertAnalysis">✓ Análisis de expertos</div>
+
+            </div>
+
+            <a href="#" id="ctaLink" class="hero-btn">--</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.faq">FAQ</span>
+
+        <h2 data-i18n="compare.faq.title">Preguntas frecuentes</h2>
+
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <h3 data-i18n="compare.faq.reliable">¿Cuál es más fiable?</h3>
+            <p id="faqReliable">Selecciona dos coches para comparar fiabilidad.</p>
+        </div>
+        <div class="faq-item">
+            <h3 data-i18n="compare.faq.consumption">¿Cuál consume menos?</h3>
+            <p id="faqConsumption">Selecciona dos coches para comparar consumo.</p>
+        </div>
+        <div class="faq-item">
+            <h3 data-i18n="compare.travelQuestion">¿Cuál es mejor para viajes?</h3>
+            <p id="faqTravel">Selecciona dos coches para comparar confort.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= RELATED CARS ================= -->
+
+<section class="related-cars animate-fade-in">
+
+    <div class="section-title">
+
+        <span data-i18n="compare.sections.relatedCars">RELATED CARS</span>
+
+        <h2 data-i18n="compare.relatedTitle">También te puede interesar</h2>
+
+    </div>
+
+    <div class="related-grid" id="relatedGrid">
+        <!-- Populated dynamically by JS -->
+    </div>
+
+</section>
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+<button type="button" id="floatCompareBtn" class="float-compare-btn" aria-label="Volver arriba">?</button>
+
+</main>
+
+<script src="js/flag-icons.js"></script>
+<script src="js/mega-menu-data.js"></script>
+<script src="js/mega-menu.js"></script>
+<script src="js/i18n.js"></script>
+<script src="system/js/dropdowns.js"></script>
+<script src="js/script.js"></script>
+<script src="js/compare-data.js"></script>
+<script src="js/compare.js"></script>
+<script src="js/compare-page.js"></script>
+
+<script>
+// Parallax Hero Effect
+(function() {
+    const heroBg = document.querySelector('.page-compare .dash-hero-bg');
+    if (!heroBg) return;
+    
+    let ticking = false;
+    function updateParallax() {
+        const scrolled = window.pageYOffset;
+        const rate = scrolled * 0.3;
+        heroBg.style.transform = 'translateY(' + rate + 'px) scale(1.1)';
+        ticking = false;
+    }
+    
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            window.requestAnimationFrame(updateParallax);
+            ticking = true;
+        }
+    });
+})();
+
+// Popular Cards Auto-Scroll Marquee (mobile only)
+(function() {
+    const grid = document.getElementById('popularCompareGrid');
+    if (!grid) return;
+
+    let animId = null;
+    let isDown = false;
+    let startX = 0;
+    let scrollLeft = 0;
+
+    function autoScroll() {
+        if (window.innerWidth > 768 || isDown) return;
+        grid.scrollLeft = Math.round(grid.scrollLeft + 1);
+        if (grid.scrollLeft >= grid.scrollWidth - grid.clientWidth) {
+            grid.scrollLeft = 0; // loop
+        }
+        animId = requestAnimationFrame(autoScroll);
+    }
+
+    function startAutoScroll() {
+        if (window.innerWidth <= 768 && !animId) {
+            animId = requestAnimationFrame(autoScroll);
+        }
+    }
+
+    function stopAutoScroll() {
+        if (animId) {
+            cancelAnimationFrame(animId);
+            animId = null;
+        }
+    }
+
+    grid.addEventListener('mousedown', function(e) {
+        isDown = true;
+        startX = e.pageX - grid.offsetLeft;
+        scrollLeft = grid.scrollLeft;
+    });
+    grid.addEventListener('mouseleave', function() { isDown = false; });
+    grid.addEventListener('mouseup', function() { isDown = false; });
+    grid.addEventListener('touchstart', function() { isDown = true; }, {passive: true});
+    grid.addEventListener('touchend', function() { isDown = false; });
+
+    // Start when grid has children and we're on mobile
+    const observer = new MutationObserver(function() {
+        if (grid.children.length > 0) startAutoScroll();
+    });
+    observer.observe(grid, { childList: true });
+
+    window.addEventListener('resize', function() {
+        if (window.innerWidth <= 768) {
+            startAutoScroll();
+        } else {
+            stopAutoScroll();
+        }
+    });
+
+    // Initial start
+    if (grid.children.length > 0 && window.innerWidth <= 768) {
+        startAutoScroll();
+    }
+})();
+</script>
+
+<script src="js/cookie-consent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/analytics-events.js" defer></script>
+</body>
+</html>
+
+

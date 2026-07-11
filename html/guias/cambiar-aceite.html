@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<!--
+    CarSpecio Guide Page Template
+    Generates static HTML pages for each guide from guide data
+    Output: html/guias/[slug].html
+-->
+<html lang="es" data-i18n-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Dynamic SEO Metadata -->
+    <title>Cómo cambiar el aceite del coche paso a paso | Guía completa CarSpecio</title>
+    <meta name="description" content="Guía profesional para cambiar el aceite del motor en casa: herramientas, elección de aceite, pasos detallados y consejos de mecánico. Ahorra 40–120€ por cambio.">
+    <meta name="keywords" content="cambiar aceite coche, aceite motor, mantenimiento coche DIY, filtro aceite, aceite sintetico, viscosidad aceite motor, cambio aceite paso a paso">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cómo cambiar el aceite del coche paso a paso | Guía completa CarSpecio">
+    <meta property="og:description" content="Guía profesional para cambiar el aceite del motor en casa: herramientas, elección de aceite, pasos detallados y consejos de mecánico. Ahorra 40–120€ por cambio.">
+    <meta property="og:image" content="../../images/placeholder.svg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://carspecio.com/guias/cambiar-aceite.html">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cómo cambiar el aceite del coche paso a paso | Guía completa CarSpecio">
+    <meta name="twitter:description" content="Guía profesional para cambiar el aceite del motor en casa: herramientas, elección de aceite, pasos detallados y consejos de mecánico. Ahorra 40–120€ por cambio.">
+    <meta name="twitter:image" content="../../images/placeholder.svg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://carspecio.com/guias/cambiar-aceite.html">
+    <link rel="alternate" hreflang="es" href="https://carspecio.com/guias/cambiar-aceite.html">
+    <link rel="alternate" hreflang="en" href="https://carspecio.com/guias/cambiar-aceite.html">
+    <link rel="alternate" hreflang="fr" href="https://carspecio.com/guias/cambiar-aceite.html">
+    <link rel="alternate" hreflang="ar" href="https://carspecio.com/guias/cambiar-aceite.html">
+    <link rel="alternate" hreflang="x-default" href="https://carspecio.com/guias/cambiar-aceite.html">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo cambiar el aceite del coche paso a paso",
+  "description": "Guía completa con pasos detallados, herramientas necesarias y consejos profesionales para cambiar el aceite del motor en casa y ahorrar dinero.",
+  "author": {
+    "@type": "Person",
+    "name": "CarSpecio Technical Team"
+  },
+  "datePublished": "2026-06-20",
+  "dateModified": "2026-06-28",
+  "image": "../../images/placeholder.svg",
+  "articleSection": "Mantenimiento",
+  "keywords": "oil, maintenance, engine, DIY, filter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CarSpecio",
+    "url": "https://carspecio.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://carspecio.com/guias/cambiar-aceite.html"
+  }
+}
+    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cada cuánto tiempo debo cambiar el aceite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del tipo de aceite y de tu forma de conducir. Con aceite mineral: cada 5.000–7.500 km. Con semisintético: 7.500–10.000 km. Con sintético de calidad: 10.000–15.000 km o el intervalo indicado en el sistema de mantenimiento del vehículo, que puede llegar a 20.000 km en coches modernos. Nunca pases de 2 años sin cambiar, independientemente de los kilómetros."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo mezclar aceite nuevo con el aceite viejo que queda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Técnicamente puedes añadir aceite de la misma viscosidad y base para reponer nivel, pero nunca sustituye al cambio completo. El aceite viejo está contaminado con ácidos, partículas metálicas y productos de combustión. Mezclar solo diluye el problema temporalmente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa si pongo demasiado aceite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El exceso de aceite (por encima del máximo en la varilla) crea espuma dentro del motor por la acción del cigüeñal. El aceite espumado no lubrica correctamente. Además puede ser aspirado por el sistema de ventilación del cárter (PCV), entrar en el colector de admisión y contaminar el catalizador. Si te pasas, drena el exceso con una jeringa de extracción o lleva el coche a un taller."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo cambiar solo el aceite sin cambiar el filtro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No es recomendable. El filtro viejo contiene aceite contaminado y partículas que se mezclarán con el aceite nuevo al arrancar el motor. Los fabricantes siempre especifican cambio de ambos simultáneamente. Un filtro nuevo cuesta entre 8 y 25 €, merece la pena."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto aceite necesita mi coche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La capacidad del cárter varía según el motor: los 4 cilindros pequeños suelen necesitar 3,5–4,5 litros; los 6 cilindros 5–6 litros; los 8 cilindros 6–8 litros. Siempre consulta el manual del vehículo o la etiqueta bajo el capó. Añade siempre algo menos de la cantidad total y verifica con la varilla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿El aceite sintético es mejor que el mineral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, para la mayoría de motores modernos. El sintético ofrece mayor estabilidad térmica, mejor protección al arranque en frío, menor volatilidad y mayor resistencia a la oxidación. El mineral o semisintético puede ser adecuado para motores muy viejos con holguras elevadas, donde el sintético podría causar pequeñas fugas por sellos deteriorados."
+      }
+    }
+  ]
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": {
+        "@id": "https://carspecio.com/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guías",
+      "item": {
+        "@id": "https://carspecio.com/guias/index.html"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mantenimiento",
+      "item": {
+        "@id": "https://carspecio.com/guias/index.html#maintenance"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Cómo cambiar el aceite del coche paso a paso",
+      "item": {
+        "@id": "https://carspecio.com/guias/cambiar-aceite.html"
+      }
+    }
+  ]
+}</script>
+
+    <link rel="icon" href="../assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="../assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
+    <!-- Theme: apply before paint to avoid flash -->
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/guide-page-bundle.min.css">
+
+    <!-- Content renders immediately -->
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress" role="progressbar" aria-label="Progreso de lectura" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" data-reading-time="10">
+        <div class="reading-progress__bar" id="readingProgressBar"></div>
+        <span class="reading-progress__tooltip" id="readingProgressTooltip" aria-hidden="true"></span>
+    </div>
+
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+    <a href="../index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="../index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="../compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="../reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="../diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="../guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="../herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="../contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="guide-breadcrumb">
+        <a href="../index.html" data-i18n="guides.breadcrumbHome">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html" data-i18n="guides.breadcrumbGuides">Guías</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html#maintenance">Mantenimiento</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current" aria-current="page"><span class="lang-title" data-lang="es">Cómo cambiar el aceite del coche paso a paso</span><span class="lang-title" data-lang="en" hidden>How to Change Your Car Oil Step by Step</span><span class="lang-title" data-lang="fr" hidden>Comment changer l'huile de sa voiture étape par étape</span><span class="lang-title" data-lang="ar" hidden>كيفية تغيير زيت السيارة خطوة بخطوة</span></span>
+    </nav>
+
+    <div id="a11yAnnouncer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Hero Section -->
+    <section class="guide-hero" id="heroSection" style="background-image: url('../../images/placeholder.svg')">
+        <div class="guide-hero-overlay"></div>
+        <div class="guide-hero-content">
+            <span class="guide-category-badge">Mantenimiento</span>
+            <h1 id="guideTitle"><span class="lang-title" data-lang="es">Cómo cambiar el aceite del coche paso a paso</span><span class="lang-title" data-lang="en" hidden>How to Change Your Car Oil Step by Step</span><span class="lang-title" data-lang="fr" hidden>Comment changer l'huile de sa voiture étape par étape</span><span class="lang-title" data-lang="ar" hidden>كيفية تغيير زيت السيارة خطوة بخطوة</span></h1>
+            <p class="guide-meta">
+                <span class="guide-author">CarSpecio Technical Team</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-date">2026-06-20</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-reading-time">10</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Author Block -->
+    <div class="author-block">
+        <div class="author-block__avatar" aria-hidden="true"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-4 3.6-6 7-6s7 2 7 6"/></svg></div>
+        <div class="author-block__info">
+            <span class="author-block__name">CarSpecio Technical Team</span>
+            <span class="author-block__meta"><span class="author-block__updated">Actualizado el {date}: 2026-06-28</span> · <span class="author-block__difficulty guide-card-difficulty guide-card-difficulty--beginner">Fácil</span></span>
+            <span class="author-block__editorial">Contenido revisado por el equipo editorial de CarSpecio.</span>
+        </div>
+    </div>
+
+    <!-- Freshness Banner -->
+    
+
+    <!-- Guide Layout -->
+    <div class="guide-layout">
+        <!-- Sidebar: TOC + Summary -->
+        <aside class="guide-sidebar">
+            <!-- Key Takeaways -->
+            <div class="lang-block" data-lang="es"><h4>Puntos clave</h4><ul class="key-takeaways__list"><li>El aceite sucio puede aumentar el consumo de combustible hasta un 2%</li><li>Cambiar el filtro de aceite en cada sustitución es obligatorio</li><li>La viscosidad correcta (p.ej. 5W-30) está en el manual del vehículo</li><li>Nunca mezcles aceites de distintas viscosidades o bases</li><li>El aceite usado es residuo tóxico: llévalo a un punto limpio</li></ul></div><div class="lang-block" data-lang="en" hidden><h4>Key Takeaways</h4><ul class="key-takeaways__list"><li>Dirty oil can increase fuel consumption by up to 2%</li><li>Always replace the oil filter with every oil change</li><li>The correct viscosity (e.g. 5W-30) is in your vehicle manual</li><li>Never mix oils of different viscosities or base types</li><li>Used oil is toxic waste — take it to a recycling centre</li></ul></div><div class="lang-block" data-lang="fr" hidden><h4>Points clés</h4><ul class="key-takeaways__list"><li>Une huile sale peut augmenter la consommation de carburant jusqu'à 2 %</li><li>Toujours remplacer le filtre à huile à chaque vidange</li><li>La bonne viscosité (ex. 5W-30) est indiquée dans le manuel du véhicule</li><li>Ne jamais mélanger des huiles de viscosités ou bases différentes</li><li>L'huile usagée est un déchet dangereux — à déposer dans un point de collecte</li></ul></div><div class="lang-block" data-lang="ar" hidden><h4>النقاط الرئيسية</h4><ul class="key-takeaways__list"><li>الزيت المتسخ يزيد استهلاك الوقود حتى 2%</li><li>استبدل فلتر الزيت دائماً مع كل تغيير</li><li>اللزوجة الصحيحة (مثل 5W-30) موجودة في دليل المركبة</li><li>لا تخلط أبداً زيوتاً بلزوجات أو قواعد مختلفة</li><li>الزيت المستعمل نفايات خطرة - خذه إلى نقطة تجميع</li></ul></div>
+
+            <!-- Summary Box -->
+            <div class="guide-summary-box" id="summaryBox">
+                <h2 data-i18n="guides.summaryTitle">Resumen rápido</h2>
+                <div class="lang-block" data-lang="es"><h4>Resumen rápido</h4><ul><li>Calienta el motor 5–10 min antes de empezar</li><li>Usa siempre gato hidráulico + caballetes de seguridad</li><li>Deja drenar el aceite viejo 10–15 minutos</li><li>Humedece la junta del filtro nuevo con aceite limpio</li><li>Aprieta el filtro solo a mano + 3/4 vuelta más</li><li>Añade el 80% del aceite, arranca, verifica fugas y comprueba nivel</li></ul></div><div class="lang-block" data-lang="en" hidden><h4>Quick Summary</h4><ul><li>Warm the engine 5–10 min before starting</li><li>Always use hydraulic jack + axle stands</li><li>Let old oil drain for 10–15 minutes</li><li>Lightly oil the new filter gasket with clean oil</li><li>Tighten filter by hand only + 3/4 turn</li><li>Add 80% of oil first, start engine, check for leaks, verify level</li></ul></div><div class="lang-block" data-lang="fr" hidden><h4>Résumé rapide</h4><ul><li>Chauffez le moteur 5–10 min avant de commencer</li><li>Utilisez toujours cric hydraulique + chandelles de sécurité</li><li>Laissez vider l'huile 10–15 minutes</li><li>Lubrifiez le joint du nouveau filtre avec de l'huile propre</li><li>Serrez le filtre à la main seulement + 3/4 de tour</li><li>Versez 80% de l'huile, démarrez, vérifiez les fuites et le niveau</li></ul></div><div class="lang-block" data-lang="ar" hidden><h4>ملخص سريع</h4><ul><li>سخن المحرك 5-10 دقائق قبل البدء</li><li>استخدم دائماً رافعة هيدروليكية + حوامل أمان</li><li>دع الزيت القديم يتصرف 10-15 دقيقة</li><li>ادهن حلقة الفلتر الجديد بالزيت النظيف</li><li>أحكم الفلتر يدوياً فقط + ثلاثة أرباع دورة</li><li>اسكب 80% من الزيت أولاً، أشغل المحرك، تحقق من التسرب والمستوى</li></ul></div>
+            </div>
+
+            <!-- Table of Contents -->
+            <nav class="guide-toc" aria-label="Tabla de contenidos" id="guideToc">
+                <button class="guide-toc__toggle" id="tocToggle" type="button" aria-expanded="true" aria-controls="guideTocItems">
+                    <span data-i18n="guides.tocTitle">Contenido</span>
+                    <svg class="guide-toc__chevron" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+                </button>
+                <ol id="guideTocItems"><li><a href="#cuando-cambiar">1. ¿Cuándo debo cambiar el aceite?</a></li><li><a href="#herramientas">2. Herramientas y materiales necesarios</a></li><li><a href="#elegir-aceite">3. Cómo elegir el aceite correcto</a></li><li><a href="#preparacion">4. Preparación del vehículo</a></li><li><a href="#drenaje">5. Drenar el aceite viejo</a></li><li><a href="#filtro">6. Cambiar el filtro de aceite</a></li><li><a href="#relleno">7. Rellenar con aceite nuevo y verificar</a></li><li><a href="#residuos">8. Gestión del aceite usado y limpieza</a></li><li><a href="#summaryBox">9. Resumen</a></li><li><a href="#faq">10. Preguntas frecuentes</a></li></ol>
+            </nav>
+
+            <!-- Sidebar: Related Guides -->
+            <nav class="sidebar-related" aria-label="Guías relacionadas"><h3 class="sidebar-related__heading">Más guías</h3><a href="cambiar-bateria.html" class="sidebar-related__item"><span class="sidebar-related__time">6 min</span><span class="sidebar-related__title">Cómo cambiar la batería del coche paso a paso</span></a><a href="cambiar-frenos.html" class="sidebar-related__item"><span class="sidebar-related__time">12 min</span><span class="sidebar-related__title">Cómo cambiar los frenos del coche: pastillas y discos</span></a></nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content" class="guide-main">
+            <!-- Intro -->
+            <div class="guide-intro"><div class="lang-block" data-lang="es"><p>Cambiar el aceite del motor es la operación de mantenimiento más importante que puedes hacer por tu coche. Un aceite limpio reduce la fricción, enfría el motor, arrastra las impurezas y puede aumentar la vida útil del motor hasta un 40%. Este proceso tarda unos 30–45 minutos y puede ahorrarte entre 40 € y 120 € por visita al taller.</p></div><div class="lang-block" data-lang="en" hidden><p>Engine oil change is the single most important maintenance you can do for your car. Clean oil reduces friction, cools the engine, carries away impurities, and can extend engine life by up to 40%. The process takes 30–45 minutes and can save you £35–£100 per service.</p></div><div class="lang-block" data-lang="fr" hidden><p>Le changement d'huile moteur est l'opération d'entretien la plus cruciale pour votre véhicule. Une huile propre réduit la friction, refroidit le moteur, élimine les impuretés et peut prolonger la durée de vie du moteur jusqu'à 40 %. Ce processus prend 30 à 45 minutes et vous permet d'économiser 40 à 120 € par vidange.</p></div><div class="lang-block" data-lang="ar" hidden><p>تغيير زيت المحرك هو أهم عملية صيانة يمكنك إجراؤها لسيارتك. الزيت النظيف يقلل الاحتكاك ويبرد المحرك ويحمل الشوائب بعيداً، ويمكنه إطالة عمر المحرك حتى 40%. تستغرق العملية 30-45 دقيقة وتوفر لك 150-500 درهم في كل مرة.</p></div></div>
+
+            <!-- Content Sections -->
+            <article class="guide-content">
+                <div class="lang-block" data-lang="es"><section id="cuando-cambiar"><h2 class="section-heading">¿Cuándo debo cambiar el aceite?<a class="section-anchor" href="#cuando-cambiar" data-section-id="cuando-cambiar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>La mayoría de fabricantes modernos recomiendan cambiar el aceite <strong>cada 10.000–15.000 km</strong> o una vez al año, lo que ocurra primero. Sin embargo, si conduces en condiciones severas (ciudad, mucho frío, remolque de cargas), el intervalo baja a <strong>5.000–7.500 km</strong>.</p><p>Señales de que necesitas cambio urgente:</p><ul><li>Nivel por debajo del mínimo en la varilla</li><li>Aceite negro y espeso (sano: ámbar o marrón claro)</li><li>Luz de aceite encendida en el cuadro</li><li>Ruido de traqueteo al arrancar en frío</li><li>Olor a quemado en el habitáculo</li></ul></div><div class="callout callout--tip">Consulta siempre el manual del propietario. Algunos vehículos modernos con aceite sintético pueden llegar a 20.000 km, pero nunca superes los 2 años sin cambiar.</div></section><section id="herramientas"><h2 class="section-heading">Herramientas y materiales necesarios<a class="section-anchor" href="#herramientas" data-section-id="herramientas" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Antes de empezar, ten a mano todo esto para no interrumpir el proceso:</p><ul><li><strong>Aceite nuevo</strong> — Litros según el manual (normalmente 4–6 L). Elige la viscosidad correcta: 5W-30, 5W-40, 0W-20, etc.</li><li><strong>Filtro de aceite nuevo</strong> — Usa siempre uno de calidad (Mann, Bosch, Mahle). Un filtro barato puede fallar en días.</li><li><strong>Llave de cubo</strong> — Para el tapón de drenaje (generalmente 14, 17 o 19 mm).</li><li><strong>Llave de filtros</strong> — Ajustable o específica para tu motor.</li><li><strong>Gato hidráulico + caballetes de seguridad</strong> — Nunca trabajes bajo el coche apoyado solo en el gato.</li><li><strong>Bandeja de recogida</strong> — Capacidad mínima de 8 litros.</li><li><strong>Embudo, trapos, guantes de nitrilo</strong></li><li><strong>Arandela de cobre nueva</strong> — Para el tapón de drenaje (coste: ~0,50 €, ahorra fugas).</li></ul></div><div class="callout callout--warning">Nunca uses gatos de tijera de fábrica para trabajar debajo del coche. Son solo para cambiar una rueda en la carretera. Usa siempre caballetes homologados.</div></section><section id="elegir-aceite"><h2 class="section-heading">Cómo elegir el aceite correcto<a class="section-anchor" href="#elegir-aceite" data-section-id="elegir-aceite" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Usar el aceite equivocado puede dañar el motor gravemente. Aquí el criterio:</p><ul><li><strong>Viscosidad</strong>: El código SAE (5W-30, 0W-40…) lo elige el fabricante. No lo cambies caprichosamente.</li><li><strong>Base</strong>: Mineral (más barato, para motores viejos), semisintético (equilibrado) o sintético (máxima protección, motores modernos).</li><li><strong>Especificación</strong>: Busca la norma ACEA (A3/B4, C3…) y la aprobación del fabricante (VW 504.00, BMW LL-04, Dexos…).</li></ul><p>Marcas fiables: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz. El precio importa: un buen sintético ronda los 7–15 €/litro.</p></div><div class="callout callout--tip">Si tu coche tiene Aviso de Mantenimiento Variable (BMW Condition Based Service, Mercedes ASSYST, etc.), resetea el contador del aceite después del cambio. Consulta el manual de usuario para el procedimiento exacto.</div></section><section id="preparacion"><h2 class="section-heading">Preparación del vehículo<a class="section-anchor" href="#preparacion" data-section-id="preparacion" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Sigue este orden exacto para no olvidar nada:</p><ol><li>Conduce el coche <strong>5–10 minutos</strong> para calentar el aceite a ~60°C — fluirá mejor y arrastrará más sedimentos. No lo calientes hasta el máximo operativo o quemarás tus manos.</li><li>Aparca en superficie plana y firme.</li><li>Apaga el motor y espera <strong>5 minutos</strong>.</li><li>Acciona el <strong>freno de mano</strong> y coloca cuñas en las ruedas traseras.</li><li>Abre el capó y <strong>retira la tapa del aceite</strong> del motor para facilitar el drenaje (crea vacío de otro modo).</li><li>Eleva el coche con el gato hidráulico por los puntos de elevación marcados en el umbral y coloca los <strong>caballetes de seguridad</strong>.</li></ol></div></section><section id="drenaje"><h2 class="section-heading">Drenar el aceite viejo<a class="section-anchor" href="#drenaje" data-section-id="drenaje" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Esta es la fase más importante y la que más tiempo requiere:</p><ol><li>Coloca la bandeja de recogida bajo el cárter del motor.</li><li>Localiza el <strong>tapón de drenaje</strong> (parte inferior del cárter, generalmente apuntando hacia abajo o hacia un lateral).</li><li>Afloja el tapón con la llave de cubo girando <strong>en sentido antihorario</strong>. Hazlo despacio al final con los dedos para no perder el tapón en el aceite.</li><li>Deja drenar durante <strong>10–15 minutos</strong>. No en 2 minutos — el aceite viscoso necesita tiempo.</li><li>Observa el chorro: si sale con mucha espuma puede haber refrigerante mezclado (problema serio). Si es muy negro y hay partículas metálicas, el motor está desgastado.</li><li>Limpia la zona del tapón con un trapo.</li></ol></div><div class="callout callout--warning">El aceite caliente puede causar quemaduras graves. Usa siempre guantes de nitrilo resistentes al calor y gafas de protección. Si el aceite sale disparado, aparta la cara.</div></section><section id="filtro"><h2 class="section-heading">Cambiar el filtro de aceite<a class="section-anchor" href="#filtro" data-section-id="filtro" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>El filtro retiene partículas metálicas, carbonilla y contaminantes. Nunca lo reutilices:</p><ol><li>Localiza el filtro. Puede ser de tipo <strong>cartucho</strong> (carcasa plástica con filtro interno) o tipo <strong>rosca</strong> (lata metálica roscada directamente).</li><li>Usa la llave de filtros para girarlo <strong>en sentido antihorario</strong>. Si está muy apretado, pon un trapo para mejor agarre.</li><li>Vacía el aceite del filtro viejo en la bandeja. Limpia perfectamente la superficie de asiento del filtro en el motor.</li><li><strong>Humedece la junta de goma del filtro nuevo</strong> con aceite limpio — esto garantiza el sellado correcto y evita que la junta se pegue.</li><li>Enrosca el nuevo filtro a mano hasta que la junta toque la superficie, luego aprieta <strong>3/4 de vuelta más</strong>. NO uses herramienta para apretar — se deformará la junta.</li></ol></div><div class="callout callout--tip">Si tu coche usa filtro de cartucho (BMW, Mercedes, Audi TDI…), compra también la junta tórica de repuesto de la carcasa. Reutilizarla puede causar fugas.</div></section><section id="relleno"><h2 class="section-heading">Rellenar con aceite nuevo y verificar<a class="section-anchor" href="#relleno" data-section-id="relleno" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>La fase final antes de arrancar:</p><ol><li>Vuelve a colocar el tapón de drenaje con una <strong>arandela de cobre nueva</strong> y apriétalo al par correcto (normalmente 20–30 Nm — consulta el manual).</li><li>Baja el coche de los caballetes.</li><li>Con el embudo, vierte el <strong>80% de la cantidad total</strong> de aceite indicada en el manual (por ejemplo, si son 5 litros, echa 4 primero).</li><li>Vuelve a colocar la tapa del aceite, arranca el motor y déjalo correr <strong>30 segundos</strong> con el motor al ralentí. Comprueba que no haya fugas bajo el coche.</li><li>Apaga el motor, espera <strong>3 minutos</strong> para que el aceite baje al cárter.</li><li>Comprueba el nivel con la varilla: sácala, límpiala, introdúcela, sácala. El nivel debe estar entre el mínimo y el máximo, <strong>idealmente en el tercio superior</strong>.</li><li>Si es necesario, añade aceite poco a poco hasta alcanzar el nivel correcto.</li></ol></div><div class="callout callout--warning">Excederse del nivel máximo es tan peligroso como quedarse corto. El aceite de más puede ser aspirado por el sistema de ventilación del cárter, contaminar el catalizador y dañar sellos de aceite.</div></section><section id="residuos"><h2 class="section-heading">Gestión del aceite usado y limpieza<a class="section-anchor" href="#residuos" data-section-id="residuos" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>El aceite de motor usado es un <strong>residuo peligroso</strong>. Está prohibido tirarlo al desagüe, al suelo o a la basura normal:</p><ul><li>Guárdalo en el recipiente original del aceite nuevo con tapa bien cerrada.</li><li>Llévalo a un <strong>punto limpio municipal</strong> o a un taller de coches (están obligados a recibirlo gratis).</li><li>En España, 1 litro de aceite puede contaminar hasta 1.000 litros de agua.</li></ul><p>Para limpiar los derrames, usa papel absorbente o aserrín. Si queda mancha en el suelo del garaje, aplica desengrasante doméstico y frota.</p></div></section></div><div class="lang-block" data-lang="en" hidden><section id="when-to-change"><h2 class="section-heading">When should you change the oil?<a class="section-anchor" href="#when-to-change" data-section-id="when-to-change" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Most modern manufacturers recommend changing the oil <strong>every 10,000–15,000 km</strong> or once a year, whichever comes first. However, if you drive in severe conditions (city driving, extreme cold, towing), the interval drops to <strong>5,000–7,500 km</strong>.</p><p>Signs you need an urgent change:</p><ul><li>Level below the minimum on the dipstick</li><li>Black, thick oil (healthy: amber or light brown)</li><li>Oil warning light on the dashboard</li><li>Rattling noise on cold start</li><li>Burning smell in the cabin</li></ul></div><div class="callout callout--tip">Always consult your owner's manual. Some modern vehicles with fully synthetic oil can go up to 20,000 km, but never exceed 2 years without changing.</div></section><section id="tools"><h2 class="section-heading">Tools and Materials Needed<a class="section-anchor" href="#tools" data-section-id="tools" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Have everything ready before you start:</p><ul><li><strong>New oil</strong> — Correct quantity (usually 4–6 L) and viscosity from your manual: 5W-30, 5W-40, 0W-20, etc.</li><li><strong>New oil filter</strong> — Quality brands: Mann, Bosch, Mahle. Cheap filters can fail within days.</li><li><strong>Socket wrench</strong> — For the drain plug (commonly 14, 17 or 19 mm).</li><li><strong>Oil filter wrench</strong> — Adjustable or engine-specific.</li><li><strong>Hydraulic jack + axle stands</strong> — Never work under a car supported only by a jack.</li><li><strong>Drain pan</strong> — Minimum 8-litre capacity.</li><li><strong>Funnel, rags, nitrile gloves</strong></li><li><strong>New copper washer</strong> — For the drain plug (~50p, prevents leaks).</li></ul></div><div class="callout callout--warning">Never use the vehicle's scissor jack to work underneath it. Use only rated axle stands.</div></section><section id="choosing-oil"><h2 class="section-heading">How to Choose the Right Oil<a class="section-anchor" href="#choosing-oil" data-section-id="choosing-oil" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Using the wrong oil can seriously damage your engine:</p><ul><li><strong>Viscosity</strong>: The SAE code (5W-30, 0W-40…) is chosen by the manufacturer. Don't change it arbitrarily.</li><li><strong>Base</strong>: Mineral (cheaper, older engines), semi-synthetic (balanced), or fully synthetic (best protection, modern engines).</li><li><strong>Specification</strong>: Look for the ACEA rating (A3/B4, C3…) and manufacturer approval (VW 504.00, BMW LL-04, Dexos…).</li></ul><p>Reliable brands: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.</p></div><div class="callout callout--tip">If your car has a Variable Maintenance Reminder (BMW CBS, Mercedes ASSYST, etc.), reset the oil service counter after the change.</div></section><section id="preparation"><h2 class="section-heading">Vehicle Preparation<a class="section-anchor" href="#preparation" data-section-id="preparation" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Follow this exact order:</p><ol><li>Drive the car <strong>5–10 minutes</strong> to warm the oil to ~60°C — it flows better and carries more deposits.</li><li>Park on a flat, firm surface.</li><li>Turn off the engine and wait <strong>5 minutes</strong>.</li><li>Apply the <strong>handbrake</strong> and place wheel chocks on the rear wheels.</li><li>Open the bonnet and <strong>remove the oil filler cap</strong> to allow proper drainage (prevents a vacuum).</li><li>Raise the car with the hydraulic jack at the marked jacking points and place <strong>axle stands</strong>.</li></ol></div></section><section id="draining"><h2 class="section-heading">Draining the Old Oil<a class="section-anchor" href="#draining" data-section-id="draining" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>The most important phase:</p><ol><li>Position the drain pan under the sump.</li><li>Locate the <strong>drain plug</strong> (bottom of the oil pan).</li><li>Loosen with the socket wrench <strong>counter-clockwise</strong>. Finish by hand to control the plug.</li><li>Let it drain for <strong>10–15 minutes</strong>.</li><li>Observe the oil: excessive foam may indicate coolant contamination; metallic particles indicate engine wear.</li><li>Clean around the drain plug seat with a rag.</li></ol></div><div class="callout callout--warning">Hot oil causes severe burns. Always wear heat-resistant nitrile gloves and eye protection.</div></section><section id="filter"><h2 class="section-heading">Changing the Oil Filter<a class="section-anchor" href="#filter" data-section-id="filter" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>The filter traps metal particles, carbon, and contaminants. Never reuse it:</p><ol><li>Locate the filter — <strong>cartridge type</strong> (plastic housing) or <strong>spin-on type</strong> (metal canister).</li><li>Use the filter wrench to turn <strong>counter-clockwise</strong>.</li><li>Empty the old filter into the drain pan. Clean the filter seating surface on the engine.</li><li><strong>Lightly oil the rubber gasket</strong> of the new filter with clean oil.</li><li>Screw in by hand until the gasket contacts the surface, then tighten <strong>3/4 turn more</strong>. Do NOT use a wrench to tighten — you'll deform the gasket.</li></ol></div><div class="callout callout--tip">For cartridge filters (BMW, Mercedes, some Audi TDI), always replace the O-ring on the housing cap too.</div></section><section id="refill"><h2 class="section-heading">Refilling and Checking the Level<a class="section-anchor" href="#refill" data-section-id="refill" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>The final phase before starting:</p><ol><li>Reinstall the drain plug with a <strong>new copper washer</strong> and tighten to the correct torque (typically 20–30 Nm).</li><li>Lower the car from the stands.</li><li>Using a funnel, pour in <strong>80% of the total specified quantity</strong> first.</li><li>Replace the oil filler cap, start the engine and let it idle for <strong>30 seconds</strong>. Check for leaks underneath.</li><li>Turn off the engine and wait <strong>3 minutes</strong> for oil to drain back into the sump.</li><li>Check the level with the dipstick: remove, wipe, insert fully, remove. The level should be between min and max, <strong>ideally in the upper third</strong>.</li><li>Add small amounts until you reach the correct level.</li></ol></div><div class="callout callout--warning">Overfilling is as dangerous as underfilling. Excess oil foams up, loses lubrication properties, and can contaminate the catalytic converter.</div></section><section id="disposal"><h2 class="section-heading">Disposing of Used Oil<a class="section-anchor" href="#disposal" data-section-id="disposal" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Used engine oil is <strong>hazardous waste</strong>. It is illegal to pour it down drains, into soil, or in general waste bins:</p><ul><li>Store it sealed in the original oil container.</li><li>Take it to a <strong>local recycling centre</strong> or any garage (they are required to accept it free of charge).</li><li>One litre of used oil can contaminate 1 million litres of groundwater.</li></ul></div></section></div><div class="lang-block" data-lang="fr" hidden><section id="quand-changer"><h2 class="section-heading">Quand faut-il changer l'huile ?<a class="section-anchor" href="#quand-changer" data-section-id="quand-changer" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>La plupart des constructeurs modernes recommandent de changer l'huile <strong>tous les 10 000–15 000 km</strong> ou une fois par an, selon la première occurrence. En conduite sévère (ville, grand froid, remorquage), l'intervalle descend à <strong>5 000–7 500 km</strong>.</p><p>Signes indiquant un changement urgent :</p><ul><li>Niveau en dessous du minimum sur la jauge</li><li>Huile noire et épaisse (saine : ambrée ou brun clair)</li><li>Voyant d'huile allumé au tableau de bord</li><li>Cliquetis au démarrage à froid</li><li>Odeur de brûlé dans l'habitacle</li></ul></div><div class="callout callout--tip">Consultez toujours le manuel du propriétaire. Certains véhicules modernes avec huile synthétique peuvent atteindre 20 000 km, mais ne dépassez jamais 2 ans sans vidange.</div></section><section id="outils"><h2 class="section-heading">Outils et matériaux nécessaires<a class="section-anchor" href="#outils" data-section-id="outils" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Préparez tout avant de commencer :</p><ul><li><strong>Huile neuve</strong> — Quantité et viscosité selon le manuel (5W-30, 5W-40, 0W-20…).</li><li><strong>Filtre à huile neuf</strong> — Marques fiables : Mann, Bosch, Mahle.</li><li><strong>Clé à douille</strong> — Pour le bouchon de vidange (14, 17 ou 19 mm).</li><li><strong>Clé à filtre</strong> — Réglable ou spécifique à votre moteur.</li><li><strong>Cric hydraulique + chandelles de sécurité</strong> — Ne travaillez jamais sous un véhicule maintenu uniquement par un cric.</li><li><strong>Bac de vidange</strong> — Capacité minimum 8 litres.</li><li><strong>Entonnoir, chiffons, gants en nitrile</strong></li><li><strong>Joint de cuivre neuf</strong> — Pour le bouchon de vidange.</li></ul></div><div class="callout callout--warning">N'utilisez jamais le cric ciseaux de bord pour travailler sous le véhicule. Utilisez uniquement des chandelles homologuées.</div></section><section id="choix-huile"><h2 class="section-heading">Comment choisir la bonne huile<a class="section-anchor" href="#choix-huile" data-section-id="choix-huile" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Utiliser la mauvaise huile peut gravement endommager le moteur :</p><ul><li><strong>Viscosité</strong> : Le code SAE (5W-30, 0W-40…) est défini par le constructeur.</li><li><strong>Base</strong> : Minérale (moins chère, moteurs anciens), semi-synthétique (équilibrée) ou synthétique (protection maximale).</li><li><strong>Spécification</strong> : Vérifiez la norme ACEA (A3/B4, C3…) et l'approbation constructeur (VW 504.00, BMW LL-04…).</li></ul><p>Marques fiables : Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.</p></div><div class="callout callout--tip">Si votre voiture dispose d'un indicateur de maintenance variable (BMW CBS, Mercedes ASSYST…), réinitialisez le compteur après la vidange.</div></section><section id="preparation"><h2 class="section-heading">Préparation du véhicule<a class="section-anchor" href="#preparation" data-section-id="preparation" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Suivez cet ordre précis :</p><ol><li>Conduisez la voiture <strong>5 à 10 minutes</strong> pour chauffer l'huile à environ 60°C.</li><li>Garez-vous sur une surface plane et stable.</li><li>Coupez le moteur et attendez <strong>5 minutes</strong>.</li><li>Serrez le <strong>frein à main</strong> et placez des cales derrière les roues arrière.</li><li>Ouvrez le capot et <strong>retirez le bouchon de remplissage d'huile</strong>.</li><li>Soulevez le véhicule avec le cric aux points de levage indiqués et posez les <strong>chandelles de sécurité</strong>.</li></ol></div></section><section id="vidange"><h2 class="section-heading">Vidanger l'huile usagée<a class="section-anchor" href="#vidange" data-section-id="vidange" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Étape la plus importante :</p><ol><li>Placez le bac de vidange sous le carter.</li><li>Localisez le <strong>bouchon de vidange</strong>.</li><li>Desserrez avec la clé à douille <strong>dans le sens antihoraire</strong>. Finissez à la main.</li><li>Laissez vidanger <strong>10 à 15 minutes</strong>.</li><li>Observez l'huile : mousse excessive = possible mélange avec le liquide de refroidissement ; particules métalliques = usure moteur.</li><li>Nettoyez la zone du bouchon.</li></ol></div><div class="callout callout--warning">L'huile chaude provoque des brûlures graves. Portez toujours des gants en nitrile résistants à la chaleur et des lunettes de protection.</div></section><section id="filtre"><h2 class="section-heading">Changer le filtre à huile<a class="section-anchor" href="#filtre" data-section-id="filtre" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Le filtre retient les particules métalliques et les contaminants. Ne le réutilisez jamais :</p><ol><li>Localisez le filtre — type <strong>cartouche</strong> ou type <strong>vissé</strong>.</li><li>Dévissez-le <strong>dans le sens antihoraire</strong> avec la clé à filtre.</li><li>Nettoyez parfaitement le siège du filtre sur le moteur.</li><li><strong>Lubrifiez le joint torique</strong> du nouveau filtre avec de l'huile propre.</li><li>Vissez à la main jusqu'au contact du joint, puis serrez <strong>3/4 de tour de plus</strong>. N'utilisez pas d'outil pour serrer.</li></ol></div><div class="callout callout--tip">Pour les filtres cartouche (BMW, Mercedes, Audi TDI…), remplacez également le joint torique du couvercle.</div></section><section id="remplissage"><h2 class="section-heading">Remplir et vérifier le niveau<a class="section-anchor" href="#remplissage" data-section-id="remplissage" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Dernière étape avant le démarrage :</p><ol><li>Remettez le bouchon de vidange avec un <strong>joint de cuivre neuf</strong> au couple recommandé (20–30 Nm).</li><li>Descendez le véhicule des chandelles.</li><li>Versez <strong>80 % de la quantité totale</strong> indiquée dans le manuel.</li><li>Remettez le bouchon de remplissage, démarrez et laissez tourner <strong>30 secondes</strong>. Vérifiez l'absence de fuites.</li><li>Coupez le moteur et attendez <strong>3 minutes</strong>.</li><li>Vérifiez le niveau avec la jauge : idéalement dans le <strong>tiers supérieur</strong> entre min et max.</li><li>Ajoutez si nécessaire jusqu'au niveau correct.</li></ol></div><div class="callout callout--warning">Trop d'huile est aussi dangereux que pas assez. L'excès crée de la mousse, perd ses propriétés lubrifiantes et peut contaminer le catalyseur.</div></section><section id="elimination"><h2 class="section-heading">Élimination de l'huile usagée<a class="section-anchor" href="#elimination" data-section-id="elimination" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>L'huile moteur usagée est un <strong>déchet dangereux</strong>. Il est interdit de la jeter dans les égouts, sur le sol ou dans les ordures ménagères :</p><ul><li>Conservez-la dans le bidon d'origine bien fermé.</li><li>Déposez-la dans une <strong>déchetterie</strong> ou chez un garagiste (obligé de l'accepter gratuitement).</li><li>1 litre d'huile usagée peut contaminer 1 million de litres d'eau.</li></ul></div></section></div><div class="lang-block" data-lang="ar" hidden><section id="cuando-cambiar-ar"><h2 class="section-heading">متى يجب تغيير الزيت؟<a class="section-anchor" href="#cuando-cambiar-ar" data-section-id="cuando-cambiar-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>يوصي معظم المصنعين بتغيير الزيت <strong>كل 10,000-15,000 كم</strong> أو مرة في السنة أيهما يأتي أولاً. في ظروف القيادة القاسية (المدينة، البرد الشديد، السحب) ينخفض الفاصل إلى <strong>5,000-7,500 كم</strong>.</p><p>علامات تستوجب تغييراً عاجلاً:</p><ul><li>مستوى الزيت دون الحد الأدنى في عصا القياس</li><li>الزيت أسود وكثيف (السليم: بلون العنبر أو البني الفاتح)</li><li>إضاءة مؤشر الزيت في لوحة التحكم</li><li>صوت طرق عند الإقلاع على البارد</li><li>رائحة احتراق داخل المقصورة</li></ul></div><div class="callout callout--tip">راجع دائماً دليل المالك. بعض السيارات الحديثة بزيت اصطناعي قد تصل إلى 20,000 كم، لكن لا تتجاوز سنتين دون تغيير أبداً.</div></section><section id="herramientas-ar"><h2 class="section-heading">الأدوات والمواد اللازمة<a class="section-anchor" href="#herramientas-ar" data-section-id="herramientas-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>اجهز كل شيء قبل البدء:</p><ul><li><strong>زيت جديد</strong> — الكمية واللزوجة حسب الدليل (5W-30، 5W-40، 0W-20...).</li><li><strong>فلتر زيت جديد</strong> — ماركات موثوقة: Mann، Bosch، Mahle.</li><li><strong>مفتاح بانة</strong> — لسدادة التصريف (14 أو 17 أو 19 مم).</li><li><strong>مفتاح فلاتر</strong> — قابل للتعديل أو خاص بمحركك.</li><li><strong>رافعة هيدروليكية + حوامل أمان</strong> — لا تعمل أبداً تحت سيارة مرفوعة بالرافعة فقط.</li><li><strong>وعاء تصريف</strong> — سعة 8 لترات على الأقل.</li><li><strong>قمع، خرق، قفازات نيتريل</strong></li><li><strong>حلقة نحاسية جديدة</strong> — لسدادة التصريف.</li></ul></div><div class="callout callout--warning">لا تستخدم رافعة المقص المرفقة مع السيارة للعمل تحتها. استخدم حوامل الأمان المعتمدة فقط.</div></section><section id="elegir-aceite-ar"><h2 class="section-heading">كيف تختار الزيت الصحيح<a class="section-anchor" href="#elegir-aceite-ar" data-section-id="elegir-aceite-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>استخدام الزيت الخاطئ قد يتلف المحرك بشكل خطير:</p><ul><li><strong>اللزوجة</strong>: يحددها المصنع (5W-30، 0W-40...)، لا تغيرها بشكل عشوائي.</li><li><strong>القاعدة</strong>: معدني (أرخص، للمحركات القديمة)، شبه اصطناعي (متوازن)، أو اصطناعي كامل (حماية قصوى).</li><li><strong>المواصفة</strong>: ابحث عن تصنيف ACEA (A3/B4، C3...) وموافقة المصنع (VW 504.00، BMW LL-04...).</li></ul><p>ماركات موثوقة: Castrol Edge، Mobil 1، Liqui Moly، Shell Helix Ultra، Total Quartz.</p></div><div class="callout callout--tip">إذا كانت سيارتك مزودة بنظام تذكير الصيانة المتغير (BMW CBS، Mercedes ASSYST...)، أعد ضبط عداد تغيير الزيت بعد الانتهاء.</div></section><section id="preparacion-ar"><h2 class="section-heading">تحضير المركبة<a class="section-anchor" href="#preparacion-ar" data-section-id="preparacion-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>اتبع هذا الترتيب بالضبط:</p><ol><li>قد السيارة <strong>5-10 دقائق</strong> لتسخين الزيت إلى ~60 درجة مئوية.</li><li>اركن على سطح مستوٍ وصلب.</li><li>أوقف المحرك وانتظر <strong>5 دقائق</strong>.</li><li>اشد <strong>فرامل اليد</strong> وضع أوتاداً خلف العجلات الخلفية.</li><li>افتح الغطاء و<strong>أزل غطاء سكب الزيت</strong> لتسهيل التصريف.</li><li>ارفع السيارة من نقاط الرفع المحددة وضع <strong>حوامل الأمان</strong>.</li></ol></div></section><section id="drenaje-ar"><h2 class="section-heading">تصريف الزيت القديم<a class="section-anchor" href="#drenaje-ar" data-section-id="drenaje-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>المرحلة الأهم:</p><ol><li>ضع وعاء التصريف تحت الكارتر.</li><li>حدد موقع <strong>سدادة التصريف</strong>.</li><li>افكها بمفتاح البانة <strong>عكس اتجاه عقارب الساعة</strong>. أكمل بيدك حتى لا تسقط السدادة.</li><li>دع الزيت يتصرف لمدة <strong>10-15 دقيقة</strong>.</li><li>راقب الزيت: رغوة مفرطة = اختلاط محتمل بسائل التبريد؛ جزيئات معدنية = تآكل المحرك.</li><li>نظف منطقة السدادة بخرقة.</li></ol></div><div class="callout callout--warning">الزيت الساخن يسبب حروقاً بالغة. ارتدِ دائماً قفازات نيتريل مقاومة للحرارة ونظارة وقاية.</div></section><section id="filtro-ar"><h2 class="section-heading">تغيير فلتر الزيت<a class="section-anchor" href="#filtro-ar" data-section-id="filtro-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>الفلتر يحتجز الجزيئات المعدنية والملوثات. لا تعيد استخدامه أبداً:</p><ol><li>حدد موقع الفلتر — نوع <strong>خرطوشة</strong> أو نوع <strong>لولبي</strong>.</li><li>استخدم مفتاح الفلاتر للفه <strong>عكس عقارب الساعة</strong>.</li><li>نظف سطح تركيب الفلتر على المحرك.</li><li><strong>ادهن الحلقة المطاطية للفلتر الجديد</strong> بزيت نظيف.</li><li>لفه يدوياً حتى يلامس الحلقة السطح، ثم أحكم <strong>ثلاثة أرباع دورة إضافية</strong>. لا تستخدم أداة للإحكام.</li></ol></div><div class="callout callout--tip">لفلاتر الخرطوشة (BMW، Mercedes، Audi TDI...)، استبدل أيضاً حلقة الغطاء المطاطية.</div></section><section id="relleno-ar"><h2 class="section-heading">إعادة التعبئة وفحص المستوى<a class="section-anchor" href="#relleno-ar" data-section-id="relleno-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>المرحلة الأخيرة:</p><ol><li>أعد تركيب سدادة التصريف مع <strong>حلقة نحاسية جديدة</strong> بعزم 20-30 نيوتن متر.</li><li>انزل السيارة من الحوامل.</li><li>اسكب <strong>80% من الكمية الإجمالية</strong> أولاً.</li><li>أعد غطاء الزيت، أشغل المحرك 30 ثانية على الفراغ، تحقق من عدم وجود تسرب.</li><li>أوقف المحرك وانتظر <strong>3 دقائق</strong>.</li><li>فحص المستوى بعصا القياس: اسحبها، امسحها، أدخلها، اسحبها. المستوى يجب أن يكون في <strong>الثلث العلوي بين الحد الأدنى والأقصى</strong>.</li><li>أضف زيتاً حسب الحاجة.</li></ol></div><div class="callout callout--warning">الزيادة في الزيت خطيرة مثل النقص. الزيت الزائد يتحول إلى رغوة تفقد خصائص التشحيم وقد تتلف المحول الحفزي.</div></section><section id="residuos-ar"><h2 class="section-heading">التخلص من الزيت المستعمل<a class="section-anchor" href="#residuos-ar" data-section-id="residuos-ar" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>زيت المحرك المستعمل <strong>نفايات خطرة</strong>. يُحظر صبه في المجاري أو التربة أو القمامة العادية:</p><ul><li>احتفظ به محكم الإغلاق في الوعاء الأصلي.</li><li>خذه إلى <strong>نقطة تجميع النفايات</strong> أو أي ورشة ميكانيكية (ملزمة بقبوله مجاناً).</li><li>لتر واحد من الزيت المستعمل يمكنه تلويث مليون لتر من المياه الجوفية.</li></ul></div></section></div>
+            </article>
+
+            <!-- FAQ -->
+            <section class="guide-faq" id="faq">
+                <h2 data-i18n="guides.faqTitle">Preguntas frecuentes</h2>
+                <div class="faq-list"><div class="lang-block" data-lang="es">
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-0">
+                    ¿Cada cuánto tiempo debo cambiar el aceite?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-0" hidden role="region">
+                    <p>Depende del tipo de aceite y de tu forma de conducir. Con aceite mineral: cada 5.000–7.500 km. Con semisintético: 7.500–10.000 km. Con sintético de calidad: 10.000–15.000 km o el intervalo indicado en el sistema de mantenimiento del vehículo, que puede llegar a 20.000 km en coches modernos. Nunca pases de 2 años sin cambiar, independientemente de los kilómetros.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1">
+                    ¿Puedo mezclar aceite nuevo con el aceite viejo que queda?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-1" hidden role="region">
+                    <p>Técnicamente puedes añadir aceite de la misma viscosidad y base para reponer nivel, pero nunca sustituye al cambio completo. El aceite viejo está contaminado con ácidos, partículas metálicas y productos de combustión. Mezclar solo diluye el problema temporalmente.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2">
+                    ¿Qué pasa si pongo demasiado aceite?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-2" hidden role="region">
+                    <p>El exceso de aceite (por encima del máximo en la varilla) crea espuma dentro del motor por la acción del cigüeñal. El aceite espumado no lubrica correctamente. Además puede ser aspirado por el sistema de ventilación del cárter (PCV), entrar en el colector de admisión y contaminar el catalizador. Si te pasas, drena el exceso con una jeringa de extracción o lleva el coche a un taller.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3">
+                    ¿Puedo cambiar solo el aceite sin cambiar el filtro?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-3" hidden role="region">
+                    <p>No es recomendable. El filtro viejo contiene aceite contaminado y partículas que se mezclarán con el aceite nuevo al arrancar el motor. Los fabricantes siempre especifican cambio de ambos simultáneamente. Un filtro nuevo cuesta entre 8 y 25 €, merece la pena.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4">
+                    ¿Cuánto aceite necesita mi coche?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-4" hidden role="region">
+                    <p>La capacidad del cárter varía según el motor: los 4 cilindros pequeños suelen necesitar 3,5–4,5 litros; los 6 cilindros 5–6 litros; los 8 cilindros 6–8 litros. Siempre consulta el manual del vehículo o la etiqueta bajo el capó. Añade siempre algo menos de la cantidad total y verifica con la varilla.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5">
+                    ¿El aceite sintético es mejor que el mineral?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-5" hidden role="region">
+                    <p>Sí, para la mayoría de motores modernos. El sintético ofrece mayor estabilidad térmica, mejor protección al arranque en frío, menor volatilidad y mayor resistencia a la oxidación. El mineral o semisintético puede ser adecuado para motores muy viejos con holguras elevadas, donde el sintético podría causar pequeñas fugas por sellos deteriorados.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="en" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-0">
+                    How often should I change the oil?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-0" hidden role="region">
+                    <p>It depends on oil type and driving conditions. Mineral oil: every 5,000–7,500 km. Semi-synthetic: 7,500–10,000 km. Fully synthetic: 10,000–15,000 km, up to 20,000 km in modern vehicles with flexible service intervals. Never exceed 2 years regardless of mileage.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-1">
+                    Can I top up the oil instead of changing it?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-1" hidden role="region">
+                    <p>Topping up only replenishes the level — it doesn't replace the degraded base oil or remove contaminants. It's fine between changes if the level drops, but it never replaces a full oil change.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-2">
+                    What happens if I overfill the oil?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-2" hidden role="region">
+                    <p>Excess oil gets aerated by the crankshaft, forming foam that can't lubricate properly. It can also be drawn into the PCV system, contaminate the intake manifold and catalytic converter, and damage oil seals. Extract the excess with an oil suction pump.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-3">
+                    Can I change just the oil without replacing the filter?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-3" hidden role="region">
+                    <p>Not recommended. The old filter contains contaminated oil that immediately mixes with the fresh oil when you start the engine. All manufacturers specify replacing both simultaneously. A quality filter costs £7–£25 and is always worth it.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-4">
+                    How much oil does my car need?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-4" hidden role="region">
+                    <p>4-cylinder engines typically need 3.5–4.5 litres; 6-cylinders 5–6 litres; 8-cylinders 6–8 litres. Always check your owner's manual or the label under the bonnet. Add slightly less than the total and verify with the dipstick.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-5">
+                    Is fully synthetic oil better than mineral?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-5" hidden role="region">
+                    <p>Yes, for most modern engines. Synthetic oil offers superior thermal stability, better cold-start protection, lower volatility and greater oxidation resistance. Mineral oil may be appropriate for very old engines with high clearances, where synthetic could cause minor seal leaks.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="fr" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-0">
+                    Combien de fois dois-je changer l'huile ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-0" hidden role="region">
+                    <p>Selon le type d'huile : minérale toutes les 5 000–7 500 km, semi-synthétique 7 500–10 000 km, synthétique 10 000–15 000 km (jusqu'à 20 000 km sur véhicules modernes). Ne dépassez jamais 2 ans sans vidange.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-1">
+                    Peut-on mélanger différentes huiles ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-1" hidden role="region">
+                    <p>On peut ajouter la même viscosité et base pour compléter le niveau, mais cela ne remplace pas une vidange complète. L'huile ancienne reste contaminée et dégradée.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-2">
+                    Que se passe-t-il si on met trop d'huile ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-2" hidden role="region">
+                    <p>L'excès d'huile est fouetté par le vilebrequin et forme de la mousse qui ne lubrifie plus. Elle peut être aspirée dans le circuit de ventilation carter, contaminer l'admission et le catalyseur, et endommager les joints. Extrayez l'excès avec une pompe d'aspiration.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-3">
+                    Peut-on changer seulement l'huile sans le filtre ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-3" hidden role="region">
+                    <p>Déconseillé. Le vieux filtre contient de l'huile contaminée qui se mélange immédiatement à la neuve au démarrage. Tous les constructeurs prescrivent le remplacement simultané. Un bon filtre coûte 8–25 €, c'est rentable.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-4">
+                    Combien de litres d'huile faut-il ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-4" hidden role="region">
+                    <p>Les 4 cylindres nécessitent généralement 3,5–4,5 L ; les 6 cylindres 5–6 L ; les 8 cylindres 6–8 L. Vérifiez toujours le manuel ou l'étiquette sous le capot. Versez légèrement moins et contrôlez avec la jauge.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="ar" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-0">
+                    كم مرة يجب أن أغير الزيت؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-0" hidden role="region">
+                    <p>حسب نوع الزيت: معدني كل 5,000-7,500 كم؛ شبه اصطناعي 7,500-10,000 كم؛ اصطناعي كامل 10,000-15,000 كم وقد يصل لـ20,000 كم في السيارات الحديثة. لا تتجاوز سنتين بدون تغيير أبداً.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-1">
+                    هل يمكن خلط الزيت الجديد مع القديم؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-1" hidden role="region">
+                    <p>يمكن إضافة نفس اللزوجة والقاعدة لتعويض المستوى، لكنه لا يغني أبداً عن التغيير الكامل. الزيت القديم ملوث بالأحماض والجزيئات المعدنية.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-2">
+                    ماذا يحدث إذا وضعت زيتاً زائداً؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-2" hidden role="region">
+                    <p>الزيت الزائد يتحول إلى رغوة بفعل عمود الكرنك وتفقد الرغوة خصائص التشحيم. يمكن أيضاً امتصاصها في نظام تهوية الكارتر وتلويث مجمع السحب والمحول الحفزي. استخرج الزائد بمضخة شفط.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-3">
+                    هل يمكن تغيير الزيت فقط دون الفلتر؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-3" hidden role="region">
+                    <p>غير موصى به. الفلتر القديم يحتوي زيتاً ملوثاً يختلط فوراً بالزيت الجديد عند الإقلاع. جميع المصنعين يوصون باستبدالهما معاً. فلتر جيد يكلف 30-80 درهم وهو يستحق.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-4">
+                    كم لتراً من الزيت تحتاج سيارتي؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-4" hidden role="region">
+                    <p>محركات 4 سلندر: عادةً 3.5-4.5 لتر؛ 6 سلندر: 5-6 لتر؛ 8 سلندر: 6-8 لتر. تحقق دائماً من دليل المالك أو الملصق تحت الغطاء. اسكب أقل من الكمية الكلية وتحقق بعصا القياس.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-5">
+                    هل الزيت الاصطناعي أفضل من المعدني؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-5" hidden role="region">
+                    <p>نعم، لمعظم المحركات الحديثة. الزيت الاصطناعي يوفر استقراراً حرارياً أفضل، وحماية أقوى عند الإقلاع البارد، وتطايراً أقل ومقاومة أعلى للأكسدة. الزيت المعدني قد يكون مناسباً للمحركات القديمة جداً ذات الهوامش العالية.</p>
+                </div>
+            </div>
+        </div></div>
+            </section>
+
+            <!-- Social Share -->
+            <section class="guide-share" aria-label="Compartir guía">
+                <p class="guide-share__label" data-i18n="guides.shareLabel">Comparte esta guía</p>
+                <div class="guide-share__buttons" role="group" aria-label="Opciones para compartir">
+                    <a class="guide-share__btn guide-share__btn--whatsapp" id="shareWhatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en WhatsApp">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.854L.054 23.25a.75.75 0 0 0 .916.916l5.396-1.478A11.954 11.954 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.712 9.712 0 0 1-4.95-1.355l-.354-.212-3.664 1.003 1.003-3.664-.212-.354A9.712 9.712 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--facebook" id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--twitter" id="shareTwitter" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en X (Twitter)">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L2.25 2.25h6.988l4.265 5.638 4.741-5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <span>X</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--linkedin" id="shareLinkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en LinkedIn">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <button class="guide-share__btn guide-share__btn--copy" id="shareCopy" type="button" aria-label="Copiar enlace">
+                        <svg class="share-icon-copy" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <svg class="share-icon-check" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span class="share-copy-label" data-i18n="guides.shareCopyLink">Copiar enlace</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Related Guides -->
+            <section class="guide-related" id="related-guides">
+                <h2 data-i18n="guides.relatedGuidesTitle">Guías relacionadas</h2>
+                <div class="guide-cards">
+            <a href="cambiar-bateria.html" class="guide-card">
+                <div class="guide-card-meta">
+                    <span class="guide-card-category">Mantenimiento</span><span class="guide-card-difficulty guide-card-difficulty--beginner">Fácil</span><span class="guide-card-reading-time">6 min</span>
+                </div>
+                <span class="lang-card-content" data-lang="es"><h3>Cómo cambiar la batería del coche paso a paso</h3><p>Guía completa para cambiar la batería del coche en casa: elige la batería correcta (AGM, EFB, convencional), procedimiento exacto y cómo proteger la electrónica. Ahorra 40-80 euros.</p></span><span class="lang-card-content" data-lang="en" hidden><h3>How to Change Your Car Battery Step by Step</h3><p>Complete professional guide to changing your car battery at home: choose the right battery (AGM, EFB, conventional), exact procedure, electronics protection and coding explained.</p></span><span class="lang-card-content" data-lang="fr" hidden><h3>Comment changer la batterie de voiture pas à pas</h3><p>Guide complet pour changer la batterie de voiture à la maison : choisir la bonne batterie AGM, EFB ou classique, procédure exacte et codage expliqué. Économisez 40 à 80 euros.</p></span><span class="lang-card-content" data-lang="ar" hidden><h3>كيفية تغيير بطارية السيارة خطوة بخطوة</h3><p>دليل احترافي شامل لتغيير بطارية السيارة في المنزل: اختيار البطارية الصحيحة AGM أو EFB أو تقليدية، الإجراء الدقيق وحماية الإلكترونيات.</p></span>
+            </a>
+        
+            <a href="cambiar-frenos.html" class="guide-card">
+                <div class="guide-card-meta">
+                    <span class="guide-card-category">Mantenimiento</span><span class="guide-card-difficulty guide-card-difficulty--intermediate">Medio</span><span class="guide-card-reading-time">12 min</span>
+                </div>
+                <span class="lang-card-content" data-lang="es"><h3>Cómo cambiar los frenos del coche: pastillas y discos</h3><p>Aprende a cambiar las pastillas y discos de freno de forma segura. Guía detallada para mantener la seguridad de tu vehículo.</p></span><span class="lang-card-content" data-lang="en" hidden><h3>How to Change Car Brakes: Pads and Discs</h3><p>Learn to change brake pads and discs safely. Detailed guide to maintain your vehicle's safety.</p></span><span class="lang-card-content" data-lang="fr" hidden><h3>Comment changer les freins de sa voiture : plaquettes et disques</h3><p>Apprenez à changer les plaquettes et disques de frein en toute sécurité. Guide détaillé pour maintenir la sécurité de votre véhicule.</p></span><span class="lang-card-content" data-lang="ar" hidden><h3>كيفية تغيير فرامل السيارة: الوسادات والأقراص</h3><p>تعلم كيفية تغيير وسادات وأقراص الفرامل بأمان. دليل مفصل للحفاظ على سلامة مركبتك.</p></span>
+            </a>
+        </div>
+            </section>
+
+            <!-- Related Cars -->
+            <section class="guide-related-cars" id="related-cars">
+                <h2 data-i18n="guides.relatedCarsTitle">Coches relacionados</h2>
+                <div class="car-mini-cards">
+            <a href="../bmw-m5.html" class="car-mini-card">
+                <span class="car-mini-name">BMW M5 PHEV</span>
+                <span class="car-mini-arrow" aria-hidden="true">→</span>
+            </a>
+        
+            <a href="../rs7.html" class="car-mini-card">
+                <span class="car-mini-name">Audi RS7</span>
+                <span class="car-mini-arrow" aria-hidden="true">→</span>
+            </a>
+        </div>
+            </section>
+
+            <!-- Feedback -->
+            <section class="guide-feedback" id="guideFeedback" aria-label="Valoración de la guía">
+                <p class="guide-feedback__question" data-i18n="guides.feedbackQuestion">¿Te ha resultado útil esta guía?</p>
+                <div class="guide-feedback__buttons" role="group" aria-label="Valorar guía">
+                    <button class="guide-feedback__btn guide-feedback__btn--yes" id="feedbackYes" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                        <span data-i18n="guides.feedbackYes">Sí</span>
+                    </button>
+                    <button class="guide-feedback__btn guide-feedback__btn--no" id="feedbackNo" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10z"/><path d="M17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>
+                        <span data-i18n="guides.feedbackNo">No</span>
+                    </button>
+                </div>
+                <p class="guide-feedback__thanks" id="feedbackThanks" aria-live="polite" hidden></p>
+            </section>
+
+            <!-- Reading Completion CTA -->
+            <div class="completion-cta" id="completionCta" hidden aria-live="polite">
+                <button class="completion-cta__close" id="completionCtaClose" type="button" aria-label="Cerrar">✕</button>
+                <p class="completion-cta__title" data-i18n="guides.completionTitle">¿Has terminado de leer?</p>
+                <div class="completion-cta__actions">
+                    <a href="index.html" class="completion-cta__btn completion-cta__btn--index" data-i18n="guides.completionIndex">Ver todas las guías</a>
+                    <a href="cambiar-bateria.html" class="completion-cta__btn completion-cta__btn--related">Leer siguiente: Cómo cambiar la batería del coche paso a paso</a>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <section class="guide-cta">
+                <h2 data-i18n="guides.ctaTitle">¿Necesitas más ayuda?</h2>
+                <a href="../contacto.html" class="hero-btn" data-i18n="guides.ctaButton">Contactar con CarSpecio</a>
+            </section>
+        </main>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Volver al inicio de la página" hidden>
+        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="../reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="../compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="../noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="../guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="../diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="../herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="../marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="../contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="../privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="../cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="../terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="../../js/mega-menu-data.js" defer></script>
+    <script src="../../js/mega-menu.js" defer></script>
+    <script src="../../js/flag-icons.js" defer></script>
+    <script src="../../js/i18n.js" defer></script>
+    <script src="../../js/search-index.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+    <script src="../../js/cookie-consent.js" defer></script>
+    <script src="../../js/analytics.js" defer></script>
+    <script src="../../js/analytics-events.js" defer></script>
+
+    <script>
+        const guideDataFile = '../../system/data/guides/cambiar-aceite.json';
+        window.__preloadedGuideData = {"id":"cambiar-aceite","slug":"cambiar-aceite","category":"maintenance","author":"CarSpecio Technical Team","publishedAt":"2026-06-20","updatedAt":"2026-06-28","heroImage":"../../images/placeholder.svg","readingTime":10,"difficulty":"beginner","status":"active","content":{"es":{"title":"Cómo cambiar el aceite del coche paso a paso","excerpt":"Guía completa con pasos detallados, herramientas necesarias y consejos profesionales para cambiar el aceite del motor en casa y ahorrar dinero.","intro":"Cambiar el aceite del motor es la operación de mantenimiento más importante que puedes hacer por tu coche. Un aceite limpio reduce la fricción, enfría el motor, arrastra las impurezas y puede aumentar la vida útil del motor hasta un 40%. Este proceso tarda unos 30–45 minutos y puede ahorrarte entre 40 € y 120 € por visita al taller.","keyTakeaways":["El aceite sucio puede aumentar el consumo de combustible hasta un 2%","Cambiar el filtro de aceite en cada sustitución es obligatorio","La viscosidad correcta (p.ej. 5W-30) está en el manual del vehículo","Nunca mezcles aceites de distintas viscosidades o bases","El aceite usado es residuo tóxico: llévalo a un punto limpio"],"sections":[{"id":"cuando-cambiar","title":"¿Cuándo debo cambiar el aceite?","content":"\u003cp>La mayoría de fabricantes modernos recomiendan cambiar el aceite \u003cstrong>cada 10.000–15.000 km\u003c/strong> o una vez al año, lo que ocurra primero. Sin embargo, si conduces en condiciones severas (ciudad, mucho frío, remolque de cargas), el intervalo baja a \u003cstrong>5.000–7.500 km\u003c/strong>.\u003c/p>\u003cp>Señales de que necesitas cambio urgente:\u003c/p>\u003cul>\u003cli>Nivel por debajo del mínimo en la varilla\u003c/li>\u003cli>Aceite negro y espeso (sano: ámbar o marrón claro)\u003c/li>\u003cli>Luz de aceite encendida en el cuadro\u003c/li>\u003cli>Ruido de traqueteo al arrancar en frío\u003c/li>\u003cli>Olor a quemado en el habitáculo\u003c/li>\u003c/ul>","callout":{"type":"tip","text":"Consulta siempre el manual del propietario. Algunos vehículos modernos con aceite sintético pueden llegar a 20.000 km, pero nunca superes los 2 años sin cambiar."}},{"id":"herramientas","title":"Herramientas y materiales necesarios","content":"\u003cp>Antes de empezar, ten a mano todo esto para no interrumpir el proceso:\u003c/p>\u003cul>\u003cli>\u003cstrong>Aceite nuevo\u003c/strong> — Litros según el manual (normalmente 4–6 L). Elige la viscosidad correcta: 5W-30, 5W-40, 0W-20, etc.\u003c/li>\u003cli>\u003cstrong>Filtro de aceite nuevo\u003c/strong> — Usa siempre uno de calidad (Mann, Bosch, Mahle). Un filtro barato puede fallar en días.\u003c/li>\u003cli>\u003cstrong>Llave de cubo\u003c/strong> — Para el tapón de drenaje (generalmente 14, 17 o 19 mm).\u003c/li>\u003cli>\u003cstrong>Llave de filtros\u003c/strong> — Ajustable o específica para tu motor.\u003c/li>\u003cli>\u003cstrong>Gato hidráulico + caballetes de seguridad\u003c/strong> — Nunca trabajes bajo el coche apoyado solo en el gato.\u003c/li>\u003cli>\u003cstrong>Bandeja de recogida\u003c/strong> — Capacidad mínima de 8 litros.\u003c/li>\u003cli>\u003cstrong>Embudo, trapos, guantes de nitrilo\u003c/strong>\u003c/li>\u003cli>\u003cstrong>Arandela de cobre nueva\u003c/strong> — Para el tapón de drenaje (coste: ~0,50 €, ahorra fugas).\u003c/li>\u003c/ul>","callout":{"type":"warning","text":"Nunca uses gatos de tijera de fábrica para trabajar debajo del coche. Son solo para cambiar una rueda en la carretera. Usa siempre caballetes homologados."}},{"id":"elegir-aceite","title":"Cómo elegir el aceite correcto","content":"\u003cp>Usar el aceite equivocado puede dañar el motor gravemente. Aquí el criterio:\u003c/p>\u003cul>\u003cli>\u003cstrong>Viscosidad\u003c/strong>: El código SAE (5W-30, 0W-40…) lo elige el fabricante. No lo cambies caprichosamente.\u003c/li>\u003cli>\u003cstrong>Base\u003c/strong>: Mineral (más barato, para motores viejos), semisintético (equilibrado) o sintético (máxima protección, motores modernos).\u003c/li>\u003cli>\u003cstrong>Especificación\u003c/strong>: Busca la norma ACEA (A3/B4, C3…) y la aprobación del fabricante (VW 504.00, BMW LL-04, Dexos…).\u003c/li>\u003c/ul>\u003cp>Marcas fiables: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz. El precio importa: un buen sintético ronda los 7–15 €/litro.\u003c/p>","callout":{"type":"tip","text":"Si tu coche tiene Aviso de Mantenimiento Variable (BMW Condition Based Service, Mercedes ASSYST, etc.), resetea el contador del aceite después del cambio. Consulta el manual de usuario para el procedimiento exacto."}},{"id":"preparacion","title":"Preparación del vehículo","content":"\u003cp>Sigue este orden exacto para no olvidar nada:\u003c/p>\u003col>\u003cli>Conduce el coche \u003cstrong>5–10 minutos\u003c/strong> para calentar el aceite a ~60°C — fluirá mejor y arrastrará más sedimentos. No lo calientes hasta el máximo operativo o quemarás tus manos.\u003c/li>\u003cli>Aparca en superficie plana y firme.\u003c/li>\u003cli>Apaga el motor y espera \u003cstrong>5 minutos\u003c/strong>.\u003c/li>\u003cli>Acciona el \u003cstrong>freno de mano\u003c/strong> y coloca cuñas en las ruedas traseras.\u003c/li>\u003cli>Abre el capó y \u003cstrong>retira la tapa del aceite\u003c/strong> del motor para facilitar el drenaje (crea vacío de otro modo).\u003c/li>\u003cli>Eleva el coche con el gato hidráulico por los puntos de elevación marcados en el umbral y coloca los \u003cstrong>caballetes de seguridad\u003c/strong>.\u003c/li>\u003c/ol>"},{"id":"drenaje","title":"Drenar el aceite viejo","content":"\u003cp>Esta es la fase más importante y la que más tiempo requiere:\u003c/p>\u003col>\u003cli>Coloca la bandeja de recogida bajo el cárter del motor.\u003c/li>\u003cli>Localiza el \u003cstrong>tapón de drenaje\u003c/strong> (parte inferior del cárter, generalmente apuntando hacia abajo o hacia un lateral).\u003c/li>\u003cli>Afloja el tapón con la llave de cubo girando \u003cstrong>en sentido antihorario\u003c/strong>. Hazlo despacio al final con los dedos para no perder el tapón en el aceite.\u003c/li>\u003cli>Deja drenar durante \u003cstrong>10–15 minutos\u003c/strong>. No en 2 minutos — el aceite viscoso necesita tiempo.\u003c/li>\u003cli>Observa el chorro: si sale con mucha espuma puede haber refrigerante mezclado (problema serio). Si es muy negro y hay partículas metálicas, el motor está desgastado.\u003c/li>\u003cli>Limpia la zona del tapón con un trapo.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"El aceite caliente puede causar quemaduras graves. Usa siempre guantes de nitrilo resistentes al calor y gafas de protección. Si el aceite sale disparado, aparta la cara."}},{"id":"filtro","title":"Cambiar el filtro de aceite","content":"\u003cp>El filtro retiene partículas metálicas, carbonilla y contaminantes. Nunca lo reutilices:\u003c/p>\u003col>\u003cli>Localiza el filtro. Puede ser de tipo \u003cstrong>cartucho\u003c/strong> (carcasa plástica con filtro interno) o tipo \u003cstrong>rosca\u003c/strong> (lata metálica roscada directamente).\u003c/li>\u003cli>Usa la llave de filtros para girarlo \u003cstrong>en sentido antihorario\u003c/strong>. Si está muy apretado, pon un trapo para mejor agarre.\u003c/li>\u003cli>Vacía el aceite del filtro viejo en la bandeja. Limpia perfectamente la superficie de asiento del filtro en el motor.\u003c/li>\u003cli>\u003cstrong>Humedece la junta de goma del filtro nuevo\u003c/strong> con aceite limpio — esto garantiza el sellado correcto y evita que la junta se pegue.\u003c/li>\u003cli>Enrosca el nuevo filtro a mano hasta que la junta toque la superficie, luego aprieta \u003cstrong>3/4 de vuelta más\u003c/strong>. NO uses herramienta para apretar — se deformará la junta.\u003c/li>\u003c/ol>","callout":{"type":"tip","text":"Si tu coche usa filtro de cartucho (BMW, Mercedes, Audi TDI…), compra también la junta tórica de repuesto de la carcasa. Reutilizarla puede causar fugas."}},{"id":"relleno","title":"Rellenar con aceite nuevo y verificar","content":"\u003cp>La fase final antes de arrancar:\u003c/p>\u003col>\u003cli>Vuelve a colocar el tapón de drenaje con una \u003cstrong>arandela de cobre nueva\u003c/strong> y apriétalo al par correcto (normalmente 20–30 Nm — consulta el manual).\u003c/li>\u003cli>Baja el coche de los caballetes.\u003c/li>\u003cli>Con el embudo, vierte el \u003cstrong>80% de la cantidad total\u003c/strong> de aceite indicada en el manual (por ejemplo, si son 5 litros, echa 4 primero).\u003c/li>\u003cli>Vuelve a colocar la tapa del aceite, arranca el motor y déjalo correr \u003cstrong>30 segundos\u003c/strong> con el motor al ralentí. Comprueba que no haya fugas bajo el coche.\u003c/li>\u003cli>Apaga el motor, espera \u003cstrong>3 minutos\u003c/strong> para que el aceite baje al cárter.\u003c/li>\u003cli>Comprueba el nivel con la varilla: sácala, límpiala, introdúcela, sácala. El nivel debe estar entre el mínimo y el máximo, \u003cstrong>idealmente en el tercio superior\u003c/strong>.\u003c/li>\u003cli>Si es necesario, añade aceite poco a poco hasta alcanzar el nivel correcto.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"Excederse del nivel máximo es tan peligroso como quedarse corto. El aceite de más puede ser aspirado por el sistema de ventilación del cárter, contaminar el catalizador y dañar sellos de aceite."}},{"id":"residuos","title":"Gestión del aceite usado y limpieza","content":"\u003cp>El aceite de motor usado es un \u003cstrong>residuo peligroso\u003c/strong>. Está prohibido tirarlo al desagüe, al suelo o a la basura normal:\u003c/p>\u003cul>\u003cli>Guárdalo en el recipiente original del aceite nuevo con tapa bien cerrada.\u003c/li>\u003cli>Llévalo a un \u003cstrong>punto limpio municipal\u003c/strong> o a un taller de coches (están obligados a recibirlo gratis).\u003c/li>\u003cli>En España, 1 litro de aceite puede contaminar hasta 1.000 litros de agua.\u003c/li>\u003c/ul>\u003cp>Para limpiar los derrames, usa papel absorbente o aserrín. Si queda mancha en el suelo del garaje, aplica desengrasante doméstico y frota.\u003c/p>"}],"faq":[{"question":"¿Cada cuánto tiempo debo cambiar el aceite?","answer":"Depende del tipo de aceite y de tu forma de conducir. Con aceite mineral: cada 5.000–7.500 km. Con semisintético: 7.500–10.000 km. Con sintético de calidad: 10.000–15.000 km o el intervalo indicado en el sistema de mantenimiento del vehículo, que puede llegar a 20.000 km en coches modernos. Nunca pases de 2 años sin cambiar, independientemente de los kilómetros."},{"question":"¿Puedo mezclar aceite nuevo con el aceite viejo que queda?","answer":"Técnicamente puedes añadir aceite de la misma viscosidad y base para reponer nivel, pero nunca sustituye al cambio completo. El aceite viejo está contaminado con ácidos, partículas metálicas y productos de combustión. Mezclar solo diluye el problema temporalmente."},{"question":"¿Qué pasa si pongo demasiado aceite?","answer":"El exceso de aceite (por encima del máximo en la varilla) crea espuma dentro del motor por la acción del cigüeñal. El aceite espumado no lubrica correctamente. Además puede ser aspirado por el sistema de ventilación del cárter (PCV), entrar en el colector de admisión y contaminar el catalizador. Si te pasas, drena el exceso con una jeringa de extracción o lleva el coche a un taller."},{"question":"¿Puedo cambiar solo el aceite sin cambiar el filtro?","answer":"No es recomendable. El filtro viejo contiene aceite contaminado y partículas que se mezclarán con el aceite nuevo al arrancar el motor. Los fabricantes siempre especifican cambio de ambos simultáneamente. Un filtro nuevo cuesta entre 8 y 25 €, merece la pena."},{"question":"¿Cuánto aceite necesita mi coche?","answer":"La capacidad del cárter varía según el motor: los 4 cilindros pequeños suelen necesitar 3,5–4,5 litros; los 6 cilindros 5–6 litros; los 8 cilindros 6–8 litros. Siempre consulta el manual del vehículo o la etiqueta bajo el capó. Añade siempre algo menos de la cantidad total y verifica con la varilla."},{"question":"¿El aceite sintético es mejor que el mineral?","answer":"Sí, para la mayoría de motores modernos. El sintético ofrece mayor estabilidad térmica, mejor protección al arranque en frío, menor volatilidad y mayor resistencia a la oxidación. El mineral o semisintético puede ser adecuado para motores muy viejos con holguras elevadas, donde el sintético podría causar pequeñas fugas por sellos deteriorados."}],"seo":{"title":"Cómo cambiar el aceite del coche paso a paso | Guía completa CarSpecio","description":"Guía profesional para cambiar el aceite del motor en casa: herramientas, elección de aceite, pasos detallados y consejos de mecánico. Ahorra 40–120€ por cambio.","keywords":["cambiar aceite coche","aceite motor","mantenimiento coche DIY","filtro aceite","aceite sintetico","viscosidad aceite motor","cambio aceite paso a paso"]}},"en":{"title":"How to Change Your Car Oil Step by Step","excerpt":"Complete professional guide to changing engine oil at home: tools, oil selection, detailed steps, and mechanic tips to save money.","intro":"Engine oil change is the single most important maintenance you can do for your car. Clean oil reduces friction, cools the engine, carries away impurities, and can extend engine life by up to 40%. The process takes 30–45 minutes and can save you £35–£100 per service.","keyTakeaways":["Dirty oil can increase fuel consumption by up to 2%","Always replace the oil filter with every oil change","The correct viscosity (e.g. 5W-30) is in your vehicle manual","Never mix oils of different viscosities or base types","Used oil is toxic waste — take it to a recycling centre"],"sections":[{"id":"when-to-change","title":"When should you change the oil?","content":"\u003cp>Most modern manufacturers recommend changing the oil \u003cstrong>every 10,000–15,000 km\u003c/strong> or once a year, whichever comes first. However, if you drive in severe conditions (city driving, extreme cold, towing), the interval drops to \u003cstrong>5,000–7,500 km\u003c/strong>.\u003c/p>\u003cp>Signs you need an urgent change:\u003c/p>\u003cul>\u003cli>Level below the minimum on the dipstick\u003c/li>\u003cli>Black, thick oil (healthy: amber or light brown)\u003c/li>\u003cli>Oil warning light on the dashboard\u003c/li>\u003cli>Rattling noise on cold start\u003c/li>\u003cli>Burning smell in the cabin\u003c/li>\u003c/ul>","callout":{"type":"tip","text":"Always consult your owner's manual. Some modern vehicles with fully synthetic oil can go up to 20,000 km, but never exceed 2 years without changing."}},{"id":"tools","title":"Tools and Materials Needed","content":"\u003cp>Have everything ready before you start:\u003c/p>\u003cul>\u003cli>\u003cstrong>New oil\u003c/strong> — Correct quantity (usually 4–6 L) and viscosity from your manual: 5W-30, 5W-40, 0W-20, etc.\u003c/li>\u003cli>\u003cstrong>New oil filter\u003c/strong> — Quality brands: Mann, Bosch, Mahle. Cheap filters can fail within days.\u003c/li>\u003cli>\u003cstrong>Socket wrench\u003c/strong> — For the drain plug (commonly 14, 17 or 19 mm).\u003c/li>\u003cli>\u003cstrong>Oil filter wrench\u003c/strong> — Adjustable or engine-specific.\u003c/li>\u003cli>\u003cstrong>Hydraulic jack + axle stands\u003c/strong> — Never work under a car supported only by a jack.\u003c/li>\u003cli>\u003cstrong>Drain pan\u003c/strong> — Minimum 8-litre capacity.\u003c/li>\u003cli>\u003cstrong>Funnel, rags, nitrile gloves\u003c/strong>\u003c/li>\u003cli>\u003cstrong>New copper washer\u003c/strong> — For the drain plug (~50p, prevents leaks).\u003c/li>\u003c/ul>","callout":{"type":"warning","text":"Never use the vehicle's scissor jack to work underneath it. Use only rated axle stands."}},{"id":"choosing-oil","title":"How to Choose the Right Oil","content":"\u003cp>Using the wrong oil can seriously damage your engine:\u003c/p>\u003cul>\u003cli>\u003cstrong>Viscosity\u003c/strong>: The SAE code (5W-30, 0W-40…) is chosen by the manufacturer. Don't change it arbitrarily.\u003c/li>\u003cli>\u003cstrong>Base\u003c/strong>: Mineral (cheaper, older engines), semi-synthetic (balanced), or fully synthetic (best protection, modern engines).\u003c/li>\u003cli>\u003cstrong>Specification\u003c/strong>: Look for the ACEA rating (A3/B4, C3…) and manufacturer approval (VW 504.00, BMW LL-04, Dexos…).\u003c/li>\u003c/ul>\u003cp>Reliable brands: Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.\u003c/p>","callout":{"type":"tip","text":"If your car has a Variable Maintenance Reminder (BMW CBS, Mercedes ASSYST, etc.), reset the oil service counter after the change."}},{"id":"preparation","title":"Vehicle Preparation","content":"\u003cp>Follow this exact order:\u003c/p>\u003col>\u003cli>Drive the car \u003cstrong>5–10 minutes\u003c/strong> to warm the oil to ~60°C — it flows better and carries more deposits.\u003c/li>\u003cli>Park on a flat, firm surface.\u003c/li>\u003cli>Turn off the engine and wait \u003cstrong>5 minutes\u003c/strong>.\u003c/li>\u003cli>Apply the \u003cstrong>handbrake\u003c/strong> and place wheel chocks on the rear wheels.\u003c/li>\u003cli>Open the bonnet and \u003cstrong>remove the oil filler cap\u003c/strong> to allow proper drainage (prevents a vacuum).\u003c/li>\u003cli>Raise the car with the hydraulic jack at the marked jacking points and place \u003cstrong>axle stands\u003c/strong>.\u003c/li>\u003c/ol>"},{"id":"draining","title":"Draining the Old Oil","content":"\u003cp>The most important phase:\u003c/p>\u003col>\u003cli>Position the drain pan under the sump.\u003c/li>\u003cli>Locate the \u003cstrong>drain plug\u003c/strong> (bottom of the oil pan).\u003c/li>\u003cli>Loosen with the socket wrench \u003cstrong>counter-clockwise\u003c/strong>. Finish by hand to control the plug.\u003c/li>\u003cli>Let it drain for \u003cstrong>10–15 minutes\u003c/strong>.\u003c/li>\u003cli>Observe the oil: excessive foam may indicate coolant contamination; metallic particles indicate engine wear.\u003c/li>\u003cli>Clean around the drain plug seat with a rag.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"Hot oil causes severe burns. Always wear heat-resistant nitrile gloves and eye protection."}},{"id":"filter","title":"Changing the Oil Filter","content":"\u003cp>The filter traps metal particles, carbon, and contaminants. Never reuse it:\u003c/p>\u003col>\u003cli>Locate the filter — \u003cstrong>cartridge type\u003c/strong> (plastic housing) or \u003cstrong>spin-on type\u003c/strong> (metal canister).\u003c/li>\u003cli>Use the filter wrench to turn \u003cstrong>counter-clockwise\u003c/strong>.\u003c/li>\u003cli>Empty the old filter into the drain pan. Clean the filter seating surface on the engine.\u003c/li>\u003cli>\u003cstrong>Lightly oil the rubber gasket\u003c/strong> of the new filter with clean oil.\u003c/li>\u003cli>Screw in by hand until the gasket contacts the surface, then tighten \u003cstrong>3/4 turn more\u003c/strong>. Do NOT use a wrench to tighten — you'll deform the gasket.\u003c/li>\u003c/ol>","callout":{"type":"tip","text":"For cartridge filters (BMW, Mercedes, some Audi TDI), always replace the O-ring on the housing cap too."}},{"id":"refill","title":"Refilling and Checking the Level","content":"\u003cp>The final phase before starting:\u003c/p>\u003col>\u003cli>Reinstall the drain plug with a \u003cstrong>new copper washer\u003c/strong> and tighten to the correct torque (typically 20–30 Nm).\u003c/li>\u003cli>Lower the car from the stands.\u003c/li>\u003cli>Using a funnel, pour in \u003cstrong>80% of the total specified quantity\u003c/strong> first.\u003c/li>\u003cli>Replace the oil filler cap, start the engine and let it idle for \u003cstrong>30 seconds\u003c/strong>. Check for leaks underneath.\u003c/li>\u003cli>Turn off the engine and wait \u003cstrong>3 minutes\u003c/strong> for oil to drain back into the sump.\u003c/li>\u003cli>Check the level with the dipstick: remove, wipe, insert fully, remove. The level should be between min and max, \u003cstrong>ideally in the upper third\u003c/strong>.\u003c/li>\u003cli>Add small amounts until you reach the correct level.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"Overfilling is as dangerous as underfilling. Excess oil foams up, loses lubrication properties, and can contaminate the catalytic converter."}},{"id":"disposal","title":"Disposing of Used Oil","content":"\u003cp>Used engine oil is \u003cstrong>hazardous waste\u003c/strong>. It is illegal to pour it down drains, into soil, or in general waste bins:\u003c/p>\u003cul>\u003cli>Store it sealed in the original oil container.\u003c/li>\u003cli>Take it to a \u003cstrong>local recycling centre\u003c/strong> or any garage (they are required to accept it free of charge).\u003c/li>\u003cli>One litre of used oil can contaminate 1 million litres of groundwater.\u003c/li>\u003c/ul>"}],"faq":[{"question":"How often should I change the oil?","answer":"It depends on oil type and driving conditions. Mineral oil: every 5,000–7,500 km. Semi-synthetic: 7,500–10,000 km. Fully synthetic: 10,000–15,000 km, up to 20,000 km in modern vehicles with flexible service intervals. Never exceed 2 years regardless of mileage."},{"question":"Can I top up the oil instead of changing it?","answer":"Topping up only replenishes the level — it doesn't replace the degraded base oil or remove contaminants. It's fine between changes if the level drops, but it never replaces a full oil change."},{"question":"What happens if I overfill the oil?","answer":"Excess oil gets aerated by the crankshaft, forming foam that can't lubricate properly. It can also be drawn into the PCV system, contaminate the intake manifold and catalytic converter, and damage oil seals. Extract the excess with an oil suction pump."},{"question":"Can I change just the oil without replacing the filter?","answer":"Not recommended. The old filter contains contaminated oil that immediately mixes with the fresh oil when you start the engine. All manufacturers specify replacing both simultaneously. A quality filter costs £7–£25 and is always worth it."},{"question":"How much oil does my car need?","answer":"4-cylinder engines typically need 3.5–4.5 litres; 6-cylinders 5–6 litres; 8-cylinders 6–8 litres. Always check your owner's manual or the label under the bonnet. Add slightly less than the total and verify with the dipstick."},{"question":"Is fully synthetic oil better than mineral?","answer":"Yes, for most modern engines. Synthetic oil offers superior thermal stability, better cold-start protection, lower volatility and greater oxidation resistance. Mineral oil may be appropriate for very old engines with high clearances, where synthetic could cause minor seal leaks."}],"seo":{"title":"How to Change Your Car Oil Step by Step | Complete CarSpecio Guide","description":"Professional guide to changing engine oil at home: tools, oil selection, detailed steps, and mechanic tips. Save £35–£100 per service.","keywords":["how to change car oil","engine oil change","car maintenance DIY","oil filter change","synthetic oil","engine oil viscosity","oil change step by step"]}},"fr":{"title":"Comment changer l'huile de sa voiture étape par étape","excerpt":"Guide complet pour changer l'huile moteur à domicile : outils, choix de l'huile, étapes détaillées et conseils de professionnel pour économiser sur l'entretien.","intro":"Le changement d'huile moteur est l'opération d'entretien la plus cruciale pour votre véhicule. Une huile propre réduit la friction, refroidit le moteur, élimine les impuretés et peut prolonger la durée de vie du moteur jusqu'à 40 %. Ce processus prend 30 à 45 minutes et vous permet d'économiser 40 à 120 € par vidange.","keyTakeaways":["Une huile sale peut augmenter la consommation de carburant jusqu'à 2 %","Toujours remplacer le filtre à huile à chaque vidange","La bonne viscosité (ex. 5W-30) est indiquée dans le manuel du véhicule","Ne jamais mélanger des huiles de viscosités ou bases différentes","L'huile usagée est un déchet dangereux — à déposer dans un point de collecte"],"sections":[{"id":"quand-changer","title":"Quand faut-il changer l'huile ?","content":"\u003cp>La plupart des constructeurs modernes recommandent de changer l'huile \u003cstrong>tous les 10 000–15 000 km\u003c/strong> ou une fois par an, selon la première occurrence. En conduite sévère (ville, grand froid, remorquage), l'intervalle descend à \u003cstrong>5 000–7 500 km\u003c/strong>.\u003c/p>\u003cp>Signes indiquant un changement urgent :\u003c/p>\u003cul>\u003cli>Niveau en dessous du minimum sur la jauge\u003c/li>\u003cli>Huile noire et épaisse (saine : ambrée ou brun clair)\u003c/li>\u003cli>Voyant d'huile allumé au tableau de bord\u003c/li>\u003cli>Cliquetis au démarrage à froid\u003c/li>\u003cli>Odeur de brûlé dans l'habitacle\u003c/li>\u003c/ul>","callout":{"type":"tip","text":"Consultez toujours le manuel du propriétaire. Certains véhicules modernes avec huile synthétique peuvent atteindre 20 000 km, mais ne dépassez jamais 2 ans sans vidange."}},{"id":"outils","title":"Outils et matériaux nécessaires","content":"\u003cp>Préparez tout avant de commencer :\u003c/p>\u003cul>\u003cli>\u003cstrong>Huile neuve\u003c/strong> — Quantité et viscosité selon le manuel (5W-30, 5W-40, 0W-20…).\u003c/li>\u003cli>\u003cstrong>Filtre à huile neuf\u003c/strong> — Marques fiables : Mann, Bosch, Mahle.\u003c/li>\u003cli>\u003cstrong>Clé à douille\u003c/strong> — Pour le bouchon de vidange (14, 17 ou 19 mm).\u003c/li>\u003cli>\u003cstrong>Clé à filtre\u003c/strong> — Réglable ou spécifique à votre moteur.\u003c/li>\u003cli>\u003cstrong>Cric hydraulique + chandelles de sécurité\u003c/strong> — Ne travaillez jamais sous un véhicule maintenu uniquement par un cric.\u003c/li>\u003cli>\u003cstrong>Bac de vidange\u003c/strong> — Capacité minimum 8 litres.\u003c/li>\u003cli>\u003cstrong>Entonnoir, chiffons, gants en nitrile\u003c/strong>\u003c/li>\u003cli>\u003cstrong>Joint de cuivre neuf\u003c/strong> — Pour le bouchon de vidange.\u003c/li>\u003c/ul>","callout":{"type":"warning","text":"N'utilisez jamais le cric ciseaux de bord pour travailler sous le véhicule. Utilisez uniquement des chandelles homologuées."}},{"id":"choix-huile","title":"Comment choisir la bonne huile","content":"\u003cp>Utiliser la mauvaise huile peut gravement endommager le moteur :\u003c/p>\u003cul>\u003cli>\u003cstrong>Viscosité\u003c/strong> : Le code SAE (5W-30, 0W-40…) est défini par le constructeur.\u003c/li>\u003cli>\u003cstrong>Base\u003c/strong> : Minérale (moins chère, moteurs anciens), semi-synthétique (équilibrée) ou synthétique (protection maximale).\u003c/li>\u003cli>\u003cstrong>Spécification\u003c/strong> : Vérifiez la norme ACEA (A3/B4, C3…) et l'approbation constructeur (VW 504.00, BMW LL-04…).\u003c/li>\u003c/ul>\u003cp>Marques fiables : Castrol Edge, Mobil 1, Liqui Moly, Shell Helix Ultra, Total Quartz.\u003c/p>","callout":{"type":"tip","text":"Si votre voiture dispose d'un indicateur de maintenance variable (BMW CBS, Mercedes ASSYST…), réinitialisez le compteur après la vidange."}},{"id":"preparation","title":"Préparation du véhicule","content":"\u003cp>Suivez cet ordre précis :\u003c/p>\u003col>\u003cli>Conduisez la voiture \u003cstrong>5 à 10 minutes\u003c/strong> pour chauffer l'huile à environ 60°C.\u003c/li>\u003cli>Garez-vous sur une surface plane et stable.\u003c/li>\u003cli>Coupez le moteur et attendez \u003cstrong>5 minutes\u003c/strong>.\u003c/li>\u003cli>Serrez le \u003cstrong>frein à main\u003c/strong> et placez des cales derrière les roues arrière.\u003c/li>\u003cli>Ouvrez le capot et \u003cstrong>retirez le bouchon de remplissage d'huile\u003c/strong>.\u003c/li>\u003cli>Soulevez le véhicule avec le cric aux points de levage indiqués et posez les \u003cstrong>chandelles de sécurité\u003c/strong>.\u003c/li>\u003c/ol>"},{"id":"vidange","title":"Vidanger l'huile usagée","content":"\u003cp>Étape la plus importante :\u003c/p>\u003col>\u003cli>Placez le bac de vidange sous le carter.\u003c/li>\u003cli>Localisez le \u003cstrong>bouchon de vidange\u003c/strong>.\u003c/li>\u003cli>Desserrez avec la clé à douille \u003cstrong>dans le sens antihoraire\u003c/strong>. Finissez à la main.\u003c/li>\u003cli>Laissez vidanger \u003cstrong>10 à 15 minutes\u003c/strong>.\u003c/li>\u003cli>Observez l'huile : mousse excessive = possible mélange avec le liquide de refroidissement ; particules métalliques = usure moteur.\u003c/li>\u003cli>Nettoyez la zone du bouchon.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"L'huile chaude provoque des brûlures graves. Portez toujours des gants en nitrile résistants à la chaleur et des lunettes de protection."}},{"id":"filtre","title":"Changer le filtre à huile","content":"\u003cp>Le filtre retient les particules métalliques et les contaminants. Ne le réutilisez jamais :\u003c/p>\u003col>\u003cli>Localisez le filtre — type \u003cstrong>cartouche\u003c/strong> ou type \u003cstrong>vissé\u003c/strong>.\u003c/li>\u003cli>Dévissez-le \u003cstrong>dans le sens antihoraire\u003c/strong> avec la clé à filtre.\u003c/li>\u003cli>Nettoyez parfaitement le siège du filtre sur le moteur.\u003c/li>\u003cli>\u003cstrong>Lubrifiez le joint torique\u003c/strong> du nouveau filtre avec de l'huile propre.\u003c/li>\u003cli>Vissez à la main jusqu'au contact du joint, puis serrez \u003cstrong>3/4 de tour de plus\u003c/strong>. N'utilisez pas d'outil pour serrer.\u003c/li>\u003c/ol>","callout":{"type":"tip","text":"Pour les filtres cartouche (BMW, Mercedes, Audi TDI…), remplacez également le joint torique du couvercle."}},{"id":"remplissage","title":"Remplir et vérifier le niveau","content":"\u003cp>Dernière étape avant le démarrage :\u003c/p>\u003col>\u003cli>Remettez le bouchon de vidange avec un \u003cstrong>joint de cuivre neuf\u003c/strong> au couple recommandé (20–30 Nm).\u003c/li>\u003cli>Descendez le véhicule des chandelles.\u003c/li>\u003cli>Versez \u003cstrong>80 % de la quantité totale\u003c/strong> indiquée dans le manuel.\u003c/li>\u003cli>Remettez le bouchon de remplissage, démarrez et laissez tourner \u003cstrong>30 secondes\u003c/strong>. Vérifiez l'absence de fuites.\u003c/li>\u003cli>Coupez le moteur et attendez \u003cstrong>3 minutes\u003c/strong>.\u003c/li>\u003cli>Vérifiez le niveau avec la jauge : idéalement dans le \u003cstrong>tiers supérieur\u003c/strong> entre min et max.\u003c/li>\u003cli>Ajoutez si nécessaire jusqu'au niveau correct.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"Trop d'huile est aussi dangereux que pas assez. L'excès crée de la mousse, perd ses propriétés lubrifiantes et peut contaminer le catalyseur."}},{"id":"elimination","title":"Élimination de l'huile usagée","content":"\u003cp>L'huile moteur usagée est un \u003cstrong>déchet dangereux\u003c/strong>. Il est interdit de la jeter dans les égouts, sur le sol ou dans les ordures ménagères :\u003c/p>\u003cul>\u003cli>Conservez-la dans le bidon d'origine bien fermé.\u003c/li>\u003cli>Déposez-la dans une \u003cstrong>déchetterie\u003c/strong> ou chez un garagiste (obligé de l'accepter gratuitement).\u003c/li>\u003cli>1 litre d'huile usagée peut contaminer 1 million de litres d'eau.\u003c/li>\u003c/ul>"}],"faq":[{"question":"Combien de fois dois-je changer l'huile ?","answer":"Selon le type d'huile : minérale toutes les 5 000–7 500 km, semi-synthétique 7 500–10 000 km, synthétique 10 000–15 000 km (jusqu'à 20 000 km sur véhicules modernes). Ne dépassez jamais 2 ans sans vidange."},{"question":"Peut-on mélanger différentes huiles ?","answer":"On peut ajouter la même viscosité et base pour compléter le niveau, mais cela ne remplace pas une vidange complète. L'huile ancienne reste contaminée et dégradée."},{"question":"Que se passe-t-il si on met trop d'huile ?","answer":"L'excès d'huile est fouetté par le vilebrequin et forme de la mousse qui ne lubrifie plus. Elle peut être aspirée dans le circuit de ventilation carter, contaminer l'admission et le catalyseur, et endommager les joints. Extrayez l'excès avec une pompe d'aspiration."},{"question":"Peut-on changer seulement l'huile sans le filtre ?","answer":"Déconseillé. Le vieux filtre contient de l'huile contaminée qui se mélange immédiatement à la neuve au démarrage. Tous les constructeurs prescrivent le remplacement simultané. Un bon filtre coûte 8–25 €, c'est rentable."},{"question":"Combien de litres d'huile faut-il ?","answer":"Les 4 cylindres nécessitent généralement 3,5–4,5 L ; les 6 cylindres 5–6 L ; les 8 cylindres 6–8 L. Vérifiez toujours le manuel ou l'étiquette sous le capot. Versez légèrement moins et contrôlez avec la jauge."}],"seo":{"title":"Comment changer l'huile de sa voiture étape par étape | Guide CarSpecio","description":"Guide professionnel pour changer l'huile moteur soi-même : outils, choix de l'huile, étapes détaillées et conseils mécanicien. Économisez 40–120 € par vidange.","keywords":["changer huile voiture","vidange huile moteur","entretien voiture maison","filtre à huile","huile synthétique","viscosité huile moteur"]}},"ar":{"title":"كيفية تغيير زيت السيارة خطوة بخطوة","excerpt":"دليل احترافي شامل لتغيير زيت المحرك في المنزل: الأدوات، اختيار الزيت الصحيح، خطوات مفصلة ونصائح من ميكانيكي خبير.","intro":"تغيير زيت المحرك هو أهم عملية صيانة يمكنك إجراؤها لسيارتك. الزيت النظيف يقلل الاحتكاك ويبرد المحرك ويحمل الشوائب بعيداً، ويمكنه إطالة عمر المحرك حتى 40%. تستغرق العملية 30-45 دقيقة وتوفر لك 150-500 درهم في كل مرة.","keyTakeaways":["الزيت المتسخ يزيد استهلاك الوقود حتى 2%","استبدل فلتر الزيت دائماً مع كل تغيير","اللزوجة الصحيحة (مثل 5W-30) موجودة في دليل المركبة","لا تخلط أبداً زيوتاً بلزوجات أو قواعد مختلفة","الزيت المستعمل نفايات خطرة - خذه إلى نقطة تجميع"],"sections":[{"id":"cuando-cambiar-ar","title":"متى يجب تغيير الزيت؟","content":"\u003cp>يوصي معظم المصنعين بتغيير الزيت \u003cstrong>كل 10,000-15,000 كم\u003c/strong> أو مرة في السنة أيهما يأتي أولاً. في ظروف القيادة القاسية (المدينة، البرد الشديد، السحب) ينخفض الفاصل إلى \u003cstrong>5,000-7,500 كم\u003c/strong>.\u003c/p>\u003cp>علامات تستوجب تغييراً عاجلاً:\u003c/p>\u003cul>\u003cli>مستوى الزيت دون الحد الأدنى في عصا القياس\u003c/li>\u003cli>الزيت أسود وكثيف (السليم: بلون العنبر أو البني الفاتح)\u003c/li>\u003cli>إضاءة مؤشر الزيت في لوحة التحكم\u003c/li>\u003cli>صوت طرق عند الإقلاع على البارد\u003c/li>\u003cli>رائحة احتراق داخل المقصورة\u003c/li>\u003c/ul>","callout":{"type":"tip","text":"راجع دائماً دليل المالك. بعض السيارات الحديثة بزيت اصطناعي قد تصل إلى 20,000 كم، لكن لا تتجاوز سنتين دون تغيير أبداً."}},{"id":"herramientas-ar","title":"الأدوات والمواد اللازمة","content":"\u003cp>اجهز كل شيء قبل البدء:\u003c/p>\u003cul>\u003cli>\u003cstrong>زيت جديد\u003c/strong> — الكمية واللزوجة حسب الدليل (5W-30، 5W-40، 0W-20...).\u003c/li>\u003cli>\u003cstrong>فلتر زيت جديد\u003c/strong> — ماركات موثوقة: Mann، Bosch، Mahle.\u003c/li>\u003cli>\u003cstrong>مفتاح بانة\u003c/strong> — لسدادة التصريف (14 أو 17 أو 19 مم).\u003c/li>\u003cli>\u003cstrong>مفتاح فلاتر\u003c/strong> — قابل للتعديل أو خاص بمحركك.\u003c/li>\u003cli>\u003cstrong>رافعة هيدروليكية + حوامل أمان\u003c/strong> — لا تعمل أبداً تحت سيارة مرفوعة بالرافعة فقط.\u003c/li>\u003cli>\u003cstrong>وعاء تصريف\u003c/strong> — سعة 8 لترات على الأقل.\u003c/li>\u003cli>\u003cstrong>قمع، خرق، قفازات نيتريل\u003c/strong>\u003c/li>\u003cli>\u003cstrong>حلقة نحاسية جديدة\u003c/strong> — لسدادة التصريف.\u003c/li>\u003c/ul>","callout":{"type":"warning","text":"لا تستخدم رافعة المقص المرفقة مع السيارة للعمل تحتها. استخدم حوامل الأمان المعتمدة فقط."}},{"id":"elegir-aceite-ar","title":"كيف تختار الزيت الصحيح","content":"\u003cp>استخدام الزيت الخاطئ قد يتلف المحرك بشكل خطير:\u003c/p>\u003cul>\u003cli>\u003cstrong>اللزوجة\u003c/strong>: يحددها المصنع (5W-30، 0W-40...)، لا تغيرها بشكل عشوائي.\u003c/li>\u003cli>\u003cstrong>القاعدة\u003c/strong>: معدني (أرخص، للمحركات القديمة)، شبه اصطناعي (متوازن)، أو اصطناعي كامل (حماية قصوى).\u003c/li>\u003cli>\u003cstrong>المواصفة\u003c/strong>: ابحث عن تصنيف ACEA (A3/B4، C3...) وموافقة المصنع (VW 504.00، BMW LL-04...).\u003c/li>\u003c/ul>\u003cp>ماركات موثوقة: Castrol Edge، Mobil 1، Liqui Moly، Shell Helix Ultra، Total Quartz.\u003c/p>","callout":{"type":"tip","text":"إذا كانت سيارتك مزودة بنظام تذكير الصيانة المتغير (BMW CBS، Mercedes ASSYST...)، أعد ضبط عداد تغيير الزيت بعد الانتهاء."}},{"id":"preparacion-ar","title":"تحضير المركبة","content":"\u003cp>اتبع هذا الترتيب بالضبط:\u003c/p>\u003col>\u003cli>قد السيارة \u003cstrong>5-10 دقائق\u003c/strong> لتسخين الزيت إلى ~60 درجة مئوية.\u003c/li>\u003cli>اركن على سطح مستوٍ وصلب.\u003c/li>\u003cli>أوقف المحرك وانتظر \u003cstrong>5 دقائق\u003c/strong>.\u003c/li>\u003cli>اشد \u003cstrong>فرامل اليد\u003c/strong> وضع أوتاداً خلف العجلات الخلفية.\u003c/li>\u003cli>افتح الغطاء و\u003cstrong>أزل غطاء سكب الزيت\u003c/strong> لتسهيل التصريف.\u003c/li>\u003cli>ارفع السيارة من نقاط الرفع المحددة وضع \u003cstrong>حوامل الأمان\u003c/strong>.\u003c/li>\u003c/ol>"},{"id":"drenaje-ar","title":"تصريف الزيت القديم","content":"\u003cp>المرحلة الأهم:\u003c/p>\u003col>\u003cli>ضع وعاء التصريف تحت الكارتر.\u003c/li>\u003cli>حدد موقع \u003cstrong>سدادة التصريف\u003c/strong>.\u003c/li>\u003cli>افكها بمفتاح البانة \u003cstrong>عكس اتجاه عقارب الساعة\u003c/strong>. أكمل بيدك حتى لا تسقط السدادة.\u003c/li>\u003cli>دع الزيت يتصرف لمدة \u003cstrong>10-15 دقيقة\u003c/strong>.\u003c/li>\u003cli>راقب الزيت: رغوة مفرطة = اختلاط محتمل بسائل التبريد؛ جزيئات معدنية = تآكل المحرك.\u003c/li>\u003cli>نظف منطقة السدادة بخرقة.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"الزيت الساخن يسبب حروقاً بالغة. ارتدِ دائماً قفازات نيتريل مقاومة للحرارة ونظارة وقاية."}},{"id":"filtro-ar","title":"تغيير فلتر الزيت","content":"\u003cp>الفلتر يحتجز الجزيئات المعدنية والملوثات. لا تعيد استخدامه أبداً:\u003c/p>\u003col>\u003cli>حدد موقع الفلتر — نوع \u003cstrong>خرطوشة\u003c/strong> أو نوع \u003cstrong>لولبي\u003c/strong>.\u003c/li>\u003cli>استخدم مفتاح الفلاتر للفه \u003cstrong>عكس عقارب الساعة\u003c/strong>.\u003c/li>\u003cli>نظف سطح تركيب الفلتر على المحرك.\u003c/li>\u003cli>\u003cstrong>ادهن الحلقة المطاطية للفلتر الجديد\u003c/strong> بزيت نظيف.\u003c/li>\u003cli>لفه يدوياً حتى يلامس الحلقة السطح، ثم أحكم \u003cstrong>ثلاثة أرباع دورة إضافية\u003c/strong>. لا تستخدم أداة للإحكام.\u003c/li>\u003c/ol>","callout":{"type":"tip","text":"لفلاتر الخرطوشة (BMW، Mercedes، Audi TDI...)، استبدل أيضاً حلقة الغطاء المطاطية."}},{"id":"relleno-ar","title":"إعادة التعبئة وفحص المستوى","content":"\u003cp>المرحلة الأخيرة:\u003c/p>\u003col>\u003cli>أعد تركيب سدادة التصريف مع \u003cstrong>حلقة نحاسية جديدة\u003c/strong> بعزم 20-30 نيوتن متر.\u003c/li>\u003cli>انزل السيارة من الحوامل.\u003c/li>\u003cli>اسكب \u003cstrong>80% من الكمية الإجمالية\u003c/strong> أولاً.\u003c/li>\u003cli>أعد غطاء الزيت، أشغل المحرك 30 ثانية على الفراغ، تحقق من عدم وجود تسرب.\u003c/li>\u003cli>أوقف المحرك وانتظر \u003cstrong>3 دقائق\u003c/strong>.\u003c/li>\u003cli>فحص المستوى بعصا القياس: اسحبها، امسحها، أدخلها، اسحبها. المستوى يجب أن يكون في \u003cstrong>الثلث العلوي بين الحد الأدنى والأقصى\u003c/strong>.\u003c/li>\u003cli>أضف زيتاً حسب الحاجة.\u003c/li>\u003c/ol>","callout":{"type":"warning","text":"الزيادة في الزيت خطيرة مثل النقص. الزيت الزائد يتحول إلى رغوة تفقد خصائص التشحيم وقد تتلف المحول الحفزي."}},{"id":"residuos-ar","title":"التخلص من الزيت المستعمل","content":"\u003cp>زيت المحرك المستعمل \u003cstrong>نفايات خطرة\u003c/strong>. يُحظر صبه في المجاري أو التربة أو القمامة العادية:\u003c/p>\u003cul>\u003cli>احتفظ به محكم الإغلاق في الوعاء الأصلي.\u003c/li>\u003cli>خذه إلى \u003cstrong>نقطة تجميع النفايات\u003c/strong> أو أي ورشة ميكانيكية (ملزمة بقبوله مجاناً).\u003c/li>\u003cli>لتر واحد من الزيت المستعمل يمكنه تلويث مليون لتر من المياه الجوفية.\u003c/li>\u003c/ul>"}],"faq":[{"question":"كم مرة يجب أن أغير الزيت؟","answer":"حسب نوع الزيت: معدني كل 5,000-7,500 كم؛ شبه اصطناعي 7,500-10,000 كم؛ اصطناعي كامل 10,000-15,000 كم وقد يصل لـ20,000 كم في السيارات الحديثة. لا تتجاوز سنتين بدون تغيير أبداً."},{"question":"هل يمكن خلط الزيت الجديد مع القديم؟","answer":"يمكن إضافة نفس اللزوجة والقاعدة لتعويض المستوى، لكنه لا يغني أبداً عن التغيير الكامل. الزيت القديم ملوث بالأحماض والجزيئات المعدنية."},{"question":"ماذا يحدث إذا وضعت زيتاً زائداً؟","answer":"الزيت الزائد يتحول إلى رغوة بفعل عمود الكرنك وتفقد الرغوة خصائص التشحيم. يمكن أيضاً امتصاصها في نظام تهوية الكارتر وتلويث مجمع السحب والمحول الحفزي. استخرج الزائد بمضخة شفط."},{"question":"هل يمكن تغيير الزيت فقط دون الفلتر؟","answer":"غير موصى به. الفلتر القديم يحتوي زيتاً ملوثاً يختلط فوراً بالزيت الجديد عند الإقلاع. جميع المصنعين يوصون باستبدالهما معاً. فلتر جيد يكلف 30-80 درهم وهو يستحق."},{"question":"كم لتراً من الزيت تحتاج سيارتي؟","answer":"محركات 4 سلندر: عادةً 3.5-4.5 لتر؛ 6 سلندر: 5-6 لتر؛ 8 سلندر: 6-8 لتر. تحقق دائماً من دليل المالك أو الملصق تحت الغطاء. اسكب أقل من الكمية الكلية وتحقق بعصا القياس."},{"question":"هل الزيت الاصطناعي أفضل من المعدني؟","answer":"نعم، لمعظم المحركات الحديثة. الزيت الاصطناعي يوفر استقراراً حرارياً أفضل، وحماية أقوى عند الإقلاع البارد، وتطايراً أقل ومقاومة أعلى للأكسدة. الزيت المعدني قد يكون مناسباً للمحركات القديمة جداً ذات الهوامش العالية."}],"seo":{"title":"كيفية تغيير زيت السيارة خطوة بخطوة | دليل كارسبيسيو الشامل","description":"دليل احترافي لتغيير زيت المحرك في المنزل: الأدوات، اختيار الزيت، خطوات مفصلة ونصائح من خبراء. وفر 150-500 درهم في كل تغيير.","keywords":["تغيير زيت السيارة","صيانة المحرك","تغيير فلتر الزيت","زيت اصطناعي","لزوجة الزيت","صيانة السيارة في المنزل"]}}},"summaryBox":{"es":{"title":"Resumen rápido","tocLabel":"Resumen","items":["Calienta el motor 5–10 min antes de empezar","Usa siempre gato hidráulico + caballetes de seguridad","Deja drenar el aceite viejo 10–15 minutos","Humedece la junta del filtro nuevo con aceite limpio","Aprieta el filtro solo a mano + 3/4 vuelta más","Añade el 80% del aceite, arranca, verifica fugas y comprueba nivel"]},"en":{"title":"Quick Summary","tocLabel":"Summary","items":["Warm the engine 5–10 min before starting","Always use hydraulic jack + axle stands","Let old oil drain for 10–15 minutes","Lightly oil the new filter gasket with clean oil","Tighten filter by hand only + 3/4 turn","Add 80% of oil first, start engine, check for leaks, verify level"]},"fr":{"title":"Résumé rapide","tocLabel":"Résumé","items":["Chauffez le moteur 5–10 min avant de commencer","Utilisez toujours cric hydraulique + chandelles de sécurité","Laissez vider l'huile 10–15 minutes","Lubrifiez le joint du nouveau filtre avec de l'huile propre","Serrez le filtre à la main seulement + 3/4 de tour","Versez 80% de l'huile, démarrez, vérifiez les fuites et le niveau"]},"ar":{"title":"ملخص سريع","tocLabel":"ملخص","items":["سخن المحرك 5-10 دقائق قبل البدء","استخدم دائماً رافعة هيدروليكية + حوامل أمان","دع الزيت القديم يتصرف 10-15 دقيقة","ادهن حلقة الفلتر الجديد بالزيت النظيف","أحكم الفلتر يدوياً فقط + ثلاثة أرباع دورة","اسكب 80% من الزيت أولاً، أشغل المحرك، تحقق من التسرب والمستوى"]}},"tags":["oil","maintenance","engine","DIY","filter"],"relatedCars":["bmw-m5-2026","audi-rs7-2026"],"schemaVersion":"1.0"};
+
+        function announce(text) {
+            const announcer = document.getElementById('a11yAnnouncer');
+            if (announcer) {
+                announcer.textContent = '';
+                setTimeout(() => { announcer.textContent = text; }, 100);
+            }
+        }
+
+        // Switch guide content to the active language (global for i18n.js)
+        window.applyPageText = function() {
+            const data = window.__preloadedGuideData;
+            if (!data || !data.content) return;
+            let lang = (typeof currentLang === 'function' ? currentLang() : window.currentLang) || 'es';
+            const content = data.content[lang] || data.content.es;
+            if (!content) return;
+            // If fallback to ES was used, force lang to ES so lang-block visibility matches
+            if (!data.content[lang]) lang = 'es';
+
+            // Title
+            const titleEl = document.getElementById('guideTitle');
+            if (titleEl && content.title) {
+                const titleSpan = titleEl.querySelector(`.lang-title[data-lang="${lang}"]`);
+                if (titleSpan) titleSpan.textContent = content.title;
+            }
+
+            // SEO metadata
+            if (content.seo) {
+                document.title = content.seo.title || document.title;
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc && content.seo.description) metaDesc.setAttribute('content', content.seo.description);
+                const metaKeywords = document.querySelector('meta[name="keywords"]');
+                if (metaKeywords && content.seo.keywords) metaKeywords.setAttribute('content', content.seo.keywords.join(', '));
+            }
+
+            // Language blocks
+            document.querySelectorAll('.lang-block, .lang-card-content').forEach(block => {
+                block.hidden = block.dataset.lang !== lang;
+            });
+
+            // Breadcrumb current title
+            const breadcrumbCurrent = document.querySelector('.breadcrumb-current');
+            if (breadcrumbCurrent && content.title) breadcrumbCurrent.textContent = content.title;
+
+            // Category badge
+            const catId = data.category;
+            if (catId && typeof t === 'function') {
+                const catName = t('guides.categories.' + catId) || catId;
+                document.querySelectorAll('.guide-category-badge').forEach(badge => {
+                    badge.textContent = catName;
+                });
+            }
+
+            // Rebuild TOC for current language
+            const tocEl = document.getElementById('guideTocItems');
+            if (tocEl && content.sections) {
+                let tocHtml = '';
+                content.sections.forEach((section, idx) => {
+                    tocHtml += `<li><a href="#${section.id}">${idx + 1}. ${section.title}</a></li>`;
+                });
+                if (data.summaryBox && data.summaryBox[lang]) {
+                    tocHtml += `<li><a href="#summaryBox">${content.sections.length + 1}. ${data.summaryBox[lang].tocLabel || 'Resumen rápido'}</a></li>`;
+                }
+                if (content.faq && content.faq.length > 0) {
+                    tocHtml += `<li><a href="#faq">${content.sections.length + 2}. ${content.faqLabel || 'Preguntas frecuentes'}</a></li>`;
+                }
+                tocEl.innerHTML = tocHtml;
+            }
+
+            // Re-init FAQ accordion after language switch
+            if (typeof initGuideFaq === 'function') initGuideFaq();
+
+            // Announce language change and move focus to main content
+            announce(`Idioma cambiado a ${String(lang || 'es').toUpperCase()}`);
+            const main = document.getElementById('main-content');
+            if (main && main.tabIndex === -1) main.focus();
+        };
+
+        // Reading Progress Bar + Time Remaining Tooltip
+        (function() {
+            const bar = document.getElementById('readingProgressBar');
+            const container = document.getElementById('readingProgress');
+            const tooltip = document.getElementById('readingProgressTooltip');
+            const article = document.getElementById('main-content');
+            if (!bar || !article) return;
+
+            const totalMins = parseInt(container.getAttribute('data-reading-time'), 10) || 0;
+
+            function updateProgress() {
+                const articleTop = article.getBoundingClientRect().top + window.scrollY;
+                const articleHeight = article.offsetHeight;
+                const viewportHeight = window.innerHeight;
+                const scrolled = window.scrollY + viewportHeight - articleTop;
+                const pct = Math.min(100, Math.max(0, Math.round((scrolled / articleHeight) * 100)));
+                bar.style.width = pct + '%';
+                container.setAttribute('aria-valuenow', pct);
+                checkMilestones(pct);
+
+                if (tooltip && totalMins > 0) {
+                    if (pct <= 0) {
+                        tooltip.textContent = totalMins + ' min';
+                        tooltip.style.opacity = '0';
+                    } else if (pct >= 100) {
+                        tooltip.textContent = '✓';
+                        tooltip.style.opacity = '1';
+                    } else {
+                        const remaining = Math.max(1, Math.ceil(totalMins * (1 - pct / 100)));
+                        tooltip.textContent = remaining + ' min';
+                        tooltip.style.opacity = '1';
+                    }
+                    const barPct = Math.min(96, Math.max(2, pct));
+                    tooltip.style.left = barPct + '%';
+                }
+            }
+
+            // Analytics milestones
+            const milestones = { 25: false, 50: false, 75: false, 100: false };
+            function checkMilestones(pct) {
+                for (const threshold of [25, 50, 75, 100]) {
+                    if (!milestones[threshold] && pct >= threshold) {
+                        milestones[threshold] = true;
+                        document.dispatchEvent(new CustomEvent('guide:milestone', { detail: { threshold: threshold, guide: window.location.pathname } }));
+                    }
+                }
+            }
+
+            let ticking = false;
+            window.addEventListener('scroll', function() {
+                if (!ticking) {
+                    requestAnimationFrame(function() { updateProgress(); ticking = false; });
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            updateProgress();
+        })();
+
+        // Social Share Buttons
+        (function() {
+            const canonical = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+
+            function getTitle() {
+                const visible = document.querySelector('#guideTitle .lang-title:not([hidden])');
+                return visible ? visible.textContent.trim() : document.title;
+            }
+
+            function buildUrls() {
+                const url = encodeURIComponent(canonical);
+                const title = encodeURIComponent(getTitle());
+                return {
+                    whatsapp: 'https://wa.me/?text=' + title + '%20' + url,
+                    facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + url,
+                    twitter:  'https://x.com/intent/tweet?url=' + url + '&text=' + title,
+                    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=' + url + '&title=' + title
+                };
+            }
+
+            function initShareLinks() {
+                const urls = buildUrls();
+                const wa = document.getElementById('shareWhatsapp');
+                const fb = document.getElementById('shareFacebook');
+                const tw = document.getElementById('shareTwitter');
+                const li = document.getElementById('shareLinkedin');
+                if (wa) wa.href = urls.whatsapp;
+                if (fb) fb.href = urls.facebook;
+                if (tw) tw.href = urls.twitter;
+                if (li) li.href = urls.linkedin;
+            }
+
+            function initCopyLink() {
+                const btn = document.getElementById('shareCopy');
+                if (!btn) return;
+                btn.addEventListener('click', function() {
+                    if (!navigator.clipboard) {
+                        const ta = document.createElement('textarea');
+                        ta.value = canonical;
+                        ta.setAttribute('readonly', '');
+                        ta.style.cssText = 'position:absolute;left:-9999px';
+                        document.body.appendChild(ta);
+                        ta.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(ta);
+                        onCopied();
+                    } else {
+                        navigator.clipboard.writeText(canonical).then(onCopied);
+                    }
+                });
+
+                function onCopied() {
+                    const copyIcon = btn.querySelector('.share-icon-copy');
+                    const checkIcon = btn.querySelector('.share-icon-check');
+                    const label = btn.querySelector('.share-copy-label');
+                    if (copyIcon) copyIcon.style.display = 'none';
+                    if (checkIcon) checkIcon.style.display = '';
+                    if (label) label.textContent = '¡Copiado!';
+                    btn.setAttribute('aria-label', 'Enlace copiado');
+                    announce('Enlace copiado al portapapeles');
+                    setTimeout(function() {
+                        if (copyIcon) copyIcon.style.display = '';
+                        if (checkIcon) checkIcon.style.display = 'none';
+                        if (label) {
+                            label.textContent = 'Copiar enlace';
+                            label.setAttribute('data-i18n', 'guides.shareCopyLink');
+                        }
+                        btn.setAttribute('aria-label', 'Copiar enlace');
+                    }, 2500);
+                }
+            }
+
+            initShareLinks();
+            initCopyLink();
+
+            document.addEventListener('i18n:ready', initShareLinks);
+        })();
+
+        // Back to Top Button
+        (function() {
+            const btn = document.getElementById('backToTop');
+            if (!btn) return;
+            const THRESHOLD = 400;
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > THRESHOLD) {
+                    btn.hidden = false;
+                } else {
+                    btn.hidden = true;
+                }
+            }, { passive: true });
+
+            btn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                document.querySelector('.skip-link') && document.querySelector('.skip-link').focus();
+            });
+        })();
+
+        // Feedback Widget
+        (function() {
+            const yesBtn = document.getElementById('feedbackYes');
+            const noBtn  = document.getElementById('feedbackNo');
+            const thanks = document.getElementById('feedbackThanks');
+            if (!yesBtn || !noBtn || !thanks) return;
+
+            const guideId = window.location.pathname.split('/').pop().replace('.html', '') || 'guide';
+            const storageKey = 'profix-feedback-' + guideId;
+
+            function applyVote(vote) {
+                yesBtn.setAttribute('aria-pressed', String(vote === 'yes'));
+                noBtn.setAttribute('aria-pressed',  String(vote === 'no'));
+                yesBtn.disabled = true;
+                noBtn.disabled  = true;
+                thanks.textContent = vote === 'yes' ? '¡Gracias! Nos alegra que te haya ayudado.' : 'Gracias por tu opinión. Seguiremos mejorando.';
+                thanks.hidden = false;
+            }
+
+            const stored = localStorage.getItem(storageKey);
+            if (stored === 'yes' || stored === 'no') {
+                applyVote(stored);
+            }
+
+            yesBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'yes');
+                applyVote('yes');
+                announce('Valoración positiva guardada');
+            });
+            noBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'no');
+                applyVote('no');
+                announce('Valoración guardada');
+            });
+        })();
+
+        // Task 3: Copy Link to Section
+        (function() {
+            const BASE = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+            document.querySelectorAll('.section-anchor').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = btn.getAttribute('data-section-id');
+                    const url = BASE.split('#')[0] + '#' + sectionId;
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(url).then(function() {
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        }).catch(function() {});
+                    } else {
+                        try {
+                            const ta = document.createElement('textarea');
+                            ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+                            document.body.appendChild(ta); ta.focus(); ta.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(ta);
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        } catch(e) {}
+                    }
+                });
+            });
+        })();
+
+        // Task 4: Reading Completion CTA
+        (function() {
+            const cta = document.getElementById('completionCta');
+            if (!cta) return;
+            const sessionKey = 'profix-completion-' + (window.location.pathname.split('/').pop().replace('.html','') || 'guide');
+            if (sessionStorage.getItem(sessionKey)) return;
+            let shown = false;
+            const progressBar = document.getElementById('readingProgressBar');
+            window.addEventListener('scroll', function() {
+                if (shown) return;
+                const bar = progressBar;
+                if (!bar) return;
+                const pct = parseFloat(bar.style.width) || 0;
+                if (pct >= 90) {
+                    shown = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                    cta.hidden = false;
+                    cta.classList.add('visible');
+                }
+            }, { passive: true });
+            const closeBtn = document.getElementById('completionCtaClose');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    cta.hidden = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                });
+            }
+        })();
+
+        // Task 5: TOC Active State
+        (function() {
+            const tocList = document.getElementById('guideTocItems');
+            if (!tocList || !window.IntersectionObserver) return;
+            const sectionEls = document.querySelectorAll('.guide-content .lang-block:not([hidden]) section[id], .guide-content section[id]');
+            if (!sectionEls.length) return;
+            const tocLinks = tocList.querySelectorAll('a[href^="#"]');
+            function setActive(id) {
+                tocLinks.forEach(function(a) {
+                    const active = a.getAttribute('href') === '#' + id;
+                    a.classList.toggle('toc-active', active);
+                    if (active) a.setAttribute('aria-current', 'true');
+                    else a.removeAttribute('aria-current');
+                });
+            }
+            const io = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) setActive(entry.target.id);
+                });
+            }, { rootMargin: '-10% 0px -75% 0px', threshold: 0 });
+            sectionEls.forEach(function(el) { io.observe(el); });
+        })();
+
+        // Show content when ready (global for i18n:ready event)
+        window.showContent = function() {
+            const loader = document.getElementById('pageLoader');
+            if (loader) loader.classList.add('hidden');
+            document.body.classList.add('content-ready');
+        };
+
+        // Initialize i18n
+        if (typeof loadLanguage === 'function') {
+            loadLanguage('es');
+        }
+
+        // Collapsible TOC
+        (function() {
+            const toc = document.getElementById('guideToc');
+            const toggle = document.getElementById('tocToggle');
+            const list = document.getElementById('guideTocItems');
+            if (!toggle || !list) return;
+            function updateToggle() {
+                const collapsed = list.classList.contains('collapsed');
+                toggle.setAttribute('aria-expanded', String(!collapsed));
+                toggle.classList.toggle('is-collapsed', collapsed);
+            }
+            toggle.addEventListener('click', function() {
+                list.classList.toggle('collapsed');
+                updateToggle();
+            });
+            function onResize() {
+                if (window.innerWidth > 900) {
+                    list.classList.remove('collapsed');
+                    updateToggle();
+                }
+            }
+            window.addEventListener('resize', onResize);
+            onResize();
+        })();
+
+        // Image Lightbox
+        (function() {
+            const lb = document.getElementById('guideLightbox');
+            const img = document.getElementById('lightboxImg');
+            const close = document.getElementById('lightboxClose');
+            if (!lb || !img || !close) return;
+            function open(src, alt) {
+                img.src = src; img.alt = alt || '';
+                lb.hidden = false;
+                document.body.style.overflow = 'hidden';
+                close.focus();
+            }
+            function closeLb() {
+                lb.hidden = true;
+                img.src = ''; img.alt = '';
+                document.body.style.overflow = '';
+            }
+            document.querySelectorAll('.guide-content img').forEach(function(el) {
+                el.style.cursor = 'zoom-in';
+                el.addEventListener('click', function() { open(el.src, el.alt); });
+            });
+            close.addEventListener('click', closeLb);
+            lb.addEventListener('click', function(e) { if (e.target === lb) closeLb(); });
+            document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Apply immediately on DOMContentLoaded — no flash, no delay
+            showContent();
+            applyPageText();
+
+            document.addEventListener('i18n:ready', showContent);
+            document.addEventListener('i18n:ready', applyPageText);
+        }); // end DOMContentLoaded
+    </script>
+
+    <!-- Dropdown System -->
+    <script src="../../system/js/dropdowns.js" defer></script>
+
+    <script>
+        function initGuideFaq() {
+            document.querySelectorAll('.faq-item').forEach((item, idx) => {
+                const btn = item.querySelector('.faq-question');
+                const ans = item.querySelector('.faq-answer');
+                if (!btn || !ans) return;
+
+                btn.setAttribute('aria-expanded', 'false');
+                ans.setAttribute('id', ans.id || `faq-answer-${idx}`);
+                btn.setAttribute('aria-controls', ans.id);
+                ans.setAttribute('role', 'region');
+                ans.setAttribute('aria-labelledby', btn.id || `faq-question-${idx}`);
+                if (!btn.id) btn.id = `faq-question-${idx}`;
+                ans.hidden = true;
+
+                const toggle = (e) => {
+                    e.preventDefault();
+                    const expanded = btn.getAttribute('aria-expanded') === 'true';
+                    btn.setAttribute('aria-expanded', String(!expanded));
+                    ans.hidden = expanded;
+                };
+
+                // Remove previous listeners to avoid duplicates after re-init
+                const newBtn = btn.cloneNode(true);
+                btn.parentNode.replaceChild(newBtn, btn);
+                newBtn.addEventListener('click', toggle);
+                newBtn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggle(e);
+                    }
+                });
+            });
+        }
+        document.addEventListener('DOMContentLoaded', initGuideFaq);
+    </script>
+
+    <!-- Image Lightbox -->
+    <div class="guide-lightbox" id="guideLightbox" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button class="guide-lightbox__close" id="lightboxClose" type="button" aria-label="Cerrar">✕</button>
+        <img class="guide-lightbox__img" id="lightboxImg" src="" alt="">
+    </div>
+</body>
+</html>

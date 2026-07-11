@@ -1,0 +1,517 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/registry/country-registry.json",
+  "title": "Country Registry",
+  "description": "Central registry for all countries in carspecio platform with pricing and tax data",
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-16",
+  "countries": [
+    {
+      "id": "es",
+      "name": "España",
+      "nameEn": "Spain",
+      "flag": "🇪🇸",
+      "currency": "EUR",
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "taxRate": 0.21,
+      "registrationTax": 0.14,
+      "roadTax": 520,
+      "inspection": 150,
+      "insuranceBase": 1200,
+      "maintenanceBase": 2000,
+      "tyresBase": 1500,
+      "oilChangeBase": 320,
+      "regions": [
+        {
+          "id": "madrid",
+          "name": "Madrid",
+          "taxMultiplier": 1.0,
+          "registrationFee": 380,
+          "nameAr": "مدريد"
+        },
+        {
+          "id": "catalonia",
+          "name": "Cataluña",
+          "taxMultiplier": 1.0,
+          "registrationFee": 420,
+          "nameAr": "كاتالونيا"
+        },
+        {
+          "id": "basque",
+          "name": "País Vasco",
+          "taxMultiplier": 1.0,
+          "registrationFee": 350,
+          "nameAr": "إقليم الباسك"
+        },
+        {
+          "id": "andalusia",
+          "name": "Andalucía",
+          "taxMultiplier": 1.0,
+          "registrationFee": 400,
+          "nameAr": "أندلوسيا"
+        },
+        {
+          "id": "valencia",
+          "name": "Comunidad Valenciana",
+          "taxMultiplier": 1.0,
+          "registrationFee": 360,
+          "nameAr": "منطقة بلنسية"
+        }
+      ],
+      "nameAr": "إسبانيا"
+    },
+    {
+      "id": "de",
+      "name": "Deutschland",
+      "nameEn": "Germany",
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "taxRate": 0.19,
+      "registrationTax": 0.11,
+      "roadTax": 520,
+      "inspection": 150,
+      "insuranceBase": 2200,
+      "maintenanceBase": 2900,
+      "tyresBase": 1500,
+      "oilChangeBase": 320,
+      "regions": [
+        {
+          "id": "bavaria",
+          "name": "Bayern",
+          "taxMultiplier": 1.0,
+          "registrationFee": 380,
+          "nameAr": "بافاريا"
+        },
+        {
+          "id": "nrw",
+          "name": "Nordrhein-Westfalen",
+          "taxMultiplier": 1.0,
+          "registrationFee": 420,
+          "nameAr": "شمال الراين-وستفاليا"
+        },
+        {
+          "id": "berlin",
+          "name": "Berlin",
+          "taxMultiplier": 1.0,
+          "registrationFee": 350,
+          "nameAr": "برلين"
+        },
+        {
+          "id": "baden-wurttemberg",
+          "name": "Baden-Württemberg",
+          "taxMultiplier": 1.0,
+          "registrationFee": 400,
+          "nameAr": "بادن-فورتمبيرغ"
+        },
+        {
+          "id": "hamburg",
+          "name": "Hamburg",
+          "taxMultiplier": 1.0,
+          "registrationFee": 360,
+          "nameAr": "هامبورغ"
+        }
+      ],
+      "nameAr": "ألمانيا"
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "taxRate": 0.2,
+      "registrationTax": 0.2,
+      "roadTax": 0,
+      "inspection": 90,
+      "insuranceBase": 2400,
+      "maintenanceBase": 3100,
+      "tyresBase": 1550,
+      "oilChangeBase": 340,
+      "regions": [
+        {
+          "id": "ile-de-france",
+          "name": "Île-de-France",
+          "taxMultiplier": 1.0,
+          "registrationFee": 350,
+          "nameAr": "إيل دو فرانس"
+        },
+        {
+          "id": "provence",
+          "name": "Provence-Alpes-Côte d'Azur",
+          "taxMultiplier": 1.0,
+          "registrationFee": 320,
+          "nameAr": "بروفانس-ألب-كوت دازور"
+        },
+        {
+          "id": "auvergne",
+          "name": "Auvergne-Rhône-Alpes",
+          "taxMultiplier": 1.0,
+          "registrationFee": 310,
+          "nameAr": "أوفرن-رون-ألب"
+        },
+        {
+          "id": "nouvelle-aquitaine",
+          "name": "Nouvelle-Aquitaine",
+          "taxMultiplier": 1.0,
+          "registrationFee": 300,
+          "nameAr": "نيوفيل-أكيتين"
+        },
+        {
+          "id": "occitanie",
+          "name": "Occitanie",
+          "taxMultiplier": 1.0,
+          "registrationFee": 290,
+          "nameAr": "أوكسيتانيا"
+        }
+      ],
+      "nameAr": "فرنسا"
+    },
+    {
+      "id": "it",
+      "name": "Italia",
+      "nameEn": "Italy",
+      "flag": "🇮🇹",
+      "currency": "EUR",
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "taxRate": 0.22,
+      "registrationTax": 0.16,
+      "roadTax": 450,
+      "inspection": 120,
+      "insuranceBase": 1800,
+      "maintenanceBase": 2500,
+      "tyresBase": 1400,
+      "oilChangeBase": 300,
+      "regions": [
+        {
+          "id": "lombardy",
+          "name": "Lombardia",
+          "taxMultiplier": 1.0,
+          "registrationFee": 350,
+          "nameAr": "لومبارديا"
+        },
+        {
+          "id": "lazio",
+          "name": "Lazio",
+          "taxMultiplier": 1.0,
+          "registrationFee": 320,
+          "nameAr": "لاتسيو"
+        },
+        {
+          "id": "piedmont",
+          "name": "Piemonte",
+          "taxMultiplier": 1.0,
+          "registrationFee": 310,
+          "nameAr": "بييمونتي"
+        },
+        {
+          "id": "veneto",
+          "name": "Veneto",
+          "taxMultiplier": 1.0,
+          "registrationFee": 300,
+          "nameAr": "فينيتو"
+        },
+        {
+          "id": "emilia-romagna",
+          "name": "Emilia-Romagna",
+          "taxMultiplier": 1.0,
+          "registrationFee": 290,
+          "nameAr": "إميليا-رومانيا"
+        }
+      ],
+      "nameAr": "إيطاليا"
+    },
+    {
+      "id": "gb",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "taxRate": 0.2,
+      "registrationTax": 0.2,
+      "roadTax": 165,
+      "inspection": 55,
+      "insuranceBase": 1500,
+      "maintenanceBase": 1800,
+      "tyresBase": 1200,
+      "oilChangeBase": 280,
+      "regions": [
+        {
+          "id": "england",
+          "name": "England",
+          "taxMultiplier": 1.0,
+          "registrationFee": 55,
+          "nameAr": "إنجلترا"
+        },
+        {
+          "id": "scotland",
+          "name": "Scotland",
+          "taxMultiplier": 1.0,
+          "registrationFee": 55,
+          "nameAr": "اسكتلندا"
+        },
+        {
+          "id": "wales",
+          "name": "Wales",
+          "taxMultiplier": 1.0,
+          "registrationFee": 55,
+          "nameAr": "ويلز"
+        },
+        {
+          "id": "northern-ireland",
+          "name": "Northern Ireland",
+          "taxMultiplier": 1.0,
+          "registrationFee": 55,
+          "nameAr": "أيرلندا الشمالية"
+        }
+      ],
+      "nameAr": "المملكة المتحدة"
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "locale": "en-US",
+      "fuelMetric": false,
+      "taxRate": 0.08,
+      "registrationTax": 0.05,
+      "roadTax": 0,
+      "inspection": 50,
+      "insuranceBase": 2000,
+      "maintenanceBase": 1500,
+      "tyresBase": 1000,
+      "oilChangeBase": 250,
+      "regions": [
+        {
+          "id": "california",
+          "name": "California",
+          "taxMultiplier": 1.25,
+          "registrationFee": 300,
+          "nameAr": "كاليفورنيا"
+        },
+        {
+          "id": "texas",
+          "name": "Texas",
+          "taxMultiplier": 0.95,
+          "registrationFee": 200,
+          "nameAr": "تكساس"
+        },
+        {
+          "id": "florida",
+          "name": "Florida",
+          "taxMultiplier": 0.9,
+          "registrationFee": 180,
+          "nameAr": "فلوريدا"
+        },
+        {
+          "id": "new-york",
+          "name": "New York",
+          "taxMultiplier": 1.2,
+          "registrationFee": 280,
+          "nameAr": "نيويورك"
+        },
+        {
+          "id": "illinois",
+          "name": "Illinois",
+          "taxMultiplier": 1.1,
+          "registrationFee": 220,
+          "nameAr": "إلينوي"
+        }
+      ],
+      "nameAr": "الولايات المتحدة"
+    },
+    {
+      "id": "ma",
+      "name": "المغرب",
+      "nameEn": "Morocco",
+      "flag": "🇲🇦",
+      "currency": "MAD",
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "taxRate": 0.2,
+      "registrationTax": 0.15,
+      "roadTax": 300,
+      "inspection": 100,
+      "insuranceBase": 800,
+      "maintenanceBase": 1200,
+      "tyresBase": 800,
+      "oilChangeBase": 200,
+      "regions": [
+        {
+          "id": "casablanca",
+          "name": "الدار البيضاء",
+          "taxMultiplier": 1.0,
+          "registrationFee": 200,
+          "nameAr": "الدار البيضاء"
+        },
+        {
+          "id": "rabat",
+          "name": "الرباط",
+          "taxMultiplier": 1.0,
+          "registrationFee": 180,
+          "nameAr": "الرباط"
+        },
+        {
+          "id": "marrakech",
+          "name": "مراكش",
+          "taxMultiplier": 1.0,
+          "registrationFee": 160,
+          "nameAr": "مراكش"
+        },
+        {
+          "id": "fes",
+          "name": "فاس",
+          "taxMultiplier": 1.0,
+          "registrationFee": 150,
+          "nameAr": "فاس"
+        },
+        {
+          "id": "tangier",
+          "name": "طنجة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 170,
+          "nameAr": "طنجة"
+        }
+      ],
+      "nameAr": "المغرب"
+    },
+    {
+      "id": "sa",
+      "name": "السعودية",
+      "nameEn": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "currency": "SAR",
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "taxRate": 0.15,
+      "registrationTax": 0.05,
+      "roadTax": 0,
+      "inspection": 100,
+      "insuranceBase": 1500,
+      "maintenanceBase": 2000,
+      "tyresBase": 1200,
+      "oilChangeBase": 300,
+      "regions": [
+        {
+          "id": "riyadh",
+          "name": "الرياض",
+          "taxMultiplier": 1.0,
+          "registrationFee": 200,
+          "nameAr": "الرياض"
+        },
+        {
+          "id": "jeddah",
+          "name": "جدة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 180,
+          "nameAr": "جدة"
+        },
+        {
+          "id": "dammam",
+          "name": "الدمام",
+          "taxMultiplier": 1.0,
+          "registrationFee": 160,
+          "nameAr": "الدمام"
+        },
+        {
+          "id": "mecca",
+          "name": "مكة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 170,
+          "nameAr": "مكة"
+        },
+        {
+          "id": "medina",
+          "name": "المدينة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 150,
+          "nameAr": "المدينة"
+        }
+      ],
+      "nameAr": "السعودية"
+    },
+    {
+      "id": "ae",
+      "name": "الإمارات",
+      "nameEn": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "currency": "AED",
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "taxRate": 0.05,
+      "registrationTax": 0.0,
+      "roadTax": 0,
+      "inspection": 100,
+      "insuranceBase": 2000,
+      "maintenanceBase": 2500,
+      "tyresBase": 1500,
+      "oilChangeBase": 350,
+      "regions": [
+        {
+          "id": "dubai",
+          "name": "دبي",
+          "taxMultiplier": 1.0,
+          "registrationFee": 300,
+          "nameAr": "دبي"
+        },
+        {
+          "id": "abu-dhabi",
+          "name": "أبو ظبي",
+          "taxMultiplier": 1.0,
+          "registrationFee": 280,
+          "nameAr": "أبو ظبي"
+        },
+        {
+          "id": "sharjah",
+          "name": "الشارقة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 250,
+          "nameAr": "الشارقة"
+        },
+        {
+          "id": "ajman",
+          "name": "عجمان",
+          "taxMultiplier": 1.0,
+          "registrationFee": 220,
+          "nameAr": "عجمان"
+        },
+        {
+          "id": "ras-al-khaimah",
+          "name": "رأس الخيمة",
+          "taxMultiplier": 1.0,
+          "registrationFee": 200,
+          "nameAr": "رأس الخيمة"
+        }
+      ],
+      "nameAr": "الإمارات"
+    }
+  ],
+  "metadata": {
+    "totalCountries": 9,
+    "currencies": [
+      "EUR",
+      "GBP",
+      "USD",
+      "MAD",
+      "SAR",
+      "AED"
+    ],
+    "locales": [
+      "es-ES",
+      "de-DE",
+      "fr-FR",
+      "it-IT",
+      "en-GB",
+      "en-US",
+      "ar-MA",
+      "ar-SA",
+      "ar-AE"
+    ]
+  }
+}

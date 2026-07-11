@@ -1,0 +1,3380 @@
+{
+  "id": "mercedes-amg-gt-2026",
+  "slug": "mercedes-amg-gt",
+  "brandId": "mercedes-benz",
+  "categoryId": "deportivos",
+  "modelYear": 2026,
+  "generation": "C192",
+  "bodyStyle": "coupe",
+  "doors": 2,
+  "seats": 4,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "phev",
+    "description": "V8 Twin-Turbo PHEV with 831 HP and AMG 4MATIC+ AWD",
+    "descriptionAr": "محرك 8 أسطوانات توربيني مزدوج هجين قابل للشحن بـ 831 حصان ودفع رباعي أي إم جي فورماتيك بلس"
+  },
+  "status": "active",
+  "launchDate": "2026-01-01",
+  "productionYears": {
+    "start": 2023,
+    "end": null
+  },
+  "basicInfo": {
+    "name": "AMG GT",
+    "fullModelName": "Mercedes-AMG GT 63 S E PERFORMANCE",
+    "badge": "MERCEDES-AMG",
+    "tagline": "El GT de lujo definitivo con motor V8 biturbo",
+    "description": "El Mercedes-AMG GT es el GT de lujo definitivo con su motor V8 biturbo y tecnología híbrida.",
+    "longDescription": "El Mercedes-AMG GT 63 S E Performance representa la cúspide del rendimiento de Mercedes-AMG en el segmento de GT de lujo. Con su motor V8 4.0L biturbo combinado con sistema híbrido, ofrece 831 HP de potencia total y una experiencia de conducción única que equilibra potencia brutal con lujo extremo.",
+    "highlights": [
+      "Sistema híbrido con 831 HP",
+      "Aceleración 0-100 km/h en 2.9 segundos",
+      "Tracción AMG 4MATIC+",
+      "Interior AMG Performance con materiales premium",
+      "Tecnología MBUX Hyperscreen"
+    ],
+    "taglineAr": "جي تي هجين فاخر بـ 831 حصان ودفع فورماتيك بلس",
+    "nameAr": "أي أم جي جي تي",
+    "fullModelNameAr": "مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس",
+    "badgeAr": "مرسيدس-أي أم جي"
+  },
+  "specs": {
+    "engine": {
+      "type": "V8 Twin-Turbo Hybrid",
+      "displacement": {
+        "value": 3982,
+        "unit": "cc"
+      },
+      "cylinders": 8,
+      "configuration": "V",
+      "aspiration": "Twin-Turbo",
+      "fuelType": "petrol",
+      "fuelOctane": "98",
+      "compressionRatio": 9.5,
+      "bore": 83,
+      "stroke": 92,
+      "blockMaterial": "Aluminum",
+      "headMaterial": "Aluminum",
+      "oilCapacity": {
+        "value": 8,
+        "unit": "L"
+      },
+      "cooling": "Liquid",
+      "typeAr": "8 أسطوانات توين تيربو هجين",
+      "fuelTypeAr": "بنزين"
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 9,
+      "brand": "AMG SPEEDSHIFT",
+      "model": "9G-TRONIC",
+      "driveMode": "AWD",
+      "typeAr": "أوتوماتيك"
+    },
+    "suspension": {
+      "front": "Double Wishbone",
+      "rear": "Multi-link",
+      "adaptive": true,
+      "airSuspension": true,
+      "adjustableDampers": true
+    },
+    "brakes": {
+      "front": {
+        "type": "Ventilated Disc",
+        "diameter": 420,
+        "material": "Ceramic"
+      },
+      "rear": {
+        "type": "Ventilated Disc",
+        "diameter": 390,
+        "material": "Ceramic"
+      },
+      "abs": true,
+      "ebd": true,
+      "eba": true,
+      "parkingBrake": "Electric"
+    },
+    "steering": {
+      "type": "Electric Power",
+      "turningRadius": 11.8,
+      "adjustable": true
+    },
+    "wheels": {
+      "front": {
+        "size": "21x9.5J",
+        "tire": "275/35R21"
+      },
+      "rear": {
+        "size": "21x10.5J",
+        "tire": "305/30R21"
+      },
+      "spare": false
+    },
+    "fuelSystem": {
+      "type": "Direct Injection",
+      "fuelTank": {
+        "value": 65,
+        "unit": "L"
+      }
+    },
+    "drivetrain": {
+      "typeAr": "دفع رباعي (فورماتيك بلس)"
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 831,
+      "unit": "HP",
+      "rpm": 5500
+    },
+    "torque": {
+      "value": 1400,
+      "unit": "Nm",
+      "rpm": 2000
+    },
+    "acceleration": {
+      "0-100": 2.9,
+      "0-200": 10.5,
+      "unit": "s"
+    },
+    "topSpeed": {
+      "value": 315,
+      "unit": "km/h",
+      "limited": true
+    },
+    "powerToWeight": {
+      "value": 415,
+      "unit": "HP/ton"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 4725,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1985,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1360,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2630,
+      "unit": "mm"
+    },
+    "weight": {
+      "curb": 2000,
+      "gross": 2450,
+      "unit": "kg"
+    },
+    "cargo": {
+      "value": 382,
+      "unit": "L"
+    },
+    "groundClearance": {
+      "value": 115,
+      "unit": "mm"
+    },
+    "fuelTank": {
+      "value": 80,
+      "unit": "L"
+    }
+  },
+  "fuelEconomy": {
+    "petrol": {
+      "city": {
+        "value": 14.5,
+        "unit": "L/100km"
+      },
+      "highway": {
+        "value": 9.5,
+        "unit": "L/100km"
+      },
+      "combined": {
+        "value": 11.5,
+        "unit": "L/100km"
+      },
+      "co2": {
+        "value": 265,
+        "unit": "g/km"
+      }
+    },
+    "drivingStyles": {
+      "calm": {
+        "value": 10,
+        "unit": "L/100km"
+      },
+      "sport": {
+        "value": 18,
+        "unit": "L/100km"
+      }
+    },
+    "range": {
+      "city": {
+        "value": 552,
+        "unit": "km"
+      },
+      "highway": {
+        "value": 842,
+        "unit": "km"
+      }
+    },
+    "electric": {
+      "range": {
+        "value": 12,
+        "unit": "km"
+      },
+      "charging": {
+        "ac": {
+          "power": 3.7,
+          "unit": "kW"
+        },
+        "dc": {
+          "power": 22,
+          "unit": "kW"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "base": {
+      "value": 180000,
+      "currency": "EUR"
+    },
+    "current": {
+      "value": 195000,
+      "currency": "EUR"
+    },
+    "tax": {
+      "value": 35000,
+      "currency": "EUR"
+    },
+    "insurance": {
+      "annual": 2700,
+      "currency": "EUR"
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "panamericana-grille",
+        "name": {
+          "es": "Parrilla AMG Panamericana",
+          "en": "AMG Panamericana grille",
+          "fr": "Grille AMG Panamericana",
+          "ar": "شبكة AMG Panamericana"
+        },
+        "description": "Parilla vertical cromada con estrella central y logo AMG.",
+        "standard": true,
+        "category": "front"
+      },
+      {
+        "id": "digital-light",
+        "name": {
+          "es": "Digital Light",
+          "en": "Digital Light",
+          "fr": "Digital Light",
+          "ar": "Digital Light"
+        },
+        "description": "Faros LED con proyección de alta definición y función automática de largas.",
+        "standard": true,
+        "category": "lighting"
+      },
+      {
+        "id": "quad-exhaust",
+        "name": {
+          "es": "Escape cuádruple",
+          "en": "Quad exhaust",
+          "fr": "Échappement quadruple",
+          "ar": "عادم رباعي"
+        },
+        "description": "Cuatro salidas de escape cromadas o negras con válvulas activas.",
+        "standard": true,
+        "category": "rear"
+      },
+      {
+        "id": "21-wheels",
+        "name": {
+          "es": "Llantas de 21 pulgadas",
+          "en": "21-inch alloy wheels",
+          "fr": "Jantes de 21 pouces",
+          "ar": "إطارات 21 إنش"
+        },
+        "description": "Llantas de aleación forjada de 21 pulgadas con neumáticos performance.",
+        "standard": true,
+        "category": "wheels"
+      }
+    ],
+    "interior": [
+      {
+        "id": "hyperscreen",
+        "name": {
+          "es": "MBUX Hyperscreen",
+          "en": "MBUX Hyperscreen",
+          "fr": "MBUX Hyperscreen",
+          "ar": "MBUX Hyperscreen"
+        },
+        "description": "Pantalla de 56 pulgadas con tres displays bajo cristal curvo.",
+        "standard": true,
+        "category": "infotainment"
+      },
+      {
+        "id": "amg-seats",
+        "name": {
+          "es": "Asientos AMG Performance",
+          "en": "AMG Performance seats",
+          "fr": "Sièges AMG Performance",
+          "ar": "مقاعد AMG Performance"
+        },
+        "description": "Asientos envolventes con ajuste eléctrico, calefacción y ventilación.",
+        "standard": true,
+        "category": "seats"
+      },
+      {
+        "id": "burmester",
+        "name": {
+          "es": "Burmester 3D",
+          "en": "Burmester 3D audio",
+          "fr": "Burmester 3D",
+          "ar": "Burmester 3D"
+        },
+        "description": "Sistema de 15 altavoces y 710 W con sonido envolvente.",
+        "standard": true,
+        "category": "audio"
+      },
+      {
+        "id": "ambient-light",
+        "name": {
+          "es": "Iluminación ambiental 64 colores",
+          "en": "64-color ambient lighting",
+          "fr": "Éclairage ambiant 64 couleurs",
+          "ar": "إضاءة محيطية 64 لون"
+        },
+        "description": "Iluminación ambiental configurable en 64 colores.",
+        "standard": true,
+        "category": "lighting"
+      }
+    ],
+    "safety": [
+      {
+        "es": "Paquete de asistencia a la conducción",
+        "en": "Driving Assistance Package",
+        "fr": "Pack d'assistance à la conduite",
+        "ar": "حزمة مساعدة القيادة"
+      },
+      {
+        "es": "Asistente de aparcamiento",
+        "en": "Parking Assist",
+        "fr": "Assistant de stationnement",
+        "ar": "مساعد الركن"
+      },
+      {
+        "es": "Asistente de frenada activo",
+        "en": "Active Brake Assist",
+        "fr": "Assistant de freinage actif",
+        "ar": "مساعد الفرامل النشط"
+      },
+      {
+        "es": "Asistente de punto muerto",
+        "en": "Blind Spot Assist",
+        "fr": "Assistant d'angle mort",
+        "ar": "مساعد النقطة العمياء"
+      },
+      {
+        "es": "PRE-SAFE®",
+        "en": "PRE-SAFE®",
+        "fr": "PRE-SAFE®",
+        "ar": "PRE-SAFE®"
+      },
+      {
+        "es": "Cámara 360°",
+        "en": "360-degree camera",
+        "fr": "Caméra 360°",
+        "ar": "كاميرا 360 درجة"
+      }
+    ],
+    "technology": [
+      {
+        "id": "mbux",
+        "name": {
+          "es": "MBUX infotainment",
+          "en": "MBUX infotainment",
+          "fr": "MBUX infotainment",
+          "ar": "نظام MBUX"
+        },
+        "description": "Sistema con navegación aumentada, control por voz y gestos.",
+        "standard": true,
+        "category": "infotainment"
+      },
+      {
+        "id": "apple-carplay",
+        "name": {
+          "es": "CarPlay/Android Auto inalámbrico",
+          "en": "Wireless CarPlay/Android Auto",
+          "fr": "CarPlay/Android Auto sans fil",
+          "ar": "CarPlay/Android Auto لاسلكي"
+        },
+        "description": "Conectividad inalámbrica para smartphones.",
+        "standard": true,
+        "category": "connectivity"
+      },
+      {
+        "id": "ota",
+        "name": {
+          "es": "Actualizaciones Over-the-air",
+          "en": "Over-the-air updates",
+          "fr": "Mises à jour Over-the-air",
+          "ar": "تحديثات Over-the-air"
+        },
+        "description": "Actualizaciones de software remotas para MBUX y sistemas de asistencia.",
+        "standard": true,
+        "category": "connectivity"
+      }
+    ],
+    "comfort": [
+      {
+        "id": "climate-3zone",
+        "name": {
+          "es": "Climatización de 3 zonas",
+          "en": "3-zone climate control",
+          "fr": "Climatisation 3 zones",
+          "ar": "مكيف 3 مناطق"
+        },
+        "description": "Climatización automática independiente para conductor, copiloto y plazas traseras.",
+        "standard": true,
+        "category": "climate"
+      },
+      {
+        "id": "wireless-charging",
+        "name": {
+          "es": "Carga inalámbrica",
+          "en": "Wireless charging",
+          "fr": "Charge sans fil",
+          "ar": "شحن لاسلكي"
+        },
+        "description": "Base de carga inalámbrica para smartphones en la consola central.",
+        "standard": true,
+        "category": "connectivity"
+      },
+      {
+        "id": "keyless-go",
+        "name": {
+          "es": "KEYLESS-GO",
+          "en": "KEYLESS-GO",
+          "fr": "KEYLESS-GO",
+          "ar": "KEYLESS-GO"
+        },
+        "description": "Apertura y arranque sin llave con detección de proximidad.",
+        "standard": true,
+        "category": "convenience"
+      }
+    ],
+    "performance": [
+      {
+        "id": "ride-control",
+        "name": {
+          "es": "AMG RIDE CONTROL+",
+          "en": "AMG RIDE CONTROL+",
+          "fr": "AMG RIDE CONTROL+",
+          "ar": "AMG RIDE CONTROL+"
+        },
+        "description": "Suspensión activa con amortiguadores adaptables y control de balanceo.",
+        "standard": true,
+        "category": "suspension"
+      },
+      {
+        "id": "4matic-plus",
+        "name": {
+          "es": "AMG 4MATIC+",
+          "en": "AMG 4MATIC+",
+          "fr": "AMG 4MATIC+",
+          "ar": "AMG 4MATIC+"
+        },
+        "description": "Tracción integral totalmente variable con modo drift trasero.",
+        "standard": true,
+        "category": "drivetrain"
+      },
+      {
+        "id": "ceramic-brakes",
+        "name": {
+          "es": "Frenos cerámicos",
+          "en": "Ceramic brakes",
+          "fr": "Freins céramique",
+          "ar": "فرامل سيراميك"
+        },
+        "description": "Frenos de alto rendimiento opcionales para track days.",
+        "standard": false,
+        "category": "brakes"
+      }
+    ]
+  },
+  "safety": {
+    "rating": {
+      "euroNCAP": 5,
+      "nhtsa": 5
+    },
+    "airbags": 8,
+    "features": [
+      "ABS with EBD",
+      "ESP®",
+      "ASR",
+      "Hill Start Assist",
+      "Tyre Pressure Monitoring",
+      "ISOFIX points"
+    ],
+    "es": {
+      "ratings": {
+        "euroNCAP": {
+          "overall": 5,
+          "adultOccupant": 5,
+          "childOccupant": 4,
+          "pedestrian": 4,
+          "safetyAssist": 5,
+          "year": 2024
+        }
+      },
+      "airbags": [
+        "Frontales delanteros",
+        "Laterales delanteros",
+        "Cortina delantera y trasera",
+        "Rodilla del conductor"
+      ],
+      "driverAssist": [
+        "Active Brake Assist",
+        "Blind Spot Assist",
+        "Lane Keeping Assist",
+        "Distronic Plus",
+        "PRE-SAFE",
+        "360° camera"
+      ],
+      "structural": "Carrocería de aluminio y acero de alta resistencia con zonas de deformación programada y refuerzo de pilar central."
+    },
+    "en": {
+      "ratings": {
+        "euroNCAP": {
+          "overall": 5,
+          "adultOccupant": 5,
+          "childOccupant": 4,
+          "pedestrian": 4,
+          "safetyAssist": 5,
+          "year": 2024
+        }
+      },
+      "airbags": [
+        "Front front",
+        "Front side",
+        "Front and rear curtain",
+        "Driver knee"
+      ],
+      "driverAssist": [
+        "Active Brake Assist",
+        "Blind Spot Assist",
+        "Lane Keeping Assist",
+        "Distronic Plus",
+        "PRE-SAFE",
+        "360° camera"
+      ],
+      "structural": "Aluminum and high-strength steel body with programmed deformation zones and reinforced center pillar."
+    },
+    "fr": {
+      "ratings": {
+        "euroNCAP": {
+          "overall": 5,
+          "adultOccupant": 5,
+          "childOccupant": 4,
+          "pedestrian": 4,
+          "safetyAssist": 5,
+          "year": 2024
+        }
+      },
+      "airbags": [
+        "Frontaux avant",
+        "Latéraux avant",
+        "Rideaux avant et arrière",
+        "Genou conducteur"
+      ],
+      "driverAssist": [
+        "Active Brake Assist",
+        "Blind Spot Assist",
+        "Lane Keeping Assist",
+        "Distronic Plus",
+        "PRE-SAFE",
+        "Caméra 360°"
+      ],
+      "structural": "Carrosserie en aluminium et acier à haute résistance avec zones de déformation programmées et renfort du montant central."
+    },
+    "ar": {
+      "ratings": {
+        "euroNCAP": {
+          "overall": 5,
+          "adultOccupant": 5,
+          "childOccupant": 4,
+          "pedestrian": 4,
+          "safetyAssist": 5,
+          "year": 2024
+        }
+      },
+      "airbags": [
+        "أمامية أمامية",
+        "جانبية أمامية",
+        "ستائر أمامية وخلفية",
+        "ركبة السائق"
+      ],
+      "driverAssist": [
+        "Active Brake Assist",
+        "Blind Spot Assist",
+        "Lane Keeping Assist",
+        "Distronic Plus",
+        "PRE-SAFE",
+        "كاميرا 360°"
+      ],
+      "structural": "هيكل من الألمنيوم والفولاذ عالي المقاومة مع مناطق تشوه مبرمجة وتعزيز العمود المركزي."
+    }
+  },
+  "versions": [
+    {
+      "id": "amg-gt-63-s",
+      "slug": "amggt63s",
+      "name": "AMG GT 63 S E PERFORMANCE",
+      "price": {
+        "value": 195000,
+        "currency": "EUR"
+      },
+      "features": [
+        "831 HP V8 hybrid",
+        "0-100 km/h in 2.9 s",
+        "AMG 4MATIC+",
+        "MBUX Hyperscreen",
+        "AMG Performance seats"
+      ],
+      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
+      "nameAr": "أي إم جي جي تي 63 إس إي أداء",
+      "featuresAr": [
+        "831 حصان محرك 8 أسطوانات hybrid",
+        "0-100 كم/h بوصة 2.9 إس",
+        "أي إم جي فورماتيك بلس",
+        "إم بي يو إكس هايبرسكرين",
+        "أداء أي إم جي seats"
+      ]
+    },
+    {
+      "id": "amg-gt-63",
+      "slug": "amggt63",
+      "name": "AMG GT 63",
+      "price": {
+        "value": 165000,
+        "currency": "EUR"
+      },
+      "features": [
+        "585 HP V8 biturbo",
+        "0-100 km/h in 3.8 s",
+        "AMG 4MATIC+",
+        "MBUX standard",
+        "AMG RIDE CONTROL+"
+      ],
+      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
+      "nameAr": "أي إم جي جي تي 63",
+      "featuresAr": [
+        "585 حصان محرك 8 أسطوانات توربيني مزدوج",
+        "0-100 كم/h بوصة 3.8 إس",
+        "أي إم جي فورماتيك بلس",
+        "إم بي يو إكس standard",
+        "نظام تحكم أي إم جي في التعليق بلس"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+    "gallery": [
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
+      "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.png"
+    ],
+    "colors": [
+      "Obsidian Black",
+      "designo Diamond White",
+      "Selenite Grey",
+      "AMG Green Hell Magno"
+    ],
+    "galleryCaptions": {
+      "es": [
+        "Vista frontal con parrilla Panamericana",
+        "Perfil lateral GT con techo acristallado",
+        "Interior con MBUX Hyperscreen",
+        "Detalle del alerón activo trasero"
+      ],
+      "en": [
+        "Front view with Panamericana grille",
+        "GT side profile with glass roof",
+        "Interior with MBUX Hyperscreen",
+        "Rear active spoiler detail"
+      ],
+      "fr": [
+        "Vue avant avec calandre Panamericana",
+        "Profil GT avec toit vitré",
+        "Intérieur avec MBUX Hyperscreen",
+        "Détail de l'aileron actif arrière"
+      ],
+      "ar": [
+        "المنظور الأمامي مع شبكة Panamericana",
+        "الجانب الجانبي لسيارة GT مع سقف زجاجي",
+        "المقصورة مع MBUX Hyperscreen",
+        "تفاصيل الجناح الخلفي النشط"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Mercedes-AMG GT 2026 - Review y Comparativa",
+    "description": "El Mercedes-AMG GT es el GT de lujo definitivo con su motor V8 biturbo y tecnología híbrida.",
+    "keywords": [
+      "mercedes",
+      "amg",
+      "gt",
+      "deportivo",
+      "v8",
+      "lujo",
+      "híbrido"
+    ],
+    "ogTitle": "Mercedes-AMG GT 2026 - El GT de lujo definitivo",
+    "ogDescription": "Descubre el Mercedes-AMG GT 2026: 831 HP híbridos, 0-100 en 2.9s, y lujo extremo.",
+    "ogImage": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png"
+  },
+  "content": {
+    "review": "El Mercedes-AMG GT es el GT de lujo definitivo...",
+    "pros": [
+      "Sonido V8 brutal",
+      "Interior muy premium",
+      "Prestaciones altas"
+    ],
+    "cons": [
+      "Muy pesada",
+      "Consumo alto",
+      "Precio elevado"
+    ],
+    "verdict": "El mejor GT de lujo del mercado",
+    "timeline": [
+      {
+        "km": 15000,
+        "title": "Mantenimiento anual",
+        "desc": "Cambio de aceite y filtros, revisión de sistema híbrido PHEV",
+        "cost": {
+          "value": 600,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة السنوية",
+        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين القابل للشحن"
+      },
+      {
+        "km": 30000,
+        "title": "Revisión intermedia",
+        "desc": "Filtros, frenos, refrigerante y batería de alto voltaje",
+        "cost": {
+          "value": 1400,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص الدوري المتوسط",
+        "descAr": "الفلاتر والفرامل وسوائل التبريد وبطارية الجهد العالي"
+      },
+      {
+        "km": 60000,
+        "title": "Gran servicio",
+        "desc": "Revisión del V8 biturbo, cambio de bujías, transmisión y diferencial",
+        "cost": {
+          "value": 3500,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة الكبرى",
+        "descAr": "فحص محرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، ناقل الحركة والدفرنسي"
+      },
+      {
+        "km": 100000,
+        "title": "Frenos y neumáticos",
+        "desc": "Cambio de discos/pastillas y juego de neumáticos performance",
+        "cost": {
+          "value": 5500,
+          "currency": "EUR"
+        },
+        "titleAr": "الفرامل والإطارات",
+        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية"
+      },
+      {
+        "km": 120000,
+        "title": "Revisión de híbrido",
+        "desc": "Inspección del sistema PHEV, motor eléctrico trasero y batería",
+        "cost": {
+          "value": 5000,
+          "currency": "EUR"
+        },
+        "titleAr": "فحص النظام الهجين",
+        "descAr": "فحص النظام الهجين القابل للشحن، المحرك الكهربائي الخلفي والبطارية"
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuántos caballos tiene el Mercedes-AMG GT 63 S E 2026?",
+        "answer": "El Mercedes-AMG GT 63 S E Performance 2026 entrega 831 HP y 1.032 lb-ft (1.400 Nm) de par con su sistema PHEV."
+      },
+      {
+        "question": "¿Cuánto acelera el AMG GT 63 S E de 0 a 100 km/h?",
+        "answer": "El AMG GT 63 S E Performance acelera de 0 a 100 km/h en aproximadamente 2.9 segundos."
+      },
+      {
+        "question": "¿Cuál es el precio del Mercedes-AMG GT 63 S E 2026?",
+        "answer": "El precio base en Estados Unidos supera los 200.000 USD. En Europa ronda los 195.000 € antes de opciones."
+      },
+      {
+        "question": "¿Es fiable el sistema híbrido del AMG GT 63 S E?",
+        "answer": "El sistema PHEV es complejo y los costes de reparación son elevados fuera de garantía. Recomendamos mantenimiento oficial AMG."
+      },
+      {
+        "question": "¿AMG GT 63 S E o BMW M5?",
+        "answer": "El AMG GT 63 S E es más extremo en potencia y sonido V8, mientras que el M5 es más equilibrado para uso diario."
+      },
+      {
+        "question": "¿Cuánto consume el AMG GT 63 S E?",
+        "answer": "En uso real mixto, el consumo ronda los 12-15 L/100 km. En modo eléctrico puede recorrer hasta 12 km sin gasolina."
+      },
+      {
+        "question": "¿Vale la pena comprar un AMG GT de segunda mano?",
+        "answer": "Sí, a partir de los 3-4 años la depreciación es significativa. Es clave revisar el historial de mantenimiento AMG y el estado del híbrido."
+      }
+    ],
+    "es": {
+      "pros": [
+        "Sonido V8 brutal",
+        "Interior muy premium",
+        "Prestaciones altas"
+      ],
+      "cons": [
+        "Muy pesada",
+        "Consumo alto",
+        "Precio elevado"
+      ]
+    },
+    "en": {
+      "pros": [
+        "Brutal V8 sound",
+        "Very premium interior",
+        "High performance"
+      ],
+      "cons": [
+        "Very heavy",
+        "High consumption",
+        "Elevated price"
+      ]
+    },
+    "fr": {
+      "pros": [
+        "Son V8 brutal",
+        "Intérieur très premium",
+        "Performances élevées"
+      ],
+      "cons": [
+        "Très lourde",
+        "Consommation élevée",
+        "Prix élevé"
+      ]
+    },
+    "ar": {
+      "pros": [
+        "صوت V8 وحشي",
+        "داخلية فاخرة جداً",
+        "أداء عالي"
+      ],
+      "cons": [
+        "ثقيلة جداً",
+        "استهلاك مرتفع",
+        "سعر مرتفع"
+      ]
+    }
+  },
+  "countryPricing": {
+    "us": {
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "flag": "🇺🇸",
+      "rivalAmg": 25650,
+      "maintenance": 1618,
+      "used3Range": "115,254 - 127,386 USD",
+      "fuelDefault": 350,
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          222720
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          217767
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          216938
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          221891
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          220214
+        ]
+      ],
+      "pricePerformance": 215000,
+      "inspection": 50,
+      "oilChange": 250,
+      "dep5": 90990,
+      "currency": "USD",
+      "priceNew": 202200,
+      "depAnnual": {
+        "used3": 26960,
+        "new": 40440,
+        "used5": 22242
+      },
+      "fuelMax": 500,
+      "options": [
+        4185,
+        999,
+        8370,
+        2092,
+        3105,
+        0,
+        5535,
+        1620
+      ],
+      "tyres": 1000,
+      "locale": "en-US",
+      "fuelMetric": false,
+      "insurance": 3640,
+      "fuelStep": 5,
+      "fuelMin": 250,
+      "dep3": 121320,
+      "priceCarbon": 230000,
+      "used5Range": "86,441 - 95,540 USD",
+      "name": "United States",
+      "rivalM5": 23625,
+      "roadTax": 101,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "flag": "🇮🇹",
+      "rivalAmg": 28120,
+      "maintenance": 2500,
+      "used3Range": "111,150 - 122,850 EUR",
+      "fuelDefault": 185,
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          238250
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          238220
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          238210
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          238200
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          238190
+        ]
+      ],
+      "pricePerformance": 210000,
+      "inspection": 120,
+      "oilChange": 300,
+      "dep5": 87750,
+      "currency": "EUR",
+      "priceNew": 195000,
+      "depAnnual": {
+        "used3": 26000,
+        "new": 39000,
+        "used5": 21450
+      },
+      "fuelMax": 230,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1400,
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "insurance": 3510,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 117000,
+      "priceCarbon": 225000,
+      "used5Range": "83,363 - 92,138 EUR",
+      "name": "Italia",
+      "rivalM5": 25900,
+      "roadTax": 450,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "fiscalHead": [
+        "RegiÃ³n",
+        "Impuesto matriculaciÃ³n",
+        "ITV",
+        "Precio final"
+      ],
+      "flag": "🇪🇸",
+      "rivalAmg": 28120,
+      "maintenance": 2000,
+      "used3Range": "108,300 - 119,700 EUR",
+      "fuelDefault": 165,
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          230280
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          230320
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          230250
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          230300
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          230260
+        ]
+      ],
+      "pricePerformance": 205000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 85500,
+      "currency": "EUR",
+      "priceNew": 190000,
+      "depAnnual": {
+        "used3": 25333,
+        "new": 38000,
+        "used5": 20900
+      },
+      "fuelMax": 200,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "insurance": 3420,
+      "fuelStep": 5,
+      "fuelMin": 140,
+      "dep3": 114000,
+      "priceCarbon": 220000,
+      "used5Range": "81,225 - 89,775 EUR",
+      "name": "España",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "fiscalHead": [
+        "RÃ©gion",
+        "Malus COâ‚‚",
+        "Carte grise",
+        "Prix final"
+      ],
+      "flag": "🇫🇷",
+      "rivalAmg": 28120,
+      "maintenance": 3100,
+      "used3Range": "114,000 - 126,000 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          240350
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          240320
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          240310
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          240300
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          240290
+        ]
+      ],
+      "pricePerformance": 215000,
+      "inspection": 90,
+      "oilChange": 340,
+      "dep5": 90000,
+      "currency": "EUR",
+      "priceNew": 200000,
+      "depAnnual": {
+        "used3": 26667,
+        "new": 40000,
+        "used5": 22000
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1550,
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "insurance": 3600,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 120000,
+      "priceCarbon": 230000,
+      "used5Range": "85,500 - 94,500 EUR",
+      "name": "France",
+      "rivalM5": 25900,
+      "roadTax": 100,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇲🇦",
+      "rivalAmg": 304000,
+      "maintenance": 12267,
+      "used3Range": "874,000 - 966,000 MAD",
+      "fuelDefault": 1150,
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          1840200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          1840180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          1840160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          1840150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          1840170
+        ]
+      ],
+      "pricePerformance": 1650000,
+      "inspection": 100,
+      "oilChange": 200,
+      "dep5": 690000,
+      "currency": "MAD",
+      "priceNew": 1533333,
+      "depAnnual": {
+        "used3": 204444,
+        "new": 306667,
+        "used5": 168667
+      },
+      "fuelMax": 1400,
+      "options": [
+        49600,
+        11840,
+        99200,
+        24800,
+        36800,
+        0,
+        65600,
+        19200
+      ],
+      "tyres": 6900,
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "insurance": 27600,
+      "fuelStep": 10,
+      "fuelMin": 1000,
+      "dep3": 920000,
+      "priceCarbon": 1780000,
+      "used5Range": "655,500 - 724,500 MAD",
+      "name": "المغرب",
+      "rivalM5": 280000,
+      "roadTax": 767,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer/Jahr",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "flag": "🇩🇪",
+      "rivalAmg": 28120,
+      "maintenance": 2900,
+      "used3Range": "125,353 - 138,548 EUR",
+      "fuelDefault": 180,
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          262080
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          262120
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          262050
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          262100
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          262060
+        ]
+      ],
+      "pricePerformance": 235000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 98962,
+      "currency": "EUR",
+      "priceNew": 219916,
+      "depAnnual": {
+        "used3": 29322,
+        "new": 43983,
+        "used5": 24191
+      },
+      "fuelMax": 220,
+      "options": [
+        4588,
+        1095,
+        9176,
+        2294,
+        3404,
+        0,
+        6068,
+        1776
+      ],
+      "tyres": 1500,
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "insurance": 3958,
+      "fuelStep": 5,
+      "fuelMin": 150,
+      "dep3": 131950,
+      "priceCarbon": 250000,
+      "used5Range": "94,014 - 103,910 EUR",
+      "name": "Deutschland",
+      "rivalM5": 25900,
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇦🇪",
+      "rivalAmg": 108300,
+      "maintenance": 4343,
+      "used3Range": "309,428 - 342,000 AED",
+      "fuelDefault": 280,
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          570300
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          570280
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          570250
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          570220
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          570200
+        ]
+      ],
+      "pricePerformance": 580000,
+      "inspection": 100,
+      "oilChange": 350,
+      "dep5": 244286,
+      "currency": "AED",
+      "priceNew": 542857,
+      "depAnnual": {
+        "used3": 72381,
+        "new": 108571,
+        "used5": 59714
+      },
+      "fuelMax": 350,
+      "options": [
+        17670,
+        4218,
+        35340,
+        8835,
+        13110,
+        0,
+        23370,
+        6840
+      ],
+      "tyres": 2443,
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "insurance": 9771,
+      "fuelStep": 5,
+      "fuelMin": 200,
+      "dep3": 325714,
+      "priceCarbon": 620000,
+      "used5Range": "232,072 - 256,500 AED",
+      "name": "الإمارات",
+      "rivalM5": 99750,
+      "roadTax": 271,
+      "exchangeRateEUR": 3.97
+    },
+    "gb": {
+      "fiscalHead": [
+        "Region",
+        "Road Tax",
+        "MOT",
+        "Final Price"
+      ],
+      "flag": "🇬🇧",
+      "rivalAmg": 23750,
+      "maintenance": 1800,
+      "used3Range": "85,500 - 94,500 GBP",
+      "fuelDefault": 150,
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          180055
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          180055
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          180055
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          180055
+        ]
+      ],
+      "pricePerformance": 165000,
+      "inspection": 55,
+      "oilChange": 280,
+      "dep5": 67500,
+      "currency": "GBP",
+      "priceNew": 150000,
+      "depAnnual": {
+        "used3": 20000,
+        "new": 30000,
+        "used5": 16500
+      },
+      "fuelMax": 200,
+      "options": [
+        3875,
+        925,
+        7750,
+        1938,
+        2875,
+        0,
+        5125,
+        1500
+      ],
+      "tyres": 1200,
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "insurance": 2700,
+      "fuelStep": 5,
+      "fuelMin": 120,
+      "dep3": 90000,
+      "priceCarbon": 180000,
+      "used5Range": "64,125 - 70,875 GBP",
+      "name": "United Kingdom",
+      "rivalM5": 21875,
+      "roadTax": 165,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇸🇦",
+      "rivalAmg": 110200,
+      "maintenance": 4340,
+      "used3Range": "309,237 - 341,789 SAR",
+      "fuelDefault": 230,
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          624100
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          624080
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          624060
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          624070
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          624050
+        ]
+      ],
+      "pricePerformance": 580000,
+      "inspection": 100,
+      "oilChange": 300,
+      "dep5": 244135,
+      "currency": "SAR",
+      "priceNew": 542522,
+      "depAnnual": {
+        "used3": 72336,
+        "new": 108504,
+        "used5": 59677
+      },
+      "fuelMax": 300,
+      "options": [
+        17980,
+        4292,
+        35960,
+        8990,
+        13340,
+        0,
+        23780,
+        6960
+      ],
+      "tyres": 2441,
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "insurance": 9765,
+      "fuelStep": 5,
+      "fuelMin": 180,
+      "dep3": 325513,
+      "priceCarbon": 620000,
+      "used5Range": "231,928 - 256,342 SAR",
+      "name": "السعودية",
+      "rivalM5": 101500,
+      "roadTax": 271,
+      "exchangeRateEUR": 4
+    }
+  },
+  "options": [
+    {
+      "id": "carbon-ceramic-brakes",
+      "name": {
+        "es": "Frenos carbono-cerámicos",
+        "en": "Carbon-ceramic brakes",
+        "fr": "Freins carbone-céramique",
+        "ar": "فرامل كربون-سيراميك"
+      },
+      "description": {
+        "es": "Frenos de alto rendimiento para track days y conducción deportiva intensiva.",
+        "en": "High-performance brakes for track days and intensive sporty driving.",
+        "fr": "Freins haute performance pour les journées circuit et la conduite sportive intensive.",
+        "ar": "فرامل عالية الأداء لأيام الحلبة والقيادة الرياضية المكثفة."
+      },
+      "priceExtra": {
+        "value": 8000,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Frenos carbono-cerámicos",
+        "en": "Carbon-ceramic brakes",
+        "fr": "Freins carbone-céramique",
+        "ar": "فرامل كربون-سيراميك"
+      }
+    },
+    {
+      "id": "amg-night-package",
+      "name": {
+        "es": "AMG Night Package",
+        "en": "AMG Night Package",
+        "fr": "AMG Night Package",
+        "ar": "AMG Night Package"
+      },
+      "description": {
+        "es": "Elementos exteriores en negro brillante para un look más agresivo.",
+        "en": "Gloss black exterior elements for a more aggressive look.",
+        "fr": "Éléments extérieurs noir brillant pour un look plus agressif.",
+        "ar": "عناصر خارجية لامعة بالأسود لمظهر أكثر عدوانية."
+      },
+      "priceExtra": {
+        "value": 2500,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "AMG Night Package",
+        "en": "AMG Night Package",
+        "fr": "AMG Night Package",
+        "ar": "AMG Night Package"
+      }
+    },
+    {
+      "id": "burmester-3d",
+      "name": {
+        "es": "Burmester 3D High-End",
+        "en": "Burmester 3D High-End",
+        "fr": "Burmester 3D High-End",
+        "ar": "Burmester 3D High-End"
+      },
+      "description": {
+        "es": "Sistema de audio de 15 altavoces y 710 W con sonido envolvente.",
+        "en": "15-speaker 710 W surround sound audio system.",
+        "fr": "Système audio 15 haut-parleurs 710 W avec son surround.",
+        "ar": "نظام صوت 15 مكبر 710 واط بصوت محيط."
+      },
+      "priceExtra": {
+        "value": 1500,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Burmester 3D High-End",
+        "en": "Burmester 3D High-End",
+        "fr": "Burmester 3D High-End",
+        "ar": "Burmester 3D High-End"
+      }
+    },
+    {
+      "id": "massage-seats",
+      "name": {
+        "es": "Asientos multifunción con masaje",
+        "en": "Multicontour massage seats",
+        "fr": "Sièges multicontours massants",
+        "ar": "مقاعد متعددة الملامح مع تدليك"
+      },
+      "description": {
+        "es": "Asientos delanteros con ajuste dinámico, ventilación y masaje.",
+        "en": "Front seats with dynamic adjustment, ventilation and massage.",
+        "fr": "Sièges avant avec ajustement dynamique, ventilation et massage.",
+        "ar": "مقاعد أمامية مع تعديل ديناميكي وتهوية وتدليك."
+      },
+      "priceExtra": {
+        "value": 1800,
+        "currency": "EUR"
+      },
+      "nameAr": {
+        "es": "Asientos multifunción con masaje",
+        "en": "Multicontour massage seats",
+        "fr": "Sièges multicontours massants",
+        "ar": "مقاعد متعددة الملامح مع تدليك"
+      }
+    }
+  ],
+  "problems": {
+    "es": [
+      "Transmisión DCT: tirones en bajas velocidades",
+      "Turbo híbrido: complejidad y coste de reparación",
+      "Suspensión trasera: amortiguadores deportivos rígidos",
+      "Infotainment MBUX: fallos de conectividad",
+      "Frenos: vibraciones con uso en circuito"
+    ],
+    "en": [
+      "DCT transmission: jerks at low speeds",
+      "Hybrid turbo: complexity and repair cost",
+      "Rear suspension: stiff sports dampers",
+      "MBUX infotainment: connectivity issues",
+      "Brakes: vibrations with track use"
+    ],
+    "fr": [
+      "Boîte DCT : à-coups aux basses vitesses",
+      "Turbo hybride : complexité et coût de réparation",
+      "Suspension arrière : amortisseurs sportifs rigides",
+      "Infotainment MBUX : problèmes de connectivité",
+      "Freins : vibrations avec usage circuit"
+    ],
+    "ar": [
+      "ناقل الحركة ناقل حركة مزدوج القابض: ارتجاجات في السرعات المنخفضة",
+      "توربين هجين: تعقيد وتكلفة الإصلاح",
+      "التعليق الخلفي: ممتصات صدمات رياضية صلبة",
+      "نظام إم بي يو إكس للترفيه: مشاكل في الاتصال",
+      "الفرامل: اهتزازات مع الاستخدام في الحلبة"
+    ]
+  },
+  "rating": {
+    "overall": 9.2,
+    "performance": 9.8,
+    "comfort": 8.5,
+    "technology": 9.4,
+    "design": 9.5,
+    "value": 7.8,
+    "reliability": 8
+  },
+  "nextYear": 2027,
+  "comparisons": [
+    {
+      "carId": "bmw-m5-2026",
+      "category": "performance",
+      "similarity": 85,
+      "summary": {
+        "es": "El M5 es más equilibrado para uso diario; el AMG GT es más extremo en sonido y aceleración.",
+        "en": "The M5 is more balanced for daily use; the AMG GT is more extreme in sound and acceleration.",
+        "fr": "La M5 est plus équilibrée pour un usage quotidien; l'AMG GT est plus extrême en son et accélération.",
+        "ar": "M5 أكثر توازناً للاستخدام اليومي؛ AMG GT أكثر تطرفاً في الصوت والتسارع."
+      },
+      "nameAr": "بي إم دبليو أم 5",
+      "fullNameAr": "بي إم دبليو أم 5 هجينة كومبيتيشن"
+    },
+    {
+      "carId": "porsche-911-2026",
+      "category": "performance",
+      "similarity": 80,
+      "summary": {
+        "es": "El 911 es más ligero y ágil; el AMG GT gana en lujo, tecnología y potencia bruta.",
+        "en": "The 911 is lighter and more agile; the AMG GT wins on luxury, technology and brute power.",
+        "fr": "La 911 est plus légère et agile; l'AMG GT l'emporte sur le luxe, la technologie et la puissance brute.",
+        "ar": "911 أخف وأكثر رشاقة؛ AMG GT تتفوق في الفخامة والتقنية والقوة الخام."
+      },
+      "nameAr": "بورش 911",
+      "fullNameAr": "بورش 911 توربو أس"
+    }
+  ],
+  "ownership": {
+    "es": {
+      "dailyUsability": "GT de 4 plazas con tracción total y modos de conducción adaptativos. Cómodo para viajes largos pero con carácter deportivo.",
+      "reliability": "Mecánica robusta, pero la complejidad híbrida añade sensibilidad a batería e inversor. Recomendable garantía extendida.",
+      "longTrips": "Excelente para autopista: confort, potencia y autonomía. Maletero de 461 L.",
+      "cityDriving": "Manejable en ciudad a pesar del tamaño. El modo eléctrico permite desplazamientos cortos sin emisiones.",
+      "commonIssues": [
+        {
+          "issue": "Transmisión AMG SPEEDSHIFT",
+          "frequency": "Frecuente",
+          "cost": "2.000 – 5.000 €"
+        },
+        {
+          "issue": "Turbo híbrido PHEV",
+          "frequency": "Raro pero caro",
+          "cost": "+ 10.000 €"
+        },
+        {
+          "issue": "Frenos carbocerámicos",
+          "frequency": "Ciudad/circuito",
+          "cost": "4.000 – 6.000 €"
+        },
+        {
+          "issue": "Suspensión trasera",
+          "frequency": "60.000 km",
+          "cost": "1.500 – 3.000 €"
+        }
+      ],
+      "summary": "Experiencia de propiedad exclusiva, con red de concesionarios AMG y programas de mantenimiento contratado para reducir sorpresas.",
+      "warranty": "Garantía de 3 años o 100.000 km; batería de alto voltaje suele tener cobertura de 6-8 años.",
+      "servicing": "Mantenimiento cada 15.000 km o anual. Costes elevados en frenos, neumáticos y fluidos de alto rendimiento.",
+      "community": "Comunidad AMG muy activa, eventos de circuito y clubs oficiales en los principales mercados europeos."
+    },
+    "en": {
+      "dailyUsability": "4-seat GT with AWD and adaptive driving modes. Comfortable for long trips but with a sporty character.",
+      "reliability": "Robust mechanics, but hybrid complexity adds sensitivity to battery and inverter. Extended warranty recommended.",
+      "longTrips": "Excellent for highway: comfort, power and range. 461 L trunk.",
+      "cityDriving": "Manageable in city despite size. Electric mode allows short zero-emission trips.",
+      "commonIssues": [
+        {
+          "issue": "AMG SPEEDSHIFT transmission",
+          "frequency": "Common",
+          "cost": "€2,000 – €5,000"
+        },
+        {
+          "issue": "PHEV hybrid turbo",
+          "frequency": "Rare but expensive",
+          "cost": "€10,000+"
+        },
+        {
+          "issue": "Carbon ceramic brakes",
+          "frequency": "City/track",
+          "cost": "€4,000 – €6,000"
+        },
+        {
+          "issue": "Rear suspension",
+          "frequency": "60,000 km",
+          "cost": "€1,500 – €3,000"
+        }
+      ],
+      "summary": "Exclusive ownership experience, with AMG dealer network and maintenance plans to reduce surprises.",
+      "warranty": "3-year or 100,000 km warranty; high-voltage battery usually has 6-8 year coverage.",
+      "servicing": "Maintenance every 15,000 km or annually. High costs for brakes, tires and high-performance fluids.",
+      "community": "Very active AMG community, track events and official clubs in major European markets."
+    },
+    "fr": {
+      "summary": "Expérience de propriété exclusive, avec un réseau de concessionnaires AMG et des programmes d'entretien pour réduire les surprises.",
+      "reliability": "Mécanique robuste, mais la complexité hybride ajoute une sensibilité à la batterie et à l'onduleur. Garantie étendue recommandée.",
+      "warranty": "Garantie de 3 ans ou 100 000 km; la batterie haute tension a généralement une couverture de 6 à 8 ans.",
+      "servicing": "Entretien tous les 15 000 km ou annuellement. Coûts élevés pour freins, pneus et fluides haute performance.",
+      "community": "Communauté AMG très active, événements circuit et clubs officiels dans les principaux marchés européens.",
+      "dailyUsability": "GT 4 places avec transmission intégrale et modes de conduite adaptatifs. Confortable pour les longs trajets mais avec un caractère sportif.",
+      "longTrips": "Excellent pour autoroute : confort, puissance et autonomie. Coffre de 461 L.",
+      "cityDriving": "Maniœuvrable en ville malgré la taille. Le mode électrique permet des déplacements courts sans émissions."
+    },
+    "ar": {
+      "summary": "تجربة ملكية حصرية، مع شبكة وكلاء أي إم جي وبرامج صيانة لتقليل المفاجآت.",
+      "reliability": "ميكانيكا قوية، لكن التعقيد الهجين يضيف حساسية للبطارية والمحول. يُنصح بالضمان الممتد.",
+      "warranty": "ضمان 3 سنوات أو 100,000 كم؛ عادة ما تكون بطارية الجهد العالي مغطاة لمدة 6-8 سنوات.",
+      "servicing": "صيانة كل 15,000 كم أو سنوياً. تكاليف مرتفعة للفرامل والإطارات والسوائل عالية الأداء.",
+      "community": "مجتمع أي إم جي نشط للغاية، وفعاليات حلبات ونوادي رسمية في الأسواق الأوروبية الرئيسية.",
+      "dailyUsability": "جي تي 4 مقاعد بدفع رباعي وأوضاع قيادة تكيفية. مريحة للرحلات الطويلة لكن بطابع رياضي.",
+      "longTrips": "ممتازة للطرق السريعة: راحة وقوة ومدى. صندوق 461 لتر.",
+      "cityDriving": "قابلة للمناورة في المدينة رغم حجمها. الوضع الكهربائي يسمح بالتنقلات القصيرة دون انبعاثات."
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 20 (máximo)",
+        "uk": "Grupo 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Aproximadamente 800 €/año",
+        "uk": "£2.500 primer año",
+        "germany": "Según emisiones"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 3500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R21",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "305/30 R21",
+          "costPerTyre": {
+            "value": 500,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "11.5 L/100 km homologados; en uso real mixto espera 12-15 L/100 km. Recarga eléctrica corta reduce algo el consumo urbano.",
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      },
+      "summary": "Costes elevados propios de un GT híbrido de lujo: seguro, consumo y mantenimiento AMG son premium, pero la depreciación es contenida en los primeros años.",
+      "maintenance": "Servicio anual oficial AMG ronda los 1.200-1.800 €. Piezas de frenos y neumáticos de 21 pulgadas son caras.",
+      "insurance": "Prima alta por valor, potencia y coste de reparación; ronda 2.500-3.500 € anuales en España.",
+      "depreciation": "Depreciación media del 12-15 % anual; modelos con pocos kilómetros y bien mantenidos retienen valor."
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 20 (maximum)",
+        "uk": "Group 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Approximately €800/year",
+        "uk": "£2,500 first year",
+        "germany": "Based on emissions"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 3500,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R21",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "305/30 R21",
+          "costPerTyre": {
+            "value": 500,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": "11.5 L/100 km official; expect 12-15 L/100 km in real mixed use. Short electric charging reduces some urban consumption.",
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      },
+      "summary": "High costs typical of a luxury hybrid GT: insurance, fuel and AMG maintenance are premium, but depreciation is controlled in the first years.",
+      "maintenance": "Official AMG annual service is around 1,200-1,800 €. Brake parts and 21-inch tires are expensive.",
+      "insurance": "High premium due to value, power and repair cost; around 2,500-3,500 € per year in Spain.",
+      "depreciation": "Average depreciation of 12-15% per year; low-mileage well-maintained models retain value."
+    },
+    "fr": {
+      "summary": "Coûts élevés typiques d'un GT hybride de luxe : assurance, carburant et entretien AMG sont premium, mais la dépréciation est maîtrisée les premières années.",
+      "fuel": "11,5 L/100 km homologués; en usage réel mixte, prévoir 12-15 L/100 km. La recharge électrique courte réduit un peu la consommation urbaine.",
+      "maintenance": "L'entretien annuel officiel AMG est d'environ 1 200-1 800 €. Les pièces de frein et les pneus 21 pouces sont chers.",
+      "insurance": "Prime élevée en raison de la valeur, de la puissance et du coût de réparation; environ 2 500-3 500 € par an en Espagne.",
+      "depreciation": "Dépréciation moyenne de 12-15 % par an; les modèles peu kilométrés et bien entretenus conservent leur valeur."
+    },
+    "ar": {
+      "summary": "تكاليف مرتفعة نموذجية لسيارة جي تي هجينة فاخرة: التأمين والوقود والصيانة أي إم جي متميزة، لكن الاستهلاك تحت السيطرة في السنوات الأولى.",
+      "fuel": "11.5 لتر/100 كم رسمياً؛ في الاستخدام الحقيقي المختلط توقع 12-15 لتر/100 كم. الشحن الكهربائي القصير يقلل بعض الاستهلاك الحضري.",
+      "maintenance": "الصيانة السنوية الرسمية أي إم جي حوالي 1200-1800 يورو. قطع الفرامل وإطارات 21 بوصة باهظة.",
+      "insurance": "قسط مرتفع بسبب القيمة والقوة وتكلفة الإصلاح؛ حوالي 2500-3500 يورو سنوياً في إسبانيا.",
+      "depreciation": "استهلاك متوسط 12-15% سنوياً؛ النماذج منخفضة المسافة ومحافظة على الصيانة تحتفظ بقيمتها."
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "Puntuación calculada desde rendimiento, confort, tecnología, diseño y valor de reventa para el GT híbrido de Mercedes-AMG.",
+      "worthDesc": "El AMG GT 63 S E justifica su precio para quien busca un GT de lujo con aceleración de superdeportivo y tecnología híbrida.",
+      "reviewText": "El Mercedes-AMG GT 63 S E Performance es un GT híbrido que combina lujo, tecnología y una aceleración brutal gracias a su V8 biturbo y motor eléctrico trasero.",
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "timeline": [
+        {
+          "year": 2023,
+          "title": "Lanzamiento C192",
+          "desc": "Nueva generación del AMG GT con chasis más rígido y versión híbrida."
+        },
+        {
+          "year": 2025,
+          "title": "GT 63 S E Performance",
+          "desc": "Llega el PHEV de 831 HP con motor eléctrico en el eje trasero."
+        },
+        {
+          "year": 2026,
+          "title": "Actualización tecnológica",
+          "desc": "Mejoras en MBUX, conectividad 5G y asistentes de conducción."
+        }
+      ],
+      "faq": {
+        "q1": "¿Cuántos caballos tiene el Mercedes-AMG GT 63 S E 2026?",
+        "a1": "El Mercedes-AMG GT 63 S E Performance 2026 entrega 831 HP y 1.032 lb-ft (1.400 Nm) de par con su sistema PHEV.",
+        "q2": "¿Cuánto acelera el AMG GT 63 S E de 0 a 100 km/h?",
+        "a2": "El AMG GT 63 S E Performance acelera de 0 a 100 km/h en aproximadamente 2.9 segundos.",
+        "q3": "¿Cuál es el precio del Mercedes-AMG GT 63 S E 2026?",
+        "a3": "El precio base en Estados Unidos supera los 200.000 USD. En Europa ronda los 195.000 € antes de opciones.",
+        "q4": "¿Es fiable el sistema híbrido del AMG GT 63 S E?",
+        "a4": "El sistema PHEV es complejo y los costes de reparación son elevados fuera de garantía. Recomendamos mantenimiento oficial AMG.",
+        "q5": "¿AMG GT 63 S E o BMW M5?",
+        "a5": "El AMG GT 63 S E es más extremo en potencia y sonido V8, mientras que el M5 es más equilibrado para uso diario.",
+        "q6": "¿Cuánto consume el AMG GT 63 S E?",
+        "a6": "En uso real mixto, el consumo ronda los 12-15 L/100 km. En modo eléctrico puede recorrer hasta 12 km sin gasolina.",
+        "q7": "¿Vale la pena comprar un AMG GT de segunda mano?",
+        "a7": "Sí, a partir de los 3-4 años la depreciación es significativa. Es clave revisar el historial de mantenimiento AMG y el estado del híbrido."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autopista",
+          "desc": "Ideal para viajes largos: confort, potencia y conducción autónoma."
+        },
+        "city": {
+          "title": "Ciudad",
+          "desc": "Manejable en ciudad con modo eléctrico para desplazamientos cortos."
+        },
+        "family": {
+          "title": "Familiar",
+          "desc": "4 plazas y 461 L de maletero, uso familiar ocasional."
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "GT híbrido de 831 HP, una pieza exclusiva de AMG."
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "Rendimiento extremo con 4MATIC+ y frenos carbocerámicos."
+        },
+        "performance": 9.8,
+        "comfort": 9,
+        "technology": 9.5,
+        "design": 9.3,
+        "value": 7.8
+      },
+      "usedGuide": {
+        "card1Title": "Kilometraje y estado",
+        "card1Items": [
+          "Hasta 50.000 km: mejor relación valor",
+          "Revisar historial AMG oficial",
+          "Evitar unidades sin mantenimiento de batería"
+        ],
+        "card2Title": "Mecánica",
+        "card2Items": [
+          "Revisar sistema híbrido PHEV",
+          "Probar cambios SPEEDSHIFT",
+          "Comprobar estado de frenos y neumáticos"
+        ],
+        "card3Title": "Electrónica",
+        "card3Items": [
+          "Actualizaciones de software MBUX",
+          "Funcionamiento del híbrido",
+          "Pantallas y sistema Hyperscreen"
+        ],
+        "card4Title": "Precio y reventa",
+        "card4Items": [
+          "Mejor compra a los 3-4 años",
+          "Unidades con AMG Performance Package valoradas",
+          "Colores exclusivos: Green Hell Magno, Diamond White"
+        ]
+      },
+      "dep": {
+        "loss3": "~40% de pérdida a los 3 años",
+        "loss5": "~60% de pérdida a los 5 años"
+      },
+      "versions": {
+        "sportbackDesc": "AMG GT 63 S E PERFORMANCE con equilibrio entre rendimiento y lujo.",
+        "performanceDesc": "Mayor potencia y equipamiento AMG Carbon opcional.",
+        "carbonDesc": "Versión con paquetes carbono y exclusividad premium.",
+        "amggt63sDesc": "AMG GT 63 S E PERFORMANCE con 831 HP y tracción 4MATIC+."
+      },
+      "buyStatus": "buy",
+      "pros": [
+        "Aceleración de 0-100 km/h en 2.9 s",
+        "Interior lujoso con Hyperscreen",
+        "Sonido V8 AMG inconfundible",
+        "Tracción integral 4MATIC+"
+      ],
+      "cons": [
+        "Peso elevado para un GT",
+        "Precio de acceso muy alto",
+        "Plazas traseras reducidas",
+        "Consumo real alto fuera de ciudad"
+      ]
+    },
+    "en": {
+      "scoreDesc": "Score calculated from performance, comfort, technology, design and resale value for the Mercedes-AMG hybrid GT.",
+      "worthDesc": "The AMG GT 63 S E justifies its price for those seeking a luxury GT with supercar acceleration and hybrid technology.",
+      "reviewText": "The Mercedes-AMG GT 63 S E Performance is a hybrid GT that combines luxury, technology and brutal acceleration thanks to its twin-turbo V8 and rear electric motor.",
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "timeline": [
+        {
+          "year": 2023,
+          "title": "C192 launch",
+          "desc": "New AMG GT generation with a stiffer chassis and hybrid variant."
+        },
+        {
+          "year": 2025,
+          "title": "GT 63 S E Performance",
+          "desc": "The 831 hp PHEV arrives with an electric motor on the rear axle."
+        },
+        {
+          "year": 2026,
+          "title": "Technology update",
+          "desc": "Improvements in MBUX, 5G connectivity and driver assistance."
+        }
+      ],
+      "faq": {
+        "q1": "How many horsepower does the Mercedes-AMG GT 63 S E 2026 have?",
+        "a1": "The Mercedes-AMG GT 63 S E Performance 2026 delivers 831 HP and 1,032 lb-ft (1,400 Nm) of torque with its PHEV system.",
+        "q2": "How fast does the AMG GT 63 S E accelerate from 0 to 100 km/h?",
+        "a2": "The AMG GT 63 S E Performance accelerates from 0 to 100 km/h in approximately 2.9 seconds.",
+        "q3": "What is the price of the Mercedes-AMG GT 63 S E 2026?",
+        "a3": "The base price in the United States exceeds 200,000 USD. In Europe, it is around 195,000 € before options.",
+        "q4": "Is the hybrid system of the AMG GT 63 S E reliable?",
+        "a4": "The PHEV system is complex and repair costs are high outside of warranty. We recommend official AMG maintenance.",
+        "q5": "AMG GT 63 S E or BMW M5?",
+        "a5": "The AMG GT 63 S E is more extreme in power and V8 sound, while the M5 is more balanced for daily use.",
+        "q6": "How much does the AMG GT 63 S E consume?",
+        "a6": "In real mixed use, consumption is around 12-15 L/100 km. In electric mode it can travel up to 12 km without gasoline.",
+        "q7": "Is it worth buying a second-hand AMG GT?",
+        "a7": "Yes, from 3-4 years the depreciation is significant. It is key to check the AMG maintenance history and the state of the hybrid."
+      },
+      "profileData": {
+        "highway": {
+          "title": "Highway",
+          "desc": "Ideal for long trips: comfort, power and assisted driving."
+        },
+        "city": {
+          "title": "City",
+          "desc": "Manageable in the city with electric mode for short trips."
+        },
+        "family": {
+          "title": "Family",
+          "desc": "4 seats and 461 L trunk, occasional family use."
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "831 HP hybrid GT, an exclusive AMG piece."
+        },
+        "track": {
+          "title": "Track",
+          "desc": "Extreme performance with 4MATIC+ and carbon-ceramic brakes."
+        },
+        "performance": 9.8,
+        "comfort": 9,
+        "technology": 9.5,
+        "design": 9.3,
+        "value": 7.8
+      },
+      "usedGuide": {
+        "card1Title": "Mileage and condition",
+        "card1Items": [
+          "Up to 50,000 km: best value",
+          "Check official AMG history",
+          "Avoid units without battery maintenance"
+        ],
+        "card2Title": "Mechanics",
+        "card2Items": [
+          "Check PHEV hybrid system",
+          "Test SPEEDSHIFT shifts",
+          "Check brakes and tyres"
+        ],
+        "card3Title": "Electronics",
+        "card3Items": [
+          "MBUX software updates",
+          "Hybrid system operation",
+          "Screens and Hyperscreen system"
+        ],
+        "card4Title": "Price and resale",
+        "card4Items": [
+          "Best buy at 3-4 years",
+          "AMG Performance Package units valued",
+          "Exclusive colors: Green Hell Magno, Diamond White"
+        ]
+      },
+      "dep": {
+        "loss3": "~40% loss at 3 years",
+        "loss5": "~60% loss at 5 years"
+      },
+      "versions": {
+        "sportbackDesc": "AMG GT 63 S E PERFORMANCE balancing performance and luxury.",
+        "performanceDesc": "More power and optional AMG Carbon equipment.",
+        "carbonDesc": "Version with carbon packages and premium exclusivity.",
+        "amggt63sDesc": "AMG GT 63 S E PERFORMANCE with 831 HP and 4MATIC+ AWD."
+      },
+      "buyStatus": "buy",
+      "pros": [
+        "0-100 km/h in 2.9 s",
+        "Luxurious interior with Hyperscreen",
+        "Unmistakable AMG V8 sound",
+        "4MATIC+ all-wheel drive"
+      ],
+      "cons": [
+        "Heavy for a GT",
+        "Very high entry price",
+        "Rear seats are tight",
+        "Real-world consumption high outside city"
+      ]
+    },
+    "fr": {
+      "scoreDesc": "Score calculé à partir des performances, du confort, de la technologie, du design et de la valeur de revente pour le GT hybride Mercedes-AMG.",
+      "worthDesc": "L'AMG GT 63 S E justifie son prix pour ceux qui recherchent un GT de luxe avec une accélération de supercar et une technologie hybride.",
+      "buyStatus": "buy",
+      "reviewText": "La Mercedes-AMG GT 63 S E Performance est un GT hybride qui combine luxe, technologie et accélération brutale grâce à son V8 biturbo et son moteur électrique arrière.",
+      "pros": [
+        "0-100 km/h en 2,9 s",
+        "Intérieur luxueux avec Hyperscreen",
+        "Son V8 AMG inimitable",
+        "Transmission intégrale 4MATIC+"
+      ],
+      "cons": [
+        "Lourde pour un GT",
+        "Prix d'accès très élevé",
+        "Places arrière réduites",
+        "Consommation réelle élevée hors ville"
+      ],
+      "timeline": [
+        {
+          "year": 2023,
+          "title": "Lancement C192",
+          "desc": "Nouvelle génération de l'AMG GT avec un châssis plus rigide et une version hybride."
+        },
+        {
+          "year": 2025,
+          "title": "GT 63 S E Performance",
+          "desc": "Arrivée du PHEV de 831 ch avec un moteur électrique sur l'essieu arrière."
+        },
+        {
+          "year": 2026,
+          "title": "Mise à jour technologique",
+          "desc": "Améliorations de MBUX, connectivité 5G et aides à la conduite."
+        }
+      ],
+      "profileData": {
+        "performance": 9.8,
+        "comfort": 9,
+        "technology": 9.5,
+        "design": 9.3,
+        "value": 7.8,
+        "highway": {
+          "score": "94/100",
+          "title": "Roi de l'autoroute",
+          "desc": "Confort, puissance et assistance pour les longs trajets."
+        },
+        "city": {
+          "score": "72/100",
+          "title": "Ville avec électricité",
+          "desc": "Grande mais maniable, mode EV pour les courts trajets."
+        },
+        "family": {
+          "score": "78/100",
+          "title": "Famille",
+          "desc": "4 places et 461 L de coffre."
+        },
+        "collector": {
+          "score": "92/100",
+          "title": "AMG GT hybride",
+          "desc": "831 HP, exclusivité et technologie de pointe."
+        },
+        "track": {
+          "score": "97/100",
+          "title": "Circuit",
+          "desc": "4MATIC+ et 1 400 Nm pour les journées circuit."
+        }
+      },
+      "faq": {
+        "q1": "Combien de chevaux a la Mercedes-AMG GT 63 S E 2026 ?",
+        "a1": "La Mercedes-AMG GT 63 S E Performance 2026 développe 831 HP et 1 032 lb-ft (1 400 Nm) de couple avec son système PHEV.",
+        "q2": "Quelle est l'accélération de 0 à 100 km/h de l'AMG GT 63 S E ?",
+        "a2": "L'AMG GT 63 S E Performance accélère de 0 à 100 km/h en environ 2.9 secondes.",
+        "q3": "Quel est le prix de la Mercedes-AMG GT 63 S E 2026 ?",
+        "a3": "Le prix de base aux États-Unis dépasse 200 000 USD. En Europe, il est d'environ 195 000 € avant options.",
+        "q4": "Le système hybride de l'AMG GT 63 S E est-il fiable ?",
+        "a4": "Le système PHEV est complexe et les coûts de réparation sont élevés hors garantie. Nous recommandons l'entretien officiel AMG.",
+        "q5": "AMG GT 63 S E ou BMW M5 ?",
+        "a5": "L'AMG GT 63 S E est plus extrême en puissance et son V8, tandis que la M5 est plus équilibrée pour un usage quotidien.",
+        "q6": "Quelle est la consommation de l'AMG GT 63 S E ?",
+        "a6": "En usage réel mixte, la consommation est d'environ 12-15 L/100 km. En mode électrique, elle peut parcourir jusqu'à 12 km sans essence.",
+        "q7": "Vaut-il le coup d'acheter une AMG GT d'occasion ?",
+        "a7": "Oui, à partir de 3-4 ans la dépréciation est significative. Il est essentiel de vérifier l'historique d'entretien AMG et l'état de l'hybride."
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "usedGuide": {
+        "card1Title": "Kilométrage et état",
+        "card1Items": [
+          "Jusqu'à 50 000 km : meilleur rapport qualité-prix",
+          "Vérifier l'historique AMG officiel",
+          "Éviter les unités sans entretien de batterie"
+        ],
+        "card2Title": "Mécanique",
+        "card2Items": [
+          "Vérifier le système hybride PHEV",
+          "Tester les passages SPEEDSHIFT",
+          "Vérifier l'état des freins et pneus"
+        ],
+        "card3Title": "Électronique",
+        "card3Items": [
+          "Mises à jour logiciel MBUX",
+          "Fonctionnement de l'hybride",
+          "Écrans et système Hyperscreen"
+        ],
+        "card4Title": "Prix et revente",
+        "card4Items": [
+          "Meilleur achat à 3-4 ans",
+          "Unités avec AMG Performance Package valorisées",
+          "Couleurs exclusives : Green Hell Magno, Diamond White"
+        ]
+      },
+      "dep": {
+        "loss3": "~40% de perte à 3 ans",
+        "loss5": "~60% de perte à 5 ans"
+      },
+      "versions": {
+        "sportbackDesc": "AMG GT 63 S E PERFORMANCE avec équilibre entre performance et luxe.",
+        "performanceDesc": "Plus de puissance et équipement AMG Carbon optionnel.",
+        "carbonDesc": "Version avec paquets carbone et exclusivité premium.",
+        "amggt63sDesc": "AMG GT 63 S E PERFORMANCE avec 831 HP et traction 4MATIC+."
+      }
+    },
+    "ar": {
+      "scoreDesc": "الدرجة محسوبة من الأداء والراحة والتقنية والتصميم والقيمة عند إعادة البيع لسيارة جي تي الهجينة من مرسيدس-أي أم جي.",
+      "worthDesc": "تبرر أي أم جي جي تي 63 أس إي سعرها لمن يبحث عن جي تي فاخرة بتسارع سيارة خارقة وتقنية هجينة.",
+      "buyStatus": "شراء",
+      "reviewText": "مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس هي جي تي هجينة تجمع بين الفخامة والتقنية والتسارع الوحشي بفضل محرك 8 أسطوانات توين تيربو والمحرك الكهربائي الخلفي.",
+      "pros": [
+        "0-100 كم/س في 2.9 ثانية",
+        "مقصورة فاخرة مع الشاشة العملاقة",
+        "صوت محرك 8 أسطوانات أي أم جي لا يُخطئ",
+        "دفع فورماتيك+ الكلي"
+      ],
+      "cons": [
+        "ثقيلة لسيارة جي تي",
+        "سعر الدخول مرتفع جداً",
+        "المقاعد الخلفية ضيقة",
+        "استهلاك حقيقي مرتفع خارج المدينة"
+      ],
+      "timeline": [
+        {
+          "year": 2023,
+          "title": "إطلاق سي 192",
+          "desc": "جيل جديد من أي أم جي جي تي بهيكل أكثر صلابة ونسخة هجينة."
+        },
+        {
+          "year": 2025,
+          "title": "جي تي 63 أس إي بيرفورمانس",
+          "desc": "وصول النسخة السيارة الهجينة القابلة للشحن بـ 831 حصان مع محرك كهربائي على المحور الخلفي."
+        },
+        {
+          "year": 2026,
+          "title": "تحديث تقني",
+          "desc": "تحسينات في نظام المعلومات والترفيه واتصال 5 جي ومساعدات القيادة."
+        }
+      ],
+      "profileData": {
+        "performance": 9.8,
+        "comfort": 9,
+        "technology": 9.5,
+        "design": 9.3,
+        "value": 7.8,
+        "highway": {
+          "score": "94/100",
+          "title": "ملك الطريق السريع",
+          "desc": "راحة وقوة ومساعدة للرحلات الطويلة."
+        },
+        "city": {
+          "score": "72/100",
+          "title": "المدينة بالكهرباء",
+          "desc": "كبيرة لكن قابلة للمناورة، وضع كهربائي للرحلات القصيرة."
+        },
+        "family": {
+          "score": "78/100",
+          "title": "العائلة",
+          "desc": "4 مقاعد وصندوق 461 لتر."
+        },
+        "collector": {
+          "score": "92/100",
+          "title": "أي أم جي جي تي الهجينة",
+          "desc": "831 حصان، حصرية وتكنولوجيا متطورة."
+        },
+        "track": {
+          "score": "97/100",
+          "title": "الحلبة",
+          "desc": "4MATIC+ و1,400 نيوتن متر لأيام الحلبة."
+        }
+      },
+      "faq": {
+        "q1": "كم حصان لدى مرسيدس-أي أم جي جي تي 63 أس إي 2026؟",
+        "a1": "تولد مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس 2026 831 حصان و 1,032 رطل-قدم (1,400 نيوتن متر) من عزم الدوران مع نظام السيارة الهجينة القابلة للشحن.",
+        "q2": "كم تسارع أي أم جي جي تي 63 أس إي من 0 إلى 100 كم/س؟",
+        "a2": "تسارع أي أم جي جي تي 63 أس إي بيرفورمانس من 0 إلى 100 كم/س في حوالي 2.9 ثانية.",
+        "q3": "ما سعر مرسيدس-أي أم جي جي تي 63 أس إي 2026؟",
+        "a3": "السعر الأساسي في الولايات المتحدة يتجاوز 200,000 دولار. في أوروبا حوالي 195,000 يورو قبل الخيارات.",
+        "q4": "هل نظام الهجين في أي أم جي جي تي 63 أس إي موثوق؟",
+        "a4": "نظام السيارة الهجينة القابلة للشحن معقد وتكاليف الإصلاح مرتفعة خارج الضمان. نوصي بالصيانة الرسمية في أي أم جي.",
+        "q5": "أي أم جي جي تي 63 أس إي أم بي إم دبليو أم 5؟",
+        "a5": "أي أم جي جي تي 63 أس إي أكثر تطرفاً في القوة وصوت محرك 8 أسطوانات، بينما أم 5 أكثر توازناً للاستخدام اليومي.",
+        "q6": "ما استهلاك أي أم جي جي تي 63 أس إي؟",
+        "a6": "في الاستخدام المختلط الحقيقي، الاستهلاك حوالي 12-15 لتر/100 كم. في الوضع الكهربائي يمكن قطع حتى 12 كم بدون بنزين.",
+        "q7": "هل يستحق شراء أي أم جي جي تي مستعملة؟",
+        "a7": "نعم، من 3-4 سنوات تكون الاستهلاك كبيرة. من الضروري التحقق من سجل صيانة أي أم جي وحالة النظام الهجين."
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "usedGuide": {
+        "card1Title": "الكيلومتراج والحالة",
+        "card1Items": [
+          "حتى 50,000 كم: أفضل قيمة",
+          "التحقق من سجل أي أم جي الرسمي",
+          "تجنب السيارات بدون صيانة البطارية"
+        ],
+        "card2Title": "الميكانيكا",
+        "card2Items": [
+          "التحقق من نظام الهجين السيارة الهجينة القابلة للشحن",
+          "اختبار تغييرات ناقل الحركة الرياضي",
+          "التحقق من حالة الفرامل والإطارات"
+        ],
+        "card3Title": "الإلكترونيات",
+        "card3Items": [
+          "تحديثات برنامج نظام المعلومات والترفيه",
+          "عمل النظام الهجين",
+          "الشاشات ونظام الشاشة العملاقة"
+        ],
+        "card4Title": "السعر وإعادة البيع",
+        "card4Items": [
+          "أفضل شراء من 3-4 سنوات",
+          "السيارات بباقة أي أم جي باقة الأداء ذات قيمة أعلى",
+          "ألوان حصرية: أخضر ماغنو الجحيم، أبيض دايموند"
+        ]
+      },
+      "dep": {
+        "loss3": "~40% خسارة بعد 3 سنوات",
+        "loss5": "~60% خسارة بعد 5 سنوات"
+      },
+      "versions": {
+        "sportbackDesc": "أي أم جي جي تي 63 أس إي بيرفورمانس مع توازن بين الأداء والفخامة.",
+        "performanceDesc": "مزيد من القوة وتجهيزات كربونية من أي أم جي اختيارية.",
+        "carbonDesc": "نسخة بباقات كربونية وحصرية فاخرة.",
+        "amggt63sDesc": "أي أم جي جي تي 63 أس إي بيرفورمانس بـ 831 حصان ودفع فورماتيك+."
+      }
+    }
+  },
+  "ownerReviews": {
+    "es": [
+      {
+        "quote": "He hecho 20.000 km con mi AMG GT 63 S E y la potencia es simplemente brutal. El lujo interior es de otro nivel.",
+        "author": "Fernando G.",
+        "location": "Madrid, España",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "Es un coche para ocasiones especiales. El consumo es alto pero la experiencia justifica cada céntimo.",
+        "author": "Elena R.",
+        "location": "Milán, Italia",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "en": [
+      {
+        "quote": "I've done 20,000 km with my AMG GT 63 S E and the power is simply brutal. The interior luxury is on another level.",
+        "author": "Fernando G.",
+        "location": "Madrid, Spain",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "It's a car for special occasions. Consumption is high but the experience justifies every penny.",
+        "author": "Elena R.",
+        "location": "Milan, Italy",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "fr": [
+      {
+        "quote": "He hecho 20.000 km con mi AMG GT 63 S E y la potencia es simplemente brutal. El lujo interior es de otro nivel.",
+        "author": "Fernando G.",
+        "location": "Madrid, Espagne",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "Es un coche para ocasiones especiales. El consumo es alto pero la experiencia justifica cada céntimo.",
+        "author": "Elena R.",
+        "location": "Milán, Italia",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ],
+    "ar": [
+      {
+        "quote": "He hecho 20.000 km con mi AMG GT 63 S E y la potencia es simplemente brutal. El lujo interior es de otro nivel.",
+        "author": "Fernando G.",
+        "location": "Madrid, España",
+        "ownsSince": "2025",
+        "rating": 9.5
+      },
+      {
+        "quote": "Es un coche para ocasiones especiales. El consumo es alto pero la experiencia justifica cada céntimo.",
+        "author": "Elena R.",
+        "location": "Milán, Italia",
+        "ownsSince": "2024",
+        "rating": 9
+      }
+    ]
+  },
+  "profileData": {
+    "es": {
+      "highway": {
+        "score": "94/100",
+        "title": "Rey de la autopista",
+        "desc": "Confort, potencia y asistencias para viajes largos."
+      },
+      "city": {
+        "score": "72/100",
+        "title": "Ciudad con electricidad",
+        "desc": "Grande pero manejable, modo EV para trayectos cortos."
+      },
+      "family": {
+        "score": "78/100",
+        "title": "Familiar",
+        "desc": "4 plazas y 461 L de maletero."
+      },
+      "collector": {
+        "score": "92/100",
+        "title": "GT híbrido AMG",
+        "desc": "831 HP, exclusividad y tecnología puntera."
+      },
+      "track": {
+        "score": "97/100",
+        "title": "Circuito",
+        "desc": "4MATIC+ y 1.400 Nm para días de track."
+      }
+    },
+    "en": {
+      "highway": {
+        "score": "94/100",
+        "title": "Highway king",
+        "desc": "Comfort, power and assistance for long trips."
+      },
+      "city": {
+        "score": "72/100",
+        "title": "City with electricity",
+        "desc": "Large but manageable, EV mode for short trips."
+      },
+      "family": {
+        "score": "78/100",
+        "title": "Family",
+        "desc": "4 seats and 461 L trunk."
+      },
+      "collector": {
+        "score": "92/100",
+        "title": "Hybrid AMG GT",
+        "desc": "831 HP, exclusivity and cutting-edge tech."
+      },
+      "track": {
+        "score": "97/100",
+        "title": "Track day",
+        "desc": "4MATIC+ and 1,400 Nm for track days."
+      }
+    },
+    "fr": {
+      "highway": {
+        "score": "94/100",
+        "title": "Roi de l'autoroute",
+        "desc": "Confort, puissance et assistance pour les longs trajets."
+      },
+      "city": {
+        "score": "72/100",
+        "title": "Ville avec électricité",
+        "desc": "Grande mais maniable, mode EV pour les courts trajets."
+      },
+      "family": {
+        "score": "78/100",
+        "title": "Famille",
+        "desc": "4 places et 461 L de coffre."
+      },
+      "collector": {
+        "score": "92/100",
+        "title": "AMG GT hybride",
+        "desc": "831 HP, exclusivité et technologie de pointe."
+      },
+      "track": {
+        "score": "97/100",
+        "title": "Circuit",
+        "desc": "4MATIC+ et 1 400 Nm pour les journées circuit."
+      }
+    },
+    "ar": {
+      "highway": {
+        "score": "94/100",
+        "title": "ملك الطريق السريع",
+        "desc": "راحة وقوة ومساعدة للرحلات الطويلة."
+      },
+      "city": {
+        "score": "72/100",
+        "title": "المدينة بالكهرباء",
+        "desc": "كبيرة لكن قابلة للمناورة، وضع كهربائي للرحلات القصيرة."
+      },
+      "family": {
+        "score": "78/100",
+        "title": "العائلة",
+        "desc": "4 مقاعد وصندوق 461 لتر."
+      },
+      "collector": {
+        "score": "92/100",
+        "title": "أي أم جي جي تي الهجينة",
+        "desc": "831 حصان، حصرية وتكنولوجيا متطورة."
+      },
+      "track": {
+        "score": "97/100",
+        "title": "الحلبة",
+        "desc": "4MATIC+ و1,400 نيوتن متر لأيام الحلبة."
+      }
+    }
+  },
+  "usedGuide": {
+    "card1Title": "Kilometraje y estado",
+    "card1Items": [
+      "Hasta 50.000 km: mejor relación valor",
+      "Revisar historial AMG oficial",
+      "Evitar unidades sin mantenimiento de batería"
+    ],
+    "card2Title": "Mecánica",
+    "card2Items": [
+      "Revisar sistema híbrido PHEV",
+      "Probar cambios SPEEDSHIFT",
+      "Comprobar estado de frenos y neumáticos"
+    ],
+    "card3Title": "Electrónica",
+    "card3Items": [
+      "Actualizaciones de software MBUX",
+      "Funcionamiento del híbrido",
+      "Pantallas y sistema Hyperscreen"
+    ],
+    "card4Title": "Precio y reventa",
+    "card4Items": [
+      "Mejor compra a los 3-4 años",
+      "Unidades con AMG Performance Package valoradas",
+      "Colores exclusivos: Green Hell Magno, Diamond White"
+    ]
+  },
+  "review": {
+    "es": {
+      "summary": "El Mercedes-AMG GT 63 S E Performance combina el sonido y la potencia de un V8 biturbo con la eficiencia de un híbrido enchufable, ofreciendo un GT de lujo capaz de superar a muchos superdeportivos en aceleración.",
+      "fullText": "El Mercedes-AMG GT 63 S E Performance es una declaración de intenciones: un coupé de cuatro plazas con 831 HP, tracción integral AMG 4MATIC+ y una tecnología híbrida que aporta par instantáneo. Su motor V8 4.0L biturbo ya es una leyenda, pero aquí se refuerza con un motor eléctrico de 204 HP ubicado en el eje trasero. El resultado es una aceleración de 0 a 100 km/h en 2.9 segundos y una sensación de empuje continua. La carrocería es rígida, la suspensión AMG RIDE CONTROL+ filtra el asfalto sin perder precisión, y el interior hiperscreen envuelve al conductor en pantallas y materiales premium. No es un deportivo ligero, pero su capacidad de viajar a gran velocidad con confort lo convierte en uno de los GT más completos del mercado.",
+      "verdict": "buy",
+      "bestFor": [
+        "Viajes largos a alta velocidad",
+        "Lujo y tecnología",
+        "Aceleración extrema"
+      ],
+      "scoreBreakdown": {
+        "Rendimiento": 9.8,
+        "Confort": 9,
+        "Tecnología": 9.5,
+        "Diseño": 9.3,
+        "Valor": 7.8
+      }
+    },
+    "en": {
+      "summary": "The Mercedes-AMG GT 63 S E Performance combines the sound and power of a twin-turbo V8 with plug-in hybrid efficiency, delivering a luxury GT capable of outpacing many supercars in acceleration.",
+      "fullText": "The Mercedes-AMG GT 63 S E Performance is a statement of intent: a four-seat coupe with 831 hp, AMG 4MATIC+ all-wheel drive and hybrid technology that delivers instant torque. Its 4.0L twin-turbo V8 is already legendary, but here it is reinforced by a 204 hp electric motor on the rear axle. The result is 0-100 km/h in 2.9 seconds and a feeling of continuous thrust. The body is rigid, the AMG RIDE CONTROL+ suspension filters the road without losing precision, and the Hyperscreen interior wraps the driver in screens and premium materials. It is not a lightweight sports car, but its ability to cover great distances at high speed in comfort makes it one of the most complete GTs on the market.",
+      "verdict": "buy",
+      "bestFor": [
+        "High-speed long-distance travel",
+        "Luxury and technology",
+        "Extreme acceleration"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.8,
+        "Comfort": 9,
+        "Technology": 9.5,
+        "Design": 9.3,
+        "Value": 7.8
+      }
+    },
+    "fr": {
+      "summary": "La Mercedes-AMG GT 63 S E Performance combine le son et la puissance d'un V8 biturbo avec l'efficacité d'un hybride rechargeable, offrant un GT de luxe capable de surpasser de nombreuses supercars en accélération.",
+      "fullText": "La Mercedes-AMG GT 63 S E Performance est une déclaration d'intentions : un coupé quatre places avec 831 ch, la transmission intégrale AMG 4MATIC+ et une technologie hybride qui délivre un couple instantané. Son V8 4.0L biturbo est déjà légendaire, mais il est ici renforcé par un moteur électrique de 204 ch situé sur l'essieu arrière. Le résultat est une accélération de 0 à 100 km/h en 2,9 secondes et une sensation de poussée continue. La carrosserie est rigide, la suspension AMG RIDE CONTROL+ filtre la route sans perdre en précision, et l'intérieur Hyperscreen enveloppe le conducteur d'écrans et de matériaux premium. Ce n'est pas une sportive légère, mais sa capacité à parcourir de grandes distances à haute vitesse dans le confort en fait l'un des GT les plus complets du marché.",
+      "verdict": "buy",
+      "bestFor": [
+        "Voyages longue distance à haute vitesse",
+        "Luxe et technologie",
+        "Accélération extrême"
+      ],
+      "scoreBreakdown": {
+        "Performance": 9.8,
+        "Confort": 9,
+        "Technologie": 9.5,
+        "Design": 9.3,
+        "Valeur": 7.8
+      }
+    },
+    "ar": {
+      "summary": "تجمع مرسيدس-أي إم جي جي تي 63 إس إي بيرفورمانس بين صوت وقوة محرك محرك 8 أسطوانات توين تيربو وكفاءة الهجين القابس للشحن، لتقدم جي تي فاخرة قادرة على التفوق على العديد من السيارات الخارقة في التسارع.",
+      "fullText": "مرسيدس-أي إم جي جي تي 63 إس إي بيرفورمانس بيان نوايا: كوبيه بأربع مقاعد مع 831 حصان ودفع أي إم جي فورماتيك بلس الكلي وتقنية هجينة تقدم عزم دوران فوري. محرك محرك 8 أسطوانات 4.0 لتر توين تيربو أسطوري بالفعل، لكنه هنا معزز بمحرك كهربائي بقوة 204 حصان على المحور الخلفي. النتيجة هي تسارع من 0 إلى 100 كم/س في 2.9 ثانية وإحساس بالدفع المستمر. الهيكل صلب، وتعليق نظام تحكم أي إم جي في التعليق بلس يصفح الطريق دون فقدان الدقة، والمقصورة هايبرسكرين تلف السائق بالشاشات والمواد الفاخرة. إنها ليست رياضية خفيفة، لكن قدرتها على قطع مسافات طويلة بسرعة عالية وراحة تجعلها واحدة من أكثر سيارات جي تي اكتمالاً في السوق.",
+      "verdict": "شراء",
+      "bestFor": [
+        "السفر لمسافات طويلة بسرعة عالية",
+        "الفخامة والتقنية",
+        "تسارع متطرف"
+      ],
+      "scoreBreakdown": {
+        "الأداء": 9.8,
+        "الراحة": 9,
+        "التقنية": 9.5,
+        "التصميم": 9.3,
+        "القيمة": 7.8
+      }
+    }
+  },
+  "handling": {
+    "es": {
+      "summary": "Chasis rígido, tracción integral y suspensiones activas que permiten cambiar de GT confortable a deportivo afilado en segundos.",
+      "bodyRoll": "Mínimo gracias a la suspensión activa y los estabilizadores robustos; en modo Comfort asume cierta inclinación para preservar confort.",
+      "grip": "Niveles extraordinarios de adherencia con neumáticos Michelin Pilot Sport y tracción 4MATIC+ que distribuye el par al eje trasero.",
+      "steeringFeel": "Dirección precisa y bien asistida, con respuesta progresiva que gana peso a medida que aumenta la velocidad.",
+      "balance": "Pesado pero equilibrado; el eje trasero eléctrico ayuda a rotar el coche en curvas y a salir con tracción.",
+      "trackWorthiness": "Capaz de rodar en circuito, aunque su peso y tamaño lo hacen más adecuado para conducción rápida en carreteras anchas."
+    },
+    "en": {
+      "summary": "Rigid chassis, all-wheel drive and active suspension allow it to switch from comfortable GT to sharp sports car in seconds.",
+      "bodyRoll": "Minimal thanks to active suspension and robust anti-roll bars; in Comfort mode it allows some lean to preserve ride quality.",
+      "grip": "Extraordinary grip levels with Michelin Pilot Sport tires and 4MATIC+ that sends torque to the rear axle.",
+      "steeringFeel": "Precise and well-assisted steering, with progressive response that gains weight as speed increases.",
+      "balance": "Heavy but balanced; the rear electric axle helps rotate the car in corners and exit with traction.",
+      "trackWorthiness": "Capable on track, although its weight and size make it better suited to fast driving on wide roads."
+    },
+    "fr": {
+      "summary": "Châssis rigide, transmission intégrale et suspensions actives qui permettent de passer d'un GT confortable à une sportive affûtée en quelques secondes.",
+      "bodyRoll": "Minimal grâce à la suspension active et aux barres antiroulis robustes; en mode Comfort, elle accepte une certaine inclinaison pour préserver le confort.",
+      "grip": "Niveaux d'adhérence extraordinaires avec des pneus Michelin Pilot Sport et la 4MATIC+ qui distribue le couple à l'essieu arrière.",
+      "steeringFeel": "Direction précise et bien assistée, avec une réponse progressive qui prend du poids à mesure que la vitesse augmente.",
+      "balance": "Lourde mais équilibrée; l'essieu arrière électrique aide à faire pivoter la voiture dans les virages et à sortir avec traction.",
+      "trackWorthiness": "Capable sur circuit, bien que son poids et sa taille la rendent plus adaptée à la conduite rapide sur routes larges."
+    },
+    "ar": {
+      "summary": "هيكل صلب ودفع كلي وتعليق نشط يسمح بالتبديل من GT مريحة إلى سيارة رياضية حادة في ثوانٍ.",
+      "bodyRoll": "حدودية بفضل التعليق النشط وأنظمة التثبيت القوية؛ في وضع Comfort تسمح ببعض الميل للحفاظ على راحة الركوب.",
+      "grip": "مستويات قبضة استثنائية مع إطارات Michelin Pilot Sport و4MATIC+ التي ترسل العزم للمحور الخلفي.",
+      "steeringFeel": "توجيه دقيق ومساعد جيداً، مع استجابة تدريجية تكتسب وزناً مع زيادة السرعة.",
+      "balance": "ثقيلة لكن متوازنة؛ المحور الخلفي الكهربائي يساعد على تدوير السيارة في المنعطفات والخروج بجذب.",
+      "trackWorthiness": "قادرة على الحلبة، على الرغم من أن وزنها وحجمها يجعلها أكثر ملاءمة للقيادة السريعة على الطرق الواسعة."
+    }
+  },
+  "performanceFeel": {
+    "es": {
+      "acceleration": "El empuje es brutal e inmediato: el motor eléctrico llena el vacío de par antes de que el V8 despliegue todo su potencial. De 0 a 200 km/h se siente como un tren bala.",
+      "powerDelivery": "Entrega lineal pero con un carácter V8 marcado: suave a bajo régimen, violento cuando el turbo y el eléctrico colaboran al unísono.",
+      "turboResponse": "Ligero retardo inferior a una décima de segundo, compensado por la respuesta instantánea del motor eléctrico.",
+      "engineSound": "Rugido grave y metálico del V8 AMG; los modos deportivos abren válvulas para un sonido más agresivo y escandaloso.",
+      "transmission": "Cambios rápidos y certeros en modos Sport+; en Comfort es suave y casi imperceptible en ciudad."
+    },
+    "en": {
+      "acceleration": "The thrust is brutal and immediate: the electric motor fills the torque gap before the V8 unleashes its full potential. From 0 to 200 km/h it feels like a bullet train.",
+      "powerDelivery": "Linear delivery but with a distinct V8 character: smooth at low revs, violent when the turbo and electric motor work in unison.",
+      "turboResponse": "Tiny lag below a tenth of a second, compensated by the instant response of the electric motor.",
+      "engineSound": "Deep, metallic AMG V8 roar; sport modes open valves for a more aggressive and louder soundtrack.",
+      "transmission": "Fast and decisive shifts in Sport+ modes; in Comfort it is smooth and almost imperceptible in town."
+    },
+    "fr": {
+      "acceleration": "La poussée est brutale et immédiate : le moteur électrique comble le trou de couple avant que le V8 ne déploie tout son potentiel. De 0 à 200 km/h, c'est comme un train à grande vitesse.",
+      "powerDelivery": "Livraison linéaire mais avec un caractère V8 marqué : doux à bas régime, violent quand le turbo et l'électrique travaillent à l'unisson.",
+      "turboResponse": "Léger retard inférieur à une dixième de seconde, compensé par la réponse instantanée du moteur électrique.",
+      "engineSound": "Rugissement grave et métallique du V8 AMG; les modes sport ouvrent les vannes pour un son plus agressif et bruyant.",
+      "transmission": "Changements rapides et décisifs en modes Sport+; en Comfort, elle est douce et presque imperceptible en ville."
+    },
+    "ar": {
+      "acceleration": "الدفع وحشي وفوري: المحرك الكهربائي يملأ فجوة العزم قبل أن يطلق V8 كل إمكاناته. من 0 إلى 200 كم/س تشعر وكأنها قطار سريع.",
+      "powerDelivery": "تسليم خطي لكن بطابع V8 واضح: ناعم عند انخفاض الدورات، عنيف عندما يعمل التيربو والمحرك الكهربائي معاً.",
+      "turboResponse": "تأخير طفيف أقل من عُشر ثانية، يعوضه الاستجابة الفورية للمحرك الكهربائي.",
+      "engineSound": "زمجرة V8 AMG عميقة ومعدنية؛ تفتح الأوضاع الرياضية الصمامات لصوت أكثر عدوانية وضوضاء.",
+      "transmission": "تغييرات سريعة وحاسمة في أوضاع Sport+؛ في Comfort تكون ناعمة وغير محسوسة تقريباً في المدينة."
+    }
+  },
+  "dailyDriving": {
+    "es": {
+      "comfort": "En modo Comfort, la suspensión ablanda notablemente y el interior se vuelve silencioso para un GT de alto rendimiento.",
+      "visibility": "La visibilidad frontal es buena, pero los pilares traseros gruesos y el capó largo reducen la visión en maniobras.",
+      "practicality": "El maletero de 382 litros es aceptable para viajes de fin de semana; las plazas traseras son de emergencia.",
+      "noise": "En eléctrico es casi silencioso; en modo híbrido, el V8 se desconecta en deceleración y reaparece con una nota grave.",
+      "fuelEfficiency": "Promedia 11.5 L/100 km en uso mixto; la autonomía eléctrica de 12 km cubre trayectos cortos urbanos."
+    },
+    "en": {
+      "comfort": "In Comfort mode, the suspension softens noticeably and the cabin becomes quiet for a high-performance GT.",
+      "visibility": "Forward visibility is good, but thick rear pillars and the long hood reduce visibility during maneuvers.",
+      "practicality": "The 382-liter trunk is acceptable for weekend trips; the rear seats are for emergencies.",
+      "noise": "In electric mode it is almost silent; in hybrid mode, the V8 disconnects on deceleration and reappears with a deep note.",
+      "fuelEfficiency": "Averages 11.5 L/100 km in mixed use; the 12 km electric range covers short urban trips."
+    },
+    "fr": {
+      "comfort": "En mode Comfort, la suspension s'adoucit notablement et l'habitacle devient silencieux pour un GT haute performance.",
+      "visibility": "La visibilité avant est bonne, mais les piliers arrière épais et le long capot réduisent la visibilité lors des manœuvres.",
+      "practicality": "Le coffre de 382 litres est acceptable pour les escapades de week-end; les places arrière sont d'urgence.",
+      "noise": "En mode électrique, elle est presque silencieuse; en mode hybride, le V8 se déconnecte en décélération et réapparaît avec une note grave.",
+      "fuelEfficiency": "Moyenne de 11,5 L/100 km en usage mixte; l'autonomie électrique de 12 km couvre les courts trajets urbains."
+    },
+    "ar": {
+      "comfort": "في وضع Comfort، ينعم التعليق بشكل ملحوظ وتصبح المقصورة هادئة لسيارة GT عالية الأداء.",
+      "visibility": "الرؤية الأمامية جيدة، لكن الأعمدة الخلفية السميكة والغطاء الطويل يقللان من الرؤية أثناء المناورات.",
+      "practicality": "صندوق الأمتعة 382 لتر مقبول لرحلات نهاية الأسبوع؛ المقاعد الخلفية للحالات الطارئة.",
+      "noise": "في الوضع الكهربي يكاد يكون صامتاً؛ في الوضع الهجين، ينفصل V8 أثناء التباطؤ ويعود بصوت عميق.",
+      "fuelEfficiency": "متوسط 11.5 لتر/100 كم في الاستخدام المختلط؛ النطاق الكهربائي 12 كم يغطي الرحلات الحضرية القصيرة."
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "Silueta de capó largo y habitáculo retrasado, con una parrilla Panamericana que domina el frontal y aletas anchas que transmiten potencia.",
+      "proportions": "Proporciones clásicas de GT: morro largo, techo bajo y cola musculosa. La distancia entre ejes de 2.63 m da cabida al híbrido.",
+      "aerodynamics": "Alerón activo trasero, difusor generoso y tomas de aire funcionales que reducen el coeficiente de arrastre y refrigeran el híbrido.",
+      "lighting": "Faros Digital Light con proyección de alta definición y luces traseras de barras que se extienden a lo ancho del portón.",
+      "details": "Llantas de 21 pulgadas, escapes cuádruples cromados o negros y pinzas de freno AMG con logotipos en colores llamativos.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "en": {
+      "summary": "Long-hood, rear-set cabin silhouette with a Panamericana grille that dominates the nose and wide fenders that scream power.",
+      "proportions": "Classic GT proportions: long nose, low roof and muscular tail. The 2.63 m wheelbase accommodates the hybrid hardware.",
+      "aerodynamics": "Active rear spoiler, generous diffuser and functional air intakes that reduce drag and cool the hybrid system.",
+      "lighting": "Digital Light headlights with high-definition projection and bar tail lights that span the width of the tailgate.",
+      "details": "21-inch wheels, quad chrome or black exhausts and AMG brake calipers with loud-colored logos.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "fr": {
+      "summary": "Silhouette avec long capot et habitacle reculé, dominée par une calandre Panamericana et des ailes larges qui crient puissance.",
+      "proportions": "Proportions classiques de GT : long nez, toit bas et arrière musclé. L'empattement de 2,63 m accueille l'hybride.",
+      "aerodynamics": "Aileron arrière actif, diffuseur généreux et prises d'air fonctionnelles qui réduisent le coefficient de traînée et refroidissent l'hybride.",
+      "lighting": "Phares Digital Light avec projection haute définition et feux arrière en barre qui s'étendent sur toute la largeur du hayon.",
+      "details": "Jantes de 21 pouces, sorties d'échappement quadruples chromées ou noires et étriers de frein AMG avec logos de couleurs vives.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    },
+    "ar": {
+      "summary": "صيحة بغطاء طويل ومقصورة متراجعة، مع شبكة بان أمريكانا تهيمن على المقدمة ورفارف عريضة تبثّ القوة.",
+      "proportions": "نسب جي تي كلاسيكية: أنف طويل وسقف منخفض وذيل عضلي. قاعدة العجلات 2.63 م تستوعب أجهزة الهجين.",
+      "aerodynamics": "جناح خلفي نشط وموزع هواء كبير وفتحات تهوية عملية تقلل معامل السحب وتبرد نظام الهجين.",
+      "lighting": "مصابيح الإضاءة الرقمية مع إسقاط عالي الدقة ومصابيح خلفية على شكل أعمدة تمتد عبر عرض الباب الخلفي.",
+      "details": "عجات 21 بوصة ومخارج عادم رباعية كرومية أو سوداء ومكابس فرامل أي إم جي بشعارات بألوان جريئة.",
+      "colors": [
+        {
+          "name": {
+            "es": "Alpine White",
+            "en": "Alpine White",
+            "fr": "Alpine White",
+            "ar": "Alpine White"
+          },
+          "hex": "#f5f5f5",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Black Sapphire",
+            "en": "Black Sapphire",
+            "fr": "Black Sapphire",
+            "ar": "Black Sapphire"
+          },
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 800
+        },
+        {
+          "name": {
+            "es": "Mineral Grey",
+            "en": "Mineral Grey",
+            "fr": "Mineral Grey",
+            "ar": "Mineral Grey"
+          },
+          "hex": "#3a3a3a",
+          "type": "metallic",
+          "priceExtra": 800
+        }
+      ]
+    }
+  },
+  "interior": {
+    "es": {
+      "summary": "El interior combina la última tecnología MBUX con materiales de lujo: cuero Nappa, fibra de carbono y aluminio cepillado.",
+      "materials": "Tapicería en cuero Nappa de alta calidad, opciones de fibra de carbono mate o brillante, y detalles metálicos de precisión.",
+      "space": "Plazas delanteras amplias y envolventes; las traseras son reducidas, pensadas para trayectos cortos o niños.",
+      "ergonomics": "Asientos AMG Performance con múltiples ajustes eléctricos, calefacción, ventilación y función de masaje opcional.",
+      "quality": "Ajustes impecables, costuras vistas y superficies suaves al tacto. Se percibe el nivel de berlina de lujo."
+    },
+    "en": {
+      "summary": "The interior combines the latest MBUX technology with luxury materials: Nappa leather, carbon fiber and brushed aluminum.",
+      "materials": "High-quality Nappa leather upholstery, options for matte or glossy carbon fiber, and precision metal details.",
+      "space": "Large and enveloping front seats; the rear seats are reduced, designed for short trips or children.",
+      "ergonomics": "AMG Performance seats with multiple electric adjustments, heating, ventilation and optional massage function.",
+      "quality": "Impeccable fit, visible stitching and soft-touch surfaces. It feels like a luxury sedan."
+    },
+    "fr": {
+      "summary": "L'intérieur combine la dernière technologie MBUX avec des matériaux de luxe : cuir Nappa, fibre de carbone et aluminium brossé.",
+      "materials": "Sellerie en cuir Nappa de haute qualité, options de fibre de carbone mate ou brillante, et détails métalliques de précision.",
+      "space": "Sièges avant larges et enveloppants; les places arrière sont réduites, conçues pour les courts trajets ou les enfants.",
+      "ergonomics": "Sièges AMG Performance avec de multiples réglages électriques, chauffage, ventilation et fonction massage optionnelle.",
+      "quality": "Ajustements impeccables, coutures apparentes et surfaces douces au toucher. On ressent le niveau de berline de luxe."
+    },
+    "ar": {
+      "summary": "تجمع المقصورة أحدث تقنيات إم بي يو إكس مع مواد فاخرة: جلد نابا وألياف كربون وألومنيوم مصقول.",
+      "materials": "تنجيد من جلد نابا عالي الجودة، خيارات من ألياف كربون مطفية أو لامعة، وتفاصيل معدنية دقيقة.",
+      "space": "مقاعد أمامية واسعة ومحيطة؛ المقاعد الخلفية محدودة، مصممة للرحلات القصيرة أو الأطفال.",
+      "ergonomics": "مقاعد أداء أي إم جي مع تعديلات كهربائية متعددة، تدفئة، تهوية ووظيفة تدليك اختيارية.",
+      "quality": "تناسب لا غبار عليه، درزات ظاهرة وأسطح ناعمة الملمس. يشعرك بمستوى السيدان الفاخرة."
+    }
+  },
+  "interiorCards": [
+    {
+      "id": "hyperscreen",
+      "title": {
+        "es": "MBUX Hyperscreen",
+        "en": "MBUX Hyperscreen",
+        "fr": "MBUX Hyperscreen",
+        "ar": "MBUX Hyperscreen"
+      },
+      "description": {
+        "es": "Pantalla de 56 pulgadas que une cuadro, central y copiloto bajo un cristal curvo.",
+        "en": "56-inch screen that blends instrument, central and passenger displays under a curved glass.",
+        "fr": "Écran de 56 pouces qui fusionne instruments, central et passager sous un verre incurvé.",
+        "ar": "شاشة 56 بوصة تجمع لوحة العدادات والشاشة المركزية والراكب تحت زجاج منحنٍ."
+      },
+      "icon": "display"
+    },
+    {
+      "id": "amg-seats",
+      "title": {
+        "es": "Asientos AMG Performance",
+        "en": "AMG Performance seats",
+        "fr": "Sièges AMG Performance",
+        "ar": "مقاعد AMG Performance"
+      },
+      "description": {
+        "es": "Sujeción lateral integral y ajustes eléctricos con memoria, calefacción y ventilación.",
+        "en": "Integrated lateral support and electric adjustments with memory, heating and ventilation.",
+        "fr": "Maintien latéral intégré et réglages électriques avec mémoire, chauffage et ventilation.",
+        "ar": "دعم جانبي متكامل وتعديلات كهربائية مع ذاكرة وتدفئة وتهوية."
+      },
+      "icon": "seat"
+    },
+    {
+      "id": "burmester",
+      "title": {
+        "es": "Burmester 3D",
+        "en": "Burmester 3D",
+        "fr": "Burmester 3D",
+        "ar": "Burmester 3D"
+      },
+      "description": {
+        "es": "Sistema de 15 altavoces con sonido envolvente de alta fidelidad.",
+        "en": "15-speaker high-fidelity surround sound system.",
+        "fr": "Système 15 haut-parleurs avec son surround haute fidélité.",
+        "ar": "نظام 15 مكبر صوت بصوت محيط عالي الدقة."
+      },
+      "icon": "audio"
+    }
+  ],
+  "interiorText": {
+    "es": [
+      "El habitáculo del AMG GT 63 S E está dominado por el MBUX Hyperscreen, una superficie de cristal curvo que alberga tres pantallas independientes.",
+      "Los materiales son de primer nivel: cuero Nappa, fibra de carbono real y aluminio cepillado.",
+      "Los asientos AMG Performance ofrecen sujeción lateral para conducción deportiva sin sacrificar confort en viajes largos.",
+      "El sistema Burmester 3D envuelve a los ocupantes con una calidad de sonido propia de un salón de conciertos.",
+      "La ambientación de 64 colores y el ajuste de climatización de tres zonas elevan la sensación de lujo."
+    ],
+    "en": [
+      "The AMG GT 63 S E cabin is dominated by the MBUX Hyperscreen, a curved glass surface housing three independent displays.",
+      "Materials are top-tier: Nappa leather, real carbon fiber and brushed aluminum.",
+      "AMG Performance seats provide lateral support for sporty driving without sacrificing comfort on long trips.",
+      "The Burmester 3D system envelops occupants with concert-hall sound quality.",
+      "64-color ambient lighting and three-zone climate control elevate the feeling of luxury."
+    ],
+    "fr": [
+      "L'habitacle de l'AMG GT 63 S E est dominé par le MBUX Hyperscreen, une surface de verre incurvé abritant trois écrans indépendants.",
+      "Les matériaux sont de premier ordre : cuir Nappa, fibre de carbone réelle et aluminium brossé.",
+      "Les sièges AMG Performance offrent un maintien latéral pour la conduite sportive sans sacrifier le confort sur les longs trajets.",
+      "Le système Burmester 3D enveloppe les occupants avec une qualité sonore digne d'une salle de concert.",
+      "L'éclairage d'ambiance 64 couleurs et la climatisation trois zones rehaussent la sensation de luxe."
+    ],
+    "ar": [
+      "تهيمن على مقصورة أي إم جي جي تي 63 إس إي شاشة إم بي يو إكس هايبرسكرين، سطح زجاجي منحنٍ يضم ثلاث شاشات مستقلة.",
+      "المواد من الطراز الأول: جلد نابا وألياف كربون حقيقية وألومنيوم مصقول.",
+      "توفر مقاعد أداء أي إم جي دعماً جانبياً للقيادة الرياضية دون التضحية بالراحة في الرحلات الطويلة.",
+      "يحيط نظام بورميستر ثلاثي الأبعاد بالركاب بجودة صوت تليق بقاعة الحفلات الموسيقية.",
+      "إضاءة محيطة بـ 64 لوناً وتكييف ثلاثي المناطف يرفعان الإحساس بالفخامة."
+    ]
+  },
+  "technology": {
+    "es": {
+      "summary": "Tecnología de punta con tres pantallas bajo el Hyperscreen, asistentes de conducción avanzados y conectividad total.",
+      "infotainment": "MBUX con navegación aumentada, control por gestos, voz y conexión 5G.",
+      "connectivity": "Apple CarPlay y Android Auto inalámbricos, Mercedes me connect, actualizaciones OTA y carga inalámbrica.",
+      "driverAssistance": "Distronic Plus con Stop & Go, mantenimiento de carril activo, asistente de cambio de carril y frenada de emergencia.",
+      "performanceTech": "AMG DYNAMICS ajusta el reparto de par, suspensión y transmisión según el modo de conducción.",
+      "charging": "Carga AC hasta 3.7 kW y DC hasta 22 kW; autonomía eléctrica de 12 km."
+    },
+    "en": {
+      "summary": "Cutting-edge technology with three screens under the Hyperscreen, advanced driver assistance and full connectivity.",
+      "infotainment": "MBUX with augmented navigation, gesture, voice control and 5G connectivity.",
+      "connectivity": "Wireless Apple CarPlay and Android Auto, Mercedes me connect, OTA updates and wireless charging.",
+      "driverAssistance": "Distronic Plus with Stop & Go, active lane keeping, lane change assist and emergency braking.",
+      "performanceTech": "AMG DYNAMICS adjusts torque distribution, suspension and transmission according to driving mode.",
+      "charging": "AC charging up to 3.7 kW and DC up to 22 kW; 12 km electric range."
+    },
+    "fr": {
+      "summary": "Technologie de pointe avec trois écrans sous le Hyperscreen, assistance à la conduite avancée et connectivité totale.",
+      "infotainment": "MBUX avec navigation augmentée, commandes gestuelles, vocales et connectivité 5G.",
+      "connectivity": "Apple CarPlay et Android Auto sans fil, Mercedes me connect, mises à jour OTA et charge sans fil.",
+      "driverAssistance": "Distronic Plus avec Stop & Go, maintien de voie actif, assistant de changement de voie et freinage d'urgence.",
+      "performanceTech": "AMG DYNAMICS ajuste la répartition du couple, la suspension et la transmission selon le mode de conduite.",
+      "charging": "Charge AC jusqu'à 3,7 kW et DC jusqu'à 22 kW; autonomie électrique de 12 km."
+    },
+    "ar": {
+      "summary": "تقنية متطورة مع ثلاث شاشات تحت هايبرسكرين، مساعدة قيادة متقدمة واتصالية كاملة.",
+      "infotainment": "إم بي يو إكس مع ملاحة معززة، تحكم بالإيماءات والصوت واتصال 5 جي.",
+      "connectivity": "أبل كاربلاي وأندرويد أوتو لاسلكي، مرسيدس مي كونكت، تحديثات عبر الهواء وشحن لاسلكي.",
+      "driverAssistance": "ديسترونيك بلس مع توقف وانطلاق، الحفاظ على المسار النشط، مساعد تغيير المسار وفرامل الطوارئ.",
+      "performanceTech": "ديناميكيات أي إم جي تضبط توزيع العزم والتعليق وناقل الحركة حسب وضع القيادة.",
+      "charging": "شحن تيار متردد حتى 3.7 كيلوواط وتيار مستمر حتى 22 كيلوواط؛ نطاق كهربائي 12 كم."
+    }
+  },
+  "tires": {
+    "es": {
+      "front": "275/35 ZR21 - Michelin Pilot Sport 4S o Pirelli P Zero, neumáticos de verano de alto rendimiento.",
+      "rear": "305/30 ZR21 - configuración más ancha para gestionar el par híbrido en aceleración.",
+      "spare": "No incluye rueda de repuesto; kit de reparación con sellador y compresor.",
+      "wear": "Desgaste rápido en conducción deportiva; espera 10.000-15.000 km de duración con uso intensivo.",
+      "season": "Recomendable equipar neumáticos de invierno para climas fríos; el tamaño 21 limita opciones y encarece el juego."
+    },
+    "en": {
+      "front": "275/35 ZR21 - Michelin Pilot Sport 4S or Pirelli P Zero, high-performance summer tires.",
+      "rear": "305/30 ZR21 - wider setup to manage hybrid torque under acceleration.",
+      "spare": "No spare wheel included; repair kit with sealant and compressor.",
+      "wear": "Rapid wear in sporty driving; expect 10,000-15,000 km lifespan with intensive use.",
+      "season": "Winter tires recommended for cold climates; the 21-inch size limits options and raises prices."
+    },
+    "fr": {
+      "front": "275/35 ZR21 - Michelin Pilot Sport 4S ou Pirelli P Zero, pneus d'été haute performance.",
+      "rear": "305/30 ZR21 - configuration plus large pour gérer le couple hybride en accélération.",
+      "spare": "Pas de roue de secours; kit de réparation avec produit antifuite et compresseur.",
+      "wear": "Usure rapide en conduite sportive; prévoir 10 000-15 000 km de durée avec usage intensif.",
+      "season": "Pneus d'hiver recommandés pour les climats froids; la taille 21 limite les options et augmente les prix."
+    },
+    "ar": {
+      "front": "275/35 21 - ميشلان بايلوت سبورت 4 إس أو بيريلي بي زيرو، إطارات صيفية عالية الأداء.",
+      "rear": "305/30 21 - إعداد أعرض لإدارة عزم الهجين أثناء التسارع.",
+      "spare": "لا يوجد إطار احتياطي؛ عدة إصلاح مع مانع تسرب وضاغط.",
+      "wear": "تآكل سريع في القيادة الرياضية؛ توقع عمر 10,000-15,000 كم مع الاستخدام المكثف.",
+      "season": "يُنصح بإطارات شتاء للمناخات الباردة؛ حجم 21 يحد الخيارات ويرفع الأسعار."
+    }
+  },
+  "relatedModels": [
+    {
+      "carId": "bmw-m5-2026",
+      "relation": "rival",
+      "name": {
+        "es": "BMW M5",
+        "en": "BMW M5",
+        "fr": "BMW M5",
+        "ar": "BMW M5"
+      }
+    },
+    {
+      "carId": "audi-rs7-2026",
+      "relation": "alternative",
+      "name": {
+        "es": "Audi RS7",
+        "en": "Audi RS7",
+        "fr": "Audi RS7",
+        "ar": "Audi RS7"
+      }
+    },
+    {
+      "carId": "porsche-911-2026",
+      "relation": "alternative",
+      "name": {
+        "es": "Porsche 911",
+        "en": "Porsche 911",
+        "fr": "Porsche 911",
+        "ar": "Porsche 911"
+      }
+    }
+  ],
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "Chasis rígido, tracción integral y suspensiones activas que permiten cambiar de GT confortable a deportivo afilado en segundos.",
+        "bodyRoll": "Mínimo gracias a la suspensión activa y los estabilizadores robustos; en modo Comfort asume cierta inclinación para preservar confort.",
+        "grip": "Niveles extraordinarios de adherencia con neumáticos Michelin Pilot Sport y tracción 4MATIC+ que distribuye el par al eje trasero.",
+        "steeringFeel": "Dirección precisa y bien asistida, con respuesta progresiva que gana peso a medida que aumenta la velocidad.",
+        "balance": "Pesado pero equilibrado; el eje trasero eléctrico ayuda a rotar el coche en curvas y a salir con tracción.",
+        "trackWorthiness": "Capaz de rodar en circuito, aunque su peso y tamaño lo hacen más adecuado para conducción rápida en carreteras anchas."
+      },
+      "performanceFeel": {
+        "acceleration": "El empuje es brutal e inmediato: el motor eléctrico llena el vacío de par antes de que el V8 despliegue todo su potencial. De 0 a 200 km/h se siente como un tren bala.",
+        "powerDelivery": "Entrega lineal pero con un carácter V8 marcado: suave a bajo régimen, violento cuando el turbo y el eléctrico colaboran al unísono.",
+        "turboResponse": "Ligero retardo inferior a una décima de segundo, compensado por la respuesta instantánea del motor eléctrico.",
+        "engineSound": "Rugido grave y metálico del V8 AMG; los modos deportivos abren válvulas para un sonido más agresivo y escandaloso.",
+        "transmission": "Cambios rápidos y certeros en modos Sport+; en Comfort es suave y casi imperceptible en ciudad."
+      },
+      "dailyDriving": {
+        "comfort": "En modo Comfort, la suspensión ablanda notablemente y el interior se vuelve silencioso para un GT de alto rendimiento.",
+        "visibility": "La visibilidad frontal es buena, pero los pilares traseros gruesos y el capó largo reducen la visión en maniobras.",
+        "practicality": "El maletero de 382 litros es aceptable para viajes de fin de semana; las plazas traseras son de emergencia.",
+        "noise": "En eléctrico es casi silencioso; en modo híbrido, el V8 se desconecta en deceleración y reaparece con una nota grave.",
+        "fuelEfficiency": "Promedia 11.5 L/100 km en uso mixto; la autonomía eléctrica de 12 km cubre trayectos cortos urbanos."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "Rigid chassis, all-wheel drive and active suspension allow it to switch from comfortable GT to sharp sports car in seconds.",
+        "bodyRoll": "Minimal thanks to active suspension and robust anti-roll bars; in Comfort mode it allows some lean to preserve ride quality.",
+        "grip": "Extraordinary grip levels with Michelin Pilot Sport tires and 4MATIC+ that sends torque to the rear axle.",
+        "steeringFeel": "Precise and well-assisted steering, with progressive response that gains weight as speed increases.",
+        "balance": "Heavy but balanced; the rear electric axle helps rotate the car in corners and exit with traction.",
+        "trackWorthiness": "Capable on track, although its weight and size make it better suited to fast driving on wide roads."
+      },
+      "performanceFeel": {
+        "acceleration": "The thrust is brutal and immediate: the electric motor fills the torque gap before the V8 unleashes its full potential. From 0 to 200 km/h it feels like a bullet train.",
+        "powerDelivery": "Linear delivery but with a distinct V8 character: smooth at low revs, violent when the turbo and electric motor work in unison.",
+        "turboResponse": "Tiny lag below a tenth of a second, compensated by the instant response of the electric motor.",
+        "engineSound": "Deep, metallic AMG V8 roar; sport modes open valves for a more aggressive and louder soundtrack.",
+        "transmission": "Fast and decisive shifts in Sport+ modes; in Comfort it is smooth and almost imperceptible in town."
+      },
+      "dailyDriving": {
+        "comfort": "In Comfort mode, the suspension softens noticeably and the cabin becomes quiet for a high-performance GT.",
+        "visibility": "Forward visibility is good, but thick rear pillars and the long hood reduce visibility during maneuvers.",
+        "practicality": "The 382-liter trunk is acceptable for weekend trips; the rear seats are for emergencies.",
+        "noise": "In electric mode it is almost silent; in hybrid mode, the V8 disconnects on deceleration and reappears with a deep note.",
+        "fuelEfficiency": "Averages 11.5 L/100 km in mixed use; the 12 km electric range covers short urban trips."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "Châssis rigide, transmission intégrale et suspensions actives qui permettent de passer d'un GT confortable à une sportive affûtée en quelques secondes.",
+        "bodyRoll": "Minimal grâce à la suspension active et aux barres antiroulis robustes; en mode Comfort, elle accepte une certaine inclinaison pour préserver le confort.",
+        "grip": "Niveaux d'adhérence extraordinaires avec des pneus Michelin Pilot Sport et la 4MATIC+ qui distribue le couple à l'essieu arrière.",
+        "steeringFeel": "Direction précise et bien assistée, avec une réponse progressive qui prend du poids à mesure que la vitesse augmente.",
+        "balance": "Lourde mais équilibrée; l'essieu arrière électrique aide à faire pivoter la voiture dans les virages et à sortir avec traction.",
+        "trackWorthiness": "Capable sur circuit, bien que son poids et sa taille la rendent plus adaptée à la conduite rapide sur routes larges."
+      },
+      "performanceFeel": {
+        "acceleration": "La poussée est brutale et immédiate : le moteur électrique comble le trou de couple avant que le V8 ne déploie tout son potentiel. De 0 à 200 km/h, c'est comme un train à grande vitesse.",
+        "powerDelivery": "Livraison linéaire mais avec un caractère V8 marqué : doux à bas régime, violent quand le turbo et l'électrique travaillent à l'unisson.",
+        "turboResponse": "Léger retard inférieur à une dixième de seconde, compensé par la réponse instantanée du moteur électrique.",
+        "engineSound": "Rugissement grave et métallique du V8 AMG; les modes sport ouvrent les vannes pour un son plus agressif et bruyant.",
+        "transmission": "Changements rapides et décisifs en modes Sport+; en Comfort, elle est douce et presque imperceptible en ville."
+      },
+      "dailyDriving": {
+        "comfort": "En mode Comfort, la suspension s'adoucit notablement et l'habitacle devient silencieux pour un GT haute performance.",
+        "visibility": "La visibilité avant est bonne, mais les piliers arrière épais et le long capot réduisent la visibilité lors des manœuvres.",
+        "practicality": "Le coffre de 382 litres est acceptable pour les escapades de week-end; les places arrière sont d'urgence.",
+        "noise": "En mode électrique, elle est presque silencieuse; en mode hybride, le V8 se déconnecte en décélération et réapparaît avec une note grave.",
+        "fuelEfficiency": "Moyenne de 11,5 L/100 km en usage mixte; l'autonomie électrique de 12 km couvre les courts trajets urbains."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "هيكل صلب ودفع كلي وتعليق نشط يسمح بالتبديل من جي تي مريحة إلى سيارة رياضية حادة في ثوانٍ.",
+        "bodyRoll": "حدودية بفضل التعليق النشط وأنظمة التثبيت القوية؛ في وضع الراحة تسمح ببعض الميل للحفاظ على راحة الركوب.",
+        "grip": "مستويات قبضة استثنائية مع إطارات ميشلان بايلوت سبورت وفورماتيك بلس التي ترسل العزم للمحور الخلفي.",
+        "steeringFeel": "توجيه دقيق ومساعد جيداً، مع استجابة تدريجية تكتسب وزناً مع زيادة السرعة.",
+        "balance": "ثقيلة لكن متوازنة؛ المحور الخلفي الكهربائي يساعد على تدوير السيارة في المنعطفات والخروج بجذب.",
+        "trackWorthiness": "قادرة على الحلبة، على الرغم من أن وزنها وحجمها يجعلها أكثر ملاءمة للقيادة السريعة على الطرق الواسعة."
+      },
+      "performanceFeel": {
+        "acceleration": "الدفع وحشي وفوري: المحرك الكهربائي يملأ فجوة العزم قبل أن يطلق محرك 8 أسطوانات كل إمكاناته. من 0 إلى 200 كم/س تشعر وكأنها قطار سريع.",
+        "powerDelivery": "تسليم خطي لكن بطابع محرك 8 أسطوانات واضح: ناعم عند انخفاض الدورات، عنيف عندما يعمل التيربو والمحرك الكهربائي معاً.",
+        "turboResponse": "تأخير طفيف أقل من عُشر ثانية، يعوضه الاستجابة الفورية للمحرك الكهربائي.",
+        "engineSound": "زمجرة محرك 8 أسطوانات أي إم جي عميقة ومعدنية؛ تفتح الأوضاع الرياضية الصمامات لصوت أكثر عدوانية وضوضاء.",
+        "transmission": "تغييرات سريعة وحاسمة في أوضاع سبورت بلس؛ في الراحة تكون ناعمة وغير محسوسة تقريباً في المدينة."
+      },
+      "dailyDriving": {
+        "comfort": "في وضع الراحة، ينعم التعليق بشكل ملحوظ وتصبح المقصورة هادئة لسيارة جي تي عالية الأداء.",
+        "visibility": "الرؤية الأمامية جيدة، لكن الأعمدة الخلفية السميكة والغطاء الطويل يقللان من الرؤية أثناء المناورات.",
+        "practicality": "صندوق الأمتعة 382 لتر مقبول لرحلات نهاية الأسبوع؛ المقاعد الخلفية للحالات الطارئة.",
+        "noise": "في الوضع الكهربي يكاد يكون صامتاً؛ في الوضع الهجين، ينفصل محرك 8 أسطوانات أثناء التباطؤ ويعود بصوت عميق.",
+        "fuelEfficiency": "متوسط 11.5 لتر/100 كم في الاستخدام المختلط؛ النطاق الكهربائي 12 كم يغطي الرحلات الحضرية القصيرة."
+      }
+    }
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي (فورماتيك بلس)",
+  "electric": {
+    "batteryCapacity": 14.8,
+    "electricRange": 40,
+    "charging": {
+      "ac": {
+        "power": 11,
+        "time": 3
+      },
+      "dc": {
+        "power": 0,
+        "time": {
+          "value": 0,
+          "percentage": 0
+        }
+      }
+    },
+    "motor": {
+      "type": "Synchronous",
+      "count": 1,
+      "power": {
+        "value": 145,
+        "unit": "kW"
+      },
+      "torque": {
+        "value": 280,
+        "unit": "Nm"
+      }
+    }
+  },
+  "environmental": {
+    "es": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "Etiqueta ECO"
+    },
+    "en": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "ECO Label"
+    },
+    "fr": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "Label ECO"
+    },
+    "ar": {
+      "emissions": {
+        "value": 235,
+        "unit": "g/km"
+      },
+      "rating": "E",
+      "label": "ملصق ECO"
+    }
+  }
+}

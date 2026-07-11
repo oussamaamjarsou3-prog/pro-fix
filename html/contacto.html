@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+    <title data-i18n="contact.pageTitle">Contacto | CarSpecio</title>
+    <meta name="description" data-i18n="contact.pageDescription" content="Contacta con CarSpecio para consultas, publicidad, sugerencias o soporte. Respuesta rápida garantizada.">
+    <link rel="canonical" href="https://carspecio.com/contacto.html">
+    <meta property="og:title" content="Contacto | CarSpecio">
+    <meta property="og:description" content="Contacta con CarSpecio para consultas, publicidad, sugerencias o soporte.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/contacto.html">
+    <meta property="og:image" content="https://carspecio.com/images/hero-incio.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contacto | CarSpecio">
+    <meta name="twitter:description" content="Contacta con CarSpecio para consultas, publicidad, sugerencias o soporte.">
+    <meta name="twitter:image" content="https://carspecio.com/images/hero-incio.png">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/home-global.css">
+    <link rel="stylesheet" href="css/lang-dropdown.css">
+    <link rel="stylesheet" href="css/home-dashboard.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mega-menu-full.css">
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="dash-home">
+<a href="#main-content" class="skip-link" data-i18n="a11y.skipToContent">Saltar al contenido principal</a>
+
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact" class="active">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="dash-hero" aria-labelledby="contactHeroTitle">
+        <div class="dash-hero-bg" style="background-image: url('images/contacto.png')"></div>
+        <div class="dash-hero-overlay"></div>
+        <div class="container dash-hero-inner">
+            <p class="hero-eyebrow" data-i18n="contact.eyebrow">PONTE EN CONTACTO</p>
+            <h1 id="contactHeroTitle" data-i18n="contact.heroTitle">¿Preguntas sobre coches <span class="accent">premium</span>?</h1>
+            <p class="hero-popular" data-i18n="contact.heroSubtitle">Escríbenos directamente. Respondemos en menos de 24 horas con Información completa y personalizada.</p>
+        </div>
+    </section>
+
+    <section class="dash-section" aria-labelledby="contactFormTitle">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-form-box">
+                    <div class="section-head">
+                        <h2 id="contactFormTitle" data-i18n="contact.formTitle">Formulario de contacto</h2>
+                        <p data-i18n="contact.formSubtitle">Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="contactName" data-i18n="contact.fullName">Nombre completo *</label>
+                            <input type="text" id="contactName" name="name" required aria-required="true" data-i18n-placeholder="contact.namePlaceholder" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail" data-i18n="contact.emailLabel">Correo electrónico *</label>
+                            <input type="email" id="contactEmail" name="email" required aria-required="true" data-i18n-placeholder="contact.emailPlaceholder" placeholder="tu@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactPhone" data-i18n="contact.phoneLabel">Teléfono (opcional)</label>
+                            <input type="tel" id="contactPhone" name="phone" data-i18n-placeholder="contact.phonePlaceholder" placeholder="+34 600 000 000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject" data-i18n="contact.subjectLabel">Asunto *</label>
+                            <select id="contactSubject" name="subject" required aria-required="true">
+                                <option value="" data-i18n="contact.subjectSelect">-- Selecciona un tema --</option>
+                                <option value="general" data-i18n="contact.subjectGeneral">Consulta general</option>
+                                <option value="comparison" data-i18n="contact.subjectComparison">Ayuda con comparativas</option>
+                                <option value="calculator" data-i18n="contact.subjectCalculator">Ayuda con calculadoras</option>
+                                <option value="review" data-i18n="contact.subjectReview">Comentario sobre reviews</option>
+                                <option value="business" data-i18n="contact.subjectBusiness">Propuesta comercial</option>
+                                <option value="other" data-i18n="contact.subjectOther">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage" data-i18n="contact.messageLabel">Mensaje *</label>
+                            <textarea id="contactMessage" name="message" required aria-required="true" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Cuéntanos qué necesitas..." rows="6"></textarea>
+                        </div>
+
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="contactPrivacy" name="privacy" required aria-required="true">
+                            <label for="contactPrivacy" data-i18n="contact.privacyConsent">Acepto la política de privacidad y el tratamiento de datos *</label>
+                        </div>
+
+                        <button type="submit" class="hero-btn" style="width: 100%;" data-i18n="contact.submitBtn">Enviar mensaje</button>
+                        <p class="form-note" data-i18n="contact.requiredNote">Los campos marcados con * son obligatorios.</p>
+                    </form>
+
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </div>
+
+                <div class="contact-info-box">
+                    <div class="section-head">
+                        <h2 data-i18n="contact.infoTitle">Información de contacto</h2>
+                        <p data-i18n="contact.infoSubtitle">Múltiples formas de llegar a nuestro equipo.</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3 data-i18n="contact.emailHeading"> Correo electrónico</h3>
+                        <p><a href="mailto:contacto@carspecio.com">contacto@carspecio.com</a></p>
+                        <p style="font-size: 13px; color: var(--text-secondary); margin-top: 6px;" data-i18n="contact.emailNote">Respuesta en menos de 24 horas</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3 data-i18n="contact.phoneHeading"> Teléfono</h3>
+                        <p><a href="tel:+34643275943">+34 643 275 943</a></p>
+                        <p style="font-size: 13px; color: var(--text-secondary); margin-top: 6px;" data-i18n="contact.phoneNote">Lunes a viernes, 9:00-18:00 (hora España)</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3 data-i18n="contact.locationHeading"> Ubicación</h3>
+                        <p data-i18n="contact.locationValue">Madrid, España</p>
+                        <p style="font-size: 13px; color: var(--text-secondary); margin-top: 6px;" data-i18n="contact.locationNote">Sede central de CarSpecio - visitanos en redes sociales</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3 data-i18n="contact.hoursHeading"> Horario de atención</h3>
+                        <p><strong data-i18n="contact.hoursWeekday">Lunes a Viernes:</strong> 9:00 - 18:00</p>
+                        <p><strong data-i18n="contact.hoursSaturday">Sábado:</strong> 10:00 - 14:00</p>
+                        <p><strong data-i18n="contact.hoursSunday">Domingo:</strong> <span data-i18n="contact.closed">Cerrado</span></p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3 data-i18n="contact.socialHeading"> Redes sociales</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram" class="social-link"> Instagram</a>
+                            <a href="#" aria-label="YouTube" class="social-link"> YouTube</a>
+                            <a href="#" aria-label="TikTok" class="social-link"> TikTok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dash-section dash-section--alt" aria-labelledby="faqTitle">
+        <div class="container">
+            <div class="section-head">
+                <h2 id="faqTitle" data-i18n="contact.faqTitle">Preguntas frecuentes</h2>
+                <p data-i18n="contact.faqSubtitle">Respuestas rápidas a las dudas más comunes.</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq1Q">¿Cuánto tiempo tarda en responder CarSpecio?</h3>
+                    <p data-i18n="contact.faq1A">Respondemos todos los mensajes en menos de 24 horas. Si es urgente, llámanos directamente al teléfono que aparece arriba.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq2Q">¿Puedo pedir un review personalizado de un coche?</h3>
+                    <p data-i18n="contact.faq2A">Sí. Envíanos un mensaje indicando el modelo que te interesa y nuestro equipo evalúa la posibilidad de hacer un análisis exclusivo para ti.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq3Q">¿Acepta CarSpecio publicidad o colaboraciones?</h3>
+                    <p data-i18n="contact.faq3A">Por supuesto. Si eres una marca o tienes una propuesta de colaboración, selecciona "Propuesta comercial" en el asunto del formulario.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq4Q">¿Cómo puedo reportar un error o dar sugerencias?</h3>
+                    <p data-i18n="contact.faq4A">Usa el formulario con el asunto "Comentario sobre reviews" o "Consulta general" y cuéntanos qué mejorar. Tu feedback nos ayuda a crecer.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq5Q">¿Venden coches en CarSpecio?</h3>
+                    <p data-i18n="contact.faq5A">No. CarSpecio es una plataforma de análisis y comparativas. No vendemos vehículos, pero te ayudamos a elegir el mejor.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="contact.faq6Q">¿Mis datos están seguros?</h3>
+                    <p data-i18n="contact.faq6A">Sí. Usamos encriptación SSL y cumplimos con GDPR. Tus datos solo se usan para responder tu consulta y nunca se comparten con terceros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+</main>
+
+<script src="js/flag-icons.js"></script>
+<script src="js/mega-menu-data.js"></script>
+<script src="js/mega-menu.js"></script>
+<script src="js/i18n.js"></script>
+<script src="system/js/dropdowns.js"></script>
+<script src="js/script.js"></script>
+<script>
+    // Contact form functionality
+    document.addEventListener('DOMContentLoaded', () => {
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                const formData = {
+                    name: document.getElementById('contactName').value,
+                    email: document.getElementById('contactEmail').value,
+                    phone: document.getElementById('contactPhone').value,
+                    subject: document.getElementById('contactSubject').value,
+                    message: document.getElementById('contactMessage').value,
+                    timestamp: new Date().toISOString()
+                };
+
+                // For now, store in localStorage as demo
+                let submissions = JSON.parse(localStorage.getItem('contactSubmissions')) || [];
+                submissions.push(formData);
+                localStorage.setItem('contactSubmissions', JSON.stringify(submissions));
+
+                // Show success message
+                const successMsg = typeof t === 'function' ? t('contact.successMessage') : '✓ Mensaje enviado correctamente. Nos pondremos en contacto en breve.';
+                formMessage.innerHTML = '<p style="color: var(--accent); font-weight: 600;">' + successMsg + '</p>';
+                formMessage.style.display = 'block';
+
+                // Reset form
+                contactForm.reset();
+
+                // Hide message after 5 seconds
+                setTimeout(() => {
+                    formMessage.style.display = 'none';
+                }, 5000);
+
+                console.log('Contact form submitted:', formData);
+            });
+        }
+    });
+</script>
+
+<script src="js/cookie-consent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/analytics-events.js" defer></script>
+</body>
+
+</html>
+
+
+
+

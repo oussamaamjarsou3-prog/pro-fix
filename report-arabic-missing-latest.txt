@@ -1,0 +1,2 @@
+﻿Report written to report-arabic-missing.txt
+Missing features: 43

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<!--
+    CarSpecio Guide Page Template
+    Generates static HTML pages for each guide from guide data
+    Output: html/guias/[slug].html
+-->
+<html lang="es" data-i18n-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Dynamic SEO Metadata -->
+    <title>Cómo cambiar los frenos del coche | Guía CarSpecio</title>
+    <meta name="description" content="Guía paso a paso para cambiar pastillas y discos de freno. Mantén la seguridad de tu vehículo con este tutorial.">
+    <meta name="keywords" content="cambiar frenos, pastillas freno, mantenimiento coche, seguridad vehículo, discos freno">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cómo cambiar los frenos del coche | Guía CarSpecio">
+    <meta property="og:description" content="Guía paso a paso para cambiar pastillas y discos de freno. Mantén la seguridad de tu vehículo con este tutorial.">
+    <meta property="og:image" content="../../images/placeholder.svg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://carspecio.com/guias/cambiar-frenos.html">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cómo cambiar los frenos del coche | Guía CarSpecio">
+    <meta name="twitter:description" content="Guía paso a paso para cambiar pastillas y discos de freno. Mantén la seguridad de tu vehículo con este tutorial.">
+    <meta name="twitter:image" content="../../images/placeholder.svg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://carspecio.com/guias/cambiar-frenos.html">
+    <link rel="alternate" hreflang="es" href="https://carspecio.com/guias/cambiar-frenos.html">
+    <link rel="alternate" hreflang="en" href="https://carspecio.com/guias/cambiar-frenos.html">
+    <link rel="alternate" hreflang="fr" href="https://carspecio.com/guias/cambiar-frenos.html">
+    <link rel="alternate" hreflang="ar" href="https://carspecio.com/guias/cambiar-frenos.html">
+    <link rel="alternate" hreflang="x-default" href="https://carspecio.com/guias/cambiar-frenos.html">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo cambiar los frenos del coche: pastillas y discos",
+  "description": "Aprende a cambiar las pastillas y discos de freno de forma segura. Guía detallada para mantener la seguridad de tu vehículo.",
+  "author": {
+    "@type": "Person",
+    "name": "CarSpecio Technical Team"
+  },
+  "datePublished": "2026-06-20",
+  "dateModified": "2026-06-20",
+  "image": "../../images/placeholder.svg",
+  "articleSection": "Mantenimiento",
+  "keywords": "brakes, maintenance, safety, DIY",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CarSpecio",
+    "url": "https://carspecio.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://carspecio.com/guias/cambiar-frenos.html"
+  }
+}
+    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cada cuánto debo cambiar las pastillas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del uso, pero generalmente cada 30.000-50.000 km. Revisa el espesor mínimo recomendado por el fabricante."
+      }
+    }
+  ]
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": {
+        "@id": "https://carspecio.com/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guías",
+      "item": {
+        "@id": "https://carspecio.com/guias/index.html"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mantenimiento",
+      "item": {
+        "@id": "https://carspecio.com/guias/index.html#maintenance"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Cómo cambiar los frenos del coche: pastillas y discos",
+      "item": {
+        "@id": "https://carspecio.com/guias/cambiar-frenos.html"
+      }
+    }
+  ]
+}</script>
+
+    <link rel="icon" href="../assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="../assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
+    <!-- Theme: apply before paint to avoid flash -->
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/guide-page-bundle.min.css">
+
+    <!-- Content renders immediately -->
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress" role="progressbar" aria-label="Progreso de lectura" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" data-reading-time="12">
+        <div class="reading-progress__bar" id="readingProgressBar"></div>
+        <span class="reading-progress__tooltip" id="readingProgressTooltip" aria-hidden="true"></span>
+    </div>
+
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+    <a href="../index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="../index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="../compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="../reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="../diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="../guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="../herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="../contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="guide-breadcrumb">
+        <a href="../index.html" data-i18n="guides.breadcrumbHome">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html" data-i18n="guides.breadcrumbGuides">Guías</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="index.html#maintenance">Mantenimiento</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current" aria-current="page"><span class="lang-title" data-lang="es">Cómo cambiar los frenos del coche: pastillas y discos</span><span class="lang-title" data-lang="en" hidden>How to Change Car Brakes: Pads and Discs</span><span class="lang-title" data-lang="fr" hidden>Comment changer les freins de sa voiture : plaquettes et disques</span><span class="lang-title" data-lang="ar" hidden>كيفية تغيير فرامل السيارة: الوسادات والأقراص</span></span>
+    </nav>
+
+    <div id="a11yAnnouncer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Hero Section -->
+    <section class="guide-hero" id="heroSection" style="background-image: url('../../images/placeholder.svg')">
+        <div class="guide-hero-overlay"></div>
+        <div class="guide-hero-content">
+            <span class="guide-category-badge">Mantenimiento</span>
+            <h1 id="guideTitle"><span class="lang-title" data-lang="es">Cómo cambiar los frenos del coche: pastillas y discos</span><span class="lang-title" data-lang="en" hidden>How to Change Car Brakes: Pads and Discs</span><span class="lang-title" data-lang="fr" hidden>Comment changer les freins de sa voiture : plaquettes et disques</span><span class="lang-title" data-lang="ar" hidden>كيفية تغيير فرامل السيارة: الوسادات والأقراص</span></h1>
+            <p class="guide-meta">
+                <span class="guide-author">CarSpecio Technical Team</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-date">2026-06-20</span>
+                <span class="guide-sep">•</span>
+                <span class="guide-reading-time">12</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Author Block -->
+    <div class="author-block">
+        <div class="author-block__avatar" aria-hidden="true"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-4 3.6-6 7-6s7 2 7 6"/></svg></div>
+        <div class="author-block__info">
+            <span class="author-block__name">CarSpecio Technical Team</span>
+            <span class="author-block__meta"><span class="author-block__updated">Actualizado el {date}: 2026-06-20</span> · <span class="author-block__difficulty guide-card-difficulty guide-card-difficulty--intermediate">Medio</span></span>
+            <span class="author-block__editorial">Contenido revisado por el equipo editorial de CarSpecio.</span>
+        </div>
+    </div>
+
+    <!-- Freshness Banner -->
+    
+
+    <!-- Guide Layout -->
+    <div class="guide-layout">
+        <!-- Sidebar: TOC + Summary -->
+        <aside class="guide-sidebar">
+            <!-- Key Takeaways -->
+            
+
+            <!-- Summary Box -->
+            <div class="guide-summary-box" id="summaryBox">
+                <h2 data-i18n="guides.summaryTitle">Resumen rápido</h2>
+                <div class="lang-block" data-lang="es"><h4>Resumen rápido</h4><ul><li>Siempre trabaja con el coche sobre caballetes</li><li>No desconectes la manguera de la pinza</li><li>Empuja el pistón antes de colocar las pastillas nuevas</li><li>Revisa el nivel de líquido de frenos tras el montaje</li><li>Pisa el pedal varias veces antes de circular</li></ul></div><div class="lang-block" data-lang="en" hidden><h4>Quick Summary</h4><ul><li>Always work with the car on stands</li><li>Do not disconnect the caliper hose</li><li>Push the piston before installing new pads</li><li>Check brake fluid level after assembly</li><li>Pump the pedal several times before driving</li></ul></div><div class="lang-block" data-lang="fr" hidden><h4>Résumé rapide</h4><ul><li>Travaillez toujours avec la voiture sur chandelles</li><li>Ne déconnectez pas le tuyau de l'étrier</li><li>Repoussez le piston avant d'installer les nouvelles plaquettes</li><li>Vérifiez le niveau de liquide de frein après le montage</li><li>Pompez la pédale plusieurs fois avant de rouler</li></ul></div><div class="lang-block" data-lang="ar" hidden><h4>ملخص سريع</h4><ul><li>اعمل دائماً مع السيارة على الحوامل</li><li>لا تفصل خرطوم الكاليبر</li><li>ادفع المكبس قبل تركيب الوسادات الجديدة</li><li>تحقق من مستوى سائل الفرامل بعد التجميع</li><li>اضغط الدواسة عدة مرات قبل القيادة</li></ul></div>
+            </div>
+
+            <!-- Table of Contents -->
+            <nav class="guide-toc" aria-label="Tabla de contenidos" id="guideToc">
+                <button class="guide-toc__toggle" id="tocToggle" type="button" aria-expanded="true" aria-controls="guideTocItems">
+                    <span data-i18n="guides.tocTitle">Contenido</span>
+                    <svg class="guide-toc__chevron" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+                </button>
+                <ol id="guideTocItems"><li><a href="#seguridad">1. Medidas de seguridad</a></li><li><a href="#herramientas">2. Herramientas necesarias</a></li><li><a href="#pastillas">3. Cambiar las pastillas</a></li><li><a href="#summaryBox">4. Resumen rápido</a></li><li><a href="#faq">5. Preguntas frecuentes</a></li></ol>
+            </nav>
+
+            <!-- Sidebar: Related Guides -->
+            <nav class="sidebar-related" aria-label="Guías relacionadas"><h3 class="sidebar-related__heading">Más guías</h3><a href="cambiar-aceite.html" class="sidebar-related__item"><span class="sidebar-related__time">10 min</span><span class="sidebar-related__title">Cómo cambiar el aceite del coche paso a paso</span></a><a href="cambiar-bateria.html" class="sidebar-related__item"><span class="sidebar-related__time">6 min</span><span class="sidebar-related__title">Cómo cambiar la batería del coche paso a paso</span></a></nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content" class="guide-main">
+            <!-- Intro -->
+            <div class="guide-intro"><div class="lang-block" data-lang="es"><p>Los frenos son el sistema de seguridad más importante de tu coche. Cambiar las pastillas es una tarea que requiere precisión pero que puedes hacer en tu garaje con las herramientas adecuadas.</p></div><div class="lang-block" data-lang="en" hidden><p>Brakes are the most important safety system in your car. Changing brake pads is a task that requires precision but can be done in your garage with the right tools.</p></div><div class="lang-block" data-lang="fr" hidden><p>Les freins sont le système de sécurité le plus important de votre voiture. Changer les plaquettes est une tâche qui exige de la précision mais que vous pouvez faire dans votre garage avec les bons outils.</p></div><div class="lang-block" data-lang="ar" hidden><p>الفرامل هي أهم نظام أمان في سيارتك. تغيير وسادات الفرامل هو مهمة تتطلب الدقة لكن يمكن إنجازها في المرآب باستخدام الأدوات المناسبة.</p></div></div>
+
+            <!-- Content Sections -->
+            <article class="guide-content">
+                <div class="lang-block" data-lang="es"><section id="seguridad"><h2 class="section-heading">Medidas de seguridad<a class="section-anchor" href="#seguridad" data-section-id="seguridad" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Antes de empezar, asegúrate de tener el coche aparcado en superficie plana, con el freno de mano activado y las ruedas bloqueadas. Nunca trabajes bajo un coche sujeto únicamente por un gato hidráulico.</p></div><div class="callout callout--warning">El sistema de frenos es crítico para la seguridad. Si tienes dudas, acude a un taller profesional.</div></section><section id="herramientas"><h2 class="section-heading">Herramientas necesarias<a class="section-anchor" href="#herramientas" data-section-id="herramientas" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Necesitarás: juego de pastillas de freno nuevas, discos nuevos (si los vas a cambiar), una llave de carraca con vasos, un pistón de freno o pinza grande, guantes, gafas y un recipiente para recoger el líquido de frenos.</p></div></section><section id="pastillas"><h2 class="section-heading">Cambiar las pastillas<a class="section-anchor" href="#pastillas" data-section-id="pastillas" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Retira la rueda. Localiza la pinza de freno y retira los tornillos guía. Levanta la pinza sin desconectar la manguera. Extrae las pastillas viejas. Empuja el pistón hacia dentro con la pinza o el pistón de freno. Coloca las pastillas nuevas y vuelve a montar la pinza.</p></div></section></div><div class="lang-block" data-lang="en" hidden><section id="safety"><h2 class="section-heading">Safety Measures<a class="section-anchor" href="#safety" data-section-id="safety" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Before starting, make sure the car is parked on a flat surface, with the handbrake engaged and wheels blocked. Never work under a car held only by a hydraulic jack.</p></div></section><section id="tools"><h2 class="section-heading">Tools Needed<a class="section-anchor" href="#tools" data-section-id="tools" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>You will need: new brake pad set, new discs (if changing them), a ratchet wrench with sockets, a brake piston or large pliers, gloves, goggles, and a container to collect brake fluid.</p></div></section><section id="pads"><h2 class="section-heading">Changing the Brake Pads<a class="section-anchor" href="#pads" data-section-id="pads" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Remove the wheel. Locate the brake caliper and remove the guide bolts. Lift the caliper without disconnecting the hose. Remove the old pads. Push the piston inward with pliers or a brake piston tool. Install the new pads and reassemble the caliper.</p></div></section></div><div class="lang-block" data-lang="fr" hidden><section id="securite"><h2 class="section-heading">Mesures de sécurité<a class="section-anchor" href="#securite" data-section-id="securite" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Avant de commencer, assurez-vous que la voiture est garée sur une surface plane, avec le frein à main serré et les roues bloquées. Ne travaillez jamais sous une voiture retenue uniquement par un cric hydraulique.</p></div></section><section id="outils"><h2 class="section-heading">Outils nécessaires<a class="section-anchor" href="#outils" data-section-id="outils" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Vous aurez besoin de : jeu de plaquettes de frein neuves, disques neufs (si vous les changez), une clé à cliquet avec douilles, un repousse-piston ou une grande pince, gants, lunettes et un récipient pour recueillir le liquide de frein.</p></div></section><section id="plaquettes"><h2 class="section-heading">Changer les plaquettes<a class="section-anchor" href="#plaquettes" data-section-id="plaquettes" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>Retirez la roue. Localisez l'étrier de frein et retirez les boulons de guidage. Soulevez l'étrier sans déconnecter le tuyau. Retirez les vieilles plaquettes. Repoussez le piston vers l'intérieur avec une pince ou un repousse-piston. Installez les nouvelles plaquettes et remontez l'étrier.</p></div></section></div><div class="lang-block" data-lang="ar" hidden><section id="safety"><h2 class="section-heading">إجراءات السلامة<a class="section-anchor" href="#safety" data-section-id="safety" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>قبل البدء، تأكد من أن السيارة متوقفة على سطح مستوٍ، مع تفعيل فرمل اليد وإحكام قفل العجلات. لا تعمل أبداً تحت سيارة ممسوكة فقط بواسطة رافعة هيدروليكية.</p></div></section><section id="tools"><h2 class="section-heading">الأدوات اللازمة<a class="section-anchor" href="#tools" data-section-id="tools" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>ستحتاج إلى: مجموعة وسادات فرامل جديدة، أقراص جديدة (إذا كنت ستغيرها)، مفتاح بانة مع بوش، مكبس فرامل أو كباش كبير، قفازات، نظارات، ووعاء لجمع سائل الفرامل.</p></div></section><section id="pads"><h2 class="section-heading">تغيير وسادات الفرامل<a class="section-anchor" href="#pads" data-section-id="pads" aria-label="Copiar enlace a esta sección"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h2><div class="section-body"><p>أزل العجلة. حدد موقع كاليبر الفرامل وأزل البراغي التوجيهية. ارفع الكاليبر دون فصل الخرطوم. أزل الوسادات القديمة. ادفع المكبس للداخل بالكباش أو أداة مكبس الفرامل. ثبت الوسادات الجديدة وأعد تركيب الكاليبر.</p></div></section></div>
+            </article>
+
+            <!-- FAQ -->
+            <section class="guide-faq" id="faq">
+                <h2 data-i18n="guides.faqTitle">Preguntas frecuentes</h2>
+                <div class="faq-list"><div class="lang-block" data-lang="es">
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-0">
+                    ¿Cada cuánto debo cambiar las pastillas?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="faq-answer-0" hidden role="region">
+                    <p>Depende del uso, pero generalmente cada 30.000-50.000 km. Revisa el espesor mínimo recomendado por el fabricante.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="en" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="en-faq-answer-0">
+                    How often should I change the brake pads?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="en-faq-answer-0" hidden role="region">
+                    <p>It depends on usage, but generally every 30,000-50,000 km. Check the minimum thickness recommended by the manufacturer.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="fr" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="fr-faq-answer-0">
+                    Combien de fois dois-je changer les plaquettes ?
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="fr-faq-answer-0" hidden role="region">
+                    <p>Cela dépend de l'utilisation, mais généralement tous les 30 000-50 000 km. Vérifiez l'épaisseur minimale recommandée par le fabricant.</p>
+                </div>
+            </div>
+        </div><div class="lang-block" data-lang="ar" hidden>
+            <div class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="ar-faq-answer-0">
+                    كم مرة يجب تغيير وسادات الفرامل؟
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" id="ar-faq-answer-0" hidden role="region">
+                    <p>يعتمد على الاستخدام، ولكن عادةً كل 30,000-50,000 كم. تحقق من السماكة الدنيا الموصى بها من قبل الشركة المصنعة.</p>
+                </div>
+            </div>
+        </div></div>
+            </section>
+
+            <!-- Social Share -->
+            <section class="guide-share" aria-label="Compartir guía">
+                <p class="guide-share__label" data-i18n="guides.shareLabel">Comparte esta guía</p>
+                <div class="guide-share__buttons" role="group" aria-label="Opciones para compartir">
+                    <a class="guide-share__btn guide-share__btn--whatsapp" id="shareWhatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en WhatsApp">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.854L.054 23.25a.75.75 0 0 0 .916.916l5.396-1.478A11.954 11.954 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.712 9.712 0 0 1-4.95-1.355l-.354-.212-3.664 1.003 1.003-3.664-.212-.354A9.712 9.712 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--facebook" id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--twitter" id="shareTwitter" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en X (Twitter)">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L2.25 2.25h6.988l4.265 5.638 4.741-5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <span>X</span>
+                    </a>
+                    <a class="guide-share__btn guide-share__btn--linkedin" id="shareLinkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="Compartir en LinkedIn">
+                        <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <button class="guide-share__btn guide-share__btn--copy" id="shareCopy" type="button" aria-label="Copiar enlace">
+                        <svg class="share-icon-copy" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <svg class="share-icon-check" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span class="share-copy-label" data-i18n="guides.shareCopyLink">Copiar enlace</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Related Guides -->
+            <section class="guide-related" id="related-guides">
+                <h2 data-i18n="guides.relatedGuidesTitle">Guías relacionadas</h2>
+                <div class="guide-cards">
+            <a href="cambiar-aceite.html" class="guide-card">
+                <div class="guide-card-meta">
+                    <span class="guide-card-category">Mantenimiento</span><span class="guide-card-difficulty guide-card-difficulty--beginner">Fácil</span><span class="guide-card-reading-time">10 min</span>
+                </div>
+                <span class="lang-card-content" data-lang="es"><h3>Cómo cambiar el aceite del coche paso a paso</h3><p>Guía completa con pasos detallados, herramientas necesarias y consejos profesionales para cambiar el aceite del motor en casa y ahorrar dinero.</p></span><span class="lang-card-content" data-lang="en" hidden><h3>How to Change Your Car Oil Step by Step</h3><p>Complete professional guide to changing engine oil at home: tools, oil selection, detailed steps, and mechanic tips to save money.</p></span><span class="lang-card-content" data-lang="fr" hidden><h3>Comment changer l'huile de sa voiture étape par étape</h3><p>Guide complet pour changer l'huile moteur à domicile : outils, choix de l'huile, étapes détaillées et conseils de professionnel pour économiser sur l'entretien.</p></span><span class="lang-card-content" data-lang="ar" hidden><h3>كيفية تغيير زيت السيارة خطوة بخطوة</h3><p>دليل احترافي شامل لتغيير زيت المحرك في المنزل: الأدوات، اختيار الزيت الصحيح، خطوات مفصلة ونصائح من ميكانيكي خبير.</p></span>
+            </a>
+        
+            <a href="cambiar-bateria.html" class="guide-card">
+                <div class="guide-card-meta">
+                    <span class="guide-card-category">Mantenimiento</span><span class="guide-card-difficulty guide-card-difficulty--beginner">Fácil</span><span class="guide-card-reading-time">6 min</span>
+                </div>
+                <span class="lang-card-content" data-lang="es"><h3>Cómo cambiar la batería del coche paso a paso</h3><p>Guía completa para cambiar la batería del coche en casa: elige la batería correcta (AGM, EFB, convencional), procedimiento exacto y cómo proteger la electrónica. Ahorra 40-80 euros.</p></span><span class="lang-card-content" data-lang="en" hidden><h3>How to Change Your Car Battery Step by Step</h3><p>Complete professional guide to changing your car battery at home: choose the right battery (AGM, EFB, conventional), exact procedure, electronics protection and coding explained.</p></span><span class="lang-card-content" data-lang="fr" hidden><h3>Comment changer la batterie de voiture pas à pas</h3><p>Guide complet pour changer la batterie de voiture à la maison : choisir la bonne batterie AGM, EFB ou classique, procédure exacte et codage expliqué. Économisez 40 à 80 euros.</p></span><span class="lang-card-content" data-lang="ar" hidden><h3>كيفية تغيير بطارية السيارة خطوة بخطوة</h3><p>دليل احترافي شامل لتغيير بطارية السيارة في المنزل: اختيار البطارية الصحيحة AGM أو EFB أو تقليدية، الإجراء الدقيق وحماية الإلكترونيات.</p></span>
+            </a>
+        </div>
+            </section>
+
+            <!-- Related Cars -->
+            <section class="guide-related-cars" id="related-cars">
+                <h2 data-i18n="guides.relatedCarsTitle">Coches relacionados</h2>
+                <div class="car-mini-cards">
+            <a href="../porsche-911.html" class="car-mini-card">
+                <span class="car-mini-name">Porsche 911</span>
+                <span class="car-mini-arrow" aria-hidden="true">→</span>
+            </a>
+        
+            <a href="../nissan-gtr.html" class="car-mini-card">
+                <span class="car-mini-name">Nissan GT-R</span>
+                <span class="car-mini-arrow" aria-hidden="true">→</span>
+            </a>
+        </div>
+            </section>
+
+            <!-- Feedback -->
+            <section class="guide-feedback" id="guideFeedback" aria-label="Valoración de la guía">
+                <p class="guide-feedback__question" data-i18n="guides.feedbackQuestion">¿Te ha resultado útil esta guía?</p>
+                <div class="guide-feedback__buttons" role="group" aria-label="Valorar guía">
+                    <button class="guide-feedback__btn guide-feedback__btn--yes" id="feedbackYes" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                        <span data-i18n="guides.feedbackYes">Sí</span>
+                    </button>
+                    <button class="guide-feedback__btn guide-feedback__btn--no" id="feedbackNo" type="button" aria-pressed="false">
+                        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10z"/><path d="M17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>
+                        <span data-i18n="guides.feedbackNo">No</span>
+                    </button>
+                </div>
+                <p class="guide-feedback__thanks" id="feedbackThanks" aria-live="polite" hidden></p>
+            </section>
+
+            <!-- Reading Completion CTA -->
+            <div class="completion-cta" id="completionCta" hidden aria-live="polite">
+                <button class="completion-cta__close" id="completionCtaClose" type="button" aria-label="Cerrar">✕</button>
+                <p class="completion-cta__title" data-i18n="guides.completionTitle">¿Has terminado de leer?</p>
+                <div class="completion-cta__actions">
+                    <a href="index.html" class="completion-cta__btn completion-cta__btn--index" data-i18n="guides.completionIndex">Ver todas las guías</a>
+                    <a href="cambiar-aceite.html" class="completion-cta__btn completion-cta__btn--related">Leer siguiente: Cómo cambiar el aceite del coche paso a paso</a>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <section class="guide-cta">
+                <h2 data-i18n="guides.ctaTitle">¿Necesitas más ayuda?</h2>
+                <a href="../contacto.html" class="hero-btn" data-i18n="guides.ctaButton">Contactar con CarSpecio</a>
+            </section>
+        </main>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Volver al inicio de la página" hidden>
+        <svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="../reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="../compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="../noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="../guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="../diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="../herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="../marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="../contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="../privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="../cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="../terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="../../js/mega-menu-data.js" defer></script>
+    <script src="../../js/mega-menu.js" defer></script>
+    <script src="../../js/flag-icons.js" defer></script>
+    <script src="../../js/i18n.js" defer></script>
+    <script src="../../js/search-index.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+    <script src="../../js/cookie-consent.js" defer></script>
+    <script src="../../js/analytics.js" defer></script>
+    <script src="../../js/analytics-events.js" defer></script>
+
+    <script>
+        const guideDataFile = '../../system/data/guides/cambiar-frenos.json';
+        window.__preloadedGuideData = {"id":"cambiar-frenos","slug":"cambiar-frenos","category":"maintenance","author":"CarSpecio Technical Team","publishedAt":"2026-06-20","updatedAt":"2026-06-20","heroImage":"../../images/placeholder.svg","readingTime":12,"difficulty":"intermediate","status":"active","content":{"es":{"title":"Cómo cambiar los frenos del coche: pastillas y discos","excerpt":"Aprende a cambiar las pastillas y discos de freno de forma segura. Guía detallada para mantener la seguridad de tu vehículo.","intro":"Los frenos son el sistema de seguridad más importante de tu coche. Cambiar las pastillas es una tarea que requiere precisión pero que puedes hacer en tu garaje con las herramientas adecuadas.","sections":[{"id":"seguridad","title":"Medidas de seguridad","content":"\u003cp>Antes de empezar, asegúrate de tener el coche aparcado en superficie plana, con el freno de mano activado y las ruedas bloqueadas. Nunca trabajes bajo un coche sujeto únicamente por un gato hidráulico.\u003c/p>","callout":{"type":"warning","text":"El sistema de frenos es crítico para la seguridad. Si tienes dudas, acude a un taller profesional."}},{"id":"herramientas","title":"Herramientas necesarias","content":"\u003cp>Necesitarás: juego de pastillas de freno nuevas, discos nuevos (si los vas a cambiar), una llave de carraca con vasos, un pistón de freno o pinza grande, guantes, gafas y un recipiente para recoger el líquido de frenos.\u003c/p>"},{"id":"pastillas","title":"Cambiar las pastillas","content":"\u003cp>Retira la rueda. Localiza la pinza de freno y retira los tornillos guía. Levanta la pinza sin desconectar la manguera. Extrae las pastillas viejas. Empuja el pistón hacia dentro con la pinza o el pistón de freno. Coloca las pastillas nuevas y vuelve a montar la pinza.\u003c/p>"}],"faq":[{"question":"¿Cada cuánto debo cambiar las pastillas?","answer":"Depende del uso, pero generalmente cada 30.000-50.000 km. Revisa el espesor mínimo recomendado por el fabricante."}],"seo":{"title":"Cómo cambiar los frenos del coche | Guía CarSpecio","description":"Guía paso a paso para cambiar pastillas y discos de freno. Mantén la seguridad de tu vehículo con este tutorial.","keywords":["cambiar frenos","pastillas freno","mantenimiento coche","seguridad vehículo","discos freno"]}},"en":{"title":"How to Change Car Brakes: Pads and Discs","excerpt":"Learn to change brake pads and discs safely. Detailed guide to maintain your vehicle's safety.","intro":"Brakes are the most important safety system in your car. Changing brake pads is a task that requires precision but can be done in your garage with the right tools.","sections":[{"id":"safety","title":"Safety Measures","content":"\u003cp>Before starting, make sure the car is parked on a flat surface, with the handbrake engaged and wheels blocked. Never work under a car held only by a hydraulic jack.\u003c/p>"},{"id":"tools","title":"Tools Needed","content":"\u003cp>You will need: new brake pad set, new discs (if changing them), a ratchet wrench with sockets, a brake piston or large pliers, gloves, goggles, and a container to collect brake fluid.\u003c/p>"},{"id":"pads","title":"Changing the Brake Pads","content":"\u003cp>Remove the wheel. Locate the brake caliper and remove the guide bolts. Lift the caliper without disconnecting the hose. Remove the old pads. Push the piston inward with pliers or a brake piston tool. Install the new pads and reassemble the caliper.\u003c/p>"}],"faq":[{"question":"How often should I change the brake pads?","answer":"It depends on usage, but generally every 30,000-50,000 km. Check the minimum thickness recommended by the manufacturer."}],"seo":{"title":"How to Change Car Brakes | CarSpecio Guide","description":"Step-by-step guide to change brake pads and discs. Keep your vehicle safe with this tutorial.","keywords":["change brakes","brake pads","car maintenance","vehicle safety","brake discs"]}},"fr":{"title":"Comment changer les freins de sa voiture : plaquettes et disques","excerpt":"Apprenez à changer les plaquettes et disques de frein en toute sécurité. Guide détaillé pour maintenir la sécurité de votre véhicule.","intro":"Les freins sont le système de sécurité le plus important de votre voiture. Changer les plaquettes est une tâche qui exige de la précision mais que vous pouvez faire dans votre garage avec les bons outils.","sections":[{"id":"securite","title":"Mesures de sécurité","content":"\u003cp>Avant de commencer, assurez-vous que la voiture est garée sur une surface plane, avec le frein à main serré et les roues bloquées. Ne travaillez jamais sous une voiture retenue uniquement par un cric hydraulique.\u003c/p>"},{"id":"outils","title":"Outils nécessaires","content":"\u003cp>Vous aurez besoin de : jeu de plaquettes de frein neuves, disques neufs (si vous les changez), une clé à cliquet avec douilles, un repousse-piston ou une grande pince, gants, lunettes et un récipient pour recueillir le liquide de frein.\u003c/p>"},{"id":"plaquettes","title":"Changer les plaquettes","content":"\u003cp>Retirez la roue. Localisez l'étrier de frein et retirez les boulons de guidage. Soulevez l'étrier sans déconnecter le tuyau. Retirez les vieilles plaquettes. Repoussez le piston vers l'intérieur avec une pince ou un repousse-piston. Installez les nouvelles plaquettes et remontez l'étrier.\u003c/p>"}],"faq":[{"question":"Combien de fois dois-je changer les plaquettes ?","answer":"Cela dépend de l'utilisation, mais généralement tous les 30 000-50 000 km. Vérifiez l'épaisseur minimale recommandée par le fabricant."}],"seo":{"title":"Comment changer les freins de sa voiture | Guide CarSpecio","description":"Guide étape par étape pour changer les plaquettes et disques de frein. Maintenez la sécurité de votre véhicule avec ce tutoriel.","keywords":["changer freins","plaquettes frein","entretien voiture","sécurité véhicule","disques frein"]}},"ar":{"title":"كيفية تغيير فرامل السيارة: الوسادات والأقراص","excerpt":"تعلم كيفية تغيير وسادات وأقراص الفرامل بأمان. دليل مفصل للحفاظ على سلامة مركبتك.","intro":"الفرامل هي أهم نظام أمان في سيارتك. تغيير وسادات الفرامل هو مهمة تتطلب الدقة لكن يمكن إنجازها في المرآب باستخدام الأدوات المناسبة.","sections":[{"id":"safety","title":"إجراءات السلامة","content":"\u003cp>قبل البدء، تأكد من أن السيارة متوقفة على سطح مستوٍ، مع تفعيل فرمل اليد وإحكام قفل العجلات. لا تعمل أبداً تحت سيارة ممسوكة فقط بواسطة رافعة هيدروليكية.\u003c/p>"},{"id":"tools","title":"الأدوات اللازمة","content":"\u003cp>ستحتاج إلى: مجموعة وسادات فرامل جديدة، أقراص جديدة (إذا كنت ستغيرها)، مفتاح بانة مع بوش، مكبس فرامل أو كباش كبير، قفازات، نظارات، ووعاء لجمع سائل الفرامل.\u003c/p>"},{"id":"pads","title":"تغيير وسادات الفرامل","content":"\u003cp>أزل العجلة. حدد موقع كاليبر الفرامل وأزل البراغي التوجيهية. ارفع الكاليبر دون فصل الخرطوم. أزل الوسادات القديمة. ادفع المكبس للداخل بالكباش أو أداة مكبس الفرامل. ثبت الوسادات الجديدة وأعد تركيب الكاليبر.\u003c/p>"}],"faq":[{"question":"كم مرة يجب تغيير وسادات الفرامل؟","answer":"يعتمد على الاستخدام، ولكن عادةً كل 30,000-50,000 كم. تحقق من السماكة الدنيا الموصى بها من قبل الشركة المصنعة."}],"seo":{"title":"كيفية تغيير فرامل السيارة | دليل كارسبيسيو","description":"دليل خطوة بخطوة لتغيير وسادات وأقراص الفرامل. حافظ على سلامة مركبتك مع هذا البرنامج التعليمي.","keywords":["تغيير الفرامل","وسادات الفرامل","صيانة السيارة","سلامة المركبة","أقراص الفرامل"]}}},"summaryBox":{"es":{"title":"Resumen rápido","items":["Siempre trabaja con el coche sobre caballetes","No desconectes la manguera de la pinza","Empuja el pistón antes de colocar las pastillas nuevas","Revisa el nivel de líquido de frenos tras el montaje","Pisa el pedal varias veces antes de circular"]},"en":{"title":"Quick Summary","items":["Always work with the car on stands","Do not disconnect the caliper hose","Push the piston before installing new pads","Check brake fluid level after assembly","Pump the pedal several times before driving"]},"fr":{"title":"Résumé rapide","items":["Travaillez toujours avec la voiture sur chandelles","Ne déconnectez pas le tuyau de l'étrier","Repoussez le piston avant d'installer les nouvelles plaquettes","Vérifiez le niveau de liquide de frein après le montage","Pompez la pédale plusieurs fois avant de rouler"]},"ar":{"title":"ملخص سريع","items":["اعمل دائماً مع السيارة على الحوامل","لا تفصل خرطوم الكاليبر","ادفع المكبس قبل تركيب الوسادات الجديدة","تحقق من مستوى سائل الفرامل بعد التجميع","اضغط الدواسة عدة مرات قبل القيادة"]}},"tags":["brakes","maintenance","safety","DIY"],"relatedCars":["porsche-911-2026","nissan-gtr-2026"],"schemaVersion":"1.0"};
+
+        function announce(text) {
+            const announcer = document.getElementById('a11yAnnouncer');
+            if (announcer) {
+                announcer.textContent = '';
+                setTimeout(() => { announcer.textContent = text; }, 100);
+            }
+        }
+
+        // Switch guide content to the active language (global for i18n.js)
+        window.applyPageText = function() {
+            const data = window.__preloadedGuideData;
+            if (!data || !data.content) return;
+            let lang = (typeof currentLang === 'function' ? currentLang() : window.currentLang) || 'es';
+            const content = data.content[lang] || data.content.es;
+            if (!content) return;
+            // If fallback to ES was used, force lang to ES so lang-block visibility matches
+            if (!data.content[lang]) lang = 'es';
+
+            // Title
+            const titleEl = document.getElementById('guideTitle');
+            if (titleEl && content.title) {
+                const titleSpan = titleEl.querySelector(`.lang-title[data-lang="${lang}"]`);
+                if (titleSpan) titleSpan.textContent = content.title;
+            }
+
+            // SEO metadata
+            if (content.seo) {
+                document.title = content.seo.title || document.title;
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc && content.seo.description) metaDesc.setAttribute('content', content.seo.description);
+                const metaKeywords = document.querySelector('meta[name="keywords"]');
+                if (metaKeywords && content.seo.keywords) metaKeywords.setAttribute('content', content.seo.keywords.join(', '));
+            }
+
+            // Language blocks
+            document.querySelectorAll('.lang-block, .lang-card-content').forEach(block => {
+                block.hidden = block.dataset.lang !== lang;
+            });
+
+            // Breadcrumb current title
+            const breadcrumbCurrent = document.querySelector('.breadcrumb-current');
+            if (breadcrumbCurrent && content.title) breadcrumbCurrent.textContent = content.title;
+
+            // Category badge
+            const catId = data.category;
+            if (catId && typeof t === 'function') {
+                const catName = t('guides.categories.' + catId) || catId;
+                document.querySelectorAll('.guide-category-badge').forEach(badge => {
+                    badge.textContent = catName;
+                });
+            }
+
+            // Rebuild TOC for current language
+            const tocEl = document.getElementById('guideTocItems');
+            if (tocEl && content.sections) {
+                let tocHtml = '';
+                content.sections.forEach((section, idx) => {
+                    tocHtml += `<li><a href="#${section.id}">${idx + 1}. ${section.title}</a></li>`;
+                });
+                if (data.summaryBox && data.summaryBox[lang]) {
+                    tocHtml += `<li><a href="#summaryBox">${content.sections.length + 1}. ${data.summaryBox[lang].tocLabel || 'Resumen rápido'}</a></li>`;
+                }
+                if (content.faq && content.faq.length > 0) {
+                    tocHtml += `<li><a href="#faq">${content.sections.length + 2}. ${content.faqLabel || 'Preguntas frecuentes'}</a></li>`;
+                }
+                tocEl.innerHTML = tocHtml;
+            }
+
+            // Re-init FAQ accordion after language switch
+            if (typeof initGuideFaq === 'function') initGuideFaq();
+
+            // Announce language change and move focus to main content
+            announce(`Idioma cambiado a ${String(lang || 'es').toUpperCase()}`);
+            const main = document.getElementById('main-content');
+            if (main && main.tabIndex === -1) main.focus();
+        };
+
+        // Reading Progress Bar + Time Remaining Tooltip
+        (function() {
+            const bar = document.getElementById('readingProgressBar');
+            const container = document.getElementById('readingProgress');
+            const tooltip = document.getElementById('readingProgressTooltip');
+            const article = document.getElementById('main-content');
+            if (!bar || !article) return;
+
+            const totalMins = parseInt(container.getAttribute('data-reading-time'), 10) || 0;
+
+            function updateProgress() {
+                const articleTop = article.getBoundingClientRect().top + window.scrollY;
+                const articleHeight = article.offsetHeight;
+                const viewportHeight = window.innerHeight;
+                const scrolled = window.scrollY + viewportHeight - articleTop;
+                const pct = Math.min(100, Math.max(0, Math.round((scrolled / articleHeight) * 100)));
+                bar.style.width = pct + '%';
+                container.setAttribute('aria-valuenow', pct);
+                checkMilestones(pct);
+
+                if (tooltip && totalMins > 0) {
+                    if (pct <= 0) {
+                        tooltip.textContent = totalMins + ' min';
+                        tooltip.style.opacity = '0';
+                    } else if (pct >= 100) {
+                        tooltip.textContent = '✓';
+                        tooltip.style.opacity = '1';
+                    } else {
+                        const remaining = Math.max(1, Math.ceil(totalMins * (1 - pct / 100)));
+                        tooltip.textContent = remaining + ' min';
+                        tooltip.style.opacity = '1';
+                    }
+                    const barPct = Math.min(96, Math.max(2, pct));
+                    tooltip.style.left = barPct + '%';
+                }
+            }
+
+            // Analytics milestones
+            const milestones = { 25: false, 50: false, 75: false, 100: false };
+            function checkMilestones(pct) {
+                for (const threshold of [25, 50, 75, 100]) {
+                    if (!milestones[threshold] && pct >= threshold) {
+                        milestones[threshold] = true;
+                        document.dispatchEvent(new CustomEvent('guide:milestone', { detail: { threshold: threshold, guide: window.location.pathname } }));
+                    }
+                }
+            }
+
+            let ticking = false;
+            window.addEventListener('scroll', function() {
+                if (!ticking) {
+                    requestAnimationFrame(function() { updateProgress(); ticking = false; });
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            updateProgress();
+        })();
+
+        // Social Share Buttons
+        (function() {
+            const canonical = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+
+            function getTitle() {
+                const visible = document.querySelector('#guideTitle .lang-title:not([hidden])');
+                return visible ? visible.textContent.trim() : document.title;
+            }
+
+            function buildUrls() {
+                const url = encodeURIComponent(canonical);
+                const title = encodeURIComponent(getTitle());
+                return {
+                    whatsapp: 'https://wa.me/?text=' + title + '%20' + url,
+                    facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + url,
+                    twitter:  'https://x.com/intent/tweet?url=' + url + '&text=' + title,
+                    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=' + url + '&title=' + title
+                };
+            }
+
+            function initShareLinks() {
+                const urls = buildUrls();
+                const wa = document.getElementById('shareWhatsapp');
+                const fb = document.getElementById('shareFacebook');
+                const tw = document.getElementById('shareTwitter');
+                const li = document.getElementById('shareLinkedin');
+                if (wa) wa.href = urls.whatsapp;
+                if (fb) fb.href = urls.facebook;
+                if (tw) tw.href = urls.twitter;
+                if (li) li.href = urls.linkedin;
+            }
+
+            function initCopyLink() {
+                const btn = document.getElementById('shareCopy');
+                if (!btn) return;
+                btn.addEventListener('click', function() {
+                    if (!navigator.clipboard) {
+                        const ta = document.createElement('textarea');
+                        ta.value = canonical;
+                        ta.setAttribute('readonly', '');
+                        ta.style.cssText = 'position:absolute;left:-9999px';
+                        document.body.appendChild(ta);
+                        ta.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(ta);
+                        onCopied();
+                    } else {
+                        navigator.clipboard.writeText(canonical).then(onCopied);
+                    }
+                });
+
+                function onCopied() {
+                    const copyIcon = btn.querySelector('.share-icon-copy');
+                    const checkIcon = btn.querySelector('.share-icon-check');
+                    const label = btn.querySelector('.share-copy-label');
+                    if (copyIcon) copyIcon.style.display = 'none';
+                    if (checkIcon) checkIcon.style.display = '';
+                    if (label) label.textContent = '¡Copiado!';
+                    btn.setAttribute('aria-label', 'Enlace copiado');
+                    announce('Enlace copiado al portapapeles');
+                    setTimeout(function() {
+                        if (copyIcon) copyIcon.style.display = '';
+                        if (checkIcon) checkIcon.style.display = 'none';
+                        if (label) {
+                            label.textContent = 'Copiar enlace';
+                            label.setAttribute('data-i18n', 'guides.shareCopyLink');
+                        }
+                        btn.setAttribute('aria-label', 'Copiar enlace');
+                    }, 2500);
+                }
+            }
+
+            initShareLinks();
+            initCopyLink();
+
+            document.addEventListener('i18n:ready', initShareLinks);
+        })();
+
+        // Back to Top Button
+        (function() {
+            const btn = document.getElementById('backToTop');
+            if (!btn) return;
+            const THRESHOLD = 400;
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > THRESHOLD) {
+                    btn.hidden = false;
+                } else {
+                    btn.hidden = true;
+                }
+            }, { passive: true });
+
+            btn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                document.querySelector('.skip-link') && document.querySelector('.skip-link').focus();
+            });
+        })();
+
+        // Feedback Widget
+        (function() {
+            const yesBtn = document.getElementById('feedbackYes');
+            const noBtn  = document.getElementById('feedbackNo');
+            const thanks = document.getElementById('feedbackThanks');
+            if (!yesBtn || !noBtn || !thanks) return;
+
+            const guideId = window.location.pathname.split('/').pop().replace('.html', '') || 'guide';
+            const storageKey = 'profix-feedback-' + guideId;
+
+            function applyVote(vote) {
+                yesBtn.setAttribute('aria-pressed', String(vote === 'yes'));
+                noBtn.setAttribute('aria-pressed',  String(vote === 'no'));
+                yesBtn.disabled = true;
+                noBtn.disabled  = true;
+                thanks.textContent = vote === 'yes' ? '¡Gracias! Nos alegra que te haya ayudado.' : 'Gracias por tu opinión. Seguiremos mejorando.';
+                thanks.hidden = false;
+            }
+
+            const stored = localStorage.getItem(storageKey);
+            if (stored === 'yes' || stored === 'no') {
+                applyVote(stored);
+            }
+
+            yesBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'yes');
+                applyVote('yes');
+                announce('Valoración positiva guardada');
+            });
+            noBtn.addEventListener('click', function() {
+                localStorage.setItem(storageKey, 'no');
+                applyVote('no');
+                announce('Valoración guardada');
+            });
+        })();
+
+        // Task 3: Copy Link to Section
+        (function() {
+            const BASE = (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+            document.querySelectorAll('.section-anchor').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = btn.getAttribute('data-section-id');
+                    const url = BASE.split('#')[0] + '#' + sectionId;
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(url).then(function() {
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        }).catch(function() {});
+                    } else {
+                        try {
+                            const ta = document.createElement('textarea');
+                            ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+                            document.body.appendChild(ta); ta.focus(); ta.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(ta);
+                            btn.classList.add('copied');
+                            announce('Enlace copiado');
+                            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+                        } catch(e) {}
+                    }
+                });
+            });
+        })();
+
+        // Task 4: Reading Completion CTA
+        (function() {
+            const cta = document.getElementById('completionCta');
+            if (!cta) return;
+            const sessionKey = 'profix-completion-' + (window.location.pathname.split('/').pop().replace('.html','') || 'guide');
+            if (sessionStorage.getItem(sessionKey)) return;
+            let shown = false;
+            const progressBar = document.getElementById('readingProgressBar');
+            window.addEventListener('scroll', function() {
+                if (shown) return;
+                const bar = progressBar;
+                if (!bar) return;
+                const pct = parseFloat(bar.style.width) || 0;
+                if (pct >= 90) {
+                    shown = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                    cta.hidden = false;
+                    cta.classList.add('visible');
+                }
+            }, { passive: true });
+            const closeBtn = document.getElementById('completionCtaClose');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    cta.hidden = true;
+                    sessionStorage.setItem(sessionKey, '1');
+                });
+            }
+        })();
+
+        // Task 5: TOC Active State
+        (function() {
+            const tocList = document.getElementById('guideTocItems');
+            if (!tocList || !window.IntersectionObserver) return;
+            const sectionEls = document.querySelectorAll('.guide-content .lang-block:not([hidden]) section[id], .guide-content section[id]');
+            if (!sectionEls.length) return;
+            const tocLinks = tocList.querySelectorAll('a[href^="#"]');
+            function setActive(id) {
+                tocLinks.forEach(function(a) {
+                    const active = a.getAttribute('href') === '#' + id;
+                    a.classList.toggle('toc-active', active);
+                    if (active) a.setAttribute('aria-current', 'true');
+                    else a.removeAttribute('aria-current');
+                });
+            }
+            const io = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) setActive(entry.target.id);
+                });
+            }, { rootMargin: '-10% 0px -75% 0px', threshold: 0 });
+            sectionEls.forEach(function(el) { io.observe(el); });
+        })();
+
+        // Show content when ready (global for i18n:ready event)
+        window.showContent = function() {
+            const loader = document.getElementById('pageLoader');
+            if (loader) loader.classList.add('hidden');
+            document.body.classList.add('content-ready');
+        };
+
+        // Initialize i18n
+        if (typeof loadLanguage === 'function') {
+            loadLanguage('es');
+        }
+
+        // Collapsible TOC
+        (function() {
+            const toc = document.getElementById('guideToc');
+            const toggle = document.getElementById('tocToggle');
+            const list = document.getElementById('guideTocItems');
+            if (!toggle || !list) return;
+            function updateToggle() {
+                const collapsed = list.classList.contains('collapsed');
+                toggle.setAttribute('aria-expanded', String(!collapsed));
+                toggle.classList.toggle('is-collapsed', collapsed);
+            }
+            toggle.addEventListener('click', function() {
+                list.classList.toggle('collapsed');
+                updateToggle();
+            });
+            function onResize() {
+                if (window.innerWidth > 900) {
+                    list.classList.remove('collapsed');
+                    updateToggle();
+                }
+            }
+            window.addEventListener('resize', onResize);
+            onResize();
+        })();
+
+        // Image Lightbox
+        (function() {
+            const lb = document.getElementById('guideLightbox');
+            const img = document.getElementById('lightboxImg');
+            const close = document.getElementById('lightboxClose');
+            if (!lb || !img || !close) return;
+            function open(src, alt) {
+                img.src = src; img.alt = alt || '';
+                lb.hidden = false;
+                document.body.style.overflow = 'hidden';
+                close.focus();
+            }
+            function closeLb() {
+                lb.hidden = true;
+                img.src = ''; img.alt = '';
+                document.body.style.overflow = '';
+            }
+            document.querySelectorAll('.guide-content img').forEach(function(el) {
+                el.style.cursor = 'zoom-in';
+                el.addEventListener('click', function() { open(el.src, el.alt); });
+            });
+            close.addEventListener('click', closeLb);
+            lb.addEventListener('click', function(e) { if (e.target === lb) closeLb(); });
+            document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Apply immediately on DOMContentLoaded — no flash, no delay
+            showContent();
+            applyPageText();
+
+            document.addEventListener('i18n:ready', showContent);
+            document.addEventListener('i18n:ready', applyPageText);
+        }); // end DOMContentLoaded
+    </script>
+
+    <!-- Dropdown System -->
+    <script src="../../system/js/dropdowns.js" defer></script>
+
+    <script>
+        function initGuideFaq() {
+            document.querySelectorAll('.faq-item').forEach((item, idx) => {
+                const btn = item.querySelector('.faq-question');
+                const ans = item.querySelector('.faq-answer');
+                if (!btn || !ans) return;
+
+                btn.setAttribute('aria-expanded', 'false');
+                ans.setAttribute('id', ans.id || `faq-answer-${idx}`);
+                btn.setAttribute('aria-controls', ans.id);
+                ans.setAttribute('role', 'region');
+                ans.setAttribute('aria-labelledby', btn.id || `faq-question-${idx}`);
+                if (!btn.id) btn.id = `faq-question-${idx}`;
+                ans.hidden = true;
+
+                const toggle = (e) => {
+                    e.preventDefault();
+                    const expanded = btn.getAttribute('aria-expanded') === 'true';
+                    btn.setAttribute('aria-expanded', String(!expanded));
+                    ans.hidden = expanded;
+                };
+
+                // Remove previous listeners to avoid duplicates after re-init
+                const newBtn = btn.cloneNode(true);
+                btn.parentNode.replaceChild(newBtn, btn);
+                newBtn.addEventListener('click', toggle);
+                newBtn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggle(e);
+                    }
+                });
+            });
+        }
+        document.addEventListener('DOMContentLoaded', initGuideFaq);
+    </script>
+
+    <!-- Image Lightbox -->
+    <div class="guide-lightbox" id="guideLightbox" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button class="guide-lightbox__close" id="lightboxClose" type="button" aria-label="Cerrar">✕</button>
+        <img class="guide-lightbox__img" id="lightboxImg" src="" alt="">
+    </div>
+</body>
+</html>

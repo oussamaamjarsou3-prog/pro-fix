@@ -1,0 +1,513 @@
+{
+    "id": "bmw-m5-phev-record",
+    "slug": "bmw-m5-phev-record",
+    "source": "motortrend",
+    "category": "rendimiento",
+    "date": "2026-06-24",
+    "readingTime": 5,
+    "image": "../images/bmw-m5.2026/bmw-m5.hero.png",
+    "externalUrl": "https://www.motortrend.com/reviews/bmw-m5-phev-performance",
+    "tags": [
+        "bmw",
+        "m5",
+        "phev",
+        "berlina"
+    ],
+    "relatedCars": [
+        {
+            "slug": "bmw-m5",
+            "name": "BMW M5",
+            "image": "../images/bmw-m5.2026/bmw-m5.hero.png"
+        }
+    ],
+    "relatedNews": [
+        "porsche-911-hybrid-2026",
+        "tesla-model-s-plaid-refresh"
+    ],
+    "translations": {
+        "es": {
+            "title": "BMW M5 PHEV: 727 CV y un récord en el Nürburgring",
+            "subtitle": "La primera M5 híbrida enchufable redefine el límite entre el lujo, el uso diario y la performance extrema.",
+            "excerpt": "BMW presenta el M5 PHEV, una berlina deportiva híbrida enchufable con un V8 biturbo de 4.4 litros y un motor eléctrico que juntos producen 727 CV. El M5 PHEV se ha convertido en la berlina de serie más rápida del Nürburgring Nordschleife, con un tiempo de 7:35.060.",
+            "imageCaption": "BMW M5 PHEV en el Nürburgring.",
+            "sections": [
+                {
+                    "id": "concepto",
+                    "heading": "Un híbrido, pero un M5 de verdad",
+                    "paragraphs": [
+                        "La séptima generación del BMW M5 abandona la fórmula de motor de combustión pura para adoptar un sistema híbrido enchufable. La receta sigue dominada por el V8 biturbo de 4.4 litros, pero un motor eléctrico integrado en la caja automática de ocho velocidades eleva la potencia combinada a 727 CV. El resultado es el M5 más potente de la historia, pero también el más pesado."
+                    ]
+                },
+                {
+                    "id": "datos",
+                    "heading": "Cifras de superdeportivo",
+                    "paragraphs": [
+                        "La potencia combinada alcanza 727 CV y 1.000 Nm de par, cifras que superan incluso a muchos superdeportivos de motor central. El sistema de tracción total M xDrive distribuye la potencia con precisión entre las cuatro ruedas, permitiendo que el 0 a 100 km/h se resuelva en apenas 3,0 segundos, según las mediciones de Motor Trend.",
+                        "Además del rendimiento, el M5 PHEV ofrece una autonomía eléctrica de hasta 69 km, lo que permite realizar trayectos urbanos diarios sin consumir gasolina."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Nueva generación del BMW M5 con sistema híbrido enchufable (PHEV).",
+                "V8 4.4 biturbo + motor eléctrico para 727 CV y 1.000 Nm de par.",
+                "0-100 km/h en 3,0 segundos y 69 km de autonomía eléctrica.",
+                "Rival directo del Porsche Panamera Turbo S E-Hybrid y del Mercedes-AMG GT 63 S E Performance."
+            ],
+            "previousModel": {
+                "name": "BMW M5 Competition / M5 CS (F90)",
+                "year": "2018-2024",
+                "summary": "Impulsado por un V8 biturbo de 4.4 litros de 625-635 CV, tracción total y caja automática ZF de ocho velocidades. Potente y equilibrado, pero sin asistencia eléctrica ni autonomía en modo cero emisiones."
+            },
+            "whatChanged": [
+                {
+                    "title": "Hibridación enchufable:",
+                    "text": "El M5 añade un motor eléctrico y una batería de 18,6 kWh, permitiendo conducción eléctrica y una potencia combinada de 727 CV."
+                },
+                {
+                    "title": "Aumento de peso:",
+                    "text": "La batería y el sistema eléctrico añaden unos 400 kg, pero los 1.000 Nm de par y la tracción M xDrive compensan en la aceleración."
+                },
+                {
+                    "title": "Rendimiento comparable:",
+                    "text": "El 0-100 km/h en 3,0 s iguala o mejora al anterior M5 CS, a pesar del peso extra."
+                },
+                {
+                    "title": "Uso diario real:",
+                    "text": "La autonomía eléctrica convierte al M5 en una opción viable para trayectos urbanos sin arrancar el V8."
+                }
+            ],
+            "newTechnology": [
+                "El sistema PHEV combina el V8 S63 con una unidad eléctrica integrada en la caja, permitiendo propulsión puramente eléctrica, asistencia eléctrica o potencia del motor de combustión según sea necesario.",
+                "La batería de alto voltaje se encuentra bajo el suelo, preservando el espacio interior y rebajando el centro de gravedad respecto al M5 anterior.",
+                "La gestión de potencia M xDrive distribuye el par entre las cuatro ruedas con precisión milimétrica, aprovechando el par instantáneo del motor eléctrico."
+            ],
+            "marketContext": "El segmento de las superberlinas híbridas enchufables es cada vez más competitivo. El M5 PHEV compite directamente con el Porsche Panamera Turbo S E-Hybrid y el Mercedes-AMG GT 63 S E Performance. BMW apuesta por el V8 tradicional como diferenciador frente a los seis cilindros de Porsche o la estrategia de AMG.",
+            "pricing": {
+                "price": "Desde 150.000 €",
+                "market": "Europa y EE.UU.",
+                "availability": "Disponible desde primavera de 2025",
+                "note": "El precio de la versión PHEV puede variar según el país y el equipamiento."
+            },
+            "prosCons": {
+                "pros": [
+                    "Potencia de superdeportivo con autonomía eléctrica diaria.",
+                    "V8 biturbo preservado frente a rivales de menor cilindrada.",
+                    "Interior espacioso y uso real como berlina familiar."
+                ],
+                "cons": [
+                    "Peso elevado debido a la batería y el sistema híbrido.",
+                    "Precio de acceso muy superior al del M5 anterior.",
+                    "Carga doméstica lenta si no se dispone de wallbox."
+                ]
+            },
+            "opinion": "El BMW M5 PHEV demuestra que una berlina familiar puede ser intimidante en circuito y civilizada en ciudad. Su peso sigue siendo su talón de Aquiles, pero las cifras de aceleración y la autonomía eléctrica compensan con creces. Es la transición más lógica para un M5 que ya no podía ignorar la electrificación.",
+            "stats": [
+                {
+                    "value": "727 CV",
+                    "label": "Potencia combinada"
+                },
+                {
+                    "value": "3,0 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "69 km",
+                    "label": "Autonomía eléctrica"
+                },
+                {
+                    "value": "1.000 Nm",
+                    "label": "Par máximo"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1984",
+                    "title": "Nacimiento del M5",
+                    "desc": "BMW lanza el primer M5 basado en el Serie 5 E28."
+                },
+                {
+                    "date": "2018",
+                    "title": "M5 Competition",
+                    "desc": "El M5 alcanza 625 CV y se convierte en la referencia entre las berlinas deportivas."
+                },
+                {
+                    "date": "2025",
+                    "title": "M5 PHEV",
+                    "desc": "El primer M5 híbrido enchufable llega con 727 CV."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El motor eléctrico del M5 PHEV no se encuentra entre el motor y la caja: está integrado en el carter del cambio automático M Steptronic de 8 velocidades, lo que reduce la inercia."
+            },
+            "quote": {
+                "text": "El M5 PHEV no es el fin del motor de combustión; es el V8 demostrando que aún tiene futuro.",
+                "author": "BMW M Engineering"
+            },
+            "warningBox": null
+        },
+        "en": {
+            "title": "BMW M5 PHEV: 727 hp and a record at the Nürburgring",
+            "subtitle": "The first plug-in hybrid M5 redefines the boundary between luxury, daily use and extreme performance.",
+            "excerpt": "BMW introduces the M5 PHEV, a plug-in hybrid sports saloon with a 4.4-litre V8 biturbo and an electric motor that together produce 727 hp. The M5 PHEV has become the fastest production saloon on the Nürburgring Nordschleife, with a time of 7:35.060.",
+            "imageCaption": "BMW M5 PHEV on the Nürburgring.",
+            "sections": [
+                {
+                    "id": "concepto",
+                    "heading": "A hybrid, but a real M5",
+                    "paragraphs": [
+                        "The seventh generation of the BMW M5 abandons the pure combustion engine formula to adopt a plug-in hybrid system. The recipe is still dominated by the 4.4-litre V8 biturbo, but an electric motor integrated into the eight-speed automatic gearbox raises the combined output to 727 hp. The result is the most powerful M5 in history, but also the heaviest."
+                    ]
+                },
+                {
+                    "id": "datos",
+                    "heading": "Supercar figures",
+                    "paragraphs": [
+                        "The result is a combined power output of 727 hp and 1,000 Nm of torque, figures that surpass even many mid-engined supercars. The M xDrive all-wheel drive system distributes power with precision between the four wheels, allowing the 0 to 100 km/h sprint to be completed in just 3.0 seconds, according to Motor Trend measurements.",
+                        "In addition to performance, the M5 PHEV offers an electric range of up to 69 km, enabling daily urban journeys without consuming petrol."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "New generation of the BMW M5 with plug-in hybrid (PHEV) system.",
+                "V8 4.4 biturbo + electric motor for 727 hp and 1,000 Nm of torque.",
+                "0-100 km/h in 3.0 seconds and 69 km of electric range.",
+                "Direct rival of the Porsche Panamera Turbo S E-Hybrid and Mercedes-AMG GT 63 S E Performance."
+            ],
+            "previousModel": {
+                "name": "BMW M5 Competition / M5 CS (F90)",
+                "year": "2018-2024",
+                "summary": "Powered by a 4.4-litre V8 biturbo of 625-635 hp, all-wheel drive and ZF eight-speed gearbox. Powerful and balanced, but without electric assistance or zero-emission range."
+            },
+            "whatChanged": [
+                {
+                    "title": "Plug-in hybridisation:",
+                    "text": "The M5 adds an electric motor and an 18.6 kWh battery, allowing electric driving and a combined output of 727 hp."
+                },
+                {
+                    "title": "Weight increase:",
+                    "text": "The battery and electric system add around 400 kg, but the 1,000 Nm of torque and M xDrive traction compensate in acceleration."
+                },
+                {
+                    "title": "Comparable performance:",
+                    "text": "The 0-100 km/h in 3.0 s matches or improves the previous M5 CS, despite the extra weight."
+                },
+                {
+                    "title": "Real daily use:",
+                    "text": "The electric range makes the M5 a viable option for urban journeys without starting the V8."
+                }
+            ],
+            "newTechnology": [
+                "The PHEV system combines the S63 V8 with an electric unit integrated into the gearbox, allowing pure electric propulsion, electric assistance or combustion engine power as required.",
+                "The high-voltage battery is located under the floor, preserving interior space and lowering the centre of gravity compared to the previous M5.",
+                "The M xDrive power management distributes torque between the four wheels with millimetric precision, taking advantage of the instant torque of the electric motor."
+            ],
+            "marketContext": "The plug-in hybrid super-saloon segment is increasingly competitive. The M5 PHEV competes directly with the Porsche Panamera Turbo S E-Hybrid and the Mercedes-AMG GT 63 S E Performance. BMW bets on the traditional V8 as a differentiator against Porsche's six cylinders or AMG's strategy.",
+            "pricing": {
+                "price": "From €150,000",
+                "market": "Europe and USA",
+                "availability": "Available from spring 2025",
+                "note": "The PHEV price may vary by country and equipment."
+            },
+            "prosCons": {
+                "pros": [
+                    "Supercar power with daily electric range.",
+                    "V8 biturbo preserved against rivals with smaller displacement.",
+                    "Spacious interior and real use as a family saloon."
+                ],
+                "cons": [
+                    "High weight due to the battery and hybrid system.",
+                    "Access price much higher than the previous M5.",
+                    "Slow home charging if no wallbox is available."
+                ]
+            },
+            "opinion": "The BMW M5 PHEV proves that a family saloon can be intimidating on track and civilised in the city. Its weight remains its Achilles heel, but the acceleration figures and electric range more than compensate. It is the most logical transition for an M5 that could no longer ignore electrification.",
+            "stats": [
+                {
+                    "value": "727 hp",
+                    "label": "Combined power"
+                },
+                {
+                    "value": "3.0 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "69 km",
+                    "label": "Electric range"
+                },
+                {
+                    "value": "1,000 Nm",
+                    "label": "Maximum torque"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1984",
+                    "title": "Birth of the M5",
+                    "desc": "BMW launches the first M5 based on the E28 5 Series."
+                },
+                {
+                    "date": "2018",
+                    "title": "M5 Competition",
+                    "desc": "The M5 reaches 625 hp and becomes the reference among sports saloons."
+                },
+                {
+                    "date": "2025",
+                    "title": "M5 PHEV",
+                    "desc": "The first plug-in hybrid M5 arrives with 727 hp."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The M5 PHEV's electric motor is not between the engine and the gearbox: it is integrated into the housing of the M Steptronic 8-speed automatic, which reduces inertia."
+            },
+            "quote": {
+                "text": "The M5 PHEV is not the end of the combustion engine; it is the V8 proving that it still has a future.",
+                "author": "BMW M Engineering"
+            },
+            "warningBox": null
+        },
+        "fr": {
+            "title": "BMW M5 PHEV : 727 ch et un record au Nürburgring",
+            "subtitle": "La première M5 hybride rechargeable redéfinit la frontière entre le luxe, l'usage quotidien et la performance extrême.",
+            "excerpt": "BMW présente la M5 PHEV, une berline sportive hybride rechargeable avec un V8 biturbo 4,4 litres et un moteur électrique qui produisent ensemble 727 ch. La M5 PHEV est devenue la berline de série la plus rapide du Nürburgring Nordschleife, avec un temps de 7:35,060.",
+            "imageCaption": "BMW M5 PHEV sur le Nürburgring.",
+            "sections": [
+                {
+                    "id": "concepto",
+                    "heading": "Une hybride, mais une vraie M5",
+                    "paragraphs": [
+                        "La septième génération de la BMW M5 abandonne la formule moteur purement thermique pour adopter un système hybride rechargeable. La recette reste dominée par le V8 biturbo 4,4 litres, mais un moteur électrique intégré à la boîte automatique à huit rapports élève la puissance combinée à 727 ch. Le résultat est la M5 la plus puissante de l'histoire, mais aussi la plus lourde."
+                    ]
+                },
+                {
+                    "id": "datos",
+                    "heading": "Des chiffres de supercar",
+                    "paragraphs": [
+                        "Le résultat est une puissance combinée de 727 ch et un couple de 1 000 Nm, des chiffres qui surpassent même de nombreuses supercars à moteur central. Le système de traction intégrale M xDrive distribue la puissance avec précision entre les quatre roues, permettant au 0 à 100 km/h de s'effectuer en seulement 3,0 secondes, selon les mesures de Motor Trend.",
+                        "En plus des performances, la M5 PHEV offre une autonomie électrique allant jusqu'à 69 km, permettant des déplacements urbains quotidiens sans consommer d'essence."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Nouvelle génération de la BMW M5 avec système hybride rechargeable (PHEV).",
+                "V8 4,4 biturbo + moteur électrique pour 727 ch et 1 000 Nm de couple.",
+                "0 à 100 km/h en 3,0 secondes et 69 km d'autonomie électrique.",
+                "Rival direct de la Porsche Panamera Turbo S E-Hybrid et de la Mercedes-AMG GT 63 S E Performance."
+            ],
+            "previousModel": {
+                "name": "BMW M5 Competition / M5 CS (F90)",
+                "year": "2018-2024",
+                "summary": "Propulsée par un V8 biturbo 4,4 litres de 625-635 ch, traction intégrale et boîte ZF à huit rapports. Puissante et équilibrée, mais sans assistance électrique ni autonomie en mode zéro émission."
+            },
+            "whatChanged": [
+                {
+                    "title": "Hybridation rechargeable :",
+                    "text": "La M5 ajoute un moteur électrique et une batterie de 18,6 kWh, permettant une conduite électrique et une puissance combinée de 727 ch."
+                },
+                {
+                    "title": "Augmentation du poids :",
+                    "text": "La batterie et le système électrique ajoutent environ 400 kg, mais les 1 000 Nm de couple et la traction M xDrive compensent à l'accélération."
+                },
+                {
+                    "title": "Performance comparable :",
+                    "text": "Le 0 à 100 km/h en 3,0 s égale ou améliore l'ancienne M5 CS, malgré le poids supplémentaire."
+                },
+                {
+                    "title": "Usage quotidien réel :",
+                    "text": "L'autonomie électrique fait de la M5 une option viable pour les trajets urbains sans démarrer le V8."
+                }
+            ],
+            "newTechnology": [
+                "Le système PHEV combine le V8 S63 avec une unité électrique intégrée à la boîte, permettant une propulsion purement électrique, une assistance électrique ou un moteur thermique selon les besoins.",
+                "La batterie haute tension est située sous le plancher, préservant l'espace intérieur et abaissant le centre de gravité par rapport à l'ancienne M5.",
+                "La gestion de puissance M xDrive distribue le couple entre les quatre roues avec une précision millimétrique, profitant du couple instantané du moteur électrique."
+            ],
+            "marketContext": "Le segment des super-berlines hybrides rechargeables est de plus en plus disputé. La M5 PHEV concurrence directement la Porsche Panamera Turbo S E-Hybrid et la Mercedes-AMG GT 63 S E Performance. BMW mise sur le V8 traditionnel comme différentiel face aux six cylindres de Porsche ou à la stratégie AMG.",
+            "pricing": {
+                "price": "À partir de 150 000 €",
+                "market": "Europe et États-Unis",
+                "availability": "Disponible à partir du printemps 2025",
+                "note": "Le prix de la version PHEV peut varier selon le pays et l'équipement."
+            },
+            "prosCons": {
+                "pros": [
+                    "Puissance de supercar avec autonomie électrique quotidienne.",
+                    "V8 biturbo conservé face aux rivaux plus petits en cylindrée.",
+                    "Intérieur spacieux et usage réel comme berline familiale."
+                ],
+                "cons": [
+                    "Poids élevé dû à la batterie et au système hybride.",
+                    "Prix d'accès bien supérieur à celui de l'ancienne M5.",
+                    "Recharge domestique lente si aucun wallbox n'est disponible."
+                ]
+            },
+            "opinion": "La BMW M5 PHEV prouve qu'une berline familiale peut être intimidante sur circuit et civilisée en ville. Son poids reste son talon d'Achille, mais les chiffres d'accélération et l'autonomie électrique compensent largement. C'est la transition la plus logique pour une M5 qui ne pouvait plus ignorer l'électrification.",
+            "stats": [
+                {
+                    "value": "727 ch",
+                    "label": "Puissance combinée"
+                },
+                {
+                    "value": "3,0 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "69 km",
+                    "label": "Autonomie électrique"
+                },
+                {
+                    "value": "1 000 Nm",
+                    "label": "Couple maximum"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1984",
+                    "title": "Naissance de la M5",
+                    "desc": "BMW lance la première M5 basée sur la Série 5 E28."
+                },
+                {
+                    "date": "2018",
+                    "title": "M5 Competition",
+                    "desc": "La M5 atteint 625 ch et devient la référence parmi les berlines sportives."
+                },
+                {
+                    "date": "2025",
+                    "title": "M5 PHEV",
+                    "desc": "La première M5 hybride rechargeable arrive avec 727 ch."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "Le moteur électrique de la M5 PHEV n'est pas entre le moteur et la boîte : il est intégré dans le carter de la M Steptronic automatique à huit rapports, ce qui réduit l'inertie."
+            },
+            "quote": {
+                "text": "La M5 PHEV n'est pas la fin du moteur thermique ; c'est le V8 prouvant qu'il a encore un avenir.",
+                "author": "BMW M Engineering"
+            },
+            "warningBox": null
+        },
+        "ar": {
+            "title": "بي إم دبليو أم 5 هجين قابل للشحن: 727 حصان ورقم قياسي في نوربرغرينغ",
+            "subtitle": "أول أم 5 هجينة قابلة للشحن تعيد تعريف الحدود بين الفخامة والاستخدام اليومي والأداء المتطرف.",
+            "excerpt": "تقدم بي إم دبليو أم 5 هجين قابل للشحن، سيدان رياضية هجينة قابلة للشحن مع محرك في 8 مزدوج التوربين 4.4 لتر ومحرك كهربائي ينتجان معاً 727 حصان. أصبحت أم 5 هجين قابل للشحن أسرع سيدان إنتاجية في حلبة نوربرغرينغ نوردشلايفه، بزمن 7:35.060.",
+            "imageCaption": "بي إم دبليو أم 5 هجين قابل للشحن في نوربرغرينغ.",
+            "sections": [
+                {
+                    "id": "concepto",
+                    "heading": "هجينة، لكن أم 5 حقيقية",
+                    "paragraphs": [
+                        "تتخلى الجيل السابع من بي إم دبليو أم 5 عن صيغة المحرك الحرقية النقي لاعتماد نظام هجين قابل للشحن. لا تزال الوصفة تهيمن عليها في 8 مزدوج التوربين 4.4 لتر، لكن محرك كهربائي مدمج في علبة التغيير الأوتوماتيكية بثماني سرعات يرفع القوة الإجمالية إلى 727 حصان. النتيجة هي أقوى أم 5 في التاريخ، لكنها أيضاً الأثقل."
+                    ]
+                },
+                {
+                    "id": "datos",
+                    "heading": "أرقام خارقة",
+                    "paragraphs": [
+                        "النتيجة هي قوة إجمالية 727 حصان وعزم 1,000 نيوتن متر، أرقام تتجاوز حتى العديد من السيارات الخارقة بمحرك وسطي. يوزع نظام الدفع الرباعي أم إكس درايف القوة بدقة بين العجلات الأربع، مما يسمح بإنجاز التسارع من 0 إلى 100 كم/س في 3.0 ثانية فقط، وفقاً لقياسات موتور تريند.",
+                        "بالإضافة إلى الأداء، توفر أم 5 هجين قابل للشحن مدى كهربائياً يصل إلى 69 كم، مما يسمح بالتنقلات اليومية الحضرية دون استهلاك الوقود."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "جيل جديد من بي إم دبليو أم 5 بنظام هجين قابل للشحن (هجين قابل للشحن).",
+                "في 8 4.4 مزدوج التوربين + محرك كهربائي لـ 727 حصان و 1,000 نيوتن متر من العزم.",
+                "0-100 كم/س في 3.0 ثانية ومدى كهربائي 69 كم.",
+                "منافس مباشر لـ بورش باناميرا توربو أس إي هايبريد و مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس."
+            ],
+            "previousModel": {
+                "name": "بي إم دبليو أم 5 كومبيتيشن / أم 5 سي أس (أف 90)",
+                "year": "2018-2024",
+                "summary": "محرك في 8 مزدوج التوربين 4.4 لتر بقوة 625-635 حصان، دفع كلي وعلبة زد أف بثماني سرعات. قوية ومتوازنة، لكن بدون مساعدة كهربائية أو مدى في وضع الانبعاثات الصفرية."
+            },
+            "whatChanged": [
+                {
+                    "title": "التهجين القابل للشحن:",
+                    "text": "تضيف أم 5 محركاً كهربائياً وبطارية 18.6 كيلوواط ساعة، مما يسمح بالقيادة الكهربائية والقوة الإجمالية 727 حصان."
+                },
+                {
+                    "title": "زيادة الوزن:",
+                    "text": "تضيف البطارية والنظام الكهربائي حوالي 400 كجم، لكن عزم 1,000 نيوتن متر والدفع الرباعي أم إكس درايف يعوضان في التسارع."
+                },
+                {
+                    "title": "أداء مقارن:",
+                    "text": "0-100 كم/س في 3.0 ثانية يعادل أو يحسن أم 5 سي أس السابقة، على الرغم من الوزن الإضافي."
+                },
+                {
+                    "title": "استخدام يومي حقيقي:",
+                    "text": "المدى الكهربائي يجعل أم 5 خياراً قابلاً للتطبيق للتنقلات الحضرية دون تشغيل في 8."
+                }
+            ],
+            "newTechnology": [
+                "يجمع نظام هجين قابل للشحن بين في 8 إس 63 ووحدة كهربائية مدمجة في العلبة، مما يسمح بالدفع النقي الكهربائي أو المساعدة الكهربائية أو المحرك الحرقية حسب الطلب.",
+                "تقع البطارية عالية الجهد تحت الأرضية، محافظةً على مساحة المقصورة وخافضةً مركز الثقل مقارنة بـ أم 5 السابقة.",
+                "توزع إدارة الطاقة أم إكس درايف العزم بين العجلات الأربع بدقة مليمترية، مستفيدة من عزم المحرك الكهربائي الفوري."
+            ],
+            "marketContext": "يصبح قطاع السيدان الفائقة الهجينة القابلة للشحن أكثر تنافسية. تتنافس أم 5 هجين قابل للشحن مباشرة مع بورش باناميرا توربو أس إي هايبريد و مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس. تراهن بي إم دبليو على في 8 التقليدي كميزة تمييز مقابل أسطوانات بورش الست أو استراتيجية أي أم جي.",
+            "pricing": {
+                "price": "ابتداءً من 150,000 يورو",
+                "market": "أوروبا والولايات المتحدة",
+                "availability": "متاحة اعتباراً من ربيع 2025",
+                "note": "قد يختلف سعر نسخة هجين قابل للشحن حسب البلد والتجهيزات."
+            },
+            "prosCons": {
+                "pros": [
+                    "قوة خارقة مع مدى كهربائي يومي.",
+                    "في 8 مزدوج التوربين محتفظ به مقابل منافسين بسعة أصغر.",
+                    "مقصورة فسيحة واستخدام حقيقي كسيدان عائلية."
+                ],
+                "cons": [
+                    "وزن مرتفع بسبب البطارية ونظام الهجين.",
+                    "سعر الوصول أعلى بكثير من أم 5 السابقة.",
+                    "شحن منزلي بطيء إذا لم يتوفر صندوق الشحن المنزلي."
+                ]
+            },
+            "opinion": "تثبت بي إم دبليو أم 5 هجين قابل للشحن أن السيدان العائلية يمكن أن تكون مخيفة في الحلبة ومهذبة في المدينة. يبقى وزنها نقطة الضعف، لكن أرقام التسارع والمدى الكهربائي يعوضان بكثير. إنها الانتقال الأكثر منطقية لـ أم 5 لم تكن تستطيع مواصلة تجاهل التهجين.",
+            "stats": [
+                {
+                    "value": "727 حصان",
+                    "label": "القوة الإجمالية"
+                },
+                {
+                    "value": "3.0 ثانية",
+                    "label": "0-100 كم/س"
+                },
+                {
+                    "value": "69 كم",
+                    "label": "المدى الكهربائي"
+                },
+                {
+                    "value": "1,000 نيوتن متر",
+                    "label": "العزم الأقصى"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1984",
+                    "title": "ولادة أم 5",
+                    "desc": "تطلق بي إم دبليو أول أم 5 بناءً على سلسلة 5 إي 28."
+                },
+                {
+                    "date": "2018",
+                    "title": "أم 5 كومبيتيشن",
+                    "desc": "تصل أم 5 إلى 625 حصان وتصبح مرجعاً بين السيدان الرياضية."
+                },
+                {
+                    "date": "2025",
+                    "title": "أم 5 هجين قابل للشحن",
+                    "desc": "تصل أول أم 5 هجينة قابلة للشحن بقوة 727 حصان."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "المحرك الكهربائي في أم 5 هجين قابل للشحن ليس بين المحرك والعلبة: إنه مدمج في علبة أم ستيبترونيك الأوتوماتيكية بثماني سرعات، مما يقلل العطالة."
+            },
+            "quote": {
+                "text": "أم 5 هجين قابل للشحن ليست نهاية المحرك الحرق؛ إنها في 8 تثبت أنها لا تزال تمتلك مستقبلاً.",
+                "author": "هندسة بي إم دبليو أم"
+            },
+            "warningBox": null
+        }
+    }
+}

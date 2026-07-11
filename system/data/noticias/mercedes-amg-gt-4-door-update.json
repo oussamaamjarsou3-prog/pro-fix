@@ -1,0 +1,448 @@
+{
+    "id": "mercedes-amg-gt-4-door-update",
+    "slug": "mercedes-amg-gt-4-door-update",
+    "source": "caranddriver",
+    "category": "tecnología",
+    "date": "2026-06-18",
+    "readingTime": 4,
+    "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+    "externalUrl": "https://www.caranddriver.com/news/mercedes-amg-gt-4-door-update",
+    "tags": [
+        "mercedes",
+        "amg gt",
+        "tecnología"
+    ],
+    "relatedCars": [
+        {
+            "slug": "mercedes-amg-gt",
+            "name": "Mercedes-AMG GT",
+            "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png"
+        }
+    ],
+    "relatedNews": [
+        "audi-rs7-performance-2026",
+        "nissan-gt-r-final-edition"
+    ],
+    "translations": {
+        "es": {
+            "title": "Mercedes-AMG GT 4 Puertas recibe una puesta a punto tecnológica",
+            "subtitle": "La actualización del GT 4 Puertas mejora la experiencia digital, la seguridad y las opciones de personalización.",
+            "excerpt": "Mercedes renueva el sistema de infoentretenimiento y la conducción asistida del AMG GT 4 Puertas, además de introducir nuevas opciones de personalización.",
+            "imageCaption": "Mercedes-AMG GT 4 Puertas.",
+            "sections": [
+                {
+                    "id": "mbux",
+                    "heading": "MBUX evoluciona",
+                    "paragraphs": [
+                        "Mercedes-AMG ha actualizado el GT 4 Puertas con un paquete tecnológico que mejora notablemente la experiencia a bordo. El sistema de infoentretenimiento MBUX evoluciona a una versión más reciente, con gráficos mejorados, respuesta más rápida e integración más completa con servicios en la nube.",
+                        "La pantalla táctil central de 11.9 pulgadas incluye ahora navegación con realidad aumentada, conexión inalámbrica para Android Auto y Apple CarPlay, y un nuevo asistente de voz que reconoce comandos más complejos."
+                    ]
+                },
+                {
+                    "id": "seguridad",
+                    "heading": "Seguridad y personalización",
+                    "paragraphs": [
+                        "En materia de seguridad, el AMG GT 4 Puertas amplía su equipamiento de conducción asistida con un sistema de mantenimiento de carril mejorado, asistencia de cambio de carril y una función de frenado de emergencia más precisa en entornos urbanos.",
+                        "La gama mecánica se mantiene con opciones de seis y ocho cilindros, incluyendo las versiones híbridas enchufables 63 S E Performance. La personalización crece con nuevos colores de carrocería, llantas de diseño exclusivo y acabados interiores en madera o fibra de carbono."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Actualización tecnológica de la Mercedes-AMG GT 4 Puertas.",
+                "Nueva versión de MBUX con gráficos mejorados y navegación en realidad aumentada.",
+                "Android Auto y Apple CarPlay inalámbricos, y asistente de voz mejorado.",
+                "La gama mecánica se mantiene, con opciones de seis y ocho cilindros y PHEV."
+            ],
+            "previousModel": {
+                "name": "Mercedes-AMG GT 4 Puertas (2019-2024)",
+                "year": "2019-2024",
+                "summary": "Variantes de seis y ocho cilindros, incluyendo la híbrida enchufable 63 S E Performance. Su principal carencia era una experiencia digital y asistencias ligeramente atrasadas frente a rivales más recientes."
+            },
+            "whatChanged": [
+                {
+                    "title": "MBUX actualizado:",
+                    "text": "Nueva interfaz, gráficos más nítidos, respuesta más rápida y navegación en realidad aumentada."
+                },
+                {
+                    "title": "Conectividad inalámbrica:",
+                    "text": "Android Auto y Apple CarPlay ya no necesitan cable en la pantalla central de 11.9 pulgadas."
+                },
+                {
+                    "title": "Asistencias mejoradas:",
+                    "text": "Mantenimiento de carril más preciso, asistencia de cambio de carril y frenado de emergencia urbano."
+                },
+                {
+                    "title": "Nuevas opciones:",
+                    "text": "Paleta de colores ampliada, llantas exclusivas y acabados interiores en madera o fibra de carbono."
+                }
+            ],
+            "newTechnology": [
+                "La última versión de MBUX introduce una capa en la nube que permite actualizaciones más frecuentes y un asistente de voz con comprensión de comandos más complejos.",
+                "La realidad aumentada en la navegación superpone flechas y nombres de calles sobre la imagen de la cámara frontal, reduciendo errores en intersecciones.",
+                "Los sistemas de conducción asistida se benefician de sensores y software revisados, especialmente en entornos urbanos de alta densidad."
+            ],
+            "marketContext": "En lugar de una nueva generación, Mercedes prefiere una profunda actualización para mantener el GT 4 Puertas al día frente al Porsche Panamera y el Audi RS7. La estrategia es racional: el producto sigue siendo mecánicamente competitivo, pero necesitaba una experiencia digital a la altura.",
+            "pricing": {
+                "price": "Desde 130.000 €",
+                "market": "Europa",
+                "availability": "Disponible en concesionarios a partir de mediados de 2025",
+                "note": "La gama 63 S E Performance parte de un precio significativamente más alto."
+            },
+            "prosCons": {
+                "pros": [
+                    "Experiencia digital actualizada sin cambiar una plataforma que ya funciona.",
+                    "Amplia gama mecánica, incluyendo PHEV de alto rendimiento.",
+                    "Más personalización en colores y acabados."
+                ],
+                "cons": [
+                    "No es una nueva generación: el diseño interior sigue sin renovarse.",
+                    "El precio de acceso sigue siendo alto frente a rivales más recientes.",
+                    "Algunas asistencias a la conducción seguirán dependiendo de suscripciones."
+                ]
+            },
+            "opinion": "Mercedes entiende que el GT 4 Puertas no necesita más potencia: necesita una experiencia digital acorde a su precio. Esta actualización va en la dirección correcta, aunque seguimos esperando una revisión más profunda del diseño interior para que el conjunto no se sienta anticuado frente a rivales más recientes.",
+            "stats": null,
+            "timeline": [
+                {
+                    "date": "2019",
+                    "title": "Lanzamiento del GT 4 Puertas",
+                    "desc": "Mercedes presenta el AMG GT cuatro puertas como rival del Panamera y el RS7."
+                },
+                {
+                    "date": "2023",
+                    "title": "63 S E Performance",
+                    "desc": "La variante híbrida enchufable alcanza 843 CV."
+                },
+                {
+                    "date": "2026",
+                    "title": "Actualización tecnológica",
+                    "desc": "El GT 4 Puertas renueva MBUX, conectividad y sistemas de asistencia."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El GT 4 Puertas actualizado mantiene la misma gama mecánica, pero su nuevo procesador MBUX permite una respuesta hasta cinco veces más rápida en navegación y comandos de voz."
+            },
+            "quote": {
+                "text": "Un gran turismo no solo debe ser rápido; también debe sentirse actualizado en la era digital.",
+                "author": "Mercedes-AMG"
+            },
+            "warningBox": null
+        },
+        "en": {
+            "title": "Mercedes-AMG GT 4 Door receives a technological tune-up",
+            "subtitle": "The update of the GT 4 Door improves the digital experience, safety and customisation options.",
+            "excerpt": "Mercedes renews the infotainment system and assisted driving of the AMG GT 4 Door, in addition to introducing new customisation options.",
+            "imageCaption": "Mercedes-AMG GT 4 Door.",
+            "sections": [
+                {
+                    "id": "mbux",
+                    "heading": "MBUX evolves",
+                    "paragraphs": [
+                        "Mercedes-AMG has updated the GT 4 Door with a technology package that notably improves the on-board experience. The MBUX infotainment system evolves to a newer version, with improved graphics, faster response and more complete integration with cloud services.",
+                        "The 11.9-inch central touchscreen now includes navigation with augmented reality, wireless connection for Android Auto and Apple CarPlay, and a new voice assistant that reconstructs more complex commands."
+                    ]
+                },
+                {
+                    "id": "seguridad",
+                    "heading": "Safety and customisation",
+                    "paragraphs": [
+                        "In terms of safety, the AMG GT 4 Door expands its assisted driving equipment with an improved lane keeping system, lane change assistance and a more precise emergency braking function in urban environments.",
+                        "The mechanical range remains with six and eight-cylinder options, including the plug-in hybrid 63 S E Performance versions. Customisation grows with new body colours, exclusive design wheels and interior finishes in wood or carbon fibre."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Technological update of the Mercedes-AMG GT 4 Door.",
+                "New version of MBUX with improved graphics and augmented reality navigation.",
+                "Wireless Android Auto and Apple CarPlay, and improved voice assistant.",
+                "The mechanical range remains, with six and eight-cylinder options and PHEV."
+            ],
+            "previousModel": {
+                "name": "Mercedes-AMG GT 4 Door (2019-2024)",
+                "year": "2019-2024",
+                "summary": "Six and eight-cylinder variants, including the plug-in hybrid 63 S E Performance. Its main weakness was a slightly lagging digital and assistance experience compared to more recent rivals."
+            },
+            "whatChanged": [
+                {
+                    "title": "MBUX updated:",
+                    "text": "New interface, sharper graphics, faster response and augmented reality navigation."
+                },
+                {
+                    "title": "Wireless connectivity:",
+                    "text": "Android Auto and Apple CarPlay no longer need a cable on the 11.9-inch central screen."
+                },
+                {
+                    "title": "Improved assistance:",
+                    "text": "More precise lane keeping, lane change assistance and urban emergency braking."
+                },
+                {
+                    "title": "New options:",
+                    "text": "Expanded colour palette, exclusive wheels and interior finishes in wood or carbon fibre."
+                }
+            ],
+            "newTechnology": [
+                "The latest version of MBUX introduces a cloud layer that allows more frequent updates and a voice assistant with understanding of more complex commands.",
+                "Augmented reality in navigation overlays arrows and street names onto the front camera image, reducing errors at intersections.",
+                "The assisted driving systems benefit from revised sensors and software, especially in high-density urban environments."
+            ],
+            "marketContext": "Instead of a new generation, Mercedes prefers a deep update to keep the GT 4 Door current against the Porsche Panamera and Audi RS7. The strategy is rational: the product is still mechanically competitive, but it needed a digital experience to match.",
+            "pricing": {
+                "price": "From €130,000",
+                "market": "Europe",
+                "availability": "Available in dealerships from mid-2025",
+                "note": "The 63 S E Performance range starts from a significantly higher price."
+            },
+            "prosCons": {
+                "pros": [
+                    "Updated digital experience without changing a platform that already works.",
+                    "Wide mechanical range, including high-performance PHEV.",
+                    "More customisation in colours and finishes."
+                ],
+                "cons": [
+                    "It is not a new generation: the interior design is still not renewed.",
+                    "The access price remains high compared to more recent rivals.",
+                    "Some driving assistance will still depend on subscriptions."
+                ]
+            },
+            "opinion": "Mercedes understands that the GT 4 Door does not need more power: it needs a digital experience worthy of its price. This update goes in the right direction, although we are still waiting for a more profound revision of the interior design so that the whole does not feel dated against more recent rivals.",
+            "stats": null,
+            "timeline": [
+                {
+                    "date": "2019",
+                    "title": "GT 4 Door launched",
+                    "desc": "Mercedes introduces the AMG GT four-door as a rival to the Panamera and RS7."
+                },
+                {
+                    "date": "2023",
+                    "title": "63 S E Performance",
+                    "desc": "The plug-in hybrid variant reaches 843 hp."
+                },
+                {
+                    "date": "2026",
+                    "title": "Technology update",
+                    "desc": "The GT 4 Door renews MBUX, connectivity and assistance systems."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The updated GT 4 Door retains the same mechanical range, but its new MBUX processor enables up to five times faster response in navigation and voice commands."
+            },
+            "quote": {
+                "text": "A grand tourer must not only be fast; it must also feel up to date in the digital age.",
+                "author": "Mercedes-AMG"
+            },
+            "warningBox": null
+        },
+        "fr": {
+            "title": "Mercedes-AMG GT 4 Portes reçoit une mise au point technologique",
+            "subtitle": "La mise à jour du GT 4 Portes améliore l'expérience digitale, la sécurité et les options de personnalisation.",
+            "excerpt": "Mercedes renouvelle le système d'infodivertissement et la conduite assistée de l'AMG GT 4 Portes, en plus d'introduire de nouvelles options de personnalisation.",
+            "imageCaption": "Mercedes-AMG GT 4 Portes.",
+            "sections": [
+                {
+                    "id": "mbux",
+                    "heading": "MBUX évolue",
+                    "paragraphs": [
+                        "Mercedes-AMG a actualisé le GT 4 Portes avec un pack technologique qui améliore notablement l'expérience à bord. Le système d'infodivertissement MBUX évolue vers une version plus récente, avec des graphismes améliorés, une réponse plus rapide et une intégration plus complète avec les services en ligne.",
+                        "L'écran tactile central de 11,9 pouces inclut désormais la navigation avec réalité augmentée, la connexion sans fil pour Android Auto et Apple CarPlay, et un nouvel assistant vocal qui reconstruit des commandes plus complexes."
+                    ]
+                },
+                {
+                    "id": "seguridad",
+                    "heading": "Sécurité et personnalisation",
+                    "paragraphs": [
+                        "En matière de sécurité, l'AMG GT 4 Portes étend son équipement de conduite assistée avec un système de maintien de voie amélioré, une assistance au changement de voie et une fonction de freinage d'urgence plus précise en milieu urbain.",
+                        "La gamme mécanique se maintient avec des options de six et huit cylindres, incluant les versions hybrides rechargeables 63 S E Performance. La personnalisation s'élargit avec de nouvelles couleurs de carrosserie, des jantes de design exclusif et des finitions intérieures en bois ou en fibre de carbone."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Mise à jour technologique de la Mercedes-AMG GT 4 Portes.",
+                "Nouvelle version de MBUX avec graphismes améliorés et navigation en réalité augmentée.",
+                "Android Auto et Apple CarPlay sans fil, et assistant vocal amélioré.",
+                "La gamme mécanique se maintient, avec des options de six et huit cylindres et PHEV."
+            ],
+            "previousModel": {
+                "name": "Mercedes-AMG GT 4 Portes (2019-2024)",
+                "year": "2019-2024",
+                "summary": "Variantes de six et huit cylindres, incluant la hybride rechargeable 63 S E Performance. Sa principale carence était une expérience digitale et des assistances légèrement en retard face à des rivaux plus récents."
+            },
+            "whatChanged": [
+                {
+                    "title": "MBUX actualisé :",
+                    "text": "Nouvelle interface, graphismes plus nets, réponse plus rapide et navigation en réalité augmentée."
+                },
+                {
+                    "title": "Connectivité sans fil :",
+                    "text": "Android Auto et Apple CarPlay n'ont plus besoin de câble sur l'écran central de 11,9 pouces."
+                },
+                {
+                    "title": "Assistances améliorées :",
+                    "text": "Maintien de voie, assistance au changement de voie et freinage d'urgence urbain plus précis."
+                },
+                {
+                    "title": "Nouvelles options :",
+                    "text": "Palette de couleurs élargie, jantes exclusives et finitions intérieures en bois ou en fibre de carbone."
+                }
+            ],
+            "newTechnology": [
+                "La dernière version de MBUX introduit une couche de cloud qui permet des mises à jour plus fréquentes et un assistant vocal avec compréhension de commandes plus complexes.",
+                "La réalité augmentée dans la navigation superpose des flèches et des noms de rues sur l'image de la caméra frontale, réduisant les erreurs aux intersections.",
+                "Les systèmes de conduite assistée bénéficient de capteurs et de logiciels révisés, notamment en milieu urbain de haute densité."
+            ],
+            "marketContext": "Plutôt qu'une nouvelle génération, Mercedes préfère une mise à jour profonde pour maintenir le GT 4 Portes à jour face à la Porsche Panamera et à l'Audi RS7. La stratégie est rationnelle : le produit reste compétitif mécaniquement, mais il avait besoin d'une expérience digitale à la hauteur.",
+            "pricing": {
+                "price": "À partir de 130 000 €",
+                "market": "Europe",
+                "availability": "Disponible en concession dès le milieu de 2025",
+                "note": "La gamme 63 S E Performance part d'un prix nettement supérieur."
+            },
+            "prosCons": {
+                "pros": [
+                    "Expérience digitale actualisée sans changer une plateforme qui fonctionne déjà.",
+                    "Gamme mécanique large, incluant un PHEV de hautes performances.",
+                    "Plus de personnalisation en couleurs et finitions."
+                ],
+                "cons": [
+                    "Ce n'est pas une nouvelle génération : le design intérieur ne se renouvelle pas encore.",
+                    "Le prix d'accès reste élevé face à des rivaux plus récents.",
+                    "Certaines assistances de conduite continueront à dépendre d'abonnements."
+                ]
+            },
+            "opinion": "Mercedes comprend que le GT 4 Portes n'a pas besoin de plus de puissance : il a besoin d'une expérience digitale à la hauteur de son prix. Cette mise à jour va dans la bonne direction, bien que nous attendions toujours une révision plus profonde du design intérieur pour que l'ensemble ne semble pas daté face à des rivaux plus récents.",
+            "stats": null,
+            "timeline": [
+                {
+                    "date": "2019",
+                    "title": "Lancement du GT 4 Portes",
+                    "desc": "Mercedes présente l'AMG GT quatre portes comme rival de la Panamera et de la RS7."
+                },
+                {
+                    "date": "2023",
+                    "title": "63 S E Performance",
+                    "desc": "La variante hybride rechargeable atteint 843 ch."
+                },
+                {
+                    "date": "2026",
+                    "title": "Mise à jour technologique",
+                    "desc": "Le GT 4 Portes renouvelle MBUX, la connectivité et les systèmes d'assistance."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "Le GT 4 Portes actualisé conserve la même gamme mécanique, mais son nouveau processeur MBUX offre une réponse jusqu'à cinq fois plus rapide en navigation et commandes vocales."
+            },
+            "quote": {
+                "text": "Un grand tourisme doit non seulement être rapide ; il doit aussi se sentir à jour à l'ère digitale.",
+                "author": "Mercedes-AMG"
+            },
+            "warningBox": null
+        },
+        "ar": {
+            "title": "تحديث تقني لـ مرسيدس-أي أم جي جي تي 4 أبواب",
+            "subtitle": "يحسّن تحديث جي تي 4 أبواب التجربة الرقمية والأمان وخيارات التخصيص.",
+            "excerpt": "تجدد مرسيدس نظام المعلومات والترفيه والقيادة المساعدة في أي أم جي جي تي 4 أبواب، بالإضافة إلى تقديم خيارات تخصيص جديدة.",
+            "imageCaption": "مرسيدس-أي أم جي جي تي 4 أبواب.",
+            "sections": [
+                {
+                    "id": "إم بي يو إكس",
+                    "heading": "تطور إم بي يو إكس",
+                    "paragraphs": [
+                        "حدّثت مرسيدس-أي أم جي جي تي 4 أبواب بحزمة تقنية تحسّن بشكل ملحوظ تجربة الركاب. يتطور نظام المعلومات والترفيه إم بي يو إكس إلى إصدار أحدث، برسومات محسّنة واستجابة أسرع وتكامل أكثر اكتمالاً مع خدمات السحابة.",
+                        "تتضمن شاشة اللمس المركزية 11.9 بوصة الآن تنقلاً مع الواقع المعزز، واتصالاً لاسلكياً لـ أندرويد أوتو و آبل كاربلاي، ومساعداً صوتياً جديداً يعيد بناء أوامر أكثر تعقيداً."
+                    ]
+                },
+                {
+                    "id": "seguridad",
+                    "heading": "الأمان والتخصيص",
+                    "paragraphs": [
+                        "في مجال الأمان، يوسع أي أم جي جي تي 4 أبواب معدات القيادة المساعدة بنظام الحفاظ على المسار المحسّن، ومساعدة تغيير المسار، ووظيفة مكابح الطوارئ الأكثر دقة في البيئات الحضرية.",
+                        "تبقى المجموعة الميكانيكية بنفس خيارات ست وثمانية أسطوانات، بما في ذلك نسخ هجين قابل للشحن 63 أس إي بيرفورمانس. ينمو التخصيص بألوان هيكل جديدة، وعجلات بتصميم حصري، وتشطيبات داخلية من الخشب أو ألياف الكربون."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "تحديث تقني لـ مرسيدس-أي أم جي جي تي 4 أبواب.",
+                "إصدار جديد من إم بي يو إكس برسومات محسّنة وتنقل بالواقع المعزز.",
+                "أندرويد أوتو و آبل كاربلاي لاسلكياً، ومساعد صوتي محسّن.",
+                "تبقى المجموعة الميكانيكية، مع خيارات ست وثمانية أسطوانات و هجين قابل للشحن."
+            ],
+            "previousModel": {
+                "name": "مرسيدس-أي أم جي جي تي 4 أبواب (2019-2024)",
+                "year": "2019-2024",
+                "summary": "نسخ بست وثمانية أسطوانات، بما في ذلك هجين قابل للشحن 63 أس إي بيرفورمانس. نقطة الضعف الرئيسية كانت تجربة رقمية ومساعدات متأخرة قليلاً مقارنة بالمنافسين الأحدث."
+            },
+            "whatChanged": [
+                {
+                    "title": "إم بي يو إكس محدث:",
+                    "text": "واجهة جديدة، رسومات أوضح، استجابة أسرع وتنقل بالواقع المعزز."
+                },
+                {
+                    "title": "اتصال لاسلكي:",
+                    "text": "لم يعد أندرويد أوتو و آبل كاربلاي بحاجة إلى كابل في الشاشة المركزية 11.9 بوصة."
+                },
+                {
+                    "title": "مساعدات محسّنة:",
+                    "text": "حفاظ على المسار بدقة أكبر، ومساعدة تغيير المسار، ومكابح طوارئ حضرية أكثر دقة."
+                },
+                {
+                    "title": "خيارات جديدة:",
+                    "text": "لوحة ألوان موسعة، وعجلات حصرية، وتشطيبات داخلية من الخشب أو ألياف الكربون."
+                }
+            ],
+            "newTechnology": [
+                "تقدم أحدث نسخة من إم بي يو إكس طبقة سحابية تتيح تحديثات أكثر تكراراً ومساعداً صوتياً يفهم أوامر أكثر تعقيداً.",
+                "يضيف الواقع المعزز في التنقل أسهم وأسماء شوارع فوق صورة الكاميرا الأمامية، مما يقلل الأخطاء في التقاطعات.",
+                "تستفيد أنظمة القيادة المساعدة من مستشعرات وبرمجيات مراجعة، خاصة في البيئات الحضرية الكثيفة."
+            ],
+            "marketContext": "بدلاً من جيل جديد، تفضّل مرسيدس تحديثاً عميقاً للحفاظ على جي تي 4 أبواب محدّثاً أمام بورش باناميرا و أودي آر أس 7. الاستراتيجية عقلانية: المنتج لا يزال تنافسياً ميكانيكياً، لكنه احتاج إلى تجربة رقمية تناسب سعره.",
+            "pricing": {
+                "price": "ابتداءً من 130,000 يورو",
+                "market": "أوروبا",
+                "availability": "متاح في الصالات من منتصف 2025",
+                "note": "تبدأ سلسلة 63 أس إي بيرفورمانس من سعر أعلى بكثير."
+            },
+            "prosCons": {
+                "pros": [
+                    "تجربة رقمية محدّثة دون تغيير منصة تعمل بالفعل.",
+                    "مجموعة ميكانيكية واسعة، بما في ذلك هجين قابل للشحن عالي الأداء.",
+                    "تخصيص أكثر في الألوان والتشطيبات."
+                ],
+                "cons": [
+                    "ليس جيلاً جديداً: التصميم الداخلي لا يزال غير مجدّد.",
+                    "سعر الوصول لا يزال مرتفعاً مقارنة بالمنافسين الأحدث.",
+                    "بعض مساعدات القيادة ستظل تعتمد على الاشتراكات."
+                ]
+            },
+            "opinion": "تدرك مرسيدس أن جي تي 4 أبواب لا يحتاج إلى المزيد من القوة: يحتاج إلى تجربة رقمية تليق بسعره. يذهب هذا التحديث في الاتجاه الصحيح، على الرغم من أننا لا نزال ننتظر مراجعة أعمق للتصميم الداخلي حتى لا يبدو المجموع قديماً أمام المنافسين الأحدث.",
+            "stats": null,
+            "timeline": [
+                {
+                    "date": "2019",
+                    "title": "إطلاق جي تي 4 أبواب",
+                    "desc": "تقدم مرسيدس أي أم جي جي تي بأربعة أبواب كمنافس لـ باناميرا و آر أس 7."
+                },
+                {
+                    "date": "2023",
+                    "title": "63 أس إي بيرفورمانس",
+                    "desc": "تصل النسخة الهجينة القابلة للشحن إلى 843 حصان."
+                },
+                {
+                    "date": "2026",
+                    "title": "تحديث تقني",
+                    "desc": "يجدّد جي تي 4 أبواب إم بي يو إكس والاتصال وأنظمة المساعدة."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "يحتفظ جي تي 4 أبواب المحدّث بنفس المجموعة الميكانيكية، لكن معالج إم بي يو إكس الجديد يتيح استجابة أسرع بخمس مرات في التنقل والأوامر الصوتية."
+            },
+            "quote": {
+                "text": "يجب ألا تكون السيارة السياحية الفاخرة سريعة فقط؛ يجب أن تشعر أيضاً بالحداثة في العصر الرقمي.",
+                "author": "مرسيدس-أي أم جي"
+            },
+            "warningBox": null
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "usa",
+  "name": "United States",
+  "currency": "USD",
+  "currencySymbol": "$",
+  "units": {
+    "speed": "mph",
+    "distance": "miles",
+    "fuelEconomy": "mpg",
+    "volume": "gal",
+    "weight": "lbs"
+  },
+  "fuelPrices": {
+    "petrol": { "value": 3.50, "currency": "USD", "unit": "gal" },
+    "diesel": { "value": 3.80, "currency": "USD", "unit": "gal" },
+    "electric": { "value": 0.16, "currency": "USD", "unit": "kWh" }
+  },
+  "taxes": {
+    "vat": 0,
+    "salesTax": {
+      "method": "state-based",
+      "averageRate": 0.07
+    }
+  },
+  "inspection": {
+    "name": "State Inspection",
+    "frequencyYears": 1,
+    "variesByState": true
+  },
+  "localization": {
+    "dateFormat": "MM/DD/YYYY",
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "language": "en"
+  }
+}

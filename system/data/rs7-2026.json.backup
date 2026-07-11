@@ -1,0 +1,3912 @@
+{
+  "id": "audi-rs7-2026",
+  "slug": "rs7",
+  "brandId": "audi",
+  "categoryId": "deportivos",
+  "modelYear": 2026,
+  "generation": "C8",
+  "bodyStyle": "hatchback",
+  "doors": 5,
+  "seats": 5,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "petrol",
+    "description": "V8 4.0L biturbo, tracción Quattro AWD",
+    "descriptionAr": "محرك 8 أسطوانات 4.0 لتر توربيني مزدوج، دفع رباعي كواترو"
+  },
+  "status": "active",
+  "launchDate": "2026-01-01",
+  "productionYears": {
+    "start": 2020,
+    "end": null
+  },
+  "basicInfo": {
+    "name": "RS7",
+    "fullModelName": "Audi RS7",
+    "badge": "AUDI PERFORMANCE",
+    "tagline": "Potencia brutal, lujo premium y sonido V8 extremo",
+    "description": "El Audi RS7 combina un diseño deportivo con lujo premium y un motor V8 biturbo de 591 HP.",
+    "longDescription": "El Audi RS7 representa la cúspide del rendimiento de Audi en el segmento de lujo. Con su motor V8 4.0L biturbo, tracción Quattro AWD y un interior de alta calidad, ofrece una experiencia de conducción única que equilibra potencia brutal con confort diario.",
+    "highlights": [
+      "Motor V8 4.0L Twin-Turbo con 591 HP",
+      "Aceleración 0-100 km/h en 3.6 segundos",
+      "Tracción Quattro AWD",
+      "Interior premium con materiales Valcona",
+      "Tecnología Matrix LED"
+    ],
+    "taglineAr": "قوة وحشية، فخامة بريميوم وصوت 8 أسطوانات متطرف",
+    "nameAr": "آر إس 7",
+    "fullModelNameAr": "أودي آر إس 7",
+    "badgeAr": "أداء أودي"
+  },
+  "specs": {
+    "engine": {
+      "type": "V8 Twin-Turbo",
+      "displacement": {
+        "value": 3996,
+        "unit": "cc"
+      },
+      "cylinders": 8,
+      "configuration": "V",
+      "aspiration": "Turbo",
+      "fuelType": "petrol",
+      "fuelOctane": "98",
+      "compressionRatio": 10.1,
+      "bore": 86,
+      "stroke": 90,
+      "blockMaterial": "Aluminum",
+      "headMaterial": "Aluminum",
+      "oilCapacity": {
+        "value": 9.5,
+        "unit": "L"
+      },
+      "cooling": "Liquid",
+      "mhev": {
+        "voltage": 48,
+        "description": "Mild-hybrid system with belt alternator starter, enables coasting with engine off and extended stop/start range"
+      },
+      "cod": {
+        "active": true,
+        "description": "Cylinder on Demand: deactivates 4 of 8 cylinders under light load for improved efficiency"
+      },
+      "typeAr": "8 أسطوانات توين تيربو",
+      "fuelTypeAr": "بنزين"
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 8,
+      "brand": "ZF",
+      "model": "8HP",
+      "driveMode": "AWD",
+      "typeAr": "أوتوماتيك"
+    },
+    "suspension": {
+      "front": "Multi-link",
+      "rear": "Multi-link",
+      "adaptive": true,
+      "airSuspension": true,
+      "adjustableDampers": true
+    },
+    "brakes": {
+      "front": {
+        "type": "Ventilated Disc",
+        "diameter": 440,
+        "material": "Ceramic",
+        "calipers": "10-piston RS"
+      },
+      "rear": {
+        "type": "Ventilated Disc",
+        "diameter": 370,
+        "material": "Composite"
+      },
+      "abs": true,
+      "ebd": true,
+      "eba": true,
+      "parkingBrake": "Electric"
+    },
+    "steering": {
+      "type": "Electric Power",
+      "turningRadius": 12.1,
+      "adjustable": true
+    },
+    "wheels": {
+      "front": {
+        "size": "21x9.5J",
+        "tire": "275/35R21"
+      },
+      "rear": {
+        "size": "21x11J",
+        "tire": "315/30R21"
+      },
+      "spareTire": "None"
+    },
+    "electrical": {
+      "battery": "12V AGM",
+      "alternator": 210,
+      "voltage": 12
+    },
+    "drivetrain": {
+      "typeAr": "دفع رباعي (كواترو)"
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 591,
+      "unit": "HP",
+      "rpm": "6000-6250"
+    },
+    "torque": {
+      "value": 800,
+      "unit": "Nm",
+      "rpm": "2050-4500"
+    },
+    "acceleration": {
+      "zeroToSixty": 3.6,
+      "zeroToHundred": 3.6,
+      "zeroToTwoHundred": 12,
+      "standingQuarterMile": 11.5
+    },
+    "topSpeed": {
+      "value": 305,
+      "unit": "km/h",
+      "limited": true,
+      "unlimited": 320
+    },
+    "powerToWeight": {
+      "value": 285,
+      "unit": "HP/ton"
+    },
+    "braking": {
+      "hundredToZero": 33,
+      "sixtyToZero": 108
+    },
+    "handling": {
+      "lateralG": 0.98,
+      "slalomSpeed": 72
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 5009,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1950,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1422,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2928,
+      "unit": "mm"
+    },
+    "track": {
+      "front": {
+        "value": 1665,
+        "unit": "mm"
+      },
+      "rear": {
+        "value": 1670,
+        "unit": "mm"
+      }
+    },
+    "groundClearance": {
+      "value": 120,
+      "unit": "mm"
+    },
+    "curbWeight": {
+      "value": 2075,
+      "unit": "kg"
+    },
+    "grossWeight": {
+      "value": 2650,
+      "unit": "kg"
+    },
+    "cargoCapacity": {
+      "seatsUp": {
+        "value": 535,
+        "unit": "L"
+      },
+      "seatsDown": {
+        "value": 1390,
+        "unit": "L"
+      }
+    },
+    "fuelTank": {
+      "value": 75,
+      "unit": "L"
+    }
+  },
+  "fuelEconomy": {
+    "consumption": {
+      "city": {
+        "value": 14.5,
+        "unit": "L/100km"
+      },
+      "highway": {
+        "value": 8.5,
+        "unit": "L/100km"
+      },
+      "combined": {
+        "value": 12.3,
+        "unit": "L/100km"
+      }
+    },
+    "drivingStyles": {
+      "calm": 11,
+      "mixed": 12.8,
+      "sport": 16
+    },
+    "range": {
+      "city": {
+        "value": 517,
+        "unit": "km"
+      },
+      "highway": {
+        "value": 882,
+        "unit": "km"
+      },
+      "combined": {
+        "value": 670,
+        "unit": "km"
+      }
+    },
+    "emissions": {
+      "co2": {
+        "value": 276,
+        "unit": "g/km",
+        "standard": "Euro 6d"
+      },
+      "nox": {
+        "value": 0.06,
+        "unit": "g/km"
+      },
+      "particulates": {
+        "value": 0.005,
+        "unit": "g/km"
+      }
+    }
+  },
+  "pricing": {
+    "basePrice": {
+      "value": 145000,
+      "currency": "EUR",
+      "region": "ES"
+    },
+    "regionalPricing": [
+      {
+        "region": "ES",
+        "price": 145000,
+        "currency": "EUR",
+        "taxes": {
+          "registrationTax": 14.75,
+          "vat": 21,
+          "roadTax": 150
+        }
+      },
+      {
+        "region": "DE",
+        "price": 138000,
+        "currency": "EUR",
+        "taxes": {
+          "registrationTax": 0,
+          "vat": 19,
+          "roadTax": 450
+        }
+      },
+      {
+        "region": "US",
+        "price": 129000,
+        "currency": "USD",
+        "taxes": {
+          "registrationTax": 0,
+          "vat": 0,
+          "roadTax": 500
+        }
+      }
+    ],
+    "depreciation": {
+      "year1": {
+        "percentage": 85,
+        "km": 15000
+      },
+      "year3": {
+        "percentage": 68,
+        "km": 45000
+      },
+      "year5": {
+        "percentage": 54,
+        "km": 75000
+      }
+    },
+    "ownershipCosts": {
+      "insurance": {
+        "value": 2500,
+        "currency": "EUR"
+      },
+      "maintenance": {
+        "value": 1200,
+        "currency": "EUR"
+      },
+      "fuel": {
+        "value": 2800,
+        "currency": "EUR",
+        "annualKm": 15000
+      },
+      "tyres": {
+        "value": 800,
+        "currency": "EUR"
+      },
+      "inspection": {
+        "value": 150,
+        "currency": "EUR"
+      }
+    }
+  },
+  "tires": {
+    "es": {
+      "standard": "275/35 R21 delanteras, 315/30 R21 traseras",
+      "optional": [
+        "285/30 R22 delanteras, 335/25 R22 traseras"
+      ],
+      "rearWear": "Desgaste rapido de las traseras debido al alto par (800 Nm) y traccion Quattro",
+      "recommended": "Pirelli P Zero RS o Continental SportContact 7",
+      "sizes": [
+        "275/35 R21",
+        "315/30 R21",
+        "285/30 R22",
+        "335/25 R22"
+      ]
+    },
+    "en": {
+      "standard": "275/35 R21 front, 315/30 R21 rear",
+      "optional": [
+        "285/30 R22 front, 335/25 R22 rear"
+      ],
+      "rearWear": "Fast rear wear due to high torque (800 Nm) and Quattro AWD",
+      "recommended": "Pirelli P Zero RS or Continental SportContact 7",
+      "sizes": [
+        "275/35 R21",
+        "315/30 R21",
+        "285/30 R22",
+        "335/25 R22"
+      ]
+    },
+    "fr": {
+      "standard": "275/35 R21 avant, 315/30 R21 arriere",
+      "optional": [
+        "285/30 R22 avant, 335/25 R22 arriere"
+      ],
+      "rearWear": "Usure rapide a l'arriere due au couple eleve (800 Nm) et Quattro",
+      "recommended": "Pirelli P Zero RS ou Continental SportContact 7",
+      "sizes": [
+        "275/35 R21",
+        "315/30 R21",
+        "285/30 R22",
+        "335/25 R22"
+      ]
+    },
+    "ar": {
+      "standard": "275/35 21 امامية، 315/30 21 خلفية",
+      "optional": [
+        "285/30 22 أمامية، 335/25 22 خلفية"
+      ],
+      "rearWear": "تآكل سريع للإطارات الخلفية بسبب العزم العالي (800 نيوتن متر) ونظام كواترو",
+      "recommended": "بيريلي بي زيرو آر إس أو كونتيننتال سبورت كونتاكت 7",
+      "sizes": [
+        "275/35 21",
+        "315/30 21",
+        "285/30 22",
+        "335/25 22"
+      ]
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "matrix-led",
+        "name": "Matrix LED headlights",
+        "description": "Adaptive LED headlights with matrix technology",
+        "standard": true,
+        "category": "lighting"
+      },
+      {
+        "id": "panoramic-roof",
+        "name": "Panoramic sunroof",
+        "description": "Large panoramic glass roof",
+        "standard": true,
+        "category": "body"
+      },
+      {
+        "id": "electric-tailgate",
+        "name": "Electric tailgate",
+        "description": "Power-operated tailgate with hands-free opening",
+        "standard": true,
+        "category": "convenience"
+      },
+      {
+        "id": "21-wheels",
+        "name": "21-inch alloy wheels",
+        "description": "21-inch forged alloy wheels",
+        "standard": true,
+        "category": "wheels"
+      },
+      {
+        "id": "sport-exhaust",
+        "name": "RS sport exhaust",
+        "description": "Performance exhaust system with active flaps",
+        "standard": false,
+        "category": "performance"
+      }
+    ],
+    "interior": [
+      {
+        "id": "valcona-leather",
+        "name": "Valcona leather seats",
+        "description": "Premium Valcona leather upholstery",
+        "standard": true,
+        "category": "upholstery"
+      },
+      {
+        "id": "heated-seats",
+        "name": "Heated front seats",
+        "description": "Electrically heated front seats",
+        "standard": true,
+        "category": "comfort"
+      },
+      {
+        "id": "ventilated-seats",
+        "name": "Ventilated front seats",
+        "description": "Seat ventilation for front seats",
+        "standard": false,
+        "category": "comfort"
+      },
+      {
+        "id": "massaging-seats",
+        "name": "Massaging front seats",
+        "description": "Seat massage function",
+        "standard": false,
+        "category": "comfort"
+      },
+      {
+        "id": "carbon-interior",
+        "name": "Carbon fiber trim",
+        "description": "Carbon fiber interior accents",
+        "standard": false,
+        "category": "trim"
+      },
+      {
+        "id": "virtual-cockpit",
+        "name": "Virtual Cockpit Plus",
+        "description": "12.3-inch digital instrument cluster",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "mmi-touch",
+        "name": "MMI Touch Response",
+        "description": "10.1-inch touchscreen infotainment system",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "bang-olufsen",
+        "name": "Bang & Olufsen 3D sound",
+        "description": "Premium 3D sound system",
+        "standard": false,
+        "category": "audio"
+      }
+    ],
+    "technology": [
+      {
+        "id": "adaptive-cruise",
+        "name": "Adaptive Cruise Control",
+        "description": "Radar-based adaptive cruise control with stop & go",
+        "standard": true,
+        "category": "driver-assist"
+      },
+      {
+        "id": "lane-assist",
+        "name": "Lane Assist",
+        "description": "Lane departure warning and lane keeping assist",
+        "standard": true,
+        "category": "driver-assist"
+      },
+      {
+        "id": "park-assist",
+        "name": "Park Assist",
+        "description": "Automated parking system with 360-degree cameras",
+        "standard": true,
+        "category": "driver-assist"
+      },
+      {
+        "id": "night-vision",
+        "name": "Night Vision Assistant",
+        "description": "Thermal imaging night vision system",
+        "standard": false,
+        "category": "driver-assist"
+      },
+      {
+        "id": "head-up-display",
+        "name": "Head-Up Display",
+        "description": "Windshield projection display",
+        "standard": false,
+        "category": "technology"
+      },
+      {
+        "id": "wireless-charging",
+        "name": "Wireless phone charging",
+        "description": "Qi wireless charging pad",
+        "standard": true,
+        "category": "connectivity"
+      },
+      {
+        "id": "carplay-android-auto",
+        "name": "Apple CarPlay / Android Auto",
+        "description": "Smartphone integration",
+        "standard": true,
+        "category": "connectivity"
+      }
+    ],
+    "comfort": [
+      {
+        "id": "four-zone-climate",
+        "name": "Four-zone climate control",
+        "description": "Independent climate control for four zones",
+        "standard": true,
+        "category": "climate"
+      },
+      {
+        "id": "air-suspension",
+        "name": "Adaptive air suspension",
+        "description": "Air suspension with adaptive damping",
+        "standard": true,
+        "category": "suspension"
+      },
+      {
+        "id": "dynamic-steering",
+        "name": "Dynamic all-wheel steering",
+        "description": "Rear axle steering system",
+        "standard": false,
+        "category": "handling"
+      },
+      {
+        "id": "comfort-access",
+        "name": "Comfort access",
+        "description": "Keyless entry and start",
+        "standard": true,
+        "category": "convenience"
+      }
+    ],
+    "performance": [
+      {
+        "id": "rs-dynamic-package",
+        "name": "RS Dynamic Package Plus",
+        "description": "Performance package with increased top speed",
+        "standard": false,
+        "category": "performance"
+      },
+      {
+        "id": "sport-differential",
+        "name": "Sport differential",
+        "description": "Rear torque vectoring differential",
+        "standard": true,
+        "category": "handling"
+      },
+      {
+        "id": "drive-select",
+        "name": "Audi Drive Select",
+        "description": "Multiple driving modes",
+        "standard": true,
+        "category": "performance"
+      },
+      {
+        "id": "ceramic-brakes",
+        "name": "Ceramic brakes",
+        "description": "Carbon ceramic brake discs",
+        "standard": false,
+        "category": "brakes"
+      }
+    ]
+  },
+  "interiorCards": [
+    {
+      "id": "virtual-cockpit",
+      "icon": "screen"
+    },
+    {
+      "id": "rs-seats",
+      "icon": "seat"
+    },
+    {
+      "id": "ambient-light",
+      "icon": "light"
+    },
+    {
+      "id": "head-up",
+      "icon": "display"
+    },
+    {
+      "id": "bang-olufsen",
+      "icon": "sound"
+    },
+    {
+      "id": "climate",
+      "icon": "climate"
+    },
+    {
+      "id": "mmi-touch",
+      "icon": "touch"
+    }
+  ],
+  "interiorText": {
+    "es": {
+      "virtual-cockpit": {
+        "title": "Virtual Cockpit Plus",
+        "desc": "Pantalla de 12.3\" completamente digital con mapas 3D, navegación por voz y personalización total del cuadro de instrumentos."
+      },
+      "rs-seats": {
+        "title": "Asientos RS deportivos",
+        "desc": "Tapizados en cuero Valcona con costuras en diamante, masaje lumbar, calefacción y ventilación para conductor y acompañante."
+      },
+      "ambient-light": {
+        "title": "Iluminación ambiental 30 colores",
+        "desc": "Luces LED ambientales a lo largo de todo el habitáculo con 30 tonos seleccionables y efecto de bienvenida personalizado."
+      },
+      "head-up": {
+        "title": "Head-Up Display",
+        "desc": "Proyección de velocidad, navegación y asistencias directamente en el parabrisas para no apartar la vista de la carretera."
+      },
+      "bang-olufsen": {
+        "title": "Sonido Bang & Olufsen 3D",
+        "desc": "19 altavoces con 705 W, sonido envolvente 3D y calidad de estudio. Un concierto privado en cada viaje."
+      },
+      "climate": {
+        "title": "Climatización 4 zonas",
+        "desc": "Control de temperatura independiente para conductor, copiloto y plazas traseras con filtro de aire de calidad."
+      },
+      "mmi-touch": {
+        "title": "MMI Touch Response",
+        "desc": "Doble pantalla táctil de 10.1\" superior + 8.6\" inferior con retroalimentación háptica y reconocimiento de escritura a mano."
+      }
+    },
+    "en": {
+      "virtual-cockpit": {
+        "title": "Virtual Cockpit Plus",
+        "desc": "12.3\" fully digital screen with 3D maps, voice navigation and full instrument cluster customization."
+      },
+      "rs-seats": {
+        "title": "RS Sport Seats",
+        "desc": "Upholstered in Valcona leather with diamond stitching, lumbar massage, heating and ventilation for driver and passenger."
+      },
+      "ambient-light": {
+        "title": "30-Color Ambient Lighting",
+        "desc": "LED ambient lights throughout the cabin with 30 selectable tones and personalized welcome effect."
+      },
+      "head-up": {
+        "title": "Head-Up Display",
+        "desc": "Projection of speed, navigation and assistance directly on the windshield so you never take your eyes off the road."
+      },
+      "bang-olufsen": {
+        "title": "Bang & Olufsen 3D Sound",
+        "desc": "19 speakers with 705 W, 3D surround sound and studio quality. A private concert on every journey."
+      },
+      "climate": {
+        "title": "4-Zone Climate Control",
+        "desc": "Independent temperature control for driver, passenger and rear seats with quality air filter."
+      },
+      "mmi-touch": {
+        "title": "MMI Touch Response",
+        "desc": "Dual touchscreens 10.1\" upper + 8.6\" lower with haptic feedback and handwriting recognition."
+      }
+    },
+    "fr": {
+      "virtual-cockpit": {
+        "title": "Virtual Cockpit Plus",
+        "desc": "Écran entièrement numérique de 12,3\" avec cartes 3D, navigation vocale et personnalisation totale du tableau de bord."
+      },
+      "rs-seats": {
+        "title": "Sièges RS sport",
+        "desc": "Garnis de cuir Valcona avec surpiqûres en diamant, massage lombaire, chauffage et ventilation pour conducteur et passager."
+      },
+      "ambient-light": {
+        "title": "Éclairage d'ambiance 30 couleurs",
+        "desc": "Lumières LED ambiantes dans tout l'habitacle avec 30 tons sélectionnables et effet d'accueil personnalisé."
+      },
+      "head-up": {
+        "title": "Head-Up Display",
+        "desc": "Projection de la vitesse, de la navigation et des assistants directement sur le pare-brise pour ne jamais quitter la route des yeux."
+      },
+      "bang-olufsen": {
+        "title": "Son Bang & Olufsen 3D",
+        "desc": "19 haut-parleurs avec 705 W, son surround 3D et qualité studio. Un concert privé à chaque voyage."
+      },
+      "climate": {
+        "title": "Climatisation 4 zones",
+        "desc": "Contrôle de température indépendant pour conducteur, passager et places arrière avec filtre à air de qualité."
+      },
+      "mmi-touch": {
+        "title": "MMI Touch Response",
+        "desc": "Double écran tactile 10,1\" supérieur + 8,6\" inférieur avec retour haptique et reconnaissance d'écriture manuscrite."
+      }
+    },
+    "ar": {
+      "virtual-cockpit": {
+        "title": "الكوكبيت الافتراضي بلس",
+        "desc": "شاشة رقمية بالكامل 12.3 بوصة مع خرائط ثلاثية الأبعاد، تنقل صوتي وتخصيص كامل للوحة العدادات."
+      },
+      "rs-seats": {
+        "title": "مقاعد رياضية آر إس",
+        "desc": "مغطاة بجلد فالكونا مع خياطة على شكل الماس، تدليك قطني، تسخين وتبريد للسائق والراكب."
+      },
+      "ambient-light": {
+        "title": "إضاءة محيطة 30 لونًا",
+        "desc": "أضواء ليد محيطة في جميع أنحاء المقصورة مع 30 لونًا قابلاً للاختيار وتأثير ترحيب مخصص."
+      },
+      "head-up": {
+        "title": "شاشة العرض على الزجاج الأمامي",
+        "desc": "عرض السرعة والملاحة والمساعدات مباشرة على الزجاج الأمامي حتى لا تبعد عينيك عن الطريق."
+      },
+      "bang-olufsen": {
+        "title": "صوت بانغ أند أولوفسن ثلاثي الأبعاد",
+        "desc": "19 مكبر صوت بقوة 705 واط، صوت محيط ثلاثي الأبعاد وجودة الاستوديو. حفلة موسيقية خاصة في كل رحلة."
+      },
+      "climate": {
+        "title": "تكييف 4 مناطق",
+        "desc": "تحكم مستقل في درجة الحرارة للسائق والراكب والمقاعد الخلفية مع فلتر هواء عالي الجودة."
+      },
+      "mmi-touch": {
+        "title": "إم إم آي تاتش ريسبونس",
+        "desc": "شاشتان لمس مزدوجتان 10.1 بوصة علوية + 8.6 بوصة سفلية مع تغذية لمسية والتعرف على الكتابة اليدوية."
+      }
+    }
+  },
+  "safety": {
+    "es": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 85,
+        "pedestrian": 72,
+        "safetyAssist": 81
+      },
+      "airbags": [
+        "Conductor",
+        "Pasajero",
+        "Laterales delanteros",
+        "Laterales traseros",
+        "De cortina frontales y traseras",
+        "De rodilla para conductor"
+      ],
+      "driverAssist": [
+        "Adaptive cruise control con Stop & Go",
+        "Audi pre sense front con detección de peatones y ciclistas",
+        "Audi pre sense rear",
+        "Lane keep assist",
+        "Lane departure warning",
+        "Traffic jam assist",
+        "Intersection assist",
+        "Exit warning",
+        "Cross-traffic assist rear",
+        "Night vision assistant con detección de peatones",
+        "Top view camera system (360°)",
+        "Head-up display",
+        "Parking assist plus con visualización 3D"
+      ],
+      "structural": "Carrocería multimaterial con acero de ultra alta resistencia, aluminio en capó, puertas y portón, y refuerzos estructurales en los umbrales y pilares B."
+    },
+    "en": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 85,
+        "pedestrian": 72,
+        "safetyAssist": 81
+      },
+      "airbags": [
+        "Driver",
+        "Passenger",
+        "Front side",
+        "Rear side",
+        "Front and rear curtain",
+        "Driver knee"
+      ],
+      "driverAssist": [
+        "Adaptive cruise control with Stop & Go",
+        "Audi pre sense front with pedestrian and cyclist detection",
+        "Audi pre sense rear",
+        "Lane keep assist",
+        "Lane departure warning",
+        "Traffic jam assist",
+        "Intersection assist",
+        "Exit warning",
+        "Cross-traffic assist rear",
+        "Night vision assistant with pedestrian detection",
+        "Top view camera system (360°)",
+        "Head-up display",
+        "Parking assist plus with 3D visualisation"
+      ],
+      "structural": "Multi-material body with ultra high-strength steel, aluminium bonnet, doors and tailgate, and structural reinforcements in sills and B-pillars."
+    },
+    "fr": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 85,
+        "pedestrian": 72,
+        "safetyAssist": 81
+      },
+      "airbags": [
+        "Conducteur",
+        "Passager",
+        "Latéraux avant",
+        "Latéraux arrière",
+        "Rideaux avant et arrière",
+        "Genou conducteur"
+      ],
+      "driverAssist": [
+        "Régulateur de vitesse adaptatif avec Stop & Go",
+        "Audi pre sense front avec détection de piétons et cyclistes",
+        "Audi pre sense rear",
+        "Assistance au maintien de voie",
+        "Avertisseur de franchissement de ligne",
+        "Assistance aux embouteillages",
+        "Assistance aux intersections",
+        "Avertisseur d'ouverture de porte",
+        "Assistance aux intersections arrière",
+        "Assistant vision nocturne avec détection de piétons",
+        "Système de caméra top view (360°)",
+        "Affichage tête haute",
+        "Parking assist plus avec visualisation 3D"
+      ],
+      "structural": "Carrosserie multimateriaux avec acier ultra haute résistance, capot, portes et hayon en aluminium, et renforcements structurels dans les seuils et montants B."
+    },
+    "ar": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 85,
+        "pedestrian": 72,
+        "safetyAssist": 81
+      },
+      "airbags": [
+        "السائق",
+        "الراكب",
+        "جانبي أمامي",
+        "جانبي خلفي",
+        "ستائري أمامي وخلفي",
+        "ركبة السائق"
+      ],
+      "driverAssist": [
+        "مثبت السرعة التكيفي مع توقف وانطلاق",
+        "أودي بري سينس أمامي مع كشف المشاة والدراجات",
+        "أودي بري سينس خلفي",
+        "مساعد الحفاظ على المسار",
+        "تحذير مغادرة المسار",
+        "مساعد الازدحام المروري",
+        "مساعد التقاطعات",
+        "تحذير الخروج",
+        "مساعد حركة المرور العرضية الخلفي",
+        "مساعد الرؤية الليلية مع كشف المشاة",
+        "نظام كاميرا منظر علوي (360°)",
+        "شاشة عرض على الزجاج الأمامي",
+        "مساعد الوقوف بلس مع تصور ثلاثي الأبعاد"
+      ],
+      "structural": "هيكل متعدد المواد مع فولاذ فائق القوة، وغطاء محرك وأبواب وباب خلفي من الألمنيوم، وتعزيزات هيكلية في الأعتاب وأعمدة بي."
+    }
+  },
+  "versions": [
+    {
+      "id": "rs7-sportback",
+      "name": "Audi RS7",
+      "slug": "rs7-sportback",
+      "price": {
+        "value": 145000,
+        "currency": "EUR"
+      },
+      "features": [
+        "matrix-led",
+        "valcona-leather",
+        "heated-seats",
+        "virtual-cockpit",
+        "mmi-touch",
+        "adaptive-cruise",
+        "lane-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "sport-differential",
+        "drive-select"
+      ],
+      "specs": {
+        "power": {
+          "value": 591,
+          "unit": "HP"
+        },
+        "torque": {
+          "value": 800,
+          "unit": "Nm"
+        }
+      },
+      "images": [
+        "../images/rs7.4.2026.png"
+      ],
+      "nameAr": "أودي آر إس 7",
+      "featuresAr": [
+        "matrix-ليد",
+        "فالكونا-جلد",
+        "heated-seats",
+        "افتراضي-كوكبيت",
+        "إم إم آي-touch",
+        "adaptive-قيادة cruising",
+        "مسار-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "رياضي-دفرنسيال",
+        "drive-select"
+      ]
+    },
+    {
+      "id": "rs7-performance",
+      "name": "Audi RS7 Performance",
+      "slug": "rs7-performance",
+      "price": {
+        "value": 165000,
+        "currency": "EUR"
+      },
+      "features": [
+        "matrix-led",
+        "carbon-interior",
+        "heated-seats",
+        "ventilated-seats",
+        "virtual-cockpit",
+        "mmi-touch",
+        "adaptive-cruise",
+        "lane-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "sport-differential",
+        "drive-select",
+        "rs-dynamic-package"
+      ],
+      "specs": {
+        "power": {
+          "value": 630,
+          "unit": "HP"
+        },
+        "torque": {
+          "value": 850,
+          "unit": "Nm"
+        }
+      },
+      "images": [
+        "../images/rs7.2.2026.png"
+      ],
+      "nameAr": "أودي آر إس 7 أداء",
+      "featuresAr": [
+        "matrix-ليد",
+        "كربون-داخلية",
+        "heated-seats",
+        "ventilated-seats",
+        "افتراضي-كوكبيت",
+        "إم إم آي-touch",
+        "adaptive-قيادة cruising",
+        "مسار-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "رياضي-دفرنسيال",
+        "drive-select",
+        "آر إس-ديناميكي-باقة"
+      ]
+    },
+    {
+      "id": "rs7-carbon-edition",
+      "name": "Audi RS7 Carbon Edition",
+      "slug": "rs7-carbon-edition",
+      "price": {
+        "value": 180000,
+        "currency": "EUR"
+      },
+      "features": [
+        "matrix-led",
+        "carbon-interior",
+        "heated-seats",
+        "ventilated-seats",
+        "massaging-seats",
+        "virtual-cockpit",
+        "mmi-touch",
+        "bang-olufsen",
+        "adaptive-cruise",
+        "lane-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "dynamic-steering",
+        "sport-differential",
+        "drive-select",
+        "rs-dynamic-package",
+        "sport-exhaust",
+        "ceramic-brakes"
+      ],
+      "specs": {
+        "power": {
+          "value": 630,
+          "unit": "HP"
+        },
+        "torque": {
+          "value": 850,
+          "unit": "Nm"
+        }
+      },
+      "images": [
+        "../images/rs7.2026.png"
+      ],
+      "nameAr": "أودي آر إس 7 كربون إصدار",
+      "featuresAr": [
+        "matrix-ليد",
+        "كربون-داخلية",
+        "heated-seats",
+        "ventilated-seats",
+        "massaging-seats",
+        "افتراضي-كوكبيت",
+        "إم إم آي-touch",
+        "bang-olufsen",
+        "adaptive-قيادة cruising",
+        "مسار-assist",
+        "four-zone-climate",
+        "air-suspension",
+        "ديناميكي-steering",
+        "رياضي-دفرنسيال",
+        "drive-select",
+        "آر إس-ديناميكي-باقة",
+        "رياضي-عادم",
+        "سيراميك-فرامل"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "../images/rs7.hero.2026.png",
+    "gallery": [
+      {
+        "url": "../images/rs7.1.2026.png",
+        "alt": "Audi RS7 Sportback",
+        "category": "exterior",
+        "angle": "front"
+      },
+      {
+        "url": "../images/rs7.2.2026.png",
+        "alt": "Audi RS7 Performance",
+        "category": "exterior",
+        "angle": "side"
+      },
+      {
+        "url": "../images/rs7.3.2026.png",
+        "alt": "Audi RS7 Carbon Edition",
+        "category": "exterior",
+        "angle": "rear"
+      },
+      {
+        "url": "../images/rs7.2026.png",
+        "alt": "Audi RS7 detalle",
+        "category": "detail",
+        "angle": "detail"
+      }
+    ],
+    "thumbnails": [
+      "../images/rs7.1.2026.png",
+      "../images/rs7.2.2026.png",
+      "../images/rs7.3.2026.png"
+    ]
+  },
+  "seo": {
+    "title": "Audi RS7 2026: Precio, Consumo, Interior y Análisis Completo",
+    "description": "Análisis completo del Audi RS7 2026: precio en España, consumo real, interior V8, mantenimiento, sonido y experiencia de conducción.",
+    "keywords": [
+      "Audi RS7",
+      "RS7 2026",
+      "precio Audi RS7",
+      "consumo RS7",
+      "Audi RS7 España",
+      "Audi RS7 V8",
+      "Audi RS7 interior"
+    ],
+    "og": {
+      "title": "Audi RS7 2026 - Análisis Completo",
+      "description": "Potencia brutal, lujo premium y sonido V8 extremo. Descubre todo sobre el Audi RS7.",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=1200",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Audi RS7 2026 - Análisis Completo",
+      "description": "Potencia brutal, lujo premium y sonido V8 extremo.",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=1200"
+    }
+  },
+  "content": {
+    "pros": [
+      "Motor V8 biturbo de 591 HP con sonido espectacular",
+      "Aceleración brutal 0-100 km/h en 3.6 segundos",
+      "Interior de alta calidad con materiales premium",
+      "Tecnología avanzada y conectividad completa",
+      "Tracción Quattro AWD excelente en todas las condiciones",
+      "Diseño agresivo y distintivo",
+      "Confort de marcha sorprendente para un deportivo"
+    ],
+    "cons": [
+      "Consumo elevado en ciudad",
+      "Precio de adquisición alto",
+      "Depreciación significativa los primeros años",
+      "Espacio trasero limitado para pasajeros altos",
+      "Sistema infotainment complejo al principio",
+      "Costes de mantenimiento elevados"
+    ],
+    "review": "El Audi RS7 es una obra maestra de ingeniería que combina potencia brutal con lujo refinado. Su motor V8 4.0L biturbo de 591 HP ofrece una aceleración impresionante de 0-100 km/h en solo 3.6 segundos, mientras que su interior premium con materiales Valcona y tecnología de vanguardia proporciona un confort excepcional. La tracción Quattro AWD asegura una adherencia perfecta en todas las condiciones, y el sonido del V8 es simplemente espectacular. Aunque su consumo es elevado y su precio considerable, el RS7 ofrece una experiencia de conducción única que justifica cada euro invertido.",
+    "faq": [
+      {
+        "question": "¿Cuál es el precio del Audi RS7 2026 en España?",
+        "answer": "El precio base del Audi RS7 2026 en España es de 145.000€, aunque puede variar según los extras y la versión elegida."
+      },
+      {
+        "question": "¿Cuánto consume el Audi RS7?",
+        "answer": "El consumo combinado oficial WLTP es de 12.3 L/100km, aunque en uso real puede variar entre 11 L/100km en conducción tranquila hasta 18 L/100km en conducción deportiva."
+      },
+      {
+        "question": "¿Cuál es la aceleración del Audi RS7?",
+        "answer": "El Audi RS7 acelera de 0-100 km/h en 3.6 segundos (3.4 en la versión Performance), lo que lo sitúa entre los coches más rápidos del segmento."
+      },
+      {
+        "question": "¿Cuántos caballos tiene el Audi RS7?",
+        "answer": "El Audi RS7 estándar tiene 591 HP, mientras que la versión Performance aumenta hasta 630 HP."
+      },
+      {
+        "question": "¿Cuál es la velocidad máxima del Audi RS7?",
+        "answer": "La velocidad máxima está limitada electrónicamente a 305 km/h, aunque con el paquete RS Dynamic Plus puede alcanzar 320 km/h."
+      },
+      {
+        "question": "¿Cuánto cuesta el mantenimiento anual del Audi RS7?",
+        "answer": "El mantenimiento anual estimado del Audi RS7 ronda los 1.200€, sin incluir neumáticos que pueden costar unos 800€ adicionales al año."
+      },
+      {
+        "question": "¿Cuál es la depreciación del Audi RS7?",
+        "answer": "El Audi RS7 pierde aproximadamente el 32% de su valor a los 3 años y el 46% a los 5 años, según el mercado español."
+      }
+    ],
+    "timeline": [
+      {
+        "km": 15000,
+        "months": 12,
+        "service": "Servicio de mantenimiento anual",
+        "description": "Cambio de aceite y filtros, revisión de niveles y sistemas activos",
+        "cost": {
+          "value": 350,
+          "currency": "EUR"
+        },
+        "serviceAr": "خدمة الصيانة السنوية",
+        "descriptionAr": "تغيير الزيت والفلاتر، فحص المستويات والأنظمة النشطة"
+      },
+      {
+        "km": 30000,
+        "months": 24,
+        "service": "Cambio de aceite y filtros",
+        "description": "Filtros de aire, habitáculo y combustible, revisión de frenos y neumáticos",
+        "cost": {
+          "value": 450,
+          "currency": "EUR"
+        },
+        "serviceAr": "تغيير الزيت والفلاتر",
+        "descriptionAr": "فلاتر الهواء والمقصورة والوقود، فحص الفرامل والإطارات"
+      },
+      {
+        "km": 60000,
+        "months": 48,
+        "service": "Servicio mayor con cambio de frenos",
+        "description": "Revisión mayor del V8 biturbo, cambio de bujías, discos y pastillas de freno",
+        "cost": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "serviceAr": "الصيانة الكبرى مع تغيير الفرامل",
+        "descriptionAr": "الفحص الرئيسي لمحرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، الأقراص والفحمات"
+      },
+      {
+        "km": 90000,
+        "months": 72,
+        "service": "Servicio completo con cambio de líquidos",
+        "description": "Cambio de aceite de caja de cambios, refrigerante, líquido de frenos y dirección asistida",
+        "cost": {
+          "value": 800,
+          "currency": "EUR"
+        },
+        "serviceAr": "الصيانة الشاملة مع تغيير السوائل",
+        "descriptionAr": "تغيير زيت ناقل الحركة، مبرد، سائل الفرامل والتوجيه المعزز"
+      },
+      {
+        "km": 120000,
+        "months": 96,
+        "service": "Revisión de cadena y transmisión",
+        "description": "Inspección de cadena de distribución, transmisión y diferencial",
+        "cost": {
+          "value": 3000,
+          "currency": "EUR"
+        },
+        "serviceAr": "فحص السلسلة وناقل الحركة",
+        "descriptionAr": "فحص سلسلة التوزيع، ناقل الحركة والدفرنسي"
+      }
+    ],
+    "options": [
+      {
+        "id": "rs-dynamic-plus",
+        "name": "RS Dynamic Package Plus",
+        "description": "Aumenta la velocidad máxima a 320 km/h e incluye suspensión deportiva",
+        "price": {
+          "value": 4800,
+          "currency": "EUR"
+        },
+        "worthIt": true,
+        "resaleImpact": "high"
+      },
+      {
+        "id": "rs-sport-exhaust",
+        "name": "Escape RS Sport",
+        "description": "Sistema de escape deportivo con válvulas activas",
+        "price": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "worthIt": true,
+        "resaleImpact": "medium"
+      },
+      {
+        "id": "ceramic-brakes",
+        "name": "Frenos cerámicos",
+        "description": "Discos de freno de carbón cerámico",
+        "price": {
+          "value": 9500,
+          "currency": "EUR"
+        },
+        "worthIt": false,
+        "resaleImpact": "neutral"
+      },
+      {
+        "id": "matrix-laser",
+        "name": "Matrix LED / Laser",
+        "description": "Faros láser de alta tecnología",
+        "price": {
+          "value": 2400,
+          "currency": "EUR"
+        },
+        "worthIt": true,
+        "resaleImpact": "medium"
+      },
+      {
+        "id": "carbon-valcona",
+        "name": "Interior Carbon / Valcona",
+        "description": "Interior de cuero Valcona con acabados en fibra de carbono",
+        "price": {
+          "value": 3500,
+          "currency": "EUR"
+        },
+        "worthIt": true,
+        "resaleImpact": "high"
+      },
+      {
+        "id": "individual-rear-seats",
+        "name": "Asientos traseros individuales",
+        "description": "Configuración de asientos traseros individuales",
+        "price": {
+          "value": 1800,
+          "currency": "EUR"
+        },
+        "worthIt": false,
+        "resaleImpact": "low"
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "carId": "bmw-m5-2026",
+      "similarity": 85,
+      "category": "direct",
+      "name": "BMW M5",
+      "nameAr": "بي إم دبليو أم 5",
+      "fullNameAr": "بي إم دبليو أم 5 هجينة كومبيتيشن"
+    },
+    {
+      "carId": "mercedes-amg-gt63-2026",
+      "similarity": 80,
+      "category": "direct",
+      "name": "Mercedes-AMG GT63",
+      "nameAr": "مرسيدس-أي أم جي جي تي 63",
+      "fullNameAr": "مرسيدس-أي أم جي جي تي 63 أس إي بيرفورمانس"
+    },
+    {
+      "carId": "porsche-panamera-turbo-2026",
+      "similarity": 75,
+      "category": "segment",
+      "name": "Porsche Panamera Turbo",
+      "nameAr": "بورش باناميرا توربو",
+      "fullNameAr": "بورش باناميرا توربو"
+    }
+  ],
+  "relatedModels": [
+    {
+      "carId": "audi-rs6-2026",
+      "relation": "same-brand"
+    },
+    {
+      "carId": "audi-rs5-2026",
+      "relation": "same-brand"
+    },
+    {
+      "carId": "bmw-m5-2026",
+      "relation": "competitor"
+    },
+    {
+      "carId": "mercedes-amg-gt63-2026",
+      "relation": "competitor"
+    },
+    {
+      "carId": "porsche-panamera-turbo-2026",
+      "relation": "competitor"
+    }
+  ],
+  "rating": {
+    "overall": 9.2,
+    "performance": 9.8,
+    "comfort": 9,
+    "technology": 9.5,
+    "design": 9.5,
+    "value": 8.5,
+    "reliability": 8.8
+  },
+  "metadata": {
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "createdBy": "system",
+    "updatedBy": "system",
+    "version": "1.0.0",
+    "source": "official",
+    "verified": true
+  },
+  "countryPricing": {
+    "us": {
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "flag": "🇺🇸",
+      "rivalAmg": 160000,
+      "maintenance": 1500,
+      "used3Range": "73,302 - 81,018 USD",
+      "fuelDefault": 20,
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          141760
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          138574
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          138039
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          141226
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          140137
+        ]
+      ],
+      "pricePerformance": 135000,
+      "inspection": 50,
+      "oilChange": 250,
+      "dep5": 57870,
+      "currency": "USD",
+      "priceNew": 128600,
+      "depAnnual": {
+        "used3": 17147,
+        "new": 25720,
+        "used5": 14146
+      },
+      "fuelMax": 25,
+      "options": [
+        2950,
+        0,
+        10500,
+        0,
+        3500,
+        0,
+        5500,
+        1900
+      ],
+      "tyres": 1000,
+      "locale": "en-US",
+      "fuelMetric": false,
+      "insurance": 2315,
+      "fuelStep": 1,
+      "fuelMin": 15,
+      "dep3": 77160,
+      "priceCarbon": 145000,
+      "used5Range": "54,977 - 60,764 USD",
+      "name": "United States",
+      "rivalM5": 122000,
+      "exchangeRateEUR": 1.08,
+      "rivals": {
+        "bmw-m5-2026": 122000,
+        "mercedes-amg-gt63-2026": 160000
+      },
+      "roadTax": 64
+    },
+    "it": {
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "flag": "🇮🇹",
+      "rivalAmg": 145000,
+      "maintenance": 2500,
+      "used3Range": "54,360 - 60,082 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          116699
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          116669
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          116659
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          116649
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          116639
+        ]
+      ],
+      "pricePerformance": 103000,
+      "inspection": 120,
+      "oilChange": 300,
+      "dep5": 42916,
+      "currency": "EUR",
+      "priceNew": 95368,
+      "depAnnual": {
+        "used3": 12716,
+        "new": 19074,
+        "used5": 10490
+      },
+      "fuelMax": 250,
+      "options": [
+        10500,
+        1500,
+        10000,
+        2400,
+        4500,
+        0,
+        6500,
+        1900
+      ],
+      "tyres": 1400,
+      "locale": "it-IT",
+      "fuelMetric": true,
+      "insurance": 1800,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 57221,
+      "priceCarbon": 111000,
+      "used5Range": "40,770 - 45,062 EUR",
+      "name": "Italia",
+      "rivalM5": 122000,
+      "exchangeRateEUR": 1,
+      "rivals": {
+        "bmw-m5-2026": 122000,
+        "mercedes-amg-gt63-2026": 145000
+      },
+      "roadTax": 450
+    },
+    "es": {
+      "fiscalHead": [
+        "Región",
+        "Impuesto matriculación",
+        "ITV",
+        "Precio final"
+      ],
+      "flag": "🇪🇸",
+      "rivalAmg": 135000,
+      "maintenance": 2000,
+      "used3Range": "53,761 - 59,420 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          114502
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          114542
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          114472
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          114522
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          114482
+        ]
+      ],
+      "pricePerformance": 102000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 42442,
+      "currency": "EUR",
+      "priceNew": 94316,
+      "depAnnual": {
+        "used3": 12575,
+        "new": 18863,
+        "used5": 10375
+      },
+      "fuelMax": 250,
+      "options": [
+        10500,
+        1500,
+        10000,
+        2400,
+        4500,
+        0,
+        6500,
+        1900
+      ],
+      "tyres": 1500,
+      "locale": "es-ES",
+      "fuelMetric": true,
+      "insurance": 1698,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 56590,
+      "priceCarbon": 110000,
+      "used5Range": "40,320 - 44,564 EUR",
+      "name": "España",
+      "rivalM5": 102000,
+      "exchangeRateEUR": 1,
+      "rivals": {
+        "bmw-m5-2026": 102000,
+        "mercedes-amg-gt63-2026": 135000
+      },
+      "roadTax": 520
+    },
+    "fr": {
+      "fiscalHead": [
+        "Région",
+        "Malus CO₂",
+        "Carte grise",
+        "Prix final"
+      ],
+      "flag": "🇫🇷",
+      "rivalAmg": 165000,
+      "maintenance": 3100,
+      "used3Range": "54,208 - 59,914 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          114472
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          114442
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          114432
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          114422
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          114412
+        ]
+      ],
+      "pricePerformance": 103000,
+      "inspection": 90,
+      "oilChange": 340,
+      "dep5": 42796,
+      "currency": "EUR",
+      "priceNew": 95102,
+      "depAnnual": {
+        "used3": 12680,
+        "new": 19020,
+        "used5": 10461
+      },
+      "fuelMax": 250,
+      "options": [
+        10500,
+        1500,
+        10000,
+        2400,
+        4500,
+        0,
+        6500,
+        1900
+      ],
+      "tyres": 1550,
+      "locale": "fr-FR",
+      "fuelMetric": true,
+      "insurance": 2400,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 57061,
+      "priceCarbon": 111000,
+      "used5Range": "40,656 - 44,936 EUR",
+      "name": "France",
+      "rivalM5": 169000,
+      "exchangeRateEUR": 1,
+      "rivals": {
+        "bmw-m5-2026": 169000,
+        "mercedes-amg-gt63-2026": 165000
+      },
+      "roadTax": 48
+    },
+    "ma": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇲🇦",
+      "rivalAmg": 1800000,
+      "maintenance": 10667,
+      "used3Range": "760,000 - 840,000 MAD",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          1600200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          1600180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          1600160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          1600150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          1600170
+        ]
+      ],
+      "pricePerformance": 1440000,
+      "inspection": 100,
+      "oilChange": 200,
+      "dep5": 600000,
+      "currency": "MAD",
+      "priceNew": 1333333,
+      "depAnnual": {
+        "used3": 177778,
+        "new": 266667,
+        "used5": 146667
+      },
+      "fuelMax": 250,
+      "options": [
+        113400,
+        16200,
+        108000,
+        25920,
+        48600,
+        0,
+        70200,
+        20520
+      ],
+      "tyres": 6000,
+      "locale": "ar-MA",
+      "fuelMetric": true,
+      "insurance": 24000,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 800000,
+      "priceCarbon": 1550000,
+      "used5Range": "570,000 - 630,000 MAD",
+      "name": "المغرب",
+      "rivalM5": 1500000,
+      "exchangeRateEUR": 10.8,
+      "rivals": {
+        "bmw-m5-2026": 1500000,
+        "mercedes-amg-gt63-2026": 1800000
+      },
+      "roadTax": 667
+    },
+    "de": {
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer/Jahr",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "flag": "🇩🇪",
+      "rivalAmg": 155000,
+      "maintenance": 2900,
+      "used3Range": "55,730 - 61,596 EUR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          116729
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          116769
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          116699
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          116749
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          116709
+        ]
+      ],
+      "pricePerformance": 105000,
+      "inspection": 150,
+      "oilChange": 320,
+      "dep5": 43997,
+      "currency": "EUR",
+      "priceNew": 97772,
+      "depAnnual": {
+        "used3": 13036,
+        "new": 19554,
+        "used5": 10755
+      },
+      "fuelMax": 250,
+      "options": [
+        10500,
+        1500,
+        10000,
+        2400,
+        4500,
+        0,
+        6500,
+        1900
+      ],
+      "tyres": 1500,
+      "locale": "de-DE",
+      "fuelMetric": true,
+      "insurance": 2200,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 58663,
+      "priceCarbon": 115000,
+      "used5Range": "41,797 - 46,197 EUR",
+      "name": "Deutschland",
+      "rivalM5": 144000,
+      "exchangeRateEUR": 1,
+      "rivals": {
+        "bmw-m5-2026": 144000,
+        "mercedes-amg-gt63-2026": 155000
+      },
+      "roadTax": 520
+    },
+    "ae": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇦🇪",
+      "rivalAmg": 520000,
+      "maintenance": 3718,
+      "used3Range": "264,914 - 292,800 AED",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          488300
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          488280
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          488250
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          488220
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          488200
+        ]
+      ],
+      "pricePerformance": 500000,
+      "inspection": 100,
+      "oilChange": 350,
+      "dep5": 209143,
+      "currency": "AED",
+      "priceNew": 464762,
+      "depAnnual": {
+        "used3": 61968,
+        "new": 92952,
+        "used5": 51124
+      },
+      "fuelMax": 250,
+      "options": [
+        42000,
+        6000,
+        40000,
+        9600,
+        18000,
+        0,
+        26000,
+        7600
+      ],
+      "tyres": 2091,
+      "locale": "ar-AE",
+      "fuelMetric": true,
+      "insurance": 8366,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 278857,
+      "priceCarbon": 540000,
+      "used5Range": "198,686 - 219,600 AED",
+      "name": "الإمارات",
+      "rivalM5": 450000,
+      "exchangeRateEUR": 3.97,
+      "rivals": {
+        "bmw-m5-2026": 450000,
+        "mercedes-amg-gt63-2026": 520000
+      },
+      "roadTax": 232
+    },
+    "gb": {
+      "fiscalHead": [
+        "Region",
+        "Road Tax",
+        "MOT",
+        "Final Price"
+      ],
+      "flag": "🇬🇧",
+      "rivalAmg": 125000,
+      "maintenance": 1800,
+      "used3Range": "44,441 - 49,119 GBP",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          93615
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          93615
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          93615
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          93615
+        ]
+      ],
+      "pricePerformance": 85000,
+      "inspection": 55,
+      "oilChange": 280,
+      "dep5": 35085,
+      "currency": "GBP",
+      "priceNew": 77967,
+      "depAnnual": {
+        "used3": 10396,
+        "new": 15593,
+        "used5": 8576
+      },
+      "fuelMax": 250,
+      "options": [
+        10725,
+        1450,
+        8650,
+        2400,
+        3500,
+        0,
+        6000,
+        1900
+      ],
+      "tyres": 1200,
+      "locale": "en-GB",
+      "fuelMetric": true,
+      "insurance": 1500,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 46780,
+      "priceCarbon": 92000,
+      "used5Range": "33,331 - 36,839 GBP",
+      "name": "United Kingdom",
+      "rivalM5": 111000,
+      "exchangeRateEUR": 0.85,
+      "rivals": {
+        "bmw-m5-2026": 111000,
+        "mercedes-amg-gt63-2026": 125000
+      },
+      "roadTax": 165
+    },
+    "sa": {
+      "fiscalHead": [
+        "Region",
+        "Registration Tax",
+        "Inspection",
+        "Final Price"
+      ],
+      "flag": "🇸🇦",
+      "rivalAmg": 700000,
+      "maintenance": 5346,
+      "used3Range": "380,869 - 420,961 SAR",
+      "fuelDefault": 178,
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          768620
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          768600
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          768580
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          768590
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          768570
+        ]
+      ],
+      "pricePerformance": 720000,
+      "inspection": 100,
+      "oilChange": 300,
+      "dep5": 300686,
+      "currency": "SAR",
+      "priceNew": 668191,
+      "depAnnual": {
+        "used3": 89092,
+        "new": 133638,
+        "used5": 73501
+      },
+      "fuelMax": 250,
+      "options": [
+        42000,
+        6000,
+        40000,
+        9600,
+        18000,
+        0,
+        26000,
+        7600
+      ],
+      "tyres": 3007,
+      "locale": "ar-SA",
+      "fuelMetric": true,
+      "insurance": 12027,
+      "fuelStep": 5,
+      "fuelMin": 130,
+      "dep3": 400915,
+      "priceCarbon": 780000,
+      "used5Range": "285,652 - 315,720 SAR",
+      "name": "السعودية",
+      "rivalM5": 613000,
+      "exchangeRateEUR": 4,
+      "rivals": {
+        "bmw-m5-2026": 613000,
+        "mercedes-amg-gt63-2026": 700000
+      },
+      "roadTax": 334
+    }
+  },
+  "options": [
+    {
+      "id": "rs-dynamic-plus",
+      "name": "RS Dynamic Package Plus",
+      "description": "Aumenta la velocidad máxima a 320 km/h e incluye suspensión deportiva",
+      "price": {
+        "value": 4800,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "high",
+      "nameAr": "باقة آر إس ديناميك بلس"
+    },
+    {
+      "id": "rs-sport-exhaust",
+      "name": "Escape RS Sport",
+      "description": "Sistema de escape deportivo con válvulas activas",
+      "price": {
+        "value": 1200,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "عادم آر إس سبورت"
+    },
+    {
+      "id": "ceramic-brakes",
+      "name": "Frenos cerámicos",
+      "description": "Discos de freno de carbón cerámico",
+      "price": {
+        "value": 9500,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "neutral",
+      "nameAr": "فرامل سيراميك"
+    },
+    {
+      "id": "matrix-laser",
+      "name": "Matrix LED / Laser",
+      "description": "Faros láser de alta tecnología",
+      "price": {
+        "value": 2400,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "ليد ماتريكس / ليزر"
+    },
+    {
+      "id": "carbon-valcona",
+      "name": "Interior Carbon / Valcona",
+      "description": "Interior de cuero Valcona con acabados en fibra de carbono",
+      "price": {
+        "value": 3500,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "high",
+      "nameAr": "داخلية كربون / فالكونا"
+    },
+    {
+      "id": "individual-rear-seats",
+      "name": "Asientos traseros individuales",
+      "description": "Configuración de asientos traseros individuales",
+      "price": {
+        "value": 1800,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "مقاعد خلفية فردية"
+    }
+  ],
+  "problems": {
+    "es": [
+      "Suspensión neumática costosa tras 80.000 km",
+      "Turbos: desgaste prematuro en calor",
+      "MMI: reinicios ocasionales",
+      "Consumo urbano 15-18 L/100 km",
+      "Neumáticos traseros: ~20.000 km"
+    ],
+    "en": [
+      "Air suspension expensive after 80,000 km",
+      "Turbos: premature wear in heat",
+      "MMI: occasional reboots",
+      "Urban consumption 15-18 L/100 km",
+      "Rear tires: ~20,000 km"
+    ],
+    "fr": [
+      "Suspension pneumatique coûteuse après 80 000 km",
+      "Turbos : usure prématurée sous la chaleur",
+      "MMI : redémarrages occasionnels",
+      "Consommation urbaine 15-18 L/100 km",
+      "Pneus arrière : ~20 000 km"
+    ],
+    "ar": [
+      "التعليق الهوائي مكلف بعد 80,000 كم",
+      "التوربينات: تآكل مبكر في الحرارة",
+      "إم إم آي: إعادة تشغيل أحياناً",
+      "استهلاك المدينة 15-18 لتر/100 كم",
+      "الإطارات الخلفية: ~20,000 كم"
+    ]
+  },
+  "pageText": {
+    "es": {
+      "timeline": [
+        {
+          "title": "Revisión intermedia",
+          "desc": "Cambio aceite + filtros + inspección frenos"
+        },
+        {
+          "title": "Gran servicio",
+          "desc": "Aceite, filtros, bujías, líquido frenos, revisión suspensión neumática"
+        },
+        {
+          "title": "Transmisión + diferencial",
+          "desc": "Aceite caja Tiptronic, revisión turbos, embrague (inspección)"
+        },
+        {
+          "title": "Neumáticos + correas",
+          "desc": "Juego neumáticos performance (~€1.600), correa distribución si aplica"
+        },
+        {
+          "title": "Revisión mayor V8",
+          "desc": "Inspección turbos, suspensión neumática, actualización software MMI"
+        }
+      ],
+      "scoreDesc": "Excelente combinación entre lujo, potencia y confort premium.",
+      "worthDesc": "Sí. El {{fullModelName}} combina lujo, tecnología, potencia extrema y confort premium en un solo coche.",
+      "pros": [
+        "✔ Sonido V8 brutal",
+        "✔ Interior premium",
+        "✔ Potencia extrema",
+        "✔ Tecnología avanzada"
+      ],
+      "cons": [
+        "✖ Consumo elevado",
+        "✖ Seguro caro",
+        "✖ Mantenimiento premium",
+        "✖ Costes altos"
+      ],
+      "profileData": {
+        "highway": {
+          "score": "95/100",
+          "title": "Excelente para autopista",
+          "desc": "El RS7 brilla en viajes largos: confort, potencia instantánea y consumo razonable a velocidad constante en autopista."
+        },
+        "city": {
+          "score": "70/100",
+          "title": "Cómodo en ciudad",
+          "desc": "El RS7 funciona bien en ciudad, pero su tamaño y consumo pueden ser desventajas."
+        },
+        "family": {
+          "score": "92/100",
+          "title": "Uso familiar",
+          "desc": "El RS7 ofrece espacio suficiente para la familia y equipaje, con lujo y seguridad."
+        },
+        "collector": {
+          "score": "85/100",
+          "title": "Coleccionista",
+          "desc": "El RS7 es un coche coleccionable por su diseño, motor V8 y exclusividad."
+        },
+        "track": {
+          "score": "60/100",
+          "title": "Circuito",
+          "desc": "El RS7 es rápido, pero no está diseñado específicamente para circuito."
+        }
+      },
+      "faq": {
+        "a1": "El precio del {{fullModelName}} en {{country}} empieza desde los {{priceNew}} para la versión base.",
+        "a2": "El {{shortName}} monta un motor {{engineType}} que produce {{power}}.",
+        "a3": "Sí, el {{shortName}} es generalmente fiable si se mantiene correctamente según el programa oficial.",
+        "a4": "El consumo medio real es de unos {{consumption}} en uso mixto.",
+        "a5": "Depende del estado y km. Revisa siempre el historial de mantenimiento.",
+        "a6": "Los principales rivales son {{car1}}, {{car2}} y {{car3}}.",
+        "a7": "Sí, el {{shortName}} es cómodo y práctico para uso diario.",
+        "q1": "¿Cuál es el precio del {{fullModelName}}?",
+        "q2": "¿Qué motor tiene el {{shortName}}?",
+        "q3": "¿Es fiable el {{shortName}}?",
+        "q4": "¿Cuánto consume el {{shortName}}?",
+        "q5": "¿Vale la pena comprarlo de ocasión?",
+        "q6": "¿Qué rivales debería considerar?",
+        "q7": "¿Es adecuado para uso diario?"
+      },
+      "usedGuide": {
+        "card1Title": "Presupuesto recomendado",
+        "card1Items": [
+          "2022 (3 años): €95.000 – €105.000",
+          "2020 (5 años): €75.000 – €85.000"
+        ],
+        "card2Title": "Verificar obligatoriamente",
+        "card2Items": [
+          "Suspensión neumática — sin fugas ni errores",
+          "Historial de servicios completo (carpeta digital)",
+          "Estado turbos — sin humo azul al arrancar",
+          "Caja automática — cambios suaves sin tirones",
+          "Desgaste neumáticos traseros (tracción Quattro)",
+          "Actualizaciones software y módulos electrónicos"
+        ],
+        "card3Title": "Señales de alerta",
+        "card3Items": [
+          "Precio muy por debajo del mercado",
+          "Sin libro de mantenimiento digital oficial",
+          "Modificaciones de escape/chip sin documentar",
+          "Testigos encendidos (suspensión, motor, transmisión)",
+          "Interior desgastado con pocos km (posible fraude)"
+        ],
+        "card4Title": "Mejor lugar para comprar",
+        "card4Items": [
+          "Concesionario Audi Approved : plus",
+          "Marketplaces con historial verificado",
+          "Evitar: anuncios sin fotos detalladas"
+        ]
+      },
+      "versions": {
+        "sportbackDesc": "La versión más equilibrada entre lujo y rendimiento.",
+        "performanceDesc": "Más potencia y experiencia extrema.",
+        "carbonDesc": "La versión más exclusiva y premium."
+      },
+      "dep": {
+        "loss3": "~32% de pérdida • 45.000 km",
+        "loss5": "~46% de pérdida • 75.000 km"
+      },
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "reviewText": "El {{fullModelName}} es el fastback de lujo más potente de Audi: V8 biturbo, tracción Quattro y un interior tecnológico que lo hacen único en su segmento."
+    },
+    "en": {
+      "timeline": [
+        {
+          "title": "Intermediate Service",
+          "desc": "Oil change + filters + brake inspection"
+        },
+        {
+          "title": "Major Service",
+          "desc": "Oil, filters, spark plugs, brake fluid, air suspension check"
+        },
+        {
+          "title": "Transmission + Differential",
+          "desc": "Tiptronic gearbox oil, turbo inspection, clutch check"
+        },
+        {
+          "title": "Tires + Belts",
+          "desc": "Performance tire set (~€1,600), timing belt if applicable"
+        },
+        {
+          "title": "Major V8 Service",
+          "desc": "Turbo inspection, air suspension, MMI software update"
+        }
+      ],
+      "scoreDesc": "Excellent combination of luxury, power and premium comfort.",
+      "worthDesc": "Yes. The {{fullModelName}} combines luxury, technology, extreme power and premium comfort in a single car.",
+      "pros": [
+        "✔ Brutal V8 sound",
+        "✔ Premium interior",
+        "✔ Extreme power",
+        "✔ Advanced technology"
+      ],
+      "cons": [
+        "✖ High consumption",
+        "✖ Expensive insurance",
+        "✖ Premium maintenance",
+        "✖ High costs"
+      ],
+      "profileData": {
+        "highway": {
+          "score": "95/100",
+          "title": "Excellent for highway",
+          "desc": "The RS7 shines on long trips: comfort, instant power and reasonable consumption at constant highway speed."
+        },
+        "city": {
+          "score": "70/100",
+          "title": "Comfortable in city",
+          "desc": "The RS7 works well in the city, but its size and consumption can be disadvantages."
+        },
+        "family": {
+          "score": "92/100",
+          "title": "Family use",
+          "desc": "The RS7 offers enough space for family and luggage, with luxury and safety."
+        },
+        "collector": {
+          "score": "85/100",
+          "title": "Collector",
+          "desc": "The RS7 is a collectible car for its design, V8 engine and exclusivity."
+        },
+        "track": {
+          "score": "60/100",
+          "title": "Track",
+          "desc": "The RS7 is fast, but not specifically designed for the track."
+        }
+      },
+      "faq": {
+        "a1": "The price of the {{fullModelName}} in {{country}} starts from {{priceNew}} for the base version.",
+        "a2": "The {{shortName}} has a {{engineType}} engine that produces {{power}}.",
+        "a3": "Yes, the {{shortName}} is generally reliable if properly maintained according to the official program.",
+        "a4": "The average real consumption is about {{consumption}} in mixed use.",
+        "a5": "Depends on condition and km. Always check the maintenance history.",
+        "a6": "The main rivals are {{car1}}, {{car2}} and {{car3}}.",
+        "a7": "Yes, the {{shortName}} is comfortable and practical for daily use.",
+        "q1": "What is the price of the {{fullModelName}}?",
+        "q2": "What engine does the {{shortName}} have?",
+        "q3": "Is the {{shortName}} reliable?",
+        "q4": "How much does the {{shortName}} consume?",
+        "q5": "Is it worth buying used?",
+        "q6": "What rivals should I consider?",
+        "q7": "Is it suitable for daily use?"
+      },
+      "usedGuide": {
+        "card1Title": "Recommended budget",
+        "card1Items": [
+          "2022 (3 years): €95,000 – €105,000",
+          "2020 (5 years): €75,000 – €85,000"
+        ],
+        "card2Title": "Mandatory checks",
+        "card2Items": [
+          "Air suspension — no leaks or errors",
+          "Complete service history (digital folder)",
+          "Turbo condition — no blue smoke on startup",
+          "Automatic gearbox — smooth shifts without jerks",
+          "Rear tire wear (Quattro AWD)",
+          "Software updates and electronic modules"
+        ],
+        "card3Title": "Warning signs",
+        "card3Items": [
+          "Price well below market value",
+          "No official digital maintenance book",
+          "Undocumented exhaust/chip modifications",
+          "Warning lights on (suspension, engine, transmission)",
+          "Worn interior with few km (possible fraud)"
+        ],
+        "card4Title": "Best place to buy",
+        "card4Items": [
+          "Audi Approved : plus dealership",
+          "Marketplaces with verified history",
+          "Avoid: ads without detailed photos"
+        ]
+      },
+      "versions": {
+        "sportbackDesc": "The most balanced version between luxury and performance.",
+        "performanceDesc": "More power and extreme experience.",
+        "carbonDesc": "The most exclusive and premium version."
+      },
+      "dep": {
+        "loss3": "~32% loss • 45,000 km",
+        "loss5": "~46% loss • 75,000 km"
+      },
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "reviewText": "The {{fullModelName}} is Audi's most powerful luxury fastback: twin-turbo V8, Quattro all-wheel drive and a technological interior that make it unique in its segment."
+    },
+    "fr": {
+      "timeline": [
+        {
+          "title": "Service intermédiaire",
+          "desc": "Vidange huile + filtres + inspection freins"
+        },
+        {
+          "title": "Grand service",
+          "desc": "Huile, filtres, bougies, liquide freins, vérification suspension pneumatique"
+        },
+        {
+          "title": "Transmission + différentiel",
+          "desc": "Huile boîte Tiptronic, inspection turbos, embrayage (vérification)"
+        },
+        {
+          "title": "Pneus + courroies",
+          "desc": "Jeu pneus performance (~€1.600), courroie distribution si applicable"
+        },
+        {
+          "title": "Service majeur V8",
+          "desc": "Inspection turbos, suspension pneumatique, mise à jour logiciel MMI"
+        }
+      ],
+      "scoreDesc": "Excellente combinaison de luxe, puissance et confort premium.",
+      "worthDesc": "Oui. Le {{fullModelName}} combine luxe, technologie, puissance extrême et confort premium en une seule voiture.",
+      "pros": [
+        "✔ Son V8 brutal",
+        "✔ Intérieur premium",
+        "✔ Puissance extrême",
+        "✔ Technologie avancée"
+      ],
+      "cons": [
+        "✖ Consommation élevée",
+        "✖ Assurance chère",
+        "✖ Entretien premium",
+        "✖ Coûts élevés"
+      ],
+      "profileData": {
+        "highway": {
+          "score": "95/100",
+          "title": "Excellent pour autoroute",
+          "desc": "Le RS7 brille sur les longs trajets : confort, puissance instantanée et consommation raisonnable à vitesse constante sur autoroute."
+        },
+        "city": {
+          "score": "70/100",
+          "title": "Confortable en ville",
+          "desc": "Le RS7 fonctionne bien en ville, mais sa taille et sa consommation peuvent être des inconvénients."
+        },
+        "family": {
+          "score": "92/100",
+          "title": "Usage familial",
+          "desc": "Le RS7 offre suffisamment d'espace pour la famille et les bagages, avec du luxe et de la sécurité."
+        },
+        "collector": {
+          "score": "85/100",
+          "title": "Collectionneur",
+          "desc": "Le RS7 est une voiture de collection pour son design, son moteur V8 et son exclusivité."
+        },
+        "track": {
+          "score": "60/100",
+          "title": "Circuit",
+          "desc": "Le RS7 est rapide, mais pas spécifiquement conçu pour le circuit."
+        }
+      },
+      "faq": {
+        "a1": "Le prix du {{fullModelName}} en {{country}} commence à partir de {{priceNew}} pour la version de base.",
+        "a2": "Le {{shortName}} a un moteur {{engineType}} qui produit {{power}}.",
+        "a3": "Oui, le {{shortName}} est généralement fiable s'il est correctement entretenu selon le programme officiel.",
+        "a4": "La consommation moyenne réelle est d'environ {{consumption}} en usage mixte.",
+        "a5": "Dépend de l'état et des km. Vérifiez toujours l'historique d'entretien.",
+        "a6": "Les principaux rivaux sont {{car1}}, {{car2}} et {{car3}}.",
+        "a7": "Oui, le {{shortName}} est confortable et pratique pour un usage quotidien.",
+        "q1": "Quel est le prix du {{fullModelName}} ?",
+        "q2": "Quel moteur a le {{shortName}} ?",
+        "q3": "Le {{shortName}} est-il fiable ?",
+        "q4": "Quelle consommation pour le {{shortName}} ?",
+        "q5": "Vaut-il le coup d'acheter d'occasion ?",
+        "q6": "Quels rivaux devrais-je considérer ?",
+        "q7": "Est-il adapté à un usage quotidien ?"
+      },
+      "usedGuide": {
+        "card1Title": "Budget recommandé",
+        "card1Items": [
+          "2022 (3 ans) : 95 000 € – 105 000 €",
+          "2020 (5 ans) : 75 000 € – 85 000 €"
+        ],
+        "card2Title": "Vérifications obligatoires",
+        "card2Items": [
+          "Suspension pneumatique — pas de fuites ni d'erreurs",
+          "Historique de services complet (dossier digital)",
+          "État des turbos — pas de fumée bleue au démarrage",
+          "Boîte automatique — changements doux sans à-coups",
+          "Usure pneus arrière (Quattro AWD)",
+          "Mises à jour logiciel et modules électroniques"
+        ],
+        "card3Title": "Signaux d'alerte",
+        "card3Items": [
+          "Prix bien en dessous de la valeur marchande",
+          "Pas de carnet d'entretien digital officiel",
+          "Modifications échappement/chip non documentées",
+          "Voyants allumés (suspension, moteur, transmission)",
+          "Intérieur usé avec peu de km (fraude possible)"
+        ],
+        "card4Title": "Meilleur endroit pour acheter",
+        "card4Items": [
+          "Concessionnaire Audi Approved : plus",
+          "Marketplaces avec historique vérifié",
+          "Éviter : annonces sans photos détaillées"
+        ]
+      },
+      "versions": {
+        "sportbackDesc": "La version la plus équilibrée entre luxe et performance.",
+        "performanceDesc": "Plus de puissance et expérience extrême.",
+        "carbonDesc": "La version la plus exclusive et premium."
+      },
+      "dep": {
+        "loss3": "~32% de perte • 45.000 km",
+        "loss5": "~46% de perte • 75.000 km"
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "reviewText": "La {{fullModelName}} est le fastback de luxe le plus puissant d'Audi : V8 biturbo, traction Quattro et un intérieur technologique qui la rendent unique dans son segment."
+    },
+    "ar": {
+      "timeline": [
+        {
+          "title": "خدمة متوسطة",
+          "desc": "تغيير زيت + فلاتر + فحص الفرامل"
+        },
+        {
+          "title": "خدمة كبرى",
+          "desc": "زيت، فلاتر، بواجي، سائل فرامل، فحص التعليق الهوائي"
+        },
+        {
+          "title": "ناقل الحركة + التفاضلي",
+          "desc": "زيت علبة التروس، فحص التوربينات، فحص القابض"
+        },
+        {
+          "title": "إطارات + أحزمة",
+          "desc": "مجموعة إطارات رياضية (~€1.600)، حزام التوقيت إن وجد"
+        },
+        {
+          "title": "خدمة كبرى محرك 8 أسطوانات",
+          "desc": "فحص التوربينات، التعليق الهوائي، تحديث برنامج نظام المعلومات والترفيه"
+        }
+      ],
+      "scoreDesc": "مزيج ممتاز بين الفخامة والقوة والراحة الفاخرة.",
+      "worthDesc": "نعم. يجمع {{fullModelName}} بين الفخامة والتقنية والقوة القصوى والراحة الفاخرة في سيارة واحدة.",
+      "pros": [
+        "✔ صوت محرك 8 أسطوانات مروع",
+        "✔ داخلية فاخرة",
+        "✔ قوة قصوى",
+        "✔ تقنية متقدمة"
+      ],
+      "cons": [
+        "✖ استهلاك مرتفع",
+        "✖ تأمين مكلف",
+        "✖ صيانة فاخرة",
+        "✖ تكاليف عالية"
+      ],
+      "profileData": {
+        "highway": {
+          "score": "95/100",
+          "title": "ممتاز للطريق السريع",
+          "desc": "يتألق آر إس 7 في الرحلات الطويلة: الراحة والقوة الفورية والاستهلاك المعقول بسرعة ثابتة على الطريق السريع."
+        },
+        "city": {
+          "score": "70/100",
+          "title": "مريح في المدينة",
+          "desc": "يعمل آر إس 7 بشكل جيد في المدينة، لكن حجمه واستهلاكه قد يكونان عيوبًا."
+        },
+        "family": {
+          "score": "92/100",
+          "title": "استخدام عائلي",
+          "desc": "يوفر آر إس 7 مساحة كافية للعائلة والأمتعة، مع الفخامة والأمان."
+        },
+        "collector": {
+          "score": "85/100",
+          "title": "جامع",
+          "desc": "آر إس 7 سيارة قابلة للتحصيل بتصميمها ومحرك 8 أسطوانات وحصريتها."
+        },
+        "track": {
+          "score": "60/100",
+          "title": "حلبة",
+          "desc": "آر إس 7 سريعة، لكنها غير مصممة خصيصًا للحلبة."
+        }
+      },
+      "faq": {
+        "a1": "سعر {{fullModelName}} في {{country}} يبدأ من {{priceNew}} للنسخة الأساسية.",
+        "a2": "{{shortName}} لديها محرك {{engineType}} ينتج {{power}}.",
+        "a3": "نعم، {{shortName}} موثوقة بشكل عام إذا تم صيانتها بشكل صحيح وفقًا للبرنامج الرسمي.",
+        "a4": "متوسط الاستهلاك الفعلي حوالي {{consumption}} في الاستخدام المختلط.",
+        "a5": "يعتمد على الحالة والكيلومترات. تحقق دائمًا من سجل الصيانة.",
+        "a6": "المنافسون الرئيسيون هم {{car1}} و {{car2}} و {{car3}}.",
+        "a7": "نعم، {{shortName}} مريحة وعملية للاستخدام اليومي.",
+        "q1": "ما هو سعر {{fullModelName}}؟",
+        "q2": "ما هو محرك {{shortName}}؟",
+        "q3": "هل {{shortName}} موثوق؟",
+        "q4": "ما هو استهلاك {{shortName}}؟",
+        "q5": "هل يستحق الشراء المستعمل؟",
+        "q6": "ما هي المنافسين الذين يجب أن أعتبرهم؟",
+        "q7": "هل هو مناسب للاستخدام اليومي؟"
+      },
+      "usedGuide": {
+        "card1Title": "الميزانية الموصى بها",
+        "card1Items": [
+          "2022 (3 سنوات): €95,000 – €105,000",
+          "2020 (5 سنوات): €75,000 – €85,000"
+        ],
+        "card2Title": "فحوصات إلزامية",
+        "card2Items": [
+          "التعليق الهوائي — بدون تسريبات أو أخطاء",
+          "سجل الخدمات الكامل (مجلد رقمي)",
+          "حالة التوربينات — بدون دخان أزرق عند التشغيل",
+          "علبة التروس الأوتوماتيكية — تبديلات سلسة بدون اهتزازات",
+          "تآكل الإطارات الخلفية (كواترو دفع رباعي)",
+          "تحديثات البرمجيات والوحدات الإلكترونية"
+        ],
+        "card3Title": "علامات التحذير",
+        "card3Items": [
+          "سعر أقل بكثير من قيمة السوق",
+          "بدون كتاب صيانة رقمي رسمي",
+          "تعديلات العادم/شيب بدون توثيق",
+          "أضواء التحذير مضاءة (تعليق، محرك، ناقل الحركة)",
+          "داخلية بالية مع كيلومترات قليلة (احتيال محتمل)"
+        ],
+        "card4Title": "أفضل مكان للشراء",
+        "card4Items": [
+          "وكيل أودي المعتمد : بلاس",
+          "سوق بتاريخ مُتحقق",
+          "تجنب: إعلانات بدون صور تفصيلية"
+        ]
+      },
+      "versions": {
+        "sportbackDesc": "النسخة الأكثر توازنًا بين الفخامة والأداء.",
+        "performanceDesc": "المزيد من القوة والتجربة القصوى.",
+        "carbonDesc": "النسخة الأكثر حصرية وفخامة."
+      },
+      "dep": {
+        "loss3": "~32% خسارة • 45.000 كم",
+        "loss5": "~46% خسارة • 75.000 كم"
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "reviewText": "{{fullModelName}} هي أقوى فاست باك فاخرة من أودي: محرك 8 أسطوانات توين تيربو ودفع كواترو وداخلية تقنية تجعلها فريدة في فئتها."
+    }
+  },
+  "review": {
+    "es": {
+      "summary": "El Audi RS7 es una berlina deportiva de altas prestaciones que combina el lujo de un gran turismo con la brutalidad de un superdeportivo. Su motor V8 biturbo de 591 CV ofrece una aceleración demoledora, mientras que el interior de cuero Valcona y la tecnología MMI crean un ambiente premium sin concesiones.",
+      "fullText": "El Audi RS7 representa la cúspide del rendimiento dentro de la gama A7. Bajo su capó descansa un V8 4.0 TFSI biturbo con 591 CV y 800 Nm de par, asociado a una transmisión automática Tiptronic de ocho velocidades y el sistema de tracción total Quattro. El resultado es una aceleración de 0 a 100 km/h en 3,6 segundos y una velocidad máxima de 305 km/h con el paquete Dynamic Plus.\n\nEn carretera, el RS7 se muestra sorprendentemente cómodo gracias a la suspensión neumática adaptativa y al sistema de dirección dinámica. Los modos de conducción permiten transformar el carácter del coche desde un GT relajado hasta un deportivo afilado. La calidad de construcción es impecable, con materiales nobles en cada superficie y una insonorización que silencia el exterior cuando se desea.\n\nLa tecnología a bordo es de última generación: pantalla táctil MMI con respuesta háptica, Virtual Cockpit digital de 12,3 pulgadas y sistema Bang & Olufsen Advanced de 19 altavoces. La conectividad incluye Apple CarPlay y Android Auto inalámbricos, además de carga inductiva para smartphone.\n\nComo inconvenientes, el consumo real en ciudad ronda los 15-18 L/100 km, los neumáticos traseros se desgastan rápidamente si se explota el potencial del coche, y el precio de partida supera los 140.000 €. Sin embargo, para quien busca una berlina que lo haga todo a nivel excelente, el RS7 es una opción difícil de superar.",
+      "verdict": "buy",
+      "bestFor": [
+        "Conductores que buscan lujo y deportividad sin renunciar a la practicidad",
+        "Entusiastas del sonido V8 que valoran la acústica en modos dinámicos",
+        "Familias que necesitan espacio pero no quieren un SUV convencional",
+        "Viajeros de larga distancia que aprecian el confort y la tecnología"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.8
+      }
+    },
+    "en": {
+      "summary": "The Audi RS7 is a high-performance luxury sportback that combines grand-touring refinement with supercar-level brutality. Its twin-turbo V8 produces 591 hp, launching the car to 100 km/h in 3.6 seconds, while the Valcona leather interior and MMI technology create an atmosphere of uncompromising premium quality.",
+      "fullText": "The Audi RS7 represents the pinnacle of performance within the A7 family. Under the hood lies a 4.0 TFSI twin-turbo V8 delivering 591 hp and 800 Nm of torque, paired with an eight-speed Tiptronic automatic and Quattro all-wheel drive. The result is a 0-100 km/h sprint of 3.6 seconds and a top speed of 305 km/h with the Dynamic Plus package.\n\nOn the road, the RS7 is surprisingly comfortable thanks to adaptive air suspension and dynamic steering. Drive modes transform the character from relaxed GT to razor-sharp sports sedan. Build quality is impeccable, with noble materials on every surface and sound insulation that silences the outside world when desired.\n\nOnboard technology is cutting-edge: haptic MMI touchscreens, a 12.3-inch Virtual Cockpit, and a 19-speaker Bang & Olufsen Advanced system delivering 755 watts. Connectivity includes wireless Apple CarPlay, wireless Android Auto, and inductive smartphone charging.\n\nDrawbacks include real-world urban consumption of 15-18 L/100 km, rapid rear tire wear when the potential is exploited, and a starting price above €140,000. However, for those seeking a sedan that does everything at an excellent level, the RS7 is hard to beat.",
+      "verdict": "buy",
+      "bestFor": [
+        "Drivers seeking luxury and sportiness without sacrificing practicality",
+        "V8 sound enthusiasts who value acoustic drama in dynamic modes",
+        "Families needing space but refusing a conventional SUV",
+        "Long-distance travellers who appreciate comfort and technology"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.8
+      }
+    },
+    "fr": {
+      "summary": "L'Audi RS7 est une berline sportive de hautes performances qui allie le raffinement d'un grand tourisme à la brutalité d'une supercar. Son V8 biturbo de 591 ch propulse la voiture de 0 à 100 km/h en 3,6 secondes, tandis que l'intérieur en cuir Valcona et la technologie MMI créent une atmosphère premium sans compromis.",
+      "fullText": "L'Audi RS7 représente le sommet des performances de la famille A7. Sous le capot repose un V8 4.0 TFSI biturbo développant 591 ch et 800 Nm de couple, associé à une boîte automatique Tiptronic à huit rapports et à la transmission intégrale Quattro. Le résultat est une accélération de 0 à 100 km/h en 3,6 secondes et une vitesse de pointe de 305 km/h avec le pack Dynamic Plus.\n\nSur la route, la RS7 est étonnamment confortable grâce à la suspension pneumatique adaptative et à la direction dynamique. Les modes de conduite transforment le caractère de berline GT relaxée à sportive affûtée. La qualité de fabrication est impeccable, avec des matériaux nobles sur chaque surface et une insonorisation qui silence le monde extérieur quand on le souhaite.\n\nLa technologie embarquée est de dernière génération : écrans tactiles MMI avec retour haptique, Virtual Cockpit de 12,3 pouces et système Bang & Olufsen Advanced de 19 haut-parleurs délivrant 755 watts. La connectivité inclut Apple CarPlay sans fil, Android Auto sans fil et recharge par induction pour smartphone.\n\nLes inconvénients incluent une consommation réelle en ville de 15-18 L/100 km, une usure rapide des pneus arrière quand on exploite le potentiel, et un prix de départ supérieur à 140 000 €. Cependant, pour ceux qui recherchent une berline qui fait tout à un niveau excellent, la RS7 est difficile à battre.",
+      "verdict": "buy",
+      "bestFor": [
+        "Conducteurs recherchant luxe et sportivité sans sacrifier la praticité",
+        "Amateurs de sonorité V8 qui valorisent le drama acoustique en modes dynamiques",
+        "Familles ayant besoin d'espace mais refusant un SUV conventionnel",
+        "Voyageurs de longue distance qui apprécient le confort et la technologie"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.8
+      }
+    },
+    "ar": {
+      "summary": "أودي آر إس 7 هي سيارة سيدان رياضية فاخرة عالية الأداء تجمع بين راحة سيارات الجران توريزمو وقوة السوبركار. محرك محرك 8 أسطوانات التوين تيربو بقوة 591 حصان يدفع السيارة من 0 إلى 100 كم/س في 3.6 ثانية، بينما الجلد فالكونا والتقنية إم إم آي يخلقان أجواء فاخرة بلا تنازلات.",
+      "fullText": "تُمثل أودي آر إس 7 قمة الأداء في عائلة أي 7. تحت الغطاء يوجد محرك محرك 8 أسطوانات 4.0 تي إف إس آي توين تيربو بقوة 591 حصان وعزم 800 نيوتن متر، مزود بناقل حركة أوتوماتيكي تيبترونيك بثماني سرعات ونظام دفع رباعي كواترو. النتيجة هي تسارع من 0 إلى 100 كم/س في 3.6 ثانية وسرعة قصوى 305 كم/س مع حزمة ديناميكي بلس.\n\nعلى الطريق، تبدو آر إس 7 مريحة بشكل مدهش بفضل التعليق الهوائي التكيفي والتوجيه الديناميكي. أوضاع القيادة تحول طابع السيارة من جران توريزمو مريح إلى سيدان رياضية حادة. جودة التصنيع لا تشوبها شائبة، مع مواد نبيلة على كل سطح وعزل صوتي يخفي العالم الخارجي عند الرغبة.\n\nالتقنية على متنها من الجيل الأخير: شاشات إم إم آي اللمسية بالاستجابة اللمسية، الكوكبيت الافتراضي مقاس 12.3 بوصة، ونظام بانغ أند أولوفسن أدفانسد المكون من 19 مكبر صوت بقوة 755 واط. الاتصال يشمل أبل كاربلاي لاسلكي و أندرويد أوتو لاسلكي وشحن حثي للهواتف الذكية.\n\nالعيوب تشمل استهلاك وقود فعلي في المدينة يتراوح بين 15-18 لتر/100 كم، وتآكل سريع لإطارات الخلف عند استغلال الإمكانات الكاملة، وسعر يتجاوز 140,000 يورو. ولكن لمن يبحث عن سيارة سيدان تفعل كل شيء على مستوى ممتاز، آر إس 7 خيار صعب التفوق عليه.",
+      "verdict": "شراء",
+      "bestFor": [
+        "السائقين الباحثين عن الفخامة والرياضية دون التضحية بالعملية",
+        "عشاق صوت محرك 8 أسطوانات الذين يقدرون الدراما الصوتية في الأوضاع الديناميكية",
+        "العائلات التي تحتاج مساحة لكنها ترفض سيارات الدفع الرباعي التقليدية",
+        "المسافرين لمسافات طويلة الذين يقدرون الراحة والتقنية"
+      ],
+      "scoreBreakdown": {
+        "performance": 9.8,
+        "comfort": 9,
+        "practicality": 8.5,
+        "runningCosts": 6.5,
+        "reliability": 8.8
+      }
+    }
+  },
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El chasis del RS7 está firmemente plantado en el asfalto gracias al tren Quattro y al diferencial deportivo trasero opcional. La dirección progresiva permite maniobrar con precisión en curvas rápidas, aunque el peso de casi 2.100 kg se nota en cambios de apoyo muy bruscos.",
+        "steeringFeel": "Precisa y bien ponderada, con respuesta progresiva que se endurece en modo dinámico. No es tan comunicativa como la de un Porsche, pero transmite suficiente confianza.",
+        "bodyRoll": "Mínimo gracias a la suspensión neumática deportiva activa. En modo Comfort permite algo más de balanceo para absorber baches, mientras que en Dynamic el coche se mantiene completamente plano.",
+        "gripLevels": "Extraordinarios. El sistema Quattro distribuye el par de forma inteligente, permitiendo salidas de curva con el acelerador a fondo sin patinar. Los neumáticos 285/30 R22 ofrecen adherencia de sobra en seco.",
+        "rideQuality": "En Comfort es sorprendentemente suave para una berlina deportiva con llantas de 22 pulgadas. En Dynamic se vuelve firme y conectada, transmitiendo cada irregularidad del asfalto."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal e inmediata. El par de 800 Nm está disponible desde las 2.050 rpm, propulsando al RS7 con una violencia controlada. El lanzamiento controlado permite 0-100 en 3,6 s de forma consistente.",
+        "braking": "Los discos cerámicos de 440 mm delanteros ofrecen una mordida potente y progresiva con excelente resistencia a la fatiga en circuito.",
+        "sound": "El V8 biturbo produce un murmullo grave en ralentí que se transforma en un rugido metálico al acelerar. Las válvulas de escape se abren en Dynamic para liberar una sinfonía de ocho cilindros.",
+        "transmission": "La Tiptronic de ocho velocidades cambia con suavidad en modo automático y con rapidez en modo manual. Las levas de aluminio tras el volante permiten control total."
+      },
+      "dailyDriving": {
+        "comfort": "Excelente para trayectos largos. Los asientos deportivos con ajuste eléctrico, calefacción, ventilación y masaje eliminan la fatiga. La climatización de cuatro zonas mantiene la temperatura ideal.",
+        "visibility": "Buena hacia adelante, aunque el pilar C grueso dificulta la visión trasera tricuerpo. Los sensores de aparcamiento y la cámara 360° compensan ampliamente.",
+        "parking": "Manejable para sus dimensiones gracias a la dirección en las cuatro ruedas opcional. El giro de batalla se reduce significativamente. La cámara 3D facilita las maniobras en espacios estrechos.",
+        "motorway": "Donde mejor se siente el RS7. El control de crucero adaptativo mantiene la distancia de seguridad, el asistente de carril centra el vehículo y la potencia de sobra permite adelantamientos instantáneos."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The RS7 chassis is firmly planted thanks to Quattro all-wheel drive and the optional sport rear differential. Progressive steering allows precise high-speed cornering, though the near 2,100 kg weight becomes apparent during very rapid direction changes.",
+        "steeringFeel": "Precise and well-weighted, with progressive response that firms up in Dynamic mode. Not as communicative as a Porsche, but inspires sufficient confidence.",
+        "bodyRoll": "Minimal thanks to active sport air suspension. Comfort mode allows slightly more lean to absorb bumps, while Dynamic keeps the car completely flat.",
+        "gripLevels": "Extraordinary. The Quattro system intelligently distributes torque, allowing full-throttle corner exits without wheelspin. The 285/30 R22 tires provide ample dry grip.",
+        "rideQuality": "In Comfort it is surprisingly smooth for a 22-inch sport sedan. In Dynamic it becomes firm and connected, transmitting every road imperfection."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal and immediate. The 800 Nm torque is available from 2,050 rpm, propelling the RS7 with controlled violence. Launch control consistently delivers 0-100 km/h in 3.6 seconds.",
+        "braking": "The 440 mm front ceramic discs provide powerful, progressive bite with excellent track fade resistance.",
+        "sound": "The twin-turbo V8 produces a deep idle murmur that transforms into a metallic roar under acceleration. Exhaust valves open in Dynamic mode to unleash an eight-cylinder symphony.",
+        "transmission": "The eight-speed Tiptronic shifts smoothly in auto mode and rapidly in manual. Aluminium paddle shifters behind the wheel allow total control."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent for long journeys. Sport seats with 22-way electric adjustment, heating, ventilation and massage eliminate fatigue. Four-zone climate maintains ideal temperature.",
+        "visibility": "Good forward visibility, though the thick C-pillar hinders three-quarter rear vision. Parking sensors and the 360° camera more than compensate.",
+        "parking": "Manageable for its size thanks to optional four-wheel steering. The turning circle is significantly reduced. The 3D camera facilitates manoeuvres in tight spaces.",
+        "motorway": "Where the RS7 feels most at home. Adaptive cruise maintains safe distance, lane assist centres the vehicle, and abundant power enables instant overtaking."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "Le châssis de la RS7 est fermement ancré grâce au Quattro AWD et au différentiel sport arrière optionnel. La direction progressive permet un virage rapide précis, bien que le poids de près de 2 100 kg se fasse sentir lors des changements de direction très brusques.",
+        "steeringFeel": "Précise et bien pondérée, avec une réponse progressive qui se durcit en mode Dynamic. Pas aussi communicative qu'une Porsche, mais inspire une confiance suffisante.",
+        "bodyRoll": "Minimal grâce à la suspension pneumatique sport active. Le mode Comfort autorise un peu plus de roulis pour absorber les bosses, tandis que Dynamic maintient la voiture complètement plate.",
+        "gripLevels": "Extraordinaires. Le système Quattro distribue intelligemment le couple, permettant des sorties de virage à fond sans patinage. Les pneus 285/30 R22 offrent une adhérence largement suffisante sur sec.",
+        "rideQuality": "En Comfort, elle est étonnamment souple pour une berline sport avec jantes de 22 pouces. En Dynamic, elle devient ferme et connectée, transmettant chaque irrégularité de la route."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutale et immédiate. Les 800 Nm de couple sont disponibles dès 2 050 tr/min, propulsant la RS7 avec une violence contrôlée. Le launch control permet des 0-100 km/h en 3,6 secondes de manière constante.",
+        "braking": "Les disques céramiques avant de 440 mm offrent une mordance puissante et progressive avec une excellente résistance à la fatigue sur circuit.",
+        "sound": "Le V8 biturbo produit un murmure grave au ralenti qui se transforme en rugissement métallique à l'accélération. Les soupapes d'échappement s'ouvrent en mode Dynamic pour libérer une symphonie de huit cylindres.",
+        "transmission": "La Tiptronic à huit rapports change de rapport avec douceur en mode automatique et rapidité en mode manuel. Les palettes en aluminium derrière le volant permettent un contrôle total."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent pour les longs trajets. Les sièges sport avec réglage électrique en 22 directions, chauffage, ventilation et massage éliminent la fatigue. La climatisation quatre zones maintient la température idéale.",
+        "visibility": "Bonne visibilité vers l'avant, bien que le montant C épais gêne la vision arrière en trois quarts. Les capteurs de stationnement et la caméra 360° compensent largement.",
+        "parking": "Maniable pour ses dimensions grâce à la direction sur quatre roues optionnelle. Le diamètre de braquage est considérablement réduit. La caméra 3D facilite les manœuvres dans les espaces étroits.",
+        "motorway": "C'est là que la RS7 se sent le mieux. Le régulateur de vitesse adaptatif maintient la distance de sécurité, l'assistant de voie centre le véhicule, et la puissance abondante permet des dépassements instantanés."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "تبدو هيكلية آر إس 7 متصلة بقوة بالأسفلت بفضل الدفع الرباعي كواترو والدفيرنسيال الرياضي الخلفي الاختياري. التوجيه التدريجي يسمح بالدخول الدقيق في المنعطفات السريعة، على الرغم من أن الوزن البالغ 2,100 كجم يظهر خلال تغييرات الاتجاه السريعة جداً.",
+        "steeringFeel": "دقيق ومتوازن الوزن، مع استجابة تدريجية تتصلب في الوضع الديناميكي. ليس بنفس مستوى تواصل بورش، لكنه يمنح ثقة كافية.",
+        "bodyRoll": "قليل بفضل التعليق الهوائي الرياضي النشط. وضع الراحة يسمح بقليل من الاتزان لامتصاص المطبات، بينما يبقي الوضع الديناميكي السيارة مسطحة تماماً.",
+        "gripLevels": "استثنائي. ينظم نظام كواترو العزم بذكاء، مما يسمح بالخروج من المنعطفات بدواسة بنزين كاملة دون انزلاق. الإطارات 285/30 22 توفر قبضة وفيرة في الجفاف.",
+        "rideQuality": "في وضع الراحة، مريحة بشكل مدهش لسيارة سيدان رياضية بعجلات 22 بوصة. في الوضع الديناميكي تصبح صلبة ومتصلة، تنقل كل عيب في الطريق."
+      },
+      "performanceFeel": {
+        "acceleration": "وحشية وفورية. عزم الدوران البالغ 800 نيوتن متر متاح من 2,050 دورة في الدقيقة، مدفعاً بـ آر إس 7 بعنف منضبط. نظام الإطلاق يسمح بثبات بـ 0-100 كم/س في 3.6 ثانية.",
+        "braking": "أقراص الفرامل الأمامية السيراميكية مقاس 440 ملم تقدم قوة كبح تدريجية فعالة مع مقاومة ممتازة للتآكل في الحلبة.",
+        "sound": "يُنتج محرك محرك 8 أسطوانات التوين تيربو همساً عميقاً عند الخمول يتحول إلى زئير معدني عند التسارع. صمامات العادم تنفتح في الوضع الديناميكي لتحرير سيمفونية ثمانية أسطوانات.",
+        "transmission": "ناقل الحركة تيبترونيك بثماني سرعات يتحول بسلاسة في الوضع التلقائي وبسرعة في الوضع اليدوي. مجدافات الألومنيوم خلف عجلة القيادة تتيح تحكماً كاملاً."
+      },
+      "dailyDriving": {
+        "comfort": "ممتاز للرحلات الطويلة. المقاعد الرياضية بضبط كهربائي بـ 22 اتجاهاً، وتدفئة، وتبريد، وتدليك تزيل التعب. التكييف رباعي المناطق يحافظ على درجة الحرارة المثالية.",
+        "visibility": "رؤية جيدة للأمام، لكن العمود سي السميك يعيق الرؤية الخلفية. مستشعرات الوقوف والكاميرا المحيطية تعوض بشكل كافٍ.",
+        "parking": "قابلة للمناورة بالنسبة لحجمها بفضل التوجيه على العجلات الأربع الاختياري. نصف قطر الدوران يقل بشكل كبير. الكاميرا ثلاثية الأبعاد تسهل المناورات في الأماكن الضيقة.",
+        "motorway": "هنا تشعر آر إس 7 بأنها في بيتها. مثبت السرعة التكيفي يحافظ على مسافة الأمان، مساعد المسار يُوسطّت السيارة، والقوة الوفيرة تتيح المناورة الفورية."
+      }
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "El Audi RS7 luce una silueta de cinco puertas fastback que equilibra elegancia y agresividad. La parrilla Singleframe negra con estructura en nido de abeja, las entradas de aire masivas y los faldones laterales ensanchados dejan claro que no es un A7 convencional.",
+      "stylingNotes": [
+        "Capó con nervios que albergan el V8 biturbo",
+        "Paragolpes delantero con tomas de aire de alto flujo",
+        "Arcos de rueda ensanchados 40 mm respecto al A7",
+        "Difusor trasero integrado con escape oval RS de doble salida",
+        "Alerón activo trasero que se despliega a 100 km/h",
+        "Ópticas Matrix LED con firma lumínica secuencial"
+      ],
+      "dimensionsContext": "Con 5.009 mm de largo y 1.950 mm de ancho con retrovisores, el RS7 es una berlina imponente. Su altura de 1.424 mm le confiere una postura baja y atlética, mientras que la batalla de 2.930 mm garantiza espacio interior.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Matrix LED HD con láser opcional. Iluminación adaptativa que evita deslumbrar a vehículos de frente mientras mantiene la luz de carretera activa permanentemente.",
+        "taillights": "LED continuas con animación de llegada y salida. El gráfico lumínico es exclusivo de la gama RS.",
+        "signature": "Secuencia dinámica de encendido tanto en faros como en pilotos. La firma de luz diurna presenta doble línea horizontal con efecto tridimensional."
+      },
+      "wheels": {
+        "standard": "Llantas de aleación de 21 pulgadas en diseño de 10 radios en V, acabado antracita diamantado",
+        "optional": [
+          "22 pulgadas en diseño de 5 radios dobles, acabado negro mate",
+          "22 pulgadas en diseño de 5 radios en Y, acabado titanio antracita"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Negro Mythos",
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": "Blanco Ibis",
+          "hex": "#f0f0f0",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": "Gris Daytona",
+          "hex": "#4a4a4a",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Azul Ascari",
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Rojo Tango",
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Verde Sonoma",
+          "hex": "#2f4f4f",
+          "type": "pearl",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "en": {
+      "summary": "The Audi RS7 wears a five-door fastback silhouette that balances elegance and aggression. The black Singleframe honeycomb grille, massive air intakes, and widened side sills make it clear this is no ordinary A7.",
+      "stylingNotes": [
+        "Power-domed hood housing the twin-turbo V8",
+        "Front bumper with high-flow air intakes",
+        "Wheel arches widened 40 mm over the standard A7",
+        "Integrated rear diffuser with twin oval RS exhaust outlets",
+        "Active rear spoiler deploying at 100 km/h",
+        "Matrix LED headlights with sequential light signature"
+      ],
+      "dimensionsContext": "At 5,009 mm long and 1,950 mm wide including mirrors, the RS7 is an imposing sedan. Its 1,424 mm height gives it a low, athletic stance, while the 2,930 mm wheelbase guarantees interior space.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Matrix LED HD with optional laser. Adaptive illumination avoids dazzling oncoming vehicles while keeping high beams permanently active on the road.",
+        "taillights": "Continuous LED with arrival and departure animation. The light graphic is exclusive to the RS range.",
+        "signature": "Dynamic ignition sequence in both headlights and taillights. The daytime running light signature presents a double horizontal line with three-dimensional effect."
+      },
+      "wheels": {
+        "standard": "21-inch alloy wheels in 10-V-spoke design, anthracite diamond-cut finish",
+        "optional": [
+          "22-inch 5-twin-spoke design in matte black finish",
+          "22-inch 5-Y-spoke design in titanium anthracite finish"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Negro Mythos",
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": "Blanco Ibis",
+          "hex": "#f0f0f0",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": "Gris Daytona",
+          "hex": "#4a4a4a",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Azul Ascari",
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Rojo Tango",
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Verde Sonoma",
+          "hex": "#2f4f4f",
+          "type": "pearl",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "fr": {
+      "summary": "L'Audi RS7 arbore une silhouette fastback cinq portes qui équilibre élégance et agressivité. La calandre Singleframe noire en nid d'abeille, les entrées d'air massives et les bas de caisse élargis indiquent clairement qu'il ne s'agit pas d'un A7 ordinaire.",
+      "stylingNotes": [
+        "Capot bombé abritant le V8 biturbo",
+        "Pare-chocs avant avec prises d'air à haut débit",
+        "Ailes élargies de 40 mm par rapport à l'A7 standard",
+        "Diffuseur arrière intégré avec sorties d'échappement ovales RS doubles",
+        "Aileron arrière actif se déployant à 100 km/h",
+        "Phares Matrix LED avec signature lumineuse séquentielle"
+      ],
+      "dimensionsContext": "Avec 5 009 mm de long et 1 950 mm de large avec rétroviseurs, la RS7 est une berline imposante. Sa hauteur de 1 424 mm lui confère une posture basse et athlétique, tandis que l'empattement de 2 930 mm garantit l'espace intérieur.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Matrix LED HD avec laser optionnel. L'éclairage adaptatif évite d'éblouir les véhicules en sens inverse tout en maintenant les feux de route activement allumés.",
+        "taillights": "LED continues avec animation d'arrivée et de départ. Le graphique lumineux est exclusif à la gamme RS.",
+        "signature": "Séquence d'allumage dynamique à la fois dans les phares et les feux arrière. La signature de lumière diurne présente une double ligne horizontale avec effet tridimensionnel."
+      },
+      "wheels": {
+        "standard": "Jantes alliage de 21 pouces en design à 10 branches en V, finition anthracite diamantée",
+        "optional": [
+          "22 pouces en design à 5 doubles branches, finition noir mat",
+          "22 pouces en design à 5 branches en Y, finition titane anthracite"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Negro Mythos",
+          "hex": "#0a0a0a",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": "Blanco Ibis",
+          "hex": "#f0f0f0",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": "Gris Daytona",
+          "hex": "#4a4a4a",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Azul Ascari",
+          "hex": "#001a4d",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Rojo Tango",
+          "hex": "#8b0000",
+          "type": "metallic",
+          "priceExtra": 1200
+        },
+        {
+          "name": "Verde Sonoma",
+          "hex": "#2f4f4f",
+          "type": "pearl",
+          "priceExtra": 2500
+        }
+      ]
+    },
+    "ar": {
+      "summary": "تتزين أودي آر إس 7 بصيحة فاستباك خمس أبواب توازن بين الأناقة والعدوانية. الشبكة سينغل فرايم السوداء على شكل خلية النحل، وفتحات الهواء الضخمة، والحواف الجانبية الموسعة تجعل الأمر واضحاً أن هذه ليست أي 7 عادية.",
+      "stylingNotes": [
+        "غطاء محرك مقبب يحتضن محرك محرك 8 أسطوانات التوين تيربو",
+        "مصد أمامي بفتحات هواء عالية التدفق",
+        "قوس العجلات موسع 40 ملم مقارنة بـ أي 7 القياسية",
+        "موزع هواء خلفي متكامل بمخارج عادم آر إس بيضاوية مزدوجة",
+        "جناح خلفي نشط ينبثق عند 100 كم/س",
+        "مصابيح ليد ماتريكس بتوقيع إضاءة متسلسل"
+      ],
+      "dimensionsContext": "بطول 5,009 ملم وعرض 1,950 ملم بما في ذلك المرايا، تُعد آر إس 7 سيدان مهيبة. ارتفاعها 1,424 ملم يمنحها مظهراً منخفضاً ورياضياً، بينما قاعدة العجلات 2,930 ملم تضمن مساحة داخلية واسعة.",
+      "aerodynamics": {
+        "dragCoefficient": 0.3,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "ليد ماتريكس عالي الدقة مع ليزر اختياري. الإضاءة التكيفية تتجنب إبهار المركبات المقابلة مع الحفاظ على الضوء العالي نشطاً بشكل دائم على الطريق.",
+        "taillights": "ليد متصلة مع رسوم متحركة للوصول والمغادرة. الرسم الضوئي حصرية لمجموعة آر إس.",
+        "signature": "تسلسل تشغيل ديناميكي في كل من المصابيح الأمامية والخلفية. توقيع الإضاءة النهارية يقدم خطين أفقيين مزدوجين بتأثير ثلاثي الأبعاد."
+      },
+      "wheels": {
+        "standard": "عجلات ألمنيوم مقاس 21 بوصة بتصميم 10 أشعاع على شكل فولت، بلمسة ألماسية باللون الأنثراسيت",
+        "optional": [
+          "22 بوصة بتصميم 5 أشعاع مزدوجة، بلمسة سوداء مطفأة",
+          "22 بوصة بتصميم 5 أشعاع على شكل واي، بلمسة تيتانيوم أنثراسيت"
+        ]
+      },
+      "colors": [
+        {
+          "name": "أسود ميثوس",
+          "hex": "#0a0a0a",
+          "type": "معدني",
+          "priceExtra": 0
+        },
+        {
+          "name": "أبيض إيبيس",
+          "hex": "#f0f0f0",
+          "type": "صلب",
+          "priceExtra": 0
+        },
+        {
+          "name": "رمادي دايتونا",
+          "hex": "#4a4a4a",
+          "type": "معدني",
+          "priceExtra": 1200
+        },
+        {
+          "name": "أزرق أسكاري",
+          "hex": "#001a4d",
+          "type": "معدني",
+          "priceExtra": 1200
+        },
+        {
+          "name": "أحمر تانغو",
+          "hex": "#8b0000",
+          "type": "معدني",
+          "priceExtra": 1200
+        },
+        {
+          "name": "أخضر سونوما",
+          "hex": "#2f4f4f",
+          "type": "لؤلؤي",
+          "priceExtra": 2500
+        }
+      ]
+    }
+  },
+  "interior": {
+    "es": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "El interior del RS7 es un santuario de lujo tecnológico. El cuero Valcona con costuras en rombo contrastante, los insertos de carbono o aluminio cepillado y la iluminación ambiental multicolor crean una atmósfera envolvente.",
+      "frontSeats": {
+        "comfort": "Asientos deportivos RS con refuerzo lateral generoso, ajuste eléctrico de 22 vías, función memoria, calefacción, ventilación y masaje lumbar.",
+        "adjustment": "22 direcciones incluyendo extensión del muslo, ajuste de la inclinación del respaldo y sujeción lumbar neumática de 4 vías.",
+        "material": "Cuero Valcona perforado con costuras en rombo y logotipo RS en los reposacabezas."
+      },
+      "rearSeats": {
+        "legroom": "Generoso para dos adultos. La batalla de 2.930 mm permite estirar las piernas cómodamente. La plaza central es usable para trayectos cortos.",
+        "headroom": "Adecuado gracias al techo abatido, aunque personas de más de 1,85 m notarán el techo en plazas traseras.",
+        "comfort": "Respaldos abatibles 40:20:40 con reposabrazos central, portavasillas y control de climatización independiente.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 535,
+        "seatsDownCapacity": 1390,
+        "practicality": "El portón liftback ofrece una boca de carga enorme. La capacidad de 535 litros crece hasta 1.390 litros con los asientos abatidos, superando a muchos SUV compactos.",
+        "loadingLip": "Umbral de carga bajo y ancho. El portón eléctrico con apertura a pie opcional facilita la carga cuando se llevan objetos en las manos."
+      },
+      "infotainment": {
+        "screenSize": "10,1 pulgadas superior + 8,6 pulgadas inferior",
+        "system": "MMI touch response con navegación natural por voz y respuesta háptica",
+        "connectivity": [
+          "Apple CarPlay inalámbrico",
+          "Android Auto inalámbrico",
+          "Audi connect con Wi-Fi hotspot",
+          "Bluetooth 5.0",
+          "Dos puertos USB-C"
+        ],
+        "soundSystem": "Bang & Olufsen Advanced Sound System de 19 altavoces y 755 W",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "en": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "The RS7 interior is a sanctuary of technological luxury. Valcona leather with contrasting diamond stitching, carbon-fibre or brushed-aluminium inserts, and multi-colour ambient lighting create an enveloping atmosphere.",
+      "frontSeats": {
+        "comfort": "RS sport seats with generous lateral support, 22-way electric adjustment, memory function, heating, ventilation, and lumbar massage.",
+        "adjustment": "22 directions including thigh extension, backrest inclination adjustment, and four-way pneumatic lumbar support.",
+        "material": "Perforated Valcona leather with diamond stitching and RS logos on the headrests."
+      },
+      "rearSeats": {
+        "legroom": "Generous for two adults. The 2,930 mm wheelbase allows comfortable leg stretching. The centre position is usable for short journeys.",
+        "headroom": "Adequate thanks to the sloping roof, though occupants over 1.85 m will notice the roofline in the rear seats.",
+        "comfort": "40:20:40 split-folding backrests with centre armrest, cupholders, and independent climate control.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 535,
+        "seatsDownCapacity": 1390,
+        "practicality": "The liftback tailgate offers an enormous loading aperture. The 535-litre capacity grows to 1,390 litres with seats folded, surpassing many compact SUVs.",
+        "loadingLip": "Low and wide loading threshold. The electric tailgate with optional foot-activated opening facilitates loading when carrying objects."
+      },
+      "infotainment": {
+        "screenSize": "10,1 pulgadas superior + 8,6 pulgadas inferior",
+        "system": "MMI touch response with natural voice control and haptic feedback",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "Audi connect with Wi-Fi hotspot",
+          "Bluetooth 5.0",
+          "Two USB-C ports"
+        ],
+        "soundSystem": "Bang & Olufsen Advanced Sound System with 19 speakers and 755 watts",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "fr": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "L'intérieur de la RS7 est un sanctuaire de luxe technologique. Le cuir Valcona avec coutures en losange contrastantes, les inserts en fibre de carbone ou aluminium brossé, et l'éclairage ambiant multicolore créent une atmosphère enveloppante.",
+      "frontSeats": {
+        "comfort": "Sièges sport RS avec maintien latéral généreux, réglage électrique en 22 directions, fonction mémoire, chauffage, ventilation et massage lombaire.",
+        "adjustment": "22 directions incluant l'extension de la cuisse, le réglage de l'inclinaison du dossier et le soutien lombaire pneumatique en 4 directions.",
+        "material": "Cuir Valcona perforé avec coutures en losange et logos RS sur les appuie-têtes."
+      },
+      "rearSeats": {
+        "legroom": "Généreux pour deux adultes. L'empattement de 2 930 mm permet d'étirer les jambes confortablement. La place centrale est utilisable pour de courts trajets.",
+        "headroom": "Adéquat grâce au toit en pente, bien que les personnes de plus de 1,85 m remarquent la ligne de toit aux places arrière.",
+        "comfort": "Dossiers rabattables 40:20:40 avec accoudoir central, porte-gobelets et commande de climatisation indépendante.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 535,
+        "seatsDownCapacity": 1390,
+        "practicality": "Le hayon liftback offre une énorme ouverture de chargement. La capacité de 535 litres passe à 1 390 litres avec les sièges rabattus, dépassant de nombreux SUV compacts.",
+        "loadingLip": "Seuil de chargement bas et large. Le hayon électrique avec ouverture par pied optionnelle facilite le chargement quand on porte des objets."
+      },
+      "infotainment": {
+        "screenSize": "10,1 pulgadas superior + 8,6 pulgadas inferior",
+        "system": "MMI touch response avec commande vocale naturelle et retour haptique",
+        "connectivity": [
+          "Apple CarPlay sans fil",
+          "Android Auto sans fil",
+          "Audi connect avec point d'accès Wi-Fi",
+          "Bluetooth 5.0",
+          "Deux ports USB-C"
+        ],
+        "soundSystem": "Bang & Olufsen Advanced Sound System avec 19 haut-parleurs et 755 watts",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    },
+    "ar": {
+      "qualityRating": 9.5,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "مقصورة آر إس 7 هي ملاذ من الفخامة التقنية. الجلد فالكونا بخياطة الماس المتباينة، وإدراج ألياف الكربون أو الألومنيوم المصقول، والإضاءة المحيطة متعددة الألوان تخلق أجواءً محيطة.",
+      "frontSeats": {
+        "comfort": "مقاعد آر إس الرياضية بدعم جانبي سخي، وضبط كهربائي بـ 22 اتجاهاً، وذاكرة، وتدفئة، وتبريد، وتدليك قطني.",
+        "adjustment": "22 اتجاه تشمل تمديد الفخذ، وضبط ميل المسند، ودعم قطني هوائي بأربع اتجاهات.",
+        "material": "جلد فالكونا مثقب بخياطة الماس وشعارات آر إس على مسندات الرأس."
+      },
+      "rearSeats": {
+        "legroom": "سخي لشخصين بالغين. قاعدة العجلات 2,930 ملم تتيح تمديد الساقين بارتياح. المقعد الأوسط صالح للرحلات القصيرة.",
+        "headroom": "كافٍ بفضل السقف المنحدر، لكن الركاب الذين يتجاوز طولهم 1.85 م يلاحظون انخفاض السقف في المقاعد الخلفية.",
+        "comfort": "مساند ظهر قابلة للطي 40:20:40 مع مسند ذراع مركزي، وحاملات أكواب، وتحكم منفصل بالمناخ.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 535,
+        "seatsDownCapacity": 1390,
+        "practicality": "الباب الخلفي اللفتباك يوفر فتحة تحميل ضخمة. السعة 535 لتر تتوسع إلى 1,390 لتر مع طي المقاعد، متفوقة على العديد من سيارات الدفع الرباعي المدمجة.",
+        "loadingLip": "عتبة تحميل منخفضة وعريضة. الباب الخلفي الكهربائي بفتح بالقدم الاختياري يسهل التحميل عند حمل الأشياء."
+      },
+      "infotainment": {
+        "screenSize": "10,1 بوصة علوي + 8,6 بوصة سفلي",
+        "system": "إم إم آي تاتش ريسبونس بالتحكم الصوتي الطبيعي والاستجابة اللمسية",
+        "connectivity": [
+          "أبل كاربلاي لاسلكي",
+          "أندرويد أوتو لاسلكي",
+          "أودي كونكت بنقطة اتصال واي فاي",
+          "بلوتوث 5.0",
+          "منفذان يو إس بي-سي"
+        ],
+        "soundSystem": "بانغ أند أولوفسن أدفانسد ساوند سيستم 19 مكبر صوت وقوة 755 واط",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        },
+        {
+          "id": "ambient-lighting",
+          "icon": "light",
+          "category": "comfort"
+        }
+      ]
+    }
+  },
+  "technology": {
+    "es": {
+      "headUnit": {
+        "screenSize": "10,1\" + 8,6\"",
+        "resolution": "1540 x 720 px (superior) / 1280 x 660 px (inferior)",
+        "system": "MMI touch response con procesador NVIDIA Tegra",
+        "processor": "NVIDIA Tegra X1",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Audi natural voice control con procesamiento en la nube"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Audi connect",
+        "myAudi app"
+      ],
+      "audio": {
+        "system": "Bang & Olufsen Advanced",
+        "speakers": 19,
+        "watts": 755
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Virtual Cockpit Plus de 12,3 pulgadas con gráficos RS exclusivos",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myAudi",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Google Earth"
+      ]
+    },
+    "en": {
+      "headUnit": {
+        "screenSize": "10,1\" + 8,6\"",
+        "resolution": "1540 x 720 px (superior) / 1280 x 660 px (inferior)",
+        "system": "MMI touch response with NVIDIA Tegra X1 processor",
+        "processor": "NVIDIA Tegra X1",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Audi natural voice control with cloud processing"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Audi connect",
+        "myAudi app"
+      ],
+      "audio": {
+        "system": "Bang & Olufsen Advanced",
+        "speakers": 19,
+        "watts": 755
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Virtual Cockpit Plus 12.3-inch with exclusive RS graphics",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myAudi",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Google Earth"
+      ]
+    },
+    "fr": {
+      "headUnit": {
+        "screenSize": "10,1\" + 8,6\"",
+        "resolution": "1540 x 720 px (superior) / 1280 x 660 px (inferior)",
+        "system": "MMI touch response avec processeur NVIDIA Tegra X1",
+        "processor": "NVIDIA Tegra X1",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Commande vocale naturelle Audi avec traitement cloud"
+      },
+      "connectivity": [
+        "5G",
+        "Point d'accès Wi-Fi",
+        "Audi connect",
+        "Application myAudi"
+      ],
+      "audio": {
+        "system": "Bang & Olufsen Advanced",
+        "speakers": 19,
+        "watts": 755
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Virtual Cockpit Plus de 12,3 pouces avec graphismes RS exclusifs",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "myAudi",
+        "Spotify",
+        "Amazon Music",
+        "Apple Music",
+        "Google Earth"
+      ]
+    },
+    "ar": {
+      "headUnit": {
+        "screenSize": "10,1\" + 8,6\"",
+        "resolution": "1540 × 720 بكسل (علوي) / 1280 × 660 بكسل (سفلي)",
+        "system": "إم إم آي تاتش ريسبونس بمعالج إن فيديا تيجرا إكس 1",
+        "processor": "إن فيديا تيجرا إكس 1",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "التحكم الصوتي الطبيعي من أودي بمعالجة سحابية"
+      },
+      "connectivity": [
+        "5 جي",
+        "نقطة اتصال واي فاي",
+        "أودي كونكت",
+        "تطبيق ماي أودي"
+      ],
+      "audio": {
+        "system": "بانغ أند أولوفسن أدفانسد",
+        "speakers": 19,
+        "watts": 755
+      },
+      "driverDisplays": {
+        "instrumentCluster": "الكوكبيت الافتراضي بلس مقاس 12.3 بوصة برسومات آر إس حصرية",
+        "headUpDisplay": true,
+        "augmentedRealityNav": true
+      },
+      "appIntegration": [
+        "ماي أودي",
+        "سبوتيفاي",
+        "أمازون ميوزيك",
+        "أبل ميوزيك",
+        "جوجل إيرث"
+      ]
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 20 (máximo)",
+        "uk": "Grupo 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Aproximadamente 650 €/año en función de la comunidad autónoma",
+        "uk": "£2.365 primer año, £600 siguientes años"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 850,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Gasolina 98 RON",
+        "tankCapacity": {
+          "value": 73,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 13.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 20 (maximum)",
+        "uk": "Group 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Approximately €650/year depending on autonomous community",
+        "uk": "£2,365 first year, £600 subsequent years"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 850,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Premium unleaded 98 RON",
+        "tankCapacity": {
+          "value": 73,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 13.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "fr": {
+      "insuranceGroups": {
+        "spain": "Groupe 20 (maximum)",
+        "uk": "Groupe 50",
+        "germany": "TK25"
+      },
+      "roadTax": {
+        "spain": "Environ 650 €/an selon la communauté autonome",
+        "uk": "2 365 £ première année, 600 £ années suivantes"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 850,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 2200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/30 R22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Sans plomb 98 RON",
+        "tankCapacity": {
+          "value": 73,
+          "unit": "L"
+        },
+        "realWorldCombined": {
+          "value": 13.5,
+          "unit": "L/100km"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    },
+    "ar": {
+      "insuranceGroups": {
+        "spain": "المجموعة 20 (الحد الأقصى)",
+        "uk": "المجموعة 50",
+        "germany": "تي كي 25"
+      },
+      "roadTax": {
+        "spain": "حوالي 650 يورو/سنة حسب المجتمع الذاتي",
+        "uk": "2,365 جنيه استرليني السنة الأولى، 600 جنيه السنوات التالية"
+      },
+      "servicing": {
+        "intervalKm": 15000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 850,
+          "currency": "يورو"
+        },
+        "costMajor": {
+          "value": 2200,
+          "currency": "يورو"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "285/30 22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "يورو"
+          }
+        },
+        "rear": {
+          "size": "285/30 22",
+          "costPerTyre": {
+            "value": 450,
+            "currency": "يورو"
+          }
+        }
+      },
+      "fuel": {
+        "type": "بنزين ممتاز 98 أوكتان",
+        "tankCapacity": {
+          "value": 73,
+          "unit": "لتر"
+        },
+        "realWorldCombined": {
+          "value": 13.5,
+          "unit": "ل/100 كم"
+        }
+      },
+      "warranty": {
+        "years": 2,
+        "km": 0,
+        "powertrain": {
+          "years": 5,
+          "km": 150000
+        }
+      }
+    }
+  },
+  "ownership": {
+    "es": {
+      "ownerReviews": [
+        {
+          "quote": "Llevo 40.000 km con mi RS7 y sigue emocionándome cada vez que arranco. El consumo es alto, pero la sonrisa que me saca vale cada céntimo.",
+          "author": "Marcus T.",
+          "location": "Munich, Alemania",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Lo utilizo para viajes de negocios y escapadas de fin de semana. En modo Comfort es tan silencioso como un A8, pero presionas el botón RS y se transforma.",
+          "author": "Sophie L.",
+          "location": "Lyon, Francia",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Desgaste prematuro de neumáticos traseros debido al alto par y tracción Quattro",
+          "frequency": "common",
+          "cost": "1.800 € cada 15.000-20.000 km"
+        },
+        {
+          "issue": "Ruido de la suspensión neumática en frío durante los primeros segundos",
+          "frequency": "occasional",
+          "cost": "Normalmente resuelto con lubricación, ~150 €"
+        },
+        {
+          "issue": "Problemas menores con el sistema MMI tras actualizaciones de software",
+          "frequency": "occasional",
+          "cost": "Resuelto por garantía o actualización OTA"
+        }
+      ],
+      "satisfactionRating": 9.2
+    },
+    "en": {
+      "ownerReviews": [
+        {
+          "quote": "I have covered 40,000 km with my RS7 and it still excites me every time I start it. Fuel consumption is high, but the smile it puts on my face is worth every cent.",
+          "author": "Marcus T.",
+          "location": "Munich, Germany",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "I use it for business trips and weekend getaways. In Comfort mode it is as quiet as an A8, but press the RS button and it transforms.",
+          "author": "Sophie L.",
+          "location": "Lyon, France",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Premature rear tyre wear due to high torque and Quattro all-wheel drive",
+          "frequency": "common",
+          "cost": "€1,800 every 15,000-20,000 km"
+        },
+        {
+          "issue": "Air suspension noise when cold during first seconds of operation",
+          "frequency": "occasional",
+          "cost": "Usually resolved with lubrication, ~€150"
+        },
+        {
+          "issue": "Minor MMI system glitches after software updates",
+          "frequency": "occasional",
+          "cost": "Resolved under warranty or via OTA update"
+        }
+      ],
+      "satisfactionRating": 9.2
+    },
+    "fr": {
+      "ownerReviews": [
+        {
+          "quote": "J'ai parcouru 40 000 km avec ma RS7 et elle m'excite encore à chaque démarrage. La consommation est élevée, mais le sourire qu'elle me procure vaut chaque centime.",
+          "author": "Marcus T.",
+          "location": "Munich, Allemagne",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Je l'utilise pour les voyages d'affaires et les escapades de week-end. En mode Comfort, elle est aussi silencieuse qu'une A8, mais appuyez sur le bouton RS et elle se transforme.",
+          "author": "Sophie L.",
+          "location": "Lyon, France",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Usure prématurée des pneus arrière due au couple élevé et à la transmission intégrale Quattro",
+          "frequency": "common",
+          "cost": "1 800 € tous les 15 000-20 000 km"
+        },
+        {
+          "issue": "Bruits de suspension pneumatique à froid pendant les premières secondes",
+          "frequency": "occasional",
+          "cost": "Généralement résolu par lubrification, ~150 €"
+        },
+        {
+          "issue": "Pannes mineures du système MMI après mises à jour logicielles",
+          "frequency": "occasional",
+          "cost": "Résolu sous garantie ou par mise à jour OTA"
+        }
+      ],
+      "satisfactionRating": 9.2
+    },
+    "ar": {
+      "ownerReviews": [
+        {
+          "quote": "قطعت 40,000 كم مع آر إس 7 الخاصة بي وما زالت تثيرني في كل مرة أشغلها فيها. استهلاك الوقود مرتفع، لكن الابتسامة التي ترسمها على وجهي تستحق كل سنت.",
+          "author": "ماركوس",
+          "location": "ميونخ، ألمانيا",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "أستخدمها للرحلات العمل والعطلات الأسبوعية. في وضع الراحة، هي هادئة مثل أي 8، لكن اضغط زر آر إس وتتحول.",
+          "author": "صوفي",
+          "location": "ليون، فرنسا",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "تآكل مبكر لإطارات الخلف بسبب العزم العالي والدفع الرباعي كواترو",
+          "frequency": "شائع",
+          "cost": "1,800 يورو كل 15,000-20,000 كم"
+        },
+        {
+          "issue": "ضوضاء التعليق الهوائي في البرودة خلال الثواني الأولى",
+          "frequency": "متوسط",
+          "cost": "عادة ما يُحل بالتشحيم، ~150 يورو"
+        },
+        {
+          "issue": "مشاكل طفيفة في نظام إم إم آي بعد تحديثات البرمجيات",
+          "frequency": "متوسط",
+          "cost": "يُحل بموجب الضمان أو عبر تحديث عبر الهواء"
+        }
+      ],
+      "satisfactionRating": 9.2
+    }
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي (كواترو)"
+}

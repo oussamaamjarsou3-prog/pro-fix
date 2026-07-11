@@ -1,0 +1,95 @@
+=== Missing feature translations in ar.json ===
+
+=== audi-rs3-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es', 'en'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing specs.drivetrainAr
+  versions[0].nameAr missing
+  versions[1].nameAr missing
+
+=== bmw-520d-xdrive-2026 ===
+  tires: missing ar (has ['es'])
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es'])
+  profileData: missing ar (has ['es'])
+  usedGuide: missing ar (has [])
+  missing basicInfo.badgeAr
+  missing specs.drivetrainAr
+
+=== bmw-m5-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es', 'en'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing specs.drivetrainAr
+
+=== example-car ===
+  safety: missing ar (has [])
+  missing basicInfo.nameAr
+  missing basicInfo.fullModelNameAr
+  missing basicInfo.badgeAr
+  missing basicInfo.taglineAr
+  missing specs.engine.typeAr
+  missing specs.drivetrainAr
+  missing specs.transmission.typeAr
+  versions[0].nameAr missing
+  versions[1].nameAr missing
+  versions[2].nameAr missing
+  comparisons[0].nameAr missing
+  comparisons[0].fullNameAr missing
+  comparisons[1].nameAr missing
+  comparisons[1].fullNameAr missing
+  comparisons[2].nameAr missing
+  comparisons[2].fullNameAr missing
+
+=== mercedes-amg-gt-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es', 'en'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing specs.drivetrainAr
+  versions[0].nameAr missing
+  versions[1].nameAr missing
+
+=== news ===
+  missing basicInfo.nameAr
+  missing basicInfo.fullModelNameAr
+  missing basicInfo.badgeAr
+  missing basicInfo.taglineAr
+  missing specs.engine.typeAr
+  missing specs.drivetrainAr
+  missing specs.transmission.typeAr
+
+=== nissan-gtr-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es', 'en'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing specs.drivetrainAr
+  versions[0].nameAr missing
+  versions[1].nameAr missing
+
+=== porsche-911-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es', 'en'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing specs.drivetrainAr
+  versions[0].nameAr missing
+  versions[1].nameAr missing
+
+=== rs7-2026 ===
+  countryPricing: missing ar (has ['es', 'fr'])
+  missing specs.drivetrainAr
+  versions[2].nameAr missing
+
+=== tesla-model-s-plaid-2026 ===
+  tires: missing ar (has ['es', 'en'])
+  countryPricing: missing ar (has ['es', 'fr'])
+  ownerReviews: missing ar (has ['es'])
+  profileData: missing ar (has ['es', 'en'])
+  usedGuide: missing ar (has [])
+  missing basicInfo.badgeAr
+  missing specs.drivetrainAr

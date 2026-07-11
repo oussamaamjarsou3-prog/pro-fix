@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es" data-i18n-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <title data-i18n="guides.heroTitle">Guías CarSpecio</title>
+    <meta name="description" content="Guías prácticas de CarSpecio: mantenimiento, averías, compra, eléctricos y más.">
+    <meta name="keywords" content="guías coches, mantenimiento coche, tutorial coche, consejos coche">
+    <link rel="canonical" href="{{canonicalUrl}}">
+    {{hreflangTags}}
+    <script type="application/ld+json">{{jsonLd}}</script>
+    <meta property="og:title" content="Guías y consejos para coches">
+    <meta property="og:description" content="Guías prácticas de CarSpecio: mantenimiento, averías, compra, eléctricos y más.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{canonicalUrl}}">
+    <meta property="og:image" content="{{ogImage}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guías y consejos para coches">
+    <meta name="twitter:description" content="Guías prácticas de CarSpecio: mantenimiento, averías, compra, eléctricos y más.">
+    <meta name="twitter:image" content="{{ogImage}}">
+    <link rel="icon" href="../assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="../assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
+    <!-- Theme: apply before paint to avoid flash -->
+    <script>try{if(localStorage.getItem('profix-theme')==='light')document.documentElement.classList.add('light');}catch(e){}</script>
+    <link rel="stylesheet" href="../../css/guide-page-bundle.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+    <!-- Header -->
+    <header class="site-header">
+    <a href="../index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="../index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="../compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="../reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="../diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="../guias/index.html" data-i18n="navigation.guides" class="active">Guías</a>
+        <a href="../herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="../contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="guide-breadcrumb">
+        <a href="../index.html" data-i18n="guides.breadcrumbHome">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current" aria-current="page" data-i18n="guides.breadcrumbGuides">Guías</span>
+    </nav>
+
+    <main id="main-content">
+        <section class="guide-index-hero" style="background-image: url('../images/guide.png')">
+            <div class="guide-index-hero-content">
+                <h1 data-i18n="guides.heroTitle">Guías CarSpecio</h1>
+                <p data-i18n="guides.heroSubtitle">Consejos prácticos para cuidar tu coche</p>
+            </div>
+        </section>
+
+        <div class="guide-index-main">
+            <section class="guide-index-categories" id="categories">
+                <h2 data-i18n="guides.categoriesTitle">Categorías</h2>
+                <div class="guide-cat-grid">{{categoryCards}}</div>
+            </section>
+
+            <section class="guide-index-featured">
+                <h2 data-i18n="guides.featuredTitle">Guías destacadas</h2>
+                <div class="guide-cards">{{featuredCards}}</div>
+            </section>
+
+            {{categorySections}}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="../assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="../assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="../assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="../reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="../compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="../noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="../guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="../diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="../herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="../marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="../contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="../privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="../cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="../terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <script src="../../js/mega-menu-data.js" defer></script>
+    <script src="../../js/mega-menu.js" defer></script>
+    <script src="../../js/flag-icons.js" defer></script>
+    <script src="../../js/i18n.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+    <script src="../../system/js/dropdowns.js" defer></script>
+    <script src="../../js/cookie-consent.js" defer></script>
+    <script src="../../js/analytics.js" defer></script>
+    <script src="../../js/analytics-events.js" defer></script>
+
+    <script>
+        // Toggle lang-card-content for guide index
+        function toggleIndexLangContent() {
+            let lang = 'es';
+            if (typeof window.currentLang === 'function') {
+                lang = window.currentLang();
+            } else if (window.currentLang && typeof window.currentLang !== 'string') {
+                lang = window.currentLang;
+            }
+            document.querySelectorAll('.lang-card-content').forEach(block => {
+                block.hidden = block.dataset.lang !== lang;
+            });
+        }
+
+        // Toggle only on i18n:ready (not on DOMContentLoaded to avoid flash)
+        document.addEventListener('i18n:ready', toggleIndexLangContent);
+    </script>
+</body>
+</html>

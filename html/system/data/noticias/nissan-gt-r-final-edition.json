@@ -1,0 +1,513 @@
+{
+    "id": "nissan-gt-r-final-edition",
+    "slug": "nissan-gt-r-final-edition",
+    "source": "autoblog",
+    "category": "lanzamientos",
+    "date": "2026-06-15",
+    "readingTime": 5,
+    "image": "../images/nissan-gtr.2026/nissan-gtr-hero.png",
+    "externalUrl": "https://www.autoblog.com/nissan-gt-r-final-edition",
+    "tags": [
+        "nissan",
+        "gt-r",
+        "final edition",
+        "japonés"
+    ],
+    "relatedCars": [
+        {
+            "slug": "nissan-gtr",
+            "name": "Nissan GT-R",
+            "image": "../images/nissan-gtr.2026/nissan-gtr-hero.png"
+        }
+    ],
+    "relatedNews": [
+        "porsche-911-hybrid-2026",
+        "bmw-m5-phev-record"
+    ],
+    "translations": {
+        "es": {
+            "title": "Nissan GT-R Final Edition: la despedida del mito japonés",
+            "subtitle": "Nissan cierra el capítulo del GT-R R35 con una edición limitada que rinde homenaje a una de las leyendas del automovilismo moderno.",
+            "excerpt": "Nissan anuncia la edición de despedida del GT-R R35 con 600 CV, producción limitada y un homenaje a décadas de dominio en la escena deportiva.",
+            "imageCaption": "Nissan GT-R Final Edition.",
+            "sections": [
+                {
+                    "id": "despedida",
+                    "heading": "El fin de una era",
+                    "paragraphs": [
+                        "Nissan ha confirmado la Final Edition del GT-R R35, el coche que durante más de una década ha sido la referencia japonesa en términos de deportividad accesible. Con producción limitada y numerosos detalles exclusivos, esta versión marca el fin de una era para el modelo icónico."
+                    ]
+                },
+                {
+                    "id": "mecanica",
+                    "heading": "Mecánica y detalles exclusivos",
+                    "paragraphs": [
+                        "El GT-R Final Edition mantiene el motor V6 biturbo VR38DETT de 3.8 litros, pero con una puesta a punto que eleva la potencia a 600 CV. La transmisión de doble embrague de seis velocidades y el sistema de tracción total ATTESA E-TS siguen siendo los responsables de distribuir toda esa potencia al asfalto.",
+                        "Los cambios estéticos incluyen llantas de aleación de 20 pulgadas en bronce dorado, pinzas de freno rojas, un alerón trasero de fibra de carbono y una placa con el número de unidad."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Edición de despedida del Nissan GT-R R35, producción limitada.",
+                "Motor VR38DETT 3.8 V6 biturbo afinado a 600 CV.",
+                "Detalles exclusivos: llantas bronce dorado, alerón de carbono y placa numerada.",
+                "Cierra la era del R35 tras casi dos décadas en producción."
+            ],
+            "previousModel": {
+                "name": "Nissan GT-R Premium / Nismo (R35)",
+                "year": "2007-2025",
+                "summary": "Plataforma R35 con motor VR38DETT de 3.8 litros. En su versión Nismo alcanzaba 600 CV, pero la mayoría de unidades convencionales rondaban los 570 CV. El diseño y la arquitectura permanecieron prácticamente inalterados desde 2007."
+            },
+            "whatChanged": [
+                {
+                    "title": "Potencia máxima:",
+                    "text": "La Final Edition se sitúa en 600 CV, a la par del antiguo Nismo, pero accesible como edición de despedida limitada."
+                },
+                {
+                    "title": "Detalles exclusivos:",
+                    "text": "Llantas de 20 pulgadas en bronce dorado, pinzas de freno rojas, alerón de fibra de carbono y placa con número de unidad."
+                },
+                {
+                    "title": "Sin cambios estructurales:",
+                    "text": "No hay nueva plataforma ni mecánica radicalmente diferente: es un homenaje al R35, no una revolución."
+                },
+                {
+                    "title": "Producción limitada:",
+                    "text": "Nissan reserva un número reducido de unidades para mercados seleccionados, convirtiéndola en una pieza de colección."
+                }
+            ],
+            "newTechnology": [
+                "El VR38DETT es un motor casi artesanal, montado a mano en Yokohama. La Final Edition no introduce novedades mecánicas, pero sí incluye el mayor grado de afinación disponible para el R35.",
+                "El sistema de tracción total ATTESA E-TS y la caja de doble embrague de seis velocidades siguen gestionando los 600 CV con la fiabilidad que caracteriza al GT-R.",
+                "La ausencia de tecnología híbrida o eléctrica es deliberada: es la última oportunidad de disfrutar del GT-R en su forma más pura."
+            ],
+            "marketContext": "El GT-R R35 se despide en un momento en que los deportivos japoneses buscan nuevas identidades: el Toyota GR Supra ya comparte plataforma con BMW, y el futuro del GT-R apunta hacia la electrificación. La Final Edition es a la vez celebración y transición para una de las leyendas más respetadas del mundo del automóvil.",
+            "pricing": {
+                "price": "Desde 150.000 €",
+                "market": "Japón y mercados seleccionados",
+                "availability": "Producción limitada, reservas abiertas hasta finales de 2025",
+                "note": "Edición limitada; el precio y la disponibilidad varían según la región."
+            },
+            "prosCons": {
+                "pros": [
+                    "Edición limitada con valor de colección prácticamente garantizado.",
+                    "Mecánica VR38DETT probada y fiabilidad demostrada.",
+                    "Despedida emotiva a una de las leyendas japonesas."
+                ],
+                "cons": [
+                    "Plataforma R35 sin cambios estructurales desde 2007.",
+                    "Tecnología y conectividad a la zaga de rivales actuales.",
+                    "Disponibilidad muy limitada fuera de Japón."
+                ]
+            },
+            "opinion": "El GT-R Final Edition no es solo un coche; es un capítulo que se cierra. Su legado es enorme: democratizó el rendimiento de superdeportivo a un precio asequible. Su futuro, probablemente eléctrico, tendrá que esforzarse para mantener el respeto que genera este mito japonés. La edición limitada es una despedida merecida.",
+            "stats": [
+                {
+                    "value": "600 CV",
+                    "label": "Potencia"
+                },
+                {
+                    "value": "3.8 L",
+                    "label": "V6 biturbo"
+                },
+                {
+                    "value": "6 vel.",
+                    "label": "Caja DCT"
+                },
+                {
+                    "value": "Edición",
+                    "label": "Limitada"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2007",
+                    "title": "Debut del R35",
+                    "desc": "Nissan presenta el GT-R moderno, capaz de rivalizar con los superdeportivos europeos."
+                },
+                {
+                    "date": "2017",
+                    "title": "Nismo y Track Edition",
+                    "desc": "Llegan las versiones más radicales para el circuito."
+                },
+                {
+                    "date": "2026",
+                    "title": "Final Edition",
+                    "desc": "Nissan se despide del GT-R R35 con una edición limitada cargada de nostalgia."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El motor VR38DETT del GT-R Final Edition sigue siendo ensamblado a mano por técnicos takumi en Yokohama, uno de los pocos procesos artesanales que permanecen en Nissan."
+            },
+            "quote": {
+                "text": "El GT-R no necesita ser perfecto; necesita ser inolvidable.",
+                "author": "Nismo Heritage"
+            },
+            "warningBox": null
+        },
+        "en": {
+            "title": "Nissan GT-R Final Edition: the farewell of the Japanese myth",
+            "subtitle": "Nissan closes the chapter of the GT-R R35 with a limited edition that pays tribute to one of the legends of modern motoring.",
+            "excerpt": "Nissan announces the farewell edition of the GT-R R35 with 600 hp, limited production and a tribute to decades of dominance on the sports scene.",
+            "imageCaption": "Nissan GT-R Final Edition.",
+            "sections": [
+                {
+                    "id": "despedida",
+                    "heading": "The end of an era",
+                    "paragraphs": [
+                        "Nissan has confirmed the Final Edition of the GT-R R35, the car that for more than a decade has been the Japanese reference in terms of accessible sportiness. With limited production and numerous exclusive details, this version marks the end of an era for the iconic model."
+                    ]
+                },
+                {
+                    "id": "mecanica",
+                    "heading": "Mechanics and exclusive details",
+                    "paragraphs": [
+                        "The GT-R Final Edition retains the 3.8-litre VR38DETT V6 biturbo engine, but with a tune that raises power to 600 hp. The six-speed dual-clutch transmission and the ATTESA E-TS all-wheel drive system remain responsible for distributing all that power to the asphalt.",
+                        "The aesthetic changes include 20-inch golden bronze alloy wheels, red brake calipers, a carbon fibre rear spoiler and a plaque with the unit number."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Farewell edition of the Nissan GT-R R35, limited production.",
+                "VR38DETT 3.8 V6 biturbo engine tuned to 600 hp.",
+                "Exclusive details: golden bronze wheels, carbon spoiler and numbered plaque.",
+                "Closes the era of the R35 after almost two decades in production."
+            ],
+            "previousModel": {
+                "name": "Nissan GT-R Premium / Nismo (R35)",
+                "year": "2007-2025",
+                "summary": "R35 platform with 3.8-litre VR38DETT engine. In its Nismo version it reached 600 hp, but most conventional units were around 570 hp. The design and architecture remained virtually unchanged since 2007."
+            },
+            "whatChanged": [
+                {
+                    "title": "Maximum power:",
+                    "text": "The Final Edition sits at 600 hp, on a par with the old Nismo, but accessible as a limited farewell edition."
+                },
+                {
+                    "title": "Exclusive details:",
+                    "text": "20-inch golden bronze wheels, red brake calipers, carbon fibre spoiler and plaque with unit number."
+                },
+                {
+                    "title": "No structural changes:",
+                    "text": "There is no new platform or radically different mechanics: it is a tribute to the R35, not a revolution."
+                },
+                {
+                    "title": "Limited production:",
+                    "text": "Nissan reserves a reduced number of units for selected markets, making it a collector's item."
+                }
+            ],
+            "newTechnology": [
+                "The VR38DETT is an almost handcrafted engine, hand-built in Yokohama. The Final Edition does not introduce mechanical novelties, but it does include the highest degree of tuning available for the R35.",
+                "The ATTESA E-TS all-wheel drive system and the six-speed dual-clutch gearbox remain responsible for managing the 600 hp with the reliability that characterises the GT-R.",
+                "The absence of hybrid or electric technology is deliberate: it is the last opportunity to enjoy the GT-R in its purest form."
+            ],
+            "marketContext": "The R35 GT-R bids farewell at a time when Japanese sports cars are seeking new identities: the Toyota GR Supra already shares a platform with BMW, and the future of the GT-R points towards electrification. The Final Edition is both celebration and transition for one of the most respected legends in the motoring world.",
+            "pricing": {
+                "price": "From €150,000",
+                "market": "Japan and selected markets",
+                "availability": "Limited production, reservations open until the end of 2025",
+                "note": "Limited edition; price and availability vary by region."
+            },
+            "prosCons": {
+                "pros": [
+                    "Limited edition with virtually guaranteed collector value.",
+                    "Proven VR38DETT mechanics and proven reliability.",
+                    "Emotional farewell to one of the Japanese legends."
+                ],
+                "cons": [
+                    "R35 platform with no structural changes since 2007.",
+                    "Technology and connectivity lag behind current rivals.",
+                    "Very limited availability outside Japan."
+                ]
+            },
+            "opinion": "The GT-R Final Edition is not just a car; it is a chapter that closes. Its legacy is enormous: it democratised supercar performance at an affordable price. Its future, probably electric, will have to work hard to maintain the respect that this Japanese myth generates. The limited edition is a deserved farewell.",
+            "stats": [
+                {
+                    "value": "600 hp",
+                    "label": "Power"
+                },
+                {
+                    "value": "3.8 L",
+                    "label": "V6 biturbo"
+                },
+                {
+                    "value": "6 spd.",
+                    "label": "DCT gearbox"
+                },
+                {
+                    "value": "Limited",
+                    "label": "Edition"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2007",
+                    "title": "R35 debut",
+                    "desc": "Nissan presents the modern GT-R, capable of rivalling European supercars."
+                },
+                {
+                    "date": "2017",
+                    "title": "Nismo and Track Edition",
+                    "desc": "The most radical versions for the track arrive."
+                },
+                {
+                    "date": "2026",
+                    "title": "Final Edition",
+                    "desc": "Nissan bids farewell to the GT-R R35 with a limited, nostalgia-filled edition."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The VR38DETT engine of the GT-R Final Edition is still hand-built by takumi technicians in Yokohama, one of the few artisanal processes that remain at Nissan."
+            },
+            "quote": {
+                "text": "The GT-R does not need to be perfect; it needs to be unforgettable.",
+                "author": "Nismo Heritage"
+            },
+            "warningBox": null
+        },
+        "fr": {
+            "title": "Nissan GT-R Final Edition : l'adieu du mythe japonais",
+            "subtitle": "Nissan referme le chapitre du GT-R R35 avec une édition limitée qui rend hommage à l'une des légendes de l'automobile moderne.",
+            "excerpt": "Nissan annonce l'édition d'adieu du GT-R R35 avec 600 ch, une production limitée et un hommage aux décennies de domination sur la scène sportive.",
+            "imageCaption": "Nissan GT-R Final Edition.",
+            "sections": [
+                {
+                    "id": "despedida",
+                    "heading": "La fin d'une époque",
+                    "paragraphs": [
+                        "Nissan a confirmé l'édition Final du GT-R R35, la voiture qui pendant plus d'une décennie a été la référence japonaise en matière de sportivité accessible. Avec une production limitée et de nombreux détails exclusifs, cette version marque la fin d'une ère pour le modèle emblématique."
+                    ]
+                },
+                {
+                    "id": "mecanica",
+                    "heading": "Mécanique et détails exclusifs",
+                    "paragraphs": [
+                        "Le GT-R Final Edition conserve le moteur VR38DETT 3,8 litres V6 biturbo, mais avec une mise au point qui élève la puissance à 600 ch. La transmission à double embrayage de six rapports et le système de traction intégrale ATTESA E-TS restent responsables de distribuer toute cette puissance sur l'asphalte.",
+                        "Les changements esthétiques incluent des jantes en alliage de 20 pouces en bronze doré, des étriers de frein rouges, un aileron arrière en fibre de carbone et une plaque avec le numéro d'unité."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Édition d'adieu du Nissan GT-R R35, production limitée.",
+                "Moteur VR38DETT 3,8 V6 biturbo mis au point en 600 ch.",
+                "Détails exclusifs : jantes bronze doré, aileron de carbone et plaque numérotée.",
+                "Clôture l'ère du R35 après près de deux décennies de production."
+            ],
+            "previousModel": {
+                "name": "Nissan GT-R Premium / Nismo (R35)",
+                "year": "2007-2025",
+                "summary": "Plateforme R35 avec moteur VR38DETT 3,8 litres. En version Nismo, il atteignait 600 ch, mais la plupart des unités conventionnelles tournaient autour de 570 ch. Le design et l'architecture sont restés pratiquement inchangés depuis 2007."
+            },
+            "whatChanged": [
+                {
+                    "title": "Puissance maximale :",
+                    "text": "La Final Edition se situe à 600 ch, au niveau de l'ancienne Nismo, mais accessible en tant qu'édition limitée d'adieu."
+                },
+                {
+                    "title": "Détails exclusifs :",
+                    "text": "Jantes de 20 pouces en bronze doré, étriers de frein rouges, aileron en fibre de carbone et plaque avec numéro d'unité."
+                },
+                {
+                    "title": "Pas de changements structurels :",
+                    "text": "Il n'y a pas de nouvelle plateforme ni de mécanique radicalement différente : c'est un hommage au R35, pas une révolution."
+                },
+                {
+                    "title": "Production limitée :",
+                    "text": "Nissan réserve un nombre réduit d'unités pour des marchés sélectionnés, en faisant un objet de collection."
+                }
+            ],
+            "newTechnology": [
+                "Le VR38DETT est un moteur presque artisanal, assemblé à la main à Yokohama. La Final Edition n'introduit pas de nouveautés mécaniques, mais inclut le degré maximal de mise au point disponible pour le R35.",
+                "Le système de traction intégrale ATTESA E-TS et la boîte à double embrayage de six rapports restent responsables de gérer les 600 ch avec la fiabilité qui caractérise le GT-R.",
+                "L'absence de technologie hybride ou électrique est délibérée : c'est la dernière occasion de profiter du GT-R dans sa formule la plus pure."
+            ],
+            "marketContext": "Le GT-R R35 fait ses adieux à un moment où les sportives japonaises cherchent de nouvelles identités : la Toyota GR Supra partage déjà sa plateforme avec BMW, et l'avenir du GT-R pointe vers l'électrification. La Final Edition est à la fois célébration et transition pour l'une des légendes les plus respectées du monde automobile.",
+            "pricing": {
+                "price": "À partir de 150 000 €",
+                "market": "Japon et marchés sélectionnés",
+                "availability": "Production limitée, réservations ouvertes jusqu'à fin 2025",
+                "note": "Édition limitée ; le prix et la disponibilité varient selon la région."
+            },
+            "prosCons": {
+                "pros": [
+                    "Édition limitée avec une valeur de collection quasi assurée.",
+                    "Mécanique VR38DETT éprouvée et fiabilité avérée.",
+                    "Adieu émotionnel à l'une des légendes japonaises."
+                ],
+                "cons": [
+                    "Plateforme R35 sans changements structurels depuis 2007.",
+                    "Technologie et connectivité en retrait face aux rivaux actuels.",
+                    "Disponibilité très limitée en dehors du Japon."
+                ]
+            },
+            "opinion": "Le GT-R Final Edition n'est pas seulement une voiture ; c'est un chapitre qui se ferme. Son héritage est immense : il a démocratisé les performances de supercar à un prix accessible. Son avenir, probablement électrique, devra se battre pour conserver le respect que génère ce mythe japonais. L'édition limitée est une adieu méritée.",
+            "stats": [
+                {
+                    "value": "600 ch",
+                    "label": "Puissance"
+                },
+                {
+                    "value": "3,8 L",
+                    "label": "V6 biturbo"
+                },
+                {
+                    "value": "6 vit.",
+                    "label": "Boîte DCT"
+                },
+                {
+                    "value": "Édition",
+                    "label": "Limitée"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2007",
+                    "title": "Début du R35",
+                    "desc": "Nissan présente le GT-R moderne, capable de rivaliser avec les supercars européens."
+                },
+                {
+                    "date": "2017",
+                    "title": "Nismo et Track Edition",
+                    "desc": "Arrivent les versions les plus radicales pour circuit."
+                },
+                {
+                    "date": "2026",
+                    "title": "Final Edition",
+                    "desc": "Nissan fait ses adieux au GT-R R35 avec une édition limitée et chargée de nostalgie."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "Le moteur VR38DETT de la GT-R Final Edition est toujours assemblé à la main par des techniciens takumi à Yokohama, l'un des rares processus artisanaux qui subsistent chez Nissan."
+            },
+            "quote": {
+                "text": "Le GT-R n'a pas besoin d'être parfait ; il a besoin d'être inoubliable.",
+                "author": "Nismo Heritage"
+            },
+            "warningBox": null
+        },
+        "ar": {
+            "title": "نيسان جي تي آر نسخة النهاية: وداع الأسطورة اليابانية",
+            "subtitle": "تغلق نيسان فصل جي تي آر آر 35 بنسخة محدودة تخلّد ذكرى إحدى أساطير عالم السيارات الحديث.",
+            "excerpt": "تعلن نيسان عن نسخة الوداع من جي تي آر آر 35 بقوة 600 حصان، إنتاج محدود، وتحية لعقود من الهيمنة على الساحة الرياضية.",
+            "imageCaption": "نيسان جي تي آر نسخة النهاية.",
+            "sections": [
+                {
+                    "id": "despedida",
+                    "heading": "نهاية عصر",
+                    "paragraphs": [
+                        "أكدت نيسان نسخة النهاية من جي تي آر آر 35، السيارة التي كانت على مدى أكثر من عقد مرجعاً يابانياً فيما يتعلق بالرياضية في متناول الجميع. مع إنتاج محدود وتفاصيل حصرية عديدة، ترمز هذه النسخة إلى نهاية عصر للطراز الأيقوني."
+                    ]
+                },
+                {
+                    "id": "mecanica",
+                    "heading": "الميكانيكا والتفاصيل الحصرية",
+                    "paragraphs": [
+                        "يحتفظ جي تي آر نسخة النهاية بمحرك في آر 38 ديتي في 6 مزدوج التوربين 3.8 لتر، لكن مع ضبط يرفع القوة إلى 600 حصان. يظل ناقل الحركة مزدوج القابض بست سرعات ونظام الدفع الرباعي أتيسا إي-تي أس مسؤولين عن توزيع كل هذه القوة على الأسفلت.",
+                        "تشمل التغييرات الجمالية عجلات سبائك 20 بوصة بالبرونز الذهبي، ومكابح حمراء، وجناح خلفي من ألياف الكربون، ولوحة تحمل رقم الوحدة."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "نسخة الوداع من نيسان جي تي آر آر 35، إنتاج محدود.",
+                "محرك في آر 38 ديتي 3.8 لتر في 6 مزدوج التوربين مضبوط على 600 حصان.",
+                "تفاصيل حصرية: عجلات برونز ذهبي، وجناح كربون، ولوحة مرقمة.",
+                "يختتم عصر آر 35 بعد قرابة عقدين من الإنتاج."
+            ],
+            "previousModel": {
+                "name": "نيسان جي تي آر بريميوم / نيسمو (آر 35)",
+                "year": "2007-2025",
+                "summary": "منصة آر 35 مع محرك في آر 38 ديتي 3.8 لتر. في نسختها نيسمو وصلت إلى 600 حصان، لكن معظم الوحدات العادية كانت حوالي 570 حصان. بقي التصميم والهيكل دون تغيير تقريباً منذ 2007."
+            },
+            "whatChanged": [
+                {
+                    "title": "أقصى قوة:",
+                    "text": "تقع نسخة النهاية عند 600 حصان، بمستوى نيسمو القديمة، لكنها متاحة كنسخة محدودة للوداع."
+                },
+                {
+                    "title": "تفاصيل حصرية:",
+                    "text": "عجلات 20 بوصة بالبرونز الذهبي، ومكابح حمراء، وجناح من ألياف الكربون، ولوحة تحمل رقم الوحدة."
+                },
+                {
+                    "title": "لا تغييرات هيكلية:",
+                    "text": "لا يوجد منصة جديدة أو ميكانيكا مختلفة جذرياً: إنها تحية للـ آر 35، لا ثورة."
+                },
+                {
+                    "title": "إنتاج محدود:",
+                    "text": "تحتفظ نيسان بعدد محدود من الوحدات لأسواق مختارة، مما يجعلها قطعة جمع."
+                }
+            ],
+            "newTechnology": [
+                "يعد في آر 38 ديتي محركاً شبه يدوي، مُجمَّع يدوياً في يوكوهاما. لا تقدم نسخة النهاية مستجدات ميكانيكية، لكنها تتضمن أعلى درجة من الضبط المتاحة لـ آر 35.",
+                "يظل نظام الدفع الرباعي أتيسا إي-تي أس وناقل الحركة مزدوج القابض بست سرعات مسؤولين عن إدارة 600 حصان بالموثوقية التي تتميز بها جي تي آر.",
+                "غياب التقنية الهجينة أو الكهربائية متعمد: إنها الفرصة الأخيرة للاستمتاع بـ جي تي آر بصورتها النقية."
+            ],
+            "marketContext": "يودّع جي تي آر آر 35 في وقت تبحث فيه السيارات الرياضية اليابانية عن هويات جديدة: تويوتا جي آر سوبرا تشارك بالفعل منصتها مع بي إم دبليو، ومستقبل جي تي آر يتجه نحو التكهرب. نسخة النهاية هي احتفال وانتقال في آن واحد لإحدى أكثر الأساطير احتراماً في عالم السيارات.",
+            "pricing": {
+                "price": "ابتداءً من 150,000 يورو",
+                "market": "اليابان والأسواق المختارة",
+                "availability": "إنتاج محدود، الحجوزات مفتوحة حتى نهاية 2025",
+                "note": "نسخة محدودة؛ السعر والتوفر يختلفان حسب المنطقة."
+            },
+            "prosCons": {
+                "pros": [
+                    "نسخة محدودة بقيمة جمعية شبه مضمونة.",
+                    "ميكانيكا في آر 38 ديتي مجربة وموثوقية مثبتة.",
+                    "وداع عاطفي لإحدى الأساطير اليابانية."
+                ],
+                "cons": [
+                    "منصة آر 35 دون تغييرات هيكلية منذ 2007.",
+                    "التقنية والاتصال متأخّران عن المنافسين الحاليين.",
+                    "توفر محدود للغاية خارج اليابان."
+                ]
+            },
+            "opinion": "جي تي آر نسخة النهاية ليست مجرد سيارة؛ إنها فصل يُغلق. إرثها هائل: لقد جعلت أداء السيارات الخارقة في متناول الجميع بسعر معقول. مستقبلها، ربما كهربائي، سيجب أن يبذل جهداً كبيراً للحفاظ على الاحترام الذي تولده هذه الأسطورة اليابانية. النسخة المحدودة وداع مستحق.",
+            "stats": [
+                {
+                    "value": "600 حصان",
+                    "label": "القوة"
+                },
+                {
+                    "value": "3.8 لتر",
+                    "label": "في 6 مزدوج التوربين"
+                },
+                {
+                    "value": "6 سرعات",
+                    "label": "علبة ناقل حركة مزدوج القابض"
+                },
+                {
+                    "value": "نسخة",
+                    "label": "محدودة"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2007",
+                    "title": "ظهور آر 35",
+                    "desc": "تقدم نيسان جي تي آر الحديث، القادر على منافسة السيارات الخارقة الأوروبية."
+                },
+                {
+                    "date": "2017",
+                    "title": "نيسمو و نسخة المسار",
+                    "desc": "تصل النسخ الأكثر تطرفاً للحلبة."
+                },
+                {
+                    "date": "2026",
+                    "title": "نسخة النهاية",
+                    "desc": "تودّع نيسان جي تي آر آر 35 بنسخة محدودة محمّلة بالحنين."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "لا يزال محرك في آر 38 ديتي في جي تي آر نسخة النهاية مُبنى يدوياً من تقنيي تاكومي في يوكوهاما، واحداً من العمليات الحرفية القليلة المتبقية في نيسان."
+            },
+            "quote": {
+                "text": "لا يحتاج جي تي آر إلى الكمال؛ يحتاج إلى أن يكون لا يُنسى.",
+                "author": "تراث نيسمو"
+            },
+            "warningBox": null
+        }
+    }
+}

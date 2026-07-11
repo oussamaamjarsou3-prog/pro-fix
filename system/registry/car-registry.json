@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/registry/car-registry.json",
+  "title": "Car Registry",
+  "description": "Central registry for all cars in carspecio platform - Single Source of Truth",
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-16",
+  "cars": [
+    {
+      "id": "audi-rs7-2026",
+      "slug": "rs7",
+      "brandId": "audi",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "C8",
+      "status": "active",
+      "htmlFile": "rs7.html",
+      "dataFile": "system/data/rs7-2026.json",
+      "images": {
+        "hero": "/images/rs7.hero.2026.png",
+        "gallery": [
+          "/images/rs7.1.2026.png",
+          "/images/rs7.2.2026.png",
+          "/images/rs7.3.2026.png"
+        ]
+      },
+      "seo": {
+        "title": "Audi RS7 2026 - Review y Comparativa",
+        "description": "El Audi RS7 Sportback combina un diseño deportivo con lujo premium y un motor V8 biturbo de 591 HP.",
+        "keywords": [
+          "audi",
+          "rs7",
+          "deportivo",
+          "lujo",
+          "v8",
+          "biturbo"
+        ]
+      },
+      "relatedCars": [
+        "bmw-m5-2026",
+        "mercedes-amg-gt-2026"
+      ],
+      "comparisons": [
+        "bmw-m5-2026",
+        "porsche-911-2026"
+      ]
+    },
+    {
+      "id": "audi-rs3-2026",
+      "slug": "rs3",
+      "brandId": "audi",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "8V",
+      "status": "active",
+      "htmlFile": "rs3.html",
+      "dataFile": "system/data/audi-rs3-2026.json",
+      "images": {
+        "hero": "/images/audi-rs3.2026/rs3-hero.jpeg",
+        "gallery": [
+          "/images/audi-rs3.2026/rs3-galeria.jpeg",
+          "/images/audi-rs3.2026/rs3-galeria.1.jpeg",
+          "/images/audi-rs3.2026/RS3-Sportback.jpeg",
+          "/images/audi-rs3.2026/RS3-Sedan.jpeg"
+        ]
+      },
+      "seo": {
+        "title": "Audi RS3 2026 - Review y Comparativa",
+        "description": "El Audi RS3 es el compacto deportivo más potente de Audi con su motor de 5 cilindros.",
+        "keywords": [
+          "audi",
+          "rs3",
+          "deportivo",
+          "compacto",
+          "5-cilindros"
+        ]
+      },
+      "relatedCars": [
+        "bmw-m2-2026",
+        "mercedes-amg-a45-2026"
+      ],
+      "comparisons": [
+        "bmw-m2-2026"
+      ]
+    },
+    {
+      "id": "bmw-m5-2026",
+      "slug": "bmw-m5",
+      "brandId": "bmw",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "G90",
+      "status": "active",
+      "htmlFile": "bmw-m5.html",
+      "dataFile": "system/data/bmw-m5-2026.json",
+      "images": {
+        "hero": "/images/bmw-m5.2026/bmw-m5.hero.png",
+        "gallery": [
+          "/images/bmw-m5.2026/bmw-m5.gallirey.png",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.1.png",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.2.png",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.3.png",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.4.png",
+          "/images/bmw-m5.2026/bmw-m5.Competition.png"
+        ]
+      },
+      "seo": {
+        "title": "BMW M5 2026 - Review y Comparativa",
+        "description": "El BMW M5 2026 combina potencia híbrida brutal con tecnología de vanguardia.",
+        "keywords": [
+          "bmw",
+          "m5",
+          "deportivo",
+          "híbrido",
+          "berlina"
+        ]
+      },
+      "relatedCars": [
+        "audi-rs7-2026",
+        "mercedes-amg-gt-2026"
+      ],
+      "comparisons": [
+        "audi-rs7-2026",
+        "mercedes-amg-gt-2026"
+      ]
+    },
+    {
+      "id": "bmw-520d-xdrive-2026",
+      "slug": "bmw-520d",
+      "brandId": "bmw",
+      "categoryId": "sedan",
+      "modelYear": 2026,
+      "generation": "G60",
+      "status": "active",
+      "htmlFile": "bmw-520d.html",
+      "dataFile": "system/data/bmw-520d-xdrive-2026.json",
+      "images": {
+        "hero": "/images/bmw-520d/bmw-520d.hero.png",
+        "gallery": [
+          "/images/bmw-520d/bmw-520d.gallirey.png",
+          "/images/bmw-520d/bmw-520d.gallirey.1.png",
+          "/images/bmw-520d/bmw-520d.gallirey.2.png",
+          "/images/bmw-520d/bmw-520d.gallirey.3.png",
+          "/images/bmw-520d/bmw-520d.gallirey.4.png"
+        ]
+      },
+      "seo": {
+        "title": "BMW 520d xDrive 2026 - Review y Precio",
+        "description": "El BMW 520d xDrive ofrece 197 CV, consumo de 5.3 L/100km y traccion integral.",
+        "keywords": [
+          "bmw",
+          "520d",
+          "xdrive",
+          "diesel",
+          "berlina",
+          "eficiencia"
+        ]
+      },
+      "relatedCars": [
+        "bmw-m5-2026",
+        "audi-rs7-2026"
+      ],
+      "comparisons": [
+        "audi-rs7-2026",
+        "bmw-m5-2026"
+      ]
+    },
+    {
+      "id": "mercedes-amg-gt-2026",
+      "slug": "mercedes-amg-gt",
+      "brandId": "mercedes-benz",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "C192",
+      "status": "active",
+      "htmlFile": "mercedes-amg-gt.html",
+      "dataFile": "system/data/mercedes-amg-gt-2026.json",
+      "images": {
+        "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+        "gallery": [
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
+          "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.png"
+        ]
+      },
+      "seo": {
+        "title": "Mercedes-AMG GT 2026 - Review y Comparativa",
+        "description": "El Mercedes-AMG GT es el GT de lujo definitivo con su motor V8 biturbo.",
+        "keywords": [
+          "mercedes",
+          "amg",
+          "gt",
+          "deportivo",
+          "v8",
+          "lujo"
+        ]
+      },
+      "relatedCars": [
+        "audi-rs7-2026",
+        "bmw-m5-2026"
+      ],
+      "comparisons": [
+        "audi-rs7-2026",
+        "porsche-911-2026"
+      ]
+    },
+    {
+      "id": "nissan-gtr-2026",
+      "slug": "nissan-gtr",
+      "brandId": "nissan",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "R35",
+      "status": "active",
+      "htmlFile": "nissan-gtr.html",
+      "dataFile": "system/data/nissan-gtr-2026.json",
+      "images": {
+        "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+        "gallery": [
+          "/images/nissan-gtr.2026/gtr-galirey.png",
+          "/images/nissan-gtr.2026/gtr-galirey.1.png",
+          "/images/nissan-gtr.2026/gtr-galirey.2.png",
+          "/images/nissan-gtr.2026/gtr-galirey.3.png",
+          "/images/nissan-gtr.2026/gtr-galirey.4.png",
+          "/images/nissan-gtr.2026/gtr-galirey.5.png"
+        ]
+      },
+      "seo": {
+        "title": "Nissan GT-R 2026 - Review y Comparativa",
+        "description": "El Nissan GT-R es el superdeportivo japonés legendario conocido como Godzilla.",
+        "keywords": [
+          "nissan",
+          "gtr",
+          "deportivo",
+          "japonés",
+          "godzilla"
+        ]
+      },
+      "relatedCars": [
+        "porsche-911-2026"
+      ],
+      "comparisons": [
+        "porsche-911-2026"
+      ]
+    },
+    {
+      "id": "porsche-911-2026",
+      "slug": "porsche-911",
+      "brandId": "porsche",
+      "categoryId": "deportivos",
+      "modelYear": 2026,
+      "generation": "992",
+      "status": "active",
+      "htmlFile": "porsche-911.html",
+      "dataFile": "system/data/porsche-911-2026.json",
+      "images": {
+        "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+        "gallery": [
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.png",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.png",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.png",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.png",
+          "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
+          "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png"
+        ]
+      },
+      "seo": {
+        "title": "Porsche 911 2026 - Review y Comparativa",
+        "description": "El Porsche 911 es el icono deportivo por excelencia con más de 50 años de historia.",
+        "keywords": [
+          "porsche",
+          "911",
+          "deportivo",
+          "icono",
+          "alemania"
+        ]
+      },
+      "relatedCars": [
+        "nissan-gtr-2026",
+        "mercedes-amg-gt-2026"
+      ],
+      "comparisons": [
+        "nissan-gtr-2026",
+        "mercedes-amg-gt-2026"
+      ]
+    },
+    {
+      "id": "tesla-model-s-plaid-2026",
+      "slug": "model-s-plaid",
+      "brandId": "tesla",
+      "categoryId": "electricos",
+      "modelYear": 2026,
+      "generation": "Plaid",
+      "status": "active",
+      "htmlFile": "model-s-plaid.html",
+      "dataFile": "system/data/tesla-model-s-plaid-2026.json",
+      "images": {
+        "hero": "/images/tesla-s-plaid/tesla-hero.png",
+        "gallery": [
+          "/images/tesla-s-plaid/tesla-s.png"
+        ]
+      },
+      "seo": {
+        "title": "Tesla Model S Plaid 2026 - Review y Precio",
+        "description": "El Tesla Model S Plaid ofrece 1020 CV, 611 km de autonomia y aceleracion de 0-100 en 2.1 segundos.",
+        "keywords": [
+          "tesla",
+          "model s",
+          "plaid",
+          "electrico",
+          "supercharger",
+          "autopilot"
+        ]
+      },
+      "relatedCars": [
+        "audi-rs7-2026",
+        "bmw-m5-2026"
+      ],
+      "comparisons": [
+        "audi-rs7-2026",
+        "porsche-911-2026"
+      ]
+    },
+    {
+      "id": "vw-passat-variant-2026",
+      "slug": "vw-passat-variant",
+      "brandId": "volkswagen",
+      "categoryId": "familiar",
+      "modelYear": 2026,
+      "generation": "B9",
+      "status": "active",
+      "htmlFile": "vw-passat-variant.html",
+      "dataFile": "system/data/vw-passat-variant-2026.json",
+      "images": {
+        "hero": "/images/volkswagen-passat.2026/passat-hero.png",
+        "gallery": [
+          "/images/volkswagen-passat.2026/Passat-galeria.2016.png",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-1.png",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-2.png",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-3.png",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-4.png",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-5.png"
+        ]
+      },
+      "seo": {
+        "title": "Volkswagen Passat Variant 2026 - Review y Comparativa",
+        "description": "El Volkswagen Passat Variant 2026 es el familiar definitivo con motor 2.0 TDI de 150 CV, maletero de 690 litros y tecnología de última generación.",
+        "keywords": [
+          "volkswagen",
+          "passat",
+          "variant",
+          "familiar",
+          "diesel",
+          "b9"
+        ]
+      },
+      "relatedCars": [
+        "bmw-520d-xdrive-2026",
+        "audi-rs7-2026"
+      ],
+      "comparisons": [
+        "bmw-520d-xdrive-2026",
+        "audi-rs7-2026"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalCars": 9,
+    "activeCars": 9,
+    "brands": [
+      "audi",
+      "bmw",
+      "mercedes-benz",
+      "nissan",
+      "porsche",
+      "tesla",
+      "volkswagen"
+    ],
+    "categories": [
+      "deportivos",
+      "sedan",
+      "familiar"
+    ]
+  }
+}

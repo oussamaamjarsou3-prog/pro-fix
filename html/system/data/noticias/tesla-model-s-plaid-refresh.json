@@ -1,0 +1,513 @@
+{
+    "id": "tesla-model-s-plaid-refresh",
+    "slug": "tesla-model-s-plaid-refresh",
+    "source": "motor1",
+    "category": "eléctricos",
+    "date": "2026-06-20",
+    "readingTime": 4,
+    "image": "../images/tesla-s-plaid/tesla-hero.png",
+    "externalUrl": "https://www.motor1.com/news/tesla-model-s-plaid-refresh",
+    "tags": [
+        "tesla",
+        "model s",
+        "plaid",
+        "eléctrico"
+    ],
+    "relatedCars": [
+        {
+            "slug": "model-s-plaid",
+            "name": "Tesla Model S Plaid",
+            "image": "../images/tesla-s-plaid/tesla-hero.png"
+        }
+    ],
+    "relatedNews": [
+        "bmw-m5-phev-record",
+        "porsche-911-hybrid-2026"
+    ],
+    "translations": {
+        "es": {
+            "title": "Tesla actualiza el Model S Plaid con más autonomía y carga más rápida",
+            "subtitle": "La berlina eléctrica más rápida de Tesla recibe una actualización centrada en la eficiencia y la experiencia de usuario.",
+            "excerpt": "La berlina eléctrica de alta performance recibe mejoras en la batería y la electrónica de potencia, logrando hasta 640 km de autonomía real.",
+            "imageCaption": "Tesla Model S Plaid refresh.",
+            "sections": [
+                {
+                    "id": "autonomia",
+                    "heading": "Más autonomía real",
+                    "paragraphs": [
+                        "Tesla ha actualizado el Model S Plaid con mejoras centradas en la eficiencia y la recarga. La berlina eléctrica de alta performance mantiene sus tres motores y 1.020 CV de potencia, pero una nueva gestión térmica y una electrónica de potencia revisada permiten extraer más autonomía de la misma batería.",
+                        "Según las estimaciones de Motor1, la autonomía real en uso mixto ronda los 640 km, un aumento notable respecto a la generación anterior."
+                    ]
+                },
+                {
+                    "id": "tecnologia",
+                    "heading": "Carga y tecnología mejoradas",
+                    "paragraphs": [
+                        "El Model S Plaid refresh es compatible con una mayor potencia de carga máxima en los Supercargadores V4, reduciendo el tiempo necesario para recuperar del 10 al 80% de la batería en condiciones óptimas. La pantalla central también recibe un nuevo procesador gráfico para una interfaz más fluida.",
+                        "En el apartado dinámico, Tesla ha ajustado la suspensión adaptativa y la dirección para ofrecer mayor precisión sin sacrificar el confort."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Actualización del Tesla Model S Plaid centrada en la eficiencia y la carga.",
+                "Mantiene los 1.020 CV y los tres motores, pero gana autonomía real.",
+                "Autonomía estimada en uso mixto de 640 km, según Motor1.",
+                "Compatibilidad mejorada con Supercargadores V4 y nuevo procesador gráfico."
+            ],
+            "previousModel": {
+                "name": "Tesla Model S Plaid (2021-2025)",
+                "year": "2021-2025",
+                "summary": "Tres motores, 1.020 CV y una autonomía real de unos 550-600 km según condiciones. Referencia en aceleración, pero con limitación térmica en usos intensivos y carga máxima limitada a V3."
+            },
+            "whatChanged": [
+                {
+                    "title": "Más autonomía real:",
+                    "text": "La gestión térmica y la electrónica de potencia mejorada permiten aprovechar mejor la capacidad de la batería, acercándose a los 640 km reales."
+                },
+                {
+                    "title": "Carga más rápida:",
+                    "text": "Compatibilidad con los Supercargadores V4, que reducen el tiempo del 10 al 80% en condiciones óptimas."
+                },
+                {
+                    "title": "Mejor interfaz:",
+                    "text": "Nuevo procesador gráfico para la pantalla central, con menor latencia y gráficos más fluidos."
+                },
+                {
+                    "title": "Suspensión ajustada:",
+                    "text": "Amortiguación adaptativa y dirección ajustadas para mayor precisión sin sacrificar el confort."
+                }
+            ],
+            "newTechnology": [
+                "La gestión térmica del inversor y el pack de baterías se ha revisado para reducir la limitación térmica en conducción deportiva repetida.",
+                "La electrónica de potencia de cuarta generación permite picos de carga más altos y sostenidos, clave para los Supercargadores V4.",
+                "El nuevo procesador de entretenimiento mejora la fluidez de los juegos, la navegación y la respuesta del sistema de cámaras."
+            ],
+            "marketContext": "El segmento de las berlinas eléctricas premium se ha llenado de rivales: Lucid Air, Porsche Taycan, Mercedes EQS y BMW i7. Tesla responde con una actualización conservadora que mejora los puntos débiles del Model S Plaid sin alterar su fórmula de éxito.",
+            "pricing": {
+                "price": "Desde 110.000 $ / 120.000 €",
+                "market": "EE.UU. y Europa",
+                "availability": "Disponible para pedidos desde finales de 2024",
+                "note": "El precio puede variar según el mercado y las actualizaciones tarifarias de Tesla."
+            },
+            "prosCons": {
+                "pros": [
+                    "Autonomía real mejorada sin perder los 1.020 CV.",
+                    "Compatibilidad con Supercargadores V4 para recargas más rápidas.",
+                    "Sistema de infoentretenimiento más fluido."
+                ],
+                "cons": [
+                    "Diseño exterior e interior sin cambios significativos.",
+                    "La calidad de ensamblaje sigue siendo un punto de discusión.",
+                    "Competencia con mejores acabados en el segmento premium."
+                ]
+            },
+            "opinion": "El Model S Plaid ya era la referencia de la aceleración eléctrica. Ahora, con mejor autonomía, carga más rápida y una experiencia digital más fluida, Tesla responde a las dos principales objeciones de los compradores más exigentes sin tocar la potencia ni la identidad del modelo.",
+            "stats": [
+                {
+                    "value": "1.020 CV",
+                    "label": "Potencia"
+                },
+                {
+                    "value": "640 km",
+                    "label": "Autonomía real"
+                },
+                {
+                    "value": "~2 s",
+                    "label": "0-100 km/h"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2012",
+                    "title": "Nace el Model S",
+                    "desc": "Tesla lanza el Model S, revolucionando la berlina eléctrica."
+                },
+                {
+                    "date": "2021",
+                    "title": "Llega el Plaid",
+                    "desc": "El Model S Plaid alcanza 1.020 CV y se convierte en la berlina eléctrica más rápida."
+                },
+                {
+                    "date": "2026",
+                    "title": "Plaid refresh",
+                    "desc": "Tesla mejora autonomía, carga y tecnología sin cambiar la fórmula."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El Model S Plaid mantiene sus tres motores y 1.020 CV, pero la gestión térmica revisada le permite mantener el rendimiento pico durante más tiempo y extender la autonomía real."
+            },
+            "quote": {
+                "text": "No cambiamos lo que hace rápido al Plaid; mejoramos todo lo que lo hace usable.",
+                "author": "Tesla Engineering"
+            },
+            "warningBox": {
+                "title": "Ten en cuenta",
+                "text": "Las cifras de autonomía real pueden variar significativamente según la temperatura, la velocidad de crucero y el uso de la climatización."
+            }
+        },
+        "en": {
+            "title": "Tesla updates the Model S Plaid with more range and faster charging",
+            "subtitle": "Tesla's fastest electric saloon receives an update focused on efficiency and user experience.",
+            "excerpt": "The high-performance electric saloon receives improvements in the battery and power electronics, achieving up to 640 km of real range.",
+            "imageCaption": "Tesla Model S Plaid refresh.",
+            "sections": [
+                {
+                    "id": "autonomia",
+                    "heading": "More real range",
+                    "paragraphs": [
+                        "Tesla has updated the Model S Plaid with improvements focused on efficiency and recharging. The high-performance electric saloon maintains its three motors and 1,020 hp of power, but new thermal management and revised power electronics allow more range to be extracted from the same battery.",
+                        "According to Motor1 estimates, real-world mixed-use range is around 640 km, a notable increase over the previous generation."
+                    ]
+                },
+                {
+                    "id": "tecnologia",
+                    "heading": "Improved charging and technology",
+                    "paragraphs": [
+                        "The Model S Plaid refresh is compatible with higher maximum charging power at V4 Superchargers, reducing the time needed to recover from 10 to 80% of the battery under optimal conditions. The central screen also receives a new graphics processor for a smoother interface.",
+                        "In the dynamic section, Tesla has adjusted the adaptive suspension and steering to offer greater precision without sacrificing comfort."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Update of the Tesla Model S Plaid focused on efficiency and charging.",
+                "Maintains the 1,020 hp and three motors, but gains real range.",
+                "Estimated mixed-use range of 640 km, according to Motor1.",
+                "Improved compatibility with V4 Superchargers and new graphics processor."
+            ],
+            "previousModel": {
+                "name": "Tesla Model S Plaid (2021-2025)",
+                "year": "2021-2025",
+                "summary": "Three motors, 1,020 hp and a real range of about 550-600 km depending on conditions. Reference in acceleration, but with thermal throttling in intensive uses and maximum charging limited to V3."
+            },
+            "whatChanged": [
+                {
+                    "title": "More real range:",
+                    "text": "Thermal management and improved power electronics allow better use of the battery capacity, approaching 640 km real."
+                },
+                {
+                    "title": "Faster charging:",
+                    "text": "Compatibility with V4 Superchargers, which reduce the 10 to 80% time under optimal conditions."
+                },
+                {
+                    "title": "Better interface:",
+                    "text": "New graphics processor for the central screen, with lower latency and smoother graphics."
+                },
+                {
+                    "title": "Tweaked suspension:",
+                    "text": "Adaptive damping and steering adjusted for greater precision without sacrificing comfort."
+                }
+            ],
+            "newTechnology": [
+                "The thermal management of the inverter and battery pack has been revised to reduce thermal throttling in repeated sporty driving.",
+                "The fourth-generation power electronics allow higher and more sustained charging peaks, key for V4 Superchargers.",
+                "The new entertainment processor improves the fluidity of games, navigation and camera system response."
+            ],
+            "marketContext": "The premium electric saloon segment has filled with rivals: Lucid Air, Porsche Taycan, Mercedes EQS and BMW i7. Tesla responds with a conservative update that improves the weak points of the Model S Plaid without altering its successful formula.",
+            "pricing": {
+                "price": "From $110,000 / €120,000",
+                "market": "USA and Europe",
+                "availability": "Available for order since late 2024",
+                "note": "Price may vary by market and Tesla tariff updates."
+            },
+            "prosCons": {
+                "pros": [
+                    "Improved real range without losing the 1,020 hp.",
+                    "Compatibility with V4 Superchargers for faster recharges.",
+                    "Smoother infotainment system."
+                ],
+                "cons": [
+                    "Exterior and interior design without significant changes.",
+                    "Build quality remains a point of discussion.",
+                    "Competition with better finishes in the premium segment."
+                ]
+            },
+            "opinion": "The Model S Plaid was already the reference for electric acceleration. Now, with better range, faster charging and a smoother digital experience, Tesla responds to the two main objections of the most demanding buyers without touching the power or identity of the model.",
+            "stats": [
+                {
+                    "value": "1,020 hp",
+                    "label": "Power"
+                },
+                {
+                    "value": "640 km",
+                    "label": "Real range"
+                },
+                {
+                    "value": "~2 s",
+                    "label": "0-100 km/h"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2012",
+                    "title": "Model S born",
+                    "desc": "Tesla launches the Model S, revolutionising the electric saloon."
+                },
+                {
+                    "date": "2021",
+                    "title": "Plaid arrives",
+                    "desc": "The Model S Plaid reaches 1,020 hp and becomes the fastest electric saloon."
+                },
+                {
+                    "date": "2026",
+                    "title": "Plaid refresh",
+                    "desc": "Tesla improves range, charging and technology without changing the formula."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The Model S Plaid retains its three motors and 1,020 hp, but the revised thermal management allows it to maintain peak performance for longer and extend real range."
+            },
+            "quote": {
+                "text": "We did not change what makes the Plaid fast; we improved everything that makes it usable.",
+                "author": "Tesla Engineering"
+            },
+            "warningBox": {
+                "title": "Keep in mind",
+                "text": "Real range figures can vary significantly depending on temperature, cruising speed and climate control use."
+            }
+        },
+        "fr": {
+            "title": "Tesla actualise la Model S Plaid avec plus d'autonomie et une charge plus rapide",
+            "subtitle": "La berline électrique la plus rapide de Tesla reçoit une mise à jour axée sur l'efficacité et l'expérience utilisateur.",
+            "excerpt": "La berline électrique haute performance reçoit des améliorations de la batterie et de l'électronique de puissance, atteignant jusqu'à 640 km d'autonomie réelle.",
+            "imageCaption": "Tesla Model S Plaid refresh.",
+            "sections": [
+                {
+                    "id": "autonomia",
+                    "heading": "Plus d'autonomie réelle",
+                    "paragraphs": [
+                        "Tesla a actualisé la Model S Plaid avec des améliorations axées sur l'efficacité et la recharge. La berline électrique haute performance conserve ses trois moteurs et ses 1 020 ch, mais la nouvelle gestion thermique et la révision de l'électronique de puissance permettent d'extraire plus d'autonomie de la même batterie.",
+                        "Selon les estimations de Motor1, l'autonomie réelle en usage mixte se situe autour de 640 km, une augmentation notable par rapport à la génération précédente."
+                    ]
+                },
+                {
+                    "id": "tecnologia",
+                    "heading": "Charge et technologie améliorées",
+                    "paragraphs": [
+                        "La Model S Plaid refresh est compatible avec une puissance de charge maximale plus élevée sur les Superchargeurs V4, ce qui réduit le temps nécessaire pour récupérer de 10 à 80 % de la batterie dans des conditions optimales. L'écran central reçoit également un nouveau processeur graphique pour une interface plus fluide.",
+                        "Côté dynamique, Tesla a retouché la suspension adaptative et la direction pour offrir plus de précision sans sacrifier le confort."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Mise à jour de la Tesla Model S Plaid axée sur l'efficacité et la recharge.",
+                "Conserve les 1 020 ch et les trois moteurs, mais gagne en autonomie réelle.",
+                "Autonomie estimée en usage mixte de 640 km, selon Motor1.",
+                "Compatibilité améliorée avec les Superchargeurs V4 et nouveau processeur graphique."
+            ],
+            "previousModel": {
+                "name": "Tesla Model S Plaid (2021-2025)",
+                "year": "2021-2025",
+                "summary": "Trois moteurs, 1 020 ch et une autonomie réelle d'environ 550-600 km selon les conditions. Référence en accélération, mais avec thermal throttling lors des usages intensifs et charge maximale limitée aux V3."
+            },
+            "whatChanged": [
+                {
+                    "title": "Plus d'autonomie réelle :",
+                    "text": "La gestion thermique et l'électronique de puissance améliorée permettent de mieux exploiter la capacité de la batterie, approchant les 640 km réels."
+                },
+                {
+                    "title": "Charge plus rapide :",
+                    "text": "Compatibilité avec les Superchargeurs V4, qui réduisent le temps de 10 à 80 % dans des conditions optimales."
+                },
+                {
+                    "title": "Meilleure interface :",
+                    "text": "Nouveau processeur graphique pour l'écran central, avec moins de latence et des graphismes plus fluides."
+                },
+                {
+                    "title": "Suspension retouchée :",
+                    "text": "Amortissement adaptatif et direction ajustés pour plus de précision sans sacrifier le confort."
+                }
+            ],
+            "newTechnology": [
+                "La gestion thermique de l'onduleur et du pack de batteries a été révisée pour réduire le thermal throttling en conduite sportive répétée.",
+                "L'électronique de puissance de quatrième génération permet des pics de charge plus élevés et soutenus, clés pour les Superchargeurs V4.",
+                "Le nouveau processeur de divertissement améliore la fluidité des jeux, de la navigation et de la réponse du système de caméras."
+            ],
+            "marketContext": "Le segment des berlines électriques premium s'est rempli de rivaux : Lucid Air, Porsche Taycan, Mercedes EQS et BMW i7. Tesla répond par une mise à jour conservatrice qui améliore les points faibles de la Model S Plaid sans altérer sa formule de succès.",
+            "pricing": {
+                "price": "À partir de 110 000 $ / 120 000 €",
+                "market": "États-Unis et Europe",
+                "availability": "Disponible à commande depuis fin 2024",
+                "note": "Le prix peut varier selon le marché et les mises à jour tarifaires de Tesla."
+            },
+            "prosCons": {
+                "pros": [
+                    "Autonomie réelle améliorée sans perdre les 1 020 ch.",
+                    "Compatibilité avec les Superchargeurs V4 pour des recharges plus rapides.",
+                    "Système d'infodivertissement plus fluide."
+                ],
+                "cons": [
+                    "Design extérieur et intérieur sans changements significatifs.",
+                    "La qualité d'assemblage reste un point de discussion.",
+                    "Concurrence avec de meilleures finitions dans le segment premium."
+                ]
+            },
+            "opinion": "La Model S Plaid était déjà la référence de l'accélération électrique. Aujourd'hui, avec une meilleure autonomie, une charge plus rapide et une expérience numérique plus fluide, Tesla répond aux deux principales objections des acheteurs les plus exigeants sans toucher à la puissance ni à l'identité du modèle.",
+            "stats": [
+                {
+                    "value": "1 020 ch",
+                    "label": "Puissance"
+                },
+                {
+                    "value": "640 km",
+                    "label": "Autonomie réelle"
+                },
+                {
+                    "value": "~2 s",
+                    "label": "0-100 km/h"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2012",
+                    "title": "Naissance de la Model S",
+                    "desc": "Tesla lance la Model S, révolutionnant la berline électrique."
+                },
+                {
+                    "date": "2021",
+                    "title": "Arrivée de la Plaid",
+                    "desc": "La Model S Plaid atteint 1 020 ch et devient la berline électrique la plus rapide."
+                },
+                {
+                    "date": "2026",
+                    "title": "Refresh Plaid",
+                    "desc": "Tesla améliore l'autonomie, la charge et la technologie sans changer la formule."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "La Model S Plaid conserve ses trois moteurs et ses 1 020 ch, mais la gestion thermique révisée lui permet de maintenir les performances de pointe plus longtemps et d'étendre l'autonomie réelle."
+            },
+            "quote": {
+                "text": "Nous n'avons pas changé ce qui rend la Plaid rapide ; nous avons amélioré tout ce qui la rend utilisable.",
+                "author": "Tesla Engineering"
+            },
+            "warningBox": {
+                "title": "À prendre en compte",
+                "text": "Les chiffres d'autonomie réelle peuvent varier considérablement selon la température, la vitesse de croisière et l'utilisation du climatiseur."
+            }
+        },
+        "ar": {
+            "title": "تحديث تسلا موديل أس بليد بمدى أطول وشحن أسرع",
+            "subtitle": "تحصل أسرع سيدان كهربائي من تسلا على تحديث يركز على الكفاءة وتجربة المستخدم.",
+            "excerpt": "تحصل السيدان الكهربائي عالي الأداء على تحسينات في البطارية وإلكترونيات الطاقة، لتحقيق ما يصل إلى 640 كم من المدى الفعلي.",
+            "imageCaption": "تحديث تسلا موديل أس بليد.",
+            "sections": [
+                {
+                    "id": "autonomia",
+                    "heading": "مدى فعلي أكبر",
+                    "paragraphs": [
+                        "حدثت تسلا موديل أس بليد بتحسينات تركز على الكفاءة والشحن. تحتفظ السيدان الكهربائي عالية الأداء بمحركاتها الثلاثة و 1,020 حصان، لكن الإدارة الحرارية الجديدة ومراجعة إلكترونيات الطاقة تسمحان باستخراج مزيد من المدى من نفس البطارية.",
+                        "وفقاً لتقديرات موتور 1، يبلغ المدى الفعلي في الاستخدام المختلط حوالي 640 كم، زيادة ملحوظة مقارنة بالجيل السابق."
+                    ]
+                },
+                {
+                    "id": "tecnologia",
+                    "heading": "شحن وتقنية محسّنان",
+                    "paragraphs": [
+                        "تتوافق موديل أس بليد مجددة مع قدرة شحن قصوى أعلى في شواحن شواحن في 4 السريعة، مما يقلل الوقت اللازم لاستعادة من 10 إلى 80% من البطارية في ظروف مثالية. كما يحصل الشاشة المركزية على معالج رسومات جديد لواجهة أكثر سلاسة.",
+                        "في الجانب الديناميكي، قامت تسلا بضبط التعليق التكيفي والتوجيه لتقديم دقة أكبر دون التضحية بالراحة."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "تحديث تسلا موديل أس بليد يركز على الكفاءة والشحن.",
+                "تحافظ على 1,020 حصان والمحركات الثلاثة، لكنها تكسب مدىً فعلياً.",
+                "المدى المقدر في الاستخدام المختلط 640 كم، وفقاً لـ موتور 1.",
+                "توافق محسّن مع شواحن شواحن في 4 السريعة ومعالج رسومات جديد."
+            ],
+            "previousModel": {
+                "name": "تسلا موديل أس بليد (2021-2025)",
+                "year": "2021-2025",
+                "summary": "ثلاثة محركات، 1,020 حصان ومدى فعلي حوالي 550-600 كم حسب الظروف. مرجع في التسارع، لكن مع انخفاض الأداء الحراري في الاستخدامات المكثفة وشحن أقصى محدود بـ في 3."
+            },
+            "whatChanged": [
+                {
+                    "title": "مدى فعلي أكبر:",
+                    "text": "تتيح الإدارة الحرارية وإلكترونيات الطاقة المحسّنة استغلال سعة البطارية بشكل أفضل، لتقترب من 640 كم فعلياً."
+                },
+                {
+                    "title": "شحن أسرع:",
+                    "text": "التوافق مع شواحن شواحن في 4 السريعة، التي تقلل الوقت من 10 إلى 80% في ظروف مثالية."
+                },
+                {
+                    "title": "واجهة أفضل:",
+                    "text": "معالج رسومات جديد للشاشة المركزية، مع زمن استجابة أقل ورسومات أكثر سلاسة."
+                },
+                {
+                    "title": "تعليق معدل:",
+                    "text": "مخمدات تكيفية وتوجيه مضبوطان لدقة أكبر دون التضحية بالراحة."
+                }
+            ],
+            "newTechnology": [
+                "تم مراجعة الإدارة الحرارية للعاكس وحزمة البطاريات لتقليل انخفاض الأداء الحراري في القيادة الرياضية المتكررة.",
+                "تتيح إلكترونيات الطاقة من الجيل الرابع قمم شحن أعلى ومستدامة، وهو أمر حاسم لشواحن شواحن في 4 السريعة.",
+                "يحسن معالج الترفيه الجديد سلاسة الألعاب والتنقل واستجابة نظام الكاميرات."
+            ],
+            "marketContext": "ازدحم قطاع السيدان الكهربائية الفاخرة بالمنافسين: لوسيد آير، بورش تايكان، مرسيدس أي كيو أس و بي إم دبليو أي 7. ترد تسلا بتحديث محافظ يحسن نقاط ضعف موديل أس بليد دون تغيير صيغة نجاحها.",
+            "pricing": {
+                "price": "ابتداءً من 110,000 دولار / 120,000 يورو",
+                "market": "الولايات المتحدة وأوروبا",
+                "availability": "متاح للطلب منذ أواخر 2024",
+                "note": "قد يختلف السعر حسب السوق وتحديثات أسعار تسلا."
+            },
+            "prosCons": {
+                "pros": [
+                    "مدى فعلي محسّن دون فقدان 1,020 حصان.",
+                    "توافق مع شواحن شواحن في 4 السريعة لشحن أسرع.",
+                    "نظام معلومات وتسلية أكثر سلاسة."
+                ],
+                "cons": [
+                    "تصميم خارجي وداخلي دون تغييرات كبيرة.",
+                    "جودة التجميع لا تزال نقطة خلاف.",
+                    "منافسة بتشطيبات أفضل في القطاع الفاخر."
+                ]
+            },
+            "opinion": "كانت موديل أس بليد بالفعل مرجع التسارع الكهربائي. الآن، مع مدى أفضل وشحن أسرع وتجربة رقمية أكثر سلاسة، ترد تسلا على اعتراضي المشترين الأكثر تطلباً دون المساس بالقوة أو هوية الطراز.",
+            "stats": [
+                {
+                    "value": "1,020 حصان",
+                    "label": "القوة"
+                },
+                {
+                    "value": "640 كم",
+                    "label": "المدى الفعلي"
+                },
+                {
+                    "value": "~2 ثانية",
+                    "label": "0-100 كم/س"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "2012",
+                    "title": "ولادة موديل أس",
+                    "desc": "تطلق تسلا موديل أس، ثورة في السيدان الكهربائية."
+                },
+                {
+                    "date": "2021",
+                    "title": "وصول بليد",
+                    "desc": "تصل موديل أس بليد إلى 1,020 حصان وتصبح أسرع سيدان كهربائية."
+                },
+                {
+                    "date": "2026",
+                    "title": "تحديث بليد",
+                    "desc": "تحسن تسلا المدى والشحن والتقنية دون تغيير الصيغة."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "تحتفظ موديل أس بليد بمحركاتها الثلاثة و 1,020 حصان، لكن الإدارة الحرارية المراجعة تتيح لها الحفاظ على الأداء القصوي لفترة أطول وتوسيع المدى الفعلي."
+            },
+            "quote": {
+                "text": "لم نغير ما يجعل بليد سريعة؛ حسّننا كل ما يجعلها قابلة للاستخدام.",
+                "author": "هندسة تسلا"
+            },
+            "warningBox": {
+                "title": "يرجى الأخذ بعين الاعتبار",
+                "text": "قد تختلف أرقام المدى الفعلي بشكل كبير حسب درجة الحرارة وسرعة السير واستخدام التكييف."
+            }
+        }
+    }
+}

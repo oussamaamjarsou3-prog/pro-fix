@@ -1,0 +1,37 @@
+{
+  "id": "germany",
+  "name": "Germany",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "units": {
+    "speed": "km/h",
+    "distance": "km",
+    "fuelEconomy": "L/100km",
+    "volume": "L",
+    "weight": "kg"
+  },
+  "fuelPrices": {
+    "petrol": { "value": 1.70, "currency": "EUR", "unit": "L" },
+    "diesel": { "value": 1.55, "currency": "EUR", "unit": "L" },
+    "electric": { "value": 0.35, "currency": "EUR", "unit": "kWh" }
+  },
+  "taxes": {
+    "vat": 0.19,
+    "vehicleTax": {
+      "method": "engine-based",
+      "ratePer100cc": 2,
+      "co2Multiplier": 2
+    }
+  },
+  "inspection": {
+    "name": "TÜV",
+    "frequencyYears": 2,
+    "firstTestYears": 3
+  },
+  "localization": {
+    "dateFormat": "DD.MM.YYYY",
+    "decimalSeparator": ",",
+    "thousandsSeparator": ".",
+    "language": "de"
+  }
+}

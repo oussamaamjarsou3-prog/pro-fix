@@ -1,0 +1,3132 @@
+{
+  "id": "tesla-model-s-plaid-2026",
+  "slug": "model-s-plaid",
+  "brandId": "tesla",
+  "categoryId": "sedan",
+  "modelYear": 2026,
+  "generation": "Plaid",
+  "bodyStyle": "sedan",
+  "doors": 5,
+  "seats": 5,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "electric",
+    "description": "Tri-Motor Plaid AWD with 1020 HP",
+    "descriptionAr": "ثلاثي المحركات بليد دفع رباعي بـ 1020 حصان"
+  },
+  "status": "active",
+  "basicInfo": {
+    "name": "Model S Plaid",
+    "fullModelName": "Tesla Model S Plaid",
+    "shortName": "Model S",
+    "description": "Sedan electrico de alto rendimiento con 1020 CV y 611 km de autonomia",
+    "tagline": "El sedan electrico mas rapido del mundo",
+    "taglineAr": "أسرع سيدان كهربائي في العالم",
+    "nameAr": "موديل أس بليد",
+    "fullModelNameAr": "تسلا موديل أس بليد"
+  },
+  "specs": {
+    "engine": {
+      "type": "Tri-Motor Plaid",
+      "fuelType": "electric",
+      "cylinders": null,
+      "valvesPerCylinder": null,
+      "aspiration": "Electric",
+      "typeAr": "ثلاثي المحركات بليد",
+      "fuelTypeAr": "كهرباء"
+    },
+    "transmission": {
+      "type": "Single-Speed Fixed Gear",
+      "gears": 1,
+      "typeAr": "تروس أحادية السرعة"
+    },
+    "drivetrain": {
+      "type": "AWD",
+      "frontDifferential": "Single motor",
+      "rearDifferential": "Dual motors",
+      "typeAr": "دفع رباعي"
+    },
+    "brakes": {
+      "front": "Ventilated Disc with Brembo calipers",
+      "rear": "Ventilated Disc",
+      "abs": true,
+      "ebd": true
+    },
+    "suspension": {
+      "front": "Adaptive Air Suspension",
+      "rear": "Adaptive Air Suspension"
+    },
+    "steering": {
+      "type": "Rack and Pinion with variable ratio",
+      "powerAssisted": true
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 1020,
+      "unit": "HP"
+    },
+    "torque": {
+      "value": 1420,
+      "unit": "Nm"
+    },
+    "acceleration": {
+      "zeroToHundred": 2.1
+    },
+    "topSpeed": {
+      "value": 322,
+      "unit": "km/h"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 5021,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1987,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1431,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2960,
+      "unit": "mm"
+    },
+    "curbWeight": {
+      "value": 2162,
+      "unit": "kg"
+    },
+    "dragCoefficient": 0.208
+  },
+  "fuelEconomy": {
+    "consumption": {
+      "city": {
+        "value": 17,
+        "unit": "kWh/100km"
+      },
+      "highway": {
+        "value": 14.5,
+        "unit": "kWh/100km"
+      },
+      "combined": {
+        "value": 15.7,
+        "unit": "kWh/100km"
+      }
+    },
+    "energyConsumption": {
+      "combined": {
+        "value": 15.7,
+        "unit": "kWh/100km"
+      }
+    }
+  },
+  "electric": {
+    "batteryCapacity": {
+      "value": 100,
+      "unit": "kWh"
+    },
+    "electricRange": {
+      "value": 611,
+      "unit": "km"
+    },
+    "charging": {
+      "ac": {
+        "power": 11,
+        "time": 8.7
+      },
+      "dc": {
+        "power": 250,
+        "time": {
+          "value": 31,
+          "percentage": 10
+        }
+      }
+    },
+    "motor": {
+      "type": "Permanent Magnet Synchronous",
+      "count": 3,
+      "power": {
+        "value": 760,
+        "unit": "kW"
+      },
+      "torque": {
+        "value": 1420,
+        "unit": "Nm"
+      }
+    }
+  },
+  "pricing": {
+    "basePrice": {
+      "value": 129990,
+      "currency": "EUR",
+      "region": "ES"
+    },
+    "regionalPricing": [
+      {
+        "region": "ES",
+        "price": {
+          "value": 129990,
+          "currency": "EUR"
+        }
+      },
+      {
+        "region": "DE",
+        "price": {
+          "value": 124990,
+          "currency": "EUR"
+        }
+      }
+    ]
+  },
+  "tires": {
+    "es": {
+      "standard": "255/45 R19 delanteras, 285/40 R19 traseras",
+      "optional": [
+        "265/35 R21 delanteras, 295/30 R21 traseras"
+      ],
+      "rearWear": "Desgaste moderado en traseras debido al alto par y doble motor trasero",
+      "recommended": "Michelin Pilot Sport EV",
+      "sizes": [
+        "255/45 R19",
+        "285/40 R19",
+        "265/35 R21",
+        "295/30 R21"
+      ]
+    },
+    "en": {
+      "standard": "255/45 R19 front, 285/40 R19 rear",
+      "optional": [
+        "265/35 R21 front, 295/30 R21 rear"
+      ],
+      "rearWear": "Moderate rear wear due to high torque dual rear motors",
+      "recommended": "Michelin Pilot Sport EV",
+      "sizes": [
+        "255/45 R19",
+        "285/40 R19",
+        "265/35 R21",
+        "295/30 R21"
+      ]
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "matrix-led",
+        "name": "LED Matrix Headlights",
+        "description": "Full LED adaptive headlights",
+        "standard": true,
+        "category": "lighting"
+      },
+      {
+        "id": "panoramic-roof",
+        "name": "Panoramic Glass Roof",
+        "description": "Tinted glass roof front to rear",
+        "standard": true,
+        "category": "comfort"
+      },
+      {
+        "id": "power-liftgate",
+        "name": "Electric Liftgate",
+        "description": "Hands-free with kick sensor",
+        "standard": true,
+        "category": "convenience"
+      }
+    ],
+    "interior": [
+      {
+        "id": "yoke-steering",
+        "name": "Yoke Steering",
+        "description": "Aircraft-style yoke with capacitive controls",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "17-touchscreen",
+        "name": "17 Cinematic Touchscreen",
+        "description": "2200x1300 center display with tilt",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "vegan-leather",
+        "name": "Vegan Leather",
+        "description": "Premium synthetic leather",
+        "standard": true,
+        "category": "comfort"
+      }
+    ],
+    "technology": [
+      {
+        "id": "autopilot",
+        "name": "Autopilot",
+        "description": "Adaptive cruise, lane keeping, auto lane change",
+        "standard": true,
+        "category": "safety"
+      },
+      {
+        "id": "fsd-capable",
+        "name": "FSD Hardware",
+        "description": "Ready for future autonomous updates",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "premium-audio",
+        "name": "Premium Audio 22 Speakers",
+        "description": "960W immersive sound with ANC",
+        "standard": true,
+        "category": "audio"
+      }
+    ]
+  },
+  "versions": [
+    {
+      "id": "model-s-plaid",
+      "slug": "model-s-plaid",
+      "name": "Model S Plaid",
+      "description": "Version de alto rendimiento con 3 motores",
+      "price": {
+        "value": 129990,
+        "currency": "EUR"
+      },
+      "specs": {
+        "power": {
+          "value": 1020,
+          "unit": "HP"
+        },
+        "torque": {
+          "value": 1420,
+          "unit": "Nm"
+        },
+        "acceleration": {
+          "zeroToHundred": 2.1
+        },
+        "range": {
+          "value": 611,
+          "unit": "km"
+        }
+      },
+      "features": [
+        "autopilot",
+        "fsd-capable",
+        "yoke-steering",
+        "17-touchscreen",
+        "premium-audio",
+        "panoramic-roof"
+      ],
+      "images": [
+        "../images/tesla-s-plaid/tesla-s.png"
+      ],
+      "nameAr": "موديل أس بليد",
+      "featuresAr": [
+        "أوتوبايلوت",
+        "القيادة الذاتية الكاملة-capable",
+        "يوك-steering",
+        "17-touchscreen",
+        "ممتاز-صوت",
+        "panoramic-سقف"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "../images/tesla-s-plaid/tesla-hero.png",
+    "thumbnail": "../images/tesla-s-plaid/tesla-hero.png",
+    "gallery": [
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.png",
+        "alt": "Tesla Model S Plaid exterior",
+        "category": "exterior",
+        "angle": "front"
+      },
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.1.png",
+        "alt": "Tesla Model S Plaid side profile",
+        "category": "exterior",
+        "angle": "side"
+      },
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.2.png",
+        "alt": "Tesla Model S Plaid rear view",
+        "category": "exterior",
+        "angle": "rear"
+      },
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.3.png",
+        "alt": "Tesla Model S Plaid detail",
+        "category": "exterior",
+        "angle": "detail"
+      },
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.4.png",
+        "alt": "Tesla Model S Plaid interior",
+        "category": "interior",
+        "angle": "cockpit"
+      },
+      {
+        "url": "../images/tesla-s-plaid/tesla-s.5.png",
+        "alt": "Tesla Model S Plaid technology",
+        "category": "interior",
+        "angle": "dashboard"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "Pearl White",
+      "hex": "#FFFFFF",
+      "price": 0
+    },
+    {
+      "name": "Solid Black",
+      "hex": "#111111",
+      "price": 0
+    },
+    {
+      "name": "Midnight Silver",
+      "hex": "#2C2C2C",
+      "price": 1500
+    },
+    {
+      "name": "Deep Blue",
+      "hex": "#1A3A5C",
+      "price": 1500
+    },
+    {
+      "name": "Ultra Red",
+      "hex": "#B31B1B",
+      "price": 2500
+    }
+  ],
+  "seo": {
+    "title": "Tesla Model S Plaid 2026 - Review y Precio",
+    "description": "El Tesla Model S Plaid ofrece 1020 CV, 611 km de autonomia y aceleracion de 0-100 en 2.1 segundos. Review completa, precio y especificaciones.",
+    "keywords": "tesla,model s,plaid,electrico,1020 cv,611 km autonomia,0-100 2.1s,supercharger"
+  },
+  "comparisons": [
+    {
+      "id": "audi-rs-e-tron-gt",
+      "name": "Audi RS e-tron GT",
+      "slug": "rs-e-tron-gt",
+      "nameAr": "أودي آر إس إي ترون جي تي",
+      "fullNameAr": "أودي آر إس إي ترون جي تي"
+    },
+    {
+      "id": "porsche-taycan-turbo-s",
+      "name": "Porsche Taycan Turbo S",
+      "slug": "taycan-turbo-s",
+      "nameAr": "بورش تايكان توربو أس",
+      "fullNameAr": "بورش تايكان توربو أس"
+    }
+  ],
+  "relatedModels": [
+    {
+      "name": "Tesla Model 3 Performance",
+      "slug": "model-3-performance"
+    },
+    {
+      "name": "Tesla Model X Plaid",
+      "slug": "model-x-plaid"
+    }
+  ],
+  "safety": {
+    "es": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 96,
+        "childOccupant": 87,
+        "pedestrian": 81,
+        "safetyAssist": 94
+      },
+      "airbags": [
+        "Frontales dobles",
+        "Laterales delanteros",
+        "Cortina lateral",
+        "Rodilla del conductor"
+      ],
+      "driverAssist": [
+        {
+          "name": "Autopilot",
+          "description": "Control de crucero adaptativo, mantenimiento de carril"
+        },
+        {
+          "name": "Frenado de emergencia",
+          "description": "Deteccion de peatones y ciclistas"
+        },
+        {
+          "name": "Alerta de angulo muerto",
+          "description": "Alerta de trafico cruzado trasero"
+        }
+      ],
+      "structural": "Estructura de aluminio y acero de alta resistencia con bateria integrada en el suelo como elemento estructural."
+    },
+    "en": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 94,
+        "childOccupant": 91,
+        "pedestrian": 80,
+        "safetyAssist": 95
+      },
+      "airbags": [
+        "Dual front airbags",
+        "Side front airbags",
+        "Side curtain airbags",
+        "Front knee airbags"
+      ],
+      "driverAssist": [
+        {
+          "name": "Autopilot",
+          "description": "Adaptive cruise control, lane centering and automatic lane change"
+        },
+        {
+          "name": "Full Self-Driving (optional)",
+          "description": "Navigate on Autopilot, Auto Park, Summon and traffic light recognition"
+        },
+        {
+          "name": "Emergency Braking",
+          "description": "Automatic emergency braking with pedestrian and cyclist detection"
+        }
+      ],
+      "structural": "High-strength steel and aluminum body with reinforced battery structure that improves torsional rigidity."
+    },
+    "fr": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 94,
+        "childOccupant": 91,
+        "pedestrian": 80,
+        "safetyAssist": 95
+      },
+      "airbags": [
+        "Airbags frontaux doubles",
+        "Airbags latéraux avant",
+        "Airbags rideaux latéraux",
+        "Airbags genoux avant"
+      ],
+      "driverAssist": [
+        {
+          "name": "Autopilot",
+          "description": "Régulateur adaptatif de distance, centrage sur la voie et changement de voie automatique"
+        },
+        {
+          "name": "Full Self-Driving (optionnel)",
+          "description": "Navigation sur Autopilot, Auto Park, Summon et reconnaissance des feux de signalisation"
+        },
+        {
+          "name": "Freinage d'urgence",
+          "description": "Freinage d'urgence automatique avec détection des piétons et des cyclistes"
+        }
+      ],
+      "structural": "Carrosserie en acier à haute résistance et aluminium avec structure de batterie renforcée qui améliore la rigidité torsionnelle."
+    },
+    "ar": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 94,
+        "childOccupant": 91,
+        "pedestrian": 80,
+        "safetyAssist": 95
+      },
+      "airbags": [
+        "وسائد هوائية أمامية مزدوجة",
+        "وسائد هوائية جانبية أمامية",
+        "وسائد هوائية ستائرية جانبية",
+        "وسائد هوائية للركبة الأمامية"
+      ],
+      "driverAssist": [
+        {
+          "name": "أوتوبايلوت",
+          "description": "مثبت سرعة تكيفي، توسيط في المسار وتغيير المسار التلقائي"
+        },
+        {
+          "name": "القيادة الذاتية الكاملة (اختياري)",
+          "description": "الملاحة عبر أوتوبايلوت، أوتو ركن، استدعاء وتمييز إشارات المرور"
+        },
+        {
+          "name": "فرامل الطوارئ",
+          "description": "فرامل طوارئ تلقائية مع اكتشاف المشاة والدراجات"
+        }
+      ],
+      "structural": "هيكل من فولاذ عالي المقاومة وألمنيوم مع بنية بطارية مُعززة تحسن الصلابة الالتوائية."
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "El Tesla Model S Plaid obtiene una puntuacion excepcional gracias a su rendimiento sin precedentes y tecnologia puntera.",
+      "worthDesc": "Aunque su precio supera los 125000 EUR, el Model S Plaid ofrece una relacion potencia/precio imbatible.",
+      "pros": [
+        "Aceleracion de 0-100 en 2.1 segundos",
+        "Autonomia de 611 km (WLTP)",
+        "Red de Supercargadores exclusiva",
+        "Actualizaciones Over-The-Air constantes",
+        "Espacio interior y maletero de 793 litros"
+      ],
+      "cons": [
+        "Precio elevado para el segmento",
+        "Calidad de montaje inferior a rivales premium alemanes",
+        "Servicio postventa limitado en algunas zonas",
+        "Ruido de rodadura con llantas de 21 pulgadas"
+      ],
+      "usedGuide": {
+        "card1Title": "Kilometraje y estado",
+        "card1Items": [
+          "Hasta 60.000 km: mejor relación valor",
+          "Revisar historial de software y carga",
+          "Evitar unidades con desgaste irregular de neumáticos"
+        ],
+        "card2Title": "Mecánica",
+        "card2Items": [
+          "Revisar estado de batería y garantía",
+          "Comprobar frenos y líquidos",
+          "Revisar suspensión neumática"
+        ],
+        "card3Title": "Electrónica",
+        "card3Items": [
+          "Actualizaciones de software Tesla",
+          "Funcionamiento de Autopilot/FSD",
+          "Pantallas y conectividad"
+        ],
+        "card4Title": "Precio y reventa",
+        "card4Items": [
+          "Mejor compra a los 2-3 años",
+          "Colores populares: Pearl White, Midnight Silver",
+          "Unidades con FSD valoradas si se transfiere"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autopista",
+          "desc": "Autopilot, confort y autonomía para viajes largos."
+        },
+        "city": {
+          "title": "Ciudad",
+          "desc": "Manejable para sus 5.02 metros, aceleración instantánea."
+        },
+        "family": {
+          "title": "Familiar",
+          "desc": "5 plazas y maletero de 793 litros."
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "Sedán eléctrico de referencia, pero no un clásico."
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "Aceleración brutal, aunque el peso limita en curvas."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Revisión anual básica",
+          "desc": "Cambio de aceite y filtros, revisión de motor B47, sistema mild-hybrid de 48V y comprobación de niveles."
+        },
+        {
+          "title": "Revisión intermedia",
+          "desc": "Sustitución de filtros de aire, habitáculo y líquido de frenos. Revisión de frenos delanteros."
+        },
+        {
+          "title": "Gran servicio",
+          "desc": "Cambio de líquido de frenos, refrigerante de batería y revisión del tren motriz eléctrico."
+        },
+        {
+          "title": "Suspensión y neumáticos",
+          "desc": "Revisión de amortiguadores, bieletas y juego de neumáticos de alto rendimiento."
+        }
+      ],
+      "faq": {
+        "q1": "¿Cuánta autonomía tiene el Tesla Model S Plaid 2026?",
+        "a1": "El Tesla Model S Plaid 2026 homologa hasta 611 km de autonomía WLTP y alrededor de 368 millas EPA.",
+        "q2": "¿Cuánto acelera el Model S Plaid de 0 a 100 km/h?",
+        "a2": "El Model S Plaid acelera de 0 a 100 km/h en 2.1 segundos con el modo Launch Control.",
+        "q3": "¿Cuál es el precio del Tesla Model S Plaid 2026?",
+        "a3": "El precio base en Estados Unidos es de 109.990 USD; en Europa ronda los 124.990–129.990 EUR antes de opciones.",
+        "q4": "¿Cuántos caballos tiene el Model S Plaid?",
+        "a4": "El Model S Plaid entrega 1.020 HP y 1.420 Nm de par gracias a sus tres motores eléctricos.",
+        "q5": "¿Cuánto tarda en cargar el Model S Plaid?",
+        "a5": "Con Supercharger V3 de 250 kW puede recuperar del 10% al 80% en aproximadamente 30 minutos.",
+        "q6": "¿Tesla Model S Plaid o Porsche Taycan Turbo S?",
+        "a6": "El Model S Plaid gana en aceleración, autonomía y red de carga. El Taycan ofrece mejor calidad de construcción y dinamismo.",
+        "q7": "¿Vale la pena comprar un Model S Plaid de segunda mano?",
+        "a7": "Sí, a partir de los 2-3 años. Revisar historial de software, batería y estado de neumáticos traseros."
+      },
+      "dep": {
+        "loss3": "~35% de pérdida a los 3 años",
+        "loss5": "~55% de pérdida a los 5 años"
+      },
+      "versions": {
+        "sportbackDesc": "Tesla Model S Plaid con 1.020 HP y autonomía de 611 km.",
+        "performanceDesc": "Mayor potencia y equipamiento de conducción autónoma.",
+        "carbonDesc": "Llantas de 21 pulgadas y detalles de carbono.",
+        "modelssplaidDesc": "Tesla Model S Plaid con 1.020 HP y tracción AWD de tres motores."
+      },
+      "buyingGuideDesc": "Guía de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "reviewText": "El {{fullModelName}} es el sedán eléctrico de referencia: 1.020 HP, aceleración de 2.1 s y una autonomía de 611 km que lo mantienen a la cabeza del segmento."
+    },
+    "en": {
+      "scoreDesc": "The Tesla Model S Plaid gets an exceptional score thanks to its unprecedented performance and cutting-edge technology.",
+      "worthDesc": "Although its price exceeds 125,000 EUR, the Model S Plaid offers an unbeatable power-to-price ratio.",
+      "pros": [
+        "0-100 km/h acceleration in 2.1 seconds",
+        "611 km range (WLTP)",
+        "Exclusive Supercharger network",
+        "Constant Over-The-Air updates",
+        "Interior space and 793 liter trunk"
+      ],
+      "cons": [
+        "High price for the segment",
+        "Build quality inferior to German premium rivals",
+        "Limited after-sales service in some areas",
+        "Road noise with 21 inch wheels"
+      ],
+      "usedGuide": {
+        "card1Title": "Mileage and condition",
+        "card1Items": [
+          "Up to 60,000 km: best value",
+          "Check software and charging history",
+          "Avoid units with irregular tire wear"
+        ],
+        "card2Title": "Mechanics",
+        "card2Items": [
+          "Check battery status and warranty",
+          "Check brakes and fluids",
+          "Check air suspension"
+        ],
+        "card3Title": "Electronics",
+        "card3Items": [
+          "Tesla software updates",
+          "Autopilot/FSD operation",
+          "Screens and connectivity"
+        ],
+        "card4Title": "Price and resale",
+        "card4Items": [
+          "Best buy at 2-3 years",
+          "Popular colors: Pearl White, Midnight Silver",
+          "FSD-equipped units valued if transferable"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Highway",
+          "desc": "Autopilot, comfort and range for long trips."
+        },
+        "city": {
+          "title": "City",
+          "desc": "Manageable for its 5.02 meters, instant acceleration."
+        },
+        "family": {
+          "title": "Family",
+          "desc": "5 seats and 793 liter trunk."
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "Reference electric sedan, but not a classic."
+        },
+        "track": {
+          "title": "Track",
+          "desc": "Brutal acceleration, although weight limits it in corners."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Basic annual check",
+          "desc": "Tire rotation, wiper fluid, brake inspection and battery coolant check."
+        },
+        {
+          "title": "Intermediate service",
+          "desc": "Cabin air filter, brake fluid and 12V battery check."
+        },
+        {
+          "title": "Major service",
+          "desc": "Brake fluid, battery coolant and electric drivetrain inspection."
+        },
+        {
+          "title": "Suspension and tires",
+          "desc": "Shock absorbers, links and high-performance tire set inspection."
+        }
+      ],
+      "faq": {
+        "q1": "What is the range of the Tesla Model S Plaid 2026?",
+        "a1": "The Tesla Model S Plaid 2026 is homologated up to 611 km of WLTP range and around 368 EPA miles.",
+        "q2": "How fast does the Model S Plaid accelerate from 0 to 100 km/h?",
+        "a2": "The Model S Plaid accelerates from 0 to 100 km/h in 2.1 seconds with Launch Control mode.",
+        "q3": "What is the price of the Tesla Model S Plaid 2026?",
+        "a3": "The base price in the United States is 109,990 USD; in Europe it ranges from 124,990–129,990 EUR before options.",
+        "q4": "How many horsepower does the Model S Plaid have?",
+        "a4": "The Model S Plaid delivers 1,020 HP and 1,420 Nm of torque thanks to its three electric motors.",
+        "q5": "How long does it take to charge the Model S Plaid?",
+        "a5": "With a 250 kW Supercharger V3 it can recover from 10% to 80% in approximately 30 minutes.",
+        "q6": "Tesla Model S Plaid or Porsche Taycan Turbo S?",
+        "a6": "The Model S Plaid wins in acceleration, range and charging network. The Taycan offers better build quality and dynamics.",
+        "q7": "Is it worth buying a second-hand Model S Plaid?",
+        "a7": "Yes, from 2-3 years. Check software history, battery and rear tire condition."
+      },
+      "dep": {
+        "loss3": "~35% loss at 3 years",
+        "loss5": "~55% loss at 5 years"
+      },
+      "versions": {
+        "sportbackDesc": "Tesla Model S Plaid with 1,020 HP and 611 km range.",
+        "performanceDesc": "More power and autonomous driving equipment.",
+        "carbonDesc": "21 inch wheels and carbon details.",
+        "modelssplaidDesc": "Tesla Model S Plaid with 1,020 HP and three-motor AWD."
+      },
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "reviewText": "The {{fullModelName}} is the reference electric sedan: 1,020 HP, 2.1 s acceleration and 611 km range keep it at the top of the segment."
+    },
+    "fr": {
+      "scoreDesc": "Le Tesla Model S Plaid obtient une note exceptionnelle grâce à ses performances sans précédent et sa technologie de pointe.",
+      "worthDesc": "Bien que son prix dépasse 125 000 EUR, le Model S Plaid offre un rapport puissance/prix imbattable.",
+      "pros": [
+        "Accélération de 0 à 100 km/h en 2.1 secondes",
+        "Autonomie de 611 km (WLTP)",
+        "Réseau Supercharger exclusif",
+        "Mises à jour Over-The-Air constantes",
+        "Espace intérieur et coffre de 793 litres"
+      ],
+      "cons": [
+        "Prix élevé pour le segment",
+        "Qualité d'assemblage inférieure aux rivales premium allemandes",
+        "Service après-vente limité dans certaines zones",
+        "Bruit de roulement avec jantes de 21 pouces"
+      ],
+      "usedGuide": {
+        "card1Title": "Kilométrage et état",
+        "card1Items": [
+          "Jusqu'à 60 000 km : meilleur rapport qualité-prix",
+          "Vérifier l'historique des logiciels et de charge",
+          "Éviter les unités avec usure irrégulière des pneus"
+        ],
+        "card2Title": "Mécanique",
+        "card2Items": [
+          "Vérifier l'état de la batterie et la garantie",
+          "Vérifier les freins et les liquides",
+          "Vérifier la suspension pneumatique"
+        ],
+        "card3Title": "Électronique",
+        "card3Items": [
+          "Mises à jour logiciel Tesla",
+          "Fonctionnement de l'Autopilot/FSD",
+          "Écrans et connectivité"
+        ],
+        "card4Title": "Prix et revente",
+        "card4Items": [
+          "Meilleur achat à 2-3 ans",
+          "Couleurs populaires : Pearl White, Midnight Silver",
+          "Unités équipées FSD valorisées si transférable"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autoroute",
+          "desc": "Autopilot, confort et autonomie pour les longs trajets."
+        },
+        "city": {
+          "title": "Ville",
+          "desc": "Maniable pour ses 5,02 mètres, accélération instantanée."
+        },
+        "family": {
+          "title": "Famille",
+          "desc": "5 places et coffre de 793 litres."
+        },
+        "collector": {
+          "title": "Collection",
+          "desc": "Sedan électrique de référence, mais pas un classique."
+        },
+        "track": {
+          "title": "Circuit",
+          "desc": "Accélération brutale, bien que le poids limite en virage."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Vérification annuelle de base",
+          "desc": "Rotation des pneus, liquide lave-glace, inspection des freins et vérification du liquide de refroidissement de la batterie."
+        },
+        {
+          "title": "Service intermédiaire",
+          "desc": "Filtre d'habitacle, liquide de freins et batterie 12V."
+        },
+        {
+          "title": "Grand service",
+          "desc": "Liquide de freins, liquide de refroidissement de batterie et inspection du groupe motopropulseur électrique."
+        },
+        {
+          "title": "Suspension et pneus",
+          "desc": "Inspection des amortisseurs, biellettes et jeu de pneus haute performance."
+        }
+      ],
+      "faq": {
+        "q1": "Quelle est l'autonomie du Tesla Model S Plaid 2026 ?",
+        "a1": "Le Tesla Model S Plaid 2026 homologue jusqu'à 611 km d'autonomie WLTP et environ 368 miles EPA.",
+        "q2": "Quelle est l'accélération du Model S Plaid de 0 à 100 km/h ?",
+        "a2": "Le Model S Plaid accélère de 0 à 100 km/h en 2.1 secondes avec le mode Launch Control.",
+        "q3": "Quel est le prix du Tesla Model S Plaid 2026 ?",
+        "a3": "Le prix de base aux États-Unis est de 109 990 USD ; en Europe il se situe entre 124 990 et 129 990 EUR avant options.",
+        "q4": "Combien de chevaux a le Model S Plaid ?",
+        "a4": "Le Model S Plaid développe 1 020 HP et 1 420 Nm de couple grâce à ses trois moteurs électriques.",
+        "q5": "Combien de temps faut-il pour charger le Model S Plaid ?",
+        "a5": "Avec un Supercharger V3 de 250 kW, il peut récupérer de 10% à 80% en environ 30 minutes.",
+        "q6": "Tesla Model S Plaid ou Porsche Taycan Turbo S ?",
+        "a6": "Le Model S Plaid gagne en accélération, autonomie et réseau de charge. Le Taycan offre une meilleure qualité de construction et dynamisme.",
+        "q7": "Vaut-il le coup d'acheter un Model S Plaid d'occasion ?",
+        "a7": "Oui, à partir de 2-3 ans. Vérifier l'historique logiciel, la batterie et l'état des pneus arrière."
+      },
+      "dep": {
+        "loss3": "~35% de perte à 3 ans",
+        "loss5": "~55% de perte à 5 ans"
+      },
+      "versions": {
+        "sportbackDesc": "Tesla Model S Plaid avec 1 020 HP et autonomie de 611 km.",
+        "performanceDesc": "Plus de puissance et équipement de conduite autonome.",
+        "carbonDesc": "Jantes de 21 pouces et détails en carbone.",
+        "modelssplaidDesc": "Tesla Model S Plaid avec 1 020 HP et AWD à trois moteurs."
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "reviewText": "La {{fullModelName}} est la sedan électrique de référence : 1 020 HP, accélération de 2.1 s et autonomie de 611 km qui la maintiennent en tête du segment."
+    },
+    "ar": {
+      "scoreDesc": "يحصل تسلا موديل أس بليد على تقييم استثنائي بفضل أدائه غير المسبوق وتقنيته المتطورة.",
+      "worthDesc": "على الرغم من أن سعره يتجاوز 125,000 يورو، إلا أن موديل أس بليد يقدم نسبة قوة/سعر لا تُضاهى.",
+      "pros": [
+        "تسارع 0-100 كم/س في 2.1 ثانية",
+        "مدى 611 كم (الاختبار الأوروبي)",
+        "شبكة الشحن السريع الحصرية",
+        "تحديثات عبر الهواء مستمرة",
+        "مساحة داخلية وصندوق 793 لتر"
+      ],
+      "cons": [
+        "سعر مرتفع للفئة",
+        "جودة التجميع أقل من المنافسين الألمان الفاخرين",
+        "خدمة ما بعد البيع محدودة في بعض المناطق",
+        "ضجيج الطريق مع عجلات 21 بوصة"
+      ],
+      "usedGuide": {
+        "card1Title": "الكيلومتراج والحالة",
+        "card1Items": [
+          "حتى 60,000 كم: أفضل قيمة",
+          "التحقق من سجل البرامج والشحن",
+          "تجنب السيارات بتآكل إطارات غير منتظم"
+        ],
+        "card2Title": "الميكانيكا",
+        "card2Items": [
+          "التحقق من حالة البطارية والضمان",
+          "فحص الفرامل والسوائل",
+          "فحص التعليق الهوائي"
+        ],
+        "card3Title": "الإلكترونيات",
+        "card3Items": [
+          "تحديثات برامج تسلا",
+          "عمل القيادة الذاتية/القيادة الذاتية الكاملة",
+          "الشاشات والاتصال"
+        ],
+        "card4Title": "السعر وإعادة البيع",
+        "card4Items": [
+          "أفضل شراء من 2-3 سنوات",
+          "الألوان الشائعة: أبيض لؤلؤي، فضي منتصف الليل",
+          "السيارات بـ القيادة الذاتية الكاملة ذات قيمة أعلى إذا كان قابلاً للنقل"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "الطريق السريع",
+          "desc": "القيادة الذاتية وراحة ومدى للرحلات الطويلة."
+        },
+        "city": {
+          "title": "المدينة",
+          "desc": "قابلة للمناورة بطول 5.02 متر، تسارع فوري."
+        },
+        "family": {
+          "title": "العائلة",
+          "desc": "5 مقاعد وصندوق 793 لتر."
+        },
+        "collector": {
+          "title": "التحصيل",
+          "desc": "سيدان كهربائي مرجعي، لكنه ليس كلاسيكياً."
+        },
+        "track": {
+          "title": "الحلبة",
+          "desc": "تسارع وحشي، لكن الوزن يحد من الأداء في المنعطفات."
+        }
+      },
+      "timeline": [
+        {
+          "title": "الفحص السنوي الأساسي",
+          "desc": "تدوير الإطارات، سائل مساحات الزجاج، فحص الفرامل والتحقق من سائل تبريد البطارية."
+        },
+        {
+          "title": "الخدمة المتوسطة",
+          "desc": "فلتر المقصورة، سائل الفرامل وبطارية 12 فولت."
+        },
+        {
+          "title": "الخدمة الكبرى",
+          "desc": "سائل الفرامل، سائل تبريد البطارية وفحص مجموعة الدفع الكهربائية."
+        },
+        {
+          "title": "التعليق والإطارات",
+          "desc": "فحص الممتصات، وصلات التعليق ومجموعة إطارات عالية الأداء."
+        }
+      ],
+      "faq": {
+        "q1": "ما مدى تسلا موديل أس بليد 2026؟",
+        "a1": "يحصل تسلا موديل أس بليد 2026 على اعتماد يصل إلى 611 كم من مدى الاختبار الأوروبي وحوالي 368 ميل وكالة الحماية البيئية الأمريكية.",
+        "q2": "كم تسارع موديل أس بليد من 0 إلى 100 كم/س؟",
+        "a2": "يسارع موديل أس بليد من 0 إلى 100 كم/س في 2.1 ثانية مع وضع نظام الانطلاق.",
+        "q3": "ما سعر تسلا موديل أس بليد 2026؟",
+        "a3": "السعر الأساسي في الولايات المتحدة 109,990 دولار؛ في أوروبا يتراوح بين 124,990-129,990 يورو قبل الخيارات.",
+        "q4": "كم حصان لدى موديل أس بليد؟",
+        "a4": "يولد موديل أس بليد 1,020 حصان و 1,420 نيوتن متر من عزم الدوران بفضل ثلاثة محركات كهربائية.",
+        "q5": "كم يستغرق شحن موديل أس بليد؟",
+        "a5": "مع الشحن السريع الجيل 3 بقوة 250 كيلو واط، يمكن استعادة الشحن من 10% إلى 80% في حوالي 30 دقيقة.",
+        "q6": "تسلا موديل أس بليد أم بورش تايكان توربو أس؟",
+        "a6": "يفوز موديل أس بليد في التسارع والمدى وشبكة الشحن. يقدم تايكان جودة بناء وديناميكية أفضل.",
+        "q7": "هل يستحق شراء موديل أس بليد مستعمل؟",
+        "a7": "نعم، من 2-3 سنوات. تحقق من سجل البرامج، وحالة البطارية وحالة الإطارات الخلفية."
+      },
+      "dep": {
+        "loss3": "~35% خسارة بعد 3 سنوات",
+        "loss5": "~55% خسارة بعد 5 سنوات"
+      },
+      "versions": {
+        "sportbackDesc": "تسلا موديل أس بليد بـ 1,020 حصان ومدى 611 كم.",
+        "performanceDesc": "مزيد من القوة ومعدات القيادة الذاتية.",
+        "carbonDesc": "عجلات 21 بوصة وتفاصيل كربونية.",
+        "modelssplaidDesc": "تسلا موديل أس بليد بـ 1,020 حصان ودفع رباعي بثلاثة محركات."
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "reviewText": "{{fullModelName}} هي السيدان الكهربائي المرجعي: 1,020 حصان، تسارع 2.1 ثانية ومدى 611 كم يبقيانها في مقدمة الفئة."
+    }
+  },
+  "review": {
+    "es": {
+      "summary": "El Tesla Model S Plaid redefine lo que un sedan electrico puede lograr. Con 1020 CV de potencia combinada de tres motores, alcanza los 100 km/h en 2.1 segundos, superando a muchos superdeportivos.",
+      "fullText": "El Tesla Model S Plaid es el sedan electrico de referencia en cuanto a rendimiento puro. Sus 1020 CV y traccion a las cuatro ruedas con tres motores le permiten acelerar de 0 a 100 km/h en 2.1 segundos, rivalizando con superdeportivos de siete cifras. A pesar de su brutalidad, mantiene 611 km de autonomia real segun WLTP. La bateria de 100 kWh utiliza quimica NCA y carga a 250 kW en Supercharger V3. En carretera, la suspension neumatica adaptativa ofrece un equilibrio sorprendente entre confort y deportividad. El interior minimalista gira en torno a la pantalla de 17 pulgadas con resolucion 2200x1300. Los asientos delanteros tienen calefaccion, ventilacion y ajuste electrico de 12 vias. El sistema de audio de 22 altavoces y 960W ofrece una experiencia inmersiva. Como inconvenientes, el consumo real en autopista a 120 km/h ronda los 20-22 kWh/100km, los neumaticos traseros se desgastan rapidamente si se explota el par motor, y la calidad de algunos materiales no alcanza el nivel de un Mercedes o Porsche. Sin embargo, para quien busca el maximo rendimiento electrico sin sacrificar autonomia, el Model S Plaid no tiene rival directo.",
+      "verdict": "buy",
+      "bestFor": [
+        "Entusiastas de la aceleracion extrema que valoran la instantaneidad del motor electrico",
+        "Conductores de larga distancia que necesitan autonomia generosa y red de carga propia",
+        "Tecnofilos que aprecian las actualizaciones continuous y la conduccion semiautonoma",
+        "Familias que buscan espacio practico sin renunciar a prestaciones de superdeportivo"
+      ],
+      "scoreBreakdown": {
+        "performance": 10,
+        "comfort": 8.5,
+        "practicality": 8,
+        "runningCosts": 7.5,
+        "reliability": 8
+      }
+    },
+    "en": {
+      "summary": "The Tesla Model S Plaid redefines what an electric sedan can achieve. With 1,020 hp from three motors, it hits 100 km/h in 2.1 seconds, outpacing many supercars.",
+      "fullText": "The Tesla Model S Plaid is the benchmark electric sedan for pure performance. Its 1,020 hp and all-wheel drive with three motors allow it to accelerate from 0 to 100 km/h in 2.1 seconds, rivaling seven-figure supercars. Despite its brutal performance, it maintains a real-world range of 611 km according to WLTP. The 100 kWh battery uses NCA chemistry and charges at 250 kW on V3 Superchargers. On the road, the adaptive air suspension offers a surprising balance between comfort and sportiness. The minimalist interior revolves around the 17-inch 2200x1300 screen. The front seats feature heating, ventilation and 12-way electric adjustment. The 22-speaker, 960 W audio system delivers an immersive experience. Drawbacks include real-world highway consumption of around 20-22 kWh/100km at 120 km/h, rapid rear tire wear if torque is exploited, and material quality that does not match Mercedes or Porsche. However, for those seeking maximum electric performance without sacrificing range, the Model S Plaid has no direct rival.",
+      "verdict": "buy",
+      "bestFor": [
+        "Enthusiasts of extreme acceleration who value the instant torque of electric motors",
+        "Long-distance drivers who need generous range and a proprietary charging network",
+        "Tech lovers who appreciate continuous over-the-air updates and semi-autonomous driving",
+        "Families looking for practical space without giving up supercar performance"
+      ],
+      "scoreBreakdown": {
+        "performance": 10,
+        "comfort": 8.5,
+        "practicality": 8,
+        "runningCosts": 7.5,
+        "reliability": 8
+      }
+    },
+    "fr": {
+      "summary": "La Tesla Model S Plaid redéfinit ce qu'une berline électrique peut accomplir. Avec 1 020 ch produits par trois moteurs, elle atteint 100 km/h en 2,1 secondes, dépassant de nombreuses supercars.",
+      "fullText": "La Tesla Model S Plaid est la berline électrique de référence en termes de performance pure. Ses 1 020 ch et sa traction intégrale à trois moteurs lui permettent d'accélérer de 0 à 100 km/h en 2,1 secondes, rivalisant avec des supercars à sept chiffres. Malgré sa brutalité, elle conserve une autonomie réelle de 611 km selon le cycle WLTP. La batterie de 100 kWh utilise une chimie NCA et se charge à 250 kW sur les Superchargeurs V3. Sur la route, la suspension pneumatique adaptative offre un équilibre surprenant entre confort et sportivité. L'intérieur minimaliste s'articule autour de l'écran de 17 pouces 2200x1300. Les sièges avant disposent de chauffage, ventilation et réglage électrique 12 directions. Le système audio de 22 haut-parleurs et 960 W offre une expérience immersive. Les inconvénients incluent une consommation réelle sur autoroute d'environ 20-22 kWh/100km à 120 km/h, une usure rapide des pneus arrière si le couple est exploité, et une qualité de matériaux qui n'atteint pas celle de Mercedes ou Porsche. Cependant, pour ceux qui recherchent la performance électrique maximale sans sacrifier l'autonomie, la Model S Plaid n'a pas de rival direct.",
+      "verdict": "buy",
+      "bestFor": [
+        "Les amateurs d'accélération extrême qui apprécient le couple instantané des moteurs électriques",
+        "Les conducteurs longue distance qui ont besoin d'une autonomie généreuse et d'un réseau de charge propriétaire",
+        "Les technophiles qui apprécient les mises à jour over-the-air continues et la conduite semi-autonome",
+        "Les familles cherchant de l'espace pratique sans renoncer aux performances de supercar"
+      ],
+      "scoreBreakdown": {
+        "performance": 10,
+        "comfort": 8.5,
+        "practicality": 8,
+        "runningCosts": 7.5,
+        "reliability": 8
+      }
+    },
+    "ar": {
+      "summary": "تعيد تيسلا موديل إس بليد تعريف ما يمكن أن تحققه السيدان الكهربائية. بقوة 1020 حصان من ثلاثة محركات، تصل إلى 100 كم/س في 2.1 ثانية، متفوقة على العديد من السوبركار.",
+      "fullText": "تيسلا موديل إس بليد هي السيدان الكهربائية المرجعية من حيث الأداء الخالص. بقوة 1020 حصان ودفع رباعي بثلاثة محركات، تتسارع من 0 إلى 100 كم/س في 2.1 ثانية، متنافسة مع سوبركار بملايين الدولارات. على الرغم من قوتها الوحشية، تحافظ على مدى حقيقي 611 كم حسب الاختبار الأوروبي الموحد. بطارية 100 كواط ساعة تستخدم كيمياء نيكل كوبالت ألمنيوم و تشحن بقوة 250 كيلوواط في محطات شاحن فائق الجيل الثالث. على الطريق، التعليق الهوائي التكيفي يوفر توازناً م مدهش بين الراحة والرياضية. المقصورة الم بسيطة تدور حول شاشة 17 بوصة 2200×1300. المقاعد الأمامية مدفأة ومبردة مع تعديل كهربائي 12 وضعية. نظام الصوت بـ 22 مكبراً و 960 واط يقدم تجربة غامرة. العيوب تشمل استهلاكاً حقيقياً على الطريق السريع حوالي 20-22 كيلوواط ساعة/100 كم عند 120 كم/س، و تآكل سريع للإطارات الخلفية إذا استُغل العزم، وجودة مواد لا تصل إلى مستوى مرسيدس أو بورش. ومع ذلك، لمن يبحث عن أقصى أداء كهربائي دون التضحية بالمدى، موديل إس بليد ليس لها منافس مباشر.",
+      "verdict": "شراء",
+      "bestFor": [
+        "عشاق التسارع المتطرف الذين يقدرون العزم الفوري للمحركات الكهربائية",
+        "السائقين الذين يسافرون مسافات طويلة ويحتاجون إلى مدى سخي وشبكة شحن خاصة",
+        "محبو التقنية الذين يقدرون تحديثات عبر الهواء المستمرة والقيادة شبه الذاتية",
+        "العائلات التي تبحث عن مساحة عملية دون التخلي عن أداء السوبركار"
+      ],
+      "scoreBreakdown": {
+        "performance": 10,
+        "comfort": 8.5,
+        "practicality": 8,
+        "runningCosts": 7.5,
+        "reliability": 8
+      }
+    }
+  },
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El chasis del Model S Plaid es sorprendentemente capaz para sus 2162 kg, con una distribucion de peso optima gracias a la bateria en el suelo.",
+        "steeringFeel": "La direccion de ratio variable ofrece buena precision, aunque carece de la retroalimentacion tactil de un Porsche Taycan. En modo Sport se endurece adecuadamente.",
+        "bodyRoll": "Minimo gracias a la suspension neumatica activa. En modo Plaid el coche se mantiene completamente plano en curvas rapidas.",
+        "gripLevels": "Extraordinarios con el sistema AWD de tres motores. La gestion vectorial del par permite salidas de curva con el acelerador a fondo sin patinar.",
+        "rideQuality": "En Comfort absorbe baches con soltura a pesar de las llantas de 19 o 21 pulgadas. En Sport se vuelve firme pero nunca molesto."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal e inmediata. Los 1420 Nm de par estan disponibles instantaneamente desde 0 rpm. El modo Launch Control permite 0-100 en 2.1s de forma consistente.",
+        "braking": "Los discos de 410 mm delanteros con pinzas Brembo ofrecen una mordida potente. El frenado regenerativo es potente y permite conduccion de un solo pedal.",
+        "sound": "Practicamente silencioso en marcha suave. Un zumbido electrico discreto en aceleracion fuerte. Mucho mas agradable que el ruido de un V8 en trayectos largos.",
+        "transmission": "La transmision de una sola marcha elimina completamente el cambio de relaciones. La aceleracion es lineal y sin interrupciones."
+      },
+      "dailyDriving": {
+        "comfort": "Excelente para trayectos largos. Los asientos con ventilacion y calefaccion eliminan la fatiga. La climatizacion de tres zonas mantiene la temperatura ideal.",
+        "visibility": "Buena hacia adelante con el parabrisas panoramico. El techo de cristal tintado reduce el deslumbramiento. La camara de 360 compensa los puntos ciegos.",
+        "parking": "Manejable para sus 5.02 metros gracias a la direccion de ratio variable. El Autopark facilita las maniobras en espacios estrechos.",
+        "motorway": "Donde mejor se siente el Model S. El Autopilot mantiene la distancia y centra el vehiculo en el carril. La potencia de sobra permite adelantamientos instantaneos."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The Model S Plaid chassis is surprisingly capable for its 2,162 kg, with optimal weight distribution thanks to the floor-mounted battery.",
+        "steeringFeel": "The variable-ratio steering offers good precision, though it lacks the tactile feedback of a Porsche Taycan. In Sport mode it firms up appropriately.",
+        "bodyRoll": "Minimal thanks to the active air suspension. In Plaid mode the car stays completely flat through fast corners.",
+        "gripLevels": "Extraordinary with the tri-motor AWD system. Torque vectoring allows full-throttle exits without slipping.",
+        "rideQuality": "In Comfort it absorbs bumps with ease despite 19- or 21-inch wheels. In Sport it becomes firm but never harsh."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal and immediate. The 1,420 Nm of torque is available instantly from 0 rpm. Launch Control delivers consistent 0-100 km/h in 2.1s.",
+        "braking": "The 410 mm front discs with Brembo calipers offer strong bite. Regenerative braking is powerful and enables one-pedal driving.",
+        "sound": "Virtually silent at low speed. A discreet electric whine under hard acceleration. Much more pleasant than a V8 on long trips.",
+        "transmission": "The single-speed transmission eliminates gear changes entirely. Acceleration is linear and uninterrupted."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent for long journeys. Ventilated and heated seats eliminate fatigue. Three-zone climate keeps the ideal temperature.",
+        "visibility": "Good forward view with the panoramic windshield. The tinted glass roof reduces glare. The 360 camera compensates for blind spots.",
+        "parking": "Manageable for its 5.02 meters thanks to variable-ratio steering. Autopark helps in tight spaces.",
+        "motorway": "Where the Model S feels best. Autopilot maintains distance and centers the car. The abundant power makes overtaking instant."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "Le châssis de la Model S Plaid est étonnamment capable pour ses 2 162 kg, avec une répartition optimale du poids grâce à la batterie intégrée dans le plancher.",
+        "steeringFeel": "La direction à ratio variable offre une bonne précision, bien qu'elle manque de feedback tactile d'une Porsche Taycan. En mode Sport elle se durcit correctement.",
+        "bodyRoll": "Minimal grâce à la suspension pneumatique active. En mode Plaid la voiture reste complètement plate dans les virages rapides.",
+        "gripLevels": "Extraordinaire avec le système AWD à trois moteurs. La vectorisation de couple permet des sorties de virage à fond sans patiner.",
+        "rideQuality": "En Comfort elle absorbe les bosses avec aisance malgré les jantes de 19 ou 21 pouces. En Sport elle devient ferme mais jamais inconfortable."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutale et immédiate. Les 1 420 Nm de couple sont disponibles instantanément dès 0 tr/min. Le Launch Control permet 0-100 km/h en 2,1 s de façon constante.",
+        "braking": "Les disques de 410 mm à l'avant avec étriers Brembo offrent une mordance puissante. Le freinage régénératif est puissant et permet une conduite à une pédale.",
+        "sound": "Pratiquement silencieuse à basse vitesse. Un léger sifflement électrique sous forte accélération. Bien plus agréable qu'un V8 sur les longs trajets.",
+        "transmission": "La transmission à une seule vitesse élimine complètement les changements de rapport. L'accélération est linéaire et sans interruption."
+      },
+      "dailyDriving": {
+        "comfort": "Excellente pour les longs trajets. Les sièges ventilés et chauffants éliminent la fatigue. La climatisation trois zones maintient la température idéale.",
+        "visibility": "Bonne visibilité vers l'avant avec le pare-brise panoramique. Le toit de verre teinté réduit l'éblouissement. La caméra 360 compense les angles morts.",
+        "parking": "Maniable pour ses 5,02 mètres grâce à la direction à ratio variable. Autopark aide dans les espaces étroits.",
+        "motorway": "Là où la Model S se sent le mieux. L'Autopilot maintient la distance et centre le véhicule. La puissance abondante rend les dépassements instantanés."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "هيكل موديل إس بليد مدهش بقدراته لثقله 2162 كجم، مع توزيع مثالي للوزن بفضل البطارية المدمجة في الأرضية.",
+        "steeringFeel": "التوجيه بنسبة متغيرة يقدم دقة جيدة، على الرغم من أنه يفتقر إلى الرد اللمسي لـ بورش تايكان. في وضع سبورت يزداد صلابة بشكل مناسب.",
+        "bodyRoll": "محدود بفضل التعليق الهوائي النشط. في وضع بليد تظل السيارة مسطحة تماماً في المنعطفات السريعة.",
+        "gripLevels": "استثنائي مع نظام الدفع الرباعي بثلاثة محركات. تحويل العزم يسمح بالخروج بدواسة الوقود كاملة دون انزلاق.",
+        "rideQuality": "في وضع الراحة تمتص المطبات بسهولة على الرغم من العجلات 19 أو 21 بوصة. في وضع الرياضة تصبح متينة لكنها ليست قاسية أبداً."
+      },
+      "performanceFeel": {
+        "acceleration": "وحشي وفوري. عزم الدوران 1420 نيوتن متر متاح فوراً من 0 دورة في الدقيقة. انطلاقة التسارع يحقق 0-100 كم/س في 2.1 ثانية باستمرار.",
+        "braking": "أقراص 410 مم الأمامية مع كباسات بريمبو تقدم عضة قوية. الفرامل التجددية قوية وتمكن القيادة بدواسة واحدة.",
+        "sound": "صامتة تقريباً في السرعات المنخفضة. صفير كهربائي خافت تحت التسارع القوي. أكثر متعة بكثير من محرك 8 أسطوانات في الرحلات الطويلة.",
+        "transmission": "ناقل السرعة أحادي السرعة يقضي تماماً على تغيير النسب. التسارع خطي وغير متقطع."
+      },
+      "dailyDriving": {
+        "comfort": "ممتازة للرحلات الطويلة. المقاعد المبردة والمدفأة تزيل التعب. التكييف ثلاثي المناطق يحافظ على درجة الحرارة المثالية.",
+        "visibility": "رؤية أمامية جيدة مع الزجاج الأمامي البانورامي. سقف الزجاج المظلل يقلل الوهج. كاميرا 360 تغطي النقاط العمياء.",
+        "parking": "قابلة للمناورة لطول 5.02 متر بفضل التوجيه بنسبة متغيرة. الركن التلقائي يساعد في المساحات الضيقة.",
+        "motorway": "حيث تشعر موديل إس بأفضل حال. أوتوبايلوت يحافظ على المسافة ويوسّط السيارة. القوة الوفيرة تجعل التجاوزات فورية."
+      }
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "El Tesla Model S Plaid mantiene el diseno elegante y atemporal del Model S original, con ligeros retoques aerodinamicos que reducen el coeficiente de penetracion a 0.208.",
+      "stylingNotes": [
+        "Parachoques delantero con tomas de aire mas grandes para refrigeracion de los tres motores",
+        "Linea de cintura limpia que enfatiza la longitud de 5.02 metros",
+        "Techo abatido que mejora la aerodinamica sin sacrificar espacio interior",
+        "Difusor trasero integrado que optimiza el flujo de aire a alta velocidad"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.208,
+        "activeAero": false
+      },
+      "lighting": {
+        "headlights": "Faros LED Matrix adaptativos con auto-high beam",
+        "taillights": "LED continuous light bar across the full width",
+        "signature": "DRL signature unique to Plaid version"
+      },
+      "wheels": {
+        "standard": "19 Aero wheels with 255/45 front and 285/40 rear",
+        "optional": [
+          "21 Sonic Carbon wheels with 265/35 front and 295/30 rear"
+        ]
+      }
+    },
+    "en": {
+      "summary": "The Model S Plaid keeps the sleek sedan silhouette that defined Tesla's design language. Its elongated profile and flush door handles reduce drag to a remarkable 0.208 Cd.",
+      "stylingNotes": [
+        "Active front grille shutters improve aerodynamic efficiency",
+        "Full LED matrix headlights with adaptive high beam",
+        "Flush door handles and frameless windows",
+        "Integrated rear diffuser with hidden exhaust-free design",
+        "Glass panoramic roof extends from windshield to rear"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.208,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Full LED matrix with adaptive high beam",
+        "taillights": "Slim LED light bar spanning the entire rear",
+        "signature": "Continuous rear LED bar"
+      },
+      "wheels": {
+        "standard": "19-inch Tempest wheels with 255/45 R19 front and 285/40 R19 rear",
+        "optional": [
+          "21-inch Arachnid wheels with 265/35 R21 front and 295/30 R21 rear",
+          "20-inch Zero-G wheels with 255/40 R20 front and 275/35 R20 rear"
+        ]
+      }
+    },
+    "fr": {
+      "summary": "La Model S Plaid conserve la silhouette élégante de berline qui a défini le langage stylistique de Tesla. Son profil allongé et ses poignées de porte affleurentes réduisent le Cx à 0,208.",
+      "stylingNotes": [
+        "Les volets de calandre actifs améliorent l'efficacité aérodynamique",
+        "Phares full LED matriciels avec feux de route adaptatifs",
+        "Poignées de porte affleurentes et vitres sans encadrement",
+        "Diffuseur arrière intégré sans sorties d'échappement",
+        "Toit panoramique en verre s'étendant du pare-brise à l'arrière"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.208,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Full LED matriciel avec feux de route adaptatifs",
+        "taillights": "Fine barre lumineuse LED traversant toute la largeur arrière",
+        "signature": "Barre LED arrière continue"
+      },
+      "wheels": {
+        "standard": "Jantes 19 pouces Tempest avec 255/45 R19 avant et 285/40 R19 arrière",
+        "optional": [
+          "Jantes 21 pouces Arachnid avec 265/35 R21 avant et 295/30 R21 arrière",
+          "Jantes 20 pouces Zero-G avec 255/40 R20 avant et 275/35 R20 arrière"
+        ]
+      }
+    },
+    "ar": {
+      "summary": "تحافظ موديل إس بليد على تصميم السيدان الأنيق الذي حدد لغة تيسلا التصميمية. ملفها الممدود ومقابض الأبواب المنسابة تقلل مقاومة الهواء إلى 0.208 معامل السحب.",
+      "stylingNotes": [
+        "مصاريع الشبكة الأمامية النشطة تحسن كفاءة الديناميكا الهوائية",
+        "مصابيح مصابيح ليد ماتريكس كاملة مع الشعاع العالي التكيفية",
+        "مقابض أبواب منسابة ونوافذ بلا إطار",
+        "ناشر خلفي مدمج بدون مخارج عادم",
+        "سقف زجاجي بانورامي يمتد من الزجاج الأمامي إلى الخلف"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.208,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "مصابيح ليد ماتريكس كاملة مع الشعاع العالي التكيفية",
+        "taillights": "شريط ليد نحيف يمتد عبر كامل العرض الخلفي",
+        "signature": "شريط ليد خلفي مستمر"
+      },
+      "wheels": {
+        "standard": "جنوط 19 بوصة تمبست مع 255/45 19 أمامية و 285/40 19 خلفية",
+        "optional": [
+          "جنوط 21 بوصة أراكنيد مع 265/35 21 أمامية و 295/30 21 خلفية",
+          "جنوط 20 بوصة زيرو-جي مع 255/40 20 أمامية و 275/35 20 خلفية"
+        ]
+      }
+    }
+  },
+  "interior": {
+    "es": {
+      "qualityRating": 8,
+      "spaceRating": 8.5,
+      "infotainmentRating": 9.5,
+      "summary": "El interior del Model S Plaid es minimalista y tecnologico. El yoke de direccion opcional y la pantalla de 17 pulgadas dominan el habitaculo.",
+      "frontSeats": {
+        "comfort": "Asientos deportivos con refuerzo lateral generoso, ajuste electrico de 12 vias, funcion memoria, calefaccion y ventilacion.",
+        "adjustment": "12 direcciones incluyendo extension del muslo y soporte lumbar de 4 vias.",
+        "material": "Cuero sintetico premium (vegan leather) disponible en negro, blanco o crema."
+      },
+      "rearSeats": {
+        "legroom": "Generoso para dos adultos. La batalla de 2960 mm permite estirar las piernas comodamente. La plaza central es usable para trayectos cortos.",
+        "headroom": "Adecuado gracias al techo de cristal, aunque personas de mas de 1.85 m notaran el techo abatido.",
+        "comfort": "Respaldo abatible 60:40 con reposabrazos central, portavasos y calefaccion. Pantalla de 8 pulgadas para entretenimiento trasero.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 793,
+        "seatsDownCapacity": 1649,
+        "practicality": "El porton liftback ofrece una boca de carga enorme. La capacidad de 793 litros crece hasta 1649 litros con asientos abatidos. Maletero delantero adicional de 150 litros.",
+        "loadingLip": "Umbral de carga bajo. El porton electrico con apertura a pie facilita la carga."
+      },
+      "infotainment": {
+        "screenSize": "17 pulgadas cinematic (2200 x 1300 px)",
+        "system": "Tesla OS con AMD Ryzen procesador, navegacion natural por voz",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "Tesla App",
+          "Bluetooth 5.0",
+          "Wi-Fi hotspot"
+        ],
+        "soundSystem": "Premium Audio 22 altavoces y 960 W con cancelacion activa de ruido",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        }
+      ]
+    },
+    "en": {
+      "summary": "The interior is a masterclass in minimalism. A 17-inch central touchscreen dominates the dashboard, while the second-row display and ambient lighting complete the futuristic cabin.",
+      "frontSeats": {
+        "comfort": "Heated and ventilated 12-way electric front seats with memory and lumbar support.",
+        "adjustment": "12 directions including lumbar support and easy entry.",
+        "material": "Premium synthetic leather or optional genuine leather in black, white, or cream."
+      },
+      "rearSeats": {
+        "legroom": "Excellent for two adults. The flat floor improves middle-seat comfort.",
+        "headroom": "Adequate for passengers up to 1.90 m thanks to the tall roof.",
+        "comfort": "Heated rear seats and separate climate control. The optional second-row screen adds entertainment.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 793,
+        "seatsDownCapacity": 1640,
+        "practicality": "Large 793 L trunk plus front trunk for additional storage. The rear seats fold flat.",
+        "loadingLip": "Low and wide opening for easy loading."
+      },
+      "infotainment": {
+        "screenSize": "17 inches (2200 x 1300) central touchscreen",
+        "system": "Tesla OS with over-the-air updates and gaming capability",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "Tesla App",
+          "Bluetooth 5.0"
+        ],
+        "soundSystem": "22 speakers, 960 W, active noise cancellation",
+        "digitalCluster": true
+      }
+    },
+    "fr": {
+      "summary": "L'intérieur est un modèle de minimalisme. Un écran central tactile de 17 pouces domine le tableau de bord, tandis que l'écran de la deuxième rangée et l'éclairage d'ambiance complètent l'habitacle futuriste.",
+      "frontSeats": {
+        "comfort": "Sièges avant chauffés et ventilés à réglage électrique 12 directions avec mémoire et soutien lombaire.",
+        "adjustment": "12 directions incluant le soutien lombaire et l'accès facile.",
+        "material": "Cuir synthétique premium ou cuir véritable optionnel en noir, blanc ou crème."
+      },
+      "rearSeats": {
+        "legroom": "Excellent pour deux adultes. Le plancher plat améliore le confort de la place centrale.",
+        "headroom": "Adequat pour des passagers jusqu'à 1,90 m grâce au toit haut.",
+        "comfort": "Sièges arrière chauffants et climatisation séparée. L'écran de la deuxième rangée optionnel ajoute du divertissement.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 793,
+        "seatsDownCapacity": 1640,
+        "practicality": "Grand coffre de 793 L plus un coffre avant pour le stockage supplémentaire. Les sièges arrière se rabattent à plat.",
+        "loadingLip": "Seuil de chargement bas et large pour faciliter le chargement."
+      },
+      "infotainment": {
+        "screenSize": "17 pouces (2200 x 1300) écran tactile central",
+        "system": "Tesla OS avec mises à jour over-the-air et capacité de jeu",
+        "connectivity": [
+          "Apple CarPlay sans fil",
+          "Android Auto sans fil",
+          "Tesla App",
+          "Bluetooth 5.0"
+        ],
+        "soundSystem": "22 haut-parleurs, 960 W, réduction active du bruit",
+        "digitalCluster": true
+      }
+    },
+    "ar": {
+      "summary": "المقصورة تحفة في البساطة والتقليلية. شاشة مركزية 17 بوصة تسيطر على لوحة القيادة، بينما شاشة الصف الثاني والإضاءة المحيطة تكمل المقصورة المستقبلية.",
+      "frontSeats": {
+        "comfort": "مقاعد أمامية مدفأة ومبردة مع تعديل كهربائي 12 وضعية وذاكرة ودعم قطني.",
+        "adjustment": "12 اتجاهاً تشمل الدعم القطني والدخول السهل.",
+        "material": "جلد صناعي فاخر أو جلد طبيعي اختياري بالأسود أو الأبيض أو الكريم."
+      },
+      "rearSeats": {
+        "legroom": "ممتاز لشخصين بالغين. الأرضية المسطحة تحسن راحة المقعد الأوسط.",
+        "headroom": "كافٍ للركاب حتى 1.90 م بفضل السقف المرتفع.",
+        "comfort": "مقاعد خلفية مدفأة وتحكم منفصل في المناخ. الشاشة الاختيارية للصف الثاني تضيف ترفيهاً.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 793,
+        "seatsDownCapacity": 1640,
+        "practicality": "صندوق خلفي كبير 793 لتر بالإضافة إلى صندوق أمامي للتخزين الإضافي. المقاعد الخلفية تطوى بشكل مسطح.",
+        "loadingLip": "عتبة تحميل منخفضة وفتحة واسعة لتسهيل التحميل."
+      },
+      "infotainment": {
+        "screenSize": "17 بوصة (2200 × 1300) شاشة لمس مركزية",
+        "system": "نظام تيسلا مع تحديثات عبر الهواء وقدرة الألعاب",
+        "connectivity": [
+          "أبل كاربلاي لاسلكي",
+          "أندرويد أوتو لاسلكي",
+          "تطبيق تيسلا",
+          "بلوتوث 5.0"
+        ],
+        "soundSystem": "22 مكبراً، 960 واط، إلغاء نشط للضوضاء",
+        "digitalCluster": true
+      }
+    }
+  },
+  "technology": {
+    "es": {
+      "headUnit": {
+        "screenSize": "17 pulgadas (2200 x 1300)",
+        "resolution": "2200 x 1300 px",
+        "system": "Tesla OS con procesador AMD Ryzen",
+        "processor": "AMD Ryzen",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Control de voz natural Tesla con procesamiento en la nube"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Tesla Premium Connectivity",
+        "Tesla App"
+      ],
+      "audio": {
+        "system": "Premium Audio",
+        "speakers": 22,
+        "watts": 960
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Pantalla digital de 12.3 pulgadas detras del yoke",
+        "headUpDisplay": false,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Spotify",
+        "Netflix",
+        "YouTube",
+        "Twitch",
+        "Disney+"
+      ]
+    },
+    "en": {
+      "headUnit": {
+        "screenSize": "17 inches (2200 x 1300)",
+        "resolution": "2200 x 1300 px",
+        "system": "Tesla OS based on Linux with over-the-air updates",
+        "processor": "AMD Ryzen",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Natural-language voice commands"
+      },
+      "connectivity": [
+        "4G LTE",
+        "Wi-Fi hotspot",
+        "Tesla App remote control",
+        "Bluetooth 5.0"
+      ],
+      "audio": {
+        "system": "Premium",
+        "speakers": 22,
+        "watts": 960
+      },
+      "driverDisplays": {
+        "instrumentCluster": "12.3-inch digital display behind the steering wheel",
+        "headUpDisplay": false,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Netflix",
+        "YouTube",
+        "Spotify",
+        "Tidal"
+      ]
+    },
+    "fr": {
+      "headUnit": {
+        "screenSize": "17 pouces (2200 x 1300)",
+        "resolution": "2200 x 1300 px",
+        "system": "Tesla OS basé sur Linux avec mises à jour over-the-air",
+        "processor": "AMD Ryzen",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Commandes vocales en langage naturel"
+      },
+      "connectivity": [
+        "4G LTE",
+        "Wi-Fi hotspot",
+        "Tesla App contrôle à distance",
+        "Bluetooth 5.0"
+      ],
+      "audio": {
+        "system": "Premium",
+        "speakers": 22,
+        "watts": 960
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Écran numérique de 12,3 pouces derrière le volant",
+        "headUpDisplay": false,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Netflix",
+        "YouTube",
+        "Spotify",
+        "Tidal"
+      ]
+    },
+    "ar": {
+      "headUnit": {
+        "screenSize": "17 بوصة (2200 × 1300)",
+        "resolution": "2200 × 1300 بكسل",
+        "system": "نظام تيسلا مبني على لينكس مع تحديثات عبر الهواء",
+        "processor": "أي إم دي رايزن",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "أوامر صوتية باللغة الطبيعية"
+      },
+      "connectivity": [
+        "4 جي إل تي إي",
+        "نقطة اتصال واي فاي",
+        "تطبيق تيسلا للتحكم عن بعد",
+        "بلوتوث 5.0"
+      ],
+      "audio": {
+        "system": "ممتاز",
+        "speakers": 22,
+        "watts": 960
+      },
+      "driverDisplays": {
+        "instrumentCluster": "شاشة رقمية 12.3 بوصة خلف عجلة القيادة",
+        "headUpDisplay": false,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "نتفليكس",
+        "يوتيوب",
+        "سبوتيفاي",
+        "تايدل"
+      ]
+    }
+  },
+  "ownership": {
+    "es": {
+      "ownerReviews": [
+        {
+          "quote": "Llevo 35000 km con mi Model S Plaid y sigue emocionandome cada vez que piso el acelerador. La autonomia real es de unos 520 km en autopista a 120 km/h.",
+          "author": "Alex R.",
+          "location": "Barcelona, Espana",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Lo utilizo para viajes de negocios y escapadas. El Autopilot en autopista es un cambio de vida. La red de Supercargadores hace los viajes largos posibles sin estres.",
+          "author": "Maria G.",
+          "location": "Madrid, Espana",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Desgaste rapido de neumaticos traseros debido al alto par motor",
+          "frequency": "common",
+          "cost": "1200 EUR cada 20000 km"
+        },
+        {
+          "issue": "Ruidos de panel interior en baches",
+          "frequency": "occasional",
+          "cost": "Normalmente resuelto en servicio, ~100 EUR"
+        },
+        {
+          "issue": "Problemas menores con el yoke de direccion",
+          "frequency": "rare",
+          "cost": "Resuelto bajo garantia"
+        }
+      ],
+      "satisfactionRating": 9.1,
+      "dailyUsability": "Excelente como unico coche. El espacio interior es generoso y el maletero de 793 litros supera a muchos SUV. La conduccion de un solo pedal con regeneracion fuerte hace el trafico urbano relajado.",
+      "reliability": "Los motores electricos requieren poco mantenimiento. Tesla ofrece garantia de 8 anos/240000 km para la bateria. Algunos usuarios reportan problemas menores de calidad de montaje en paneles interiores.",
+      "longTrips": "Donde mejor se desempena. La red de Supercargadores es la mas extensa de Europa. Una parada de 20-25 minutos cada 350-400 km es suficiente. El Autopilot reduce la fatiga en autopista.",
+      "cityDriving": "Manejable para sus 5.02 metros gracias a la direccion de ratio variable. Las camaras y sensores facilitan el aparcamiento. La aceleracion instantanea permite incorporaciones seguras en rotondas."
+    },
+    "en": {
+      "ownerReviews": [
+        {
+          "quote": "I have driven 35,000 km with my Model S Plaid and it still excites me every time I press the accelerator. Real range is about 520 km on the highway at 120 km/h.",
+          "author": "Alex R.",
+          "location": "Barcelona, Spain",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "I use it for business trips and getaways. Autopilot on the motorway is a game changer. The Supercharger network makes long trips stress-free.",
+          "author": "Maria G.",
+          "location": "Madrid, Spain",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Rapid rear tire wear if driven aggressively",
+          "frequency": "common",
+          "cost": "Rear tire replacement every 15,000-25,000 km, ~700 EUR"
+        },
+        {
+          "issue": "Minor quality issues in early units (door seals, panel gaps)",
+          "frequency": "occasional",
+          "cost": "Usually resolved under warranty"
+        }
+      ],
+      "satisfactionRating": 9.2,
+      "dailyUsability": "Excellent as a daily car. The frunk and large trunk make it practical. One-pedal driving and Autopilot reduce fatigue in traffic.",
+      "reliability": "Battery and motors have proven reliable. The main concerns are minor trim issues and tire wear. Warranty covers battery for 8 years or 240,000 km.",
+      "longTrips": "Its natural environment. The Supercharger network makes charging fast and predictable. Range is sufficient for 400-500 km legs at highway speeds.",
+      "cityDriving": "Surprisingly manageable for its size. Cameras and sensors make parking easier. The tight turning radius helps in urban maneuvers."
+    },
+    "fr": {
+      "ownerReviews": [
+        {
+          "quote": "J'ai parcouru 35 000 km avec ma Model S Plaid et elle m'excite encore à chaque fois que j'appuie sur l'accélérateur. L'autonomie réelle est d'environ 520 km sur autoroute à 120 km/h.",
+          "author": "Alex R.",
+          "location": "Barcelone, Espagne",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "Je l'utilise pour des voyages d'affaires et des escapades. L'Autopilot sur autoroute est révolutionnaire. Le réseau Supercharger rend les longs trajets sans stress.",
+          "author": "Maria G.",
+          "location": "Madrid, Espagne",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Usure rapide des pneus arrière si conduite agressive",
+          "frequency": "common",
+          "cost": "Remplacement des pneus arrière tous les 15 000-25 000 km, ~700 EUR"
+        },
+        {
+          "issue": "Problèmes de finition mineurs sur les premières unités (joints de porte, écarts de panneaux)",
+          "frequency": "occasional",
+          "cost": "Généralement résolus sous garantie"
+        }
+      ],
+      "satisfactionRating": 9.2,
+      "dailyUsability": "Excellent au quotidien. Le coffre avant et le grand coffre arrière le rendent pratique. La conduite à une pédale et l'Autopilot réduisent la fatigue en ville.",
+      "reliability": "Batterie et moteurs se sont révélés fiables. Les principales préoccupations concernent les finitions et l'usure des pneus. La garantie couvre la batterie 8 ans ou 240 000 km.",
+      "longTrips": "Son environnement naturel. Le réseau Supercharger rend la charge rapide et prévisible. L'autonomie suffit pour des étapes de 400-500 km à vitesse autoroutière.",
+      "cityDriving": "Étonnamment maniable pour sa taille. Les caméras et capteurs facilitent le stationnement. Le rayon de braquage serré aide en ville."
+    },
+    "ar": {
+      "ownerReviews": [
+        {
+          "quote": "قطعت 35000 كم بـ موديل إس بليد ولا تزال تثير إعجابي في كل مرة أضغط فيها دواسة الوقود. المدى الحقيقي حوالي 520 كم على الطريق السريع بسرعة 120 كم/س.",
+          "author": "أليكس",
+          "location": "برشلونة، إسبانيا",
+          "ownsSince": "2024",
+          "rating": 9.5
+        },
+        {
+          "quote": "أستخدمها للرحلات العمل والخروج. أوتوبايلوت على الطريق السريع يغير حياة السائق. شبكة شاحن فائق تجعل الرحلات الطويلة ممكنة دون توتر.",
+          "author": "ماريا",
+          "location": "مدريد، إسبانيا",
+          "ownsSince": "2025",
+          "rating": 9
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "تآكل سريع للإطارات الخلفية في حال القيادة الرياضية",
+          "frequency": "شائع",
+          "cost": "استبدال الإطارات الخلفية كل 15000-25000 كم، حوالي 700 يورو"
+        },
+        {
+          "issue": "مشاكل جودة طفيفة في الوحدات المبكرة (أختام الأبواب، فجوات الألواح)",
+          "frequency": "متوسط",
+          "cost": "تحل عادةً تحت الضمان"
+        }
+      ],
+      "satisfactionRating": 9.2,
+      "dailyUsability": "ممتازة كسيارة يومية. الصندوق الأمامي والخلفي الكبير يجعلانها عملية. القيادة بدواسة واحدة وأوتوبايلوت يقللان التعب في الزحام.",
+      "reliability": "أثبتت البطارية والمحركات موثوقيتها. المخاوف الرئيسية تتعلق بالتشطيبات والإطارات. الضمان يغطي البطارية 8 سنوات أو 240000 كم.",
+      "longTrips": "بيئتها الطبيعية. شبكة شاحن فائق تجعل الشحن سريعاً ومتوقعاً. المدى كافٍ لمراحل 400-500 كم على سرعات الطريق السريع.",
+      "cityDriving": "قابلة للمناورة بشكل مدهش لحجمها. الكاميرات والحساسات تسهّل الوقوف. نصف قطر الدوران الضيق يساعد في المناورات الحضرية."
+    }
+  },
+  "content": {
+    "review": "El Tesla Model S Plaid redefine lo que un sedan electrico puede lograr. Con 1020 CV de potencia combinada de tres motores, alcanza los 100 km/h en 2.1 segundos, superando a muchos superdeportivos. Su bateria de 100 kWh ofrece 611 km de autonomia real segun WLTP.",
+    "pros": [
+      "Aceleracion de 0-100 en 2.1 segundos",
+      "Autonomia de 611 km (WLTP)",
+      "Red de Supercargadores exclusiva",
+      "Actualizaciones Over-The-Air constantes",
+      "Espacio interior y maletero de 793 litros"
+    ],
+    "cons": [
+      "Precio elevado para el segmento",
+      "Calidad de montaje inferior a rivales premium alemanes",
+      "Servicio postventa limitado en algunas zonas",
+      "Ruido de rodadura con llantas de 21 pulgadas"
+    ],
+    "verdict": "buy",
+    "timeline": [
+      {
+        "km": 10000,
+        "title": "Revisión anual básica",
+        "desc": "Cambio de aceite y filtros, revisión de motor B47, sistema mild-hybrid de 48V y comprobación de niveles.",
+        "cost": {
+          "value": 350,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص السنوي الأساسي",
+        "descAr": "تغيير الزيت والفلاتر، فحص محرك بي 47، نظام الهجين الخفيف 48 فولت وفحص المستويات."
+      },
+      {
+        "km": 30000,
+        "title": "Revisión intermedia",
+        "desc": "Sustitución de filtros de aire, habitáculo y líquido de frenos. Revisión de frenos delanteros.",
+        "cost": {
+          "value": 850,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص الدوري المتوسط",
+        "descAr": "استبدال فلاتر الهواء والمقصورة والسائل المكبحي. فحص الفرامل الأمامية."
+      },
+      {
+        "km": 60000,
+        "title": "Gran servicio",
+        "desc": "Cambio de líquido de frenos, refrigerante de batería y revisión del tren motriz eléctrico.",
+        "cost": {
+          "value": 1200,
+          "currency": "EUR"
+        },
+        "titleAr": "الصيانة الكبرى",
+        "descAr": "تغيير سائل الفرامل، مبرد البطارية وفحص مجموعة المحركات الكهربائية."
+      },
+      {
+        "km": 90000,
+        "title": "Suspensión y neumáticos",
+        "desc": "Revisión de amortiguadores, bieletas y juego de neumáticos de alto rendimiento.",
+        "cost": {
+          "value": 2200,
+          "currency": "EUR"
+        },
+        "titleAr": "التعليق والإطارات",
+        "descAr": "فحص المخمدات، وصلات التعليق ومجموعة الإطارات الرياضية."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuánta autonomía tiene el Tesla Model S Plaid 2026?",
+        "answer": "El Tesla Model S Plaid 2026 homologa hasta 611 km de autonomía WLTP y alrededor de 368 millas EPA."
+      },
+      {
+        "question": "¿Cuánto acelera el Model S Plaid de 0 a 100 km/h?",
+        "answer": "El Model S Plaid acelera de 0 a 100 km/h en 2.1 segundos con el modo Launch Control."
+      },
+      {
+        "question": "¿Cuál es el precio del Tesla Model S Plaid 2026?",
+        "answer": "El precio base en Estados Unidos es de 109.990 USD; en Europa ronda los 124.990–129.990 EUR antes de opciones."
+      },
+      {
+        "question": "¿Cuántos caballos tiene el Model S Plaid?",
+        "answer": "El Model S Plaid entrega 1.020 HP y 1.420 Nm de par gracias a sus tres motores eléctricos."
+      },
+      {
+        "question": "¿Cuánto tarda en cargar el Model S Plaid?",
+        "answer": "Con Supercharger V3 de 250 kW puede recuperar del 10% al 80% en aproximadamente 30 minutos."
+      },
+      {
+        "question": "¿Tesla Model S Plaid o Porsche Taycan Turbo S?",
+        "answer": "El Model S Plaid gana en aceleración, autonomía y red de carga. El Taycan ofrece mejor calidad de construcción y dinamismo."
+      },
+      {
+        "question": "¿Vale la pena comprar un Model S Plaid de segunda mano?",
+        "answer": "Sí, a partir de los 2-3 años. Revisar historial de software, batería y estado de neumáticos traseros."
+      }
+    ]
+  },
+  "rating": {
+    "overall": 9.2,
+    "performance": 10,
+    "comfort": 8.5,
+    "technology": 9.5,
+    "design": 8.5,
+    "value": 7.5,
+    "reliability": 8
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 16-18",
+        "uk": "Grupo 45-50",
+        "germany": "TK22-25"
+      },
+      "roadTax": {
+        "spain": "Exento en muchas comunidades",
+        "uk": "£0 VED",
+        "germany": "Exento 10 años"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 350,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/45 R19",
+          "costPerTyre": {
+            "value": 280,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/40 R19",
+          "costPerTyre": {
+            "value": 320,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Electricidad",
+        "tankCapacity": {
+          "value": 100,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 17,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 4,
+        "km": 80000,
+        "powertrain": {
+          "years": 8,
+          "km": 240000
+        }
+      }
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 16-18",
+        "uk": "Group 45-50",
+        "germany": "TK22-25"
+      },
+      "roadTax": {
+        "spain": "Exempt in many regions",
+        "uk": "£0 VED",
+        "germany": "10-year exempt"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 350,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/45 R19",
+          "costPerTyre": {
+            "value": 280,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/40 R19",
+          "costPerTyre": {
+            "value": 320,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Electricity",
+        "tankCapacity": {
+          "value": 100,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 17,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 4,
+        "km": 80000,
+        "powertrain": {
+          "years": 8,
+          "km": 240000
+        }
+      }
+    },
+    "fr": {
+      "insuranceGroups": {
+        "spain": "Groupe 16-18",
+        "uk": "Groupe 45-50",
+        "germany": "TK22-25"
+      },
+      "roadTax": {
+        "spain": "Exempt dans de nombreuses communautés",
+        "uk": "£0 VED",
+        "germany": "Exempt 10 ans"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 350,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1200,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/45 R19",
+          "costPerTyre": {
+            "value": 280,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "285/40 R19",
+          "costPerTyre": {
+            "value": 320,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Électricité",
+        "tankCapacity": {
+          "value": 100,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 17,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 4,
+        "km": 80000,
+        "powertrain": {
+          "years": 8,
+          "km": 240000
+        }
+      }
+    },
+    "ar": {
+      "insuranceGroups": {
+        "spain": "المجموعة 16-18",
+        "uk": "المجموعة 45-50",
+        "germany": "تي كي 22-25"
+      },
+      "roadTax": {
+        "spain": "معفاة في العديد من المقاطعات",
+        "uk": "£0 ضريبة المركبات",
+        "germany": "معفاة 10 سنوات"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 350,
+          "currency": "يورو"
+        },
+        "costMajor": {
+          "value": 1200,
+          "currency": "يورو"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "255/45 19",
+          "costPerTyre": {
+            "value": 280,
+            "currency": "يورو"
+          }
+        },
+        "rear": {
+          "size": "285/40 19",
+          "costPerTyre": {
+            "value": 320,
+            "currency": "يورو"
+          }
+        }
+      },
+      "fuel": {
+        "type": "كهرباء",
+        "tankCapacity": {
+          "value": 100,
+          "unit": "كيلوواط ساعة"
+        },
+        "realWorldCombined": {
+          "value": 17,
+          "unit": "كيلوواط ساعة/100 كم"
+        }
+      },
+      "warranty": {
+        "years": 4,
+        "km": 80000,
+        "powertrain": {
+          "years": 8,
+          "km": 240000
+        }
+      }
+    }
+  },
+  "ownerReviews": {
+    "es": [
+      {
+        "quote": "Llevo 35000 km con mi Model S Plaid y sigue emocionandome cada vez que piso el acelerador. La autonomia real es de unos 520 km en autopista a 120 km/h.",
+        "author": "Alex R.",
+        "location": "Barcelona, Espana",
+        "ownsSince": "2024",
+        "rating": 9.5
+      },
+      {
+        "quote": "Lo utilizo para viajes de negocios y escapadas. El Autopilot en autopista es un cambio de vida. La red de Supercargadores hace los viajes largos posibles sin estres.",
+        "author": "Maria G.",
+        "location": "Madrid, Espana",
+        "ownsSince": "2025",
+        "rating": 9
+      }
+    ]
+  },
+  "profileData": {
+    "es": {
+      "highway": {
+        "score": "95/100",
+        "title": "Autopista",
+        "desc": "Autopilot, confort y autonomía para viajes largos."
+      },
+      "city": {
+        "score": "85/100",
+        "title": "Ciudad",
+        "desc": "Manejable para sus 5.02 metros, aceleración instantánea."
+      },
+      "family": {
+        "score": "88/100",
+        "title": "Familiar",
+        "desc": "5 plazas y maletero de 793 litros."
+      },
+      "collector": {
+        "score": "80/100",
+        "title": "Coleccionista",
+        "desc": "Sedán eléctrico de referencia, pero no un clásico."
+      },
+      "track": {
+        "score": "90/100",
+        "title": "Circuito",
+        "desc": "Aceleración brutal, aunque el peso limita en curvas."
+      }
+    },
+    "en": {
+      "highway": {
+        "score": "95/100",
+        "title": "Highway",
+        "desc": "Autopilot, comfort and range for long trips."
+      },
+      "city": {
+        "score": "85/100",
+        "title": "City",
+        "desc": "Manageable for 5.02 meters, instant acceleration."
+      },
+      "family": {
+        "score": "88/100",
+        "title": "Family",
+        "desc": "5 seats and 793 L trunk."
+      },
+      "collector": {
+        "score": "80/100",
+        "title": "Collector",
+        "desc": "Reference electric sedan, not a classic."
+      },
+      "track": {
+        "score": "90/100",
+        "title": "Track",
+        "desc": "Brutal acceleration, though weight limits corners."
+      }
+    }
+  },
+  "usedGuide": {
+    "card1Title": "Kilometraje y estado",
+    "card1Items": [
+      "Hasta 60.000 km: mejor relación valor",
+      "Revisar historial de software y carga",
+      "Evitar unidades con desgaste irregular de neumáticos"
+    ],
+    "card2Title": "Mecánica",
+    "card2Items": [
+      "Revisar estado de batería y garantía",
+      "Comprobar frenos y líquidos",
+      "Revisar suspensión neumática"
+    ],
+    "card3Title": "Electrónica",
+    "card3Items": [
+      "Actualizaciones de software Tesla",
+      "Funcionamiento de Autopilot/FSD",
+      "Pantallas y conectividad"
+    ],
+    "card4Title": "Precio y reventa",
+    "card4Items": [
+      "Mejor compra a los 2-3 años",
+      "Colores populares: Pearl White, Midnight Silver",
+      "Unidades con FSD valoradas si se transfiere"
+    ]
+  },
+  "launchDate": "2021-06-01",
+  "productionYears": {
+    "start": 2021,
+    "end": null
+  },
+  "interiorCards": [
+    {
+      "id": "center-screen",
+      "icon": "screen"
+    },
+    {
+      "id": "premium-seats",
+      "icon": "seat"
+    },
+    {
+      "id": "minimalist-dash",
+      "icon": "display"
+    },
+    {
+      "id": "glass-roof",
+      "icon": "light"
+    },
+    {
+      "id": "gaming",
+      "icon": "game"
+    },
+    {
+      "id": "climate",
+      "icon": "climate"
+    },
+    {
+      "id": "autopilot",
+      "icon": "radar"
+    }
+  ],
+  "interiorText": {
+    "es": {
+      "center-screen": {
+        "title": "Pantalla central 17\"",
+        "desc": "Pantalla táctil horizontal de 17 pulgadas con 2200x1300 píxeles que controla casi todas las funciones del coche."
+      },
+      "premium-seats": {
+        "title": "Asientos premium",
+        "desc": "Asientos ventilados con ajuste eléctrico de 12 posiciones y acabados veganos."
+      },
+      "minimalist-dash": {
+        "title": "Salpicadero minimalista",
+        "desc": "Diseño limpio sin cuadro de instrumentos convencional; toda la información se muestra en la pantalla central."
+      },
+      "glass-roof": {
+        "title": "Techo de cristal",
+        "desc": "Techo panorámico de cristal que amplía la sensación de espacio y luz natural."
+      },
+      "gaming": {
+        "title": "Gaming a bordo",
+        "desc": "Procesador AMD Ryzen con capacidad para juegos AAA en la pantalla central."
+      },
+      "climate": {
+        "title": "HVAC biocontrol",
+        "desc": "Sistema de climatización con filtro HEPA y tres zonas independientes."
+      },
+      "autopilot": {
+        "title": "Autopilot",
+        "desc": "Cámaras, radares y ultrasonidos para conducción asistida en autopista y maniobras."
+      }
+    },
+    "en": {
+      "center-screen": {
+        "title": "17\" center screen",
+        "desc": "17-inch horizontal touchscreen with 2200x1300 pixels controlling nearly all car functions."
+      },
+      "premium-seats": {
+        "title": "Premium seats",
+        "desc": "Ventilated seats with 12-way electric adjustment and vegan finishes."
+      },
+      "minimalist-dash": {
+        "title": "Minimalist dashboard",
+        "desc": "Clean design without conventional instrument cluster; all info is shown on the center screen."
+      },
+      "glass-roof": {
+        "title": "Glass roof",
+        "desc": "Panoramic glass roof that increases the sense of space and natural light."
+      },
+      "gaming": {
+        "title": "In-car gaming",
+        "desc": "AMD Ryzen processor capable of AAA gaming on the center screen."
+      },
+      "climate": {
+        "title": "Biocontrol HVAC",
+        "desc": "Climate control with HEPA filter and three independent zones."
+      },
+      "autopilot": {
+        "title": "Autopilot",
+        "desc": "Cameras, radar and ultrasonic sensors for highway assist and manoeuvres."
+      }
+    },
+    "fr": {
+      "center-screen": {
+        "title": "Écran central 17\"",
+        "desc": "Écran tactile horizontal de 17 pouces avec 2200x1300 pixels contrôlant presque toutes les fonctions de la voiture."
+      },
+      "premium-seats": {
+        "title": "Sièges premium",
+        "desc": "Sièges ventilés avec réglage électrique 12 positions et finitions vegan."
+      },
+      "minimalist-dash": {
+        "title": "Tableau de bord minimaliste",
+        "desc": "Design épuré sans instrumentation conventionnelle; toutes les infos s affichent sur l écran central."
+      },
+      "glass-roof": {
+        "title": "Toit vitré",
+        "desc": "Toit panoramique en verre qui augmente la sensation d espace et la lumière naturelle."
+      },
+      "gaming": {
+        "title": "Gaming embarqué",
+        "desc": "Processeur AMD Ryzen capable de jeux AAA sur l écran central."
+      },
+      "climate": {
+        "title": "HVAC biocontrol",
+        "desc": "Climatisation avec filtre HEPA et trois zones indépendantes."
+      },
+      "autopilot": {
+        "title": "Autopilot",
+        "desc": "Caméras, radars et capteurs ultrasoniques pour l assistance sur autoroute et les manœuvres."
+      }
+    },
+    "ar": {
+      "center-screen": {
+        "title": "الشاشة المركزية 17\"",
+        "desc": "شاشة لمس أفقية 17 بوصة بدقة 2200×1300 تتحكم تقريباً في جميع وظائف السيارة."
+      },
+      "premium-seats": {
+        "title": "مقاعد فاخرة",
+        "desc": "مقاعد مهواة مع تعديل كهربائي 12 وضعاً ولمسات نباتية."
+      },
+      "minimalist-dash": {
+        "title": "لوحة قيادة بسيطة",
+        "desc": "تصميم نظيف بدون لوحة عدادات تقليدية؛ جميع المعلومات تظهر على الشاشة المركزية."
+      },
+      "glass-roof": {
+        "title": "سقف زجاجي",
+        "desc": "سقف بانورامي زجاجي يزيد إحساس المساحة والضوء الطبيعي."
+      },
+      "gaming": {
+        "title": "ألعاب داخل السيارة",
+        "desc": "معالج أي إم دي رايزن قادر على تشغيل ألعاب الفئة الثلاثية على الشاشة المركزية."
+      },
+      "climate": {
+        "title": "نظام نظام التكييف الحيوي",
+        "desc": "نظام تكييف مع فلتر هيبا وثلاث مناطق مستقلة."
+      },
+      "autopilot": {
+        "title": "أوتوبايلوت",
+        "desc": "كاميرات ورادارات ومستشعرات فوق صوتية للمساعدة على الطريق السريع والمناورات."
+      }
+    }
+  },
+  "countryPricing": {
+    "us": {
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "locale": "en-US",
+      "name": "United States",
+      "fuelMetric": false,
+      "priceNew": 109990,
+      "pricePerformance": 120000,
+      "priceCarbon": 135000,
+      "rivalM5": 110000,
+      "rivalAmg": 140000,
+      "fuelDefault": 20,
+      "fuelMin": 15,
+      "fuelMax": 25,
+      "fuelStep": 1,
+      "maintenance": 1500,
+      "inspection": 50,
+      "oilChange": 50,
+      "insurance": 2000,
+      "tyres": 1000,
+      "dep3": 65994,
+      "dep5": 49496,
+      "depAnnual": {
+        "used3": 14665,
+        "new": 21998,
+        "used5": 12099
+      },
+      "used3Range": "62,694 - 69,294 USD",
+      "used5Range": "47,021 - 51,971 USD",
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          121289
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          118549
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          118089
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          120829
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          119889
+        ]
+      ],
+      "options": [
+        2000,
+        2500,
+        6000,
+        2000,
+        15000,
+        0,
+        1200,
+        1000
+      ],
+      "roadTax": 55,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "flag": "🇮🇹",
+      "currency": "EUR",
+      "locale": "it-IT",
+      "name": "Italia",
+      "fuelMetric": true,
+      "priceNew": 100000,
+      "pricePerformance": 110000,
+      "priceCarbon": 125000,
+      "rivalM5": 105000,
+      "rivalAmg": 135000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 2500,
+      "inspection": 120,
+      "oilChange": 60,
+      "insurance": 1800,
+      "tyres": 1400,
+      "dep3": 60000,
+      "dep5": 45000,
+      "depAnnual": {
+        "used3": 13333,
+        "new": 20000,
+        "used5": 11000
+      },
+      "used3Range": "57,000 - 63,000 EUR",
+      "used5Range": "42,750 - 47,250 EUR",
+      "fiscalHead": [
+        "Regione",
+        "Imposta immatricolazione",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          122350
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          122320
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          122310
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          122300
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          122290
+        ]
+      ],
+      "options": [
+        2200,
+        2700,
+        6500,
+        2200,
+        16000,
+        0,
+        1300,
+        1100
+      ],
+      "roadTax": 450,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "flag": "🇪🇸",
+      "currency": "EUR",
+      "locale": "es-ES",
+      "name": "España",
+      "fuelMetric": true,
+      "priceNew": 100000,
+      "pricePerformance": 110000,
+      "priceCarbon": 125000,
+      "rivalM5": 105000,
+      "rivalAmg": 135000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 2000,
+      "inspection": 150,
+      "oilChange": 64,
+      "insurance": 1800,
+      "tyres": 1500,
+      "dep3": 60000,
+      "dep5": 45000,
+      "depAnnual": {
+        "used3": 13333,
+        "new": 20000,
+        "used5": 11000
+      },
+      "used3Range": "57,000 - 63,000 EUR",
+      "used5Range": "42,750 - 47,250 EUR",
+      "fiscalHead": [
+        "Región",
+        "Impuesto matriculación",
+        "ITV",
+        "Precio final"
+      ],
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "380 EUR",
+          121380
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "420 EUR",
+          121420
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "350 EUR",
+          121350
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "400 EUR",
+          121400
+        ],
+        [
+          "Comunidad Valenciana",
+          "21%",
+          "360 EUR",
+          121360
+        ]
+      ],
+      "options": [
+        2200,
+        2700,
+        6500,
+        2200,
+        16000,
+        0,
+        1300,
+        1100
+      ],
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "locale": "fr-FR",
+      "name": "France",
+      "fuelMetric": true,
+      "priceNew": 102000,
+      "pricePerformance": 112000,
+      "priceCarbon": 127000,
+      "rivalM5": 106000,
+      "rivalAmg": 136000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 3100,
+      "inspection": 90,
+      "oilChange": 68,
+      "insurance": 2400,
+      "tyres": 1550,
+      "dep3": 61200,
+      "dep5": 45900,
+      "depAnnual": {
+        "used3": 13600,
+        "new": 20400,
+        "used5": 11220
+      },
+      "used3Range": "58,140 - 64,260 EUR",
+      "used5Range": "43,605 - 48,195 EUR",
+      "fiscalHead": [
+        "Région",
+        "Malus CO₂",
+        "Carte grise",
+        "Prix final"
+      ],
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "350 EUR",
+          122750
+        ],
+        [
+          "Provence-Alpes-Côte d'Azur",
+          "20%",
+          "320 EUR",
+          122720
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          "20%",
+          "310 EUR",
+          122710
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "300 EUR",
+          122700
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "290 EUR",
+          122690
+        ]
+      ],
+      "options": [
+        2200,
+        2700,
+        6500,
+        2200,
+        16000,
+        0,
+        1300,
+        1100
+      ],
+      "roadTax": 51,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "flag": "🇲🇦",
+      "currency": "MAD",
+      "locale": "ar-MA",
+      "name": "المغرب",
+      "fuelMetric": true,
+      "priceNew": 800000,
+      "pricePerformance": 870000,
+      "priceCarbon": 950000,
+      "rivalM5": 1150000,
+      "rivalAmg": 1450000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 4000,
+      "inspection": 100,
+      "oilChange": 40,
+      "insurance": 14400,
+      "tyres": 3600,
+      "dep3": 480000,
+      "dep5": 360000,
+      "depAnnual": {
+        "used3": 106667,
+        "new": 160000,
+        "used5": 88000
+      },
+      "used3Range": "456,000 - 504,000 MAD",
+      "used5Range": "342,000 - 378,000 MAD",
+      "fiscalHead": [
+        "Région",
+        "TVA",
+        "TMC",
+        "Prix final"
+      ],
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "200 MAD",
+          960200
+        ],
+        [
+          "الرباط",
+          "20%",
+          "180 MAD",
+          960180
+        ],
+        [
+          "مراكش",
+          "20%",
+          "160 MAD",
+          960160
+        ],
+        [
+          "فاس",
+          "20%",
+          "150 MAD",
+          960150
+        ],
+        [
+          "طنجة",
+          "20%",
+          "170 MAD",
+          960170
+        ]
+      ],
+      "options": [
+        24000,
+        30000,
+        75000,
+        25000,
+        175000,
+        0,
+        14000,
+        12000
+      ],
+      "roadTax": 400,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "locale": "de-DE",
+      "name": "Deutschland",
+      "fuelMetric": true,
+      "priceNew": 100832,
+      "pricePerformance": 110000,
+      "priceCarbon": 125000,
+      "rivalM5": 104000,
+      "rivalAmg": 134000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 2900,
+      "inspection": 150,
+      "oilChange": 64,
+      "insurance": 2200,
+      "tyres": 1500,
+      "dep3": 60499,
+      "dep5": 45374,
+      "depAnnual": {
+        "used3": 13444,
+        "new": 20166,
+        "used5": 11092
+      },
+      "used3Range": "57,474 - 63,524 EUR",
+      "used5Range": "43,105 - 47,643 EUR",
+      "fiscalHead": [
+        "Bundesland",
+        "Kfz-Steuer",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "380 EUR",
+          120370
+        ],
+        [
+          "Nordrhein-Westfalen",
+          "19%",
+          "420 EUR",
+          120410
+        ],
+        [
+          "Berlin",
+          "19%",
+          "350 EUR",
+          120340
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "400 EUR",
+          120390
+        ],
+        [
+          "Hamburg",
+          "19%",
+          "360 EUR",
+          120350
+        ]
+      ],
+      "options": [
+        2200,
+        2700,
+        6500,
+        2200,
+        16000,
+        0,
+        1300,
+        1100
+      ],
+      "roadTax": 520,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "flag": "🇦🇪",
+      "currency": "AED",
+      "locale": "ar-AE",
+      "name": "الإمارات",
+      "fuelMetric": true,
+      "priceNew": 408257,
+      "pricePerformance": 440000,
+      "priceCarbon": 480000,
+      "rivalM5": 440000,
+      "rivalAmg": 550000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 2500,
+      "inspection": 100,
+      "oilChange": 70,
+      "insurance": 7349,
+      "tyres": 1837,
+      "dep3": 244954,
+      "dep5": 183716,
+      "depAnnual": {
+        "used3": 54434,
+        "new": 81651,
+        "used5": 44908
+      },
+      "used3Range": "232,706 - 257,202 AED",
+      "used5Range": "174,530 - 192,902 AED",
+      "fiscalHead": [
+        "Emirate",
+        "VAT",
+        "Reg.",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "دبي",
+          "5%",
+          "300 AED",
+          428970
+        ],
+        [
+          "أبو ظبي",
+          "5%",
+          "280 AED",
+          428950
+        ],
+        [
+          "الشارقة",
+          "5%",
+          "250 AED",
+          428920
+        ],
+        [
+          "عجمان",
+          "5%",
+          "220 AED",
+          428890
+        ],
+        [
+          "رأس الخيمة",
+          "5%",
+          "200 AED",
+          428870
+        ]
+      ],
+      "options": [
+        26000,
+        32000,
+        80000,
+        27000,
+        185000,
+        0,
+        15000,
+        13000
+      ],
+      "roadTax": 204,
+      "exchangeRateEUR": 3.97
+    },
+    "gb": {
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "locale": "en-GB",
+      "name": "United Kingdom",
+      "fuelMetric": true,
+      "priceNew": 100000,
+      "pricePerformance": 110000,
+      "priceCarbon": 125000,
+      "rivalM5": 95000,
+      "rivalAmg": 120000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 1800,
+      "inspection": 55,
+      "oilChange": 56,
+      "insurance": 1800,
+      "tyres": 1200,
+      "dep3": 60000,
+      "dep5": 45000,
+      "depAnnual": {
+        "used3": 13333,
+        "new": 20000,
+        "used5": 11000
+      },
+      "used3Range": "57,000 - 63,000 GBP",
+      "used5Range": "42,750 - 47,250 GBP",
+      "fiscalHead": [
+        "Region",
+        "VAT",
+        "VED",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "England",
+          "20% VAT",
+          "55 GBP",
+          120055
+        ],
+        [
+          "Scotland",
+          "20% VAT",
+          "55 GBP",
+          120055
+        ],
+        [
+          "Wales",
+          "20% VAT",
+          "55 GBP",
+          120055
+        ],
+        [
+          "Northern Ireland",
+          "20% VAT",
+          "55 GBP",
+          120055
+        ]
+      ],
+      "options": [
+        22000,
+        27000,
+        67000,
+        22000,
+        160000,
+        0,
+        13000,
+        11000
+      ],
+      "roadTax": 165,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "flag": "🇸🇦",
+      "currency": "SAR",
+      "locale": "ar-SA",
+      "name": "السعودية",
+      "fuelMetric": true,
+      "priceNew": 335689,
+      "pricePerformance": 360000,
+      "priceCarbon": 390000,
+      "rivalM5": 440000,
+      "rivalAmg": 550000,
+      "fuelDefault": 178,
+      "fuelMin": 130,
+      "fuelMax": 250,
+      "fuelStep": 5,
+      "maintenance": 2000,
+      "inspection": 100,
+      "oilChange": 60,
+      "insurance": 6042,
+      "tyres": 1511,
+      "dep3": 201413,
+      "dep5": 151060,
+      "depAnnual": {
+        "used3": 44759,
+        "new": 67138,
+        "used5": 36926
+      },
+      "used3Range": "191,342 - 211,484 SAR",
+      "used5Range": "143,507 - 158,613 SAR",
+      "fiscalHead": [
+        "Region",
+        "VAT",
+        "Reg.",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "200 SAR",
+          386242
+        ],
+        [
+          "جدة",
+          "15%",
+          "180 SAR",
+          386222
+        ],
+        [
+          "الدمام",
+          "15%",
+          "160 SAR",
+          386202
+        ],
+        [
+          "مكة",
+          "15%",
+          "170 SAR",
+          386212
+        ],
+        [
+          "المدينة",
+          "15%",
+          "150 SAR",
+          386192
+        ]
+      ],
+      "options": [
+        26000,
+        32000,
+        80000,
+        27000,
+        185000,
+        0,
+        15000,
+        13000
+      ],
+      "roadTax": 168,
+      "exchangeRateEUR": 4
+    }
+  },
+  "options": [
+    {
+      "id": "full-self-driving",
+      "name": "Full Self-Driving",
+      "description": "Conducción autónoma avanzada en ciudad y autopista.",
+      "price": {
+        "value": 15000,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "medium",
+      "nameAr": "القيادة الذاتية الكاملة"
+    },
+    {
+      "id": "premium-paint",
+      "name": "Pintura premium",
+      "description": "Colores multi-capas como rojo ultra o gris midnight.",
+      "price": {
+        "value": 2500,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "low",
+      "nameAr": "طلاء ممتاز"
+    },
+    {
+      "id": "21-wheels",
+      "name": "Llantas 21\"",
+      "description": "Llantas de aleación de 21 pulgadas con neumáticos de bajo perfil.",
+      "price": {
+        "value": 4500,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "جنوط 21 بوصة\""
+    },
+    {
+      "id": "white-interior",
+      "name": "Interior blanco/créme",
+      "description": "Tapicería premium en blanco con detalles en madera oscura.",
+      "price": {
+        "value": 2200,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "داخلية بيضاء/كريمية"
+    },
+    {
+      "id": "yoke-steering",
+      "name": "Volante yoke",
+      "description": "Volante rectangular sin coronas superior e inferior.",
+      "price": {
+        "value": 1200,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "دركسون يوك"
+    },
+    {
+      "id": "towing-hitch",
+      "name": "Enganche de remolque",
+      "description": "Enganche capaz de remolcar hasta 1.600 kg.",
+      "price": {
+        "value": 1300,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "خطاف سحب"
+    }
+  ],
+  "problems": {
+    "es": [
+      "Batería: degradación del 5-10% a los 80.000 km",
+      "Pantalla central: fallos ocasionales de resp táctil",
+      "Calidad de ensamblaje: holguras en paneles interiores",
+      "Suspensión neumática: costosa tras 100.000 km",
+      "Ruido de carretera: elevado con llantas de 21\""
+    ],
+    "en": [
+      "Battery: 5-10% degradation at 80,000 km",
+      "Central screen: occasional touch response failures",
+      "Build quality: gaps in interior panels",
+      "Air suspension: expensive after 100,000 km",
+      "Road noise: high with 21\" wheels"
+    ],
+    "fr": [
+      "Batterie : dégradation de 5-10% à 80 000 km",
+      "Écran central : pannes occasionnelles de réponse tactile",
+      "Qualité d'assemblage : jeux dans les panneaux intérieurs",
+      "Suspension pneumatique : coûteuse après 100 000 km",
+      "Bruit de route : élevé avec jantes de 21 pouces"
+    ],
+    "ar": [
+      "البطارية: تدهور 5-10% عند 80,000 كم",
+      "الشاشة المركزية: أعطال أحياناً في استجابة اللمس",
+      "جودة التجميع: فجوات في الألواح الداخلية",
+      "التعليق الهوائي: مكلف بعد 100,000 كم",
+      "ضجيج الطريق: مرتفع مع عجلات 21 بوصة"
+    ]
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 80,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 68,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 54,
+      "km": 75000
+    }
+  },
+  "drivetrainAr": "دفع رباعي"
+}

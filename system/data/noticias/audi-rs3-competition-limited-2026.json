@@ -1,0 +1,367 @@
+{
+    "id": "audi-rs3-competition-limited-2026",
+    "slug": "audi-rs3-competition-limited-2026",
+    "source": "audi-media-center",
+    "category": "lanzamientos",
+    "date": "2026-06-28",
+    "readingTime": 5,
+    "image": "../images/audi-rs3.2026/rs3-hero.jpeg",
+    "externalUrl": "https://www.audi-mediacenter.com/en/press-releases/glorious-five-audi-rs-3-competition-limited-17023",
+    "tags": [
+        "audi",
+        "rs3",
+        "competition limited",
+        "cinco cilindros"
+    ],
+    "relatedCars": [
+        {
+            "slug": "rs3",
+            "name": "Audi RS3",
+            "image": "../images/audi-rs3.2026/rs3-hero.jpeg"
+        }
+    ],
+    "relatedNews": [
+        "audi-rs7-performance-2026",
+        "bmw-m5-phev-record"
+    ],
+    "translations": {
+        "es": {
+            "title": "Audi RS3 Competition Limited 2026: 750 unidades para celebrar 50 años del cinco cilindros",
+            "subtitle": "Audi Sport rinde homenaje a medio siglo de motores cinco cilindros en línea con una edición limitada del RS3: 400 CV, suspensión coilover ajustable, frenos de carbono-cerámica y producción restringida a 750 unidades.",
+            "excerpt": "Audi Sport presenta una edición limitada del RS3 con 400 CV, suspensión coilover ajustable, frenos de carbono-cerámica y producción restringida a 750 unidades para celebrar el motor cinco cilindros en línea.",
+            "imageCaption": "Audi RS3 Competition Limited 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "El último cinco cilindros en producción",
+                    "paragraphs": [
+                        "El Audi RS3 Competition Limited mantiene el legendario motor 2.5 TFSI cinco cilindros en línea, el único motor de esta configuración todavía en producción en el mundo. Con 2.5 litros de cilindrada, entrega 400 CV (294 kW) y 500 Nm de par máximo, cifras que lo convierten en el compacto deportivo más potente de su segmento.",
+                        "El orden de encendido 1-2-4-5-3 es el responsable del sonido inconfundible del cinco cilindros, una sonoridad que Audi ha optimizado en esta edición con un control revisado de las válvulas del escape para un rugido más profundo en todo el rango de revoluciones.",
+                        "El conjunto se asocia a una caja de cambios S Tronic de siete velocidades y tracción total Quattro, permitiendo acelerar de 0 a 100 km/h en 3,8 segundos y alcanzar una velocidad máxima de 290 km/h de serie."
+                    ]
+                },
+                {
+                    "id": "chasis",
+                    "heading": "Suspensión coilover y dinámica radical",
+                    "paragraphs": [
+                        "El cambio más significativo de la Competition Limited respecto al RS3 estándar es la suspensión. Audi sustituye los amortiguadores adaptativos por un conjunto coilover ajustable, con amortiguadores de acero inoxidable en el eje delantero y de aluminio en el trasero. Esto permite una puesta a punto más precisa para uso en circuito.",
+                        "El estabilizador trasero es más rígido, lo que reduce el balanceo de la carrocería y mejora la respuesta en curvas cerradas. El sistema torque splitter del eje trasero, ya presente en el RS3 estándar, se conserva con su modo RS Torque Rear que permite derrapes controlados.",
+                        "Los frenos de carbono-cerámica con pinzas rojas son de serie en esta edición, junto con el escape deportivo RS que amplifica la experiencia acústica del cinco cilindros."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Edición limitada a 750 unidades para celebrar 50 años del cinco cilindros.",
+                "Motor 2.5 TFSI cinco cilindros con 400 CV (294 kW) y 500 Nm de par.",
+                "Aceleración de 0 a 100 km/h en 3,8 segundos y velocidad máxima de 290 km/h.",
+                "Suspensión coilover ajustable, frenos de carbono-cerámica y escape RS deportivo de serie.",
+                "Disponible como Sportback y Sedán; entregas en Europa desde mediados de 2026."
+            ],
+            "previousModel": {
+                "name": "Audi RS3 8Y (2022-2025)",
+                "year": "2022-2025",
+                "summary": "El RS3 de la generación 8Y ya ofrecía 400 CV y el sistema torque splitter trasero, pero con suspensión adaptativa estándar. La Competition Limited añade coilovers, elementos de carbono y numeración consecutiva."
+            },
+            "whatChanged": [
+                { "title": "Suspensión coilover:", "text": "Sustituye la adaptativa estándar por una suspensión coilover ajustable con amortiguadores de acero inoxidable delanteros y de aluminio traseros." },
+                { "title": "Estabilizador trasero más rígido:", "text": "Reduce el balanceo en curva y mejora la respuesta en conducción deportiva." },
+                { "title": "Frenos de carbono-cerámica:", "text": "Pinzas rojas y discos cerámicos de serie, antes opcionales." },
+                { "title": "Elementos de carbono mate:", "text": "Espejos, splitter delantero y difusor trasero en carbono mate visible." },
+                { "title": "Interior exclusivo:", "text": "Asientos RS bucket, detalles en Neodymium gold y numeración consecutiva." }
+            ],
+            "newTechnology": [
+                "El RS3 Competition Limited incorpora de serie el sistema de infoentretenimiento con pantalla táctil de 10,1 pulgadas, Apple CarPlay y Android Auto inalámbricos, y el sistema de audio Sonos de 15 altavoces.",
+                "El cuadro digital de 12,3 pulgadas incluye modos de visualización exclusivos RS que muestran datos de turbo, porcentaje de par y fuerzas G en tiempo real.",
+                "La iluminación ambiental interior se ha ampliado con inserciones en las tarjetas de las puertas, y el techo solar panorámico de cristal es de serie."
+            ],
+            "marketContext": "El RS3 Competition Limited se sitúa por encima del BMW M2 y del Mercedes-AMG A45 S en términos de exclusividad, con una producción limitada a 750 unidades. Su motor cinco cilindros lo hace único en el segmento de compactos deportivos, donde todos sus rivales utilizan motores de cuatro cilindros.",
+            "pricing": {
+                "price": "Desde 108.365 € (Sportback)",
+                "market": "Europa",
+                "availability": "Entregas desde mediados de 2026",
+                "note": "Estados Unidos recibirá solo la versión Sedán, con precio por confirmar."
+            },
+            "prosCons": {
+                "pros": [
+                    "Único motor cinco cilindros en producción, con sonido inconfundible.",
+                    "Suspensión coilover ajustable para uso en circuito.",
+                    "Frenos de carbono-cerámica y escape deportivo de serie.",
+                    "Edición limitada con numeración consecutiva y exclusividad."
+                ],
+                "cons": [
+                    "Precio elevado respecto al RS3 estándar.",
+                    "Solo 750 unidades, dificultad de adquisición.",
+                    "Suspensión coilover menos cómoda para uso diario."
+                ]
+            },
+            "opinion": "El RS3 Competition Limited es mucho más que una edición especial: es la despedida de una era. Con la llegada inminente de las normativas Euro 7, el cinco cilindros en línea tiene los días contados. Audi ha decidido despedirlo con una edición que combina lo mejor de su herencia mecánica con una puesta a punto radical orientada al circuito. Para los afortunados que consigan una de las 750 unidades, será una pieza de colección desde el primer día.",
+            "stats": [
+                { "value": "400 CV", "label": "Potencia" },
+                { "value": "500 Nm", "label": "Par máximo" },
+                { "value": "3,8 s", "label": "0-100 km/h" },
+                { "value": "290 km/h", "label": "Velocidad máxima" }
+            ],
+            "timeline": [
+                { "date": "1976", "title": "Primer cinco cilindros Audi", "desc": "Audi introduce su primer motor cinco cilindros en línea." },
+                { "date": "1983", "title": "Audi Sport quattro", "desc": "El Sport quattro desarrolla 306 CV con un cinco cilindros turbo de 2.1 litros." },
+                { "date": "2011", "title": "Primer RS3", "desc": "Audi lanza el primer RS3 con el motor 2.5 TFSI cinco cilindros." },
+                { "date": "2026", "title": "RS3 Competition Limited", "desc": "750 unidades para celebrar 50 años del cinco cilindros." }
+            ],
+            "keyFact": "El motor 2.5 TFSI del RS3 es el único cinco cilindros en línea actualmente en producción en el mundo. Su orden de encendido 1-2-4-5-3 genera una sonoridad asimétrica única, comparable a la de un seis cilindros en línea pero con un carácter más agresivo.",
+            "quote": { "text": "El RS3 Competition Limited es nuestro homenaje a medio siglo de motores cinco cilindros. Una obra de arte mecánica que no se repetirá.", "cite": "Audi Sport" }
+        },
+        "en": {
+            "title": "Audi RS3 Competition Limited 2026: 750 units to celebrate 50 years of the inline-five",
+            "subtitle": "Audi Sport pays homage to half a century of inline-five engines with a limited edition RS3: 400 hp, adjustable coilover suspension, carbon-ceramic brakes and production restricted to 750 units.",
+            "excerpt": "Audi Sport presents a limited edition RS3 with 400 hp, adjustable coilover suspension, carbon-ceramic brakes and production restricted to 750 units to celebrate the inline-five engine.",
+            "imageCaption": "Audi RS3 Competition Limited 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "The last inline-five in production",
+                    "paragraphs": [
+                        "The Audi RS3 Competition Limited retains the legendary 2.5 TFSI inline-five engine, the only engine of this configuration still in production worldwide. With 2.5 liters of displacement, it delivers 400 hp (294 kW) and 500 Nm of peak torque, making it the most powerful compact sports car in its segment.",
+                        "The firing order 1-2-4-5-3 is responsible for the unmistakable five-cylinder sound, a sonority that Audi has optimized in this edition with revised exhaust valve control for a deeper roar across the entire rev range.",
+                        "The package is mated to a seven-speed S Tronic dual-clutch gearbox and Quattro all-wheel drive, enabling 0 to 100 km/h in 3.8 seconds and a top speed of 290 km/h as standard."
+                    ]
+                },
+                {
+                    "id": "chasis",
+                    "heading": "Coilover suspension and radical dynamics",
+                    "paragraphs": [
+                        "The most significant change in the Competition Limited over the standard RS3 is the suspension. Audi replaces the adaptive dampers with an adjustable coilover setup, featuring stainless steel front shock absorbers and aluminum rear ones. This allows for a more precise setup for track use.",
+                        "The rear stabilizer is stiffer, reducing body roll and improving response in tight corners. The rear-axle torque splitter system, already present on the standard RS3, is retained with its RS Torque Rear mode that allows controlled drifts.",
+                        "Carbon-ceramic brakes with red calipers are standard on this edition, along with the RS sport exhaust that amplifies the acoustic experience of the five-cylinder engine."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Limited edition of 750 units to celebrate 50 years of the inline-five.",
+                "2.5 TFSI inline-five engine with 400 hp (294 kW) and 500 Nm of torque.",
+                "Acceleration from 0 to 100 km/h in 3.8 seconds and top speed of 290 km/h.",
+                "Adjustable coilover suspension, carbon-ceramic brakes and RS sport exhaust as standard.",
+                "Available as Sportback and Sedan; European deliveries from mid-2026."
+            ],
+            "previousModel": {
+                "name": "Audi RS3 8Y (2022-2025)",
+                "year": "2022-2025",
+                "summary": "The 8Y-generation RS3 already offered 400 hp and the rear torque splitter system, but with standard adaptive suspension. The Competition Limited adds coilovers, carbon elements and consecutive numbering."
+            },
+            "whatChanged": [
+                { "title": "Coilover suspension:", "text": "Replaces the standard adaptive setup with an adjustable coilover suspension featuring stainless steel front and aluminum rear shock absorbers." },
+                { "title": "Stiffer rear stabilizer:", "text": "Reduces body roll and improves response in sporty driving." },
+                { "title": "Carbon-ceramic brakes:", "text": "Red calipers and ceramic discs as standard, previously optional." },
+                { "title": "Matte carbon elements:", "text": "Mirrors, front splitter and rear diffuser in visible matte carbon." },
+                { "title": "Exclusive interior:", "text": "RS bucket seats, Neodymium gold details and consecutive numbering." }
+            ],
+            "newTechnology": [
+                "The RS3 Competition Limited comes standard with the infotainment system featuring a 10.1-inch touchscreen, wireless Apple CarPlay and Android Auto, and the 15-speaker Sonos audio system.",
+                "The 12.3-inch digital cluster includes exclusive RS display modes showing turbo boost, torque percentage and G-forces in real time.",
+                "Ambient interior lighting has been expanded with inserts on the door cards, and the panoramic glass sunroof is standard."
+            ],
+            "marketContext": "The RS3 Competition Limited sits above the BMW M2 and Mercedes-AMG A45 S in terms of exclusivity, with production limited to 750 units. Its five-cylinder engine makes it unique in the compact sports segment, where all rivals use four-cylinder engines.",
+            "pricing": {
+                "price": "From €108,365 (Sportback)",
+                "market": "Europe",
+                "availability": "Deliveries from mid-2026",
+                "note": "The United States will receive only the Sedan version, pricing to be confirmed."
+            },
+            "prosCons": {
+                "pros": [
+                    "Only inline-five engine in production, with unmistakable sound.",
+                    "Adjustable coilover suspension for track use.",
+                    "Carbon-ceramic brakes and sport exhaust as standard.",
+                    "Limited edition with consecutive numbering and exclusivity."
+                ],
+                "cons": [
+                    "High price compared to the standard RS3.",
+                    "Only 750 units, difficult to acquire.",
+                    "Coilover suspension less comfortable for daily use."
+                ]
+            },
+            "opinion": "The RS3 Competition Limited is much more than a special edition: it is the farewell of an era. With the imminent arrival of Euro 7 regulations, the inline-five engine's days are numbered. Audi has decided to bid it farewell with an edition that combines the best of its mechanical heritage with a radical track-focused setup. For the lucky few who secure one of the 750 units, it will be a collector's piece from day one.",
+            "stats": [
+                { "value": "400 hp", "label": "Power" },
+                { "value": "500 Nm", "label": "Torque" },
+                { "value": "3.8 s", "label": "0-100 km/h" },
+                { "value": "290 km/h", "label": "Top speed" }
+            ],
+            "timeline": [
+                { "date": "1976", "title": "First Audi inline-five", "desc": "Audi introduces its first inline-five cylinder engine." },
+                { "date": "1983", "title": "Audi Sport quattro", "desc": "The Sport quattro develops 306 hp from a 2.1-liter turbo five." },
+                { "date": "2011", "title": "First RS3", "desc": "Audi launches the first RS3 with the 2.5 TFSI five-cylinder engine." },
+                { "date": "2026", "title": "RS3 Competition Limited", "desc": "750 units to celebrate 50 years of the inline-five." }
+            ],
+            "keyFact": "The RS3's 2.5 TFSI engine is the only inline-five currently in production in the world. Its firing order 1-2-4-5-3 generates a unique asymmetric sonority, comparable to an inline-six but with a more aggressive character.",
+            "quote": { "text": "The RS3 Competition Limited is our tribute to half a century of five-cylinder engines. A mechanical work of art that will not be repeated.", "cite": "Audi Sport" }
+        },
+        "fr": {
+            "title": "Audi RS3 Competition Limited 2026 : 750 unités pour célébrer 50 ans du cinq cylindres",
+            "subtitle": "Audi Sport rend hommage à un demi-siècle de moteurs cinq cylindres en ligne avec une édition limitée du RS3 : 400 ch, suspension coilover réglable, freins carbone-céramique et production restreinte à 750 unités.",
+            "excerpt": "Audi Sport présente une édition limitée du RS3 avec 400 ch, suspension coilover réglable, freins carbone-céramique et production restreinte à 750 unités pour célébrer le moteur cinq cylindres en ligne.",
+            "imageCaption": "Audi RS3 Competition Limited 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "Le dernier cinq cylindres en production",
+                    "paragraphs": [
+                        "L'Audi RS3 Competition Limited conserve le légendaire moteur 2.5 TFSI cinq cylindres en ligne, le seul moteur de cette configuration encore en production au monde. Avec 2,5 litres de cylindrée, il délivre 400 ch (294 kW) et 500 Nm de couple maximal, ce qui en fait la compacte sportive la plus puissante de son segment.",
+                        "L'ordre d'allumage 1-2-4-5-3 est responsable du son inconfondable du cinq cylindres, une sonorité qu'Audi a optimisée dans cette édition avec un contrôle révisé des soupapes d'échappement pour un rugissement plus profond sur toute la plage de régimes.",
+                        "L'ensemble est associé à une boîte S Tronic à sept vitesses et une transmission Quattro, permettant d'accélérer de 0 à 100 km/h en 3,8 secondes et d'atteindre une vitesse maximale de 290 km/h de série."
+                    ]
+                },
+                {
+                    "id": "chasis",
+                    "heading": "Suspension coilover et dynamique radicale",
+                    "paragraphs": [
+                        "Le changement le plus significatif de la Competition Limited par rapport au RS3 standard est la suspension. Audi remplace les amortisseurs adaptatifs par un ensemble coilover réglable, avec des amortisseurs en acier inoxydable à l'avant et en aluminium à l'arrière. Cela permet un réglage plus précis pour une utilisation sur circuit.",
+                        "La barre stabilisatrice arrière est plus rigide, réduisant le roulis de la carrosserie et améliorant la réponse dans les virages serrés. Le système torque splitter de l'essieu arrière, déjà présent sur le RS3 standard, est conservé avec son mode RS Torque Rear qui permet des dérapages contrôlés.",
+                        "Les freins carbone-céramique avec étriers rouges sont de série sur cette édition, ainsi que l'échappement sport RS qui amplifie l'expérience acoustique du cinq cylindres."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Édition limitée à 750 unités pour célébrer 50 ans du cinq cylindres.",
+                "Moteur 2.5 TFSI cinq cylindres avec 400 ch (294 kW) et 500 Nm de couple.",
+                "Accélération de 0 à 100 km/h en 3,8 secondes et vitesse maximale de 290 km/h.",
+                "Suspension coilover réglable, freins carbone-céramique et échappement sport RS de série.",
+                "Disponible en Sportback et Berline ; livraisons en Europe depuis mi-2026."
+            ],
+            "previousModel": {
+                "name": "Audi RS3 8Y (2022-2025)",
+                "year": "2022-2025",
+                "summary": "Le RS3 de génération 8Y offrait déjà 400 ch et le système torque splitter arrière, mais avec une suspension adaptative standard. La Competition Limited ajoute des coilovers, des éléments en carbone et une numérotation consécutive."
+            },
+            "whatChanged": [
+                { "title": "Suspension coilover :", "text": "Remplace l'adaptative standard par une suspension coilover réglable avec amortisseurs en acier inoxydable à l'avant et en aluminium à l'arrière." },
+                { "title": "Barre stabilisatrice arrière plus rigide :", "text": "Réduit le roulis en virage et améliore la réponse en conduite sportive." },
+                { "title": "Freins carbone-céramique :", "text": "Étriers rouges et disques céramiques de série, auparavant en option." },
+                { "title": "Éléments en carbone mat :", "text": "Rétroviseurs, splitter avant et diffuseur arrière en carbone mat visible." },
+                { "title": "Intérieur exclusif :", "text": "Sièges RS bucket, détails en Neodymium gold et numérotation consécutive." }
+            ],
+            "newTechnology": [
+                "Le RS3 Competition Limited est équipé de série du système d'infodivertissement avec écran tactile de 10,1 pouces, Apple CarPlay et Android Auto sans fil, et le système audio Sonos de 15 haut-parleurs.",
+                "Le combiné numérique de 12,3 pouces inclut des modes d'affichage exclusifs RS montrant la suralimentation, le pourcentage de couple et les forces G en temps réel."
+            ],
+            "marketContext": "Le RS3 Competition Limited se situe au-dessus du BMW M2 et du Mercedes-AMG A45 S en termes d'exclusivité, avec une production limitée à 750 unités. Son moteur cinq cylindres le rend unique dans le segment des compactes sportives, où tous ses rivaux utilisent des moteurs quatre cylindres.",
+            "pricing": {
+                "price": "À partir de 108 365 € (Sportback)",
+                "market": "Europe",
+                "availability": "Livraisons depuis mi-2026",
+                "note": "Les États-Unis ne recevront que la version Berline, prix à confirmer."
+            },
+            "prosCons": {
+                "pros": [
+                    "Seul moteur cinq cylindres en production, son inconfondible.",
+                    "Suspension coilover réglable pour le circuit.",
+                    "Freins carbone-céramique et échappement sport de série.",
+                    "Édition limitée avec numérotation consécutive."
+                ],
+                "cons": [
+                    "Prix élevé par rapport au RS3 standard.",
+                    "Seulement 750 unités, difficile à acquérir.",
+                    "Suspension coilover moins confortable au quotidien."
+                ]
+            },
+            "opinion": "Le RS3 Competition Limited est bien plus qu'une édition spéciale : c'est l'adieu d'une époque. Avec l'arrivée imminente des normes Euro 7, le cinq cylindres en ligne a ses jours comptés. Audi a décidé de lui dire adieu avec une édition qui combine le meilleur de son héritage mécanique avec un réglage radical orienté circuit. Pour les chanceux qui obtiendront l'une des 750 unités, ce sera une pièce de collection dès le premier jour.",
+            "stats": [
+                { "value": "400 ch", "label": "Puissance" },
+                { "value": "500 Nm", "label": "Couple max" },
+                { "value": "3,8 s", "label": "0-100 km/h" },
+                { "value": "290 km/h", "label": "Vitesse max" }
+            ],
+            "timeline": [
+                { "date": "1976", "title": "Premier cinq cylindres Audi", "desc": "Audi introduit son premier moteur cinq cylindres en ligne." },
+                { "date": "1983", "title": "Audi Sport quattro", "desc": "Le Sport quattro développe 306 ch avec un cinq cylindres turbo de 2,1 litres." },
+                { "date": "2011", "title": "Premier RS3", "desc": "Audi lance le premier RS3 avec le moteur 2.5 TFSI cinq cylindres." },
+                { "date": "2026", "title": "RS3 Competition Limited", "desc": "750 unités pour célébrer 50 ans du cinq cylindres." }
+            ],
+            "keyFact": "Le moteur 2.5 TFSI du RS3 est le seul cinq cylindres en ligne actuellement en production au monde. Son ordre d'allumage 1-2-4-5-3 génère une sonorité asymétrique unique, comparable à un six cylindres en ligne mais avec un caractère plus agressif.",
+            "quote": { "text": "Le RS3 Competition Limited est notre hommage à un demi-siècle de moteurs cinq cylindres. Une œuvre d'art mécanique qui ne se répétera pas.", "cite": "Audi Sport" }
+        },
+        "ar": {
+            "title": "أودي آر إس 3 كومبتيشن ليميتد 2026: 750 وحدة للاحتفال بـ 50 عاماً من المحرك خماسي الأسطوانات",
+            "subtitle": "أودي سبورت تكريم نصف قرن من محركات خماسي الأسطوانات بخط مستقيم بإصدار محدود من آر إس 3: 400 حصان، تعليق كويل أوفر قابل للضبط، مكابح كربون-سيراميك وإنتاج محدود بـ 750 وحدة.",
+            "excerpt": "تقدم أودي سبورت إصداراً محدوداً من آر إس 3 بـ 400 حصان، تعليق كويل أوفر قابل للضبط، مكابح كربون-سيراميك وإنتاج محدود بـ 750 وحدة للاحتفال بمحرك خماسي الأسطوانات بخط مستقيم.",
+            "imageCaption": "Audi RS3 Competition Limited 2026.",
+            "sections": [
+                {
+                    "id": "motor",
+                    "heading": "آخر خماسي الأسطوانات في الإنتاج",
+                    "paragraphs": [
+                        "يحتفظ أودي آر إس 3 كومبتيشن ليميتد بالمحرك الأسطوري 2.5 TFSI خماسي الأسطوانات بخط مستقيم، المحرك الوحيد بهذا التكوين لا يزال في الإنتاج في العالم. بسعة 2.5 لتر، ينتج 400 حصان (294 كيلوواط) و500 نيوتن متر من العزم الأقصى، مما يجعله السيارة الرياضية المدمجة الأقوى في فئتها.",
+                        "ترتيب الإشعال 1-2-4-5-3 مسؤول عن الصوت المميز للمحرك خماسي الأسطوانات، صوتية قامت أودي بتحسينها في هذا الإصدار مع تحكم منقح لصمامات العادم لصوت أعمق في جميع نطاقات الدوران.",
+                        "يرتبط المجموع بناقل حركة S Tronic بسبع سرعات ودفع رباعي Quattro، مما يسمح بالتسارع من 0 إلى 100 كم/س في 3.8 ثوان والوصول لسرعة قصوى 290 كم/س كتجهيز قياسي."
+                    ]
+                },
+                {
+                    "id": "chasis",
+                    "heading": "تعليق كويل أوفر وديناميكية متطرفة",
+                    "paragraphs": [
+                        "التغيير الأبرز في كومبتيشن ليميتد مقارنة بـ RS3 القياسي هو التعليق. تستبدل أودي الممتصات التكييفية بمجموعة كويل أوفر قابلة للضبط، بممتصات من الفولاذ المقاوم للصدأ في المحور الأمامي والألمنيوم في الخلفي. هذا يسمح بضبط أكثر دقة للاستخدام على الحلبة.",
+                        "المثبت الخلفي أكثر صلابة، مما يقلل ميل الهيكل ويحسن الاستجابة في المنعطفات الضيقة. نظام توزيع العزم في المحور الخلفي، الموجود بالفعل في RS3 القياسي، محفوظ مع وضع RS Torque Rear الذي يسمح بانزلاق контролي.",
+                        "المكابح الكربون-سيراميك بمكابس حمراء قياسية في هذا الإصدار، مع عادم RS الرياضي الذي يضخم التجربة الصوتية للمحرك خماسي الأسطوانات."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "إصدار محدود بـ 750 وحدة للاحتفال بـ 50 عاماً من خماسي الأسطوانات.",
+                "محرك 2.5 TFSI خماسي الأسطوانات بـ 400 حصان (294 كيلوواط) و500 نيوتن متر من العزم.",
+                "تسارع من 0 إلى 100 كم/س في 3.8 ثوان وسرعة قصوى 290 كم/س.",
+                "تعليق كويل أوفر قابل للضبط، مكابح كربون-سيراميك وعادم رياضي RS كتجهيز قياسي.",
+                "متوفر بسيدان وسبورت باك؛ التسليم في أوروبا من منتصف 2026."
+            ],
+            "previousModel": {
+                "name": "Audi RS3 8Y (2022-2025)",
+                "year": "2022-2025",
+                "summary": "عرض RS3 من الجيل 8Y بالفعل 400 حصان ونظام توزيع العزم الخلفي، لكن بتعليق تكيفي قياسي. تضيف كومبتيشن ليميتد كويل أوفرز وعناصر كربون وترقيم تسلسلي."
+            },
+            "whatChanged": [
+                { "title": "تعليق كويل أوفر:", "text": "يستبدل التعليق التكيفي القياسي بتعليق كويل أوفر قابل للضبط بممتصات من الفولاذ المقاوم للصدأ أمامياً والألمنيوم خلفياً." },
+                { "title": "مثبت خلفي أكثر صلابة:", "text": "يقلل الميل في المنعطفات ويحسن الاستجابة في القيادة الرياضية." },
+                { "title": "مكابح كربون-سيراميك:", "text": "مكابس حمراء وأقراص سيراميك قياسية، كانت اختيارية سابقاً." },
+                { "title": "عناصر كربون مطفي:", "text": "المرايا، الشريحة الأمامية والناشر الخلفي بكربون مطفي مرئي." },
+                { "title": "داخل حصري:", "text": "مقاعد RS bucket، تفاصيل بلون Neodymium gold وترقيم تسلسلي." }
+            ],
+            "newTechnology": [
+                "يأتي RS3 كومبتيشن ليميتد قياسياً بنظام المعلومات والترفيه بشاشة لمسية 10.1 بوصة، Apple CarPlay وAndroid Auto لاسلكياً، ونظام صوت Sonos بـ 15 مكبراً.",
+                "تتضمن الكتلة الرقمية 12.3 بوصة أوضاع عرض حصرية RS تظهر ضغط التوربو ونسبة العزم وقوى G في الوقت الفعلي."
+            ],
+            "marketContext": "يقع RS3 كومبتيشن ليميتد فوق BMW M2 وMercedes-AMG A45 S من حيث الحصرية، بإنتاج محدود بـ 750 وحدة. محركه خماسي الأسطوانات يجعله فريداً في فئة السيارات الرياضية المدمجة، حيث يستخدم جميع منافسيه محركات رباعية الأسطوانات.",
+            "pricing": {
+                "price": "ابتداءً من 108,365 يورو (سبورت باك)",
+                "market": "أوروبا",
+                "availability": "التسليم من منتصف 2026",
+                "note": "ستستقبل الولايات المتحدة نسخة السيدان فقط، السعر سيحدد لاحقاً."
+            },
+            "prosCons": {
+                "pros": [
+                    "المحرك الوحيد خماسي الأسطوانات في الإنتاج، بصوت لا يخطأ.",
+                    "تعليق كويل أوفر قابل للضبط للحلبة.",
+                    "مكابح كربون-سيراميك وعادم رياضي قياسي.",
+                    "إصدار محدود بترقيم تسلسلي وحصرية."
+                ],
+                "cons": [
+                    "سعر مرتفع مقارنة بـ RS3 القياسي.",
+                    "750 وحدة فقط، صعوبة في الحصول عليها.",
+                    "تعليق كويل أوفر أقل راحة للاستخدام اليومي."
+                ]
+            },
+            "opinion": "RS3 كومبتيشن ليميتد أكثر من مجرد إصدار خاص: إنه وداع حقبة. مع وصول معايير Euro 7 الوشيك، أيام محرك خماسي الأسطوانات معدودة. قررت أودي توديعه بإصدار يجمع أفضل إرثها الميكانيكي مع ضبط جذري موجه للحلبة. للمحظوظين الذين سيحصلون على إحدى 750 وحدة، ستكون قطعة جمع منذ اليوم الأول.",
+            "stats": [
+                { "value": "400 حصان", "label": "القوة" },
+                { "value": "500 نيوتن متر", "label": "العزم الأقصى" },
+                { "value": "3.8 ثانية", "label": "0-100 كم/س" },
+                { "value": "290 كم/س", "label": "السرعة القصوى" }
+            ],
+            "timeline": [
+                { "date": "1976", "title": "أول خماسي أسطوانات أودي", "desc": "تقدم أودي أول محرك خماسي أسطوانات بخط مستقيم." },
+                { "date": "1983", "title": "أودي سبورت كواترو", "desc": "يطور سبورت كواترو 306 حصان بمحرك توربو خماسي 2.1 لتر." },
+                { "date": "2011", "title": "أول RS3", "desc": "تطلق أودي أول RS3 بمحرك 2.5 TFSI خمائي الأسطوانات." },
+                { "date": "2026", "title": "RS3 كومبتيشن ليميتد", "desc": "750 وحدة للاحتفال بـ 50 عاماً من خماسي الأسطوانات." }
+            ],
+            "keyFact": "محرك 2.5 TFSI في RS3 هو المحرك الوحيد خمائي الأسطوانات بخط مستقيم في الإنتاج حالياً في العالم. ترتيب إشعاله 1-2-4-5-3 يولد صوتية غير متماثلة فريدة، قابلة للمقارنة بمحرك سداسي الأسطوانات لكن بطابع أكثر عدوانية.",
+            "quote": { "text": "RS3 كومبتيشن ليميتد هو تكريمنا لنصف قرن من محركات خماسي الأسطوانات. قطعة فنية ميكانيكية لن تتكرر.", "cite": "أودي سبورت" }
+        }
+    }
+}

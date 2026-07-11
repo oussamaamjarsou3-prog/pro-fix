@@ -1,0 +1,227 @@
+{
+    "id":  "cambiar-frenos",
+    "slug":  "cambiar-frenos",
+    "category":  "maintenance",
+    "author":  "CarSpecio Technical Team",
+    "publishedAt":  "2026-06-20",
+    "updatedAt":  "2026-06-20",
+    "heroImage":  "../../images/placeholder.svg",
+    "readingTime":  12,
+    "difficulty":  "intermediate",
+    "status":  "active",
+    "content":  {
+                    "es":  {
+                               "title":  "Cómo cambiar los frenos del coche: pastillas y discos",
+                               "excerpt":  "Aprende a cambiar las pastillas y discos de freno de forma segura. Guía detallada para mantener la seguridad de tu vehículo.",
+                               "intro":  "Los frenos son el sistema de seguridad más importante de tu coche. Cambiar las pastillas es una tarea que requiere precisión pero que puedes hacer en tu garaje con las herramientas adecuadas.",
+                               "sections":  [
+                                                {
+                                                    "id":  "seguridad",
+                                                    "title":  "Medidas de seguridad",
+                                                    "content":  "\u003cp\u003eAntes de empezar, asegúrate de tener el coche aparcado en superficie plana, con el freno de mano activado y las ruedas bloqueadas. Nunca trabajes bajo un coche sujeto únicamente por un gato hidráulico.\u003c/p\u003e",
+                                                    "callout":  {
+                                                                    "type":  "warning",
+                                                                    "text":  "El sistema de frenos es crítico para la seguridad. Si tienes dudas, acude a un taller profesional."
+                                                                }
+                                                },
+                                                {
+                                                    "id":  "herramientas",
+                                                    "title":  "Herramientas necesarias",
+                                                    "content":  "\u003cp\u003eNecesitarás: juego de pastillas de freno nuevas, discos nuevos (si los vas a cambiar), una llave de carraca con vasos, un pistón de freno o pinza grande, guantes, gafas y un recipiente para recoger el líquido de frenos.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "pastillas",
+                                                    "title":  "Cambiar las pastillas",
+                                                    "content":  "\u003cp\u003eRetira la rueda. Localiza la pinza de freno y retira los tornillos guía. Levanta la pinza sin desconectar la manguera. Extrae las pastillas viejas. Empuja el pistón hacia dentro con la pinza o el pistón de freno. Coloca las pastillas nuevas y vuelve a montar la pinza.\u003c/p\u003e"
+                                                }
+                                            ],
+                               "faq":  [
+                                           {
+                                               "question":  "¿Cada cuánto debo cambiar las pastillas?",
+                                               "answer":  "Depende del uso, pero generalmente cada 30.000-50.000 km. Revisa el espesor mínimo recomendado por el fabricante."
+                                           }
+                                       ],
+                               "seo":  {
+                                           "title":  "Cómo cambiar los frenos del coche | Guía CarSpecio",
+                                           "description":  "Guía paso a paso para cambiar pastillas y discos de freno. Mantén la seguridad de tu vehículo con este tutorial.",
+                                           "keywords":  [
+                                                            "cambiar frenos",
+                                                            "pastillas freno",
+                                                            "mantenimiento coche",
+                                                            "seguridad vehículo",
+                                                            "discos freno"
+                                                        ]
+                                       }
+                           },
+                    "en":  {
+                               "title":  "How to Change Car Brakes: Pads and Discs",
+                               "excerpt":  "Learn to change brake pads and discs safely. Detailed guide to maintain your vehicle\u0027s safety.",
+                               "intro":  "Brakes are the most important safety system in your car. Changing brake pads is a task that requires precision but can be done in your garage with the right tools.",
+                               "sections":  [
+                                                {
+                                                    "id":  "safety",
+                                                    "title":  "Safety Measures",
+                                                    "content":  "\u003cp\u003eBefore starting, make sure the car is parked on a flat surface, with the handbrake engaged and wheels blocked. Never work under a car held only by a hydraulic jack.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "tools",
+                                                    "title":  "Tools Needed",
+                                                    "content":  "\u003cp\u003eYou will need: new brake pad set, new discs (if changing them), a ratchet wrench with sockets, a brake piston or large pliers, gloves, goggles, and a container to collect brake fluid.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "pads",
+                                                    "title":  "Changing the Brake Pads",
+                                                    "content":  "\u003cp\u003eRemove the wheel. Locate the brake caliper and remove the guide bolts. Lift the caliper without disconnecting the hose. Remove the old pads. Push the piston inward with pliers or a brake piston tool. Install the new pads and reassemble the caliper.\u003c/p\u003e"
+                                                }
+                                            ],
+                               "faq":  [
+                                           {
+                                               "question":  "How often should I change the brake pads?",
+                                               "answer":  "It depends on usage, but generally every 30,000-50,000 km. Check the minimum thickness recommended by the manufacturer."
+                                           }
+                                       ],
+                               "seo":  {
+                                           "title":  "How to Change Car Brakes | CarSpecio Guide",
+                                           "description":  "Step-by-step guide to change brake pads and discs. Keep your vehicle safe with this tutorial.",
+                                           "keywords":  [
+                                                            "change brakes",
+                                                            "brake pads",
+                                                            "car maintenance",
+                                                            "vehicle safety",
+                                                            "brake discs"
+                                                        ]
+                                       }
+                           },
+                    "fr":  {
+                               "title":  "Comment changer les freins de sa voiture : plaquettes et disques",
+                               "excerpt":  "Apprenez à changer les plaquettes et disques de frein en toute sécurité. Guide détaillé pour maintenir la sécurité de votre véhicule.",
+                               "intro":  "Les freins sont le système de sécurité le plus important de votre voiture. Changer les plaquettes est une tâche qui exige de la précision mais que vous pouvez faire dans votre garage avec les bons outils.",
+                               "sections":  [
+                                                {
+                                                    "id":  "securite",
+                                                    "title":  "Mesures de sécurité",
+                                                    "content":  "\u003cp\u003eAvant de commencer, assurez-vous que la voiture est garée sur une surface plane, avec le frein à main serré et les roues bloquées. Ne travaillez jamais sous une voiture retenue uniquement par un cric hydraulique.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "outils",
+                                                    "title":  "Outils nécessaires",
+                                                    "content":  "\u003cp\u003eVous aurez besoin de : jeu de plaquettes de frein neuves, disques neufs (si vous les changez), une clé à cliquet avec douilles, un repousse-piston ou une grande pince, gants, lunettes et un récipient pour recueillir le liquide de frein.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "plaquettes",
+                                                    "title":  "Changer les plaquettes",
+                                                    "content":  "\u003cp\u003eRetirez la roue. Localisez l\u0027étrier de frein et retirez les boulons de guidage. Soulevez l\u0027étrier sans déconnecter le tuyau. Retirez les vieilles plaquettes. Repoussez le piston vers l\u0027intérieur avec une pince ou un repousse-piston. Installez les nouvelles plaquettes et remontez l\u0027étrier.\u003c/p\u003e"
+                                                }
+                                            ],
+                               "faq":  [
+                                           {
+                                               "question":  "Combien de fois dois-je changer les plaquettes ?",
+                                               "answer":  "Cela dépend de l\u0027utilisation, mais généralement tous les 30 000-50 000 km. Vérifiez l\u0027épaisseur minimale recommandée par le fabricant."
+                                           }
+                                       ],
+                               "seo":  {
+                                           "title":  "Comment changer les freins de sa voiture | Guide CarSpecio",
+                                           "description":  "Guide étape par étape pour changer les plaquettes et disques de frein. Maintenez la sécurité de votre véhicule avec ce tutoriel.",
+                                           "keywords":  [
+                                                            "changer freins",
+                                                            "plaquettes frein",
+                                                            "entretien voiture",
+                                                            "sécurité véhicule",
+                                                            "disques frein"
+                                                        ]
+                                       }
+                           },
+                    "ar":  {
+                               "title":  "كيفية تغيير فرامل السيارة: الوسادات والأقراص",
+                               "excerpt":  "تعلم كيفية تغيير وسادات وأقراص الفرامل بأمان. دليل مفصل للحفاظ على سلامة مركبتك.",
+                               "intro":  "الفرامل هي أهم نظام أمان في سيارتك. تغيير وسادات الفرامل هو مهمة تتطلب الدقة لكن يمكن إنجازها في المرآب باستخدام الأدوات المناسبة.",
+                               "sections":  [
+                                                {
+                                                    "id":  "safety",
+                                                    "title":  "إجراءات السلامة",
+                                                    "content":  "\u003cp\u003eقبل البدء، تأكد من أن السيارة متوقفة على سطح مستوٍ، مع تفعيل فرمل اليد وإحكام قفل العجلات. لا تعمل أبداً تحت سيارة ممسوكة فقط بواسطة رافعة هيدروليكية.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "tools",
+                                                    "title":  "الأدوات اللازمة",
+                                                    "content":  "\u003cp\u003eستحتاج إلى: مجموعة وسادات فرامل جديدة، أقراص جديدة (إذا كنت ستغيرها)، مفتاح بانة مع بوش، مكبس فرامل أو كباش كبير، قفازات، نظارات، ووعاء لجمع سائل الفرامل.\u003c/p\u003e"
+                                                },
+                                                {
+                                                    "id":  "pads",
+                                                    "title":  "تغيير وسادات الفرامل",
+                                                    "content":  "\u003cp\u003eأزل العجلة. حدد موقع كاليبر الفرامل وأزل البراغي التوجيهية. ارفع الكاليبر دون فصل الخرطوم. أزل الوسادات القديمة. ادفع المكبس للداخل بالكباش أو أداة مكبس الفرامل. ثبت الوسادات الجديدة وأعد تركيب الكاليبر.\u003c/p\u003e"
+                                                }
+                                            ],
+                               "faq":  [
+                                           {
+                                               "question":  "كم مرة يجب تغيير وسادات الفرامل؟",
+                                               "answer":  "يعتمد على الاستخدام، ولكن عادةً كل 30,000-50,000 كم. تحقق من السماكة الدنيا الموصى بها من قبل الشركة المصنعة."
+                                           }
+                                       ],
+                               "seo":  {
+                                           "title":  "كيفية تغيير فرامل السيارة | دليل كارسبيسيو",
+                                           "description":  "دليل خطوة بخطوة لتغيير وسادات وأقراص الفرامل. حافظ على سلامة مركبتك مع هذا البرنامج التعليمي.",
+                                           "keywords":  [
+                                                            "تغيير الفرامل",
+                                                            "وسادات الفرامل",
+                                                            "صيانة السيارة",
+                                                            "سلامة المركبة",
+                                                            "أقراص الفرامل"
+                                                        ]
+                                       }
+                           }
+                },
+    "summaryBox":  {
+                       "es":  {
+                                  "title":  "Resumen rápido",
+                                  "items":  [
+                                                "Siempre trabaja con el coche sobre caballetes",
+                                                "No desconectes la manguera de la pinza",
+                                                "Empuja el pistón antes de colocar las pastillas nuevas",
+                                                "Revisa el nivel de líquido de frenos tras el montaje",
+                                                "Pisa el pedal varias veces antes de circular"
+                                            ]
+                              },
+                       "en":  {
+                                  "title":  "Quick Summary",
+                                  "items":  [
+                                                "Always work with the car on stands",
+                                                "Do not disconnect the caliper hose",
+                                                "Push the piston before installing new pads",
+                                                "Check brake fluid level after assembly",
+                                                "Pump the pedal several times before driving"
+                                            ]
+                              },
+                       "fr":  {
+                                  "title":  "Résumé rapide",
+                                  "items":  [
+                                                "Travaillez toujours avec la voiture sur chandelles",
+                                                "Ne déconnectez pas le tuyau de l\u0027étrier",
+                                                "Repoussez le piston avant d\u0027installer les nouvelles plaquettes",
+                                                "Vérifiez le niveau de liquide de frein après le montage",
+                                                "Pompez la pédale plusieurs fois avant de rouler"
+                                            ]
+                              },
+                       "ar":  {
+                                  "title":  "ملخص سريع",
+                                  "items":  [
+                                                "اعمل دائماً مع السيارة على الحوامل",
+                                                "لا تفصل خرطوم الكاليبر",
+                                                "ادفع المكبس قبل تركيب الوسادات الجديدة",
+                                                "تحقق من مستوى سائل الفرامل بعد التجميع",
+                                                "اضغط الدواسة عدة مرات قبل القيادة"
+                                            ]
+                              }
+                   },
+    "tags":  [
+                 "brakes",
+                 "maintenance",
+                 "safety",
+                 "DIY"
+             ],
+    "relatedCars":  [
+                        "porsche-911-2026",
+                        "nissan-gtr-2026"
+                    ],
+    "schemaVersion":  "1.0"
+}

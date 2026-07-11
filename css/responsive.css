@@ -1,0 +1,2145 @@
+/* =========================================================
+   RESPONSIVE.CSS
+   Mobile + Tablet + Large Screens
+========================================================= */
+
+/* =========================
+   GLOBAL MOBILE FIXES
+========================= */
+
+@media (max-width:768px){
+    *{
+        box-sizing:border-box;
+    }
+    
+    body{
+        overflow-x:hidden;
+        width:100%;
+        max-width:100vw;
+    }
+    
+    img{
+        max-width:100%;
+        height:auto;
+    }
+    
+    /* Fix horizontal scroll */
+    .container,
+    .section-title,
+    .categories,
+    .articles,
+    .stats,
+    .gallery,
+    .testimonials,
+    .featured-car,
+    .comparison,
+    .faq,
+    .related-cars,
+    .price-section,
+    .buy-guide,
+    .newsletter,
+    footer{
+        overflow-x:hidden;
+        width:100%;
+        max-width:100%;
+    }
+}
+
+/* =========================
+   LARGE SCREENS
+========================= */
+
+@media (min-width: 1600px){
+
+    .section-title h2{
+        font-size:72px;
+    }
+
+    .featured-content h2{
+        font-size:70px;
+    }
+
+    .container{
+        max-width:1500px;
+        margin:auto;
+    }
+
+}
+
+/* =========================
+   LAPTOP
+========================= */
+
+@media (max-width:1200px){
+
+    .categories,
+    .articles,
+    .stats,
+    .gallery,
+    .testimonials,
+    .featured-car,
+    .comparison,
+    .faq,
+    .related-cars,
+    .price-section,
+    .buy-guide{
+        padding:100px 40px;
+    }
+
+    .featured-content h2{
+        font-size:48px;
+    }
+
+    .premium-content h2{
+        font-size:56px;
+    }
+
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width:992px){
+
+    header{
+        padding:20px 30px;
+    }
+
+    nav{
+        gap:20px;
+    }
+
+    .section-title h2{
+        font-size:42px;
+    }
+
+    .featured-car{
+        grid-template-columns:1fr;
+    }
+
+    .featured-image img{
+        height:500px;
+    }
+
+    .choice-container,
+    .specs-container,
+    .car-page-box{
+        grid-template-columns:1fr;
+    }
+
+    .car-page-features{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .winner-card h2{
+        font-size:44px;
+    }
+
+}
+
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+@media (max-width:900px){
+
+    /* Let mobile-nav.css handle menu-btn styling */
+
+    /* Let mobile-nav.css handle site-nav styling */
+
+    /* Let mobile-nav.css handle mega-menu styling */
+
+    .mega-menu__categories{
+        display:block !important;
+    }
+
+    .mega-menu__categories-list{
+        grid-template-columns:repeat(2, 1fr) !important;
+        gap:12px !important;
+    }
+
+    .mega-menu__models{
+        display:block !important;
+    }
+
+    .mega-menu__models-list{
+        grid-template-columns:repeat(2, 1fr) !important;
+        gap:12px !important;
+    }
+
+    /* Footer Mobile Improvements */
+    footer{
+        padding:50px 20px;
+    }
+
+    .footer-content,
+    .footer-container{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .footer-box h2{
+        font-size:28px;
+        margin-bottom:16px;
+    }
+
+    .footer-box h3{
+        font-size:18px;
+        margin-bottom:12px;
+    }
+
+    .footer-box ul li{
+        margin-bottom:8px;
+    }
+
+    .footer-box ul li a{
+        font-size:14px;
+    }
+
+    .newsletter-box{
+        flex-direction:column;
+        gap:16px;
+    }
+
+    .newsletter-box input,
+    .newsletter-box button{
+        width:100%;
+        padding:14px 20px;
+        font-size:14px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width:768px){
+
+    html{
+        font-size:15px;
+    }
+
+    header{
+        padding:18px 20px;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    .logo{
+        font-size:28px;
+    }
+
+    .header-controls{
+        gap:4px;
+    }
+
+    .ctrl-btn{
+        padding:4px 6px 4px 5px;
+        max-width:70px;
+    }
+
+    .ctrl-icon{
+        font-size:14px;
+    }
+
+    .ctrl-text{
+        display:none;
+    }
+
+    .ctrl-arrow{
+        display:none;
+    }
+
+    .country-banner{
+        top:70px;
+        padding:6px 12px;
+        font-size:11px;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    /* Hero Sections Mobile Improvements */
+    .hero-content h1{
+        font-size:32px;
+        line-height:1.2;
+        margin-bottom:16px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+        line-height:1.6;
+        margin-bottom:24px;
+    }
+
+    .premium-banner{
+        height:auto;
+        padding:80px 20px;
+    }
+
+    .premium-content h2{
+        font-size:38px;
+        line-height:1.2;
+    }
+
+    .premium-content p{
+        font-size:15px;
+        line-height:1.6;
+    }
+
+    .section-title{
+        margin-bottom:50px;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    .section-title h2{
+        font-size:32px;
+        line-height:1.2;
+    }
+
+    .section-title p{
+        font-size:15px;
+        line-height:1.6;
+    }
+
+    .categories,
+    .articles,
+    .stats,
+    .gallery,
+    .testimonials,
+    .featured-car,
+    .comparison,
+    .faq,
+    .related-cars,
+    .price-section,
+    .buy-guide,
+    .newsletter,
+    footer{
+        padding:70px 20px;
+    }
+
+    .categories-container,
+    .articles-container,
+    .gallery-grid,
+    .testimonials-container,
+    .related-grid,
+    .guide-container,
+    .price-grid{
+        grid-template-columns:1fr;
+    }
+
+    .category-card{
+        height:340px;
+    }
+
+    .category-content h3{
+        font-size:28px;
+    }
+
+    .card-content h3{
+        font-size:24px;
+    }
+
+    .featured-content h2{
+        font-size:34px;
+    }
+
+    .featured-image img{
+        height:350px;
+    }
+
+    .premium-banner{
+        height:auto;
+        padding:120px 20px;
+    }
+
+    .premium-content h2{
+        font-size:38px;
+    }
+
+    .premium-content p{
+        font-size:15px;
+    }
+
+    .newsletter-box{
+        flex-direction:column;
+    }
+
+    .newsletter-box input,
+    .newsletter-box button{
+        width:100%;
+    }
+
+    .footer-content,
+    .footer-container{
+        grid-template-columns:1fr;
+    }
+
+    .footer-box h2{
+        font-size:32px;
+    }
+
+    .footer-box h3{
+        font-size:20px;
+    }
+
+    .compare-controls{
+        flex-direction:column;
+        gap:16px;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    .compare-controls select,
+    .compare-btn{
+        width:100%;
+        padding:14px 20px;
+        font-size:14px;
+    }
+
+    .compare-table{
+        overflow-x:hidden;
+        border-radius:12px;
+    }
+
+    .table-row{
+        grid-template-columns:1fr;
+        gap:12px;
+    }
+
+    .winner-card{
+        padding:40px 25px;
+        border-radius:16px;
+    }
+
+    .winner-card h2{
+        font-size:34px;
+        line-height:1.2;
+    }
+
+    /* Noticias Mobile Improvements */
+    .article-card{
+        border-radius:16px;
+        overflow:hidden;
+    }
+
+    .article-image img{
+        height:200px;
+        object-fit:cover;
+    }
+
+    .article-content{
+        padding:20px;
+    }
+
+    .article-content h3{
+        font-size:20px;
+        line-height:1.3;
+        margin-bottom:12px;
+    }
+
+    .article-content p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .spec-item{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .car-page-content{
+        padding:30px 20px;
+    }
+
+    .car-page-content h2{
+        font-size:34px;
+    }
+
+    .car-page-features{
+        grid-template-columns:1fr;
+    }
+
+    /* RS3 Mobile Fixes */
+    .car-hero{
+        min-height:500px;
+        padding-top:100px;
+    }
+
+    .car-content h1{
+        font-size:48px;
+        letter-spacing:-1px;
+    }
+
+    .car-content p{
+        font-size:16px;
+    }
+
+    .car-nav{
+        padding:15px 20px;
+        gap:16px;
+        overflow-x:auto;
+        white-space:nowrap;
+        flex-wrap:nowrap;
+    }
+
+    .car-nav a{
+        font-size:12px;
+    }
+
+    .quick-info{
+        grid-template-columns:1fr;
+        gap:16px;
+    }
+
+    .info-card{
+        padding:30px 20px;
+    }
+
+    .info-card h3{
+        font-size:32px;
+    }
+
+    .price-box{
+        padding:40px 20px;
+    }
+
+    .price-box h3{
+        font-size:48px;
+    }
+
+    .versions-grid{
+        grid-template-columns:1fr;
+    }
+
+    .sound-box{
+        padding:40px 20px;
+    }
+
+    .consumption-container{
+        grid-template-columns:1fr;
+    }
+
+    .interior-grid{
+        grid-template-columns:1fr;
+    }
+
+    .problems-box{
+        padding:40px 20px;
+    }
+
+    .pros-grid{
+        grid-template-columns:1fr;
+    }
+
+    .opinions-grid{
+        grid-template-columns:1fr;
+    }
+
+    .score-box{
+        padding:40px 20px;
+    }
+
+    .score-box h3{
+        font-size:56px;
+    }
+
+    .depreciation-grid{
+        grid-template-columns:1fr;
+    }
+
+    .calc-layout{
+        grid-template-columns:1fr;
+    }
+
+    .calc-results{
+        grid-template-columns:1fr;
+    }
+
+    .calc-result-card h3{
+        font-size:28px;
+    }
+
+    .fiscal-table-wrap,
+    .options-table-wrap{
+        overflow-x:auto;
+    }
+
+    .fiscal-table,
+    .options-table,
+    .compare-table{
+        table-layout:fixed;
+        width:100%;
+    }
+
+    .fiscal-table th,
+    .fiscal-table td,
+    .options-table th,
+    .options-table td,
+    .compare-table th,
+    .compare-table td{
+        word-break:break-word;
+        white-space:normal;
+    }
+
+    /* Quiz Mobile Fixes */
+    .quiz-box{
+        padding:30px 20px;
+    }
+
+    .quiz-step h3{
+        font-size:18px;
+    }
+
+    .quiz-opt{
+        padding:16px 18px;
+        font-size:14px;
+    }
+
+    .quiz-result h3{
+        font-size:24px;
+    }
+
+    .quiz-result p{
+        font-size:15px;
+    }
+
+    /* CTA Mobile Fixes */
+    .car-page-box{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+    .car-page-image img{
+        height:280px;
+    }
+
+    .car-page-content{
+        padding:30px 20px;
+    }
+
+    .car-page-content h2{
+        font-size:28px;
+    }
+
+    .car-page-features{
+        grid-template-columns:1fr;
+    }
+
+    /* Cards Mobile Improvements */
+    .card-content{
+        padding:24px 20px;
+    }
+
+    .card-content h3{
+        font-size:22px;
+        margin-bottom:12px;
+    }
+
+    .card-content p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .category-card{
+        height:300px;
+        border-radius:16px;
+    }
+
+    .category-content h3{
+        font-size:24px;
+        margin-bottom:8px;
+    }
+
+    .category-content p{
+        font-size:14px;
+    }
+
+    /* Grid Mobile Improvements */
+    .gallery-grid,
+    .testimonials-container,
+    .related-grid,
+    .guide-container,
+    .price-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    /* Table Mobile Improvements */
+    .compare-table,
+    .fiscal-table-wrap,
+    .options-table-wrap{
+        overflow-x:auto;
+        border-radius:12px;
+    }
+
+    .compare-table table,
+    .fiscal-table-wrap table,
+    .options-table-wrap table{
+        width:100%;
+        min-width:auto;
+    }
+
+    .compare-table th,
+    .compare-table td,
+    .fiscal-table th,
+    .fiscal-table td,
+    .options-table th,
+    .options-table td{
+        padding:12px 8px;
+        font-size:13px;
+        white-space:normal;
+    }
+
+    /* Diagnóstico Mobile Improvements */
+    .diagnostico-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .diagnostico-card{
+        padding:30px 20px;
+        border-radius:16px;
+    }
+
+    .diagnostico-card h3{
+        font-size:24px;
+        line-height:1.2;
+        margin-bottom:16px;
+    }
+
+    .diagnostico-card p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .diagnostico-form{
+        flex-direction:column;
+        gap:16px;
+    }
+
+    .diagnostico-form input,
+    .diagnostico-form select,
+    .diagnostico-form button{
+        width:100%;
+        padding:14px 20px;
+        font-size:14px;
+    }
+
+    /* Cards Mobile Improvements */
+    .card{
+        border-radius:16px;
+        overflow:hidden;
+    }
+
+    .card-image{
+        height:200px;
+    }
+
+    .card-image img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    .card-content{
+        padding:20px;
+    }
+
+    .card-content h3{
+        font-size:20px;
+        line-height:1.3;
+        margin-bottom:12px;
+    }
+
+    .card-content p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* Grid Mobile Improvements */
+    .gallery-grid,
+    .testimonials-container,
+    .related-grid,
+    .guide-container,
+    .price-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    /* Images Mobile Improvements */
+    img{
+        max-width:100%;
+        height:auto;
+        object-fit:contain;
+    }
+
+    .hero-image img,
+    .featured-image img,
+    .article-image img{
+        width:100%;
+        height:auto;
+        object-fit:cover;
+    }
+
+    /* Typography Mobile Improvements */
+    h1{
+        font-size:28px;
+        line-height:1.2;
+    }
+
+    h2{
+        font-size:24px;
+        line-height:1.2;
+    }
+
+    h3{
+        font-size:20px;
+        line-height:1.3;
+    }
+
+    p{
+        font-size:15px;
+        line-height:1.6;
+    }
+
+    /* Buttons Mobile Improvements */
+    .btn,
+    button{
+        padding:12px 24px;
+        font-size:14px;
+        border-radius:8px;
+    }
+
+    /* Tablet Media Query */
+    @media (min-width:769px) and (max-width:1024px){
+        .gallery-grid,
+        .testimonials-container,
+        .related-grid{
+            grid-template-columns:repeat(2, 1fr);
+            gap:24px;
+        }
+
+        .categories-container{
+            grid-template-columns:repeat(2, 1fr);
+            gap:24px;
+        }
+
+        .compare-controls{
+            flex-direction:row;
+            flex-wrap:wrap;
+        }
+
+        .compare-controls select,
+        .compare-btn{
+            flex:1;
+            min-width:200px;
+        }
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width:480px){
+
+    /* Font Size Improvements */
+    html{
+        font-size:14px;
+    }
+
+    .hero-content h1{
+        font-size:28px;
+        line-height:1.1;
+    }
+
+    .hero-content p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .section-title h2{
+        font-size:24px;
+        line-height:1.1;
+    }
+
+    .section-title p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .premium-content h2{
+        font-size:26px;
+        line-height:1.1;
+    }
+
+    .premium-content p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .featured-content h2{
+        font-size:26px;
+        line-height:1.1;
+    }
+
+    .winner-card h2{
+        font-size:26px;
+        line-height:1.1;
+    }
+
+    .card-content{
+        padding:16px;
+    }
+
+    .card-content h3{
+        font-size:18px;
+        line-height:1.2;
+    }
+
+    .card-content p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    .category-content{
+        left:16px;
+        bottom:16px;
+        right:16px;
+    }
+
+    .category-content h3{
+        font-size:20px;
+        line-height:1.2;
+    }
+
+    .category-content p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    .price{
+        font-size:32px;
+    }
+
+    .compare-content h1{
+        font-size:26px;
+        line-height:1.1;
+    }
+
+    .compare-content p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    /* RS3 Small Mobile Fixes */
+    .car-hero{
+        min-height:400px;
+        padding-top:80px;
+    }
+
+    .car-content h1{
+        font-size:32px;
+        line-height:1.1;
+    }
+
+    .car-content p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .car-nav{
+        padding:10px 16px;
+        gap:10px;
+    }
+
+    .car-nav a{
+        font-size:11px;
+        padding:8px 12px;
+    }
+
+    .info-card h3{
+        font-size:24px;
+        line-height:1.1;
+    }
+
+    .price-box h3{
+        font-size:32px;
+        line-height:1.1;
+    }
+
+    .score-box h3{
+        font-size:42px;
+        line-height:1.1;
+    }
+
+    .header-controls{
+        gap:6px;
+    }
+
+    .ctrl-btn{
+        padding:5px 8px 5px 6px;
+        max-width:100px;
+    }
+
+    .ctrl-value{
+        max-width:60px;
+        font-size:11px;
+    }
+
+    .ctrl-label{
+        font-size:8px;
+    }
+
+}
+
+/* =========================
+   ULTRA SMALL DEVICES
+========================= */
+
+@media (max-width:360px){
+
+    html{
+        font-size:13px;
+    }
+
+    .section-title h2{
+        font-size:20px;
+        line-height:1.1;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+
+    /* RS3 Ultra Small Mobile Fixes */
+    .car-hero{
+        min-height:350px;
+        padding-top:70px;
+    }
+
+    .car-content h1{
+        font-size:28px;
+        line-height:1.1;
+    }
+
+    .car-content p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    .car-nav{
+        padding:8px 12px;
+        gap:8px;
+    }
+
+    .car-nav a{
+        font-size:10px;
+        padding:6px 10px;
+    }
+
+    .info-card h3{
+        font-size:20px;
+        line-height:1.1;
+    }
+
+    .price-box h3{
+        font-size:28px;
+        line-height:1.1;
+    }
+
+    .score-box h3{
+        font-size:36px;
+        line-height:1.1;
+    }
+
+    .header-controls{
+        gap:4px;
+    }
+
+    .ctrl-btn{
+        padding:4px 6px 4px 5px;
+        max-width:80px;
+    }
+
+    .ctrl-value{
+        max-width:50px;
+        font-size:10px;
+    }
+
+    .ctrl-label{
+        font-size:7px;
+    }
+
+    /* Ultra Small Cards */
+    .card-content{
+        padding:14px;
+    }
+
+    .card-content h3{
+        font-size:16px;
+        line-height:1.2;
+    }
+
+    .card-content p{
+        font-size:12px;
+        line-height:1.5;
+    }
+
+    .category-card{
+        height:250px;
+    }
+
+    .category-content h3{
+        font-size:18px;
+        line-height:1.2;
+    }
+
+    .category-content p{
+        font-size:12px;
+        line-height:1.5;
+    }
+
+}
+
+/* =========================
+   LANDSCAPE MOBILE
+========================= */
+
+@media (max-height:500px) and (orientation:landscape){
+
+    .car-hero{
+        min-height:300px;
+        padding-top:60px;
+    }
+
+    .hero-content h1{
+        font-size:24px;
+        line-height:1.1;
+    }
+
+    .hero-content p{
+        font-size:13px;
+        line-height:1.4;
+    }
+
+    .section-title{
+        margin-bottom:30px;
+    }
+
+    .section-title h2{
+        font-size:24px;
+        line-height:1.1;
+    }
+
+    .card-content{
+        padding:16px;
+    }
+
+    .card-content h3{
+        font-size:18px;
+        line-height:1.2;
+    }
+
+    .info-card{
+        padding:20px 16px;
+    }
+
+    .price-box{
+        padding:30px 16px;
+    }
+
+    .quiz-box{
+        padding:20px 16px;
+    }
+
+}
+
+/* =========================
+   TOUCH DEVICES
+========================= */
+
+@media (hover:none){
+
+    .card:hover,
+    .category-card:hover img,
+    .related-card:hover,
+    .compare-car:hover{
+        transform:none;
+    }
+
+    /* Touch-friendly buttons */
+    .ctrl-btn,
+    .compare-btn,
+    .quiz-opt,
+    button{
+        min-height:44px;
+        min-width:44px;
+    }
+
+    /* Touch-friendly links */
+    .car-nav a{
+        padding:12px 16px;
+        min-height:44px;
+        display:inline-flex;
+        align-items:center;
+    }
+
+}
+
+/* =========================
+   PRINT MODE
+========================= */
+
+@media print{
+
+    header,
+    footer,
+    video,
+    .newsletter,
+    .compare-controls{
+        display:none !important;
+    }
+
+    body{
+        background:white;
+        color:black;
+    }
+
+    section{
+        padding:40px 0;
+    }
+
+}
+
+/* =========================
+   COMPARATIVAS PAGE MOBILE
+========================= */
+
+@media (max-width:768px){
+    /* Compare Page Hero */
+    .compare-page-hero{
+        min-height:400px;
+        padding:100px 20px 60px;
+    }
+
+    .compare-hero-lead{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* Compare Search Panel */
+    .compare-search-panel{
+        padding:20px;
+        border-radius:12px;
+        margin-top:30px;
+    }
+
+    .compare-search-row{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .compare-search-row--top{
+        gap:12px;
+    }
+
+    .cmp-field{
+        width:100%;
+    }
+
+    .cmp-field span{
+        font-size:12px;
+        margin-bottom:6px;
+        display:block;
+    }
+
+    .cmp-field input,
+    .cmp-field select{
+        width:100%;
+        padding:12px 16px;
+        font-size:14px;
+        border-radius:8px;
+    }
+
+    .compare-search-row--cars{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .swap-btn-round{
+        width:44px;
+        height:44px;
+        font-size:18px;
+        margin:8px auto;
+    }
+
+    .btn-hero-compare{
+        width:100%;
+        padding:14px 20px;
+        font-size:15px;
+        border-radius:8px;
+    }
+
+    .hero-popular{
+        flex-direction:column;
+        gap:8px;
+        margin-top:20px;
+    }
+
+    .hero-popular span{
+        font-size:13px;
+    }
+
+    .hero-popular a{
+        font-size:13px;
+        padding:8px 16px;
+    }
+
+    /* Popular Compare Grid */
+    .popular-compare-grid{
+        grid-template-columns:1fr;
+        gap:16px;
+    }
+
+    /* Compare Images */
+    .compare-images{
+        flex-direction:column;
+        gap:16px;
+    }
+
+    .compare-car{
+        border-radius:12px;
+        overflow:hidden;
+    }
+
+    .compare-car img{
+        height:200px;
+        object-fit:cover;
+    }
+
+    .compare-info{
+        padding:16px;
+    }
+
+    .compare-info h3{
+        font-size:18px;
+        margin-bottom:8px;
+    }
+
+    .details-text{
+        font-size:13px;
+    }
+
+    /* Compare Table */
+    .compare-table-section{
+        padding:50px 20px;
+    }
+
+    .compare-table{
+        border-radius:12px;
+        overflow:hidden;
+    }
+
+    .table-row{
+        grid-template-columns:1fr;
+        gap:8px;
+        padding:12px 16px;
+    }
+
+    .table-row.heading{
+        font-size:14px;
+        padding:16px;
+    }
+
+    .table-row div{
+        font-size:13px;
+        padding:8px 0;
+    }
+
+    .table-row .best{
+        font-size:13px;
+    }
+
+    /* Score Bars */
+    .compare-scores{
+        padding:50px 20px;
+    }
+
+    .score-bars-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .score-block{
+        padding:20px;
+        border-radius:12px;
+    }
+
+    .score-block h3{
+        font-size:16px;
+        margin-bottom:16px;
+    }
+
+    .score-row{
+        flex-direction:column;
+        gap:8px;
+        margin-bottom:16px;
+    }
+
+    .score-label{
+        font-size:12px;
+    }
+
+    .score-track{
+        height:8px;
+        border-radius:4px;
+    }
+
+    /* Quick Stats */
+    .quick-stats{
+        grid-template-columns:1fr;
+        gap:16px;
+        padding:50px 20px;
+    }
+
+    .quick-card{
+        padding:24px 20px;
+        border-radius:12px;
+    }
+
+    .quick-card span{
+        font-size:13px;
+    }
+
+    .quick-card h3{
+        font-size:18px;
+        margin-top:8px;
+    }
+
+    /* Pros Cons */
+    .pros-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+        padding:50px 20px;
+    }
+
+    .pros-card{
+        padding:24px 20px;
+        border-radius:12px;
+    }
+
+    .pros-card h3{
+        font-size:18px;
+        margin-bottom:16px;
+    }
+
+    .pros-card ul{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .pros-card li{
+        padding:8px 0;
+    }
+
+    /* Buy Choice */
+    .buy-choice{
+        padding:50px 20px;
+    }
+
+    .choice-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .choice-box{
+        padding:24px 20px;
+        border-radius:12px;
+    }
+
+    .choice-box h3{
+        font-size:18px;
+        margin-bottom:16px;
+    }
+
+    .choice-box ul{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .choice-box li{
+        padding:8px 0;
+    }
+
+    /* Real Costs */
+    .real-costs{
+        padding:50px 20px;
+    }
+
+    .costs-table{
+        border-radius:12px;
+        overflow-x:auto;
+    }
+
+    .costs-table table{
+        width:100%;
+        min-width:300px;
+    }
+
+    .costs-table th,
+    .costs-table td{
+        padding:12px 8px;
+        font-size:12px;
+    }
+
+    /* Buyer Insights */
+    .buyer-insights{
+        padding:50px 20px;
+    }
+
+    .insights-grid{
+        grid-template-columns:1fr;
+        gap:16px;
+    }
+
+    .insight-card{
+        padding:20px;
+        border-radius:12px;
+    }
+
+    .insight-icon{
+        font-size:24px;
+        margin-bottom:12px;
+    }
+
+    .insight-card h3{
+        font-size:14px;
+        margin-bottom:8px;
+    }
+
+    .insight-card p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    /* Detailed Specs */
+    .detailed-specs{
+        padding:50px 20px;
+    }
+
+    .specs-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .specs-card{
+        padding:24px 20px;
+        border-radius:12px;
+    }
+
+    .specs-card h3{
+        font-size:18px;
+        margin-bottom:20px;
+    }
+
+    .spec-item{
+        flex-direction:column;
+        align-items:flex-start;
+        padding:12px 0;
+        border-bottom:1px solid rgba(255,255,255,0.1);
+    }
+
+    .spec-item span{
+        font-size:12px;
+        margin-bottom:4px;
+    }
+
+    .spec-item strong{
+        font-size:14px;
+    }
+
+    /* Winner Section */
+    .winner-section{
+        padding:50px 20px;
+    }
+
+    .winner-card{
+        padding:32px 24px;
+        border-radius:16px;
+    }
+
+    .winner-card span{
+        font-size:12px;
+    }
+
+    .winner-card h2{
+        font-size:24px;
+        margin:12px 0;
+    }
+
+    .winner-card p{
+        font-size:14px;
+        line-height:1.6;
+        margin-bottom:20px;
+    }
+
+    /* FAQ */
+    .faq{
+        padding:50px 20px;
+    }
+
+    .faq-item{
+        padding:20px;
+        border-radius:12px;
+    }
+
+    .faq-item h3{
+        font-size:16px;
+        margin-bottom:12px;
+    }
+
+    .faq-item p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* Related Cars */
+    .related-cars{
+        padding:50px 20px;
+    }
+
+    .related-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .related-card{
+        border-radius:12px;
+        overflow:hidden;
+    }
+
+    .related-card img{
+        height:200px;
+        object-fit:cover;
+    }
+
+    .related-card h3{
+        font-size:16px;
+        padding:16px;
+    }
+}
+
+/* =========================
+   CONTACTO PAGE MOBILE
+========================= */
+
+@media (max-width:768px){
+    /* Contact Hero */
+    .dash-hero{
+        min-height:350px;
+        padding:100px 20px 60px;
+    }
+
+    .dash-hero-inner h1{
+        font-size:28px;
+        line-height:1.2;
+    }
+
+    .dash-hero-inner p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* Contact Section */
+    .dash-section{
+        padding:50px 20px;
+    }
+
+    .contact-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    /* Contact Form */
+    .contact-form-box{
+        padding:24px 20px;
+        border-radius:16px;
+    }
+
+    .section-head{
+        margin-bottom:24px;
+    }
+
+    .section-head h2{
+        font-size:24px;
+        margin-bottom:8px;
+    }
+
+    .section-head p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .contact-form{
+        gap:16px;
+    }
+
+    .form-group{
+        width:100%;
+    }
+
+    .form-group label{
+        font-size:13px;
+        margin-bottom:6px;
+        display:block;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea{
+        width:100%;
+        padding:14px 16px;
+        font-size:14px;
+        border-radius:8px;
+        border:1px solid rgba(255,255,255,0.2);
+        background:rgba(255,255,255,0.05);
+    }
+
+    .form-group textarea{
+        min-height:120px;
+        resize:vertical;
+    }
+
+    .form-checkbox{
+        flex-direction:row;
+        align-items:flex-start;
+        gap:12px;
+    }
+
+    .form-checkbox input{
+        width:20px;
+        height:20px;
+        margin-top:2px;
+    }
+
+    .form-checkbox label{
+        font-size:12px;
+        line-height:1.5;
+    }
+
+    .contact-form button{
+        width:100%;
+        padding:14px 20px;
+        font-size:15px;
+        border-radius:8px;
+        margin-top:8px;
+    }
+
+    .form-note{
+        font-size:12px;
+        margin-top:12px;
+        text-align:center;
+    }
+
+    .form-message{
+        padding:16px;
+        border-radius:8px;
+        font-size:14px;
+    }
+
+    /* Contact Info */
+    .contact-info-box{
+        padding:24px 20px;
+        border-radius:16px;
+    }
+
+    .contact-info-item{
+        padding:20px 0;
+        border-bottom:1px solid rgba(255,255,255,0.1);
+    }
+
+    .contact-info-item:last-child{
+        border-bottom:none;
+    }
+
+    .contact-info-item h3{
+        font-size:16px;
+        margin-bottom:8px;
+    }
+
+    .contact-info-item p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .contact-info-item p a{
+        color:var(--accent);
+        text-decoration:none;
+    }
+
+    .social-links{
+        display:flex;
+        flex-wrap:wrap;
+        gap:12px;
+        margin-top:12px;
+    }
+
+    .social-link{
+        padding:10px 16px;
+        font-size:13px;
+        border-radius:8px;
+        background:rgba(255,255,255,0.1);
+    }
+
+    /* FAQ Section */
+    .faq-list{
+        display:flex;
+        flex-direction:column;
+        gap:16px;
+    }
+
+    .faq-item{
+        padding:20px;
+        border-radius:12px;
+    }
+
+    .faq-item h3{
+        font-size:16px;
+        margin-bottom:12px;
+    }
+
+    .faq-item p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* Footer */
+    .footer{
+        padding:50px 20px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .footer-box h3{
+        font-size:18px;
+        margin-bottom:16px;
+    }
+
+    .footer-box p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .footer-box a{
+        font-size:14px;
+        padding:8px 0;
+        display:block;
+    }
+
+    .copyright{
+        font-size:13px;
+        padding:20px;
+    }
+}
+
+/* =========================
+   SMALL MOBILE - COMPARATIVAS
+========================= */
+
+@media (max-width:480px){
+    /* Compare Page Hero */
+    .compare-page-hero{
+        min-height:350px;
+        padding:80px 16px 50px;
+    }
+
+    .compare-hero-lead{
+        font-size:13px;
+    }
+
+    /* Compare Search Panel */
+    .compare-search-panel{
+        padding:16px;
+    }
+
+    .cmp-field span{
+        font-size:11px;
+    }
+
+    .cmp-field input,
+    .cmp-field select{
+        padding:10px 14px;
+        font-size:13px;
+    }
+
+    /* Compare Table */
+    .compare-table-section{
+        padding:40px 16px;
+    }
+
+    .table-row{
+        padding:10px 12px;
+    }
+
+    .table-row div{
+        font-size:12px;
+    }
+
+    /* Score Bars */
+    .compare-scores{
+        padding:40px 16px;
+    }
+
+    .score-block{
+        padding:16px;
+    }
+
+    .score-block h3{
+        font-size:14px;
+    }
+
+    /* Quick Stats */
+    .quick-stats{
+        padding:40px 16px;
+    }
+
+    .quick-card{
+        padding:20px 16px;
+    }
+
+    .quick-card h3{
+        font-size:16px;
+    }
+
+    /* Pros Cons */
+    .pros-grid{
+        padding:40px 16px;
+    }
+
+    .pros-card{
+        padding:20px 16px;
+    }
+
+    .pros-card h3{
+        font-size:16px;
+    }
+
+    /* Buy Choice */
+    .buy-choice{
+        padding:40px 16px;
+    }
+
+    .choice-box{
+        padding:20px 16px;
+    }
+
+    .choice-box h3{
+        font-size:16px;
+    }
+
+    /* Real Costs */
+    .real-costs{
+        padding:40px 16px;
+    }
+
+    .costs-table th,
+    .costs-table td{
+        padding:10px 6px;
+        font-size:11px;
+    }
+
+    /* Buyer Insights */
+    .buyer-insights{
+        padding:40px 16px;
+    }
+
+    .insight-card{
+        padding:16px;
+    }
+
+    .insight-card h3{
+        font-size:13px;
+    }
+
+    .insight-card p{
+        font-size:12px;
+    }
+
+    /* Detailed Specs */
+    .detailed-specs{
+        padding:40px 16px;
+    }
+
+    .specs-card{
+        padding:20px 16px;
+    }
+
+    .specs-card h3{
+        font-size:16px;
+    }
+
+    .spec-item span{
+        font-size:11px;
+    }
+
+    .spec-item strong{
+        font-size:13px;
+    }
+
+    /* Winner Section */
+    .winner-section{
+        padding:40px 16px;
+    }
+
+    .winner-card{
+        padding:24px 20px;
+    }
+
+    .winner-card h2{
+        font-size:20px;
+    }
+
+    /* FAQ */
+    .faq{
+        padding:40px 16px;
+    }
+
+    .faq-item{
+        padding:16px;
+    }
+
+    .faq-item h3{
+        font-size:14px;
+    }
+
+    /* Related Cars */
+    .related-cars{
+        padding:40px 16px;
+    }
+
+    .related-card h3{
+        font-size:14px;
+        padding:12px;
+    }
+}
+
+/* =========================
+   SMALL MOBILE - CONTACTO
+========================= */
+
+@media (max-width:480px){
+    /* Contact Hero */
+    .dash-hero{
+        min-height:300px;
+        padding:80px 16px 50px;
+    }
+
+    .dash-hero-inner h1{
+        font-size:24px;
+    }
+
+    .dash-hero-inner p{
+        font-size:13px;
+    }
+
+    /* Contact Section */
+    .dash-section{
+        padding:40px 16px;
+    }
+
+    .contact-form-box{
+        padding:20px 16px;
+    }
+
+    .section-head h2{
+        font-size:20px;
+    }
+
+    .section-head p{
+        font-size:13px;
+    }
+
+    .form-group label{
+        font-size:12px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea{
+        padding:12px 14px;
+        font-size:13px;
+    }
+
+    .form-group textarea{
+        min-height:100px;
+    }
+
+    .form-checkbox label{
+        font-size:11px;
+    }
+
+    .contact-form button{
+        padding:12px 16px;
+        font-size:14px;
+    }
+
+    .form-note{
+        font-size:11px;
+    }
+
+    /* Contact Info */
+    .contact-info-box{
+        padding:20px 16px;
+    }
+
+    .contact-info-item h3{
+        font-size:14px;
+    }
+
+    .contact-info-item p{
+        font-size:13px;
+    }
+
+    .social-link{
+        padding:8px 12px;
+        font-size:12px;
+    }
+
+    /* FAQ */
+    .faq-item{
+        padding:16px;
+    }
+
+    .faq-item h3{
+        font-size:14px;
+    }
+
+    .faq-item p{
+        font-size:13px;
+    }
+
+    /* Footer */
+    .footer{
+        padding:40px 16px;
+    }
+
+    .footer-box h3{
+        font-size:16px;
+    }
+
+    .footer-box a{
+        font-size:13px;
+    }
+
+    .copyright{
+        font-size:12px;
+    }
+}

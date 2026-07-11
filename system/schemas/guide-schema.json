@@ -1,0 +1,222 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/schemas/guide-schema.json",
+  "title": "Guide Data Schema",
+  "description": "Schema for CarSpecio guide content files",
+  "type": "object",
+  "required": ["id", "slug", "category", "author", "publishedAt", "updatedAt", "status", "content"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "heroImage": {
+      "type": "string"
+    },
+    "readingTime": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 120
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "draft", "archived"]
+    },
+    "content": {
+      "type": "object",
+      "required": ["es", "en", "fr", "ar"],
+      "properties": {
+        "es": {
+          "$ref": "#/definitions/langContent"
+        },
+        "en": {
+          "$ref": "#/definitions/langContent"
+        },
+        "fr": {
+          "$ref": "#/definitions/langContent"
+        },
+        "ar": {
+          "$ref": "#/definitions/langContent"
+        }
+      }
+    },
+    "summaryBox": {
+      "type": "object",
+      "properties": {
+        "es": {
+          "$ref": "#/definitions/langSummary"
+        },
+        "en": {
+          "$ref": "#/definitions/langSummary"
+        },
+        "fr": {
+          "$ref": "#/definitions/langSummary"
+        },
+        "ar": {
+          "$ref": "#/definitions/langSummary"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "relatedGuides": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
+    "relatedCars": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    }
+  },
+  "definitions": {
+    "langContent": {
+      "type": "object",
+      "required": ["title", "excerpt", "intro", "sections", "seo"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 120
+        },
+        "excerpt": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 300
+        },
+        "intro": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "title", "content"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "title": {
+                "type": "string"
+              },
+              "content": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "callout": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": ["tip", "warning", "note"]
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "faq": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["question", "answer"],
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "keyTakeaways": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "seo": {
+          "type": "object",
+          "required": ["title", "description", "keywords"],
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "langSummary": {
+      "type": "object",
+      "required": ["title", "items"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

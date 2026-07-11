@@ -1,0 +1,43 @@
+{
+  "id": "france",
+  "name": "France",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "units": {
+    "speed": "km/h",
+    "distance": "km",
+    "fuelEconomy": "L/100km",
+    "volume": "L",
+    "weight": "kg"
+  },
+  "fuelPrices": {
+    "petrol": { "value": 1.75, "currency": "EUR", "unit": "L" },
+    "diesel": { "value": 1.60, "currency": "EUR", "unit": "L" },
+    "electric": { "value": 0.20, "currency": "EUR", "unit": "kWh" }
+  },
+  "taxes": {
+    "vat": 0.20,
+    "bonusMalus": {
+      "method": "co2-based",
+      "bonusThreshold": 123,
+      "malusThreshold": 118,
+      "rates": [
+        { "threshold": 118, "rate": 50 },
+        { "threshold": 138, "rate": 200 },
+        { "threshold": 158, "rate": 500 },
+        { "threshold": null, "rate": 1000 }
+      ]
+    }
+  },
+  "inspection": {
+    "name": "Contrôle Technique",
+    "frequencyYears": 2,
+    "firstTestYears": 4
+  },
+  "localization": {
+    "dateFormat": "DD/MM/YYYY",
+    "decimalSeparator": ",",
+    "thousandsSeparator": " ",
+    "language": "fr"
+  }
+}

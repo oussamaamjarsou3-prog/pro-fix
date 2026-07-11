@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+    <title>Marcas | CarSpecio</title>
+    <meta name="description" content="Explora todas las marcas de coches disponibles en CarSpecio. Encuentra modelos por categoria.">
+    <meta property="og:title" content="Marcas | CarSpecio">
+    <meta property="og:description" content="Explora todas las marcas de coches disponibles en CarSpecio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carspecio.com/marcas.html">
+    <meta property="og:image" content="https://carspecio.com/images/hero-incio.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Marcas | CarSpecio">
+    <meta name="twitter:description" content="Explora todas las marcas de coches disponibles en CarSpecio.">
+    <meta name="twitter:image" content="https://carspecio.com/images/hero-incio.png">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/home-global.css">
+    <link rel="stylesheet" href="css/lang-dropdown.css">
+    <link rel="stylesheet" href="css/home-dashboard.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mega-menu-full.css">
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <link rel="canonical" href="https://carspecio.com/marcas.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .brands-hero { padding: 120px 20px 40px; max-width: 1200px; margin: 0 auto; }
+        .brands-hero .hero-eyebrow { display: inline-block; margin-bottom: 16px; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent-hover, #38bdf8); }
+        .brands-hero h1 { font-size: var(--text-h1, 2.5rem); font-weight: 800; line-height: 1.15; margin-bottom: 12px; font-family: var(--font-display, 'Poppins', sans-serif); }
+        .brands-hero h1 .accent { color: var(--accent-hover, #38bdf8); }
+        .brands-hero .hero-popular { color: var(--text-muted, #94a3b8); font-size: 15px; max-width: 600px; }
+        .brands-search-wrap { max-width: 1200px; margin: 0 auto 24px; padding: 0 20px; }
+        .brands-search { position: relative; max-width: 480px; }
+        .brands-search input { width: 100%; padding: 12px 16px 12px 44px; border-radius: 10px; border: 1px solid var(--border-subtle, rgba(148,163,184,0.2)); background: var(--bg-card, #1e293b); color: var(--text-primary, #f1f5f9); font-size: 14px; font-family: inherit; outline: none; transition: border-color 0.2s; }
+        .brands-search input:focus { border-color: var(--accent-hover, #38bdf8); }
+        .brands-search input::placeholder { color: var(--text-muted, #64748b); }
+        .brands-search .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 16px; opacity: 0.5; pointer-events: none; }
+        .brands-section { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
+        .brands-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
+        .brand-card { background: var(--bg-card, #1e293b); border: 1px solid var(--border-subtle, rgba(148,163,184,0.1)); border-radius: 14px; padding: 24px 16px; text-align: center; color: var(--text-primary, #f1f5f9); text-decoration: none; cursor: pointer; transition: transform 0.2s, background 0.2s, border-color 0.2s; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+        .brand-card:hover { transform: translateY(-4px); background: var(--bg-card-hover, #334155); border-color: var(--accent-hover, rgba(56,189,248,0.3)); }
+        .brand-card img { width: 56px; height: 56px; object-fit: contain; }
+        .brand-card .brand-name { font-size: 14px; font-weight: 600; line-height: 1.3; }
+        .brand-card .brand-models-count { font-size: 11px; color: var(--text-muted, #64748b); }
+        .brand-fallback { width: 56px; height: 56px; border-radius: 50%; background: rgba(15,23,42,0.6); color: var(--text-muted, #94a3b8); display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; }
+        .brand-detail { display: none; max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
+        .brand-detail.active { display: block; }
+        .brand-detail__header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+        .brand-detail__back { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border-subtle, rgba(148,163,184,0.2)); background: var(--bg-card, #1e293b); color: var(--text-primary, #f1f5f9); font-size: 13px; font-weight: 500; cursor: pointer; text-decoration: none; transition: background 0.2s; font-family: inherit; }
+        .brand-detail__back:hover { background: var(--bg-card-hover, #334155); }
+        .brand-detail__title { display: flex; align-items: center; gap: 12px; }
+        .brand-detail__title img { width: 40px; height: 40px; object-fit: contain; }
+        .brand-detail__title h2 { font-size: 1.75rem; font-weight: 700; font-family: var(--font-display, 'Poppins', sans-serif); }
+        .category-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+        .category-tab { padding: 8px 18px; border-radius: 20px; border: 1px solid var(--border-subtle, rgba(148,163,184,0.2)); background: transparent; color: var(--text-muted, #94a3b8); font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+        .category-tab:hover { color: var(--text-primary, #f1f5f9); border-color: var(--accent-hover, rgba(56,189,248,0.4)); }
+        .category-tab.active { background: var(--accent-hover, #38bdf8); color: #0f172a; border-color: var(--accent-hover, #38bdf8); }
+        .models-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+        .model-card { background: var(--bg-card, #1e293b); border: 1px solid var(--border-subtle, rgba(148,163,184,0.1)); border-radius: 12px; padding: 20px; color: var(--text-primary, #f1f5f9); text-decoration: none; transition: transform 0.2s, background 0.2s, border-color 0.2s; display: flex; flex-direction: column; gap: 6px; }
+        .model-card:hover { transform: translateY(-3px); background: var(--bg-card-hover, #334155); border-color: var(--accent-hover, rgba(56,189,248,0.3)); }
+        .model-card .model-name { font-size: 15px; font-weight: 600; }
+        .model-card .model-cat { font-size: 12px; color: var(--text-muted, #64748b); text-transform: capitalize; }
+        .model-card.model-card--soon { opacity: 0.6; }
+        .model-card .soon-badge { display: inline-block; margin-top: 4px; font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 4px; background: rgba(148,163,184,0.15); color: var(--text-muted, #94a3b8); }
+        .models-empty { grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-muted, #64748b); font-size: 14px; }
+        @media (max-width: 768px) {
+            .brands-hero { padding: 100px 16px 24px; }
+            .brands-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+            .brand-card { padding: 18px 12px; }
+            .brand-card img, .brand-fallback { width: 44px; height: 44px; }
+            .models-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body class="dash-home">
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    <header class="site-header">
+    <a href="index.html" class="logo" aria-label="CarSpecio">
+    <picture>
+        <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+        <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+        <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+    </picture>
+</a>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <a href="index.html" data-i18n="navigation.home">Inicio</a>
+        <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
+        <a href="reviews.html" data-i18n="navigation.reviews">Reviews</a>
+        <div class="nav-item mega-menu-container" id="megaMenuContainer">
+            <a class="mega-menu-link active" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenuPanel" id="megaMenuTrigger" role="button" tabindex="0" data-i18n="navigation.brands">Marcas</a>
+            <div class="mega-menu" role="dialog" aria-label="Explorar marcas de coches" data-i18n-aria="a11y.exploreBrands" id="megaMenuPanel">
+                <button class="mega-menu__close" id="megaMenuClose" aria-label="Cerrar menú">×</button>
+                <div class="mega-menu__content">
+                    <nav class="mega-menu__breadcrumb" aria-label="Navegación mega menú" data-i18n-aria="a11y.megaMenuNav">
+                        <span class="mega-menu__crumb mega-menu__crumb--active" id="crumbBrands" data-i18n="navigation.popularBrands">MARCAS POPULARES</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbCategory" data-i18n="navigation.categories">Categorías</span>
+                        <span class="mega-menu__crumb-sep" aria-hidden="true">›</span>
+                        <span class="mega-menu__crumb" id="crumbModel" data-i18n="navigation.models">Modelos</span>
+                    </nav>
+                    <div class="mega-menu__header">
+                        <h3 data-i18n="navigation.popularBrands">MARCAS POPULARES</h3>
+                        <p data-i18n="navigation.exploreBrands">Explora las marcas más destacadas del mercado automotriz</p>
+                    </div>
+                    <div class="mega-menu__search">
+                        <input type="search" class="mega-menu__search-input" placeholder="Buscar marca..." data-i18n-placeholder="search.brandPlaceholder" id="megaMenuSearch" autocomplete="off" aria-label="Buscar marca">
+                        <button class="mega-menu__search-btn" aria-label="Buscar" data-i18n-aria="a11y.search">🔍</button>
+                    </div>
+                    <div class="mega-menu__step" id="stepBrands">
+                        <div class="mega-menu__brands" id="megaBrands"></div>
+                    </div>
+                    <div class="mega-menu__step" id="stepCategories">
+                        <div class="mega-menu__categories" id="megaCategories">
+                            <div class="mega-menu__categories-header">
+                                <h4 id="catHeaderTitle" data-i18n="navigation.categories">Categorías</h4>
+                                <button class="mega-menu__back-btn" id="backToBrands" data-i18n="navigation.backToBrands"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Marcas</button>
+                            </div>
+                            <div class="mega-menu__categories-list" id="megaCategoriesList"></div>
+                        </div>
+                    </div>
+                    <div class="mega-menu__step" id="stepModels">
+                        <div class="mega-menu__models" id="megaModels">
+                            <div class="mega-menu__models-header">
+                                <h4 id="modHeaderTitle" data-i18n="navigation.models">Modelos</h4>
+                                <button class="mega-menu__back-btn" id="backToCategories" data-i18n="navigation.backToCategories"><svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> Volver a Categorías</button>
+                            </div>
+                            <div class="mega-menu__models-list" id="megaModelsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" data-i18n="navigation.news">Noticias</a>
+        <a href="diagnostico.html" data-i18n="navigation.diagnostic">Diagnóstico</a>
+        <a href="guias/index.html" data-i18n="navigation.guides">Guías</a>
+        <a href="herramientas.html" data-i18n="navigation.tools">Herramientas</a>
+        <a href="contacto.html" data-i18n="navigation.contact">Contacto</a>
+    </nav>
+    <div class="header-tools">
+        <div class="nav-dropdown lang-dropdown" data-dropdown>
+            <button type="button" class="tool-btn-lang" id="langToggle" data-dropdown-toggle aria-label="Cambiar idioma" data-i18n-aria="a11y.language" aria-expanded="false" data-lang="es">
+                <span class="btn-icon" id="langIcon"><img src="https://flagcdn.com/24x18/es.png" alt="ES" class="flag-icon" width="20" height="15" loading="lazy" style="display: inline-block; vertical-align: middle; width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex-shrink: 0;"></span>
+                <span class="btn-text" id="langLabel">Español</span>
+            </button>
+            <div class="dropdown-menu lang-menu" id="langMenu" data-dropdown-menu>
+                <button type="button" data-lang="es" data-value="es" data-label="Español" data-icon="🇪🇸" class="active"><img src="https://flagcdn.com/24x18/es.png" alt="ES" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Español</button>
+                <button type="button" data-lang="en" data-value="en" data-label="English" data-icon="🇬🇧"><img src="https://flagcdn.com/24x18/gb.png" alt="EN" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> English</button>
+                <button type="button" data-lang="fr" data-value="fr" data-label="Français" data-icon="🇫🇷"><img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> Français</button>
+                <button type="button" data-lang="ar" data-value="ar" data-label="العربية" data-icon="🇸🇦"><img src="https://flagcdn.com/24x18/sa.png" alt="AR" width="20" height="15" loading="lazy" style="width:20px;height:15px;object-fit:cover;border-radius:2px;flex-shrink:0;"> العربية</button>
+            </div>
+        </div>
+        <button type="button" class="tool-btn" id="darkbtn" aria-label="Modo oscuro">&#9790;</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+    <main id="main-content">
+        <section class="brands-hero">
+            <p class="hero-eyebrow">EXPLORA MARCAS</p>
+            <h1>Todas las <span class="accent">marcas</span> de coches</h1>
+            <p class="hero-popular">Descubre las marcas que analizamos en CarSpecio. Haz clic en una marca para ver sus modelos por categoria.</p>
+        </section>
+
+        <div class="brands-search-wrap">
+            <div class="brands-search">
+                <span class="search-icon">🔍</span>
+                <input type="search" id="brandSearch" placeholder="Buscar marca..." autocomplete="off" aria-label="Buscar marca">
+            </div>
+        </div>
+
+        <section class="brands-section" id="brandsSection">
+            <div class="brands-grid" id="brandsGrid"></div>
+        </section>
+
+        <section class="brand-detail" id="brandDetail">
+            <div class="brand-detail__header">
+                <button class="brand-detail__back" id="backToBrandsBtn">
+                    <svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                    Volver a Marcas
+                </button>
+                <div class="brand-detail__title" id="brandDetailTitle"></div>
+            </div>
+            <div class="category-tabs" id="categoryTabs"></div>
+            <div class="models-grid" id="modelsGrid"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo" aria-label="CarSpecio">
+                <picture>
+                    <source srcset="assets/logo/carspecio-mobile.png" media="(max-width: 600px)">
+                    <source srcset="assets/logo/carspecio-tablet.png" media="(max-width: 1024px)">
+                    <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
+                </picture>
+            </div>
+                <p data-i18n="footer.tagline">Reviews, comparativas y herramientas para elegir tu próximo coche con confianza.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.content">Contenido</h3>
+                <a href="reviews.html" data-i18n="footer.reviews">Reviews</a>
+                <a href="compare.html" data-i18n="footer.compare">Comparativas</a>
+                <a href="noticias.html" data-i18n="footer.news">Noticias</a>
+                <a href="guias/index.html" data-i18n="footer.guides">Guías</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.tools">Herramientas</h3>
+                <a href="diagnostico.html" data-i18n="footer.diagnosis">Diagnóstico</a>
+                <a href="herramientas.html" data-i18n="footer.tools">Herramientas</a>
+                <a href="marcas.html" data-i18n="footer.brands">Marcas</a>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <a href="contacto.html" data-i18n="footer.contact">Contacto</a>
+                <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="cookies-policy.html" data-i18n="footer.cookiePolicy">Política de Cookies</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 CarSpecio. Todos los derechos reservados.</div>
+    </div>
+</footer>
+
+    <script src="js/mega-menu-data.js"></script>
+    <script src="js/mega-menu.js"></script>
+    <script src="js/flag-icons.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="system/js/dropdowns.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    (function() {
+        'use strict';
+
+        var grid = document.getElementById('brandsGrid');
+        var brandsSection = document.getElementById('brandsSection');
+        var brandDetail = document.getElementById('brandDetail');
+        var brandDetailTitle = document.getElementById('brandDetailTitle');
+        var categoryTabs = document.getElementById('categoryTabs');
+        var modelsGrid = document.getElementById('modelsGrid');
+        var backBtn = document.getElementById('backToBrandsBtn');
+        var searchInput = document.getElementById('brandSearch');
+        var selectedBrand = null;
+        var selectedCategory = null;
+
+        var brands = brandLogoMap ? Object.keys(brandLogoMap).sort() : [];
+
+        function getModelsForBrand(brandName) {
+            if (typeof brandModels === 'undefined' || !brandModels[brandName]) return {};
+            return brandModels[brandName];
+        }
+
+        function countModels(brandName) {
+            var data = getModelsForBrand(brandName);
+            var count = 0;
+            Object.keys(data).forEach(function(cat) {
+                if (data[cat] && data[cat].length) count += data[cat].length;
+            });
+            return count;
+        }
+
+        function renderBrands() {
+            grid.innerHTML = '';
+            brands.forEach(function(name) {
+                var logo = brandLogoMap[name];
+                var count = countModels(name);
+                var card = document.createElement('div');
+                card.className = 'brand-card';
+                card.dataset.brand = name;
+                card.setAttribute('role', 'button');
+                card.setAttribute('tabindex', '0');
+
+                var logoHtml = '';
+                if (logo) {
+                    logoHtml = '<img src="' + logo + '" alt="' + name + '" loading="lazy">';
+                } else {
+                    logoHtml = '<div class="brand-fallback">' + name.charAt(0) + '</div>';
+                }
+
+                var countHtml = count > 0
+                    ? '<span class="brand-models-count">' + count + ' modelo' + (count > 1 ? 's' : '') + '</span>'
+                    : '<span class="brand-models-count">Proximamente</span>';
+
+                card.innerHTML = logoHtml + '<span class="brand-name">' + name + '</span>' + countHtml;
+
+                var img = card.querySelector('img');
+                if (img) {
+                    img.addEventListener('error', function() {
+                        var fb = document.createElement('div');
+                        fb.className = 'brand-fallback';
+                        fb.textContent = name.charAt(0);
+                        img.replaceWith(fb);
+                    });
+                }
+
+                card.addEventListener('click', function() { openBrand(name); });
+                card.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openBrand(name); }
+                });
+
+                grid.appendChild(card);
+            });
+        }
+
+        function openBrand(brandName) {
+            selectedBrand = brandName;
+            selectedCategory = null;
+
+            var logo = brandLogoMap[brandName];
+            var logoHtml = '';
+            if (logo) {
+                logoHtml = '<img src="' + logo + '" alt="' + brandName + '" style="width:40px;height:40px;object-fit:contain">';
+            }
+            brandDetailTitle.innerHTML = logoHtml + '<h2>' + brandName + '</h2>';
+
+            var detailImg = brandDetailTitle.querySelector('img');
+            if (detailImg) {
+                detailImg.addEventListener('error', function() { detailImg.remove(); });
+            }
+
+            var data = getModelsForBrand(brandName);
+            var cats = Object.keys(data).filter(function(c) { return data[c] && data[c].length > 0; });
+
+            categoryTabs.innerHTML = '';
+
+            if (cats.length === 0) {
+                modelsGrid.innerHTML = '<p class="models-empty">No hay modelos disponibles para esta marca. Proximamente.</p>';
+            } else {
+                cats.forEach(function(cat, idx) {
+                    var tab = document.createElement('button');
+                    tab.className = 'category-tab';
+                    tab.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+                    tab.dataset.category = cat;
+                    if (idx === 0) {
+                        tab.classList.add('active');
+                        selectedCategory = cat;
+                    }
+                    tab.addEventListener('click', function() {
+                        categoryTabs.querySelectorAll('.category-tab').forEach(function(t) { t.classList.remove('active'); });
+                        tab.classList.add('active');
+                        selectedCategory = cat;
+                        renderModels();
+                    });
+                    categoryTabs.appendChild(tab);
+                });
+                renderModels();
+            }
+
+            brandsSection.style.display = 'none';
+            brandDetail.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderModels() {
+            if (!selectedBrand || !selectedCategory) return;
+            var data = getModelsForBrand(selectedBrand);
+            var models = data[selectedCategory] || [];
+
+            modelsGrid.innerHTML = '';
+
+            if (models.length === 0) {
+                modelsGrid.innerHTML = '<p class="models-empty">No hay modelos en esta categoria. Proximamente.</p>';
+                return;
+            }
+
+            models.forEach(function(modelName) {
+                var page = (typeof modelPageMap !== 'undefined' && modelPageMap[modelName]) ? modelPageMap[modelName] : '#';
+                var card = document.createElement('a');
+                card.className = 'model-card';
+                if (page === '#') card.classList.add('model-card--soon');
+                card.href = page !== '#' ? page : '#';
+                card.innerHTML = '<span class="model-name">' + modelName + '</span>' +
+                    '<span class="model-cat">' + selectedCategory + '</span>' +
+                    (page === '#' ? '<span class="soon-badge">Proximamente</span>' : '');
+                modelsGrid.appendChild(card);
+            });
+        }
+
+        backBtn.addEventListener('click', function() {
+            brandDetail.classList.remove('active');
+            brandsSection.style.display = 'block';
+            selectedBrand = null;
+            selectedCategory = null;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        if (searchInput) {
+            searchInput.addEventListener('input', function() {
+                var term = searchInput.value.toLowerCase();
+                grid.querySelectorAll('.brand-card').forEach(function(card) {
+                    var name = card.dataset.brand.toLowerCase();
+                    card.style.display = name.indexOf(term) !== -1 ? '' : 'none';
+                });
+            });
+        }
+
+        renderBrands();
+    })();
+    </script>
+
+<script src="js/cookie-consent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/analytics-events.js" defer></script>
+</body>
+</html>

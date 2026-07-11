@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/locales/guides.ar.json",
+  "language": "ar",
+  "languageName": "العربية",
+  "direction": "rtl",
+  "_comment": "ترجمات واجهة المستخدم الحصرية لصفحات الأدلة. محتوى كل دليل (مقدمة، أقسام، أسئلة شائعة) موجود في system/data/guides/[slug].json. أضف هنا فقط سلاسل الواجهة: التسميات، الأزرار، عناوين الأقسام الثابتة، إلخ.",
+
+  "page": {
+    "title": "أدلة ونصائح السيارات",
+    "heroTitle": "أدلة كارسبيسيو",
+    "heroSubtitle": "نصائح عملية للعناية بسيارتك",
+    "breadcrumbHome": "الرئيسية",
+    "breadcrumbGuides": "الأدلة"
+  },
+
+  "meta": {
+    "titleSuffix": "| دليل كارسبيسيو",
+    "defaultDescription": "أدلة صيانة السيارات العملية ونصائح مفيدة."
+  },
+
+  "difficulty": {
+    "beginner": "سهل",
+    "intermediate": "متوسط",
+    "advanced": "متقدم"
+  },
+
+  "readingTime": "{minutes} دقيقة قراءة",
+
+  "toc": {
+    "title": "المحتويات",
+    "ariaLabel": "جدول المحتويات"
+  },
+
+  "sidebar": {
+    "relatedGuidesTitle": "أدلة أخرى",
+    "shareTitle": "مشاركة هذا الدليل",
+    "summaryTitle": "ملخص سريع",
+    "ariaLabel": "الشريط الجانبي للدليل"
+  },
+
+  "content": {
+    "keyTakeawaysTitle": "النقاط الرئيسية",
+    "summaryTitle": "ملخص سريع",
+    "faqTitle": "الأسئلة الشائعة",
+    "sectionAnchorAriaLabel": "نسخ رابط هذا القسم"
+  },
+
+  "author": {
+    "updatedOn": "تم التحديث",
+    "publishedOn": "نُشر في {date}",
+    "by": "بقلم {author}",
+    "editorial": "محتوى مراجع من قبل الفريق التحريري لـ CarSpecio."
+  },
+
+  "freshness": {
+    "warning": "لم يتم تحديث هذا الدليل منذ أكثر من 12 شهرًا. بعض المعلومات قد تكون قديمة."
+  },
+
+  "related": {
+    "guidesTitle": "أدلة ذات صلة",
+    "carsTitle": "سيارات ذات صلة",
+    "seeAll": "عرض الكل"
+  },
+
+  "social": {
+    "shareTitle": "مشاركة",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط!",
+    "shareOn": "مشاركة على {platform}",
+    "twitter": "تويتر / إكس",
+    "facebook": "فيسبوك",
+    "whatsapp": "واتساب",
+    "linkedin": "لينكدإن"
+  },
+
+  "completion": {
+    "title": "هل انتهيت من القراءة؟",
+    "indexButton": "استعرض جميع الأدلة",
+    "relatedButton": "اقرأ التالي"
+  },
+
+  "cta": {
+    "title": "هل تحتاج إلى المزيد من المساعدة؟",
+    "button": "تواصل مع كارسبيسيو"
+  },
+
+  "index": {
+    "pageTitle": "أدلة ونصائح السيارات | كارسبيسيو",
+    "heroTitle": "أدلة كارسبيسيو",
+    "heroSubtitle": "نصائح عملية للعناية بسيارتك",
+    "categoriesTitle": "التصنيفات",
+    "featuredTitle": "أدلة مميزة",
+    "allGuides": "جميع الأدلة",
+    "seeAll": "عرض الكل",
+    "searchPlaceholder": "ابحث في الأدلة...",
+    "noResults": "لم يتم العثور على أدلة لبحثك."
+  },
+
+  "categories": {
+    "car-buying": "شراء السيارات",
+    "maintenance": "الصيانة",
+    "breakdowns": "الأعطال والمشاكل",
+    "fuel-consumption": "الوقود والاستهلاك",
+    "tires": "الإطارات",
+    "insurance": "التأمين",
+    "itv": "الفحص الفني",
+    "taxation": "الضرائب",
+    "electric-cars": "السيارات الكهربائية",
+    "hybrid-cars": "السيارات الهجينة",
+    "driving": "القيادة",
+    "seasonal": "الشتاء والصيف"
+  },
+
+  "callout": {
+    "tip": "نصيحة",
+    "warning": "تحذير",
+    "info": "معلومة",
+    "danger": "خطر"
+  },
+
+  "progress": {
+    "ariaLabel": "تقدم القراءة",
+    "timeRemaining": "{minutes} دقيقة متبقية",
+    "almostDone": "اقتربت من النهاية!"
+  },
+
+  "a11y": {
+    "skipToContent": "انتقل إلى المحتوى",
+    "openFaq": "فتح السؤال",
+    "closeFaq": "إغلاق السؤال",
+    "languageChanged": "تم تغيير اللغة إلى {lang}"
+  }
+}

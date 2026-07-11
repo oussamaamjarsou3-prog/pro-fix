@@ -1,0 +1,40 @@
+{
+  "id": "spain",
+  "name": "Spain",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "units": {
+    "speed": "km/h",
+    "distance": "km",
+    "fuelEconomy": "L/100km",
+    "volume": "L",
+    "weight": "kg"
+  },
+  "fuelPrices": {
+    "petrol": { "value": 1.65, "currency": "EUR", "unit": "L" },
+    "diesel": { "value": 1.55, "currency": "EUR", "unit": "L" },
+    "electric": { "value": 0.18, "currency": "EUR", "unit": "kWh" }
+  },
+  "taxes": {
+    "vat": 0.21,
+    "registrationTax": {
+      "method": "co2-based",
+      "rates": [
+        { "threshold": 120, "rate": 0 },
+        { "threshold": 160, "rate": 4.75 },
+        { "threshold": 200, "rate": 9.75 },
+        { "threshold": null, "rate": 14.75 }
+      ]
+    }
+  },
+  "inspection": {
+    "name": "ITV",
+    "frequencyYears": 2
+  },
+  "localization": {
+    "dateFormat": "DD/MM/YYYY",
+    "decimalSeparator": ",",
+    "thousandsSeparator": ".",
+    "language": "es"
+  }
+}

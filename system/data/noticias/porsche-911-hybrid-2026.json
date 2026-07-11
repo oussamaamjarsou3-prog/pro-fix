@@ -1,0 +1,542 @@
+{
+    "id": "porsche-911-hybrid-2026",
+    "slug": "porsche-911-hybrid-2026",
+    "source": "caranddriver",
+    "category": "lanzamientos",
+    "date": "2026-06-25",
+    "readingTime": 6,
+    "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+    "externalUrl": "https://www.caranddriver.com/porsche/911",
+    "tags": [
+        "porsche",
+        "911",
+        "gts",
+        "t-hybrid",
+        "deportivos"
+    ],
+    "relatedCars": [
+        {
+            "slug": "porsche-911",
+            "name": "Porsche 911",
+            "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png"
+        }
+    ],
+    "relatedNews": [
+        "bmw-m5-phev-record",
+        "audi-rs7-performance-2026"
+    ],
+    "translations": {
+        "es": {
+            "title": "Porsche 911 GTS T-Hybrid: el bóxer más puro se electrifica",
+            "subtitle": "La primera electrificación del mítico 911 llega por la puerta grande del GTS, manteniendo el alma del bóxer y añadiendo una dosis de electricidad estratégica.",
+            "excerpt": "Porsche introduce el sistema T-Hybrid en el 911 GTS: un bóxer de 3.6 litros con turbo eléctrico y un motor de 54 CV integrado en la caja PDK, para una potencia combinada de 532 CV. El conjunto funciona a 400 V con una batería de 1.1 kWh y acelera de 0 a 100 km/h en aproximadamente 2.7 segundos.",
+            "imageCaption": "Porsche 911 GTS T-Hybrid (2026).",
+            "sections": [
+                {
+                    "id": "introduccion",
+                    "heading": "Introducción",
+                    "paragraphs": [
+                        "Porsche ha dado un paso decisivo en la historia del 911 con la llegada del sistema T-Hybrid. Por primera vez, el mítico deportivo alemán incorpora electrificación sin renunciar a su esencia: un bóxer de seis cilindros en configuración opuesta, sonido inconfundible y tracción trasera (o total en las variantes 4S)."
+                    ]
+                },
+                {
+                    "id": "motor",
+                    "heading": "El sistema T-Hybrid por dentro",
+                    "paragraphs": [
+                        "El corazón del 911 GTS T-Hybrid es un bóxer de 3.6 litros biturbo que, en lugar de contar con un turbocompresor convencional, utiliza un turbo eléctrico. Este sistema elimina el lag turbo y aporta respuesta inmediata. A esto se suma un motor eléctrico integrado dentro de la caja de cambios PDK de ocho velocidades, que aporta 54 CV y 110 lb-pie de par adicional.",
+                        "La potencia combinada alcanza los 532 CV, una cifra que sitúa al GTS T-Hybrid por encima del Carrera S y muy cerca de antiguas versiones Turbo. El sistema funciona a 400 voltios y almacena energía en una batería de ion-litio de 1.1 kWh."
+                    ]
+                },
+                {
+                    "id": "rendimiento",
+                    "heading": "Rendimiento a la altura del mito",
+                    "paragraphs": [
+                        "En las pruebas de Car and Driver, el 911 GTS T-Hybrid ha demostrado ser tan rápido como refinado: el 0 a 100 km/h se resuelve en aproximadamente 2.7 segundos, manteniendo el 911 como referencia absoluta entre los deportivos de motor central-trasero."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Primer Porsche 911 de serie con sistema híbrido, aunque no enchufable.",
+                "Potencia combinada de 532 CV gracias a un bóxer 3.6 con turbo eléctrico y motor de 54 CV en la caja PDK.",
+                "La batería de 1.1 kWh a 400 V permite recuperar energía y eliminar el lag turbo.",
+                "Mantiene la estética y la filosofía del 911, sin necesidad de recarga externa."
+            ],
+            "previousModel": {
+                "name": "Porsche 911 Carrera GTS (992.1)",
+                "year": "2021-2024",
+                "summary": "Impulsado por un bóxer 3.0 biturbo de 480 CV, sin asistencia eléctrica. Su principal diferencia con el nuevo GTS T-Hybrid es la ausencia de turbo eléctrico y motor eléctrico en la transmisión."
+            },
+            "whatChanged": [
+                {
+                    "title": "Motor nuevo:",
+                    "text": "El bóxer pasa de 3.0 a 3.6 litros, con un turbo eléctrico que elimina el lag y mejora la respuesta a bajo régimen."
+                },
+                {
+                    "title": "Hibridación ligera:",
+                    "text": "Un motor eléctrico de 54 CV integrado en la caja PDK aporta par eléctrico y permite recuperar energía en frenadas y desaceleraciones."
+                },
+                {
+                    "title": "Más potencia:",
+                    "text": "Los 532 CV superan en 52 CV al GTS anterior y se acercan a la antigua generación 911 Turbo."
+                },
+                {
+                    "title": "Arquitectura 400 V:",
+                    "text": "La batería de 1.1 kWh y la gestión térmica permiten rendimiento sostenido en circuito sin depender de un enchufe."
+                }
+            ],
+            "newTechnology": [
+                "El turbo eléctrico es el elemento más llamativo: un motor eléctrico acelera directamente la turbina, eliminando el retraso de respuesta típico de los turbos grandes.",
+                "La unidad eléctrica en el carter de la caja PDK actúa como asistencia al arranque y rellena los huecos de par, convirtiendo el sistema en una prolongación mecánica del motor.",
+                "A diferencia de un PHEV, el T-Hybrid no añade peso excesivo ni reduce capacidad de maletero. La batería es pequeña y se recarga en movimiento, manteniendo la usabilidad diaria."
+            ],
+            "marketContext": "Porsche demuestra que la electrificación puede ser un aliado del rendimiento sin renunciar a la identidad. El 911 GTS T-Hybrid se posiciona como alternativa más purista frente a híbridos enchufables como el Ferrari 296 GTB o el McLaren Artura, con una fórmula menos radical y más cercana al usuario tradicional del 911.",
+            "pricing": {
+                "price": "Desde 170.000 €",
+                "market": "Europa",
+                "availability": "Llegada prevista a finales de 2025",
+                "note": "Precio orientativo para el mercado europeo antes de impuestos locales."
+            },
+            "prosCons": {
+                "pros": [
+                    "Más potencia y respuesta sin renunciar al bóxer atmosférico.",
+                    "No necesita enchufe: se recarga en movimiento.",
+                    "Mantiene la estética, el peso y la filosofía del 911."
+                ],
+                "cons": [
+                    "Mayor complejidad mecánica y coste de mantenimiento futuro.",
+                    "Precio superior al GTS anterior.",
+                    "Aún no se conoce el comportamiento del sistema en climas extremos."
+                ]
+            },
+            "opinion": "En CarSpecio consideramos que el 911 GTS T-Hybrid es la decisión más sensata de Porsche en años: electrificación ligera, sin cable ni compromisos de uso, que mejora el rendimiento real y la respuesta del motor sin distorsionar el carácter del modelo. Es híbrido, sí, pero no renuncia al alma del bóxer ni a la sensación de conducir un 911 auténtico.",
+            "stats": [
+                {
+                    "value": "532 CV",
+                    "label": "Potencia combinada"
+                },
+                {
+                    "value": "2,7 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "400 V",
+                    "label": "Arquitectura eléctrica"
+                },
+                {
+                    "value": "1.1 kWh",
+                    "label": "Batería"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1963",
+                    "title": "Nacimiento del 911",
+                    "desc": "Porsche presenta el primer 911 con motor bóxer de seis cilindros plano."
+                },
+                {
+                    "date": "2011",
+                    "title": "918 Spyder híbrido",
+                    "desc": "Porsche demuestra que la electrificación y el rendimiento pueden ir de la mano."
+                },
+                {
+                    "date": "2025",
+                    "title": "911 GTS T-Hybrid",
+                    "desc": "La primera 911 de serie con sistema híbrido llega al mercado."
+                }
+            ],
+            "infoBox": {
+                "title": "Dato clave",
+                "text": "El motor eléctrico del GTS T-Hybrid no está entre el motor y la caja, sino integrado en el carter de la PDK, lo que reduce la inercia y mejora la respuesta."
+            },
+            "quote": {
+                "text": "El T-Hybrid no es un paso hacia el coche eléctrico; es un paso para que el 911 siga siendo el 911 durante décadas.",
+                "author": "Porsche Engineering"
+            },
+            "warningBox": null
+        },
+        "en": {
+            "title": "Porsche 911 GTS T-Hybrid: the purest boxer goes hybrid",
+            "subtitle": "The first electrification of the legendary 911 arrives through the GTS, keeping the boxer soul and adding a strategic dose of electricity.",
+            "excerpt": "Porsche introduces the T-Hybrid system in the 911 GTS: a 3.6-litre boxer with an electric turbo and a 54 hp motor integrated into the PDK gearbox, for a combined output of 532 hp. The system runs at 400 V with a 1.1 kWh battery and accelerates from 0 to 100 km/h in approximately 2.7 seconds.",
+            "imageCaption": "Porsche 911 GTS T-Hybrid (2026).",
+            "sections": [
+                {
+                    "id": "introduccion",
+                    "heading": "Introduction",
+                    "paragraphs": [
+                        "Porsche has taken a decisive step in the history of the 911 with the arrival of the T-Hybrid system. For the first time, the legendary sports car incorporates electrification without renouncing its essence: a flat-six boxer engine, unmistakable sound and rear-wheel drive (or all-wheel drive in the 4S variants)."
+                    ]
+                },
+                {
+                    "id": "motor",
+                    "heading": "The T-Hybrid system inside",
+                    "paragraphs": [
+                        "The heart of the 911 GTS T-Hybrid is a 3.6-litre biturbo boxer that, instead of a conventional turbocharger, uses an electric turbo. This system eliminates turbo lag and provides immediate response. It is complemented by a 54 hp electric motor integrated into the eight-speed PDK gearbox, which adds 110 lb-ft of torque.",
+                        "The combined output reaches 532 hp, a figure that places the GTS T-Hybrid above the Carrera S and very close to the previous Turbo generation. The system operates at 400 volts and stores energy in a 1.1 kWh lithium-ion battery."
+                    ]
+                },
+                {
+                    "id": "rendimiento",
+                    "heading": "Performance worthy of the legend",
+                    "paragraphs": [
+                        "In Car and Driver tests, the 911 GTS T-Hybrid has proven to be as fast as it is refined: the 0 to 100 km/h sprint is completed in approximately 2.7 seconds, maintaining the 911 as the absolute reference among rear-mid-engine sports cars."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "First series-production Porsche 911 with a hybrid system, although not plug-in.",
+                "Combined output of 532 hp thanks to a 3.6-litre boxer with an electric turbo and a 54 hp motor in the PDK gearbox.",
+                "The 1.1 kWh battery at 400 V allows energy recovery and eliminates turbo lag.",
+                "It retains the looks and philosophy of the 911, with no need for external charging."
+            ],
+            "previousModel": {
+                "name": "Porsche 911 Carrera GTS (992.1)",
+                "year": "2021-2024",
+                "summary": "Powered by a 480 hp 3.0-litre biturbo boxer with no electric assistance. Its main difference from the new GTS T-Hybrid is the absence of an electric turbo and electric motor in the transmission."
+            },
+            "whatChanged": [
+                {
+                    "title": "New engine:",
+                    "text": "The boxer grows from 3.0 to 3.6 litres, with an electric turbo that eliminates lag and improves low-rev response."
+                },
+                {
+                    "title": "Light hybridisation:",
+                    "text": "A 54 hp electric motor integrated into the PDK gearbox adds electric torque and allows energy recovery during braking and deceleration."
+                },
+                {
+                    "title": "More power:",
+                    "text": "The 532 hp exceed the previous GTS by 52 hp and approach the previous 911 Turbo generation."
+                },
+                {
+                    "title": "400 V architecture:",
+                    "text": "The 1.1 kWh battery and thermal management allow sustained track performance without depending on a plug."
+                }
+            ],
+            "newTechnology": [
+                "The electric turbo is the most striking element: an electric motor accelerates the turbine directly, eliminating the typical response delay of large turbos.",
+                "The electric unit inside the PDK gearbox acts as launch assistance and fills torque gaps, turning the system into a mechanical extension of the engine.",
+                "Unlike a PHEV, the T-Hybrid does not add excessive weight or reduce boot capacity. The battery is small and recharges on the move, maintaining everyday usability."
+            ],
+            "marketContext": "Porsche demonstrates that electrification can be an ally of performance without giving up identity. The 911 GTS T-Hybrid is positioned as a more purist alternative to plug-in hybrids such as the Ferrari 296 GTB or McLaren Artura, with a less radical and more traditional 911-user-friendly formula.",
+            "pricing": {
+                "price": "From €170,000",
+                "market": "Europe",
+                "availability": "Expected to arrive in late 2025",
+                "note": "Indicative price for the European market before local taxes."
+            },
+            "prosCons": {
+                "pros": [
+                    "More power and response without renouncing the naturally aspirated boxer feel.",
+                    "No plug needed: it recharges on the move.",
+                    "It retains the looks, weight and philosophy of the 911."
+                ],
+                "cons": [
+                    "Greater mechanical complexity and future maintenance cost.",
+                    "Higher price than the previous GTS.",
+                    "The system's behaviour in extreme climates is still unknown."
+                ]
+            },
+            "opinion": "At CarSpecio we believe the 911 GTS T-Hybrid is the most sensible decision Porsche has made in years: light electrification, without a cable or usage compromises, that improves real-world performance and engine response without distorting the character of the model. It is hybrid, yes, but it does not renounce the boxer soul or the feeling of driving an authentic 911.",
+            "stats": [
+                {
+                    "value": "532 hp",
+                    "label": "Combined power"
+                },
+                {
+                    "value": "2.7 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "1.1 kWh",
+                    "label": "Battery"
+                },
+                {
+                    "value": "400 V",
+                    "label": "Electric architecture"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1963",
+                    "title": "Birth of the 911",
+                    "desc": "Porsche presents the first 911 with a flat-six boxer engine."
+                },
+                {
+                    "date": "2011",
+                    "title": "918 Spyder hybrid",
+                    "desc": "Porsche proves that electrification and performance can go hand in hand."
+                },
+                {
+                    "date": "2025",
+                    "title": "911 GTS T-Hybrid",
+                    "desc": "The first series 911 with a hybrid system reaches the market."
+                }
+            ],
+            "infoBox": {
+                "title": "Key fact",
+                "text": "The GTS T-Hybrid electric motor is not between the engine and the gearbox, but integrated into the PDK housing, which reduces inertia and improves response."
+            },
+            "quote": {
+                "text": "The T-Hybrid is not a step towards the electric car; it is a step so that the 911 remains the 911 for decades.",
+                "author": "Porsche Engineering"
+            },
+            "warningBox": null
+        },
+        "fr": {
+            "title": "Porsche 911 GTS T-Hybrid : le boxer le plus pur s'électrifie",
+            "subtitle": "La première électrification de la légendaire 911 arrive par la porte grande du GTS, en conservant l'âme du boxer et en ajoutant une dose stratégique d'électricité.",
+            "excerpt": "Porsche introduit le système T-Hybrid dans la 911 GTS : un boxer 3,6 litres avec turbo électrique et un moteur de 54 ch intégré à la boîte PDK, pour une puissance combinée de 532 ch. L'ensemble fonctionne à 400 V avec une batterie de 1,1 kWh et accélère de 0 à 100 km/h en environ 2,7 secondes.",
+            "imageCaption": "Porsche 911 GTS T-Hybrid (2026).",
+            "sections": [
+                {
+                    "id": "introduccion",
+                    "heading": "Introduction",
+                    "paragraphs": [
+                        "Porsche a fait un pas décisif dans l'histoire de la 911 avec l'arrivée du système T-Hybrid. Pour la première fois, la sportive légende intègre l'électrification sans renier son essence : un moteur boxer six-cylindres à plat, un son inconfondable et une traction arrière (ou intégrale sur les versions 4S)."
+                    ]
+                },
+                {
+                    "id": "motor",
+                    "heading": "Le système T-Hybrid en détail",
+                    "paragraphs": [
+                        "Le cœur de la 911 GTS T-Hybrid est un boxer 3,6 litres biturbo qui, au lieu d'un turbocompresseur classique, utilise un turbo électrique. Ce système élimine le turbo lag et offre une réponse immédiate. Il est complété par un moteur électrique de 54 ch intégré à la boîte PDK à huit rapports, qui ajoute 150 Nm de couple supplémentaire.",
+                        "La puissance combinée atteint 532 ch, ce qui place la GTS T-Hybrid au-dessus de la Carrera S et très proche de l'ancienne génération Turbo. Le système fonctionne à 400 volts et stocke l'énergie dans une batterie lithium-ion de 1,1 kWh."
+                    ]
+                },
+                {
+                    "id": "rendimiento",
+                    "heading": "Des performances à la hauteur du mythe",
+                    "paragraphs": [
+                        "Dans les essais de Car and Driver, la 911 GTS T-Hybrid s'est montrée aussi rapide que raffinée : le 0 à 100 km/h s'effectue en environ 2,7 secondes, maintenant la 911 comme référence absolue parmi les sportives à moteur arrière-central."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "Première Porsche 911 de série avec un système hybride, bien que non rechargeable.",
+                "Puissance combinée de 532 ch grâce à un boxer 3,6 litres avec turbo électrique et un moteur de 54 ch dans la boîte PDK.",
+                "La batterie de 1,1 kWh à 400 V permet la récupération d'énergie et élimine le turbo lag.",
+                "Elle conserve l'esthétique et la philosophie de la 911, sans besoin de recharge externe."
+            ],
+            "previousModel": {
+                "name": "Porsche 911 Carrera GTS (992.1)",
+                "year": "2021-2024",
+                "summary": "Propulsée par un boxer 3,0 litres biturbo de 480 ch sans assistance électrique. Sa principale différence avec la nouvelle GTS T-Hybrid est l'absence de turbo électrique et de moteur électrique dans la transmission."
+            },
+            "whatChanged": [
+                {
+                    "title": "Nouveau moteur :",
+                    "text": "Le boxer passe de 3,0 à 3,6 litres, avec un turbo électrique qui élimine le lag et améliore la réponse aux bas régimes."
+                },
+                {
+                    "title": "Hybridation légère :",
+                    "text": "Un moteur électrique de 54 ch intégré à la boîte PDK apporte du couple électrique et permet la récupération d'énergie au freinage et en décélération."
+                },
+                {
+                    "title": "Plus de puissance :",
+                    "text": "Les 532 ch dépassent de 52 ch la GTS précédente et se rapprochent de l'ancienne génération 911 Turbo."
+                },
+                {
+                    "title": "Architecture 400 V :",
+                    "text": "La batterie de 1,1 kWh et la gestion thermique permettent des performances soutenues sur circuit sans dépendre d'une prise."
+                }
+            ],
+            "newTechnology": [
+                "Le turbo électrique est l'élément le plus frappant : un moteur électrique accélère directement la turbine, éliminant le retard de réponse typique des gros turbos.",
+                "L'unité électrique dans le carter de la boîte PDK agit comme assistance au démarrage et comble les trous de couple, transformant le système en une extension mécanique du moteur.",
+                "Contrairement à un PHEV, le T-Hybrid n'ajoute pas de poids excessif ni ne réduit le volume du coffre. La batterie est petite et se recharge en roulant, maintenant l'usabilité quotidienne."
+            ],
+            "marketContext": "Porsche démontre que l'électrification peut être une alliée de la performance sans renier l'identité. La 911 GTS T-Hybrid se positionne comme une alternative plus puriste face aux hybrides rechargeables comme la Ferrari 296 GTB ou la McLaren Artura, avec une formule moins radicale et plus proche de l'utilisateur traditionnel de la 911.",
+            "pricing": {
+                "price": "À partir de 170 000 €",
+                "market": "Europe",
+                "availability": "Arrivée prévue fin 2025",
+                "note": "Prix indicatif pour le marché européen avant taxes locales."
+            },
+            "prosCons": {
+                "pros": [
+                    "Plus de puissance et de réponse sans renier la sensation du boxer atmosphérique.",
+                    "Pas besoin de prise : elle se recharge en roulant.",
+                    "Elle conserve l'esthétique, le poids et la philosophie de la 911."
+                ],
+                "cons": [
+                    "Complexité mécanique accrue et coût d'entretien futur.",
+                    "Prix supérieur à celui de la GTS précédente.",
+                    "Le comportement du système par climats extrêmes reste inconnu."
+                ]
+            },
+            "opinion": "Chez CarSpecio, nous pensons que la 911 GTS T-Hybrid est la décision la plus sensée de Porsche depuis des années : une électrification légère, sans câble ni compromis d'utilisation, qui améliore les performances réelles et la réponse du moteur sans dénaturer le caractère du modèle. C'est hybride, oui, mais cela ne renie pas l'âme du boxer ni la sensation de conduire une 911 authentique.",
+            "stats": [
+                {
+                    "value": "532 ch",
+                    "label": "Puissance combinée"
+                },
+                {
+                    "value": "2,7 s",
+                    "label": "0-100 km/h"
+                },
+                {
+                    "value": "1,1 kWh",
+                    "label": "Batterie"
+                },
+                {
+                    "value": "400 V",
+                    "label": "Architecture électrique"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1963",
+                    "title": "Naissance de la 911",
+                    "desc": "Porsche présente la première 911 avec un moteur boxer six-cylindres à plat."
+                },
+                {
+                    "date": "2011",
+                    "title": "918 Spyder hybride",
+                    "desc": "Porsche prouve que l'électrification et la performance peuvent aller de pair."
+                },
+                {
+                    "date": "2025",
+                    "title": "911 GTS T-Hybrid",
+                    "desc": "La première 911 de série avec système hybride arrive sur le marché."
+                }
+            ],
+            "infoBox": {
+                "title": "Fait clé",
+                "text": "Le moteur électrique de la GTS T-Hybrid n'est pas entre le moteur et la boîte, mais intégré dans le carter de la PDK, ce qui réduit l'inertie et améliore la réponse."
+            },
+            "quote": {
+                "text": "Le T-Hybrid n'est pas un pas vers la voiture électrique ; c'est un pas pour que la 911 reste la 911 pendant des décennies.",
+                "author": "Porsche Engineering"
+            },
+            "warningBox": null
+        },
+        "ar": {
+            "title": "بورش 911 جي تي أس تي-هايبريد: المحرك الأكثر نقاءً يتحول للهجينة",
+            "subtitle": "يصل التهجين الأول للأسطورة 911 عبر باب جي تي أس الكبير، محافظاً على روح البوكسر ويضيف جرعة استراتيجية من الكهرباء.",
+            "excerpt": "تقدم بورش نظام تي-هايبريد في 911 جي تي أس: محرك بوكسر 3.6 لتر مع توربين كهربائي ومحرك 54 حصان مدمج في علبة بي دي كي، لقوة إجمالية 532 حصان. يعمل النظام على 400 فولت مع بطارية 1.1 كيلوواط ساعة ويتسارع من 0 إلى 100 كم/س في حوالي 2.7 ثانية.",
+            "imageCaption": "بورش 911 جي تي أس تي-هايبريد (2026).",
+            "sections": [
+                {
+                    "id": "introduccion",
+                    "heading": "مقدمة",
+                    "paragraphs": [
+                        "خطت بورش خطوة حاسمة في تاريخ 911 مع وصول نظام تي-هايبريد. للمرة الأولى، تحصل السيارة الرياضية الأسطورية على التهجين دون التخلي عن جوهرها: محرك بوكسر سداسي الأسطوانات بشكل مسطح، صوت لا يُخطئ، ودفع خلفي (أو كلي في نسخ 4 أس)."
+                    ]
+                },
+                {
+                    "id": "motor",
+                    "heading": "نظام تي-هايبريد من الداخل",
+                    "paragraphs": [
+                        "قلب 911 جي تي أس تي-هايبريد هو محرك بوكسر 3.6 لتر مزدوج التوربين، بدلاً من التوربين التقليدي يستخدم توربين كهربائي. يزيل هذا النظام تأخر التوربين ويوفر استجابة فورية. كما يضاف محرك كهربائي 54 حصان مدمج داخل علبة بي دي كي من ثماني سرعات، يضيف 150 نيوتن متر من العزم الإضافي.",
+                        "تصل القوة الإجمالية إلى 532 حصان، رقم يضع جي تي أس تي-هايبريد فوق كاريرا أس وقريباً جداً من جيل توربو السابق. يعمل النظام على 400 فولت ويخزن الطاقة في بطارية ليثيوم أيون 1.1 كيلوواط ساعة."
+                    ]
+                },
+                {
+                    "id": "rendimiento",
+                    "heading": "أداء يعكس الأسطورة",
+                    "paragraphs": [
+                        "في اختبارات كار آند درايفر، أثبتت 911 جي تي أس تي-هايبريد أنها سريعة ورفيعة المستوى: تنجز السرعة من 0 إلى 100 كم/س في حوالي 2.7 ثانية، محافظةً على 911 كمرجع مطلق بين السيارات الرياضية بمحرك وسطي خلفي."
+                    ]
+                }
+            ],
+            "inBrief": [
+                "أول بورش 911 إنتاجية بنظام هجين، رغم أنها غير قابلة للشحن.",
+                "قوة إجمالية 532 حصان بفضل بوكسر 3.6 لتر مع توربين كهربائي ومحرك 54 حصان في علبة بي دي كي.",
+                "بطارية 1.1 كيلوواط ساعة على 400 فولت تسمح باستعادة الطاقة وإزالة تأخر التوربين.",
+                "تحتفظ بمظهر وفلسفة 911، دون الحاجة إلى شحن خارجي."
+            ],
+            "previousModel": {
+                "name": "بورش 911 كاريرا جي تي أس (992.1)",
+                "year": "2021-2024",
+                "summary": "محرك بوكسر 3.0 لتر مزدوج التوربين بقوة 480 حصان بدون مساعدة كهربائية. الفرق الرئيسي مع جي تي أس تي-هايبريد الجديدة هو غياب التوربين الكهربائي والمحرك الكهربائي في ناقل الحركة."
+            },
+            "whatChanged": [
+                {
+                    "title": "محرك جديد:",
+                    "text": "يزيد حجم البوكسر من 3.0 إلى 3.6 لتر، مع توربين كهربائي يزيل التأخر ويحسن الاستجابة عند الانخفاض."
+                },
+                {
+                    "title": "تهجين خفيف:",
+                    "text": "محرك كهربائي 54 حصان مدمج في علبة بي دي كي يوفر عزم كهربائي ويسمح باستعادة الطاقة عند الكبح والتباطؤ."
+                },
+                {
+                    "title": "قوة أكبر:",
+                    "text": "تتجاوز 532 حصان بـ 52 حصان جي تي أس السابقة وتقترب من جيل 911 توربو السابق."
+                },
+                {
+                    "title": "بنية 400 فولت:",
+                    "text": "البطارية 1.1 كيلوواط ساعة وإدارة الحرارة تسمح بأداء مستدام على الحلبة دون الاعتماد على قابس."
+                }
+            ],
+            "newTechnology": [
+                "التوربين الكهربائي هو العنصر الأبرز: محرك كهربائي يسرع التوربين مباشرة، مما يزيل التأخر النموذجي للتوربينات الكبيرة.",
+                "الوحدة الكهربائية داخل علبة بي دي كي تعمل كمساعدة للانطلاق وتملأ فجوات العزم، محولة النظام إلى امتداد ميكانيكي للمحرك.",
+                "على عكس هجين قابل للشحن، لا يضيف تي-هايبريد وزناً مفرطاً ولا يقلل سعة الصندوق. البطارية صغيرة وتشحن أثناء الحركة، مما يحافظ على قابلية الاستخدام اليومي."
+            ],
+            "marketContext": "تثبت بورش أن التهجين يمكن أن يكون حليفاً للأداء دون التخلي عن الهوية. تتموضع 911 جي تي أس تي-هايبريد كبديل أكثر نقاءً مقابل الهجينات القابلة للشحن مثل فيراري 296 جي تي بي أو ماكلارين أرتورا، بصيغة أقل تطرفاً وأقرب لمستخدم 911 التقليدي.",
+            "pricing": {
+                "price": "ابتداءً من 170,000 يورو",
+                "market": "أوروبا",
+                "availability": "من المتوقع الوصول في أواخر 2025",
+                "note": "سعر تقريبي للسوق الأوروبي قبل الضرائب المحلية."
+            },
+            "prosCons": {
+                "pros": [
+                    "المزيد من القوة والاستجابة دون التخلي عن إحساس البوكسر الطبيعي.",
+                    "لا حاجة للقابس: تشحن أثناء الحركة.",
+                    "تحتفظ بمظهر 911 ووزنها وفلسفتها."
+                ],
+                "cons": [
+                    "تعقيد ميكانيكي أكبر وتكلفة صيانة مستقبلية.",
+                    "سعر أعلى من جي تي أس السابقة.",
+                    "السلوك في المناخات القصية لا يزال مجهولاً."
+                ]
+            },
+            "opinion": "في كار سبيسيو، نعتقد أن 911 جي تي أس تي-هايبريد هي القرار الأكثر عقلانية لبورش خلال سنوات: تهجين خفيف، بدون كابل أو تنازلات في الاستخدام، يحسن الأداء الفعلي واستجابة المحرك دون تشويه طابع السيارة. إنها هجينة، نعم، لكنها لا تتنازل عن روح البوكسر أو إحساس قيادة 911 أصيلة.",
+            "stats": [
+                {
+                    "value": "532 حصان",
+                    "label": "القوة الإجمالية"
+                },
+                {
+                    "value": "2.7 ثانية",
+                    "label": "0-100 كم/س"
+                },
+                {
+                    "value": "1.1 كيلوواط ساعة",
+                    "label": "البطارية"
+                },
+                {
+                    "value": "400 فولت",
+                    "label": "البنية الكهربائية"
+                }
+            ],
+            "timeline": [
+                {
+                    "date": "1963",
+                    "title": "ولادة 911",
+                    "desc": "تقدم بورش أول 911 بمحرك بوكسر سداسي الأسطوانات بشكل مسطح."
+                },
+                {
+                    "date": "2011",
+                    "title": "918 سبايدر الهجينة",
+                    "desc": "تثبت بورش أن التهجين والأداء يمكن أن يسيرا جنباً إلى جنب."
+                },
+                {
+                    "date": "2025",
+                    "title": "911 جي تي أس تي-هايبريد",
+                    "desc": "تصل أول 911 إنتاجية بنظام هجين إلى السوق."
+                }
+            ],
+            "infoBox": {
+                "title": "حقيقة أساسية",
+                "text": "المحرك الكهربائي في جي تي أس تي-هايبريد ليس بين المحرك وعلبة التروس، بل مدمج في علبة بي دي كي، مما يقلل العطالة ويحسن الاستجابة."
+            },
+            "quote": {
+                "text": "تي-هايبريد ليست خطوة نحو السيارة الكهربائية؛ إنها خطوة لكي تبقى 911 هي 911 لعقود.",
+                "author": "هندسة بورش"
+            },
+            "warningBox": null
+        }
+    }
+}

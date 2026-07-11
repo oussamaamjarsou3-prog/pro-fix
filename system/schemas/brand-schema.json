@@ -1,0 +1,356 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://carspecio.com/schemas/brand-schema.json",
+  "title": "Brand Schema",
+  "description": "Brand data schema for carspecio platform - scalable to all automotive brands",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "country",
+    "founded",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique brand identifier (e.g., 'audi', 'bmw', 'mercedes')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier (e.g., 'audi')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Brand name (e.g., 'Audi', 'BMW', 'Mercedes-Benz')"
+    },
+    "legalName": {
+      "type": "string",
+      "description": "Legal company name (e.g., 'Audi AG', 'Bayerische Motoren Werke AG')"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of origin (ISO 3166-1 alpha-2 code)",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "countryName": {
+      "type": "string",
+      "description": "Country name (e.g., 'Germany', 'Japan', 'USA')"
+    },
+    "founded": {
+      "type": "integer",
+      "description": "Year the brand was founded",
+      "minimum": 1800,
+      "maximum": 2100
+    },
+    "headquarters": {
+      "type": "object",
+      "description": "Headquarters location",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "address": {
+          "type": "string"
+        },
+        "coordinates": {
+          "type": "object",
+          "description": "GPS coordinates",
+          "properties": {
+            "lat": {
+              "type": "number"
+            },
+            "lng": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "Brand status",
+      "enum": ["active", "discontinued", "defunct"]
+    },
+    "parentCompany": {
+      "type": "string",
+      "description": "Parent company (e.g., 'Volkswagen Group', 'BMW Group')"
+    },
+    "subsidiaries": {
+      "type": "array",
+      "description": "Subsidiary brands",
+      "items": {
+        "type": "string"
+      }
+    },
+    "logo": {
+      "type": "object",
+      "description": "Brand logo assets",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "Logo URL"
+        },
+        "svg": {
+          "type": "string",
+          "description": "SVG logo URL"
+        },
+        "icon": {
+          "type": "string",
+          "description": "Icon URL"
+        },
+        "dark": {
+          "type": "string",
+          "description": "Dark mode logo URL"
+        }
+      }
+    },
+    "website": {
+      "type": "string",
+      "description": "Official website URL",
+      "format": "uri"
+    },
+    "social": {
+      "type": "object",
+      "description": "Social media accounts",
+      "properties": {
+        "twitter": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "youtube": {
+          "type": "string"
+        },
+        "linkedin": {
+          "type": "string"
+        },
+        "tiktok": {
+          "type": "string"
+        }
+      }
+    },
+    "segment": {
+      "type": "string",
+      "description": "Market segment",
+      "enum": ["luxury", "premium", "mainstream", "economy", "supercar", "commercial"]
+    },
+    "specialty": {
+      "type": "array",
+      "description": "Brand specialties",
+      "items": {
+        "type": "string",
+        "enum": ["sports", "luxury", "electric", "suv", "sedan", "compact", "hybrid", "performance", "off-road"]
+      }
+    },
+    "categories": {
+      "type": "array",
+      "description": "Vehicle categories the brand produces",
+      "items": {
+        "type": "string",
+        "enum": ["deportivos", "suv", "electricos", "sedan", "hatchback", "compactos", "familiar", "pickup", "híbridos", "lujo"]
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Brand description"
+    },
+    "history": {
+      "type": "string",
+      "description": "Brand history"
+    },
+    "achievements": {
+      "type": "array",
+      "description": "Notable achievements",
+      "items": {
+        "type": "string"
+      }
+    },
+    "awards": {
+      "type": "array",
+      "description": "Awards and recognitions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "production": {
+      "type": "object",
+      "description": "Production statistics",
+      "properties": {
+        "annualProduction": {
+          "type": "integer",
+          "description": "Annual production volume"
+        },
+        "units": {
+          "type": "string",
+          "description": "Production units (e.g., 'vehicles per year')"
+        },
+        "factories": {
+          "type": "array",
+          "description": "Factory locations",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "city": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "marketPresence": {
+      "type": "object",
+      "description": "Market presence by region",
+      "properties": {
+        "europe": {
+          "type": "boolean"
+        },
+        "northAmerica": {
+          "type": "boolean"
+        },
+        "southAmerica": {
+          "type": "boolean"
+        },
+        "asia": {
+          "type": "boolean"
+        },
+        "africa": {
+          "type": "boolean"
+        },
+        "oceania": {
+          "type": "boolean"
+        }
+      }
+    },
+    "popularModels": {
+      "type": "array",
+      "description": "Popular model references",
+      "items": {
+        "type": "string"
+      }
+    },
+    "iconicModels": {
+      "type": "array",
+      "description": "Iconic/historical models",
+      "items": {
+        "type": "string"
+      }
+    },
+    "technologies": {
+      "type": "array",
+      "description": "Brand-specific technologies",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sustainability": {
+      "type": "object",
+      "description": "Sustainability initiatives",
+      "properties": {
+        "electricGoal": {
+          "type": "string",
+          "description": "Electric vehicle goals"
+        },
+        "carbonNeutral": {
+          "type": "string",
+          "description": "Carbon neutrality goal"
+        },
+        "initiatives": {
+          "type": "array",
+          "description": "Sustainability initiatives",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "description": "SEO data",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "System metadata",
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "updatedBy": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

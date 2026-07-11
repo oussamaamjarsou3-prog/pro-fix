@@ -1,0 +1,650 @@
+.herramientas-page {
+    background:
+        radial-gradient(900px 520px at 10% 0%, rgba(37, 99, 235, 0.14), transparent 62%),
+        radial-gradient(760px 420px at 100% 20%, rgba(59, 130, 246, 0.12), transparent 60%),
+        var(--bg-main);
+}
+
+.herramientas-page main {
+    position: relative;
+}
+
+.herramientas-page .tools-hero {
+    min-height: 620px;
+    height: auto;
+    padding: 120px 0 72px;
+    align-items: center;
+}
+
+.herramientas-page .tools-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(2, 6, 23, 0.14) 0%, rgba(2, 6, 23, 0.72) 100%),
+        radial-gradient(680px 320px at 18% 22%, rgba(59, 130, 246, 0.22), transparent 70%);
+    z-index: 1;
+}
+
+.herramientas-page .dash-hero-bg {
+    filter: saturate(1.05) contrast(1.02);
+    background-position: center;
+}
+
+.herramientas-page .dash-hero-overlay {
+    background:
+        linear-gradient(105deg, rgba(2, 6, 23, 0.98) 0%, rgba(2, 6, 23, 0.92) 38%, rgba(2, 6, 23, 0.58) 68%, rgba(2, 6, 23, 0.35) 100%);
+}
+
+.herramientas-page .tools-hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(320px, 420px);
+    gap: 28px;
+    align-items: end;
+}
+
+.herramientas-page .tools-hero-copy,
+.herramientas-page .tools-hero-panel {
+    position: relative;
+    z-index: 2;
+}
+
+.herramientas-page .tools-hero-copy {
+    max-width: 760px;
+}
+
+.herramientas-page .tools-hero-text {
+    max-width: 680px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.herramientas-page .tools-trust-strip {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+    padding: 18px;
+    border-radius: var(--radius-md);
+}
+
+.herramientas-page .tools-trust-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.herramientas-page .tools-trust-item strong {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.herramientas-page .tools-trust-item span {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+.herramientas-page .tools-hero-panel {
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.herramientas-page .panel-kicker {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 18px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(96, 165, 250, 0.28);
+    color: var(--accent-hover);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.herramientas-page .workflow-list {
+    display: grid;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.herramientas-page .workflow-list li {
+    display: grid;
+    gap: 4px;
+    padding: 0 0 16px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.herramientas-page .workflow-list li:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.herramientas-page .workflow-list strong {
+    font-size: 14px;
+    color: var(--text-primary);
+}
+
+.herramientas-page .workflow-list span {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+.herramientas-page .panel-highlight {
+    margin-top: 18px;
+    padding: 16px 18px;
+    border-radius: 18px;
+    background: linear-gradient(145deg, rgba(37, 99, 235, 0.18), rgba(15, 23, 42, 0.7));
+    border: 1px solid rgba(96, 165, 250, 0.18);
+}
+
+.herramientas-page .panel-highlight-label {
+    display: inline-flex;
+    margin-bottom: 10px;
+    color: var(--accent-hover);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.herramientas-page .panel-highlight p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.herramientas-page .tools-stats {
+    padding-bottom: 4px;
+}
+
+.herramientas-page .tools-stats .stats-bar-inner {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 16px;
+}
+
+.herramientas-page .tools-stats .stat-item {
+    align-items: flex-start;
+    text-align: left;
+    padding: 12px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.18));
+}
+
+.herramientas-page .tools-stats .stat-item strong {
+    font-size: 16px;
+}
+
+.herramientas-page .tools-card-grid {
+    gap: 18px;
+}
+
+.herramientas-page .tools-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+    padding: 22px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+        linear-gradient(180deg, rgba(17, 24, 39, 0.94), rgba(15, 23, 42, 0.88)),
+        var(--bg-card);
+    box-shadow: 0 18px 46px rgba(2, 6, 23, 0.3);
+    overflow: hidden;
+}
+
+.herramientas-page .tools-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(320px 140px at 100% 0%, rgba(59, 130, 246, 0.16), transparent 65%);
+    pointer-events: none;
+}
+
+.herramientas-page .tools-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(96, 165, 250, 0.34);
+    box-shadow: 0 24px 60px rgba(37, 99, 235, 0.15);
+}
+
+.herramientas-page .tools-card-icon {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(145deg, rgba(37, 99, 235, 0.28), rgba(37, 99, 235, 0.08));
+    border: 1px solid rgba(96, 165, 250, 0.24);
+    color: var(--accent-hover);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.herramientas-page .tools-card-badge {
+    display: inline-flex;
+    align-self: flex-start;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-hover);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.herramientas-page .tools-card h3,
+.herramientas-page .tools-benefit-card h3,
+.herramientas-page .tool-panel-head h3 {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.herramientas-page .tools-card p,
+.herramientas-page .tools-benefit-card p,
+.herramientas-page .tool-panel-head p {
+    margin: 0;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.herramientas-page .tools-card-link {
+    margin-top: auto;
+    color: var(--accent-light);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.herramientas-page .tools-card-link:hover {
+    color: var(--accent-hover);
+}
+
+.herramientas-page .tools-benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.herramientas-page .tools-benefit-card {
+    padding: 22px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(15, 23, 42, 0.74);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.24);
+}
+
+.herramientas-page .tools-section-title {
+    max-width: 760px;
+}
+
+.herramientas-page .tools-calc-layout {
+    grid-template-columns: minmax(320px, 0.92fr) minmax(0, 1.08fr);
+    gap: 20px;
+}
+
+.herramientas-page .tool-card,
+.herramientas-page .tools-panel {
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 55px rgba(2, 6, 23, 0.28);
+}
+
+.herramientas-page .tool-panel-head {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.herramientas-page .calc-controls {
+    padding: 26px;
+    gap: 18px;
+}
+
+.herramientas-page .calc-field small {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+.herramientas-page .calc-field select,
+.herramientas-page .calc-field input[type="range"],
+.herramientas-page .price-compare select,
+.herramientas-page .depr-grid select,
+.herramientas-page .depr-grid input,
+.herramientas-page .rank-controls input {
+    background: rgba(2, 6, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.herramientas-page .tools-results-shell {
+    position: relative;
+    padding: 20px;
+    border-radius: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+        radial-gradient(440px 220px at 100% 0%, rgba(59, 130, 246, 0.14), transparent 62%),
+        linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.75));
+    box-shadow: 0 20px 50px rgba(2, 6, 23, 0.32);
+}
+
+.herramientas-page .calc-results {
+    gap: 18px;
+}
+
+.herramientas-page .calc-result-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 172px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(2, 6, 23, 0.5);
+    text-align: left;
+}
+
+.herramientas-page .calc-result-card span {
+    margin-bottom: 12px;
+}
+
+.herramientas-page .calc-result-card h3 {
+    font-size: clamp(1.6rem, 2.2vw, 2rem);
+}
+
+.herramientas-page .calc-result-card p {
+    margin: auto 0 0;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+.herramientas-page .calc-total {
+    position: relative;
+    overflow: hidden;
+    padding: 28px;
+    border-radius: 22px;
+    background:
+        radial-gradient(320px 180px at 100% 0%, rgba(255, 255, 255, 0.18), transparent 62%),
+        linear-gradient(135deg, #1d4ed8 0%, #2563eb 45%, #60a5fa 100%);
+    text-align: left;
+    box-shadow: 0 24px 60px rgba(37, 99, 235, 0.25);
+}
+
+.herramientas-page .calc-total h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.herramientas-page .tools-secondary-tool .section-head {
+    margin-bottom: 16px;
+}
+
+.herramientas-page .tools-panel {
+    padding: 24px;
+}
+
+.herramientas-page .tools-form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    align-items: end;
+}
+
+.herramientas-page .tools-form-grid--wide {
+    grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.9fr) minmax(220px, 0.8fr) auto;
+}
+
+.herramientas-page .price-compare,
+.herramientas-page .depr-grid {
+    margin-top: 18px;
+}
+
+.herramientas-page .price-compare label,
+.herramientas-page .depr-grid label {
+    min-width: 0;
+}
+
+.herramientas-page .price-compare button,
+.herramientas-page .depr-grid button {
+    min-width: 0;
+}
+
+.herramientas-page .tools-result-stack {
+    display: grid;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.herramientas-page .price-result,
+.herramientas-page .depr-output,
+.herramientas-page .rankings-list {
+    margin-left: 0;
+    padding: 18px 20px;
+    border-radius: 20px;
+    background: rgba(2, 6, 23, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+    min-width: 0;
+}
+
+.herramientas-page .price-result p {
+    margin: 0 0 10px;
+}
+
+.herramientas-page .price-result p:last-child {
+    margin-bottom: 0;
+}
+
+.herramientas-page #openFullCompare {
+    justify-self: start;
+}
+
+.herramientas-page .number-field {
+    gap: 8px;
+}
+
+.herramientas-page .number-btn {
+    min-width: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.18);
+}
+
+.herramientas-page .rank-controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, max-content)) minmax(180px, 1fr);
+    gap: 12px;
+    align-items: end;
+    margin-top: 18px;
+}
+
+.herramientas-page .rank-controls button {
+    min-width: 0;
+}
+
+.herramientas-page .rank-top-control {
+    justify-self: end;
+    margin-left: 0;
+}
+
+.herramientas-page .rankings-list ol {
+    padding-left: 0;
+    list-style: none;
+    counter-reset: rank-counter;
+}
+
+.herramientas-page .rankings-list li {
+    position: relative;
+    margin-bottom: 12px;
+    padding: 12px 14px 12px 54px;
+    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.74);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.herramientas-page .rankings-list li::before {
+    counter-increment: rank-counter;
+    content: counter(rank-counter);
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.18);
+    color: var(--accent-hover);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.herramientas-page .depr-output table {
+    margin-top: 8px;
+}
+
+.herramientas-page .depr-output th,
+.herramientas-page .depr-output td {
+    padding: 12px 10px;
+}
+
+.herramientas-page .site-footer {
+    margin-top: 18px;
+}
+
+body.light.herramientas-page {
+    background:
+        radial-gradient(820px 460px at 10% 0%, rgba(37, 99, 235, 0.1), transparent 62%),
+        radial-gradient(720px 400px at 100% 20%, rgba(96, 165, 250, 0.1), transparent 62%),
+        var(--bg-main);
+}
+
+body.light.herramientas-page .tools-card,
+body.light.herramientas-page .tools-benefit-card,
+body.light.herramientas-page .tools-results-shell,
+body.light.herramientas-page .price-result,
+body.light.herramientas-page .depr-output,
+body.light.herramientas-page .rankings-list,
+body.light.herramientas-page .calc-result-card,
+body.light.herramientas-page .tools-panel,
+body.light.herramientas-page .tool-card,
+body.light.herramientas-page .tools-stats .stat-item {
+    box-shadow: 0 16px 36px rgba(37, 99, 235, 0.08);
+}
+
+body.light.herramientas-page .dash-hero-overlay {
+    background:
+        linear-gradient(105deg, rgba(248, 251, 255, 0.98) 0%, rgba(248, 251, 255, 0.9) 44%, rgba(248, 251, 255, 0.58) 72%, rgba(248, 251, 255, 0.24) 100%);
+}
+
+body.light.herramientas-page .tools-card,
+body.light.herramientas-page .tools-benefit-card,
+body.light.herramientas-page .tools-results-shell,
+body.light.herramientas-page .price-result,
+body.light.herramientas-page .depr-output,
+body.light.herramientas-page .rankings-list,
+body.light.herramientas-page .calc-result-card,
+body.light.herramientas-page .tool-card,
+body.light.herramientas-page .tools-panel,
+body.light.herramientas-page .tools-stats .stat-item,
+body.light.herramientas-page .tools-trust-strip {
+    background-color: rgba(255, 255, 255, 0.82);
+}
+
+body.light.herramientas-page .calc-field select,
+body.light.herramientas-page .calc-field input[type="range"],
+body.light.herramientas-page .price-compare select,
+body.light.herramientas-page .depr-grid select,
+body.light.herramientas-page .depr-grid input,
+body.light.herramientas-page .rank-controls input {
+    background: rgba(248, 251, 255, 0.9);
+}
+
+@media (max-width: 1200px) {
+    .herramientas-page .tools-hero-inner,
+    .herramientas-page .tools-benefit-grid,
+    .herramientas-page .tools-stats .stats-bar-inner {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .herramientas-page .tools-form-grid,
+    .herramientas-page .tools-form-grid--wide {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .herramientas-page .rank-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .herramientas-page .rank-top-control {
+        justify-self: stretch;
+    }
+}
+
+@media (max-width: 900px) {
+    .herramientas-page .tools-hero {
+        min-height: auto;
+        padding: 104px 0 48px;
+    }
+
+    .herramientas-page .tools-hero-inner,
+    .herramientas-page .tools-trust-strip,
+    .herramientas-page .tools-benefit-grid,
+    .herramientas-page .tools-stats .stats-bar-inner,
+    .herramientas-page .tools-form-grid,
+    .herramientas-page .tools-form-grid--wide,
+    .herramientas-page .rank-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .herramientas-page .tools-calc-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .herramientas-page .calc-results {
+        grid-template-columns: 1fr;
+    }
+
+    .herramientas-page .calc-result-card {
+        min-height: 0;
+    }
+
+    .herramientas-page .calc-total {
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .herramientas-page .tools-hero-panel,
+    .herramientas-page .tools-panel,
+    .herramientas-page .calc-controls,
+    .herramientas-page .tools-results-shell,
+    .herramientas-page .tools-card,
+    .herramientas-page .tools-benefit-card {
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .herramientas-page .tools-hero-text,
+    .herramientas-page .tools-trust-item span,
+    .herramientas-page .tools-card p,
+    .herramientas-page .tools-benefit-card p,
+    .herramientas-page .tool-panel-head p {
+        font-size: 14px;
+    }
+
+    .herramientas-page .calc-total {
+        padding: 22px 20px;
+    }
+}
