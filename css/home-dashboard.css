@@ -1353,10 +1353,6 @@
     .dash-home .newsletter-form {
         flex-direction: column;
     }
-
-    .dash-home .contact-layout {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* ================= CONTACT PAGE ================= */
@@ -1366,6 +1362,13 @@
     grid-template-columns: 1.2fr 1fr;
     gap: 32px;
     margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+    .dash-home .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
 }
 
 .dash-home .contact-form-box,

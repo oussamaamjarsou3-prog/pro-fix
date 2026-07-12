@@ -959,15 +959,27 @@ RESPONSIVE
         padding:12px 8px;
         font-size:12px;
         white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
     }
     .page-compare .table-row div:first-child{
         white-space:normal;
-        min-width:90px;
+        min-width:100px;
+        overflow:visible;
+        text-overflow:initial;
     }
     .page-compare .heading div{
-        font-size:11px;
-        letter-spacing:0.3px;
+        font-size:10px;
+        letter-spacing:0.2px;
         white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    .page-compare .heading div:first-child{
+        white-space:normal;
+        overflow:visible;
+        text-overflow:initial;
+        line-height:1.3;
     }
 
     /* Sticky first column for compare table on mobile */
