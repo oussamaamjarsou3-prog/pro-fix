@@ -33,7 +33,7 @@
     /* Leave as null to keep the service dormant. */
     var DEFAULT_CONFIG = {
         gtmId:        null,  // e.g. 'GTM-XXXXXXX'
-        ga4Id:        null,  // e.g. 'G-XXXXXXXXXX'
+        ga4Id:        'G-R738D5QB1F',
         clarityId:    null,  // e.g. 'abcdef1234'
         adsId:        null,  // e.g. 'AW-XXXXXXXXX'
         adsenseId:    null   // e.g. 'ca-pub-XXXXXXXXXXXXXXXX'
