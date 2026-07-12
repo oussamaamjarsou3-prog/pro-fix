@@ -501,12 +501,29 @@ section { padding: 50px 16px; }
     font-size: 13px;
 }
 
-/* 10. SPECS TABLE */
+/* 10. SPECS TABLE — Unified Responsive Table System */
 .specs-table-wrap, .fiscal-table-wrap, .options-table-wrap, .compare-table-wrap {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border-radius: var(--radius-md);
     position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(96,165,250,0.3) transparent;
+}
+.specs-table-wrap::-webkit-scrollbar,
+.fiscal-table-wrap::-webkit-scrollbar,
+.options-table-wrap::-webkit-scrollbar,
+.compare-table-wrap::-webkit-scrollbar { height: 6px; }
+.specs-table-wrap::-webkit-scrollbar-track,
+.fiscal-table-wrap::-webkit-scrollbar-track,
+.options-table-wrap::-webkit-scrollbar-track,
+.compare-table-wrap::-webkit-scrollbar-track { background: transparent; }
+.specs-table-wrap::-webkit-scrollbar-thumb,
+.fiscal-table-wrap::-webkit-scrollbar-thumb,
+.options-table-wrap::-webkit-scrollbar-thumb,
+.compare-table-wrap::-webkit-scrollbar-thumb {
+    background: rgba(96,165,250,0.3);
+    border-radius: 999px;
 }
 
 .specs-table-wrap::after, .fiscal-table-wrap::after,
@@ -542,6 +559,7 @@ section { padding: 50px 16px; }
     font-size: 13px;
     color: var(--text-secondary);
     border-bottom: 1px solid rgba(255,255,255,0.03);
+    white-space: nowrap;
 }
 
 .specs-table td:first-child, .fiscal-table td:first-child,
@@ -549,6 +567,25 @@ section { padding: 50px 16px; }
     white-space: nowrap;
     font-weight: 500;
     color: var(--text-primary);
+}
+
+/* Sticky first column for wide tables (6+ columns) */
+.options-table.sticky-col td:first-child,
+.options-table.sticky-col th:first-child,
+.fiscal-table.sticky-col td:first-child,
+.fiscal-table.sticky-col th:first-child,
+.compare-table.sticky-col td:first-child,
+.compare-table.sticky-col th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: var(--bg-card);
+    box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+}
+.options-table.sticky-col th:first-child,
+.fiscal-table.sticky-col th:first-child,
+.compare-table.sticky-col th:first-child {
+    z-index: 3;
 }
 
 .spec-row {
@@ -1976,25 +2013,41 @@ footer::before {
     .calc-total { padding: 20px 16px; }
     .calc-total .total-value { font-size: 28px; }
 
-    /* Tables mobile */
+    /* Tables mobile — Unified responsive */
     .specs-table-wrap, .fiscal-table-wrap, .options-table-wrap, .compare-table-wrap {
         margin: 0 -16px;
         border-radius: 0;
         width: calc(100% + 32px);
     }
+    .specs-table, .fiscal-table, .options-table, .compare-table {
+        min-width: 420px;
+    }
     .specs-table th, .fiscal-table th, .options-table th, .compare-table th {
-        padding: 8px 6px;
-        font-size: 11px;
+        padding: 10px 8px;
+        font-size: 12px;
         white-space: nowrap;
     }
     .specs-table td, .fiscal-table td, .options-table td, .compare-table td {
-        padding: 8px 6px;
+        padding: 10px 8px;
         font-size: 12px;
+        white-space: nowrap;
     }
     .specs-table td:first-child, .fiscal-table td:first-child,
     .options-table td:first-child, .compare-table td:first-child {
         white-space: normal;
-        min-width: 100px;
+        min-width: 110px;
+    }
+    /* Sticky first column on mobile for wide tables */
+    .options-table.sticky-col td:first-child,
+    .options-table.sticky-col th:first-child,
+    .fiscal-table.sticky-col td:first-child,
+    .fiscal-table.sticky-col th:first-child,
+    .compare-table.sticky-col td:first-child,
+    .compare-table.sticky-col th:first-child {
+        position: sticky;
+        left: 0;
+        background: var(--bg-card);
+        box-shadow: 2px 0 8px rgba(0,0,0,0.15);
     }
 
     .compare-bar-row { grid-template-columns: auto 1fr auto; gap: 10px; font-size: 13px; }

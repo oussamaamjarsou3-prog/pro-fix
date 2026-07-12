@@ -1628,6 +1628,8 @@
         "value": 8000,
         "currency": "EUR"
       },
+      "worthIt": false,
+      "resaleImpact": "low",
       "nameAr": {
         "es": "Frenos carbono-cerámicos",
         "en": "Carbon-ceramic brakes",
@@ -1653,6 +1655,8 @@
         "value": 2500,
         "currency": "EUR"
       },
+      "worthIt": false,
+      "resaleImpact": "neutral",
       "nameAr": {
         "es": "AMG Night Package",
         "en": "AMG Night Package",
@@ -1678,6 +1682,8 @@
         "value": 1500,
         "currency": "EUR"
       },
+      "worthIt": false,
+      "resaleImpact": "neutral",
       "nameAr": {
         "es": "Burmester 3D High-End",
         "en": "Burmester 3D High-End",
@@ -1703,6 +1709,8 @@
         "value": 1800,
         "currency": "EUR"
       },
+      "worthIt": true,
+      "resaleImpact": "medium",
       "nameAr": {
         "es": "Asientos multifunción con masaje",
         "en": "Multicontour massage seats",

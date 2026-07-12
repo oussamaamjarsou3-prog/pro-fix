@@ -565,23 +565,7 @@
     .fiscal-table-wrap,
     .options-table-wrap{
         overflow-x:auto;
-    }
-
-    .fiscal-table,
-    .options-table,
-    .compare-table{
-        table-layout:fixed;
-        width:100%;
-    }
-
-    .fiscal-table th,
-    .fiscal-table td,
-    .options-table th,
-    .options-table td,
-    .compare-table th,
-    .compare-table td{
-        word-break:break-word;
-        white-space:normal;
+        -webkit-overflow-scrolling:touch;
     }
 
     /* Quiz Mobile Fixes */
@@ -679,7 +663,7 @@
     .fiscal-table-wrap table,
     .options-table-wrap table{
         width:100%;
-        min-width:auto;
+        min-width:420px;
     }
 
     .compare-table th,
@@ -688,9 +672,15 @@
     .fiscal-table td,
     .options-table th,
     .options-table td{
-        padding:12px 8px;
-        font-size:13px;
+        padding:10px 8px;
+        font-size:12px;
+        white-space:nowrap;
+    }
+    .compare-table td:first-child,
+    .fiscal-table td:first-child,
+    .options-table td:first-child{
         white-space:normal;
+        min-width:110px;
     }
 
     /* Diagnóstico Mobile Improvements */

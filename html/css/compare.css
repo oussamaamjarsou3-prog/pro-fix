@@ -586,7 +586,9 @@ TABLE
 .costs-table{
     width:90%;
     margin:auto;
-    overflow-x:hidden;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    border-radius:20px;
 }
 
 table{
@@ -603,11 +605,19 @@ td{
     padding:20px;
     text-align:center;
     border-bottom:1px solid rgba(255,255,255,0.08);
+    white-space:nowrap;
+}
+
+td:first-child{
+    white-space:normal;
+    text-align:left;
+    font-weight:600;
 }
 
 th{
     background:var(--primary);
     color:white;
+    white-space:nowrap;
 }
 
 /* =========================
@@ -948,10 +958,64 @@ RESPONSIVE
     .page-compare .table-row div{
         padding:12px 8px;
         font-size:12px;
+        white-space:nowrap;
+    }
+    .page-compare .table-row div:first-child{
+        white-space:normal;
+        min-width:90px;
     }
     .page-compare .heading div{
         font-size:11px;
         letter-spacing:0.3px;
+        white-space:nowrap;
+    }
+
+    /* Sticky first column for compare table on mobile */
+    .page-compare .compare-table .table-row div:first-child {
+        position: sticky;
+        left: 0;
+        background: var(--card);
+        box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+        z-index: 1;
+    }
+    .page-compare .compare-table .table-row.heading div:first-child {
+        z-index: 2;
+    }
+
+    /* Costs/Dimensions/Consumption/Depreciation tables mobile */
+    .page-compare .costs-table,
+    .page-compare .dimensions-table,
+    .page-compare .consumption-table,
+    .page-compare .depreciation-table {
+        width: 100%;
+        margin: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .page-compare .costs-table table,
+    .page-compare .dimensions-table table,
+    .page-compare .consumption-table table,
+    .page-compare .depreciation-table table {
+        min-width: 360px;
+    }
+    .page-compare .costs-table th,
+    .page-compare .costs-table td,
+    .page-compare .dimensions-table th,
+    .page-compare .dimensions-table td,
+    .page-compare .consumption-table th,
+    .page-compare .consumption-table td,
+    .page-compare .depreciation-table th,
+    .page-compare .depreciation-table td {
+        padding: 10px 8px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    .page-compare .costs-table td:first-child,
+    .page-compare .dimensions-table td:first-child,
+    .page-compare .consumption-table td:first-child,
+    .page-compare .depreciation-table td:first-child {
+        white-space: normal;
+        min-width: 90px;
     }
 
     .page-compare .pros-grid{
@@ -1391,6 +1455,12 @@ body.page-compare .compare-popular {
     width: 90%;
     margin: auto;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
+}
+
+.consumption-table table {
+    min-width: 400px;
 }
 
 /* =========================
@@ -1406,6 +1476,28 @@ body.page-compare .compare-popular {
     width: 90%;
     margin: auto;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
+}
+
+.depreciation-table table {
+    min-width: 400px;
+}
+
+/* =========================
+   DIMENSIONS TABLE
+========================= */
+
+.dimensions-table {
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
+}
+
+.dimensions-table table {
+    min-width: 400px;
 }
 
 /* =========================

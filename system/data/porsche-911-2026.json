@@ -1560,6 +1560,8 @@
         "value": 4000,
         "currency": "EUR"
       },
+      "worthIt": true,
+      "resaleImpact": "medium",
       "nameAr": {
         "es": "Techo de carbono",
         "en": "Carbon roof",
@@ -1585,6 +1587,8 @@
         "value": 2500,
         "currency": "EUR"
       },
+      "worthIt": false,
+      "resaleImpact": "neutral",
       "nameAr": {
         "es": "Burmester 3D High-End",
         "en": "Burmester 3D High-End",
@@ -1610,6 +1614,8 @@
         "value": 9000,
         "currency": "EUR"
       },
+      "worthIt": false,
+      "resaleImpact": "low",
       "nameAr": {
         "es": "PCCB",
         "en": "PCCB",
