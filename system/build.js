@@ -39,8 +39,24 @@ const cssBundles = [
     files: ['variables.css', 'car-page.css', 'footer.css', 'responsive.css', 'home-global.css', 'mega-menu-base.css', 'mega-menu-full.css', 'lang-dropdown.css', 'mobile-nav.css', 'cookie-consent.css']
   },
   {
+    name: 'car-page-critical',
+    files: ['variables.css', 'car-page.css', 'home-global.css', 'mobile-nav.css', 'mega-menu-base.css']
+  },
+  {
+    name: 'car-page-deferred',
+    files: ['footer.css', 'responsive.css', 'mega-menu-full.css', 'lang-dropdown.css', 'cookie-consent.css']
+  },
+  {
     name: 'guide-page-bundle',
     files: ['variables.css', 'guide-page.css', 'footer.css', 'responsive.css', 'home-global.css', 'mega-menu-base.css', 'mega-menu-full.css', 'lang-dropdown.css', 'mobile-nav.css', 'cookie-consent.css']
+  },
+  {
+    name: 'guide-page-critical',
+    files: ['variables.css', 'guide-page.css', 'home-global.css', 'mobile-nav.css', 'mega-menu-base.css']
+  },
+  {
+    name: 'guide-page-deferred',
+    files: ['footer.css', 'responsive.css', 'mega-menu-full.css', 'lang-dropdown.css', 'cookie-consent.css']
   },
   {
     name: 'home-bundle',

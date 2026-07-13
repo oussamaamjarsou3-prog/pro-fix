@@ -25,7 +25,10 @@
     <meta name="twitter:description" content="Reviews técnicas, comparativas y herramientas para elegir tu próximo coche con confianza.">
     <meta name="twitter:image" content="https://carspecio.com/images/rs7.hero.2026.webp">
 
-    <link rel="stylesheet" href="css/home-bundle.min.css">
+    <link rel="preload" href="css/home-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/home-critical.min.css"></noscript>
+    <link rel="stylesheet" href="css/home-deferred.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/home-deferred.min.css"></noscript>
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "ItemList",
