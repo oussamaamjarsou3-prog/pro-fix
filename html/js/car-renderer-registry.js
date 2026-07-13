@@ -760,12 +760,65 @@ const SECTION_RENDERERS = {
             url: typeof img === 'string' ? img : img.url,
             alt: typeof img === 'object' ? (img.alt || '') : ''
         }));
-        grid.innerHTML = images.map((img, i) => {
-            return '<div class="gallery-item"><img loading="lazy" data-index="' + i + '" src="' + img.url + '" alt="' + img.alt + '"></div>';
-        }).join('');
+
+        var isMobile = window.matchMedia('(max-width: 768px)').matches;
+
+        if (isMobile) {
+            grid.className = 'gallery-carousel';
+            grid.innerHTML = '<div class="carousel-track">' +
+                images.map(function(img, i) {
+                    return '<div class="carousel-slide"><img loading="lazy" width="400" height="260" data-index="' + i + '" src="' + img.url + '" alt="' + img.alt + '"></div>';
+                }).join('') +
+                '</div>' +
+                '<div class="carousel-dots">' +
+                images.map(function(_, i) {
+                    return '<button class="carousel-dot' + (i === 0 ? ' active' : '') + '" data-index="' + i + '" aria-label="Image ' + (i + 1) + '"></button>';
+                }).join('') +
+                '</div>' +
+                '<button class="carousel-arrow carousel-prev" aria-label="Previous">&#10094;</button>' +
+                '<button class="carousel-arrow carousel-next" aria-label="Next">&#10095;</button>';
+
+            var track = grid.querySelector('.carousel-track');
+            var dots = grid.querySelectorAll('.carousel-dot');
+            var currentSlide = 0;
+
+            function goToSlide(i) {
+                currentSlide = (i + images.length) % images.length;
+                track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+                dots.forEach(function(d, di) { d.classList.toggle('active', di === currentSlide); });
+            }
+
+            grid.querySelector('.carousel-prev').addEventListener('click', function(e) { e.stopPropagation(); goToSlide(currentSlide - 1); });
+            grid.querySelector('.carousel-next').addEventListener('click', function(e) { e.stopPropagation(); goToSlide(currentSlide + 1); });
+            dots.forEach(function(dot) {
+                dot.addEventListener('click', function(e) { e.stopPropagation(); goToSlide(parseInt(dot.dataset.index, 10)); });
+            });
+
+            var touchStartX = 0;
+            var touchStartY = 0;
+            grid.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+                touchStartY = e.changedTouches[0].screenY;
+            }, { passive: true });
+            grid.addEventListener('touchend', function(e) {
+                var dx = e.changedTouches[0].screenX - touchStartX;
+                var dy = e.changedTouches[0].screenY - touchStartY;
+                if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+                    if (dx > 0) goToSlide(currentSlide - 1);
+                    else goToSlide(currentSlide + 1);
+                }
+            }, { passive: true });
+
+            window._galleryGoTo = goToSlide;
+        } else {
+            grid.innerHTML = images.map((img, i) => {
+                return '<div class="gallery-item"><img loading="lazy" width="400" height="220" data-index="' + i + '" src="' + img.url + '" alt="' + img.alt + '"></div>';
+            }).join('');
+            SECTION_RENDERERS._initLightbox(images);
+        }
+
         const section = document.getElementById('gallery');
         if (section && images.length > 0) section.hidden = false;
-        SECTION_RENDERERS._initLightbox(images);
     },
 
     _initLightbox: function(images) {

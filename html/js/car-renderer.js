@@ -397,7 +397,7 @@ class CarRenderer {
                     const altText = versionName;
                     const featNames = { 'matrix-led': 'Matrix LED', 'valcona-leather': 'Cuero Valcona', 'heated-seats': 'Asientos calefactables', 'ventilated-seats': 'Asientos ventilados', 'massaging-seats': 'Masaje lumbar', 'virtual-cockpit': 'Virtual Cockpit', 'mmi-touch': 'MMI Touch', 'bang-olufsen': 'Bang & Olufsen', 'adaptive-cruise': 'Adaptive Cruise', 'lane-assist': 'Lane Assist', 'four-zone-climate': 'Climatización 4 zonas', 'air-suspension': 'Suspensión neumática', 'sport-differential': 'Diferencial deportivo', 'drive-select': 'Drive Select', 'rs-dynamic-package': 'RS Dynamic Package', 'dynamic-steering': 'Dirección dinámica', 'sport-exhaust': 'Escape RS', 'ceramic-brakes': 'Frenos cerámicos', 'carbon-interior': 'Interior carbono' };
                     return `<div class="version-card">
-                        ${safeImg ? `<img loading="lazy" src="${safeImg}" alt="${altText}">` : ''}
+                        ${safeImg ? `<img loading="lazy" width="400" height="220" src="${safeImg}" alt="${altText}">` : ''}
                         <div class="version-content">
                             <h3 data-i18n="versions.${v.slug}">${versionName}</h3>
                             <h4 data-version-price-index="${i}">${fmtPrice(v.price, versionRatios[i])}</h4>
