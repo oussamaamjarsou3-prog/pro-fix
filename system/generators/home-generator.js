@@ -314,6 +314,22 @@ function getCarImage(car, carData) {
     return raw;
 }
 
+function getThumbImage(image) {
+    if (image === '/images/placeholder.svg') return image;
+    const ext = path.extname(image);
+    const base = image.slice(0, -ext.length);
+    const thumb = base + '-thumb.webp';
+    const thumbPath = path.join(__dirname, '../..', thumb.startsWith('/') ? thumb.slice(1) : thumb);
+    if (fs.existsSync(thumbPath)) return thumb;
+    return image;
+}
+
+function buildCardImg(image, alt) {
+    const thumb = getThumbImage(image);
+    const srcset = thumb !== image ? ` srcset="${thumb} 400w, ${image} 1536w" sizes="350px"` : '';
+    return `<img src="${thumb}"${srcset} alt="${alt}" loading="lazy" width="400" height="220">`;
+}
+
 function buildHeroSection() {
     return SUPPORTED_LANGS.map((lang, idx) => {
         const labels = UI_LABELS[lang];
@@ -391,7 +407,7 @@ function buildReviewsSection() {
             const ratingHtml = rating ? `<span class="card-rating">${rating}</span>` : '';
             return `
             <a href="${car.htmlFile}" class="card review-card">
-                <div class="card-image">${ratingHtml}<img src="${image}" alt="${name}" loading="lazy"></div>
+                <div class="card-image">${ratingHtml}${buildCardImg(image, name)}</div>
                 <div class="card-body">
                     <div class="card-meta"><span>${getCategoryName(car.categoryId, lang)}</span></div>
                     <h3 class="card-title">${name}</h3>
@@ -432,8 +448,8 @@ function buildComparesSection() {
             <a href="compare.html?car1=${encodeURIComponent(a.id)}&car2=${encodeURIComponent(b.id)}" class="card compare-card">
                 <div class="card-image">
                     <div class="compare-images">
-                        <div><img src="${imgA}" alt="${nameA}" loading="lazy"></div>
-                        <div><img src="${imgB}" alt="${nameB}" loading="lazy"></div>
+                        <div>${buildCardImg(imgA, nameA)}</div>
+                        <div>${buildCardImg(imgB, nameB)}</div>
                     </div>
                     <span class="compare-vs">VS</span>
                 </div>
@@ -738,7 +754,7 @@ function buildMostSearchedSection() {
             const ratingHtml = rating ? `<span class="card-rating">${rating.toFixed(1)}</span>` : '';
             return `
             <a href="${car.htmlFile}" class="card review-card">
-                <div class="card-image">${badge}${ratingHtml}<img src="${image}" alt="${name}" loading="lazy"></div>
+                <div class="card-image">${badge}${ratingHtml}${buildCardImg(image, name)}</div>
                 <div class="card-body">
                     <div class="card-meta"><span>${getCategoryName(car.categoryId, lang)}</span></div>
                     <h3 class="card-title">${name}</h3>
@@ -809,7 +825,7 @@ function buildLatestModelsSection() {
             const brand = brandRegistry.brands.find(b => b.id === car.brandId);
             return `
             <a href="${car.htmlFile}" class="card review-card">
-                <div class="card-image"><img src="${image}" alt="${name}" loading="lazy"></div>
+                <div class="card-image">${buildCardImg(image, name)}</div>
                 <div class="card-body">
                     <div class="card-meta"><span>${getCategoryName(car.categoryId, lang)}</span><span class="card-meta-muted">${date}</span></div>
                     <h3 class="card-title">${name}</h3>
@@ -842,7 +858,7 @@ function buildBestRatedSection() {
             const brand = brandRegistry.brands.find(b => b.id === car.brandId);
             return `
             <a href="${car.htmlFile}" class="card review-card">
-                <div class="card-image">${ratingHtml}<img src="${image}" alt="${name}" loading="lazy"></div>
+                <div class="card-image">${ratingHtml}${buildCardImg(image, name)}</div>
                 <div class="card-body">
                     <div class="card-meta"><span>${getCategoryName(car.categoryId, lang)}</span></div>
                     <h3 class="card-title">${name}</h3>

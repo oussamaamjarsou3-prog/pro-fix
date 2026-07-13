@@ -59,6 +59,16 @@ function parsePrice(carData) {
   return null;
 }
 
+function getThumbImage(image) {
+  if (image === '/images/placeholder.svg') return image;
+  const ext = path.extname(image);
+  const base = image.slice(0, -ext.length);
+  const thumb = base + '-thumb.webp';
+  const thumbPath = path.join(projectDir, thumb.startsWith('/') ? thumb.slice(1) : thumb);
+  if (fs.existsSync(thumbPath)) return thumb;
+  return image;
+}
+
 function buildCard(car, carData, lang) {
   const name = carData?.basicInfo?.fullModelName || carData?.basicInfo?.name || 'Car';
   const description = getCarDescription(carData, lang);
@@ -66,14 +76,16 @@ function buildCard(car, carData, lang) {
   const brand = getBrandName(car.brandId);
   const category = getCategoryName(car.categoryId, lang);
   const image = getCarImage(car, carData);
+  const thumb = getThumbImage(image);
   const ratingHtml = rating ? `<span class="card-rating">${rating}</span>` : '';
   const cta = t('reviewsPage.cta', lang);
   const searchText = `${name} ${brand} ${category}`.toLowerCase();
   const price = parsePrice(carData);
   const priceAttr = price != null ? ` data-price="${price}"` : '';
+  const srcset = thumb !== image ? ` srcset="${thumb} 400w, ${image} 1536w" sizes="350px"` : '';
 
   return `            <a href="${car.htmlFile}" class="card review-card" data-search="${searchText}" data-category="${car.categoryId}"${priceAttr}>
-                <div class="card-image">${ratingHtml}<img src="${image}" alt="${name}" loading="lazy"></div>
+                <div class="card-image">${ratingHtml}<img src="${thumb}"${srcset} alt="${name}" loading="lazy" width="400" height="220"></div>
                 <div class="card-body">
                     <div class="card-meta"><span>${category}</span></div>
                     <h3 class="card-title">${name}</h3>
