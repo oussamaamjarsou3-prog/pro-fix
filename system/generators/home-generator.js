@@ -25,6 +25,7 @@ const categoryRegistry = JSON.parse(fs.readFileSync(CATEGORY_REGISTRY_PATH, 'utf
 const guideRegistry = JSON.parse(fs.readFileSync(GUIDE_REGISTRY_PATH, 'utf8'));
 const newsData = JSON.parse(fs.readFileSync(NEWS_PATH, 'utf8'));
 const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
+const criticalCss = fs.readFileSync(path.join(__dirname, '../../css/home-critical.min.css'), 'utf8');
 
 const carDataCache = {};
 const newsArticles = loadNews();
@@ -989,6 +990,7 @@ function buildAll() {
     page = page.replace(/\{\{ogImage\}\}/g, ogImage.startsWith('http') ? ogImage : `${BASE_URL}${ogImage}`);
     page = page.replace(/\{\{hreflangTags\}\}/g, buildHreflangTags());
     page = page.replace(/\{\{jsonLd\}\}/g, buildJsonLd());
+    page = page.replace(/\{\{criticalCss\}\}/g, criticalCss);
     page = page.replace(/\{\{year\}\}/g, new Date().getFullYear());
     page = page.replace(/\{\{heroSection\}\}/g, buildHeroSection());
     page = page.replace(/\{\{mostSearchedSection\}\}/g, buildMostSearchedSection());
