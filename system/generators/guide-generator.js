@@ -467,13 +467,12 @@ guideRegistry.guides.forEach(guide => {
         const items = relatedGuides.slice(0, 3).map(rg => {
             const rgData = allGuideData[rg.id];
             if (!rgData) return '';
-            const defaultContent = rgData.content[DEFAULT_LANG];
-            const title = defaultContent ? defaultContent.title : rg.id;
+            const title = buildMultilingualTitle(rgData);
             const mins = rgData.readingTime || '';
             const minsHtml = mins ? `<span class="sidebar-related__time">${mins} min</span>` : '';
             return `<a href="${rg.slug}.html" class="sidebar-related__item">${minsHtml}<span class="sidebar-related__title">${title}</span></a>`;
         }).join('');
-        sidebarRelatedHtml = `<nav class="sidebar-related" aria-label="Guías relacionadas"><h3 class="sidebar-related__heading">Más guías</h3>${items}</nav>`;
+        sidebarRelatedHtml = `<nav class="sidebar-related" aria-label="${t('guides.relatedGuidesTitle', DEFAULT_LANG)}"><h3 class="sidebar-related__heading" data-i18n="guides.relatedGuidesTitle">${t('guides.relatedGuidesTitle', DEFAULT_LANG)}</h3>${items}</nav>`;
     }
     page = page.replace(/\{\{sidebarRelatedGuides\}\}/, sidebarRelatedHtml);
 
@@ -483,9 +482,9 @@ guideRegistry.guides.forEach(guide => {
         const firstRg = relatedGuides[0];
         const firstRgData = allGuideData[firstRg.id];
         if (firstRgData) {
-            const firstTitle = (firstRgData.content[DEFAULT_LANG] || {}).title || firstRg.id;
+            const firstTitle = buildMultilingualTitle(firstRgData);
             const relatedGuideLabel = t('guides.completionRelated', DEFAULT_LANG) || 'Leer siguiente';
-            completionRelatedLinkHtml = `<a href="${firstRg.slug}.html" class="completion-cta__btn completion-cta__btn--related">${relatedGuideLabel}: ${firstTitle}</a>`;
+            completionRelatedLinkHtml = `<a href="${firstRg.slug}.html" class="completion-cta__btn completion-cta__btn--related">${relatedGuideLabel}: <span class="sidebar-related__title">${firstTitle}</span></a>`;
         }
     }
     page = page.replace(/\{\{completionRelatedLink\}\}/, completionRelatedLinkHtml);

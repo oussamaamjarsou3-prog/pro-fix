@@ -110,6 +110,8 @@ const output = `/* CarSpecio — Compare Index */
 
 window.CARSPECIO_COMPARE_INDEX = ${JSON.stringify(CARSPECIO_COMPARE_INDEX, null, 4)};
 
+window.CARSPECIO_COMPARE_CARS = window.CARSPECIO_COMPARE_INDEX;
+
 window.CARSPECIO_COMPARE_PRESETS = ${JSON.stringify(CARSPECIO_COMPARE_PRESETS, null, 4)};
 
 // Backward-compatible aliases

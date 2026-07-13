@@ -48,7 +48,7 @@ test('no old domain references remain in generated output', () => {
 });
 
 test('sitemap contains all expected URL types', () => {
-    const sitemap = fs.readFileSync(path.join(PROJECT_DIR, 'sitemap.xml'), 'utf8');
+    const sitemap = fs.readFileSync(path.join(PROJECT_DIR, 'html', 'sitemap.xml'), 'utf8');
     assertIncludes(sitemap, '<loc>https://carspecio.com/</loc>', 'Sitemap should include homepage');
     assertIncludes(sitemap, 'guias/index.html', 'Sitemap should include guide index');
     const urlMatches = sitemap.match(/<loc>/g) || [];

@@ -36,7 +36,7 @@
 
 </head>
 <body style="display:none;" id="page-body">
-    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    <a href="#main-content" class="skip-link" data-i18n="a11y.skipToContent">Saltar al contenido principal</a>
 
     <!-- Header -->
     <header class="site-header">
@@ -47,7 +47,7 @@
                 <img src="assets/logo/carspecio-desktop.png" alt="CarSpecio" width="232" height="54">
             </picture>
         </a>
-        <nav class="site-nav" id="siteNav" aria-label="Principal">
+        <nav class="site-nav" id="siteNav" aria-label="Principal" data-i18n-aria="a11y.mainNav">
             <a href="index.html" data-i18n="navigation.home">Inicio</a>
             <a href="compare.html" data-i18n="navigation.compare">Comparar</a>
             <a href="reviews.html" data-i18n="navigation.reviews" class="active">Reviews</a>
@@ -126,7 +126,7 @@
                 <input type="search" id="headerSearch" placeholder="Buscar..." data-i18n-placeholder="search.placeholder" autocomplete="off">
             </label>
             <button type="button" id="darkbtn" class="tool-btn" aria-label="Modo oscuro" data-i18n-aria="a11y.darkMode">&#9790;</button>
-            <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+            <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" data-i18n-aria="a11y.menu" aria-expanded="false">☰</button>
         </div>
     </header>
 
@@ -140,18 +140,18 @@
     <main id="main-content">
 
     <!-- Breadcrumb -->
-    <nav class="breadcrumb-nav" aria-label="Breadcrumb" id="breadcrumbNav">
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb" data-i18n-aria="a11y.breadcrumb" id="breadcrumbNav">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a itemprop="item" href="index.html"><span itemprop="name" data-i18n="breadcrumb.home">Inicio</span></a>
                 <meta itemprop="position" content="1">
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="marcas.html"><span itemprop="name" id="breadcrumbBrand">Marca</span></a>
+                <a itemprop="item" href="marcas.html"><span itemprop="name" id="breadcrumbBrand" data-i18n="breadcrumb.brand">Marca</span></a>
                 <meta itemprop="position" content="2">
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name" id="breadcrumbModel">Modelo</span>
+                <span itemprop="name" id="breadcrumbModel" data-i18n="breadcrumb.model">Modelo</span>
                 <meta itemprop="position" content="3">
             </li>
         </ol>
@@ -165,7 +165,7 @@
             <h1 data-i18n="hero.title" id="heroTitle">Car Title</h1>
             <p data-i18n="hero.subtitle" id="heroSubtitle">Subtitle</p>
             <a href="#price" class="hero-btn" data-i18n="hero.cta">Ver análisis</a>
-            <a href="compare.html" class="hero-btn hero-btn--compare" id="compareBtn" aria-label="Comparar este coche">
+            <a href="compare.html" class="hero-btn hero-btn--compare" id="compareBtn" aria-label="Comparar este coche" data-i18n-aria="a11y.compareThisCar">
                 <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
                 <span data-i18n="navigation.compare">Comparar</span>
             </a>
@@ -193,7 +193,7 @@
     </div>
 
     <!-- Quick Info -->
-    <section class="quick-info" aria-label="Datos rápidos">
+    <section class="quick-info" aria-label="Datos rápidos" data-i18n-aria="a11y.quickInfo">
         <div class="info-card">
             <h2 id="quickPower">0 HP</h2>
             <p data-i18n="quick.power">Potencia</p>
@@ -1033,9 +1033,9 @@
 
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox" hidden aria-modal="true" role="dialog">
-        <button class="lightbox-close" aria-label="Cerrar">&times;</button>
-        <button class="lightbox-prev" aria-label="Imagen anterior">&#10094;</button>
-        <button class="lightbox-next" aria-label="Imagen siguiente">&#10095;</button>
+        <button class="lightbox-close" aria-label="Cerrar" data-i18n-aria="lightbox.close">&times;</button>
+        <button class="lightbox-prev" aria-label="Imagen anterior" data-i18n-aria="lightbox.prev">&#10094;</button>
+        <button class="lightbox-next" aria-label="Imagen siguiente" data-i18n-aria="lightbox.next">&#10095;</button>
         <div class="lightbox-content">
             <img id="lightboxImg" src="" alt="">
             <div class="lightbox-caption" id="lightboxCaption"></div>

@@ -99,6 +99,13 @@ function buildCarSchemaJsonLd(car, brand, carData, url) {
     const schemaImage = rawImage.startsWith('http')
         ? rawImage
         : `${BASE_URL}/${rawImage.replace(/^\.\.\//, '')}`;
+    const review = carData.review || {};
+    const reviewEs = review.es || {};
+    const sb = reviewEs.scoreBreakdown || {};
+    const sbValues = Object.keys(sb).map(k => sb[k]).filter(v => typeof v === 'number');
+    const avgScore = sbValues.length > 0
+        ? Math.round((sbValues.reduce((a, b) => a + b, 0) / sbValues.length) * 10) / 10
+        : null;
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'Car',
@@ -120,12 +127,13 @@ function buildCarSchemaJsonLd(car, brand, carData, url) {
         url: url,
         description: car.seo?.description || `${brand.name} ${carData.basicInfo?.name || ''} review completa.`
     };
-    if (carData.rating && carData.rating.overall !== undefined) {
+    if (avgScore !== null) {
         schema.aggregateRating = {
             '@type': 'AggregateRating',
-            ratingValue: carData.rating.overall,
+            ratingValue: avgScore,
             bestRating: 10,
-            worstRating: 0
+            worstRating: 1,
+            ratingCount: 1
         };
     }
     return JSON.stringify(schema, null, 2);

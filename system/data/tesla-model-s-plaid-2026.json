@@ -2048,7 +2048,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص السنوي الأساسي",
-        "descAr": "تغيير الزيت والفلاتر، فحص محرك بي 47، نظام الهجين الخفيف 48 فولت وفحص المستويات."
+        "descAr": "تغيير الزيت والفلاتر، فحص محرك بي 47، نظام الهجين الخفيف 48 فولت وفحص المستويات.",
+        "serviceEn": "Basic annual check",
+        "descriptionEn": "Tire rotation, wiper fluid, brake inspection and battery coolant check.",
+        "serviceFr": "Vérification annuelle de base",
+        "descriptionFr": "Rotation des pneus, liquide lave-glace, inspection des freins et vérification du liquide de refroidissement de la batterie.",
+        "serviceAr": "الفحص السنوي الأساسي",
+        "descriptionAr": "تدوير الإطارات، سائل مساحات الزجاج، فحص الفرامل والتحقق من سائل تبريد البطارية.",
+        "service": "Revisión anual básica",
+        "description": "Cambio de aceite y filtros, revisión de motor B47, sistema mild-hybrid de 48V y comprobación de niveles."
       },
       {
         "km": 30000,
@@ -2059,7 +2067,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص الدوري المتوسط",
-        "descAr": "استبدال فلاتر الهواء والمقصورة والسائل المكبحي. فحص الفرامل الأمامية."
+        "descAr": "استبدال فلاتر الهواء والمقصورة والسائل المكبحي. فحص الفرامل الأمامية.",
+        "serviceEn": "Intermediate service",
+        "descriptionEn": "Cabin air filter, brake fluid and 12V battery check.",
+        "serviceFr": "Service intermédiaire",
+        "descriptionFr": "Filtre d'habitacle, liquide de freins et batterie 12V.",
+        "serviceAr": "الخدمة المتوسطة",
+        "descriptionAr": "فلتر المقصورة، سائل الفرامل وبطارية 12 فولت.",
+        "service": "Revisión intermedia",
+        "description": "Sustitución de filtros de aire, habitáculo y líquido de frenos. Revisión de frenos delanteros."
       },
       {
         "km": 60000,
@@ -2070,7 +2086,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "تغيير سائل الفرامل، مبرد البطارية وفحص مجموعة المحركات الكهربائية."
+        "descAr": "تغيير سائل الفرامل، مبرد البطارية وفحص مجموعة المحركات الكهربائية.",
+        "serviceEn": "Major service",
+        "descriptionEn": "Brake fluid, battery coolant and electric drivetrain inspection.",
+        "serviceFr": "Grand service",
+        "descriptionFr": "Liquide de freins, liquide de refroidissement de batterie et inspection du groupe motopropulseur électrique.",
+        "serviceAr": "الخدمة الكبرى",
+        "descriptionAr": "سائل الفرامل، سائل تبريد البطارية وفحص مجموعة الدفع الكهربائية.",
+        "service": "Gran servicio",
+        "description": "Cambio de líquido de frenos, refrigerante de batería y revisión del tren motriz eléctrico."
       },
       {
         "km": 90000,
@@ -2081,7 +2105,15 @@
           "currency": "EUR"
         },
         "titleAr": "التعليق والإطارات",
-        "descAr": "فحص المخمدات، وصلات التعليق ومجموعة الإطارات الرياضية."
+        "descAr": "فحص المخمدات، وصلات التعليق ومجموعة الإطارات الرياضية.",
+        "serviceEn": "Suspension and tires",
+        "descriptionEn": "Shock absorbers, links and high-performance tire set inspection.",
+        "serviceFr": "Suspension et pneus",
+        "descriptionFr": "Inspection des amortisseurs, biellettes et jeu de pneus haute performance.",
+        "serviceAr": "التعليق والإطارات",
+        "descriptionAr": "فحص الممتصات، وصلات التعليق ومجموعة إطارات عالية الأداء.",
+        "service": "Suspensión y neumáticos",
+        "description": "Revisión de amortiguadores, bieletas y juego de neumáticos de alto rendimiento."
       }
     ],
     "faq": [
@@ -3508,7 +3540,9 @@
       },
       "worthIt": false,
       "resaleImpact": "medium",
-      "nameAr": "القيادة الذاتية الكاملة"
+      "nameAr": "القيادة الذاتية الكاملة",
+      "nameEs": "Conducción autónoma total",
+      "nameFr": "Conduite autonome totale"
     },
     {
       "id": "premium-paint",
@@ -3520,7 +3554,9 @@
       },
       "worthIt": true,
       "resaleImpact": "low",
-      "nameAr": "طلاء ممتاز"
+      "nameAr": "طلاء ممتاز",
+      "nameEs": "Pintura premium",
+      "nameFr": "Peinture premium"
     },
     {
       "id": "21-wheels",
@@ -3532,7 +3568,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "جنوط 21 بوصة\""
+      "nameAr": "جنوط 21 بوصة\"",
+      "nameEs": "Llantas 21\"",
+      "nameFr": "Jantes 21\""
     },
     {
       "id": "white-interior",
@@ -3544,7 +3582,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "داخلية بيضاء/كريمية"
+      "nameAr": "داخلية بيضاء/كريمية",
+      "nameEs": "Interior blanco/créme",
+      "nameFr": "Intérieur blanc/crème"
     },
     {
       "id": "yoke-steering",
@@ -3556,7 +3596,10 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "دركسون يوك"
+      "nameAr": "دركسون يوك",
+      "nameEs": "Volante yoke",
+      "nameFr": "Volant yoke",
+      "nameEn": "Yoke Steering"
     },
     {
       "id": "towing-hitch",
@@ -3568,7 +3611,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "خطاف سحب"
+      "nameAr": "خطاف سحب",
+      "nameEs": "Enganche de remolque",
+      "nameFr": "Attelage de remorquage"
     }
   ],
   "problems": {

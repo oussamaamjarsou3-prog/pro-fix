@@ -1335,7 +1335,11 @@
           "currency": "EUR"
         },
         "serviceAr": "خدمة الصيانة السنوية",
-        "descriptionAr": "تغيير الزيت والفلاتر، فحص المستويات والأنظمة النشطة"
+        "descriptionAr": "تغيير الزيت والفلاتر، فحص المستويات والأنظمة النشطة",
+        "serviceEn": "Intermediate Service",
+        "descriptionEn": "Oil change + filters + brake inspection",
+        "serviceFr": "Service intermédiaire",
+        "descriptionFr": "Vidange huile + filtres + inspection freins"
       },
       {
         "km": 30000,
@@ -1347,7 +1351,11 @@
           "currency": "EUR"
         },
         "serviceAr": "تغيير الزيت والفلاتر",
-        "descriptionAr": "فلاتر الهواء والمقصورة والوقود، فحص الفرامل والإطارات"
+        "descriptionAr": "فلاتر الهواء والمقصورة والوقود، فحص الفرامل والإطارات",
+        "serviceEn": "Major Service",
+        "descriptionEn": "Oil, filters, spark plugs, brake fluid, air suspension check",
+        "serviceFr": "Grand service",
+        "descriptionFr": "Huile, filtres, bougies, liquide freins, vérification suspension pneumatique"
       },
       {
         "km": 60000,
@@ -1359,7 +1367,11 @@
           "currency": "EUR"
         },
         "serviceAr": "الصيانة الكبرى مع تغيير الفرامل",
-        "descriptionAr": "الفحص الرئيسي لمحرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، الأقراص والفحمات"
+        "descriptionAr": "الفحص الرئيسي لمحرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، الأقراص والفحمات",
+        "serviceEn": "Transmission + Differential",
+        "descriptionEn": "Tiptronic gearbox oil, turbo inspection, clutch check",
+        "serviceFr": "Transmission + différentiel",
+        "descriptionFr": "Huile boîte Tiptronic, inspection turbos, embrayage (vérification)"
       },
       {
         "km": 90000,
@@ -1371,7 +1383,11 @@
           "currency": "EUR"
         },
         "serviceAr": "الصيانة الشاملة مع تغيير السوائل",
-        "descriptionAr": "تغيير زيت ناقل الحركة، مبرد، سائل الفرامل والتوجيه المعزز"
+        "descriptionAr": "تغيير زيت ناقل الحركة، مبرد، سائل الفرامل والتوجيه المعزز",
+        "serviceEn": "Tires + Belts",
+        "descriptionEn": "Performance tire set (~€1,600), timing belt if applicable",
+        "serviceFr": "Pneus + courroies",
+        "descriptionFr": "Jeu pneus performance (~€1.600), courroie distribution si applicable"
       },
       {
         "km": 120000,
@@ -1383,7 +1399,11 @@
           "currency": "EUR"
         },
         "serviceAr": "فحص السلسلة وناقل الحركة",
-        "descriptionAr": "فحص سلسلة التوزيع، ناقل الحركة والدفرنسي"
+        "descriptionAr": "فحص سلسلة التوزيع، ناقل الحركة والدفرنسي",
+        "serviceEn": "Major V8 Service",
+        "descriptionEn": "Turbo inspection, air suspension, MMI software update",
+        "serviceFr": "Service majeur V8",
+        "descriptionFr": "Inspection turbos, suspension pneumatique, mise à jour logiciel MMI"
       }
     ],
     "options": [
@@ -2360,7 +2380,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "باقة آر إس ديناميك بلس"
+      "nameAr": "باقة آر إس ديناميك بلس",
+      "nameEs": "Paquete RS Dynamic Plus",
+      "nameFr": "Pack RS Dynamic Plus"
     },
     {
       "id": "rs-sport-exhaust",
@@ -2372,7 +2394,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "عادم آر إس سبورت"
+      "nameAr": "عادم آر إس سبورت",
+      "nameEs": "Escape RS Sport",
+      "nameFr": "Échappement RS Sport"
     },
     {
       "id": "ceramic-brakes",
@@ -2384,7 +2408,10 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "فرامل سيراميك"
+      "nameAr": "فرامل سيراميك",
+      "nameEs": "Frenos cerámicos",
+      "nameFr": "Freins céramique",
+      "nameEn": "Ceramic brakes"
     },
     {
       "id": "matrix-laser",
@@ -2396,7 +2423,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "ليد ماتريكس / ليزر"
+      "nameAr": "ليد ماتريكس / ليزر",
+      "nameEs": "Matrix LED / Láser",
+      "nameFr": "Matrix LED / Laser"
     },
     {
       "id": "carbon-valcona",
@@ -2408,7 +2437,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "داخلية كربون / فالكونا"
+      "nameAr": "داخلية كربون / فالكونا",
+      "nameEs": "Interior Carbon / Valcona",
+      "nameFr": "Intérieur Carbone / Valcona"
     },
     {
       "id": "individual-rear-seats",
@@ -2420,7 +2451,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "مقاعد خلفية فردية"
+      "nameAr": "مقاعد خلفية فردية",
+      "nameEs": "Asientos traseros individuales",
+      "nameFr": "Sièges arrière individuels"
     }
   ],
   "problems": {

@@ -854,7 +854,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص السنوي",
-        "descAr": "تغيير الزيت والفلاتر، فحص محرك تي دي آي."
+        "descAr": "تغيير الزيت والفلاتر، فحص محرك تي دي آي.",
+        "serviceEn": "Annual service",
+        "descriptionEn": "Oil and filter change, TDI engine inspection.",
+        "serviceFr": "Entretien annuel",
+        "descriptionFr": "Vidange et filtres, inspection du moteur TDI.",
+        "serviceAr": "الصيانة السنوية",
+        "descriptionAr": "تغيير الزيت والفلاتر، فحص محرك تي دي آي.",
+        "service": "Revision anual",
+        "description": "Cambio de aceite y filtros, revision del motor TDI."
       },
       {
         "km": 30000,
@@ -865,7 +873,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص المتوسط",
-        "descAr": "تغيير فلاتر الهواء والمقصورة والسائل المكبحي."
+        "descAr": "تغيير فلاتر الهواء والمقصورة والسائل المكبحي.",
+        "serviceEn": "Intermediate service",
+        "descriptionEn": "Air, cabin and brake fluid filter changes.",
+        "serviceFr": "Revision intermediaire",
+        "descriptionFr": "Changement des filtres a air, d'habitacle et de liquide de freins.",
+        "serviceAr": "الفحص المتوسط",
+        "descriptionAr": "تغيير فلاتر الهواء والمقصورة وسائل الفرامل.",
+        "service": "Revision intermedia",
+        "description": "Cambio de filtros de aire, habitaculo y liquido de frenos."
       },
       {
         "km": 60000,
@@ -876,7 +892,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "فحص محرك 2.0 تي دي آي ونظام التبريد وناقل دي إس جي."
+        "descAr": "فحص محرك 2.0 تي دي آي ونظام التبريد وناقل دي إس جي.",
+        "serviceEn": "Major service",
+        "descriptionEn": "2.0 TDI engine inspection, cooling system and DSG transmission check.",
+        "serviceFr": "Grand entretien",
+        "descriptionFr": "Revision du moteur 2.0 TDI, du systeme de refroidissement et de la boite DSG.",
+        "serviceAr": "الصيانة الكبرى",
+        "descriptionAr": "فحص محرك 2.0 تي دي آي ونظام التبريد وناقل دي إس جي.",
+        "service": "Gran servicio",
+        "description": "Revision de motor 2.0 TDI, sistema de refrigeracion y cambio DSG."
       },
       {
         "km": 90000,
@@ -887,7 +911,15 @@
           "currency": "EUR"
         },
         "titleAr": "سير التوزيع",
-        "descAr": "تغيير سير التوزيع ومضخة الماء والشداد."
+        "descAr": "تغيير سير التوزيع ومضخة الماء والشداد.",
+        "serviceEn": "Timing belt",
+        "descriptionEn": "Timing belt, water pump and tensioner replacement.",
+        "serviceFr": "Courroie de distribution",
+        "descriptionFr": "Remplacement courroie de distribution, pompe a eau et tendeur.",
+        "serviceAr": "سير التوزيع",
+        "descriptionAr": "تغيير سير التوزيع ومضخة الماء والشداد.",
+        "service": "Correa de distribucion",
+        "description": "Cambio de correa de distribucion, bomba de agua y tensor."
       },
       {
         "km": 120000,
@@ -898,7 +930,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفرامل والإطارات",
-        "descAr": "تغيير الأقراص/الوسادات ومجموعة الإطارات الفاخرة."
+        "descAr": "تغيير الأقراص/الوسادات ومجموعة الإطارات الفاخرة.",
+        "serviceEn": "Brakes and tires",
+        "descriptionEn": "Brake discs/pads replacement and premium tire set.",
+        "serviceFr": "Freins et pneus",
+        "descriptionFr": "Remplacement disques/plaquettes et jeu de pneus premium.",
+        "serviceAr": "الفرامل والإطارات",
+        "descriptionAr": "تغيير أقراص/وسادات الفرامل ومجموعة إطارات فاخرة.",
+        "service": "Frenos y neumaticos",
+        "description": "Cambio de discos/pastillas y juego de neumaticos premium."
       }
     ],
     "faq": [
@@ -3688,7 +3728,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "باقة الراحة"
+      "nameAr": "باقة الراحة",
+      "nameEs": "Paquete de confort",
+      "nameFr": "Pack confort"
     },
     {
       "id": "panoramic-roof",
@@ -3700,7 +3742,10 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "سقف بانورامي"
+      "nameAr": "سقف بانورامي",
+      "nameEs": "Techo solar panorámico",
+      "nameFr": "Toit panoramique",
+      "nameEn": "Panoramic Glass Roof"
     },
     {
       "id": "tech-package",
@@ -3712,7 +3757,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "باقة التقنية"
+      "nameAr": "باقة التقنية",
+      "nameEs": "Paquete tecnológico",
+      "nameFr": "Pack technologique"
     },
     {
       "id": "leather-upholstery",
@@ -3724,7 +3771,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "تنجيد جلدي"
+      "nameAr": "تنجيد جلدي",
+      "nameEs": "Tapicería de cuero",
+      "nameFr": "Sellerie cuir"
     },
     {
       "id": "r-line-exterior",
@@ -3736,7 +3785,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "آر-لاين خارجي"
+      "nameAr": "آر-لاين خارجي",
+      "nameEs": "Exterior R-Line",
+      "nameFr": "Extérieur R-Line"
     },
     {
       "id": "harman-kardon",
@@ -3748,7 +3799,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "هارمان كاردون"
+      "nameAr": "هارمان كاردون",
+      "nameEs": "Harman Kardon",
+      "nameFr": "Harman Kardon"
     }
   ],
   "problems": {

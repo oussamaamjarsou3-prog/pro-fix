@@ -2089,7 +2089,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص السنوي",
-        "descAr": "تغيير الزيت والفلاتر، فحص نظام الهجين الخفيف 48 فولت."
+        "descAr": "تغيير الزيت والفلاتر، فحص نظام الهجين الخفيف 48 فولت.",
+        "serviceEn": "Annual service",
+        "descriptionEn": "Oil and filter change, check of the 48V mild-hybrid system.",
+        "serviceFr": "Entretien annuel",
+        "descriptionFr": "Vidange et filtres, contrôle du système mild-hybrid 48V.",
+        "serviceAr": "الصيانة السنوية",
+        "descriptionAr": "تغيير الزيت والفلاتر، فحص نظام الهجين الخفيف 48 فولت.",
+        "service": "Revisión anual",
+        "description": "Cambio de aceite y filtros, revisión del sistema mild-hybrid de 48V."
       },
       {
         "km": 30000,
@@ -2100,7 +2108,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص الدوري المتوسط",
-        "descAr": "تغيير فلاتر الهواء والمقصورة والسائل المكبحي."
+        "descAr": "تغيير فلاتر الهواء والمقصورة والسائل المكبحي.",
+        "serviceEn": "Intermediate service",
+        "descriptionEn": "Air, cabin and brake fluid filter changes.",
+        "serviceFr": "Révision intermédiaire",
+        "descriptionFr": "Changement des filtres à air, d'habitacle et de liquide de freins.",
+        "serviceAr": "الفحص المتوسط",
+        "descriptionAr": "تغيير فلاتر الهواء والمقصورة وسائل الفرامل.",
+        "service": "Revisión intermedia",
+        "description": "Cambio de filtros de aire, habitáculo y líquido de frenos."
       },
       {
         "km": 60000,
@@ -2111,7 +2127,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "فحص محرك بي 47 ونظام التبريد وناقل الحركة ستيبترونيك."
+        "descAr": "فحص محرك بي 47 ونظام التبريد وناقل الحركة ستيبترونيك.",
+        "serviceEn": "Major service",
+        "descriptionEn": "B47 engine inspection, cooling system and Steptronic transmission check.",
+        "serviceFr": "Grand entretien",
+        "descriptionFr": "Révision du moteur B47, du système de refroidissement et de la boîte Steptronic.",
+        "serviceAr": "الصيانة الكبرى",
+        "descriptionAr": "فحص محرك الديزل بي 47 ونظام التبريد وناقل الحركة ستيبترونيك.",
+        "service": "Gran servicio",
+        "description": "Revisión de motor B47, sistema de refrigeración y transmisión Steptronic."
       },
       {
         "km": 90000,
@@ -2122,7 +2146,15 @@
           "currency": "EUR"
         },
         "titleAr": "سير التوزيع",
-        "descAr": "تغيير سير التوزيع ومضخة الماء والشداد."
+        "descAr": "تغيير سير التوزيع ومضخة الماء والشداد.",
+        "serviceEn": "Timing belt",
+        "descriptionEn": "Timing belt, water pump and tensioner replacement.",
+        "serviceFr": "Courroie de distribution",
+        "descriptionFr": "Remplacement courroie de distribution, pompe à eau et tendeur.",
+        "serviceAr": "سير التوقيت",
+        "descriptionAr": "تغيير سير التوقيت ومضخة الماء وشداد السير.",
+        "service": "Correa de distribución",
+        "description": "Cambio de correa de distribución, bomba de agua y tensor."
       },
       {
         "km": 120000,
@@ -2133,7 +2165,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفرامل والإطارات",
-        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات المميزة."
+        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات المميزة.",
+        "serviceEn": "Brakes and tires",
+        "descriptionEn": "Brake discs/pads replacement and premium tire set.",
+        "serviceFr": "Freins et pneus",
+        "descriptionFr": "Remplacement disques/plaquettes et jeu de pneus premium.",
+        "serviceAr": "الفرامل والإطارات",
+        "descriptionAr": "تغيير أقراص/وسادات الفرامل ومجموعة إطارات فاخرة.",
+        "service": "Frenos y neumáticos",
+        "description": "Cambio de discos/pastillas y juego de neumáticos premium."
       }
     ],
     "faq": [
@@ -3564,7 +3604,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "الراحة باقة"
+      "nameAr": "الراحة باقة",
+      "nameEs": "Paquete de confort",
+      "nameFr": "Pack confort"
     },
     {
       "id": "panoramic-roof",
@@ -3576,7 +3618,10 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "سقف بانورامي"
+      "nameAr": "سقف بانورامي",
+      "nameEs": "Techo solar panorámico",
+      "nameFr": "Toit panoramique",
+      "nameEn": "Panoramic Glass Roof"
     },
     {
       "id": "tech-package",
@@ -3588,7 +3633,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "باقة التقنية"
+      "nameAr": "باقة التقنية",
+      "nameEs": "Paquete tecnológico",
+      "nameFr": "Pack technologique"
     },
     {
       "id": "leather-upholstery",
@@ -3600,7 +3647,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "تنجيد جلدي"
+      "nameAr": "تنجيد جلدي",
+      "nameEs": "Tapicería de cuero",
+      "nameFr": "Sellerie cuir"
     },
     {
       "id": "m-sport-brakes",
@@ -3612,7 +3661,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "فرامل أم سبورت"
+      "nameAr": "فرامل أم سبورت",
+      "nameEs": "Frenos M Sport",
+      "nameFr": "Freins M Sport"
     },
     {
       "id": "harman-kardon",
@@ -3624,7 +3675,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "هارمان كاردون"
+      "nameAr": "هارمان كاردون",
+      "nameEs": "Harman Kardon",
+      "nameFr": "Harman Kardon"
     }
   ],
   "problems": {

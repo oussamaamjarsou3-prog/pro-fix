@@ -613,7 +613,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة السنوية",
-        "descAr": "تغيير الزيت والفلاتر، فحص نظام الدفع الرباعي كواترو"
+        "descAr": "تغيير الزيت والفلاتر، فحص نظام الدفع الرباعي كواترو",
+        "serviceEn": "Mantenimiento anual",
+        "descriptionEn": "Cambio de aceite y filtros, revisión de sistema quattro",
+        "serviceFr": "Entretien annuel",
+        "descriptionFr": "Vidange et filtres, contrôle du système quattro",
+        "serviceAr": "الصيانة السنوية",
+        "descriptionAr": "تغيير الزيت والفلاتر، فحص نظام كواترو",
+        "service": "Mantenimiento anual",
+        "description": "Cambio de aceite y filtros, revisión de sistema quattro"
       },
       {
         "km": 30000,
@@ -624,7 +632,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص الدوري المتوسط",
-        "descAr": "الفلاتر والفرامل وناقل الحركة دي إس جي والبواجي"
+        "descAr": "الفلاتر والفرامل وناقل الحركة دي إس جي والبواجي",
+        "serviceEn": "Revisión intermedia",
+        "descriptionEn": "Filtros, frenos, transmisión DSG y bujías",
+        "serviceFr": "Révision intermédiaire",
+        "descriptionFr": "Filtres, freins, boîte DSG et bougies",
+        "serviceAr": "الفحص المتوسط",
+        "descriptionAr": "فلاتر، فرامل، ناقل الحركة ناقل الحركة المزدوج وشمعات الاحتراق",
+        "service": "Revisión intermedia",
+        "description": "Filtros, frenos, transmisión DSG y bujías"
       },
       {
         "km": 60000,
@@ -635,7 +651,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "الفحص الرئيسي لمحرك 5 أسطوانات، تغيير البواجي وناقل الحركة دي إس جي"
+        "descAr": "الفحص الرئيسي لمحرك 5 أسطوانات، تغيير البواجي وناقل الحركة دي إس جي",
+        "serviceEn": "Gran servicio",
+        "descriptionEn": "Revisión mayor del motor 5 cilindros, cambio de bujías y DSG",
+        "serviceFr": "Grand entretien",
+        "descriptionFr": "Révision majeure du moteur 5 cylindres, bougies et DSG",
+        "serviceAr": "الصيانة الكبرى",
+        "descriptionAr": "فحص شامل لمحرك 5 أسطوانات، تغيير شمعات الاحتراق وناقل الحركة المزدوج",
+        "service": "Gran servicio",
+        "description": "Revisión mayor del motor 5 cilindros, cambio de bujías y DSG"
       },
       {
         "km": 80000,
@@ -646,7 +670,15 @@
           "currency": "EUR"
         },
         "titleAr": "سير التوزيع",
-        "descAr": "تغيير سير التوزيع والشداد"
+        "descAr": "تغيير سير التوزيع والشداد",
+        "serviceEn": "Correa de distribución",
+        "descriptionEn": "Cambio de correa de distribución y tensor",
+        "serviceFr": "Courroie de distribution",
+        "descriptionFr": "Remplacement courroie de distribution et tendeur",
+        "serviceAr": "سير التوقيت",
+        "descriptionAr": "تغيير سير التوقيت وشداد السير",
+        "service": "Correa de distribución",
+        "description": "Cambio de correa de distribución y tensor"
       },
       {
         "km": 100000,
@@ -657,7 +689,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفرامل والإطارات",
-        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية"
+        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية",
+        "serviceEn": "Frenos y neumáticos",
+        "descriptionEn": "Cambio de discos/pastillas y juego de neumáticos performance",
+        "serviceFr": "Freins et pneus",
+        "descriptionFr": "Remplacement disques/plaquettes et jeu de pneus performance",
+        "serviceAr": "الفرامل والإطارات",
+        "descriptionAr": "تغيير أقراص/وسادات الفرامل ومجموعة إطارات رياضية",
+        "service": "Frenos y neumáticos",
+        "description": "Cambio de discos/pastillas y juego de neumáticos performance"
       }
     ],
     "faq": [
@@ -1465,7 +1505,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "باقة آر إس ديناميك"
+      "nameAr": "باقة آر إس ديناميك",
+      "nameEs": "Paquete RS Dynamic",
+      "nameFr": "Pack RS Dynamic"
     },
     {
       "id": "rs-sport-exhaust",
@@ -1476,7 +1518,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "آر إس سبورت عادم"
+      "nameAr": "آر إس سبورت عادم",
+      "nameEs": "Escape RS Sport",
+      "nameFr": "Échappement RS Sport"
     },
     {
       "id": "rs-ceramic-brakes",
@@ -1487,7 +1531,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "آر إس فرامل سيراميك"
+      "nameAr": "آر إس فرامل سيراميك",
+      "nameEs": "Frenos cerámicos RS",
+      "nameFr": "Freins céramique RS"
     },
     {
       "id": "matrix-led-headlights",
@@ -1498,7 +1544,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "ليد ماتريكس مصابيح أمامية"
+      "nameAr": "ليد ماتريكس مصابيح أمامية",
+      "nameEs": "Faros Matrix LED",
+      "nameFr": "Phares Matrix LED"
     },
     {
       "id": "full-leather-interior",
@@ -1509,7 +1557,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "داخلية جلد كاملة"
+      "nameAr": "داخلية جلد كاملة",
+      "nameEs": "Interior de cuero completo",
+      "nameFr": "Intérieur cuir complet"
     },
     {
       "id": "asientos-traseros",
@@ -1520,7 +1570,9 @@
       },
       "worthIt": true,
       "resaleImpact": "low",
-      "nameAr": "مقاعد خلفية"
+      "nameAr": "مقاعد خلفية",
+      "nameEs": "Asientos traseros",
+      "nameFr": "Sièges arrière"
     },
     {
       "id": "bang--olufsen-sound",
@@ -1531,7 +1583,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "بانغ أند أولوفسن صوت"
+      "nameAr": "بانغ أند أولوفسن صوت",
+      "nameEs": "Bang & Olufsen Sound",
+      "nameFr": "Bang & Olufsen Sound"
     },
     {
       "id": "techo-solar-panorámico",
@@ -1542,7 +1596,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "سقف بانورامي"
+      "nameAr": "سقف بانورامي",
+      "nameEs": "Techo solar panorámico",
+      "nameFr": "Toit panoramique"
     }
   ],
   "problems": {

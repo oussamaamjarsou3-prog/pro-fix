@@ -336,7 +336,11 @@
         "maintenanceDesc": "يشمل الخدمة والتآكل العادي",
         "insuranceDesc": "تأمين شامل مقدر",
         "fuelDesc": "تكلفة الوقود السنوية المقدرة",
-        "fuelImpact": "تأثير الاستهلاك حسب كيلومتراتك"
+        "fuelImpact": "تأثير الاستهلاك حسب كيلومتراتك",
+        "electricity": "الكهرباء",
+        "electricityDesc": "تكلفة الشحن السنوية المقدرة",
+        "electricityPrice": "سعر الكهرباء",
+        "electricityPriceHelp": "متوسط سعر الكهرباء لكل كيلوواط ساعة، بما في ذلك خسائر الشحن."
       }
     }
   },
@@ -364,7 +368,9 @@
     "months": "أشهر",
     "years": "سنوات",
     "powertrain": "مجموعة الحركة",
-    "unlimitedKm": "كم غير محدود"
+    "unlimitedKm": "كم غير محدود",
+    "service": "صيانة",
+    "perUnit": "للقطعة"
   },
   "country": {
     "fiscalTag": "الضرائب",
@@ -441,6 +447,7 @@
   "versions": {
     "tag": "جميع الإصدارات",
     "title": "جميع إصدارات {{fullModelName}} {{modelYear}}",
+    "version": "نسخة",
     "versionBase": "{{versionBaseName}}",
     "versionPerformance": "{{versionPerformanceName}}",
     "versionCarbon": "{{versionCarbonName}}",
@@ -726,7 +733,12 @@
     "megaMenuNav": "تنقل القائمة الكبرى",
     "searchBrand": "البحث عن علامة تجارية",
     "darkMode": "الوضع الداكن",
-    "skipToContent": "تخطي إلى المحتوى الرئيسي"
+    "skipToContent": "تخطي إلى المحتوى الرئيسي",
+    "mainNav": "التنقل الرئيسي",
+    "breadcrumb": "مسار التنقل",
+    "quickInfo": "بيانات سريعة",
+    "compareThisCar": "مقارنة هذه السيارة",
+    "backToBrands": "العودة إلى العلامات التجارية"
   },
   "search": {
     "brandPlaceholder": "البحث عن علامة تجارية...",
@@ -799,7 +811,9 @@
     "motor": "المحرك الكهربائي",
     "acCharge": "شحن تيار متردد",
     "dcCharge": "شحن تيار مستمر",
-    "consumption": "استهلاك الطاقة"
+    "consumption": "استهلاك الطاقة",
+    "hours": "س",
+    "minutes": "د"
   },
   "tires": {
     "tag": "الإطارات",
@@ -811,7 +825,8 @@
     "overall": "الإجمالي",
     "value": "القيمة مقابل السعر",
     "performance": "الأداء",
-    "technology": "التقنية"
+    "technology": "التقنية",
+    "practicality": "العملية"
   },
   "powertrain": {
     "tag": "مجموعة نقل الحركة",
@@ -833,7 +848,9 @@
     "rangeLabel": "المدى",
     "acCharging": "شحن تيار متردد",
     "dcCharging": "شحن سريع تيار مستمر",
-    "electricMotorTitle": "المحرك الكهربائي"
+    "electricMotorTitle": "المحرك الكهربائي",
+    "seconds": "ثانية",
+    "accelIn": "في"
   },
   "seo": {
     "title": "{{fullModelName}} مراجعة {{country}} | أوتوماكس",
@@ -842,11 +859,36 @@
   "ownership": {
     "tag": "الموثوقية",
     "title": "الصيانة والموثوقية",
-    "subtitle": "التكاليف الفعلية، التأمين والموثوقية."
+    "subtitle": "التكاليف الفعلية، التأمين والموثوقية.",
+    "dailyUsability": "الاستخدام اليومي",
+    "reliability": "الموثوقية",
+    "longTrips": "الرحلات الطويلة",
+    "cityDriving": "القيادة في المدينة",
+    "commonIssues": "المشاكل الشائعة",
+    "maintenanceCosts": "تكاليف الصيانة",
+    "interval": "الفاصل",
+    "minorService": "الصيانة الصغرى",
+    "majorService": "الصيانة الكبرى",
+    "roadTax": "ضريبة الطريق",
+    "insurance": "التأمين",
+    "tyres": "الإطارات",
+    "fuel": "الوقود",
+    "frequency": {
+      "common": "شائع",
+      "occasional": "متوسط",
+      "rare": "نادر",
+      "verycommon": "شائع جداً"
+    }
   },
   "review": {
     "tag": "مراجعة",
-    "title": "التحليل والحكم"
+    "title": "التحليل والحكم",
+    "verdictLabel": "الحكم",
+    "verdict": {
+      "buy": "شراء",
+      "avoid": "تجنب",
+      "consider": "فكر فيها"
+    }
   },
   "safety": {
     "tag": "الأمان",
@@ -873,7 +915,9 @@
     "title": "التقنية والترفيه"
   },
   "breadcrumb": {
-    "home": "الرئيسية"
+    "home": "الرئيسية",
+    "brand": "العلامة التجارية",
+    "model": "الموديل"
   },
   "carLabels": {
     "Handling": "المناورة",

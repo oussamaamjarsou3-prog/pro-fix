@@ -106,8 +106,8 @@ sitemapEntries.forEach(entry => {
 
 xml += '</urlset>';
 
-// Write output file
-const outputPath = path.join(__dirname, '../../sitemap.xml');
+// Write output file to the deployable html/ folder
+const outputPath = path.join(__dirname, '../../html/sitemap.xml');
 fs.writeFileSync(outputPath, xml);
 
 console.log('✅ sitemap.xml generated successfully');

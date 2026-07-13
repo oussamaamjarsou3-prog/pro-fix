@@ -1569,7 +1569,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "حزمة مظهر NISMO"
+      "nameAr": "حزمة مظهر NISMO",
+      "nameEs": "Paquete de apariencia NISMO",
+      "nameFr": "Pack d'apparence NISMO"
     },
     {
       "id": "bayside-blue-paint",
@@ -1581,7 +1583,9 @@
       },
       "worthIt": false,
       "resaleImpact": "medium",
-      "nameAr": "طلاء Bayside Blue"
+      "nameAr": "طلاء Bayside Blue",
+      "nameEs": "Pintura Bayside Blue",
+      "nameFr": "Peinture Bayside Blue"
     },
     {
       "id": "track-brake-pads",
@@ -1593,7 +1597,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "قماش فرامل الحلبة"
+      "nameAr": "قماش فرامل الحلبة",
+      "nameEs": "Pastillas de freno para circuito",
+      "nameFr": "Plaquettes de frein circuit"
     },
     {
       "id": "midnight-purple-paint",
@@ -1605,7 +1611,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "طلاء Midnight Purple التراثي"
+      "nameAr": "طلاء Midnight Purple التراثي",
+      "nameEs": "Pintura Midnight Purple Heritage",
+      "nameFr": "Peinture Midnight Purple Heritage"
     },
     {
       "id": "premium-interior-pack",
@@ -1617,7 +1625,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "حزمة داخلية ممتازة"
+      "nameAr": "حزمة داخلية ممتازة",
+      "nameEs": "Paquete interior premium",
+      "nameFr": "Pack intérieur premium"
     },
     {
       "id": "carbon-fiber-body",
@@ -1629,7 +1639,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "مكونات هيكل الكربون"
+      "nameAr": "مكونات هيكل الكربون",
+      "nameEs": "Componentes de carrocería en fibra de carbono",
+      "nameFr": "Composants carrosserie carbone"
     },
     {
       "id": "recaro-sport-seats",
@@ -1641,7 +1653,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "مقاعد Recaro الرياضية"
+      "nameAr": "مقاعد Recaro الرياضية",
+      "nameEs": "Asientos deportivos Recaro",
+      "nameFr": "Sièges sport Recaro"
     },
     {
       "id": "stealth-gray-paint",
@@ -1653,7 +1667,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "طلاء Stealth Gray حصري NISMO"
+      "nameAr": "طلاء Stealth Gray حصري NISMO",
+      "nameEs": "Pintura Stealth Gray NISMO",
+      "nameFr": "Peinture Stealth Gray NISMO"
     }
   ],
   "problems": {

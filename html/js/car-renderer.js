@@ -137,7 +137,7 @@ class CarRenderer {
                     }
                     const currentCountryData = (typeof countryData !== 'undefined' && cc && countryData[cc]) ? countryData[cc] : null;
                     if (currentCountryData) {
-                        const localizedCountry = (typeof translations !== 'undefined' && translations && translations.countries && translations.countries[cc]) ? translations.countries[cc] : (currentCountryData.name || carData.country || 'España');
+                        const localizedCountry = (typeof translations !== 'undefined' && translations && translations.countries && translations.countries[cc]) ? translations.countries[cc] : (currentCountryData.name || carData.country || '');
                         allVars.country = localizedCountry;
                         allVars.currency = currentCountryData.currency || 'EUR';
                         if (currentCountryData.priceNew !== undefined) {
@@ -291,6 +291,17 @@ class CarRenderer {
                 if (heroTitle) heroTitle.textContent = (currentLang === 'ar' && carData.basicInfo?.fullModelNameAr) ? carData.basicInfo.fullModelNameAr : (carData.basicInfo?.fullModelName || carData.basicInfo?.name || heroTitle.textContent);
                 if (heroSubtitle) heroSubtitle.textContent = (currentLang === 'ar' && carData.basicInfo?.taglineAr) ? carData.basicInfo.taglineAr : (carData.basicInfo?.tagline || heroSubtitle.textContent);
                 if (heroBadge) heroBadge.textContent = (currentLang === 'ar' && carData.basicInfo?.badgeAr) ? carData.basicInfo.badgeAr : (carData.basicInfo?.badge || heroBadge.textContent);
+                // Populate breadcrumb brand/model from localized names
+                const fullName = (currentLang === 'ar' && carData.basicInfo?.fullModelNameAr) ? carData.basicInfo.fullModelNameAr : (carData.basicInfo?.fullModelName || carData.basicInfo?.name || '');
+                if (fullName) {
+                    const parts = fullName.split(' ');
+                    const brandName = parts[0] || '';
+                    const modelName = parts.slice(1).join(' ') || fullName;
+                    const bcBrand = document.getElementById('breadcrumbBrand');
+                    const bcModel = document.getElementById('breadcrumbModel');
+                    if (bcBrand) bcBrand.textContent = brandName;
+                    if (bcModel) bcModel.textContent = modelName;
+                }
                 const heroImage = carData.images?.hero || carData.heroImage || '';
                 if (heroSection && heroImage) heroSection.style.backgroundImage = "url('" + heroImage + "')";
             } catch (e) {
@@ -318,13 +329,13 @@ class CarRenderer {
                 versionTorque1: `✔ ${carData.performance?.torque?.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(carData.performance?.torque?.unit) : carData.performance?.torque?.unit}`,
                 versionEngine1: `✔ ${(currentLang === 'ar' && carData.specs?.engine?.typeAr) ? carData.specs.engine.typeAr : carData.specs?.engine?.type}`,
                 versionDrivetrain1: `✔ ${drivetrainAr}`,
-                versionAccel1: `✔ 0-100 ${(currentLang === 'ar') ? 'في' : 'en'} ${zeroToHundred} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit('s') : 's'}`,
+                versionAccel1: `✔ 0-100 ${(currentLang === 'ar') ? 'في' : ((typeof t === 'function' ? t('powertrain.accelIn') : '') || 'in')} ${zeroToHundred} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit('s') : 's'}`,
                 specEngine: (currentLang === 'ar' && carData.specs?.engine?.typeAr) ? carData.specs.engine.typeAr : carData.specs?.engine?.type,
                 specPower: `${carData.performance?.power?.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(carData.performance?.power?.unit) : carData.performance?.power?.unit}`,
                 specTorque: `${carData.performance?.torque?.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(carData.performance?.torque?.unit) : carData.performance?.torque?.unit}`,
-                specTransmission: `${(currentLang === 'ar' && carData.specs?.transmission?.typeAr) ? carData.specs.transmission.typeAr : carData.specs?.transmission?.type} ${carData.specs?.transmission?.gears} ${(currentLang === 'ar') ? 'سرعات' : 'velocidades'}`,
+                specTransmission: `${(currentLang === 'ar' && carData.specs?.transmission?.typeAr) ? carData.specs.transmission.typeAr : carData.specs?.transmission?.type} ${carData.specs?.transmission?.gears} ${(currentLang === 'ar') ? 'سرعات' : ((typeof t === 'function' ? t('powertrain.gearsLabel') : '') || 'Gears').toLowerCase()}`,
                 specDrivetrain: drivetrainAr,
-                specAcceleration: zeroToHundred !== undefined ? `${zeroToHundred} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit('s') : 'segundos'}` : null,
+                specAcceleration: zeroToHundred !== undefined ? `${zeroToHundred} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit('s') : ((typeof t === 'function' ? t('powertrain.seconds') : '') || 'seconds')}` : null,
                 specTopSpeed: `${carData.performance?.topSpeed?.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(carData.performance?.topSpeed?.unit) : carData.performance?.topSpeed?.unit}`,
                 specConsumption: consumption?.value !== undefined ? `${consumption.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit('L/100 km') : 'L / 100 km'}` : null,
                 specWeight: curbWeight?.value !== undefined ? `${curbWeight.value.toLocaleString()} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(curbWeight.unit || 'kg') : (curbWeight.unit || 'kg')}` : null,
@@ -369,7 +380,7 @@ class CarRenderer {
                     const locale = currentLang === 'ar' ? 'ar-MA' : 'es-ES';
                     return new Intl.NumberFormat(locale, { style: 'currency', currency: price.currency, currencyDisplay: currentLang === 'ar' ? 'name' : 'symbol', maximumFractionDigits: 0 }).format(price.value);
                 };
-                const defaultVersionName = currentLang === 'ar' ? 'نسخة' : 'Version';
+                const defaultVersionName = currentLang === 'ar' ? 'نسخة' : ((typeof t === 'function' ? t('versions.version') : '') || 'Version');
                 const localizedVersionHtml = carData.versions.map((v, i) => {
                     const img = v.images?.[0] || v.image || '';
                     const power = v.specs?.power ? `✔ ${v.specs.power.value} ${(currentLang === 'ar' && typeof translateUnit === 'function') ? translateUnit(v.specs.power.unit) : v.specs.power.unit}` : '';

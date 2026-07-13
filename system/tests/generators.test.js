@@ -39,8 +39,8 @@ test('search index generator produces search index', () => {
 
 test('sitemap generator produces sitemap', () => {
     runGenerator('sitemap-generator.js');
-    const sitemapPath = path.join(PROJECT_DIR, 'sitemap.xml');
-    assertTrue(fs.existsSync(sitemapPath), 'sitemap.xml should exist');
+    const sitemapPath = path.join(PROJECT_DIR, 'html', 'sitemap.xml');
+    assertTrue(fs.existsSync(sitemapPath), 'sitemap.xml should exist in html/');
     const sitemap = fs.readFileSync(sitemapPath, 'utf8');
     assertIncludes(sitemap, 'https://carspecio.com', 'Sitemap should use carspecio.com');
     assertIncludes(sitemap, 'guias/index.html', 'Sitemap should include guide index');

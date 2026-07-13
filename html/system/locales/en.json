@@ -208,7 +208,11 @@
       "maintenanceDesc": "Includes service and regular wear.",
       "insuranceDesc": "Estimated comprehensive insurance.",
       "fuelDesc": "Estimated annual fuel cost.",
-      "fuelImpact": "Fuel impact based on your mileage."
+      "fuelImpact": "Fuel impact based on your mileage.",
+      "electricity": "Electricity",
+      "electricityDesc": "Estimated annual charging cost.",
+      "electricityPrice": "Electricity price",
+      "electricityPriceHelp": "Average electricity price per kWh, including charging losses."
     }
   },
   "maintenance": {
@@ -235,7 +239,9 @@
     "months": "months",
     "years": "years",
     "powertrain": "Powertrain",
-    "unlimitedKm": "unlimited km"
+    "unlimitedKm": "unlimited km",
+    "service": "Service",
+    "perUnit": "per unit"
   },
   "calc": {
     "tag": "COST CALCULATION",
@@ -311,6 +317,7 @@
   "versions": {
     "tag": "ALL VERSIONS",
     "title": "All {{fullModelName}} {{modelYear}} versions",
+    "version": "Version",
     "versionBase": "{{versionBaseName}}",
     "versionPerformance": "{{versionPerformanceName}}",
     "versionCarbon": "{{versionCarbonName}}",
@@ -597,7 +604,12 @@
     "megaMenuNav": "Mega menu navigation",
     "searchBrand": "Search brand",
     "darkMode": "Dark mode",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main navigation",
+    "breadcrumb": "Breadcrumb",
+    "quickInfo": "Quick data",
+    "compareThisCar": "Compare this car",
+    "backToBrands": "Back to brands"
   },
   "search": {
     "brandPlaceholder": "Search brand...",
@@ -670,7 +682,9 @@
     "motor": "Electric motor",
     "acCharge": "AC charging",
     "dcCharge": "DC charging",
-    "consumption": "Energy consumption"
+    "consumption": "Energy consumption",
+    "hours": "h",
+    "minutes": "min"
   },
   "tires": {
     "tag": "TIRES",
@@ -682,7 +696,8 @@
     "overall": "Overall",
     "value": "Value for money",
     "performance": "Performance",
-    "technology": "Technology"
+    "technology": "Technology",
+    "practicality": "Practicality"
   },
   "powertrain": {
     "tag": "POWERTRAIN",
@@ -704,7 +719,9 @@
     "topSpeedLabel": "Top speed",
     "torqueLabel": "Torque",
     "transmissionTitle": "Transmission",
-    "typeLabel": "Type"
+    "typeLabel": "Type",
+    "seconds": "seconds",
+    "accelIn": "in"
   },
   "seo": {
     "title": "{{fullModelName}} Review {{country}} | carspecio",
@@ -713,11 +730,36 @@
   "ownership": {
     "tag": "RELIABILITY",
     "title": "Maintenance and reliability",
-    "subtitle": "Real costs, insurance and reliability."
+    "subtitle": "Real costs, insurance and reliability.",
+    "dailyUsability": "Daily usability",
+    "reliability": "Reliability",
+    "longTrips": "Long trips",
+    "cityDriving": "City driving",
+    "commonIssues": "Common issues",
+    "maintenanceCosts": "Maintenance costs",
+    "interval": "Interval",
+    "minorService": "Minor service",
+    "majorService": "Major service",
+    "roadTax": "Road tax",
+    "insurance": "Insurance",
+    "tyres": "Tyres",
+    "fuel": "Fuel",
+    "frequency": {
+      "common": "common",
+      "occasional": "occasional",
+      "rare": "rare",
+      "verycommon": "very common"
+    }
   },
   "review": {
     "tag": "REVIEW",
-    "title": "Review and verdict"
+    "title": "Review and verdict",
+    "verdictLabel": "Verdict",
+    "verdict": {
+      "buy": "Buy",
+      "avoid": "Avoid",
+      "consider": "Consider"
+    }
   },
   "safety": {
     "tag": "SAFETY",
@@ -744,7 +786,9 @@
     "title": "Technology and infotainment"
   },
   "breadcrumb": {
-    "home": "Home"
+    "home": "Home",
+    "brand": "Brand",
+    "model": "Model"
   },
   "units": {
     "euro": "Euro",
@@ -1430,5 +1474,110 @@
     "faq6Q": "Is my data secure?",
     "faq6A": "Yes. We use SSL encryption and comply with GDPR. Your data is only used to respond to your inquiry and is never shared with third parties.",
     "successMessage": "✓ Message sent successfully. We will contact you shortly."
+  },
+  "carLabels": {
+    "Handling": "Handling",
+    "Steering:": "Steering:",
+    "Body roll:": "Body roll:",
+    "Grip:": "Grip:",
+    "Ride:": "Ride:",
+    "Performance feel": "Performance feel",
+    "Acceleration:": "Acceleration:",
+    "Braking:": "Braking:",
+    "Sound:": "Sound:",
+    "Transmission:": "Transmission:",
+    "Daily driving": "Daily driving",
+    "Comfort:": "Comfort:",
+    "Visibility:": "Visibility:",
+    "Parking:": "Parking:",
+    "Motorway:": "Motorway:",
+    "Aerodynamics": "Aerodynamics",
+    "Cd:": "Cd:",
+    "Active aero": "Active aero",
+    "Lighting": "Lighting",
+    "Headlights:": "Headlights:",
+    "Taillights:": "Taillights:",
+    "Signature:": "Signature:",
+    "Wheels": "Wheels",
+    "Standard:": "Standard:",
+    "Optional:": "Optional:",
+    "Colors": "Colors",
+    "Front:": "Front:",
+    "Side:": "Side:",
+    "Rear:": "Rear:",
+    "Proportions:": "Proportions:",
+    "Details:": "Details:",
+    "Front spoiler:": "Front spoiler:",
+    "Rear diffuser:": "Rear diffuser:",
+    "Active aero: Sí": "Active aero: Yes",
+    "Head unit": "Head unit",
+    "Screen:": "Screen:",
+    "Resolution:": "Resolution:",
+    "System:": "System:",
+    "Processor:": "Processor:",
+    "Wireless Apple CarPlay": "Wireless Apple CarPlay",
+    "Wireless Android Auto": "Wireless Android Auto",
+    "Audio": "Audio",
+    "Speakers:": "Speakers:",
+    "Watts:": "Watts:",
+    "Driver displays": "Driver displays",
+    "Cluster:": "Cluster:",
+    "Head-up display": "Head-up display",
+    "Augmented reality nav": "Augmented reality nav",
+    "Connectivity": "Connectivity",
+    "App integration": "App integration",
+    "Summary": "Summary",
+    "Infotainment": "Infotainment",
+    "Driver assist": "Driver assist",
+    "Driver assistance": "Driver assistance",
+    "Performance tech": "Performance tech",
+    "Charging": "Charging",
+    "Ratings": "Ratings",
+    "Euro NCAP": "Euro NCAP",
+    "NHTSA": "NHTSA",
+    "Overall": "Overall",
+    "Airbags": "Airbags",
+    "airbags": "airbags",
+    "Structure": "Structure",
+    "Standard": "Standard",
+    "Optional": "Optional",
+    "Rear wear": "Rear wear",
+    "Recommended": "Recommended",
+    "Sizes": "Sizes",
+    "Daily usability": "Daily usability",
+    "Reliability": "Reliability",
+    "Long trips": "Long trips",
+    "City driving": "City driving",
+    "Common issues": "Common issues",
+    "Costes de mantenimiento": "Maintenance costs",
+    "Intervalo:": "Interval:",
+    "Revisión menor:": "Minor service:",
+    "Revisión mayor:": "Major service:",
+    "Impuesto de circulación:": "Road tax:",
+    "Seguro:": "Insurance:",
+    "Neumáticos:": "Tyres:",
+    "Combustible:": "Fuel:",
+    "años": "years",
+    "meses": "months",
+    "sin límite de km": "unlimited km",
+    "Tren motriz": "Powertrain",
+    "CO2": "CO2",
+    "NOx": "NOx",
+    "Particulas": "Particulates",
+    "Consumo": "Consumption",
+    "Solicitar prueba de conduccion": "Book a test drive",
+    "Configurador online": "Online configurator",
+    "Financiacion": "Financing",
+    "Revision": "Service",
+    "Sí": "Yes",
+    "Si": "Yes",
+    "No": "No",
+    "Yes": "Yes",
+    "Reserva una prueba gratuita con un concesionario oficial de ": "Book a free test drive with an official dealer of ",
+    "Personaliza colores, equipamiento y acabados desde casa.": "Customize colors, equipment and finishes from home.",
+    "Descubre las mejores condiciones de financiacion y leasing.": "Discover the best financing and leasing conditions.",
+    "Contactar concesionario": "Contact dealer",
+    "Configurar ": "Configure ",
+    "Ver ofertas": "View offers"
   }
 }

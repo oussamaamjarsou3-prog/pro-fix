@@ -140,34 +140,31 @@
         const energyLabel = getEnergyLabel();
         const priceUnit = getPriceUnit();
 
+        const _ct = (typeof t === 'function') ? function(key) { return t('cost.calculator.' + key); } : function(key) { return key; };
         const cards = document.querySelectorAll('.calculator-results .calc-result-card');
         if (cards[0]) {
             const span = cards[0].querySelector('span');
             const p = cards[0].querySelector('p');
             if (span) {
-                span.textContent = energyLabel;
+                span.textContent = _ct(energyType === 'electric' ? 'electricity' : 'fuel') || energyLabel;
                 span.removeAttribute('data-i18n');
             }
             if (p) {
-                p.textContent = energyType === 'electric'
-                    ? 'Coste de recarga según tu kilometraje.'
-                    : 'Impacto del consumo según tu kilometraje.';
+                p.textContent = _ct(energyType === 'electric' ? 'electricityDesc' : 'fuelDesc') || '';
                 p.removeAttribute('data-i18n');
             }
         }
 
         const fuelLabelSpan = document.querySelector('label[for="fuelPrice"] > span');
         if (fuelLabelSpan) {
-            fuelLabelSpan.textContent = energyType === 'electric' ? 'Precio de la electricidad' : 'Precio del combustible';
+            fuelLabelSpan.textContent = _ct(energyType === 'electric' ? 'electricityPrice' : 'fuelPrice') || '';
             fuelLabelSpan.removeAttribute('data-i18n');
         }
 
         const fuelSmall = document.querySelector('#fuelPrice') && document.querySelector('#fuelPrice').closest('.calc-field') ?
             document.querySelector('#fuelPrice').closest('.calc-field').querySelector('small') : null;
         if (fuelSmall) {
-            fuelSmall.textContent = energyType === 'electric'
-                ? 'Precio medio por kWh, incluyendo pérdidas de carga.'
-                : 'Tensión el escenario con precios más conservadores o más exigentes.';
+            fuelSmall.textContent = _ct(energyType === 'electric' ? 'electricityPriceHelp' : 'fuelPriceHelp') || '';
             fuelSmall.removeAttribute('data-i18n');
         }
     }
@@ -264,7 +261,12 @@
 
         const sym = getCurrencySymbol(c.currency);
         const perKmFormatted = perKm.toLocaleString(c.locale || 'es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        if (costPerKm) costPerKm.textContent = "≈ " + sym + perKmFormatted + " / km · " + fmt(trackOuting);
+        if (costPerKm) {
+            const perKmLine = (typeof t === 'function' ? t('cost.perKmLine') : '') || '{perKm} / km · {track}';
+            costPerKm.textContent = perKmLine
+                .replace('{perKm}', '≈ ' + sym + perKmFormatted)
+                .replace('{track}', fmt(trackOuting));
+        }
 
         const barComp = document.getElementById("barComparison") || document.getElementById("barRs7");
         const barCompVal = document.getElementById("barComparisonVal") || document.getElementById("barRs7Val");

@@ -9,7 +9,7 @@ const path = require('path');
 
 const PROJECT_DIR = path.join(__dirname, '../..');
 const HTML_DIR = path.join(PROJECT_DIR, 'html');
-const SITEMAP_PATH = path.join(PROJECT_DIR, 'sitemap.xml');
+const SITEMAP_PATH = path.join(HTML_DIR, 'sitemap.xml');
 
 const broken = [];
 const checked = new Set();

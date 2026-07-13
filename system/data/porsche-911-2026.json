@@ -1567,7 +1567,9 @@
         "en": "Carbon roof",
         "fr": "Toit carbone",
         "ar": "سقف كربون"
-      }
+      },
+      "nameEs": "Techo de carbono",
+      "nameFr": "Toit carbone"
     },
     {
       "id": "burmester-audio",
@@ -1594,7 +1596,9 @@
         "en": "Burmester 3D High-End",
         "fr": "Burmester 3D High-End",
         "ar": "Burmester 3D High-End"
-      }
+      },
+      "nameEs": "Burmester 3D High-End",
+      "nameFr": "Burmester 3D High-End"
     },
     {
       "id": "porsche-carbon-ceramic",
@@ -1621,7 +1625,9 @@
         "en": "PCCB",
         "fr": "PCCB",
         "ar": "PCCB"
-      }
+      },
+      "nameEs": "PCCB",
+      "nameFr": "PCCB"
     }
   ],
   "problems": {

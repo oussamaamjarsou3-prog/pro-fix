@@ -32,7 +32,6 @@ function _isMultilingual(data) {
 // Car section labels are loaded from the active locale file (carLabels section).
 function _getLocalizedLabel(text, lang) {
     if (typeof lang === 'undefined') lang = (typeof currentLang !== 'undefined') ? currentLang : 'es';
-    if (lang === 'es') return text;
     const labels = (typeof translations !== 'undefined' && translations && translations.carLabels) ? translations.carLabels : {};
     if (labels[text]) return labels[text];
     return text;
@@ -54,13 +53,14 @@ function _str(value, fallback) {
 }
 
 function _localizeHtml(html, lang) {
-    if (lang !== 'ar' || typeof html !== 'string') return html;
+    if (typeof html !== 'string') return html;
     const labels = (typeof translations !== 'undefined' && translations && translations.carLabels) ? translations.carLabels : {};
     Object.keys(labels).sort(function(a, b) { return b.length - a.length; }).forEach(function(label) {
         // Skip very short tokens that could appear inside unrelated words.
         if (label.length <= 2) return;
         const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        html = html.replace(new RegExp(escaped, 'g'), labels[label]);
+        const replacement = lang === 'ar' ? '<span dir="auto">' + labels[label] + '</span>' : labels[label];
+        html = html.replace(new RegExp(escaped, 'g'), replacement);
     });
     return html;
 }
@@ -164,6 +164,7 @@ const SECTION_RENDERERS = {
         if (!section) return;
         if (!carData.electric) { section.hidden = true; return; }
         const e = carData.electric;
+        const _et = (typeof t === 'function') ? function(key) { return t('electric.' + key); } : function(key) { return key; };
         const setText = (id, val, suffix) => {
             const el = document.getElementById(id);
             if (el && val !== undefined && val !== null) el.textContent = val + (suffix || '');
@@ -173,13 +174,13 @@ const SECTION_RENDERERS = {
         if (e.charging?.ac?.power) setText('electricAcPower', e.charging.ac.power);
         if (e.charging?.ac?.time) {
             const acTimeEl = document.getElementById('electricAcTime');
-            if (acTimeEl) acTimeEl.textContent = e.charging.ac.time + ' h';
+            if (acTimeEl) acTimeEl.textContent = e.charging.ac.time + ' ' + (_et('hours') || 'h');
         }
         if (e.charging?.dc?.power) setText('electricDcPower', e.charging.dc.power);
         if (e.charging?.dc?.time?.value) {
             const dcTimeEl = document.getElementById('electricDcTime');
             const pct = e.charging.dc.time.percentage ? ' (' + e.charging.dc.time.percentage + '%)' : '';
-            if (dcTimeEl) dcTimeEl.textContent = e.charging.dc.time.value + ' min' + pct;
+            if (dcTimeEl) dcTimeEl.textContent = e.charging.dc.time.value + ' ' + (_et('minutes') || 'min') + pct;
         }
         if (e.motor?.power?.value) setText('electricMotorPower', e.motor.power.value);
         if (e.motor?.type) {
@@ -219,17 +220,18 @@ const SECTION_RENDERERS = {
         html = resolve(html);
         if (r && r.scoreBreakdown) {
             html += '<div class="score-breakdown">';
+            const _rt = (typeof t === 'function') ? function(key) { return t('rating.' + key); } : function(key) { return key; };
             for (const [k, v] of Object.entries(r.scoreBreakdown)) {
-                html += '<div class="sb-item"><span>' + k + '</span><div class="sb-bar"><div style="width:' + (v * 10) + '%"></div></div><span>' + v + '</span></div>';
+                const label = _rt(k) || k;
+                html += '<div class="sb-item"><span>' + label + '</span><div class="sb-bar"><div style="width:' + (v * 10) + '%"></div></div><span>' + v + '</span></div>';
             }
             html += '</div>';
         }
         body.innerHTML = html;
         if (r && r.verdict) {
-            const verdictLabels = { es: 'Veredicto', en: 'Verdict', fr: 'Verdict', ar: 'الحكم' };
-            const verdictValues = { es: r.verdict, en: r.verdict, fr: r.verdict, ar: { buy: 'شراء', avoid: 'تجنب', consider: 'فكر فيها' }[r.verdict] || r.verdict };
-            const label = verdictLabels[lang] || 'Verdict';
-            const value = verdictValues[lang] || r.verdict;
+            const _vt = (typeof t === 'function') ? function(key) { return t('review.' + key); } : function(key) { return key; };
+            const label = _vt('verdictLabel') || 'Verdict';
+            const value = _vt('verdict.' + r.verdict) || r.verdict;
             box.innerHTML = '<div class="verdict ' + r.verdict + '"><strong>' + label + ':</strong> ' + value + '</div>';
             if (r.bestFor && r.bestFor.length) {
                 box.innerHTML += '<ul class="best-for"><li>' + r.bestFor.join('</li><li>') + '</li></ul>';
@@ -631,18 +633,21 @@ const SECTION_RENDERERS = {
         const grid = document.getElementById('ownershipGrid');
         if (!section || !grid) return;
         const lang = this._getLang ? this._getLang() : 'es';
+        const _ot = (typeof t === 'function') ? function(key) { return t('ownership.' + key); } : function(key) { return key; };
         const o = carData.ownership ? _getLocalized(carData.ownership, lang) : null;
         let html = '';
         if (o) {
-            if (o.dailyUsability) html += '<div class="own-card"><h4>Daily usability</h4><p>' + _str(o.dailyUsability) + '</p></div>';
-            if (o.reliability) html += '<div class="own-card"><h4>Reliability</h4><p>' + _str(o.reliability) + '</p></div>';
-            if (o.longTrips) html += '<div class="own-card"><h4>Long trips</h4><p>' + _str(o.longTrips) + '</p></div>';
-            if (o.cityDriving) html += '<div class="own-card"><h4>City driving</h4><p>' + _str(o.cityDriving) + '</p></div>';
+            if (o.dailyUsability) html += '<div class="own-card"><h4>' + _ot('dailyUsability') + '</h4><p>' + _str(o.dailyUsability) + '</p></div>';
+            if (o.reliability) html += '<div class="own-card"><h4>' + _ot('reliability') + '</h4><p>' + _str(o.reliability) + '</p></div>';
+            if (o.longTrips) html += '<div class="own-card"><h4>' + _ot('longTrips') + '</h4><p>' + _str(o.longTrips) + '</p></div>';
+            if (o.cityDriving) html += '<div class="own-card"><h4>' + _ot('cityDriving') + '</h4><p>' + _str(o.cityDriving) + '</p></div>';
             if (o.commonIssues && o.commonIssues.length) {
-                html += '<div class="own-card own-issues"><h4>Common issues</h4><ul>';
+                html += '<div class="own-card own-issues"><h4>' + _ot('commonIssues') + '</h4><ul>';
                 o.commonIssues.forEach(issue => {
                     const costText = issue.cost ? _convertEurText(_str(issue.cost)) : '';
-                    html += '<li><strong>' + _str(issue.issue) + '</strong> <span class="issue-freq">(' + _str(issue.frequency) + ')</span><br><span class="issue-cost">' + costText + '</span></li>';
+                    const freqKey = issue.frequency ? String(issue.frequency).toLowerCase().trim() : '';
+                    const freqLabel = freqKey ? ((typeof t === 'function' ? t('ownership.frequency.' + freqKey) : '') || freqKey) : '';
+                    html += '<li><strong>' + _str(issue.issue) + '</strong> <span class="issue-freq">(' + freqLabel + ')</span><br><span class="issue-cost">' + costText + '</span></li>';
                 });
                 html += '</ul></div>';
             }
@@ -650,24 +655,26 @@ const SECTION_RENDERERS = {
         // Maintenance costs from runningCosts
         const rc = carData.runningCosts ? _getLocalized(carData.runningCosts, lang) : null;
         if (rc) {
-            html += '<div class="own-card own-costs"><h4>Costes de mantenimiento</h4><ul>';
+            html += '<div class="own-card own-costs"><h4>' + _ot('maintenanceCosts') + '</h4><ul>';
             if (rc.servicing) {
                 const s = rc.servicing;
-                html += '<li><strong>Intervalo:</strong> ' + (s.intervalKm || '--') + ' km / ' + (s.intervalMonths || '--') + ' meses</li>';
-                if (s.costMinor && s.costMinor.value) html += '<li><strong>Revisión menor:</strong> ' + _formatCountryMoney(_convertMoney(s.costMinor.value, s.costMinor.currency || 'EUR')) + '</li>';
-                if (s.costMajor && s.costMajor.value) html += '<li><strong>Revisión mayor:</strong> ' + _formatCountryMoney(_convertMoney(s.costMajor.value, s.costMajor.currency || 'EUR')) + '</li>';
+                const monthsLabel = (typeof t === 'function' ? t('maintenance.months') : '') || 'meses';
+                html += '<li><strong>' + _ot('interval') + ':</strong> ' + (s.intervalKm || '--') + ' km / ' + (s.intervalMonths || '--') + ' ' + monthsLabel + '</li>';
+                if (s.costMinor && s.costMinor.value) html += '<li><strong>' + _ot('minorService') + ':</strong> ' + _formatCountryMoney(_convertMoney(s.costMinor.value, s.costMinor.currency || 'EUR')) + '</li>';
+                if (s.costMajor && s.costMajor.value) html += '<li><strong>' + _ot('majorService') + ':</strong> ' + _formatCountryMoney(_convertMoney(s.costMajor.value, s.costMajor.currency || 'EUR')) + '</li>';
             }
             // Country-specific road tax and insurance group are handled by country-manager; here show generic/localized info when available
             const countryMap = { gb: 'uk', de: 'germany', es: 'spain' };
             const igKey = (typeof currentCountry !== 'undefined' && currentCountry) ? countryMap[currentCountry] : null;
-            if (igKey && rc.roadTax && rc.roadTax[igKey]) html += '<li><strong>Impuesto de circulación:</strong> ' + rc.roadTax[igKey] + '</li>';
-            if (igKey && rc.insuranceGroups && rc.insuranceGroups[igKey]) html += '<li><strong>Seguro:</strong> ' + rc.insuranceGroups[igKey] + '</li>';
+            if (igKey && rc.roadTax && rc.roadTax[igKey]) html += '<li><strong>' + _ot('roadTax') + ':</strong> ' + rc.roadTax[igKey] + '</li>';
+            if (igKey && rc.insuranceGroups && rc.insuranceGroups[igKey]) html += '<li><strong>' + _ot('insurance') + ':</strong> ' + rc.insuranceGroups[igKey] + '</li>';
             if (rc.tyres) {
+                const perUnit = (typeof t === 'function' ? t('maintenance.perUnit') : '') || '/unidad';
                 const tyreCost = rc.tyres.front && rc.tyres.front.costPerTyre ? _convertMoney(rc.tyres.front.costPerTyre.value, rc.tyres.front.costPerTyre.currency || 'EUR') : null;
-                html += '<li><strong>Neumáticos:</strong> ' + (rc.tyres.front?.size || '') + (tyreCost ? ' ≈ ' + _formatCountryMoney(tyreCost) + '/unidad' : '') + '</li>';
+                html += '<li><strong>' + _ot('tyres') + ':</strong> ' + (rc.tyres.front?.size || '') + (tyreCost ? ' ≈ ' + _formatCountryMoney(tyreCost) + ' ' + perUnit : '') + '</li>';
             }
             if (rc.fuel) {
-                html += '<li><strong>Combustible:</strong> ' + _str(rc.fuel.type) + (rc.fuel.tankCapacity && rc.fuel.tankCapacity.value ? ', ' + rc.fuel.tankCapacity.value + ' ' + rc.fuel.tankCapacity.unit : '') + '</li>';
+                html += '<li><strong>' + _ot('fuel') + ':</strong> ' + _str(rc.fuel.type) + (rc.fuel.tankCapacity && rc.fuel.tankCapacity.value ? ', ' + rc.fuel.tankCapacity.value + ' ' + rc.fuel.tankCapacity.unit : '') + '</li>';
             }
             html += '</ul></div>';
         }
@@ -682,11 +689,12 @@ const SECTION_RENDERERS = {
         const rc = carData.runningCosts ? _getLocalized(carData.runningCosts, lang) : null;
         if (!rc) return;
 
+        const _mt = (typeof t === 'function') ? function(key) { return t('maintenance.' + key); } : function(key) { return key; };
         const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = _localizeHtml(_str(val), lang); };
 
         if (rc.servicing) {
             const s = rc.servicing;
-            set('maintInterval', (s.intervalKm || '--') + ' km / ' + (s.intervalMonths || '--') + ' meses');
+            set('maintInterval', (s.intervalKm || '--') + ' km / ' + (s.intervalMonths || '--') + ' ' + (_mt('months') || 'meses'));
             // maintMinor / maintMajor are rendered in the active currency by country-manager.js
         }
         // Road tax and insurance group are populated by country-manager.js based on selected country
@@ -697,9 +705,12 @@ const SECTION_RENDERERS = {
         }
         if (rc.warranty) {
             const w = rc.warranty;
-            let txt = (w.years || '--') + ' años' + (w.km ? ' / ' + w.km + ' km' : ' / sin límite de km');
+            const yearsLabel = _mt('years') || 'años';
+            const unlimitedKm = _mt('unlimitedKm') || 'sin límite de km';
+            const powertrainLabel = _mt('powertrain') || 'Tren motriz';
+            let txt = (w.years || '--') + ' ' + yearsLabel + (w.km ? ' / ' + w.km + ' km' : ' / ' + unlimitedKm);
             if (w.powertrain && w.powertrain.years) {
-                txt += ' · Tren motriz ' + w.powertrain.years + ' años / ' + (w.powertrain.km || '--') + ' km';
+                txt += ' · ' + powertrainLabel + ' ' + w.powertrain.years + ' ' + yearsLabel + ' / ' + (w.powertrain.km || '--') + ' km';
             }
             set('maintWarranty', txt);
         }
@@ -799,7 +810,23 @@ const SECTION_RENDERERS = {
         if (!grid) { console.warn('[CarRenderer] timelineGrid not found'); return; }
         const lang = this._getLang ? this._getLang() : 'es';
         const isAr = lang === 'ar';
-        const items = carData.content && carData.content.timeline;
+        const pt = carData.pageText && carData.pageText[lang];
+        const ptEs = carData.pageText && carData.pageText['es'];
+        // Find the timeline with actual km/cost data from any available pageText language
+        const allTimelines = carData.pageText ? Object.values(carData.pageText).map(p => p.timeline).filter(Array.isArray) : [];
+        const baseItems = (allTimelines.find(tl => tl.some(i => i.km)) || (carData.content && carData.content.timeline) || carData.timeline || []);
+        const textItems = (pt && pt.timeline) || (ptEs && ptEs.timeline) || [];
+        const items = baseItems.length ? baseItems.map((base, i) => {
+            const text = textItems[i] || {};
+            return Object.assign({}, base, {
+                title: text.title || base.title,
+                desc: text.desc || text.description || base.desc || base.description,
+                serviceAr: text.serviceAr || base.serviceAr,
+                titleAr: text.titleAr || base.titleAr,
+                descriptionAr: text.descriptionAr || base.descriptionAr,
+                descAr: text.descAr || base.descAr
+            });
+        }) : textItems;
         if (!Array.isArray(items) || items.length === 0) { console.warn('[CarRenderer] No timeline data'); return; }
         let html = '';
         items.forEach(function(item) {
@@ -808,8 +835,21 @@ const SECTION_RENDERERS = {
                 const converted = _convertMoney(item.cost.value, item.cost.currency);
                 costStr = _formatCountryMoney(converted);
             }
-            const title = isAr ? (item.serviceAr || item.titleAr || item.service || item.title || 'Revision') : (item.service || item.title || 'Revision');
-            const desc = isAr ? (item.descriptionAr || item.descAr || item.description || item.desc || '') : (item.description || item.desc || '');
+            const defaultService = (typeof t === 'function' ? t('maintenance.service') : '') || 'Service';
+            let title, desc;
+            if (lang === 'en') {
+                title = item.serviceEn || item.title || item.service || defaultService;
+                desc = item.descriptionEn || item.desc || item.description || '';
+            } else if (lang === 'fr') {
+                title = item.serviceFr || item.title || item.service || defaultService;
+                desc = item.descriptionFr || item.desc || item.description || '';
+            } else if (isAr) {
+                title = item.serviceAr || item.titleAr || item.service || item.title || defaultService;
+                desc = item.descriptionAr || item.descAr || item.description || item.desc || '';
+            } else {
+                title = item.service || item.title || defaultService;
+                desc = item.description || item.desc || '';
+            }
             html += '<div class="timeline-item">' +
                 '<div class="timeline-marker">' + (item.km || 0).toLocaleString() + ' km</div>' +
                 '<div class="timeline-content">' +
@@ -913,7 +953,7 @@ const SECTION_RENDERERS = {
             const price = countryOpts ? countryOpts[i] : (opt.price && opt.price.value);
             let priceStr;
             if (price === 0) {
-                priceStr = _getLabel('Incluido', lang) || 'Incluido';
+                priceStr = (typeof t === 'function' ? t('options.included') : '') || _getLabel('Incluido', lang) || 'Incluido';
             } else if (price !== undefined && price !== null) {
                 priceStr = _formatCountryMoney(price);
                 if (!showEUR && c.exchangeRateEUR) {
@@ -923,9 +963,15 @@ const SECTION_RENDERERS = {
             } else {
                 priceStr = '--';
             }
-            const worthStr = _getLabel(opt.worthIt ? 'Si' : 'No', lang);
+            const worthStr = (typeof t === 'function' ? t('options.' + (opt.worthIt ? 'yes' : 'no')) : '') || _getLabel(opt.worthIt ? 'Si' : 'No', lang);
             let optName;
-            if (lang === 'ar' && opt.nameAr) {
+            if (lang === 'en' && opt.nameEn) {
+                optName = _str(opt.nameEn);
+            } else if (lang === 'es' && opt.nameEs) {
+                optName = _str(opt.nameEs);
+            } else if (lang === 'fr' && opt.nameFr) {
+                optName = _str(opt.nameFr);
+            } else if (lang === 'ar' && opt.nameAr) {
                 optName = (typeof opt.nameAr === 'object' && opt.nameAr.ar) ? opt.nameAr.ar : (typeof opt.nameAr === 'object' && opt.nameAr.es) ? opt.nameAr.es : _str(opt.nameAr);
             } else if (typeof opt.name === 'object' && opt.name[lang]) {
                 optName = opt.name[lang];
@@ -934,11 +980,29 @@ const SECTION_RENDERERS = {
             } else {
                 optName = _str(opt.name);
             }
+            let resaleImpact = _str(opt.resaleImpact);
+            if (typeof t === 'function') {
+                const impactMap = {
+                    high: 'options.impactHigh',
+                    medium: 'options.impactMed',
+                    med: 'options.impactMed',
+                    low: 'options.impactLow',
+                    neutral: 'options.impactNeutral'
+                };
+                const impactKey = resaleImpact && resaleImpact.toLowerCase ? resaleImpact.toLowerCase() : '';
+                const translationKey = impactMap[impactKey];
+                if (translationKey) {
+                    const translatedImpact = t(translationKey);
+                    if (translatedImpact && translatedImpact !== translationKey) {
+                        resaleImpact = translatedImpact;
+                    }
+                }
+            }
             return '<tr>' +
                 '<td>' + optName + '</td>' +
                 '<td class="option-price">' + priceStr + '</td>' +
                 '<td><span class="tag ' + (opt.worthIt === true ? 'tag-yes' : opt.worthIt === false ? 'tag-no' : 'tag-maybe') + '">' + worthStr + '</span></td>' +
-                '<td>' + _str(opt.resaleImpact) + '</td>' +
+                '<td>' + resaleImpact + '</td>' +
                 '</tr>';
         }).join('');
         const section = document.getElementById('options');

@@ -767,7 +767,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة السنوية",
-        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين القابل للشحن"
+        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين القابل للشحن",
+        "serviceEn": "C192 launch",
+        "descriptionEn": "New AMG GT generation with a stiffer chassis and hybrid variant.",
+        "serviceFr": "Lancement C192",
+        "descriptionFr": "Nouvelle génération de l'AMG GT avec un châssis plus rigide et une version hybride.",
+        "serviceAr": "إطلاق سي 192",
+        "descriptionAr": "جيل جديد من أي أم جي جي تي بهيكل أكثر صلابة ونسخة هجينة.",
+        "service": "Lanzamiento C192",
+        "description": "Nueva generación del AMG GT con chasis más rígido y versión híbrida."
       },
       {
         "km": 30000,
@@ -778,7 +786,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص الدوري المتوسط",
-        "descAr": "الفلاتر والفرامل وسوائل التبريد وبطارية الجهد العالي"
+        "descAr": "الفلاتر والفرامل وسوائل التبريد وبطارية الجهد العالي",
+        "serviceEn": "GT 63 S E Performance",
+        "descriptionEn": "The 831 hp PHEV arrives with an electric motor on the rear axle.",
+        "serviceFr": "GT 63 S E Performance",
+        "descriptionFr": "Arrivée du PHEV de 831 ch avec un moteur électrique sur l'essieu arrière.",
+        "serviceAr": "جي تي 63 أس إي بيرفورمانس",
+        "descriptionAr": "وصول النسخة السيارة الهجينة القابلة للشحن بـ 831 حصان مع محرك كهربائي على المحور الخلفي.",
+        "service": "GT 63 S E Performance",
+        "description": "Llega el PHEV de 831 HP con motor eléctrico en el eje trasero."
       },
       {
         "km": 60000,
@@ -789,7 +805,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "فحص محرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، ناقل الحركة والدفرنسي"
+        "descAr": "فحص محرك 8 أسطوانات توربيني مزدوج، تغيير البواجي، ناقل الحركة والدفرنسي",
+        "serviceEn": "Technology update",
+        "descriptionEn": "Improvements in MBUX, 5G connectivity and driver assistance.",
+        "serviceFr": "Mise à jour technologique",
+        "descriptionFr": "Améliorations de MBUX, connectivité 5G et aides à la conduite.",
+        "serviceAr": "تحديث تقني",
+        "descriptionAr": "تحسينات في نظام المعلومات والترفيه واتصال 5 جي ومساعدات القيادة.",
+        "service": "Actualización tecnológica",
+        "description": "Mejoras en MBUX, conectividad 5G y asistentes de conducción."
       },
       {
         "km": 100000,
@@ -1635,7 +1659,9 @@
         "en": "Carbon-ceramic brakes",
         "fr": "Freins carbone-céramique",
         "ar": "فرامل كربون-سيراميك"
-      }
+      },
+      "nameEs": "Frenos carbono-cerámicos",
+      "nameFr": "Freins carbone-céramique"
     },
     {
       "id": "amg-night-package",
@@ -1662,7 +1688,9 @@
         "en": "AMG Night Package",
         "fr": "AMG Night Package",
         "ar": "AMG Night Package"
-      }
+      },
+      "nameEs": "AMG Night Package",
+      "nameFr": "AMG Night Package"
     },
     {
       "id": "burmester-3d",
@@ -1689,7 +1717,9 @@
         "en": "Burmester 3D High-End",
         "fr": "Burmester 3D High-End",
         "ar": "Burmester 3D High-End"
-      }
+      },
+      "nameEs": "Burmester 3D High-End",
+      "nameFr": "Burmester 3D High-End"
     },
     {
       "id": "massage-seats",
@@ -1716,7 +1746,9 @@
         "en": "Multicontour massage seats",
         "fr": "Sièges multicontours massants",
         "ar": "مقاعد متعددة الملامح مع تدليك"
-      }
+      },
+      "nameEs": "Asientos multifunción con masaje",
+      "nameFr": "Sièges multicontours massants"
     }
   ],
   "problems": {

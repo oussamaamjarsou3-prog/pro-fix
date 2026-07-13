@@ -826,7 +826,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة السنوية",
-        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين"
+        "descAr": "تغيير الزيت والفلاتر، فحص النظام الهجين",
+        "serviceEn": "Intermediate service",
+        "descriptionEn": "Oil change, filters, brake and tire inspection.",
+        "serviceFr": "Service intermédiaire",
+        "descriptionFr": "Vidange d'huile, filtres, inspection des freins et pneus.",
+        "serviceAr": "خدمة متوسطة",
+        "descriptionAr": "تغيير الزيت والفلاتر وفحص الفرامل والإطارات.",
+        "service": "Revisión intermedia",
+        "description": "Cambio de aceite, filtros, revisión de frenos y neumáticos."
       },
       {
         "km": 30000,
@@ -837,7 +845,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفحص الدوري المتوسط",
-        "descAr": "الفلاتر والفرامل وبطارية الجهد العالي وسوائل التبريد"
+        "descAr": "الفلاتر والفرامل وبطارية الجهد العالي وسوائل التبريد",
+        "serviceEn": "Major service",
+        "descriptionEn": "Oil, filters, spark plugs, fluids and suspension check.",
+        "serviceFr": "Grand service",
+        "descriptionFr": "Huile, filtres, bougies, liquides et vérification de la suspension.",
+        "serviceAr": "خدمة كبرى",
+        "descriptionAr": "زيت، فلاتر، بواجي، سوائل وفحص التعليق.",
+        "service": "Gran servicio",
+        "description": "Cambio de aceite, filtros, bujías, líquidos y revisión de suspensión."
       },
       {
         "km": 60000,
@@ -848,7 +864,15 @@
           "currency": "EUR"
         },
         "titleAr": "الصيانة الكبرى",
-        "descAr": "الفحص الرئيسي لمحرك 8 أسطوانات، تغيير البواجي، ناقل الحركة والدفرنسي"
+        "descAr": "الفحص الرئيسي لمحرك 8 أسطوانات، تغيير البواجي، ناقل الحركة والدفرنسي",
+        "serviceEn": "Transmission and differential",
+        "descriptionEn": "Gearbox and differential oil change, brake inspection.",
+        "serviceFr": "Transmission et différentiel",
+        "descriptionFr": "Vidange des huiles de boîte et différentiel, inspection des freins.",
+        "serviceAr": "ناقل الحركة والتفاضلي",
+        "descriptionAr": "تغيير زيت علبة التروس والتفاضلي، فحص الفرامل.",
+        "service": "Transmisión y diferencial",
+        "description": "Cambio de aceites de caja y diferencial, inspección de frenos."
       },
       {
         "km": 100000,
@@ -859,7 +883,15 @@
           "currency": "EUR"
         },
         "titleAr": "الفرامل والإطارات",
-        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية"
+        "descAr": "تغيير الأقراص/الفحمات ومجموعة الإطارات الرياضية",
+        "serviceEn": "Tires and belts",
+        "descriptionEn": "Performance tire set and engine component check.",
+        "serviceFr": "Pneus et courroies",
+        "descriptionFr": "Jeu de pneus performance et vérification des composants moteur.",
+        "serviceAr": "إطارات وأحزمة",
+        "descriptionAr": "مجموعة إطارات رياضية وفحص مكونات المحرك.",
+        "service": "Neumáticos y correas",
+        "description": "Juego de neumáticos performance y revisión de componentes de motor."
       },
       {
         "km": 120000,
@@ -870,7 +902,15 @@
           "currency": "EUR"
         },
         "titleAr": "فحص السلسلة",
-        "descAr": "فحص سلسلة التوزيع والمكونات الهجينة"
+        "descAr": "فحص سلسلة التوزيع والمكونات الهجينة",
+        "serviceEn": "Major overhaul",
+        "descriptionEn": "Deep inspection of engine, transmission and high-voltage electrical system.",
+        "serviceFr": "Révision majeure",
+        "descriptionFr": "Inspection approfondie du moteur, de la transmission et du système électrique haute tension.",
+        "serviceAr": "خدمة كبرى",
+        "descriptionAr": "فحص عميق للمحرك وناقل الحركة والنظام الكهربائي عالي الجهد.",
+        "service": "Revisión mayor",
+        "description": "Inspección profunda de motor, transmisión y sistema eléctrico de alto voltaje."
       }
     ],
     "faq": [
@@ -2230,7 +2270,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "أم قيادة'إس باقة"
+      "nameAr": "أم قيادة'إس باقة",
+      "nameEs": "Paquete M Driver's",
+      "nameFr": "Pack M Driver's"
     },
     {
       "id": "m-sport-exhaust",
@@ -2241,7 +2283,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "أم سبورت عادم"
+      "nameAr": "أم سبورت عادم",
+      "nameEs": "Escape M Sport",
+      "nameFr": "Échappement M Sport"
     },
     {
       "id": "m-carbon-ceramic-brakes",
@@ -2252,7 +2296,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "أم كربون فرامل سيراميك"
+      "nameAr": "أم كربون فرامل سيراميك",
+      "nameEs": "Frenos M Carbono-Cerámicos",
+      "nameFr": "Freins M carbone-céramique"
     },
     {
       "id": "bowers--wilkins-diamond",
@@ -2263,7 +2309,9 @@
       },
       "worthIt": true,
       "resaleImpact": "medium",
-      "nameAr": "باورز آند ويلكينز دايموند"
+      "nameAr": "باورز آند ويلكينز دايموند",
+      "nameEs": "Bowers & Wilkins Diamond",
+      "nameFr": "Bowers & Wilkins Diamond"
     },
     {
       "id": "m-carbon-exterior-package",
@@ -2274,7 +2322,9 @@
       },
       "worthIt": true,
       "resaleImpact": "high",
-      "nameAr": "أم كربون خارجية باقة"
+      "nameAr": "أم كربون خارجية باقة",
+      "nameEs": "Paquete exterior M Carbono",
+      "nameFr": "Pack extérieur M Carbone"
     },
     {
       "id": "asientos-traseros",
@@ -2285,7 +2335,9 @@
       },
       "worthIt": true,
       "resaleImpact": "low",
-      "nameAr": "مقاعد خلفية"
+      "nameAr": "مقاعد خلفية",
+      "nameEs": "Asientos traseros",
+      "nameFr": "Sièges arrière"
     },
     {
       "id": "m-shadow-line",
@@ -2296,7 +2348,9 @@
       },
       "worthIt": false,
       "resaleImpact": "low",
-      "nameAr": "أم خط شادو"
+      "nameAr": "أم خط شادو",
+      "nameEs": "M Shadow Line",
+      "nameFr": "M Shadow Line"
     },
     {
       "id": "techo-solar-panorámico",
@@ -2307,7 +2361,9 @@
       },
       "worthIt": false,
       "resaleImpact": "neutral",
-      "nameAr": "سقف بانورامي"
+      "nameAr": "سقف بانورامي",
+      "nameEs": "Techo solar panorámico",
+      "nameFr": "Toit panoramique"
     }
   ],
   "problems": {

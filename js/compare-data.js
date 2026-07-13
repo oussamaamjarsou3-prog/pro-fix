@@ -141,6 +141,8 @@ window.CARSPECIO_COMPARE_INDEX = [
     }
 ];
 
+window.CARSPECIO_COMPARE_CARS = window.CARSPECIO_COMPARE_INDEX;
+
 window.CARSPECIO_COMPARE_PRESETS = [
     {
         "car1": "Audi RS7",
