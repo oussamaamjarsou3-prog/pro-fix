@@ -10,7 +10,10 @@ const sharp = require('sharp');
 const ROOT = path.resolve(__dirname, '..', '..');
 const IMAGES_DIR = path.join(ROOT, 'images');
 
-const THUMB_WIDTH = 400;
+const SIZES = [
+    { suffix: '-thumb', width: 400 },
+    { suffix: '-medium', width: 800 }
+];
 const QUALITY = 75;
 
 function findHeroImages(dir, base = '') {
@@ -38,21 +41,23 @@ async function main() {
     console.log(`Found ${heroes.length} hero images\n`);
 
     for (const img of heroes) {
-        const thumbPath = img.fullPath.replace(/\.webp$/i, '-thumb.webp');
-        const relThumb = img.relPath.replace(/\.webp$/i, '-thumb.webp');
+        const originalSize = fs.statSync(img.fullPath).size;
+        for (const size of SIZES) {
+            const outPath = img.fullPath.replace(/\.webp$/i, size.suffix + '.webp');
+            const relOut = img.relPath.replace(/\.webp$/i, size.suffix + '.webp');
 
-        try {
-            const originalSize = fs.statSync(img.fullPath).size;
-            await sharp(img.fullPath)
-                .resize({ width: THUMB_WIDTH, withoutEnlargement: true })
-                .webp({ quality: QUALITY })
-                .toFile(thumbPath);
+            try {
+                await sharp(img.fullPath)
+                    .resize({ width: size.width, withoutEnlargement: true })
+                    .webp({ quality: QUALITY })
+                    .toFile(outPath);
 
-            const thumbSize = fs.statSync(thumbPath).size;
-            const savings = ((1 - thumbSize / originalSize) * 100).toFixed(1);
-            console.log(`  ✅ ${img.relPath} → ${relThumb}  (${(originalSize / 1024).toFixed(0)} KB → ${(thumbSize / 1024).toFixed(0)} KB, -${savings}%)`);
-        } catch (err) {
-            console.error(`  ❌ ${img.relPath}: ${err.message}`);
+                const outSize = fs.statSync(outPath).size;
+                const savings = ((1 - outSize / originalSize) * 100).toFixed(1);
+                console.log(`  ✅ ${img.relPath} → ${relOut}  (${(originalSize / 1024).toFixed(0)} KB → ${(outSize / 1024).toFixed(0)} KB, -${savings}%)`);
+            } catch (err) {
+                console.error(`  ❌ ${img.relPath} → ${relOut}: ${err.message}`);
+            }
         }
     }
 

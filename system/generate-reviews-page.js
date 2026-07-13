@@ -69,6 +69,16 @@ function getThumbImage(image) {
   return image;
 }
 
+function getMediumImage(image) {
+  if (image === '/images/placeholder.svg') return image;
+  const ext = path.extname(image);
+  const base = image.slice(0, -ext.length);
+  const medium = base + '-medium.webp';
+  const mediumPath = path.join(projectDir, medium.startsWith('/') ? medium.slice(1) : medium);
+  if (fs.existsSync(mediumPath)) return medium;
+  return image;
+}
+
 function buildCard(car, carData, lang) {
   const name = carData?.basicInfo?.fullModelName || carData?.basicInfo?.name || 'Car';
   const description = getCarDescription(carData, lang);
@@ -77,12 +87,14 @@ function buildCard(car, carData, lang) {
   const category = getCategoryName(car.categoryId, lang);
   const image = getCarImage(car, carData);
   const thumb = getThumbImage(image);
+  const medium = getMediumImage(image);
   const ratingHtml = rating ? `<span class="card-rating">${rating}</span>` : '';
   const cta = t('reviewsPage.cta', lang);
   const searchText = `${name} ${brand} ${category}`.toLowerCase();
   const price = parsePrice(carData);
   const priceAttr = price != null ? ` data-price="${price}"` : '';
-  const srcset = thumb !== image ? ` srcset="${thumb} 400w, ${image} 1536w" sizes="350px"` : '';
+  const hasVariants = thumb !== image && medium !== image;
+  const srcset = hasVariants ? ` srcset="${thumb} 400w, ${medium} 800w, ${image} 1536w" sizes="350px"` : '';
 
   return `            <a href="${car.htmlFile}" class="card review-card" data-search="${searchText}" data-category="${car.categoryId}"${priceAttr}>
                 <div class="card-image">${ratingHtml}<img src="${thumb}"${srcset} alt="${name}" loading="lazy" width="400" height="220"></div>

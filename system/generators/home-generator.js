@@ -325,10 +325,30 @@ function getThumbImage(image) {
     return image;
 }
 
+function getMediumImage(image) {
+    if (image === '/images/placeholder.svg') return image;
+    const ext = path.extname(image);
+    const base = image.slice(0, -ext.length);
+    const medium = base + '-medium.webp';
+    const mediumPath = path.join(__dirname, '../..', medium.startsWith('/') ? medium.slice(1) : medium);
+    if (fs.existsSync(mediumPath)) return medium;
+    return image;
+}
+
 function buildCardImg(image, alt) {
     const thumb = getThumbImage(image);
-    const srcset = thumb !== image ? ` srcset="${thumb} 400w, ${image} 1536w" sizes="350px"` : '';
+    const medium = getMediumImage(image);
+    const hasVariants = thumb !== image && medium !== image;
+    const srcset = hasVariants ? ` srcset="${thumb} 400w, ${medium} 800w, ${image} 1536w" sizes="350px"` : '';
     return `<img src="${thumb}"${srcset} alt="${alt}" loading="lazy" width="400" height="220">`;
+}
+
+function buildRankImg(image, alt) {
+    const thumb = getThumbImage(image);
+    const medium = getMediumImage(image);
+    const hasVariants = thumb !== image && medium !== image;
+    const srcset = hasVariants ? ` srcset="${thumb} 400w, ${medium} 800w, ${image} 1536w" sizes="(max-width: 600px) 100vw, 662px"` : '';
+    return `<img class="rank-bg" src="${medium}"${srcset} alt="${alt}" loading="lazy">`;
 }
 
 function buildHeroSection() {
@@ -792,7 +812,7 @@ function buildRankingsSection() {
             const scoreHtml = rating ? `<div class="rank-score">${rating.toFixed(1)}</div>` : '';
             return `
             <a href="${r.car.htmlFile}" class="rank-card">
-                <img class="rank-bg" src="${image}" alt="${name}" loading="lazy">
+                ${buildRankImg(image, name)}
                 <div class="rank-overlay">
                     <div class="rank-badge">
                         <span class="rank-label">${t('home.' + r.key, lang)}</span>
