@@ -11,7 +11,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "lanzamientos",
         "date": "2026-06-28",
         "source": "audi-media-center",
-        "image": "images/audi-rs3.2026/rs3-hero.jpeg",
+        "image": "images/audi-rs3.2026/rs3-hero.webp",
         "tags": [
             "audi",
             "rs3",
@@ -39,7 +39,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "lanzamientos",
         "date": "2026-06-25",
         "source": "caranddriver",
-        "image": "images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+        "image": "images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
         "tags": [
             "porsche",
             "911",
@@ -68,7 +68,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "rendimiento",
         "date": "2026-06-24",
         "source": "motortrend",
-        "image": "images/bmw-m5.2026/bmw-m5.hero.png",
+        "image": "images/bmw-m5.2026/bmw-m5.hero.webp",
         "tags": [
             "bmw",
             "m5",
@@ -96,7 +96,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "lanzamientos",
         "date": "2026-06-22",
         "source": "autocar",
-        "image": "images/rs7.2.2026.png",
+        "image": "images/rs7.2.2026.webp",
         "tags": [
             "audi",
             "rs7",
@@ -124,7 +124,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "eléctricos",
         "date": "2026-06-20",
         "source": "motor1",
-        "image": "images/tesla-s-plaid/tesla-hero.png",
+        "image": "images/tesla-s-plaid/tesla-hero.webp",
         "tags": [
             "tesla",
             "model s",
@@ -152,7 +152,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "tecnología",
         "date": "2026-06-18",
         "source": "caranddriver",
-        "image": "images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+        "image": "images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
         "tags": [
             "mercedes",
             "amg gt",
@@ -179,7 +179,7 @@ window.CARSPECIO_NEWS_INDEX = [
         "category": "lanzamientos",
         "date": "2026-06-15",
         "source": "autoblog",
-        "image": "images/nissan-gtr.2026/nissan-gtr-hero.png",
+        "image": "images/nissan-gtr.2026/nissan-gtr-hero.webp",
         "tags": [
             "nissan",
             "gt-r",

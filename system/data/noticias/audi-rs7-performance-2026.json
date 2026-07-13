@@ -5,7 +5,7 @@
     "category": "lanzamientos",
     "date": "2026-06-22",
     "readingTime": 5,
-    "image": "../images/rs7.2.2026.png",
+    "image": "../images/rs7.2.2026.webp",
     "externalUrl": "https://www.autocar.co.uk/car-news/new-cars/audi-rs7-performance-2026",
     "tags": [
         "audi",
@@ -17,7 +17,7 @@
         {
             "slug": "rs7",
             "name": "Audi RS7",
-            "image": "../images/rs7.hero.2026.png"
+            "image": "../images/rs7.hero.2026.webp"
         }
     ],
     "relatedNews": [

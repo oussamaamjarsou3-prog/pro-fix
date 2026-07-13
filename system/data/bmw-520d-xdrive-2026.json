@@ -474,9 +474,9 @@
         "apple-carplay"
       ],
       "images": [
-        "images/bmw-520d/bmw-520d.gallirey.png",
-        "images/bmw-520d/bmw-520d.gallirey.1.png",
-        "images/bmw-520d/bmw-520d.gallirey.2.png"
+        "images/bmw-520d/bmw-520d.gallirey.webp",
+        "images/bmw-520d/bmw-520d.gallirey.1.webp",
+        "images/bmw-520d/bmw-520d.gallirey.2.webp"
       ],
       "nameAr": "520 دي إكس درايف",
       "featuresAr": [
@@ -489,35 +489,35 @@
     }
   ],
   "images": {
-    "hero": "images/bmw-520d/bmw-520d.hero.png",
+    "hero": "images/bmw-520d/bmw-520d.hero.webp",
     "thumbnail": "../images/placeholder.svg",
     "gallery": [
       {
-        "url": "images/bmw-520d/bmw-520d.gallirey.png",
+        "url": "images/bmw-520d/bmw-520d.gallirey.webp",
         "alt": "BMW 520d xDrive vista frontal",
         "category": "exterior",
         "angle": "front"
       },
       {
-        "url": "images/bmw-520d/bmw-520d.gallirey.1.png",
+        "url": "images/bmw-520d/bmw-520d.gallirey.1.webp",
         "alt": "BMW 520d xDrive vista lateral",
         "category": "exterior",
         "angle": "side"
       },
       {
-        "url": "images/bmw-520d/bmw-520d.gallirey.2.png",
+        "url": "images/bmw-520d/bmw-520d.gallirey.2.webp",
         "alt": "BMW 520d xDrive vista trasera",
         "category": "exterior",
         "angle": "rear"
       },
       {
-        "url": "images/bmw-520d/bmw-520d.gallirey.3.png",
+        "url": "images/bmw-520d/bmw-520d.gallirey.3.webp",
         "alt": "BMW 520d xDrive interior salpicadero",
         "category": "interior",
         "angle": "dashboard"
       },
       {
-        "url": "images/bmw-520d/bmw-520d.gallirey.4.png",
+        "url": "images/bmw-520d/bmw-520d.gallirey.4.webp",
         "alt": "BMW 520d xDrive detalle de faros LED",
         "category": "exterior",
         "angle": "detail"

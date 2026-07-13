@@ -779,6 +779,17 @@ const SECTION_RENDERERS = {
         const nextBtn = lightbox?.querySelector('.lightbox-next');
         if (!lightbox || !lightboxImg || !closeBtn || !prevBtn || !nextBtn) return;
         let currentIndex = 0;
+
+        let thumbStrip = lightbox.querySelector('.lightbox-thumbs');
+        if (!thumbStrip) {
+            thumbStrip = document.createElement('div');
+            thumbStrip.className = 'lightbox-thumbs';
+            lightbox.querySelector('.lightbox-content').appendChild(thumbStrip);
+        }
+        thumbStrip.innerHTML = images.map((img, i) =>
+            '<img src="' + img.url + '" alt="" data-index="' + i + '" loading="lazy">'
+        ).join('');
+
         const show = (i) => {
             currentIndex = (i + images.length) % images.length;
             const img = images[currentIndex];
@@ -786,6 +797,11 @@ const SECTION_RENDERERS = {
             lightboxImg.alt = img.alt;
             lightboxCaption.textContent = img.alt || (currentIndex + 1) + ' / ' + images.length;
             lightbox.hidden = false;
+            thumbStrip.querySelectorAll('img').forEach(function(t, ti) {
+                t.classList.toggle('active', ti === currentIndex);
+            });
+            var activeThumb = thumbStrip.querySelector('img.active');
+            if (activeThumb) activeThumb.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
         };
         const close = () => { lightbox.hidden = true; lightboxImg.src = ''; };
         document.getElementById('galleryGrid')?.addEventListener('click', function(e) {
@@ -796,6 +812,12 @@ const SECTION_RENDERERS = {
         closeBtn.addEventListener('click', close);
         prevBtn.addEventListener('click', function(e) { e.stopPropagation(); show(currentIndex - 1); });
         nextBtn.addEventListener('click', function(e) { e.stopPropagation(); show(currentIndex + 1); });
+        thumbStrip.addEventListener('click', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.stopPropagation();
+                show(parseInt(e.target.dataset.index || '0', 10));
+            }
+        });
         lightbox.addEventListener('click', function(e) { if (e.target === lightbox) close(); });
         document.addEventListener('keydown', function(e) {
             if (lightbox.hidden) return;
@@ -803,6 +825,27 @@ const SECTION_RENDERERS = {
             if (e.key === 'ArrowLeft') show(currentIndex - 1);
             if (e.key === 'ArrowRight') show(currentIndex + 1);
         });
+
+        var touchStartX = 0;
+        var touchEndX = 0;
+        var touchStartY = 0;
+        var touchEndY = 0;
+        lightbox.addEventListener('touchstart', function(e) {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+        lightbox.addEventListener('touchend', function(e) {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            var dx = touchEndX - touchStartX;
+            var dy = touchEndY - touchStartY;
+            if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+                if (dx > 0) show(currentIndex - 1);
+                else show(currentIndex + 1);
+            } else if (Math.abs(dy) > 100 && Math.abs(dy) > Math.abs(dx)) {
+                close();
+            }
+        }, { passive: true });
     },
 
     timeline: function(carData) {

@@ -318,7 +318,7 @@ function buildHeroSection() {
     return SUPPORTED_LANGS.map((lang, idx) => {
         const labels = UI_LABELS[lang];
         const html = `
-        <section class="hero" style="background-image: url('images/hero-incio.png')">
+        <section class="hero" style="background-image: url('images/hero-incio.webp')">
             <div class="hero-bg-overlay"></div>
             <div class="container">
                 <div class="hero-content">

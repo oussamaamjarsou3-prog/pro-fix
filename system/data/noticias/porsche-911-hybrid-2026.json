@@ -5,7 +5,7 @@
     "category": "lanzamientos",
     "date": "2026-06-25",
     "readingTime": 6,
-    "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+    "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
     "externalUrl": "https://www.caranddriver.com/porsche/911",
     "tags": [
         "porsche",
@@ -18,7 +18,7 @@
         {
             "slug": "porsche-911",
             "name": "Porsche 911",
-            "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png"
+            "image": "../images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp"
         }
     ],
     "relatedNews": [

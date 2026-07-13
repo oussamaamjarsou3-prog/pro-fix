@@ -17,11 +17,11 @@
       "htmlFile": "rs7.html",
       "dataFile": "system/data/rs7-2026.json",
       "images": {
-        "hero": "/images/rs7.hero.2026.png",
+        "hero": "/images/rs7.hero.2026.webp",
         "gallery": [
-          "/images/rs7.1.2026.png",
-          "/images/rs7.2.2026.png",
-          "/images/rs7.3.2026.png"
+          "/images/rs7.1.2026.webp",
+          "/images/rs7.2.2026.webp",
+          "/images/rs7.3.2026.webp"
         ]
       },
       "seo": {
@@ -56,12 +56,12 @@
       "htmlFile": "rs3.html",
       "dataFile": "system/data/audi-rs3-2026.json",
       "images": {
-        "hero": "/images/audi-rs3.2026/rs3-hero.jpeg",
+        "hero": "/images/audi-rs3.2026/rs3-hero.webp",
         "gallery": [
-          "/images/audi-rs3.2026/rs3-galeria.jpeg",
-          "/images/audi-rs3.2026/rs3-galeria.1.jpeg",
-          "/images/audi-rs3.2026/RS3-Sportback.jpeg",
-          "/images/audi-rs3.2026/RS3-Sedan.jpeg"
+          "/images/audi-rs3.2026/rs3-galeria.webp",
+          "/images/audi-rs3.2026/rs3-galeria.1.webp",
+          "/images/audi-rs3.2026/RS3-Sportback.webp",
+          "/images/audi-rs3.2026/RS3-Sedan.webp"
         ]
       },
       "seo": {
@@ -94,14 +94,14 @@
       "htmlFile": "bmw-m5.html",
       "dataFile": "system/data/bmw-m5-2026.json",
       "images": {
-        "hero": "/images/bmw-m5.2026/bmw-m5.hero.png",
+        "hero": "/images/bmw-m5.2026/bmw-m5.hero.webp",
         "gallery": [
-          "/images/bmw-m5.2026/bmw-m5.gallirey.png",
-          "/images/bmw-m5.2026/bmw-m5.gallirey.1.png",
-          "/images/bmw-m5.2026/bmw-m5.gallirey.2.png",
-          "/images/bmw-m5.2026/bmw-m5.gallirey.3.png",
-          "/images/bmw-m5.2026/bmw-m5.gallirey.4.png",
-          "/images/bmw-m5.2026/bmw-m5.Competition.png"
+          "/images/bmw-m5.2026/bmw-m5.gallirey.webp",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.1.webp",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.2.webp",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.3.webp",
+          "/images/bmw-m5.2026/bmw-m5.gallirey.4.webp",
+          "/images/bmw-m5.2026/bmw-m5.Competition.webp"
         ]
       },
       "seo": {
@@ -135,13 +135,13 @@
       "htmlFile": "bmw-520d.html",
       "dataFile": "system/data/bmw-520d-xdrive-2026.json",
       "images": {
-        "hero": "/images/bmw-520d/bmw-520d.hero.png",
+        "hero": "/images/bmw-520d/bmw-520d.hero.webp",
         "gallery": [
-          "/images/bmw-520d/bmw-520d.gallirey.png",
-          "/images/bmw-520d/bmw-520d.gallirey.1.png",
-          "/images/bmw-520d/bmw-520d.gallirey.2.png",
-          "/images/bmw-520d/bmw-520d.gallirey.3.png",
-          "/images/bmw-520d/bmw-520d.gallirey.4.png"
+          "/images/bmw-520d/bmw-520d.gallirey.webp",
+          "/images/bmw-520d/bmw-520d.gallirey.1.webp",
+          "/images/bmw-520d/bmw-520d.gallirey.2.webp",
+          "/images/bmw-520d/bmw-520d.gallirey.3.webp",
+          "/images/bmw-520d/bmw-520d.gallirey.4.webp"
         ]
       },
       "seo": {
@@ -176,12 +176,12 @@
       "htmlFile": "mercedes-amg-gt.html",
       "dataFile": "system/data/mercedes-amg-gt-2026.json",
       "images": {
-        "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+        "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
         "gallery": [
-          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
-          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
-          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
-          "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.png"
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.webp",
+          "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.webp",
+          "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.webp"
         ]
       },
       "seo": {
@@ -216,14 +216,14 @@
       "htmlFile": "nissan-gtr.html",
       "dataFile": "system/data/nissan-gtr-2026.json",
       "images": {
-        "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+        "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.webp",
         "gallery": [
-          "/images/nissan-gtr.2026/gtr-galirey.png",
-          "/images/nissan-gtr.2026/gtr-galirey.1.png",
-          "/images/nissan-gtr.2026/gtr-galirey.2.png",
-          "/images/nissan-gtr.2026/gtr-galirey.3.png",
-          "/images/nissan-gtr.2026/gtr-galirey.4.png",
-          "/images/nissan-gtr.2026/gtr-galirey.5.png"
+          "/images/nissan-gtr.2026/gtr-galirey.webp",
+          "/images/nissan-gtr.2026/gtr-galirey.1.webp",
+          "/images/nissan-gtr.2026/gtr-galirey.2.webp",
+          "/images/nissan-gtr.2026/gtr-galirey.3.webp",
+          "/images/nissan-gtr.2026/gtr-galirey.4.webp",
+          "/images/nissan-gtr.2026/gtr-galirey.5.webp"
         ]
       },
       "seo": {
@@ -255,14 +255,14 @@
       "htmlFile": "porsche-911.html",
       "dataFile": "system/data/porsche-911-2026.json",
       "images": {
-        "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+        "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
         "gallery": [
-          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.png",
-          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.png",
-          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.png",
-          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.png",
-          "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
-          "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png"
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.webp",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.webp",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.webp",
+          "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.webp",
+          "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.webp",
+          "/images/Porsche 911 GTS T-Hybrid/911-Turbo.webp"
         ]
       },
       "seo": {
@@ -296,9 +296,9 @@
       "htmlFile": "model-s-plaid.html",
       "dataFile": "system/data/tesla-model-s-plaid-2026.json",
       "images": {
-        "hero": "/images/tesla-s-plaid/tesla-hero.png",
+        "hero": "/images/tesla-s-plaid/tesla-hero.webp",
         "gallery": [
-          "/images/tesla-s-plaid/tesla-s.png"
+          "/images/tesla-s-plaid/tesla-s.webp"
         ]
       },
       "seo": {
@@ -333,14 +333,14 @@
       "htmlFile": "vw-passat-variant.html",
       "dataFile": "system/data/vw-passat-variant-2026.json",
       "images": {
-        "hero": "/images/volkswagen-passat.2026/passat-hero.png",
+        "hero": "/images/volkswagen-passat.2026/passat-hero.webp",
         "gallery": [
-          "/images/volkswagen-passat.2026/Passat-galeria.2016.png",
-          "/images/volkswagen-passat.2026/Passat-galeria.2016-1.png",
-          "/images/volkswagen-passat.2026/Passat-galeria.2016-2.png",
-          "/images/volkswagen-passat.2026/Passat-galeria.2016-3.png",
-          "/images/volkswagen-passat.2026/Passat-galeria.2016-4.png",
-          "/images/volkswagen-passat.2026/Passat-galeria.2016-5.png"
+          "/images/volkswagen-passat.2026/Passat-galeria.2016.webp",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-1.webp",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-2.webp",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-3.webp",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-4.webp",
+          "/images/volkswagen-passat.2026/Passat-galeria.2016-5.webp"
         ]
       },
       "seo": {

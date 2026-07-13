@@ -126,7 +126,7 @@ function buildHeroSection() {
   return `
     <!-- HERO -->
     <section class="dash-hero reviews-hero">
-        <div class="dash-hero-bg" style="background-image: url('images/hero-incio.png')"></div>
+        <div class="dash-hero-bg" style="background-image: url('images/hero-incio.webp')"></div>
         <div class="hero-bg-overlay"></div>
         <div class="container dash-hero-content">
             <h1 class="reveal" data-i18n="reviewsPage.title">Reviews de coches premium</h1>

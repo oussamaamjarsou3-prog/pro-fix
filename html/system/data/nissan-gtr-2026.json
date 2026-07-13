@@ -581,7 +581,7 @@
         "Carbon-ceramic brakes",
         "NISMO Recaro seats"
       ],
-      "image": "/images/nissan-gtr.2026/gtr-nismo.png",
+      "image": "/images/nissan-gtr.2026/gtr-nismo.webp",
       "nameAr": "جي تي آر نيسمو",
       "featuresAr": [
         "600 حصان ڤي آر 38 دي إي تي تي",
@@ -606,7 +606,7 @@
         "Bose audio",
         "Nissan Connect"
       ],
-      "image": "/images/nissan-gtr.2026/gtr-premium.png",
+      "image": "/images/nissan-gtr.2026/gtr-premium.webp",
       "nameAr": "جي تي آر ممتاز",
       "featuresAr": [
         "570 حصان ڤي آر 38 دي إي تي تي",
@@ -618,14 +618,14 @@
     }
   ],
   "images": {
-    "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+    "hero": "/images/nissan-gtr.2026/nissan-gtr-hero.webp",
     "gallery": [
-      "/images/nissan-gtr.2026/gtr-galirey.png",
-      "/images/nissan-gtr.2026/gtr-galirey.1.png",
-      "/images/nissan-gtr.2026/gtr-galirey.2.png",
-      "/images/nissan-gtr.2026/gtr-galirey.3.png",
-      "/images/nissan-gtr.2026/gtr-galirey.4.png",
-      "/images/nissan-gtr.2026/gtr-galirey.5.png"
+      "/images/nissan-gtr.2026/gtr-galirey.webp",
+      "/images/nissan-gtr.2026/gtr-galirey.1.webp",
+      "/images/nissan-gtr.2026/gtr-galirey.2.webp",
+      "/images/nissan-gtr.2026/gtr-galirey.3.webp",
+      "/images/nissan-gtr.2026/gtr-galirey.4.webp",
+      "/images/nissan-gtr.2026/gtr-galirey.5.webp"
     ],
     "colors": [
       "Bayside Blue",
@@ -673,7 +673,7 @@
     ],
     "ogTitle": "Nissan GT-R 2026 - El Godzilla japonés",
     "ogDescription": "Descubre el Nissan GT-R 2026: 600 HP, 0-100 en 2.7s, y el legendario rendimiento japonés.",
-    "ogImage": "/images/nissan-gtr.2026/nissan-gtr-hero.png"
+    "ogImage": "/images/nissan-gtr.2026/nissan-gtr-hero.webp"
   },
   "content": {
     "review": "El Nissan GT-R es el superdeportivo japonés legendario...",

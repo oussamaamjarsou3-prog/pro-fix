@@ -582,7 +582,7 @@
         "PASM",
         "Carbon-ceramic brakes"
       ],
-      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
+      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.webp",
       "nameAr": "911 تيربو إس",
       "featuresAr": [
         "711 حصان تي هجين",
@@ -607,7 +607,7 @@
         "PASM",
         "PDK 8"
       ],
-      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png",
+      "image": "/images/Porsche 911 GTS T-Hybrid/911-Turbo.webp",
       "nameAr": "911 تيربو",
       "featuresAr": [
         "580 حصان تي هجين",
@@ -619,14 +619,14 @@
     }
   ],
   "images": {
-    "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+    "hero": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
     "gallery": [
-      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.png",
-      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.png",
-      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.png",
-      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.png",
-      "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.png",
-      "/images/Porsche 911 GTS T-Hybrid/911-Turbo.png"
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.webp",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.1.webp",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.2.webp",
+      "/images/Porsche 911 GTS T-Hybrid/porshe-911-galleria.3.webp",
+      "/images/Porsche 911 GTS T-Hybrid/911-Turbo-S.webp",
+      "/images/Porsche 911 GTS T-Hybrid/911-Turbo.webp"
     ],
     "colors": [
       "Guards Red",
@@ -674,7 +674,7 @@
     ],
     "ogTitle": "Porsche 911 2026 - El icono deportivo definitivo",
     "ogDescription": "Descubre el Porsche 911 2026: 650 HP, 0-100 en 2.7s, y más de 50 aÃñs de historia.",
-    "ogImage": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png"
+    "ogImage": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp"
   },
   "content": {
     "review": "El Porsche 911 es el icono deportivo por excelencia...",

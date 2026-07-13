@@ -3,7 +3,7 @@ const path = require('path');
 const sharp = require('sharp');
 
 const projectDir = path.join(__dirname, '..');
-const sourcePng = path.join(projectDir, 'images/logo/logo-carspesio.png');
+const sourcePng = path.join(projectDir, 'images/logo/logo-carspesio.webp');
 const logoDir = path.join(projectDir, 'assets/logo');
 
 if (!fs.existsSync(sourcePng)) {

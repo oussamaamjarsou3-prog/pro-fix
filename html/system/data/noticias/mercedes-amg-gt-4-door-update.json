@@ -5,7 +5,7 @@
     "category": "tecnología",
     "date": "2026-06-18",
     "readingTime": 4,
-    "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+    "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
     "externalUrl": "https://www.caranddriver.com/news/mercedes-amg-gt-4-door-update",
     "tags": [
         "mercedes",
@@ -16,7 +16,7 @@
         {
             "slug": "mercedes-amg-gt",
             "name": "Mercedes-AMG GT",
-            "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png"
+            "image": "../images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp"
         }
     ],
     "relatedNews": [

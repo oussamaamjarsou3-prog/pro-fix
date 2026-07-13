@@ -15,7 +15,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "rs7",
         "htmlFile": "rs7.html",
         "dataFile": "../system/data/rs7-2026.json",
-        "image": "/images/rs7.hero.2026.png",
+        "image": "/images/rs7.hero.2026.webp",
         "modelYear": 2026,
         "generation": "C8"
     },
@@ -30,7 +30,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "rs3",
         "htmlFile": "rs3.html",
         "dataFile": "../system/data/audi-rs3-2026.json",
-        "image": "/images/audi-rs3.2026/rs3-hero.jpeg",
+        "image": "/images/audi-rs3.2026/rs3-hero.webp",
         "modelYear": 2026,
         "generation": "8V"
     },
@@ -45,7 +45,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "bmw-m5",
         "htmlFile": "bmw-m5.html",
         "dataFile": "../system/data/bmw-m5-2026.json",
-        "image": "/images/bmw-m5.2026/bmw-m5.hero.png",
+        "image": "/images/bmw-m5.2026/bmw-m5.hero.webp",
         "modelYear": 2026,
         "generation": "G90"
     },
@@ -60,7 +60,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "bmw-520d",
         "htmlFile": "bmw-520d.html",
         "dataFile": "../system/data/bmw-520d-xdrive-2026.json",
-        "image": "/images/bmw-520d/bmw-520d.hero.png",
+        "image": "/images/bmw-520d/bmw-520d.hero.webp",
         "modelYear": 2026,
         "generation": "G60"
     },
@@ -75,7 +75,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "mercedes-amg-gt",
         "htmlFile": "mercedes-amg-gt.html",
         "dataFile": "../system/data/mercedes-amg-gt-2026.json",
-        "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+        "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
         "modelYear": 2026,
         "generation": "C192"
     },
@@ -90,7 +90,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "nissan-gtr",
         "htmlFile": "nissan-gtr.html",
         "dataFile": "../system/data/nissan-gtr-2026.json",
-        "image": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+        "image": "/images/nissan-gtr.2026/nissan-gtr-hero.webp",
         "modelYear": 2026,
         "generation": "R35"
     },
@@ -105,7 +105,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "porsche-911",
         "htmlFile": "porsche-911.html",
         "dataFile": "../system/data/porsche-911-2026.json",
-        "image": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+        "image": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
         "modelYear": 2026,
         "generation": "992"
     },
@@ -120,7 +120,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "model-s-plaid",
         "htmlFile": "model-s-plaid.html",
         "dataFile": "../system/data/tesla-model-s-plaid-2026.json",
-        "image": "/images/tesla-s-plaid/tesla-hero.png",
+        "image": "/images/tesla-s-plaid/tesla-hero.webp",
         "modelYear": 2026,
         "generation": "Plaid"
     },
@@ -135,7 +135,7 @@ window.CARSPECIO_COMPARE_INDEX = [
         "slug": "vw-passat-variant",
         "htmlFile": "vw-passat-variant.html",
         "dataFile": "../system/data/vw-passat-variant-2026.json",
-        "image": "/images/volkswagen-passat.2026/passat-hero.png",
+        "image": "/images/volkswagen-passat.2026/passat-hero.webp",
         "modelYear": 2026,
         "generation": "B9"
     }

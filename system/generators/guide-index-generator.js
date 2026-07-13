@@ -163,7 +163,7 @@ const canonicalUrl = `${BASE_URL}${canonicalPath}`;
 
 let page = template;
 page = page.replace(/\{\{canonicalUrl\}\}/g, canonicalUrl);
-page = page.replace(/\{\{ogImage\}\}/g, `${BASE_URL}/images/carspecio-social-default.jpg`);
+page = page.replace(/\{\{ogImage\}\}/g, `${BASE_URL}/images/carspecio-social-default.webp`);
 page = page.replace(/\{\{hreflangTags\}\}/, buildHreflangTags(canonicalPath));
 page = page.replace(/\{\{jsonLd\}\}/, buildJsonLd() + '\n    </script>\n    <script type="application/ld+json">' + buildBreadcrumbJsonLd());
 page = page.replace(/\{\{categoryCards\}\}/, buildCategoryCards());

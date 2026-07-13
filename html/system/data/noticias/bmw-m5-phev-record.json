@@ -5,7 +5,7 @@
     "category": "rendimiento",
     "date": "2026-06-24",
     "readingTime": 5,
-    "image": "../images/bmw-m5.2026/bmw-m5.hero.png",
+    "image": "../images/bmw-m5.2026/bmw-m5.hero.webp",
     "externalUrl": "https://www.motortrend.com/reviews/bmw-m5-phev-performance",
     "tags": [
         "bmw",
@@ -17,7 +17,7 @@
         {
             "slug": "bmw-m5",
             "name": "BMW M5",
-            "image": "../images/bmw-m5.2026/bmw-m5.hero.png"
+            "image": "../images/bmw-m5.2026/bmw-m5.hero.webp"
         }
     ],
     "relatedNews": [

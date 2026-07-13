@@ -651,7 +651,7 @@
         "MBUX Hyperscreen",
         "AMG Performance seats"
       ],
-      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
+      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.webp",
       "nameAr": "أي إم جي جي تي 63 إس إي أداء",
       "featuresAr": [
         "831 حصان محرك 8 أسطوانات hybrid",
@@ -676,7 +676,7 @@
         "MBUX standard",
         "AMG RIDE CONTROL+"
       ],
-      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
+      "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.webp",
       "nameAr": "أي إم جي جي تي 63",
       "featuresAr": [
         "585 حصان محرك 8 أسطوانات توربيني مزدوج",
@@ -688,12 +688,12 @@
     }
   ],
   "images": {
-    "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+    "hero": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
     "gallery": [
-      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
-      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.png",
-      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.png",
-      "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.png"
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.1.webp",
+      "/images/mercedes-amg-gt-2026/mersedes-amg-gt.2.webp",
+      "/images/mercedes-amg-gt-2026/Gemini_Generated_Image_82fbxo82fbxo82fb.webp"
     ],
     "colors": [
       "Obsidian Black",
@@ -742,7 +742,7 @@
     ],
     "ogTitle": "Mercedes-AMG GT 2026 - El GT de lujo definitivo",
     "ogDescription": "Descubre el Mercedes-AMG GT 2026: 831 HP híbridos, 0-100 en 2.9s, y lujo extremo.",
-    "ogImage": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png"
+    "ogImage": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp"
   },
   "content": {
     "review": "El Mercedes-AMG GT es el GT de lujo definitivo...",

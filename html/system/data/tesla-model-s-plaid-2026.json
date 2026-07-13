@@ -416,7 +416,7 @@
         "panoramic-roof"
       ],
       "images": [
-        "../images/tesla-s-plaid/tesla-s.png"
+        "../images/tesla-s-plaid/tesla-s.webp"
       ],
       "nameAr": "موديل أس بليد",
       "featuresAr": [
@@ -430,41 +430,41 @@
     }
   ],
   "images": {
-    "hero": "../images/tesla-s-plaid/tesla-hero.png",
-    "thumbnail": "../images/tesla-s-plaid/tesla-hero.png",
+    "hero": "../images/tesla-s-plaid/tesla-hero.webp",
+    "thumbnail": "../images/tesla-s-plaid/tesla-hero.webp",
     "gallery": [
       {
-        "url": "../images/tesla-s-plaid/tesla-s.png",
+        "url": "../images/tesla-s-plaid/tesla-s.webp",
         "alt": "Tesla Model S Plaid exterior",
         "category": "exterior",
         "angle": "front"
       },
       {
-        "url": "../images/tesla-s-plaid/tesla-s.1.png",
+        "url": "../images/tesla-s-plaid/tesla-s.1.webp",
         "alt": "Tesla Model S Plaid side profile",
         "category": "exterior",
         "angle": "side"
       },
       {
-        "url": "../images/tesla-s-plaid/tesla-s.2.png",
+        "url": "../images/tesla-s-plaid/tesla-s.2.webp",
         "alt": "Tesla Model S Plaid rear view",
         "category": "exterior",
         "angle": "rear"
       },
       {
-        "url": "../images/tesla-s-plaid/tesla-s.3.png",
+        "url": "../images/tesla-s-plaid/tesla-s.3.webp",
         "alt": "Tesla Model S Plaid detail",
         "category": "exterior",
         "angle": "detail"
       },
       {
-        "url": "../images/tesla-s-plaid/tesla-s.4.png",
+        "url": "../images/tesla-s-plaid/tesla-s.4.webp",
         "alt": "Tesla Model S Plaid interior",
         "category": "interior",
         "angle": "cockpit"
       },
       {
-        "url": "../images/tesla-s-plaid/tesla-s.5.png",
+        "url": "../images/tesla-s-plaid/tesla-s.5.webp",
         "alt": "Tesla Model S Plaid technology",
         "category": "interior",
         "angle": "dashboard"

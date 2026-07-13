@@ -18,7 +18,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "rs7.html",
         "absoluteUrl": "https://carspecio.com/rs7.html",
-        "image": "/images/rs7.hero.2026.png",
+        "image": "/images/rs7.hero.2026.webp",
         "price": 0,
         "power": 591,
         "keywords": [
@@ -43,7 +43,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "rs3.html",
         "absoluteUrl": "https://carspecio.com/rs3.html",
-        "image": "/images/audi-rs3.2026/rs3-hero.jpeg",
+        "image": "/images/audi-rs3.2026/rs3-hero.webp",
         "price": 72000,
         "power": 394,
         "keywords": [
@@ -68,7 +68,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "bmw-m5.html",
         "absoluteUrl": "https://carspecio.com/bmw-m5.html",
-        "image": "/images/bmw-m5.2026/bmw-m5.hero.png",
+        "image": "/images/bmw-m5.2026/bmw-m5.hero.webp",
         "price": 132000,
         "power": 727,
         "keywords": [
@@ -93,7 +93,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "bmw-520d.html",
         "absoluteUrl": "https://carspecio.com/bmw-520d.html",
-        "image": "/images/bmw-520d/bmw-520d.hero.png",
+        "image": "/images/bmw-520d/bmw-520d.hero.webp",
         "price": 0,
         "power": 197,
         "keywords": [
@@ -118,7 +118,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "mercedes-amg-gt.html",
         "absoluteUrl": "https://carspecio.com/mercedes-amg-gt.html",
-        "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.png",
+        "image": "/images/mercedes-amg-gt-2026/mersedes-amg-gt.hero.webp",
         "price": 195000,
         "power": 831,
         "keywords": [
@@ -143,7 +143,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "nissan-gtr.html",
         "absoluteUrl": "https://carspecio.com/nissan-gtr.html",
-        "image": "/images/nissan-gtr.2026/nissan-gtr-hero.png",
+        "image": "/images/nissan-gtr.2026/nissan-gtr-hero.webp",
         "price": 221000,
         "power": 600,
         "keywords": [
@@ -168,7 +168,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "porsche-911.html",
         "absoluteUrl": "https://carspecio.com/porsche-911.html",
-        "image": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.png",
+        "image": "/images/Porsche 911 GTS T-Hybrid/porshe-911-hero.webp",
         "price": 270000,
         "power": 711,
         "keywords": [
@@ -193,7 +193,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "model-s-plaid.html",
         "absoluteUrl": "https://carspecio.com/model-s-plaid.html",
-        "image": "/images/tesla-s-plaid/tesla-hero.png",
+        "image": "/images/tesla-s-plaid/tesla-hero.webp",
         "price": 0,
         "power": 1020,
         "keywords": [
@@ -218,7 +218,7 @@ window.CARSPECIO_SEARCH_INDEX = [
         "year": 2026,
         "url": "vw-passat-variant.html",
         "absoluteUrl": "https://carspecio.com/vw-passat-variant.html",
-        "image": "/images/volkswagen-passat.2026/passat-hero.png",
+        "image": "/images/volkswagen-passat.2026/passat-hero.webp",
         "price": 0,
         "power": 150,
         "keywords": [

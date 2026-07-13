@@ -536,7 +536,7 @@
       "features": [
         "Standard equipment"
       ],
-      "image": "/images/audi-rs3.2026/RS3-Sportback.jpeg",
+      "image": "/images/audi-rs3.2026/RS3-Sportback.webp",
       "nameAr": "آر إس 3 سبورتباك",
       "featuresAr": [
         "التجهيزات القياسية"
@@ -553,7 +553,7 @@
       "features": [
         "Sedan body style"
       ],
-      "image": "/images/audi-rs3.2026/RS3-Sedan.jpeg",
+      "image": "/images/audi-rs3.2026/RS3-Sedan.webp",
       "nameAr": "آر إس 3 سيدان",
       "featuresAr": [
         "هيكل سيدان"
@@ -561,12 +561,12 @@
     }
   ],
   "images": {
-    "hero": "/images/audi-rs3.2026/rs3-hero.jpeg",
+    "hero": "/images/audi-rs3.2026/rs3-hero.webp",
     "gallery": [
-      "/images/audi-rs3.2026/rs3-galeria.jpeg",
-      "/images/audi-rs3.2026/rs3-galeria.1.jpeg",
-      "/images/audi-rs3.2026/RS3-Sportback.jpeg",
-      "/images/audi-rs3.2026/RS3-Sedan.jpeg"
+      "/images/audi-rs3.2026/rs3-galeria.webp",
+      "/images/audi-rs3.2026/rs3-galeria.1.webp",
+      "/images/audi-rs3.2026/RS3-Sportback.webp",
+      "/images/audi-rs3.2026/RS3-Sedan.webp"
     ],
     "colors": [
       "Nardo Grey",
@@ -588,7 +588,7 @@
     ],
     "ogTitle": "Audi RS3 2026 - El compacto deportivo definitivo",
     "ogDescription": "Descubre el Audi RS3 2026: 400 HP, 0-100 en 3.3s, y el motor de 5 cilindros más potente de Audi.",
-    "ogImage": "/images/audi-rs3.2026/rs3-hero.jpeg"
+    "ogImage": "/images/audi-rs3.2026/rs3-hero.webp"
   },
   "content": {
     "review": "El Audi RS3 es una máquina de conducción pura...",

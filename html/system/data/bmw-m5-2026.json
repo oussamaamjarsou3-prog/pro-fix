@@ -706,7 +706,7 @@
         "Suspensión adaptativa أم"
       ],
       "images": [
-        "images/bmw-m5.2026/bmw-m5.gallirey.png"
+        "images/bmw-m5.2026/bmw-m5.gallirey.webp"
       ]
     },
     {
@@ -729,39 +729,39 @@
         "Elementos de carbono أم"
       ],
       "images": [
-        "images/bmw-m5.2026/bmw-m5.Competition.png"
+        "images/bmw-m5.2026/bmw-m5.Competition.webp"
       ]
     }
   ],
   "images": {
-    "hero": "images/bmw-m5.2026/bmw-m5.hero.png",
+    "hero": "images/bmw-m5.2026/bmw-m5.hero.webp",
     "gallery": [
       {
-        "url": "images/bmw-m5.2026/bmw-m5.gallirey.png",
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.webp",
         "alt": "BMW M5 PHEV vista frontal",
         "category": "exterior",
         "angle": "front"
       },
       {
-        "url": "images/bmw-m5.2026/bmw-m5.gallirey.1.png",
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.1.webp",
         "alt": "BMW M5 PHEV vista lateral",
         "category": "exterior",
         "angle": "side"
       },
       {
-        "url": "images/bmw-m5.2026/bmw-m5.gallirey.2.png",
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.2.webp",
         "alt": "BMW M5 PHEV vista trasera con escapes cuádruples",
         "category": "exterior",
         "angle": "rear"
       },
       {
-        "url": "images/bmw-m5.2026/bmw-m5.gallirey.3.png",
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.3.webp",
         "alt": "BMW M5 PHEV interior con cuero Merino y fibra de carbono",
         "category": "interior",
         "angle": "dashboard"
       },
       {
-        "url": "images/bmw-m5.2026/bmw-m5.gallirey.4.png",
+        "url": "images/bmw-m5.2026/bmw-m5.gallirey.4.webp",
         "alt": "BMW M5 PHEV detalle de llantas M de 21 pulgadas",
         "category": "exterior",
         "angle": "detail"

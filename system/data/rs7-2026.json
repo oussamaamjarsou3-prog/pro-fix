@@ -1082,7 +1082,7 @@
         }
       },
       "images": [
-        "../images/rs7.4.2026.png"
+        "../images/rs7.4.2026.webp"
       ],
       "nameAr": "أودي آر إس 7",
       "featuresAr": [
@@ -1133,7 +1133,7 @@
         }
       },
       "images": [
-        "../images/rs7.2.2026.png"
+        "../images/rs7.2.2026.webp"
       ],
       "nameAr": "أودي آر إس 7 أداء",
       "featuresAr": [
@@ -1191,7 +1191,7 @@
         }
       },
       "images": [
-        "../images/rs7.2026.png"
+        "../images/rs7.2026.webp"
       ],
       "nameAr": "أودي آر إس 7 كربون إصدار",
       "featuresAr": [
@@ -1217,37 +1217,37 @@
     }
   ],
   "images": {
-    "hero": "../images/rs7.hero.2026.png",
+    "hero": "../images/rs7.hero.2026.webp",
     "gallery": [
       {
-        "url": "../images/rs7.1.2026.png",
+        "url": "../images/rs7.1.2026.webp",
         "alt": "Audi RS7 Sportback",
         "category": "exterior",
         "angle": "front"
       },
       {
-        "url": "../images/rs7.2.2026.png",
+        "url": "../images/rs7.2.2026.webp",
         "alt": "Audi RS7 Performance",
         "category": "exterior",
         "angle": "side"
       },
       {
-        "url": "../images/rs7.3.2026.png",
+        "url": "../images/rs7.3.2026.webp",
         "alt": "Audi RS7 Carbon Edition",
         "category": "exterior",
         "angle": "rear"
       },
       {
-        "url": "../images/rs7.2026.png",
+        "url": "../images/rs7.2026.webp",
         "alt": "Audi RS7 detalle",
         "category": "detail",
         "angle": "detail"
       }
     ],
     "thumbnails": [
-      "../images/rs7.1.2026.png",
-      "../images/rs7.2.2026.png",
-      "../images/rs7.3.2026.png"
+      "../images/rs7.1.2026.webp",
+      "../images/rs7.2.2026.webp",
+      "../images/rs7.3.2026.webp"
     ]
   },
   "seo": {

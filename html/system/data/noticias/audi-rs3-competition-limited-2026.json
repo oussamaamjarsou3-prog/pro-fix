@@ -5,7 +5,7 @@
     "category": "lanzamientos",
     "date": "2026-06-28",
     "readingTime": 5,
-    "image": "../images/audi-rs3.2026/rs3-hero.jpeg",
+    "image": "../images/audi-rs3.2026/rs3-hero.webp",
     "externalUrl": "https://www.audi-mediacenter.com/en/press-releases/glorious-five-audi-rs-3-competition-limited-17023",
     "tags": [
         "audi",
@@ -17,7 +17,7 @@
         {
             "slug": "rs3",
             "name": "Audi RS3",
-            "image": "../images/audi-rs3.2026/rs3-hero.jpeg"
+            "image": "../images/audi-rs3.2026/rs3-hero.webp"
         }
     ],
     "relatedNews": [

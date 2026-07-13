@@ -296,7 +296,7 @@ function buildArticleJsonLd(guide, guideData, lang = DEFAULT_LANG) {
         },
         datePublished: guideData.publishedAt,
         dateModified: guideData.updatedAt,
-        image: guideData.heroImage || `${BASE_URL}/images/carspecio-social-default.jpg`,
+        image: guideData.heroImage || `${BASE_URL}/images/carspecio-social-default.webp`,
         articleSection: catName,
         keywords: (guideData.tags || []).join(', '),
         publisher: {
@@ -371,7 +371,7 @@ guideRegistry.guides.forEach(guide => {
     page = page.replace(/\{\{hreflangTags\}\}/, buildHreflangTags(canonicalPath));
     const heroStyle = guideData.heroImage ? `style="background-image: url('${guideData.heroImage}')"` : '';
     page = page.replace(/style="background-image: url\('{{heroImage}}'\)"/, heroStyle);
-    page = page.replace(/\{\{heroImage\}\}/g, guideData.heroImage || `${BASE_URL}/images/carspecio-social-default.jpg`);
+    page = page.replace(/\{\{heroImage\}\}/g, guideData.heroImage || `${BASE_URL}/images/carspecio-social-default.webp`);
 
     // JSON-LD
     const articleJsonLd = buildArticleJsonLd(guide, guideData);

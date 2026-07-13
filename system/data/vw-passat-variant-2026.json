@@ -480,9 +480,9 @@
         "travel-assist"
       ],
       "images": [
-        "images/volkswagen-passat.2026/Passat-galeria.2016-5.png",
-        "images/volkswagen-passat.2026/Passat-galeria.2016-1.png",
-        "images/volkswagen-passat.2026/Passat-galeria.2016-2.png"
+        "images/volkswagen-passat.2026/Passat-galeria.2016-5.webp",
+        "images/volkswagen-passat.2026/Passat-galeria.2016-1.webp",
+        "images/volkswagen-passat.2026/Passat-galeria.2016-2.webp"
       ],
       "nameAr": "باسات 2.0 تي دي آي 150 دي إس جي ستايل",
       "featuresAr": [
@@ -527,8 +527,8 @@
         "apple-carplay"
       ],
       "images": [
-        "images/volkswagen-passat.2026/Passat-galeria.2016-5.png",
-        "images/volkswagen-passat.2026/Passat-galeria.2016-1.png"
+        "images/volkswagen-passat.2026/Passat-galeria.2016-5.webp",
+        "images/volkswagen-passat.2026/Passat-galeria.2016-1.webp"
       ],
       "nameAr": "باسات 1.5 إي تي إس آي 150 دي إس جي لايف",
       "featuresAr": [
@@ -575,9 +575,9 @@
         "panoramic-roof"
       ],
       "images": [
-        "images/volkswagen-passat.2026/Passat-galeria.2016-5.png",
-        "images/volkswagen-passat.2026/Passat-galeria.2016-1.png",
-        "images/volkswagen-passat.2026/Passat-galeria.2016-2.png"
+        "images/volkswagen-passat.2026/Passat-galeria.2016-5.webp",
+        "images/volkswagen-passat.2026/Passat-galeria.2016-1.webp",
+        "images/volkswagen-passat.2026/Passat-galeria.2016-2.webp"
       ],
       "nameAr": "باسات إي هايبرد 204 دي إس جي إليغانس",
       "featuresAr": [
@@ -592,41 +592,41 @@
     }
   ],
   "images": {
-    "hero": "images/volkswagen-passat.2026/passat-hero.png",
-    "thumbnail": "images/volkswagen-passat.2026/passat-hero.png",
+    "hero": "images/volkswagen-passat.2026/passat-hero.webp",
+    "thumbnail": "images/volkswagen-passat.2026/passat-hero.webp",
     "gallery": [
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016.webp",
         "alt": "VW Passat Variant vista frontal",
         "category": "exterior",
         "angle": "front"
       },
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-1.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-1.webp",
         "alt": "VW Passat Variant vista lateral",
         "category": "exterior",
         "angle": "side"
       },
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-2.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-2.webp",
         "alt": "VW Passat Variant vista trasera",
         "category": "exterior",
         "angle": "rear"
       },
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-3.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-3.webp",
         "alt": "VW Passat Variant interior salpicadero",
         "category": "interior",
         "angle": "dashboard"
       },
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-4.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-4.webp",
         "alt": "VW Passat Variant maletero 690 litros",
         "category": "interior",
         "angle": "boot"
       },
       {
-        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-5.png",
+        "url": "images/volkswagen-passat.2026/Passat-galeria.2016-5.webp",
         "alt": "VW Passat Variant detalle exterior",
         "category": "exterior",
         "angle": "detail"
