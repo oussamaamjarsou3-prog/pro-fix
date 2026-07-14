@@ -97,15 +97,15 @@ function closeMobileMenu() {
 function openMobileMenu() {
     if (!nav || !menuBtn) return;
     clearPendingClose();
-    // Force reflow so browser sees the change before adding .active
-    void nav.offsetWidth;
-    nav.classList.add('active');
-    document.body.classList.add('nav-open');
-    menuBtn.setAttribute('aria-expanded', 'true');
-    menuBtn.classList.add('active');
-    // Swap icon to close (X)
-    if (!menuBtn.dataset.openIcon) menuBtn.dataset.openIcon = menuBtn.textContent || '☰';
-    menuBtn.textContent = '✕';
+    requestAnimationFrame(() => {
+        nav.classList.add('active');
+        document.body.classList.add('nav-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        menuBtn.classList.add('active');
+        // Swap icon to close (X)
+        if (!menuBtn.dataset.openIcon) menuBtn.dataset.openIcon = menuBtn.textContent || '☰';
+        menuBtn.textContent = '✕';
+    });
 }
 
 function updateMenuButtonIcon() {

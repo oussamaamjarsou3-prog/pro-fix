@@ -179,7 +179,8 @@
         lastCalcValues[elementId] = targetNum;
         if (startNum === targetNum) {
             el.textContent = targetValue;
-            el.classList.remove("value-updated"); void el.offsetWidth; el.classList.add("value-updated");
+            el.classList.remove("value-updated");
+            requestAnimationFrame(() => el.classList.add("value-updated"));
             return;
         }
         const duration = 600; const startTime = performance.now();
@@ -192,7 +193,8 @@
             if (progress < 1) { requestAnimationFrame(tick); }
             else {
                 el.textContent = targetValue;
-                el.classList.remove("value-updated"); void el.offsetWidth; el.classList.add("value-updated");
+                el.classList.remove("value-updated");
+                requestAnimationFrame(() => el.classList.add("value-updated"));
             }
         }
         requestAnimationFrame(tick);

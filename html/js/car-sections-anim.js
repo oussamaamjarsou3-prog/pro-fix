@@ -22,7 +22,8 @@
             el.classList.add('cs-reveal');
             revealObserver.observe(el);
             // Check if already in view (fix for elements loaded after page scroll)
-            if (el.getBoundingClientRect().top < window.innerHeight && el.getBoundingClientRect().bottom > 0) {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
                 requestAnimationFrame(() => el.classList.add('cs-revealed'));
             }
         });
