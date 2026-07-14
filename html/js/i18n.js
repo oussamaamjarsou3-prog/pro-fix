@@ -357,6 +357,12 @@ function applyTranslations() {
 async function loadLanguage(lang) {
     let loaded = false;
 
+    // Switch lang-blocks immediately to prevent flash/flicker
+    currentLang = lang;
+    if (typeof applyPageText === 'function') {
+        applyPageText();
+    }
+
     try {
         const urls = langJsonUrls(lang);
         for (const url of urls) {
@@ -389,7 +395,6 @@ async function loadLanguage(lang) {
         loadBundledLang("es");
     }
 
-    currentLang = lang;
     localStorage.setItem("carspecio-lang", lang);
 
     applyTranslations();

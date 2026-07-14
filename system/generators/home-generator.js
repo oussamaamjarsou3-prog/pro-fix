@@ -348,7 +348,7 @@ function buildRankImg(image, alt) {
     const medium = getMediumImage(image);
     const hasVariants = thumb !== image && medium !== image;
     const srcset = hasVariants ? ` srcset="${thumb} 400w, ${medium} 800w, ${image} 1536w" sizes="(max-width: 600px) 100vw, 662px"` : '';
-    return `<img class="rank-bg" src="${medium}"${srcset} alt="${alt}" loading="lazy">`;
+    return `<img class="rank-bg" src="${thumb}"${srcset} alt="${alt}" loading="lazy" width="400" height="220">`;
 }
 
 function buildHeroSection() {
@@ -719,9 +719,11 @@ function buildBrandsSection() {
     return SUPPORTED_LANGS.map((lang, idx) => {
         const cards = brands.map(b => {
             const logo = b.logo || `https://cdn.simpleicons.org/${b.id}/94a3b8`;
+            const isLocal = logo.startsWith('assets/') || logo.startsWith('/');
+            const imgAttrs = isLocal ? 'width="48" height="48"' : 'width="48" height="48"';
             return `
             <a href="marcas.html#${b.id}" class="brand-card">
-                <img src="${logo}" alt="${b.name}" loading="lazy">
+                <img src="${logo}" alt="${b.name}" loading="lazy" ${imgAttrs}>
                 <span>${b.name}</span>
                 <span class="category-count">${formatModelCount(b.count, lang)}</span>
             </a>`;
