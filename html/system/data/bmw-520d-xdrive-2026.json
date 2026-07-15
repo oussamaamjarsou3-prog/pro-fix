@@ -574,12 +574,19 @@
   ],
   "relatedModels": [
     {
-      "name": "BMW 530e xDrive",
-      "slug": "bmw-530e-xdrive"
+      "name": "Volkswagen Passat Variant",
+      "slug": "vw-passat-variant",
+      "nameAr": "باسات فاريانت"
     },
     {
-      "name": "BMW 540i xDrive",
-      "slug": "bmw-540i-xdrive"
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
+    },
+    {
+      "name": "Audi RS7",
+      "slug": "rs7",
+      "nameAr": "آر إس 7"
     }
   ],
   "safety": {

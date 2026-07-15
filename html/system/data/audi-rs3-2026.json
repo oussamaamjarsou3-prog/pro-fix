@@ -3611,16 +3611,19 @@
   },
   "relatedModels": [
     {
-      "carId": "audi-rs5-2026",
-      "relation": "same-brand"
+      "name": "Audi RS7",
+      "slug": "rs7",
+      "nameAr": "آر إس 7"
     },
     {
-      "carId": "audi-rs7-2026",
-      "relation": "same-brand"
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
     },
     {
-      "carId": "bmw-m3-2026",
-      "relation": "competitor"
+      "name": "Nissan GT-R NISMO",
+      "slug": "nissan-gtr",
+      "nameAr": "جي تي-آر"
     }
   ],
   "depreciation": {

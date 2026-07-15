@@ -521,12 +521,19 @@
   ],
   "relatedModels": [
     {
-      "name": "Tesla Model 3 Performance",
-      "slug": "model-3-performance"
+      "name": "Hyundai Ioniq 6 N",
+      "slug": "hyundai-ioniq-6n",
+      "nameAr": "أيونيك 6 N"
     },
     {
-      "name": "Tesla Model X Plaid",
-      "slug": "model-x-plaid"
+      "name": "Porsche 911 Turbo S",
+      "slug": "porsche-911",
+      "nameAr": "911"
+    },
+    {
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
     }
   ],
   "safety": {

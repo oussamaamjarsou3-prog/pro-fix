@@ -3268,34 +3268,19 @@
   },
   "relatedModels": [
     {
-      "carId": "mercedes-amg-gt-2026",
-      "relation": "rival",
-      "name": {
-        "es": "Mercedes-AMG GT",
-        "en": "Mercedes-AMG GT",
-        "fr": "Mercedes-AMG GT",
-        "ar": "Mercedes-AMG GT"
-      }
+      "name": "Porsche 911 Turbo S",
+      "slug": "porsche-911",
+      "nameAr": "911"
     },
     {
-      "carId": "porsche-911-2026",
-      "relation": "rival",
-      "name": {
-        "es": "Porsche 911",
-        "en": "Porsche 911",
-        "fr": "Porsche 911",
-        "ar": "Porsche 911"
-      }
+      "name": "Mercedes-AMG GT 63 S E PERFORMANCE",
+      "slug": "mercedes-amg-gt",
+      "nameAr": "أي أم جي جي تي"
     },
     {
-      "carId": "audi-rs3-2026",
-      "relation": "alternative",
-      "name": {
-        "es": "Audi RS3",
-        "en": "Audi RS3",
-        "fr": "Audi RS3",
-        "ar": "Audi RS3"
-      }
+      "name": "Audi RS 3 Sportback",
+      "slug": "rs3",
+      "nameAr": "آر إس 3"
     }
   ],
   "drivingExperience": {

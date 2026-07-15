@@ -1579,24 +1579,19 @@
   ],
   "relatedModels": [
     {
-      "carId": "audi-rs6-2026",
-      "relation": "same-brand"
+      "name": "Audi RS 3 Sportback",
+      "slug": "rs3",
+      "nameAr": "آر إس 3"
     },
     {
-      "carId": "audi-rs5-2026",
-      "relation": "same-brand"
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
     },
     {
-      "carId": "bmw-m5-2026",
-      "relation": "competitor"
-    },
-    {
-      "carId": "mercedes-amg-gt63-2026",
-      "relation": "competitor"
-    },
-    {
-      "carId": "porsche-panamera-turbo-2026",
-      "relation": "competitor"
+      "name": "Mercedes-AMG GT 63 S E PERFORMANCE",
+      "slug": "mercedes-amg-gt",
+      "nameAr": "أي أم جي جي تي"
     }
   ],
   "rating": {

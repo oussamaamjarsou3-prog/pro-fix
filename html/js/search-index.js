@@ -231,6 +231,31 @@ window.CARSPECIO_SEARCH_INDEX = [
         "description": "Familiar de referencia con motor 2.0 TDI de 150 CV, maletero de 690 litros y tecnologia de ultima generacion"
     },
     {
+        "id": "hyundai-ioniq-6n-2026",
+        "type": "car",
+        "name": "Ioniq 6 N",
+        "fullName": "Hyundai Ioniq 6 N",
+        "brand": "Hyundai",
+        "brandId": "hyundai",
+        "category": "Eléctricos",
+        "categoryId": "electricos",
+        "slug": "ioniq-6n",
+        "year": 2026,
+        "url": "ioniq-6n.html",
+        "absoluteUrl": "https://carspecio.com/ioniq-6n.html",
+        "image": "/images/hyundai-ioniq-6n.hero.2026.webp",
+        "price": 0,
+        "power": 650,
+        "keywords": [
+            "ioniq 6 n",
+            "hyundai ioniq 6 n",
+            "hyundai",
+            "eléctricos",
+            "ioniq-6n"
+        ],
+        "description": "Sedan electrico de alto rendimiento con 650 PS y 487 km de autonomia WLTP"
+    },
+    {
         "id": "cambiar-aceite",
         "type": "guide",
         "name": "Cómo cambiar el aceite del coche paso a paso",

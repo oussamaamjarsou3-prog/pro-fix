@@ -4528,31 +4528,19 @@
   ],
   "relatedModels": [
     {
-      "carId": "bmw-m8-competition",
-      "relation": "same-brand",
-      "id": "bmw-m8-competition",
-      "name": "BMW M8 Competition",
-      "slug": "bmw-m8-competition",
-      "type": "coupe",
-      "tagline": "El hermano coupé con aún más potencia"
+      "name": "Audi RS7",
+      "slug": "rs7",
+      "nameAr": "آر إس 7"
     },
     {
-      "carId": "bmw-m4",
-      "relation": "competitor",
-      "id": "bmw-m4",
-      "name": "BMW M4",
-      "slug": "bmw-m4",
-      "type": "coupe",
-      "tagline": "Coupé más ligero y enfocado a circuito"
+      "name": "Mercedes-AMG GT 63 S E PERFORMANCE",
+      "slug": "mercedes-amg-gt",
+      "nameAr": "أي أم جي جي تي"
     },
     {
-      "carId": "bmw-x5m",
-      "relation": "competitor",
-      "id": "bmw-x5m",
-      "name": "BMW X5 M",
-      "slug": "bmw-x5m",
-      "type": "suv",
-      "tagline": "SUV de alto rendimiento con espacio familiar"
+      "name": "Porsche 911 Turbo S",
+      "slug": "porsche-911",
+      "nameAr": "911"
     }
   ],
   "depreciation": {

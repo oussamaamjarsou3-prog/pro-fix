@@ -3211,34 +3211,19 @@
   },
   "relatedModels": [
     {
-      "carId": "bmw-m5-2026",
-      "relation": "rival",
-      "name": {
-        "es": "BMW M5",
-        "en": "BMW M5",
-        "fr": "BMW M5",
-        "ar": "BMW M5"
-      }
+      "name": "Porsche 911 Turbo S",
+      "slug": "porsche-911",
+      "nameAr": "911"
     },
     {
-      "carId": "audi-rs7-2026",
-      "relation": "alternative",
-      "name": {
-        "es": "Audi RS7",
-        "en": "Audi RS7",
-        "fr": "Audi RS7",
-        "ar": "Audi RS7"
-      }
+      "name": "Nissan GT-R NISMO",
+      "slug": "nissan-gtr",
+      "nameAr": "جي تي-آر"
     },
     {
-      "carId": "porsche-911-2026",
-      "relation": "alternative",
-      "name": {
-        "es": "Porsche 911",
-        "en": "Porsche 911",
-        "fr": "Porsche 911",
-        "ar": "Porsche 911"
-      }
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
     }
   ],
   "drivingExperience": {

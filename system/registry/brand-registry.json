@@ -163,7 +163,7 @@
       "country": "South Korea",
       "website": "https://www.hyundai.com",
       "founded": 1967,
-      "models": [],
+      "models": ["hyundai-ioniq-6n-2026"],
       "categories": ["deportivos", "suv", "electricos", "sedan", "hatchback", "compactos", "familiar", "pickup", "híbridos", "lujo"]
     },
     {

@@ -530,6 +530,10 @@ class CarRenderer {
                 applyTranslations();
             }
             showContent();
+            const pageBody = document.getElementById('page-body');
+            if (pageBody && pageBody.style.display === 'none') {
+                pageBody.style.display = '';
+            }
         }
     }
 }

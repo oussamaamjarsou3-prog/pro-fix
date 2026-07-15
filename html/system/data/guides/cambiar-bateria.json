@@ -486,6 +486,6 @@
         }
     },
     "tags": ["battery", "maintenance", "electrics", "DIY", "start-stop", "AGM", "EFB"],
-    "relatedCars": ["bmw-m5-2026", "audi-rs3-2026"],
+    "relatedCars": ["bmw-m5-2026", "audi-rs3-2026", "hyundai-ioniq-6n-2026"],
     "schemaVersion": "1.0"
 }

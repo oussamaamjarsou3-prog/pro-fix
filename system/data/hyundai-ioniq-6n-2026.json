@@ -1,0 +1,3319 @@
+{
+  "id": "hyundai-ioniq-6n-2026",
+  "slug": "hyundai-ioniq-6n",
+  "brandId": "hyundai",
+  "categoryId": "electricos",
+  "modelYear": 2026,
+  "generation": "N",
+  "bodyStyle": "sedan",
+  "doors": 4,
+  "seats": 5,
+  "drivetrain": "awd",
+  "enginePosition": "front",
+  "powertrain": {
+    "type": "electric",
+    "description": "Dual-Motor AWD with 650 PS and N Grin Boost",
+    "descriptionAr": "مزدوج المحركات دفع رباعي بـ 650 حصان مع نظام N Grin Boost"
+  },
+  "status": "active",
+  "basicInfo": {
+    "name": "Ioniq 6 N",
+    "fullModelName": "Hyundai Ioniq 6 N",
+    "shortName": "Ioniq 6 N",
+    "description": "Sedan electrico de alto rendimiento con 650 PS y 487 km de autonomia WLTP",
+    "tagline": "El sedan electrico deportivo definitivo de Hyundai N",
+    "taglineAr": "السيدان الكهربائي الرياضي الأقوى من هيونداي N",
+    "nameAr": "أيونيك 6 N",
+    "fullModelNameAr": "هيونداي أيونيك 6 N"
+  },
+  "specs": {
+    "engine": {
+      "type": "Dual PMSM Electric",
+      "fuelType": "electric",
+      "cylinders": null,
+      "valvesPerCylinder": null,
+      "aspiration": "Electric",
+      "typeAr": "مزدوج المحركات الكهربائية المتزامن الدائم",
+      "fuelTypeAr": "كهرباء"
+    },
+    "transmission": {
+      "type": "Single-Speed Reduction Gear",
+      "gears": 1,
+      "typeAr": "تروس أحادية السرعة"
+    },
+    "drivetrain": {
+      "type": "AWD",
+      "frontDifferential": "Single motor with DAS",
+      "rearDifferential": "Single motor",
+      "typeAr": "دفع رباعي"
+    },
+    "brakes": {
+      "front": "Ventilated disc 400mm 4-piston monobloc",
+      "rear": "Ventilated disc 360mm single-piston",
+      "abs": true,
+      "ebd": true
+    },
+    "suspension": {
+      "front": "MacPherson strut",
+      "rear": "Multi-link with Stroke Sensing ECS"
+    },
+    "steering": {
+      "type": "R-MDPS Rack and Pinion",
+      "powerAssisted": true
+    },
+    "battery": {
+      "capacity": {
+        "value": 84,
+        "unit": "kWh"
+      },
+      "range": {
+        "value": 487,
+        "unit": "km"
+      },
+      "charging": {
+        "ac": "11 kW / 7.5 h",
+        "dc": "350 kW / 18 min (10-80%)"
+      }
+    },
+    "electricMotor": {
+      "power": {
+        "value": 448,
+        "unit": "kW"
+      },
+      "torque": {
+        "value": 770,
+        "unit": "Nm"
+      }
+    }
+  },
+  "performance": {
+    "power": {
+      "value": 650,
+      "unit": "HP"
+    },
+    "torque": {
+      "value": 770,
+      "unit": "Nm"
+    },
+    "acceleration": {
+      "zeroToHundred": 3.2
+    },
+    "topSpeed": {
+      "value": 257,
+      "unit": "km/h"
+    }
+  },
+  "dimensions": {
+    "length": {
+      "value": 4935,
+      "unit": "mm"
+    },
+    "width": {
+      "value": 1940,
+      "unit": "mm"
+    },
+    "height": {
+      "value": 1495,
+      "unit": "mm"
+    },
+    "wheelbase": {
+      "value": 2965,
+      "unit": "mm"
+    },
+    "curbWeight": {
+      "value": 2201,
+      "unit": "kg"
+    },
+    "dragCoefficient": 0.274,
+    "cargo": {
+      "value": 401,
+      "unit": "L"
+    }
+  },
+  "fuelEconomy": {
+    "consumption": {
+      "city": {
+        "value": 21.2,
+        "unit": "kWh/100km"
+      },
+      "highway": {
+        "value": 16.5,
+        "unit": "kWh/100km"
+      },
+      "combined": {
+        "value": 18.7,
+        "unit": "kWh/100km"
+      }
+    },
+    "energyConsumption": {
+      "combined": {
+        "value": 18.7,
+        "unit": "kWh/100km"
+      }
+    },
+    "drivingStyles": {
+      "calm": {
+        "value": 16,
+        "unit": "kWh/100km"
+      },
+      "sport": {
+        "value": 28,
+        "unit": "kWh/100km"
+      }
+    },
+    "range": {
+      "city": {
+        "value": 520,
+        "unit": "km"
+      },
+      "highway": {
+        "value": 420,
+        "unit": "km"
+      }
+    }
+  },
+  "electric": {
+    "batteryCapacity": {
+      "value": 84,
+      "unit": "kWh"
+    },
+    "electricRange": {
+      "value": 487,
+      "unit": "km"
+    },
+    "charging": {
+      "ac": {
+        "power": 11,
+        "time": 7.5
+      },
+      "dc": {
+        "power": 350,
+        "time": {
+          "value": 18,
+          "percentage": 10
+        }
+      }
+    },
+    "motor": {
+      "type": "Permanent Magnet Synchronous (PMSM)",
+      "count": 2,
+      "frontPower": {
+        "value": 166,
+        "unit": "kW"
+      },
+      "rearPower": {
+        "value": 282,
+        "unit": "kW"
+      },
+      "totalPower": {
+        "value": 448,
+        "unit": "kW"
+      },
+      "boostPower": {
+        "value": 478,
+        "unit": "kW"
+      },
+      "torque": {
+        "value": 770,
+        "unit": "Nm"
+      }
+    }
+  },
+  "pricing": {
+    "basePrice": {
+      "value": 72000,
+      "currency": "EUR",
+      "region": "ES"
+    },
+    "regionalPricing": [
+      {
+        "region": "ES",
+        "price": {
+          "value": 72000,
+          "currency": "EUR"
+        }
+      },
+      {
+        "region": "DE",
+        "price": {
+          "value": 73000,
+          "currency": "EUR"
+        }
+      }
+    ]
+  },
+  "tires": {
+    "es": {
+      "standard": "275/35 R20 (Pirelli P-Zero 5 HN)",
+      "optional": [],
+      "rearWear": "Desgaste moderado en traseras debido al alto par motor y AWD",
+      "recommended": "Pirelli P-Zero 5 HN",
+      "sizes": [
+        "275/35 R20"
+      ]
+    },
+    "en": {
+      "standard": "275/35 R20 (Pirelli P-Zero 5 HN)",
+      "optional": [],
+      "rearWear": "Moderate rear wear due to high torque and AWD",
+      "recommended": "Pirelli P-Zero 5 HN",
+      "sizes": [
+        "275/35 R20"
+      ]
+    },
+    "fr": {
+      "standard": "275/35 R20 (Pirelli P-Zero 5 HN)",
+      "optional": [],
+      "rearWear": "Usure modérée des pneus arrière",
+      "recommended": "Pirelli P-Zero 5 HN",
+      "sizes": [
+        "275/35 R20"
+      ]
+    },
+    "ar": {
+      "standard": "275/35 R20 (بيريلي بي-زيرو 5 HN)",
+      "optional": [],
+      "rearWear": "تآكل معتدل للإطارات الخلفية",
+      "recommended": "بيريلي بي-زيرو 5 HN",
+      "sizes": [
+        "275/35 R20"
+      ]
+    }
+  },
+  "features": {
+    "exterior": [
+      {
+        "id": "led-headlights",
+        "name": {
+          "es": "Faros LED Matrix",
+          "en": "LED Matrix Headlights",
+          "fr": "Phares LED Matrix",
+          "ar": "مصابيح LED Matrix"
+        },
+        "description": "Full LED adaptive headlights",
+        "standard": true,
+        "category": "lighting"
+      },
+      {
+        "id": "rear-wing",
+        "name": {
+          "es": "Aleron trasero N",
+          "en": "N Rear Wing",
+          "fr": "Aileron arrière N",
+          "ar": "جناح خلفي N"
+        },
+        "description": "Large rear wing for downforce",
+        "standard": true,
+        "category": "aerodynamics"
+      },
+      {
+        "id": "flared-arches",
+        "name": {
+          "es": "Paso de ruedas ensanchado",
+          "en": "Flared Wheel Arches",
+          "fr": "Passes de roues élargies",
+          "ar": "أجنحة عجلات موسعة"
+        },
+        "description": "Wider stance with flared arches",
+        "standard": true,
+        "category": "design"
+      }
+    ],
+    "interior": [
+      {
+        "id": "n-sports-seats",
+        "name": {
+          "es": "Asientos deportivos N",
+          "en": "N Sports Seats",
+          "fr": "Sièges sport N",
+          "ar": "مقاعد رياضية N"
+        },
+        "description": "N-specific sports seats",
+        "standard": true,
+        "category": "comfort"
+      },
+      {
+        "id": "n-steering-wheel",
+        "name": {
+          "es": "Volante N",
+          "en": "N Steering Wheel",
+          "fr": "Volant N",
+          "ar": "دركسون N"
+        },
+        "description": "N steering wheel with shift paddles",
+        "standard": true,
+        "category": "technology"
+      },
+      {
+        "id": "faux-suede",
+        "name": {
+          "es": "Revestimiento ante sintetico",
+          "en": "Faux-Suede Trim",
+          "fr": "Suède synthétique",
+          "ar": "جلد شمواه صناعي"
+        },
+        "description": "Premium faux-suede interior trim",
+        "standard": true,
+        "category": "comfort"
+      }
+    ],
+    "technology": [
+      {
+        "id": "n-e-shift",
+        "name": {
+          "es": "N e-Shift",
+          "en": "N e-Shift",
+          "fr": "N e-Shift",
+          "ar": "N e-Shift"
+        },
+        "description": "Simulates gear shifts via paddles",
+        "standard": true,
+        "category": "performance"
+      },
+      {
+        "id": "n-grin-boost",
+        "name": {
+          "es": "N Grin Boost",
+          "en": "N Grin Boost",
+          "fr": "N Grin Boost",
+          "ar": "N Grin Boost"
+        },
+        "description": "Temporary 650 PS power boost",
+        "standard": true,
+        "category": "performance"
+      },
+      {
+        "id": "n-launch-control",
+        "name": {
+          "es": "N Launch Control",
+          "en": "N Launch Control",
+          "fr": "N Launch Control",
+          "ar": "تحكم انطلاق N"
+        },
+        "description": "Launch control for max acceleration",
+        "standard": true,
+        "category": "performance"
+      }
+    ]
+  },
+  "versions": [
+    {
+      "id": "ioniq-6n",
+      "slug": "hyundai-ioniq-6n",
+      "name": "Ioniq 6 N",
+      "description": "Version de alto rendimiento con 650 PS y 487 km de autonomia",
+      "price": {
+        "value": 72000,
+        "currency": "EUR"
+      },
+      "specs": {
+        "power": {
+          "value": 650,
+          "unit": "HP"
+        },
+        "torque": {
+          "value": 770,
+          "unit": "Nm"
+        },
+        "acceleration": {
+          "zeroToHundred": 3.2
+        },
+        "range": {
+          "value": 487,
+          "unit": "km"
+        }
+      },
+      "features": [
+        "n-grin-boost",
+        "n-e-shift",
+        "n-launch-control",
+        "n-sports-seats",
+        "n-steering-wheel",
+        "led-headlights",
+        "rear-wing"
+      ],
+      "images": [
+        "../images/hyundai-ioniq-6n.1.2026.webp"
+      ],
+      "nameAr": "أيونيك 6 N",
+      "featuresAr": [
+        "N Grin Boost",
+        "N e-Shift",
+        "تحكم انطلاق N",
+        "مقاعد رياضية N",
+        "دركسون N",
+        "مصابيح LED",
+        "جناح خلفي"
+      ]
+    }
+  ],
+  "images": {
+    "hero": "../images/hyundai-ioniq-6n.hero.2026.webp",
+    "thumbnail": "../images/hyundai-ioniq-6n.hero.2026.webp",
+    "gallery": [
+      {
+        "url": "../images/hyundai-ioniq-6n.1.2026.webp",
+        "alt": "Hyundai Ioniq 6 N exterior front",
+        "category": "exterior",
+        "angle": "front"
+      },
+      {
+        "url": "../images/hyundai-ioniq-6n.2.2026.webp",
+        "alt": "Hyundai Ioniq 6 N side profile",
+        "category": "exterior",
+        "angle": "side"
+      },
+      {
+        "url": "../images/hyundai-ioniq-6n.3.2026.webp",
+        "alt": "Hyundai Ioniq 6 N rear view",
+        "category": "exterior",
+        "angle": "rear"
+      },
+      {
+        "url": "../images/hyundai-ioniq-6n.4.2026.webp",
+        "alt": "Hyundai Ioniq 6 N interior detail",
+        "category": "interior",
+        "angle": "dashboard"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "Performance Blue",
+      "hex": "#1B4D8C",
+      "price": 0
+    },
+    {
+      "name": "Cyber Grey",
+      "hex": "#4A4A4A",
+      "price": 0
+    },
+    {
+      "name": "Phantom Black",
+      "hex": "#111111",
+      "price": 0
+    },
+    {
+      "name": "Atlas White",
+      "hex": "#FFFFFF",
+      "price": 0
+    },
+    {
+      "name": "Ecotronic Green",
+      "hex": "#2D5F3F",
+      "price": 1000
+    }
+  ],
+  "seo": {
+    "title": "Hyundai Ioniq 6 N 2026 - Review y Precio",
+    "description": "El Hyundai Ioniq 6 N 2026 ofrece 650 PS, 770 Nm, 0-100 en 3.2s y 487 km de autonomia WLTP. Review completa, precio y especificaciones.",
+    "keywords": "hyundai,ioniq 6 n,electrico,650 ps,487 km autonomia,0-100 3.2s,n grin boost"
+  },
+  "comparisons": [
+    {
+      "id": "tesla-model-s-plaid",
+      "name": "Tesla Model S Plaid",
+      "slug": "model-s-plaid",
+      "nameAr": "تيسلا موديل أس بليد",
+      "fullNameAr": "تيسلا موديل أس بليد"
+    },
+    {
+      "id": "porsche-taycan-turbo-s",
+      "name": "Porsche Taycan Turbo S",
+      "slug": "taycan-turbo-s",
+      "nameAr": "بورش تايكان توربو أس",
+      "fullNameAr": "بورش تايكان توربو أس"
+    }
+  ],
+  "relatedModels": [
+    {
+      "name": "Tesla Model S Plaid",
+      "slug": "model-s-plaid",
+      "nameAr": "موديل أس بليد"
+    },
+    {
+      "name": "Porsche 911 Turbo S",
+      "slug": "porsche-911",
+      "nameAr": "911"
+    },
+    {
+      "name": "Nissan GT-R NISMO",
+      "slug": "nissan-gtr",
+      "nameAr": "جي تي-آر"
+    }
+  ],
+  "safety": {
+    "es": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 89,
+        "pedestrian": 79,
+        "safetyAssist": 90
+      },
+      "airbags": [
+        "Frontales dobles",
+        "Laterales delanteros",
+        "Cortina lateral",
+        "Rodilla del conductor"
+      ],
+      "driverAssist": [
+        {
+          "name": "Highway Driving Assist 2",
+          "description": "Control de crucero adaptativo con centrado de carril"
+        },
+        {
+          "name": "Frenado de emergencia autonomo",
+          "description": "Deteccion de peatones, ciclistas y vehiculos"
+        },
+        {
+          "name": "Alerta de angulo muerto",
+          "description": "Alerta de trafico cruzado trasero"
+        }
+      ],
+      "structural": "Estructura de acero de alta resistencia con bateria integrada en el suelo."
+    },
+    "en": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 89,
+        "pedestrian": 79,
+        "safetyAssist": 90
+      },
+      "airbags": [
+        "Dual front airbags",
+        "Side front airbags",
+        "Side curtain airbags",
+        "Front knee airbags"
+      ],
+      "driverAssist": [
+        {
+          "name": "Highway Driving Assist 2",
+          "description": "Adaptive cruise control with lane centering"
+        },
+        {
+          "name": "Autonomous Emergency Braking",
+          "description": "Pedestrian, cyclist and vehicle detection"
+        },
+        {
+          "name": "Blind Spot Warning",
+          "description": "Rear cross-traffic alert"
+        }
+      ],
+      "structural": "High-strength steel structure with floor-integrated battery."
+    },
+    "fr": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 89,
+        "pedestrian": 79,
+        "safetyAssist": 90
+      },
+      "airbags": [
+        "Airbags frontaux doubles",
+        "Airbags latéraux avant",
+        "Airbags rideaux",
+        "Airbags genoux"
+      ],
+      "driverAssist": [
+        {
+          "name": "Highway Driving Assist 2",
+          "description": "Régulateur adaptatif avec centrage de voie"
+        },
+        {
+          "name": "Freinage d'urgence autonome",
+          "description": "Détection piétons, cyclistes et véhicules"
+        },
+        {
+          "name": "Alerte d'angle mort",
+          "description": "Alerte trafic transversal arrière"
+        }
+      ],
+      "structural": "Structure acier haute résistance avec batterie intégrée au plancher."
+    },
+    "ar": {
+      "ratings": {
+        "overall": 5,
+        "adultOccupant": 93,
+        "childOccupant": 89,
+        "pedestrian": 79,
+        "safetyAssist": 90
+      },
+      "airbags": [
+        "وسائد أمامية مزدوجة",
+        "وسائد جانبية أمامية",
+        "وسائد ستائرية",
+        "وسائد ركبة"
+      ],
+      "driverAssist": [
+        {
+          "name": "مساعد القيادة على الطريق السريع 2",
+          "description": "مثبت سرعة تكيفي مع توسيط المسار"
+        },
+        {
+          "name": "فرامل الطوارئ الذاتية",
+          "description": "اكتشاف المشاة والدراجات والمركبات"
+        },
+        {
+          "name": "تنبيه النقطة العمياء",
+          "description": "تنبيه حركة المرور الخلفية"
+        }
+      ],
+      "structural": "هيكل فولاذ عالي المقاومة مع بطارية مدمجة في الأرضية."
+    }
+  },
+  "rating": {
+    "overall": 8.8,
+    "performance": 9,
+    "comfort": 8,
+    "technology": 9,
+    "design": 8.5,
+    "value": 8.5,
+    "reliability": 8.5
+  },
+  "depreciation": {
+    "year1": {
+      "percentage": 85,
+      "km": 15000
+    },
+    "year3": {
+      "percentage": 60,
+      "km": 45000
+    },
+    "year5": {
+      "percentage": 40,
+      "km": 75000
+    }
+  },
+  "problems": {
+    "es": [
+      "Bateria: degradacion del 5-10% a los 80.000 km",
+      "Neumaticos: desgaste rapido de traseras en conduccion deportiva",
+      "Software: actualizaciones OTA ocasionales con bugs menores"
+    ],
+    "en": [
+      "Battery: 5-10% degradation at 80,000 km",
+      "Tires: rapid rear wear during sporty driving",
+      "Software: occasional OTA updates with minor bugs"
+    ],
+    "fr": [
+      "Batterie: degradation de 5-10% a 80 000 km",
+      "Pneus: usure rapide des arrieres en conduite sportive",
+      "Logiciel: mises a jour OTA occasionnelles avec bugs mineurs"
+    ],
+    "ar": [
+      "البطارية: تدهور 5-10% عند 80,000 كم",
+      "الإطارات: تآكل سريع للخلفية في القيادة الرياضية",
+      "البرامج: تحديثات OTA عرضية بأخطاء بسيطة"
+    ]
+  },
+  "options": [
+    {
+      "id": "n-performance-package",
+      "name": "N Performance Package",
+      "description": "Paquete aerodinamico N con aleron trasero, faldones laterales y difusor trasero.",
+      "price": {
+        "value": 5000,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "حزمة N للأداء",
+      "nameEs": "Paquete N Performance",
+      "nameFr": "Pack Performance N",
+      "nameEn": "N Performance Package"
+    },
+    {
+      "id": "forged-wheels",
+      "name": "Llantas forjadas 20\"",
+      "description": "Llantas de aleacion forjada de 20 pulgadas con neumaticos Pirelli P-Zero 5 HN.",
+      "price": {
+        "value": 2000,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "عجلات مطروقة 20 بوصة",
+      "nameEs": "Llantas forjadas 20\"",
+      "nameFr": "Jantes forgees 20 pouces",
+      "nameEn": "20-inch Forged Wheels"
+    },
+    {
+      "id": "bose-audio",
+      "name": "Audio premium Bose",
+      "description": "Sistema de audio Bose con 12 altavoces y 720W de potencia.",
+      "price": {
+        "value": 1200,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "low",
+      "nameAr": "صوت بوز بريميوم",
+      "nameEs": "Audio premium Bose",
+      "nameFr": "Audio Bose Premium",
+      "nameEn": "Bose Premium Audio"
+    },
+    {
+      "id": "hud",
+      "name": "Head-Up Display",
+      "description": "Pantalla proyectada sobre el parabrisas con velocidad, navegacion e info de seguridad.",
+      "price": {
+        "value": 1000,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "عرض على الزجاج",
+      "nameEs": "Head-Up Display",
+      "nameFr": "Affichage tete haute",
+      "nameEn": "Head-Up Display"
+    },
+    {
+      "id": "carbon-mirror-caps",
+      "name": "Tapas de espejo en carbono",
+      "description": "Tapas de retrovisores exteriores en fibra de carbono.",
+      "price": {
+        "value": 800,
+        "currency": "EUR"
+      },
+      "worthIt": false,
+      "resaleImpact": "low",
+      "nameAr": "أغطية مرايا كربون",
+      "nameEs": "Tapas de espejo en carbono",
+      "nameFr": "Coques de retroviseurs carbone",
+      "nameEn": "Carbon Mirror Caps"
+    },
+    {
+      "id": "towing-hitch",
+      "name": "Enganche de remolque",
+      "description": "Enganche electrico capaz de remolcar hasta 1.500 kg.",
+      "price": {
+        "value": 1300,
+        "currency": "EUR"
+      },
+      "worthIt": true,
+      "resaleImpact": "medium",
+      "nameAr": "خطاف سحب",
+      "nameEs": "Enganche de remolque",
+      "nameFr": "Attelage de remorquage",
+      "nameEn": "Towing Hitch"
+    }
+  ],
+  "environmental": {
+    "es": {
+      "emissions": {
+        "value": 0,
+        "unit": "g/km"
+      },
+      "rating": "A",
+      "label": "Etiqueta CERO"
+    },
+    "en": {
+      "emissions": {
+        "value": 0,
+        "unit": "g/km"
+      },
+      "rating": "A",
+      "label": "ZERO Label"
+    },
+    "fr": {
+      "emissions": {
+        "value": 0,
+        "unit": "g/km"
+      },
+      "rating": "A",
+      "label": "Label ZERO"
+    },
+    "ar": {
+      "emissions": {
+        "value": 0,
+        "unit": "g/km"
+      },
+      "rating": "A",
+      "label": "ملصق صفر"
+    }
+  },
+  "countryPricing": {
+    "us": {
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "locale": "en-US",
+      "name": "United States",
+      "fuelMetric": false,
+      "priceNew": 70000,
+      "pricePerformance": 75000,
+      "priceCarbon": 80000,
+      "rivalM5": 110000,
+      "rivalAmg": 140000,
+      "fuelDefault": 15,
+      "fuelMin": 8,
+      "fuelMax": 35,
+      "fuelStep": 1,
+      "maintenance": 1200,
+      "inspection": 50,
+      "oilChange": 50,
+      "insurance": 1800,
+      "tyres": 1200,
+      "dep3": 42000,
+      "dep5": 28000,
+      "depAnnual": {
+        "used3": 9333,
+        "new": 14000,
+        "used5": 5600
+      },
+      "used3Range": "40,000 - 44,000 USD",
+      "used5Range": "26,000 - 30,000 USD",
+      "fiscalHead": [
+        "State",
+        "Sales Tax",
+        "Registration",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "California",
+          "10,00%",
+          "300 USD",
+          77300
+        ],
+        [
+          "Texas",
+          "7,60%",
+          "200 USD",
+          75520
+        ],
+        [
+          "Florida",
+          "7,20%",
+          "180 USD",
+          75220
+        ],
+        [
+          "New York",
+          "9,60%",
+          "280 USD",
+          77000
+        ],
+        [
+          "Illinois",
+          "8,80%",
+          "220 USD",
+          76380
+        ]
+      ],
+      "options": [
+        5400,
+        2200,
+        1300,
+        1100,
+        850,
+        1400
+      ],
+      "roadTax": 55,
+      "exchangeRateEUR": 1.08
+    },
+    "it": {
+      "flag": "🇮🇹",
+      "currency": "EUR",
+      "locale": "it-IT",
+      "name": "Italia",
+      "fuelMetric": true,
+      "priceNew": 73000,
+      "pricePerformance": 78000,
+      "priceCarbon": 82000,
+      "rivalM5": 105000,
+      "rivalAmg": 135000,
+      "fuelDefault": 28,
+      "fuelMin": 15,
+      "fuelMax": 45,
+      "fuelStep": 1,
+      "maintenance": 2000,
+      "inspection": 120,
+      "oilChange": 60,
+      "insurance": 1600,
+      "tyres": 1400,
+      "dep3": 43800,
+      "dep5": 29200,
+      "depAnnual": {
+        "used3": 9733,
+        "new": 14600,
+        "used5": 5840
+      },
+      "used3Range": "41,600 - 46,000 EUR",
+      "used5Range": "27,700 - 30,700 EUR",
+      "fiscalHead": [
+        "Regione",
+        "Imposta",
+        "Bollo",
+        "Prezzo finale"
+      ],
+      "fiscalRows": [
+        [
+          "Lombardia",
+          "22%",
+          "350 EUR",
+          89310
+        ],
+        [
+          "Lazio",
+          "22%",
+          "320 EUR",
+          89280
+        ],
+        [
+          "Piemonte",
+          "22%",
+          "310 EUR",
+          89270
+        ],
+        [
+          "Veneto",
+          "22%",
+          "300 EUR",
+          89260
+        ],
+        [
+          "Emilia-Romagna",
+          "22%",
+          "290 EUR",
+          89250
+        ]
+      ],
+      "options": [
+        5000,
+        2000,
+        1200,
+        1000,
+        800,
+        1300
+      ],
+      "roadTax": 400,
+      "exchangeRateEUR": 1
+    },
+    "es": {
+      "flag": "🇪🇸",
+      "currency": "EUR",
+      "locale": "es-ES",
+      "name": "España",
+      "fuelMetric": true,
+      "priceNew": 72000,
+      "pricePerformance": 77000,
+      "priceCarbon": 81000,
+      "rivalM5": 105000,
+      "rivalAmg": 135000,
+      "fuelDefault": 25,
+      "fuelMin": 15,
+      "fuelMax": 40,
+      "fuelStep": 1,
+      "maintenance": 1800,
+      "inspection": 150,
+      "oilChange": 64,
+      "insurance": 1600,
+      "tyres": 1400,
+      "dep3": 43200,
+      "dep5": 28800,
+      "depAnnual": {
+        "used3": 9600,
+        "new": 14400,
+        "used5": 5760
+      },
+      "used3Range": "41,000 - 45,000 EUR",
+      "used5Range": "27,300 - 30,300 EUR",
+      "fiscalHead": [
+        "Región",
+        "Impuesto",
+        "ITV",
+        "Precio final"
+      ],
+      "fiscalRows": [
+        [
+          "Madrid",
+          "21%",
+          "150 EUR",
+          87870
+        ],
+        [
+          "Cataluña",
+          "21%",
+          "150 EUR",
+          87870
+        ],
+        [
+          "Andalucía",
+          "21%",
+          "150 EUR",
+          87870
+        ],
+        [
+          "Valencia",
+          "21%",
+          "150 EUR",
+          87870
+        ],
+        [
+          "País Vasco",
+          "21%",
+          "150 EUR",
+          87870
+        ]
+      ],
+      "options": [
+        5000,
+        2000,
+        1200,
+        1000,
+        800,
+        1300
+      ],
+      "roadTax": 400,
+      "exchangeRateEUR": 1
+    },
+    "fr": {
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "locale": "fr-FR",
+      "name": "France",
+      "fuelMetric": true,
+      "priceNew": 74000,
+      "pricePerformance": 79000,
+      "priceCarbon": 83000,
+      "rivalM5": 106000,
+      "rivalAmg": 136000,
+      "fuelDefault": 25,
+      "fuelMin": 15,
+      "fuelMax": 40,
+      "fuelStep": 1,
+      "maintenance": 1900,
+      "inspection": 150,
+      "oilChange": 64,
+      "insurance": 1700,
+      "tyres": 1400,
+      "dep3": 44400,
+      "dep5": 29600,
+      "depAnnual": {
+        "used3": 9867,
+        "new": 14800,
+        "used5": 5920
+      },
+      "used3Range": "42,200 - 46,600 EUR",
+      "used5Range": "28,100 - 31,100 EUR",
+      "fiscalHead": [
+        "Région",
+        "TVA",
+        "Carte grise",
+        "Prix final"
+      ],
+      "fiscalRows": [
+        [
+          "Île-de-France",
+          "20%",
+          "300 EUR",
+          89100
+        ],
+        [
+          "Provence",
+          "20%",
+          "280 EUR",
+          89080
+        ],
+        [
+          "Auvergne",
+          "20%",
+          "260 EUR",
+          89060
+        ],
+        [
+          "Occitanie",
+          "20%",
+          "270 EUR",
+          89070
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "20%",
+          "250 EUR",
+          89050
+        ]
+      ],
+      "options": [
+        5000,
+        2000,
+        1200,
+        1000,
+        800,
+        1300
+      ],
+      "roadTax": 350,
+      "exchangeRateEUR": 1
+    },
+    "ma": {
+      "flag": "🇲🇦",
+      "currency": "MAD",
+      "locale": "ar-MA",
+      "name": "المغرب",
+      "fuelMetric": true,
+      "priceNew": 780000,
+      "pricePerformance": 840000,
+      "priceCarbon": 880000,
+      "rivalM5": 1150000,
+      "rivalAmg": 1400000,
+      "fuelDefault": 15,
+      "fuelMin": 8,
+      "fuelMax": 30,
+      "fuelStep": 1,
+      "maintenance": 3500,
+      "inspection": 300,
+      "oilChange": 120,
+      "insurance": 9000,
+      "tyres": 3000,
+      "dep3": 468000,
+      "dep5": 312000,
+      "depAnnual": {
+        "used3": 104000,
+        "new": 156000,
+        "used5": 62400
+      },
+      "used3Range": "444,000 - 492,000 MAD",
+      "used5Range": "296,000 - 328,000 MAD",
+      "fiscalHead": [
+        "المدينة",
+        "الضريبة",
+        "التسجيل",
+        "السعر النهائي"
+      ],
+      "fiscalRows": [
+        [
+          "الدار البيضاء",
+          "20%",
+          "2000 MAD",
+          938000
+        ],
+        [
+          "الرباط",
+          "20%",
+          "1800 MAD",
+          937800
+        ],
+        [
+          "مراكش",
+          "20%",
+          "1500 MAD",
+          937500
+        ],
+        [
+          "طنجة",
+          "20%",
+          "1600 MAD",
+          937600
+        ],
+        [
+          "فاس",
+          "20%",
+          "1400 MAD",
+          937400
+        ]
+      ],
+      "options": [
+        54000,
+        21600,
+        13000,
+        10800,
+        8600,
+        14000
+      ],
+      "roadTax": 1200,
+      "exchangeRateEUR": 10.8
+    },
+    "de": {
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "locale": "de-DE",
+      "name": "Deutschland",
+      "fuelMetric": true,
+      "priceNew": 73000,
+      "pricePerformance": 78000,
+      "priceCarbon": 82000,
+      "rivalM5": 104000,
+      "rivalAmg": 134000,
+      "fuelDefault": 25,
+      "fuelMin": 15,
+      "fuelMax": 40,
+      "fuelStep": 1,
+      "maintenance": 2200,
+      "inspection": 150,
+      "oilChange": 64,
+      "insurance": 1800,
+      "tyres": 1400,
+      "dep3": 43800,
+      "dep5": 29200,
+      "depAnnual": {
+        "used3": 9733,
+        "new": 14600,
+        "used5": 5840
+      },
+      "used3Range": "41,600 - 46,000 EUR",
+      "used5Range": "27,700 - 30,700 EUR",
+      "fiscalHead": [
+        "Bundesland",
+        "MwSt",
+        "Zulassung",
+        "Endpreis"
+      ],
+      "fiscalRows": [
+        [
+          "Bayern",
+          "19%",
+          "350 EUR",
+          87420
+        ],
+        [
+          "NRW",
+          "19%",
+          "320 EUR",
+          87390
+        ],
+        [
+          "Berlin",
+          "19%",
+          "300 EUR",
+          87370
+        ],
+        [
+          "Hessen",
+          "19%",
+          "310 EUR",
+          87380
+        ],
+        [
+          "Baden-Württemberg",
+          "19%",
+          "330 EUR",
+          87400
+        ]
+      ],
+      "options": [
+        5000,
+        2000,
+        1200,
+        1000,
+        800,
+        1300
+      ],
+      "roadTax": 380,
+      "exchangeRateEUR": 1
+    },
+    "ae": {
+      "flag": "🇦🇪",
+      "currency": "AED",
+      "locale": "ar-AE",
+      "name": "الإمارات",
+      "fuelMetric": true,
+      "priceNew": 260000,
+      "pricePerformance": 280000,
+      "priceCarbon": 300000,
+      "rivalM5": 440000,
+      "rivalAmg": 520000,
+      "fuelDefault": 15,
+      "fuelMin": 8,
+      "fuelMax": 30,
+      "fuelStep": 1,
+      "maintenance": 3000,
+      "inspection": 200,
+      "oilChange": 100,
+      "insurance": 8000,
+      "tyres": 2800,
+      "dep3": 156000,
+      "dep5": 104000,
+      "depAnnual": {
+        "used3": 34667,
+        "new": 52000,
+        "used5": 20800
+      },
+      "used3Range": "148,000 - 164,000 AED",
+      "used5Range": "99,000 - 109,000 AED",
+      "fiscalHead": [
+        "Emirate",
+        "VAT",
+        "Registration",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "Dubai",
+          "5%",
+          "500 AED",
+          273800
+        ],
+        [
+          "Abu Dhabi",
+          "5%",
+          "500 AED",
+          273800
+        ],
+        [
+          "Sharjah",
+          "5%",
+          "400 AED",
+          273700
+        ],
+        [
+          "Ajman",
+          "5%",
+          "350 AED",
+          273650
+        ],
+        [
+          "Ras Al Khaimah",
+          "5%",
+          "350 AED",
+          273650
+        ]
+      ],
+      "options": [
+        18400,
+        7300,
+        4400,
+        3700,
+        2900,
+        4800
+      ],
+      "roadTax": 200,
+      "exchangeRateEUR": 3.67
+    },
+    "gb": {
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "locale": "en-GB",
+      "name": "United Kingdom",
+      "fuelMetric": true,
+      "priceNew": 65800,
+      "pricePerformance": 70000,
+      "priceCarbon": 74000,
+      "rivalM5": 95000,
+      "rivalAmg": 120000,
+      "fuelDefault": 25,
+      "fuelMin": 15,
+      "fuelMax": 40,
+      "fuelStep": 1,
+      "maintenance": 1800,
+      "inspection": 150,
+      "oilChange": 60,
+      "insurance": 1500,
+      "tyres": 1300,
+      "dep3": 39480,
+      "dep5": 26320,
+      "depAnnual": {
+        "used3": 8773,
+        "new": 13160,
+        "used5": 5264
+      },
+      "used3Range": "37,500 - 41,500 GBP",
+      "used5Range": "25,000 - 27,700 GBP",
+      "fiscalHead": [
+        "Region",
+        "VAT",
+        "VED",
+        "Final Price"
+      ],
+      "fiscalRows": [
+        [
+          "England",
+          "20%",
+          "0 GBP",
+          78960
+        ],
+        [
+          "Scotland",
+          "20%",
+          "0 GBP",
+          78960
+        ],
+        [
+          "Wales",
+          "20%",
+          "0 GBP",
+          78960
+        ],
+        [
+          "Northern Ireland",
+          "20%",
+          "0 GBP",
+          78960
+        ],
+        [
+          "London",
+          "20%",
+          "0 GBP",
+          78960
+        ]
+      ],
+      "options": [
+        4250,
+        1700,
+        1020,
+        850,
+        680,
+        1100
+      ],
+      "roadTax": 0,
+      "exchangeRateEUR": 0.85
+    },
+    "sa": {
+      "flag": "🇸🇦",
+      "currency": "SAR",
+      "locale": "ar-SA",
+      "name": "السعودية",
+      "fuelMetric": true,
+      "priceNew": 270000,
+      "pricePerformance": 290000,
+      "priceCarbon": 310000,
+      "rivalM5": 440000,
+      "rivalAmg": 520000,
+      "fuelDefault": 15,
+      "fuelMin": 8,
+      "fuelMax": 30,
+      "fuelStep": 1,
+      "maintenance": 2800,
+      "inspection": 200,
+      "oilChange": 100,
+      "insurance": 7000,
+      "tyres": 2600,
+      "dep3": 162000,
+      "dep5": 108000,
+      "depAnnual": {
+        "used3": 36000,
+        "new": 54000,
+        "used5": 21600
+      },
+      "used3Range": "154,000 - 170,000 SAR",
+      "used5Range": "103,000 - 113,000 SAR",
+      "fiscalHead": [
+        "المنطقة",
+        "ضريبة القيمة المضافة",
+        "التسجيل",
+        "السعر النهائي"
+      ],
+      "fiscalRows": [
+        [
+          "الرياض",
+          "15%",
+          "500 SAR",
+          310800
+        ],
+        [
+          "جدة",
+          "15%",
+          "500 SAR",
+          310800
+        ],
+        [
+          "الدمام",
+          "15%",
+          "500 SAR",
+          310800
+        ],
+        [
+          "مكة",
+          "15%",
+          "500 SAR",
+          310800
+        ],
+        [
+          "المدينة",
+          "15%",
+          "500 SAR",
+          310800
+        ]
+      ],
+      "options": [
+        18750,
+        7500,
+        4500,
+        3750,
+        3000,
+        4875
+      ],
+      "roadTax": 200,
+      "exchangeRateEUR": 3.75
+    }
+  },
+  "pageText": {
+    "es": {
+      "scoreDesc": "El Hyundai Ioniq 6 N obtiene una puntuacion excelente gracias a su rendimiento electrico de 650 PS y tecnologia N exclusiva.",
+      "worthDesc": "Con un precio competitivo frente a rivales como Porsche Taycan, el Ioniq 6 N ofrece una relacion prestaciones/precio imbatible.",
+      "pros": [
+        "Aceleracion de 0-100 en 3.2 segundos con N Launch Control",
+        "Autonomia de 487 km (WLTP)",
+        "N Grin Boost con 650 PS temporales",
+        "N e-Shift simula cambios de marcha",
+        "Carga ultra rapida de 350 kW (10-80% en 18 min)"
+      ],
+      "cons": [
+        "Consumo elevado en conduccion deportiva",
+        "Maletero de 401 litros limitado para el segmento",
+        "Peso de 2201 kg condiciona dinamica en circuito",
+        "Autonomia reducida respecto al Ioniq 6 estandar"
+      ],
+      "usedGuide": {
+        "card1Title": "Kilometraje y estado",
+        "card1Items": [
+          "Hasta 50.000 km: mejor relacion valor",
+          "Revisar historial de carga y actualizaciones",
+          "Evitar unidades con desgaste irregular de neumaticos"
+        ],
+        "card2Title": "Mecanica",
+        "card2Items": [
+          "Revisar estado de bateria y garantia",
+          "Comprobar frenos y liquidos",
+          "Revisar suspension electronica (ECS)"
+        ],
+        "card3Title": "Electronica",
+        "card3Items": [
+          "Actualizaciones de software Hyundai",
+          "Funcionamiento de N e-Shift y N Grin Boost",
+          "Pantallas y conectividad"
+        ],
+        "card4Title": "Precio y reventa",
+        "card4Items": [
+          "Mejor compra a los 2-3 anos",
+          "Colores populares: Performance Blue, Cyber Grey",
+          "Unidades con paquetes N opcionales valoradas"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autopista",
+          "desc": "HDA2, confort y autonomia suficiente para viajes largos."
+        },
+        "city": {
+          "title": "Ciudad",
+          "desc": "Manejable para sus 4.94 metros, aceleracion instantanea."
+        },
+        "family": {
+          "title": "Familiar",
+          "desc": "5 plazas y maletero de 401 litros."
+        },
+        "collector": {
+          "title": "Coleccionista",
+          "desc": "Primer sedan N electrico de Hyundai, pieza de coleccion."
+        },
+        "track": {
+          "title": "Circuito",
+          "desc": "N Grin Boost y N e-Shift ofrecen experiencia de circuito unica."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Revision anual basica",
+          "desc": "Rotacion de neumaticos, liquido limpiaparabrisas, inspeccion de frenos y verificacion del liquido de refrigeracion de bateria."
+        },
+        {
+          "title": "Servicio intermedio",
+          "desc": "Filtro de habitaculo, liquido de frenos y bateria de 12V."
+        },
+        {
+          "title": "Servicio mayor",
+          "desc": "Liquido de frenos, refrigerante de bateria e inspeccion del tren motriz electrico."
+        },
+        {
+          "title": "Suspension y neumaticos",
+          "desc": "Inspeccion de amortiguadores, bieletas y juego de neumaticos de alto rendimiento."
+        }
+      ],
+      "faq": {
+        "q1": "¿Cuanta autonomia tiene el Hyundai Ioniq 6 N 2026?",
+        "a1": "El Hyundai Ioniq 6 N 2026 homologa 487 km de autonomia WLTP con su bateria de 84 kWh.",
+        "q2": "¿Cuanto acelera el Ioniq 6 N de 0 a 100 km/h?",
+        "a2": "El Ioniq 6 N acelera de 0 a 100 km/h en 3.2 segundos con N Launch Control.",
+        "q3": "¿Cual es el precio del Hyundai Ioniq 6 N 2026?",
+        "a3": "En Reino Unido el precio parte de 65.800 GBP; en Europa se estima entre 72.000-74.000 EUR.",
+        "q4": "¿Cuantos caballos tiene el Ioniq 6 N?",
+        "a4": "El Ioniq 6 N entrega 650 PS con N Grin Boost y 609 PS en modo normal, con 770 Nm de par.",
+        "q5": "¿Cuanto tarda en cargar el Ioniq 6 N?",
+        "a5": "Con un cargador DC de 350 kW puede recuperar del 10% al 80% en aproximadamente 18 minutos.",
+        "q6": "¿Hyundai Ioniq 6 N o Tesla Model S Plaid?",
+        "a6": "El Model S Plaid gana en aceleracion y autonomia. El Ioniq 6 N ofrece mejor relacion calidad-precio y experiencia mas engaging.",
+        "q7": "¿Vale la pena comprar un Ioniq 6 N de segunda mano?",
+        "a7": "Si, a partir de los 2-3 anos. Revisar historial de software, bateria y estado de neumaticos."
+      },
+      "dep": {
+        "loss3": "~40% de perdida a los 3 anos",
+        "loss5": "~60% de perdida a los 5 anos"
+      },
+      "versions": {
+        "sportbackDesc": "Hyundai Ioniq 6 N con 650 PS y autonomia de 487 km.",
+        "performanceDesc": "Maxima potencia con N Grin Boost y N Launch Control.",
+        "carbonDesc": "Llantas forjadas de 20 pulgadas y detalles N exclusivos.",
+        "modelssplaidDesc": "Hyundai Ioniq 6 N con 650 PS y traccion AWD de doble motor."
+      },
+      "buyingGuideDesc": "Guia de compra para el {{fullModelName}}: versiones, precios, opciones recomendadas y consejos para comprar de segunda mano.",
+      "reviewText": "El {{fullModelName}} es el sedan electrico deportivo de Hyundai N: 650 PS con N Grin Boost, aceleracion de 3.2 s y 487 km de autonomia WLTP."
+    },
+    "en": {
+      "scoreDesc": "The Hyundai Ioniq 6 N gets an excellent score thanks to its 650 PS electric performance and exclusive N technology.",
+      "worthDesc": "With a competitive price against rivals like the Porsche Taycan, the Ioniq 6 N offers an unbeatable performance-to-price ratio.",
+      "pros": [
+        "0-100 km/h acceleration in 3.2 seconds with N Launch Control",
+        "487 km range (WLTP)",
+        "N Grin Boost with temporary 650 PS",
+        "N e-Shift simulates gear shifts",
+        "Ultra-fast 350 kW charging (10-80% in 18 min)"
+      ],
+      "cons": [
+        "High consumption in sporty driving",
+        "401 liter trunk limited for the segment",
+        "2201 kg weight conditions track dynamics",
+        "Reduced range compared to standard Ioniq 6"
+      ],
+      "usedGuide": {
+        "card1Title": "Mileage and condition",
+        "card1Items": [
+          "Up to 50,000 km: best value",
+          "Check charging and update history",
+          "Avoid units with irregular tire wear"
+        ],
+        "card2Title": "Mechanics",
+        "card2Items": [
+          "Check battery status and warranty",
+          "Check brakes and fluids",
+          "Check electronic suspension (ECS)"
+        ],
+        "card3Title": "Electronics",
+        "card3Items": [
+          "Hyundai software updates",
+          "N e-Shift and N Grin Boost operation",
+          "Screens and connectivity"
+        ],
+        "card4Title": "Price and resale",
+        "card4Items": [
+          "Best buy at 2-3 years",
+          "Popular colors: Performance Blue, Cyber Grey",
+          "Units with optional N packages valued"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Highway",
+          "desc": "HDA2, comfort and sufficient range for long trips."
+        },
+        "city": {
+          "title": "City",
+          "desc": "Manageable for its 4.94 meters, instant acceleration."
+        },
+        "family": {
+          "title": "Family",
+          "desc": "5 seats and 401 liter trunk."
+        },
+        "collector": {
+          "title": "Collector",
+          "desc": "First electric N sedan from Hyundai, a collector's piece."
+        },
+        "track": {
+          "title": "Track",
+          "desc": "N Grin Boost and N e-Shift offer a unique track experience."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Basic annual check",
+          "desc": "Tire rotation, wiper fluid, brake inspection and battery coolant check."
+        },
+        {
+          "title": "Intermediate service",
+          "desc": "Cabin air filter, brake fluid and 12V battery check."
+        },
+        {
+          "title": "Major service",
+          "desc": "Brake fluid, battery coolant and electric drivetrain inspection."
+        },
+        {
+          "title": "Suspension and tires",
+          "desc": "Shock absorbers, links and high-performance tire set inspection."
+        }
+      ],
+      "faq": {
+        "q1": "What is the range of the Hyundai Ioniq 6 N 2026?",
+        "a1": "The Hyundai Ioniq 6 N 2026 is homologated at 487 km of WLTP range with its 84 kWh battery.",
+        "q2": "How fast does the Ioniq 6 N accelerate from 0 to 100 km/h?",
+        "a2": "The Ioniq 6 N accelerates from 0 to 100 km/h in 3.2 seconds with N Launch Control.",
+        "q3": "What is the price of the Hyundai Ioniq 6 N 2026?",
+        "a3": "In the UK the price starts at 65,800 GBP; in Europe it is estimated between 72,000-74,000 EUR.",
+        "q4": "How many horsepower does the Ioniq 6 N have?",
+        "a4": "The Ioniq 6 N delivers 650 PS with N Grin Boost and 609 PS in normal mode, with 770 Nm of torque.",
+        "q5": "How long does it take to charge the Ioniq 6 N?",
+        "a5": "With a 350 kW DC charger it can recover from 10% to 80% in approximately 18 minutes.",
+        "q6": "Hyundai Ioniq 6 N or Tesla Model S Plaid?",
+        "a6": "The Model S Plaid wins in acceleration and range. The Ioniq 6 N offers better value and a more engaging driving experience.",
+        "q7": "Is it worth buying a second-hand Ioniq 6 N?",
+        "a7": "Yes, from 2-3 years. Check software history, battery and tire condition."
+      },
+      "dep": {
+        "loss3": "~40% loss at 3 years",
+        "loss5": "~60% loss at 5 years"
+      },
+      "versions": {
+        "sportbackDesc": "Hyundai Ioniq 6 N with 650 PS and 487 km range.",
+        "performanceDesc": "Maximum power with N Grin Boost and N Launch Control.",
+        "carbonDesc": "20-inch forged wheels and exclusive N details.",
+        "modelssplaidDesc": "Hyundai Ioniq 6 N with 650 PS and dual-motor AWD."
+      },
+      "buyingGuideDesc": "Buying guide for the {{fullModelName}}: versions, prices, recommended options and second-hand buying tips.",
+      "reviewText": "The {{fullModelName}} is Hyundai N's electric sports sedan: 650 PS with N Grin Boost, 3.2 s acceleration and 487 km WLTP range."
+    },
+    "fr": {
+      "scoreDesc": "La Hyundai Ioniq 6 N obtient une excellente note grâce à ses performances électriques de 650 PS et sa technologie N exclusive.",
+      "worthDesc": "Avec un prix compététitif face à des rivales comme la Porsche Taycan, l'Ioniq 6 N offre un rapport performances/prix imbattable.",
+      "pros": [
+        "Accélération 0-100 en 3,2 secondes avec N Launch Control",
+        "Autonomie de 487 km (WLTP)",
+        "N Grin Boost avec 650 PS temporaires",
+        "N e-Shift simule les changements de vitesse",
+        "Charge ultra-rapide 350 kW (10-80% en 18 min)"
+      ],
+      "cons": [
+        "Consommation élevée en conduite sportive",
+        "Coffre de 401 litres limité pour le segment",
+        "Poids de 2201 kg conditionne la dynamique sur circuit",
+        "Autonomie réduite par rapport à l'Ioniq 6 standard"
+      ],
+      "usedGuide": {
+        "card1Title": "Kilométrage et état",
+        "card1Items": [
+          "Jusqu'à 50 000 km : meilleur rapport valeur",
+          "Vérifier l'historique de charge et de mises à jour",
+          "Éviter les unités avec usure irrégulière des pneus"
+        ],
+        "card2Title": "Mécanique",
+        "card2Items": [
+          "Vérifier l'état de la batterie et la garantie",
+          "Vérifier les freins et les liquides",
+          "Vérifier la suspension électronique (ECS)"
+        ],
+        "card3Title": "Électronique",
+        "card3Items": [
+          "Mises à jour logicielles Hyundai",
+          "Fonctionnement de N e-Shift et N Grin Boost",
+          "Écrans et connectivité"
+        ],
+        "card4Title": "Prix et revente",
+        "card4Items": [
+          "Meilleur achat à 2-3 ans",
+          "Couleurs populaires : Performance Blue, Cyber Grey",
+          "Unités avec packs N optionnels valorisées"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "Autoroute",
+          "desc": "HDA2, confort et autonomie suffisante pour les longs trajets."
+        },
+        "city": {
+          "title": "Ville",
+          "desc": "Maniable pour ses 4,94 mètres, accélération instantanée."
+        },
+        "family": {
+          "title": "Famille",
+          "desc": "5 places et coffre de 401 litres."
+        },
+        "collector": {
+          "title": "Collection",
+          "desc": "Première berline N électrique de Hyundai, pièce de collection."
+        },
+        "track": {
+          "title": "Circuit",
+          "desc": "N Grin Boost et N e-Shift offrent une expérience circuit unique."
+        }
+      },
+      "timeline": [
+        {
+          "title": "Vérification annuelle de base",
+          "desc": "Rotation des pneus, liquide lave-glace, inspection des freins et vérification du liquide de refroidissement de batterie."
+        },
+        {
+          "title": "Service intermédiaire",
+          "desc": "Filtre d'habitacle, liquide de freins et batterie 12V."
+        },
+        {
+          "title": "Grand service",
+          "desc": "Liquide de freins, liquide de refroidissement de batterie et inspection du groupe motopropulseur électrique."
+        },
+        {
+          "title": "Suspension et pneus",
+          "desc": "Inspection des amortisseurs, biellettes et jeu de pneus haute performance."
+        }
+      ],
+      "faq": {
+        "q1": "Quelle est l'autonomie du Hyundai Ioniq 6 N 2026 ?",
+        "a1": "Le Hyundai Ioniq 6 N 2026 homologue 487 km d'autonomie WLTP avec sa batterie de 84 kWh.",
+        "q2": "Quelle est l'accélération du Ioniq 6 N de 0 à 100 km/h ?",
+        "a2": "Le Ioniq 6 N accélère de 0 à 100 km/h en 3,2 secondes avec le N Launch Control.",
+        "q3": "Quel est le prix du Hyundai Ioniq 6 N 2026 ?",
+        "a3": "Au Royaume-Uni le prix démarre à 65 800 GBP ; en Europe il est estimé entre 72 000-74 000 EUR.",
+        "q4": "Combien de chevaux a le Ioniq 6 N ?",
+        "a4": "Le Ioniq 6 N développe 650 PS avec N Grin Boost et 609 PS en mode normal, avec 770 Nm de couple.",
+        "q5": "Combien de temps faut-il pour charger le Ioniq 6 N ?",
+        "a5": "Avec un chargeur DC de 350 kW, il peut récupérer de 10% à 80% en environ 18 minutes.",
+        "q6": "Hyundai Ioniq 6 N ou Tesla Model S Plaid ?",
+        "a6": "La Model S Plaid gagne en accélération et autonomie. L'Ioniq 6 N offre un meilleur rapport qualité-prix et une expérience plus engageante.",
+        "q7": "Vaut-il le coup d'acheter un Ioniq 6 N d'occasion ?",
+        "a7": "Oui, à partir de 2-3 ans. Vérifier l'historique logiciel, la batterie et l'état des pneus."
+      },
+      "dep": {
+        "loss3": "~40% de perte à 3 ans",
+        "loss5": "~60% de perte à 5 ans"
+      },
+      "versions": {
+        "sportbackDesc": "Hyundai Ioniq 6 N avec 650 PS et autonomie de 487 km.",
+        "performanceDesc": "Puissance maximale avec N Grin Boost et N Launch Control.",
+        "carbonDesc": "Jantes forgées de 20 pouces et détails N exclusifs.",
+        "modelssplaidDesc": "Hyundai Ioniq 6 N avec 650 PS et AWD à double moteur."
+      },
+      "buyingGuideDesc": "Guide d'achat pour la {{fullModelName}} : versions, prix, options recommandées et conseils pour acheter d'occasion.",
+      "reviewText": "La {{fullModelName}} est la berline électrique sportive de Hyundai N : 650 PS avec N Grin Boost, accélération de 3,2 s et 487 km d'autonomie WLTP."
+    },
+    "ar": {
+      "scoreDesc": "تحصل هيونداي أيونيك 6 N على تقييم ممتاز بفضل أدائها الكهربائي بقوة 650 حصان وتقنية N الحصرية.",
+      "worthDesc": "بسعر تنافسي مقابل منافسين مثل بورش تايكان، تقدم أيونيك 6 N نسبة أداء/سعر لا تُضاهى.",
+      "pros": [
+        "تسارع 0-100 كم/س في 3.2 ثانية مع تحكم انطلاق N",
+        "مدى 487 كم (WLTP)",
+        "N Grin Boost بقوة 650 حصان مؤقتة",
+        "N e-Shift يحاكي تغيير التروس",
+        "شحن فائق السرعة 350 كيلوواط (10-80% في 18 دقيقة)"
+      ],
+      "cons": [
+        "استهلاك عالٍ في القيادة الرياضية",
+        "صندوق 401 لتر محدود للفئة",
+        "وزن 2201 كجم يؤثر على الديناميكيا في الحلبة",
+        "مدى أقل مقارنة بـ أيونيك 6 القياسية"
+      ],
+      "usedGuide": {
+        "card1Title": "الكيلومتراج والحالة",
+        "card1Items": [
+          "حتى 50,000 كم: أفضل قيمة",
+          "التحقق من سجل الشحن والتحديثات",
+          "تجنب السيارات بتآكل إطارات غير منتظم"
+        ],
+        "card2Title": "الميكانيكا",
+        "card2Items": [
+          "التحقق من حالة البطارية والضمان",
+          "فحص الفرامل والسوائل",
+          "فحص التعليق الإلكتروني (ECS)"
+        ],
+        "card3Title": "الإلكترونيات",
+        "card3Items": [
+          "تحديثات برامج هيونداي",
+          "عمل N e-Shift و N Grin Boost",
+          "الشاشات والاتصال"
+        ],
+        "card4Title": "السعر وإعادة البيع",
+        "card4Items": [
+          "أفضل شراء من 2-3 سنوات",
+          "الألوان الشائعة: أزرق الأداء، رمادي سايبر",
+          "السيارات بحزم N اختيارية ذات قيمة أعلى"
+        ]
+      },
+      "profileData": {
+        "highway": {
+          "title": "الطريق السريع",
+          "desc": "HDA2 وراحة ومدى كافٍ للرحلات الطويلة."
+        },
+        "city": {
+          "title": "المدينة",
+          "desc": "قابلة للمناورة بطول 4.94 متر، تسارع فوري."
+        },
+        "family": {
+          "title": "العائلة",
+          "desc": "5 مقاعد وصندوق 401 لتر."
+        },
+        "collector": {
+          "title": "التحصيل",
+          "desc": "أول سيدان N كهربائية من هيونداي، قطعة تحصيل."
+        },
+        "track": {
+          "title": "الحلبة",
+          "desc": "N Grin Boost و N e-Shift يقدمان تجربة حلبة فريدة."
+        }
+      },
+      "timeline": [
+        {
+          "title": "الفحص السنوي الأساسي",
+          "desc": "تدوير الإطارات، سائل مساحات الزجاج، فحص الفرامل والتحقق من سائل تبريد البطارية."
+        },
+        {
+          "title": "الخدمة المتوسطة",
+          "desc": "فلتر المقصورة، سائل الفرامل وبطارية 12 فولت."
+        },
+        {
+          "title": "الخدمة الكبرى",
+          "desc": "سائل الفرامل، سائل تبريد البطارية وفحص مجموعة الدفع الكهربائية."
+        },
+        {
+          "title": "التعليق والإطارات",
+          "desc": "فحص الممتصات، وصلات التعليق ومجموعة إطارات عالية الأداء."
+        }
+      ],
+      "faq": {
+        "q1": "ما مدى هيونداي أيونيك 6 N 2026؟",
+        "a1": "تحصل هيونداي أيونيك 6 N 2026 على اعتماد 487 كم من مدى WLTP ببطارية 84 كيلوواط ساعة.",
+        "q2": "كم تسارع أيونيك 6 N من 0 إلى 100 كم/س؟",
+        "a2": "يتسارع أيونيك 6 N من 0 إلى 100 كم/س في 3.2 ثانية مع تحكم انطلاق N.",
+        "q3": "ما سعر هيونداي أيونيك 6 N 2026؟",
+        "a3": "في المملكة المتحدة يبدأ السعر من 65,800 جنيه إسترليني؛ في أوروبا يقدر بين 72,000-74,000 يورو.",
+        "q4": "كم حصان لدى أيونيك 6 N؟",
+        "a4": "يولد أيونيك 6 N 650 حصان مع N Grin Boost و 609 حصان في الوضع العادي، مع 770 نيوتن متر من عزم الدوران.",
+        "q5": "كم يستغرق شحن أيونيك 6 N؟",
+        "a5": "مع شاحن تيار مستمر بقوة 350 كيلوواط، يمكن استعادة الشحن من 10% إلى 80% في حوالي 18 دقيقة.",
+        "q6": "هيونداي أيونيك 6 N أم تيسلا موديل أس بليد؟",
+        "a6": "تفوز موديل أس بليد في التسارع والمدى. تقدم أيونيك 6 N قيمة أفضل وتجربة قيادة أكثر تفاعلاً مع N e-Shift.",
+        "q7": "هل يستحق شراء أيونيك 6 N مستعمل؟",
+        "a7": "نعم، من 2-3 سنوات. تحقق من سجل البرامج وحالة البطارية والإطارات."
+      },
+      "dep": {
+        "loss3": "~40% خسارة بعد 3 سنوات",
+        "loss5": "~60% خسارة بعد 5 سنوات"
+      },
+      "versions": {
+        "sportbackDesc": "هيونداي أيونيك 6 N بـ 650 حصان ومدى 487 كم.",
+        "performanceDesc": "أقصى قوة مع N Grin Boost و تحكم انطلاق N.",
+        "carbonDesc": "عجلات مطروقة 20 بوصة وتفاصيل N حصرية.",
+        "modelssplaidDesc": "هيونداي أيونيك 6 N بـ 650 حصان ودفع رباعي بمحركين."
+      },
+      "buyingGuideDesc": "دليل شراء {{fullModelName}}: النسخ، الأسعار، الخيارات الموصى بها ونصائح شراء السيارات المستعملة.",
+      "reviewText": "{{fullModelName}} هي السيدان الكهربائي الرياضي من هيونداي N: 650 حصان مع N Grin Boost، تسارع 3.2 ثانية ومدى 487 كم (WLTP)."
+    }
+  },
+  "review": {
+    "es": {
+      "summary": "El Hyundai Ioniq 6 N redefine el sedan electrico deportivo. Con 650 PS gracias al N Grin Boost y 770 Nm de par, acelera de 0 a 100 km/h en 3.2 segundos.",
+      "fullText": "El Hyundai Ioniq 6 N es la apuesta mas radical de la marca coreana en el mundo del rendimiento electrico. Basado en la plataforma E-GMP, combina un diseno aerodinamico (Cd 0.274) con un tren motriz dual de 650 PS con N Grin Boost. Los 770 Nm de par se entregan instantaneamente a las cuatro ruedas, permitiendo un 0-100 en 3.2 segundos con N Launch Control. La bateria de 84 kWh ofrece 487 km de autonomia WLTP, y la carga ultra rapida de 350 kW permite recuperar del 10% al 80% en solo 18 minutos. Lo que distingue al Ioniq 6 N de otros EV deportivos es su enfoque en la experiencia de conduccion: el sistema N e-Shift simula cambios de marcha mediante las levas del volante, mientras que el N Grin Boost ofrece un aumento temporal de potencia durante 10 segundos. La suspension con Stroke Sensing ECS y los frenos de 400 mm delanteros con pinzas de 4 pistones aseguran un dinamismo a la altura de las mejores berlinas deportivas. Como inconvenientes, el peso de 2201 kg limita la agilidad en circuito, el consumo se dispara en conduccion deportiva, y el maletero de 401 litros es algo justo para el segmento.",
+      "verdict": "buy",
+      "bestFor": [
+        "Entusiastas del rendimiento electrico que valoran la interaccion del conductor",
+        "Conductores que buscan un EV deportivo con personalidad propia y N e-Shift",
+        "Tecnofilos que aprecian las funciones N exclusivas y la carga ultra rapida",
+        "Compradores que quieren prestaciones de superdeportivo a precio accesible"
+      ],
+      "scoreBreakdown": {
+        "performance": 9,
+        "comfort": 8,
+        "practicality": 7.5,
+        "runningCosts": 8,
+        "reliability": 8.5
+      }
+    },
+    "en": {
+      "summary": "The Hyundai Ioniq 6 N redefines the electric sports sedan. With 650 PS from N Grin Boost and 770 Nm of torque, it hits 100 km/h in 3.2 seconds.",
+      "fullText": "The Hyundai Ioniq 6 N is the Korean brand's most radical bet in the electric performance world. Based on the E-GMP platform, it combines an aerodynamic design (Cd 0.274) with a dual powertrain of 650 PS with N Grin Boost. The 770 Nm of torque is delivered instantly to all four wheels, enabling 0-100 in 3.2 seconds with N Launch Control. The 84 kWh battery offers 487 km of WLTP range, and the 350 kW ultra-fast charging allows recovering from 10% to 80% in just 18 minutes. What sets the Ioniq 6 N apart from other performance EVs is its focus on driving engagement: the N e-Shift system simulates gear shifts via steering wheel paddles, while N Grin Boost provides a temporary power increase for 10 seconds. The suspension with Stroke Sensing ECS and 400 mm front brakes with 4-piston calipers ensure dynamics worthy of the best sport sedans. Drawbacks include the 2201 kg weight limiting track agility, consumption soaring during sporty driving, and the 401 liter trunk being somewhat tight for the segment.",
+      "verdict": "buy",
+      "bestFor": [
+        "Electric performance enthusiasts who value driver engagement",
+        "Drivers looking for a performance EV with unique personality and N e-Shift",
+        "Tech lovers who appreciate exclusive N features and ultra-fast charging",
+        "Buyers wanting supercar performance at an accessible price"
+      ],
+      "scoreBreakdown": {
+        "performance": 9,
+        "comfort": 8,
+        "practicality": 7.5,
+        "runningCosts": 8,
+        "reliability": 8.5
+      }
+    },
+    "fr": {
+      "summary": "La Hyundai Ioniq 6 N redéfinit la berline électrique sportive. Avec 650 PS grâce au N Grin Boost et 770 Nm de couple, elle atteint 100 km/h en 3,2 secondes.",
+      "fullText": "La Hyundai Ioniq 6 N est le pari le plus radical de la marque coréenne dans le monde de la performance électrique. Basée sur la plateforme E-GMP, elle combine un design aérodynamique (Cx 0,274) avec un groupe motopropulseur double de 650 PS avec N Grin Boost. Les 770 Nm de couple sont délivrés instantanément aux quatre roues, permettant un 0-100 en 3,2 secondes avec le N Launch Control. La batterie de 84 kWh offre 487 km d'autonomie WLTP, et la charge ultra-rapide de 350 kW permet de récupérer de 10% à 80% en seulement 18 minutes. Ce qui distingue l'Ioniq 6 N des autres EV sportifs, c'est son accent sur l'engagement du conducteur : le système N e-Shift simule les changements de vitesse via les palettes au volant, tandis que le N Grin Boost offre une augmentation temporaire de puissance pendant 10 secondes. La suspension avec Stroke Sensing ECS et les freins de 400 mm à l'avant avec étriers à 4 pistons assurent un dynamisme digne des meilleures berlines sportives.",
+      "verdict": "buy",
+      "bestFor": [
+        "Les amateurs de performance électrique qui apprécient l'interaction du conducteur",
+        "Les conducteurs cherchant un EV sportif avec une personnalité propre et le N e-Shift",
+        "Les technophiles qui apprécient les fonctions N exclusives et la charge ultra-rapide",
+        "Les acheteurs voulant des performances de supercar à un prix accessible"
+      ],
+      "scoreBreakdown": {
+        "performance": 9,
+        "comfort": 8,
+        "practicality": 7.5,
+        "runningCosts": 8,
+        "reliability": 8.5
+      }
+    },
+    "ar": {
+      "summary": "تعيد هيونداي أيونيك 6 N تعريف السيدان الكهربائي الرياضي. بقوة 650 حصان مع N Grin Boost و 770 نيوتن متر من عزم الدوران، تصل إلى 100 كم/س في 3.2 ثانية.",
+      "fullText": "هيونداي أيونيك 6 N هي الرهان الأكثر تطرفاً من العلامة الكورية في عالم الأداء الكهربائي. مبنية على منصة E-GMP، تجمع بين تصميم ديناميكي هوائي (معامل السحب 0.274) ومجموعة محرك مزدوجة بقوة 650 حصان مع N Grin Boost. يتم تسليم عزم الدوران 770 نيوتن متر فوراً إلى العجلات الأربع، مما يتيح تسارع 0-100 في 3.2 ثانية مع تحكم انطلاق N. بطارية 84 كيلوواط ساعة توفر مدى 487 كم (WLTP)، والشحن الفائق السرعة 350 كيلوواط يسمح باستعادة الشحن من 10% إلى 80% في 18 دقيقة فقط. ما يميز أيونيك 6 N عن سيارات EV الرياضية الأخرى هو تركيزها على تفاعل السائق: نظام N e-Shift يحاكي تغيير التروس عبر أعمدة عجلة القيادة، بينما يوفر N Grin Boost زيادة مؤقتة في القوة لمدة 10 ثوانٍ.",
+      "verdict": "شراء",
+      "bestFor": [
+        "عشاق الأداء الكهربائي الذين يقدرون تفاعل السائق",
+        "السائقون الذين يبحثون عن سيارة كهربائية رياضية بشخصية فريدة و N e-Shift",
+        "محبو التقنية الذين يقدرون وظائف N الحصرية والشحن الفائق السرعة",
+        "المشترون الذين يريدون أداء سوبركار بسعر مناسب"
+      ],
+      "scoreBreakdown": {
+        "performance": 9,
+        "comfort": 8,
+        "practicality": 7.5,
+        "runningCosts": 8,
+        "reliability": 8.5
+      }
+    }
+  },
+  "drivingExperience": {
+    "es": {
+      "handling": {
+        "summary": "El chasis del Ioniq 6 N es sorprendentemente capaz para sus 2201 kg, con distribucion de peso optima gracias a la bateria en el suelo.",
+        "steeringFeel": "La direccion R-MDPS ofrece buena precision y feedback, mas deportiva que el Ioniq 6 estandar.",
+        "bodyRoll": "Minimo gracias a la suspension ECS. En modo N el coche se mantiene plano en curvas rapidas.",
+        "gripLevels": "Extraordinarios con el sistema AWD de doble motor. La gestion vectorial del par permite salidas de curva a fondo.",
+        "rideQuality": "En modo Comfort absorbe baches con solvencia. En modo N se vuelve firme pero nunca incomodo."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal e inmediata. Los 770 Nm disponibles instantaneamente. N Launch Control permite 0-100 en 3.2s.",
+        "braking": "Discos de 400 mm delanteros con pinzas de 4 pistones. Frenado regenerativo potente, conduccion de un pedal.",
+        "sound": "N e-Shift genera un sonido sintetico que simula cambios de marcha. Silencioso en modo Comfort.",
+        "transmission": "Transmision de una marcha con N e-Shift simula 8 velocidades, experiencia unica entre EV."
+      },
+      "dailyDriving": {
+        "comfort": "Excelente para trayectos largos. Asientos N con buen soporte sin sacrificar comodidad.",
+        "visibility": "Buena hacia adelante. El diseno aerodinamico limita ligeramente la vision trasera.",
+        "parking": "Manejable para sus 4.94 metros gracias a camaras y sensores.",
+        "motorway": "HDA2 mantiene distancia y centra el vehiculo. Potencia para adelantamientos instantaneos."
+      }
+    },
+    "en": {
+      "handling": {
+        "summary": "The Ioniq 6 N chassis is surprisingly capable for its 2,201 kg, with optimal weight distribution thanks to the floor-mounted battery.",
+        "steeringFeel": "The R-MDPS steering offers good precision and feedback, sportier than the standard Ioniq 6.",
+        "bodyRoll": "Minimal thanks to the ECS suspension. In N mode the car stays flat through fast corners.",
+        "gripLevels": "Extraordinary with the dual-motor AWD system. Torque vectoring allows full-throttle corner exits.",
+        "rideQuality": "In Comfort mode it absorbs bumps with ease. In N mode it becomes firm but never uncomfortable."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutal and immediate. The 770 Nm available instantly. N Launch Control delivers consistent 0-100 in 3.2s.",
+        "braking": "400 mm front discs with 4-piston calipers. Powerful regenerative braking, one-pedal driving.",
+        "sound": "N e-Shift generates a synthetic sound simulating gear shifts. Silent in Comfort mode.",
+        "transmission": "Single-speed with N e-Shift simulates 8 gears, unique experience among EVs."
+      },
+      "dailyDriving": {
+        "comfort": "Excellent for long journeys. N sports seats with good support without sacrificing comfort.",
+        "visibility": "Good forward visibility. Aerodynamic design slightly limits rear visibility.",
+        "parking": "Manageable for its 4.94 meters thanks to cameras and sensors.",
+        "motorway": "HDA2 maintains distance and centers the car. Power for instant overtaking."
+      }
+    },
+    "fr": {
+      "handling": {
+        "summary": "Le châssis de l'Ioniq 6 N est étonnamment capable pour ses 2 201 kg, avec une répartition optimale du poids.",
+        "steeringFeel": "La direction R-MDPS offre une bonne précision et un bon feedback, plus sportive que l'Ioniq 6 standard.",
+        "bodyRoll": "Minimal grâce à la suspension ECS. En mode N la voiture reste plate dans les virages rapides.",
+        "gripLevels": "Extraordinaire avec le système AWD à double moteur. Vectorisation de couple pour sorties à fond.",
+        "rideQuality": "En mode Comfort absorbe les bosses avec aisance. En mode N ferme mais jamais inconfortable."
+      },
+      "performanceFeel": {
+        "acceleration": "Brutale et immédiate. Les 770 Nm disponibles instantanément. N Launch Control permet 0-100 en 3,2 s.",
+        "braking": "Disques 400 mm avant avec étriers 4 pistons. Freinage régénératif puissant, conduite à une pédale.",
+        "sound": "N e-Shift génère un son synthétique simulant les changements de vitesse. Silencieux en mode Comfort.",
+        "transmission": "Transmission à une vitesse avec N e-Shift simule 8 rapports, expérience unique parmi les EV."
+      },
+      "dailyDriving": {
+        "comfort": "Excellente pour les longs trajets. Sièges N avec bon maintien sans sacrifier le confort.",
+        "visibility": "Bonne visibilité avant. Design aérodynamique limite légèrement la visibilité arrière.",
+        "parking": "Maniable pour ses 4,94 mètres grâce aux caméras et capteurs.",
+        "motorway": "HDA2 maintient la distance et centre le véhicule. Puissance pour dépassements instantanés."
+      }
+    },
+    "ar": {
+      "handling": {
+        "summary": "هيكل أيونيك 6 N مدهش بقدراته لوزنه 2201 كجم، مع توزيع مثالي للوزن بفضل البطارية في الأرضية.",
+        "steeringFeel": "توجيه R-MDPS يقدم دقة ورداً جيداً، أكثر رياضية من أيونيك 6 القياسية.",
+        "bodyRoll": "محدود بفضل تعليق ECS. في وضع N تظل مسطحة في المنعطفات السريعة.",
+        "gripLevels": "استثنائي مع نظام الدفع الرباعي بمحركين. تحويل العزم يسمح بالخروج بدواسة كاملة.",
+        "rideQuality": "في وضع الراحة يمتص المطبات بسهولة. في وضع N متين لكنه ليس غير مريح."
+      },
+      "performanceFeel": {
+        "acceleration": "وحشي وفوري. 770 نيوتن متر متاح فوراً. تحكم انطلاق N يحقق 0-100 في 3.2 ثانية.",
+        "braking": "أقراص 400 مم أمامية بكباسات 4 مكابس. فرامل تجددية قوية، قيادة بدواسة واحدة.",
+        "sound": "N e-Shift يولد صوتاً صناعياً يحاكي تغيير التروس. صامت في وضع الراحة.",
+        "transmission": "أحادي السرعة مع N e-Shift يحاكي 8 سرعات، تجربة فريدة بين السيارات الكهربائية."
+      },
+      "dailyDriving": {
+        "comfort": "ممتازة للرحلات الطويلة. مقاعد N بدعم جيد دون التضحية بالراحة.",
+        "visibility": "رؤية أمامية جيدة. التصميم الديناميكي يحد قليلاً من الرؤية الخلفية.",
+        "parking": "قابلة للمناورة لطول 4.94 متر بفضل الكاميرات والحساسات.",
+        "motorway": "HDA2 يحافظ على المسافة ويوسّط السيارة. قوة لتجاوزات فورية."
+      }
+    }
+  },
+  "exteriorDesign": {
+    "es": {
+      "summary": "El Ioniq 6 N mantiene el diseno aerodinamico del Ioniq 6 con elementos deportivos N: aleron trasero, pasos de rueda ensanchados y llantas forjadas de 20 pulgadas.",
+      "stylingNotes": [
+        "Aleron trasero grande para downforce",
+        "Pasos de rueda ensanchados para mayor anchura de via",
+        "Faros LED Matrix con tecnologia pixel",
+        "Llantas forjadas de 20x9.5J con neumaticos Pirelli P-Zero 5"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.274,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Faros LED Matrix con pixel technology y auto-high beam",
+        "taillights": "LED light bar con diseno pixelado",
+        "signature": "DRL signature unico N"
+      },
+      "wheels": {
+        "standard": "20 inch forged alloy 9.5J x 20 with 275/35 R20 Pirelli P-Zero 5",
+        "optional": []
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Performance Blue",
+            "en": "Performance Blue",
+            "fr": "Performance Blue",
+            "ar": "أزرق الأداء"
+          },
+          "hex": "#1B4D8C",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Cyber Grey",
+            "en": "Cyber Grey",
+            "fr": "Cyber Grey",
+            "ar": "رمادي سايبر"
+          },
+          "hex": "#4A4A4A",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Phantom Black",
+            "en": "Phantom Black",
+            "fr": "Phantom Black",
+            "ar": "أسود فانتوم"
+          },
+          "hex": "#111111",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Atlas White",
+            "en": "Atlas White",
+            "fr": "Atlas White",
+            "ar": "أبيض أطلس"
+          },
+          "hex": "#FFFFFF",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Ecotronic Green",
+            "en": "Ecotronic Green",
+            "fr": "Ecotronic Green",
+            "ar": "أخضر إلكتروني"
+          },
+          "hex": "#2D5F3F",
+          "type": "metallic",
+          "priceExtra": 1000
+        }
+      ]
+    },
+    "en": {
+      "summary": "The Ioniq 6 N keeps the aerodynamic design of the Ioniq 6 with N sporty elements: rear wing, flared wheel arches and 20-inch forged wheels.",
+      "stylingNotes": [
+        "Large rear wing for downforce",
+        "Flared wheel arches for wider track",
+        "LED Matrix headlights with pixel technology",
+        "20x9.5J forged wheels with Pirelli P-Zero 5 tires"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.274,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "LED Matrix headlights with pixel technology and auto high beam",
+        "taillights": "LED light bar with pixelated design",
+        "signature": "Unique N DRL signature"
+      },
+      "wheels": {
+        "standard": "20 inch forged alloy 9.5J x 20 with 275/35 R20 Pirelli P-Zero 5",
+        "optional": []
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Performance Blue",
+            "en": "Performance Blue",
+            "fr": "Performance Blue",
+            "ar": "أزرق الأداء"
+          },
+          "hex": "#1B4D8C",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Cyber Grey",
+            "en": "Cyber Grey",
+            "fr": "Cyber Grey",
+            "ar": "رمادي سايبر"
+          },
+          "hex": "#4A4A4A",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Phantom Black",
+            "en": "Phantom Black",
+            "fr": "Phantom Black",
+            "ar": "أسود فانتوم"
+          },
+          "hex": "#111111",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Atlas White",
+            "en": "Atlas White",
+            "fr": "Atlas White",
+            "ar": "أبيض أطلس"
+          },
+          "hex": "#FFFFFF",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Ecotronic Green",
+            "en": "Ecotronic Green",
+            "fr": "Ecotronic Green",
+            "ar": "أخضر إلكتروني"
+          },
+          "hex": "#2D5F3F",
+          "type": "metallic",
+          "priceExtra": 1000
+        }
+      ]
+    },
+    "fr": {
+      "summary": "L'Ioniq 6 N conserve le design aérodynamique de l'Ioniq 6 avec des éléments sportifs N : aileron arrière, passages de roues élargis et jantes forgées de 20 pouces.",
+      "stylingNotes": [
+        "Grand aileron arrière pour l'appui aérodynamique",
+        "Passages de roues élargis pour une voie plus large",
+        "Phares LED Matrix avec technologie pixel",
+        "Jantes forgées 20x9.5J avec pneus Pirelli P-Zero 5"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.274,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "Phares LED Matrix avec technologie pixel et feux de route adaptatifs",
+        "taillights": "Barre lumineuse LED au design pixelisé",
+        "signature": "Signature DRL unique N"
+      },
+      "wheels": {
+        "standard": "Jantes forgées 20x9.5J avec 275/35 R20 Pirelli P-Zero 5",
+        "optional": []
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Performance Blue",
+            "en": "Performance Blue",
+            "fr": "Performance Blue",
+            "ar": "أزرق الأداء"
+          },
+          "hex": "#1B4D8C",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Cyber Grey",
+            "en": "Cyber Grey",
+            "fr": "Cyber Grey",
+            "ar": "رمادي سايبر"
+          },
+          "hex": "#4A4A4A",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Phantom Black",
+            "en": "Phantom Black",
+            "fr": "Phantom Black",
+            "ar": "أسود فانتوم"
+          },
+          "hex": "#111111",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Atlas White",
+            "en": "Atlas White",
+            "fr": "Atlas White",
+            "ar": "أبيض أطلس"
+          },
+          "hex": "#FFFFFF",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Ecotronic Green",
+            "en": "Ecotronic Green",
+            "fr": "Ecotronic Green",
+            "ar": "أخضر إلكتروني"
+          },
+          "hex": "#2D5F3F",
+          "type": "metallic",
+          "priceExtra": 1000
+        }
+      ]
+    },
+    "ar": {
+      "summary": "تحافظ أيونيك 6 N على التصميم الديناميكي لأيونيك 6 مع عناصر رياضية N: جناح خلفي، أجنحة عجلات موسعة وجنوط مطروقة 20 بوصة.",
+      "stylingNotes": [
+        "جناح خلفي كبير للقوة السفلية",
+        "أجنحة عجلات موسعة لزيادة عرض المسار",
+        "مصابيح LED Matrix بتقنية البكسل",
+        "جنوط مطروقة 20x9.5J بإطارات بيريلي بي-زيرو 5"
+      ],
+      "aerodynamics": {
+        "dragCoefficient": 0.274,
+        "activeAero": true
+      },
+      "lighting": {
+        "headlights": "مصابيح LED Matrix بتقنية البكسل والشعاع العالي التكيفي",
+        "taillights": "شريط LED بتصميم بكسلي",
+        "signature": "توقيع DRL فريد N"
+      },
+      "wheels": {
+        "standard": "جنوط مطروقة 20x9.5J بإطارات 275/35 R20 بيريلي بي-زيرو 5",
+        "optional": []
+      },
+      "colors": [
+        {
+          "name": {
+            "es": "Performance Blue",
+            "en": "Performance Blue",
+            "fr": "Performance Blue",
+            "ar": "أزرق الأداء"
+          },
+          "hex": "#1B4D8C",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Cyber Grey",
+            "en": "Cyber Grey",
+            "fr": "Cyber Grey",
+            "ar": "رمادي سايبر"
+          },
+          "hex": "#4A4A4A",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Phantom Black",
+            "en": "Phantom Black",
+            "fr": "Phantom Black",
+            "ar": "أسود فانتوم"
+          },
+          "hex": "#111111",
+          "type": "metallic",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Atlas White",
+            "en": "Atlas White",
+            "fr": "Atlas White",
+            "ar": "أبيض أطلس"
+          },
+          "hex": "#FFFFFF",
+          "type": "solid",
+          "priceExtra": 0
+        },
+        {
+          "name": {
+            "es": "Ecotronic Green",
+            "en": "Ecotronic Green",
+            "fr": "Ecotronic Green",
+            "ar": "أخضر إلكتروني"
+          },
+          "hex": "#2D5F3F",
+          "type": "metallic",
+          "priceExtra": 1000
+        }
+      ]
+    }
+  },
+  "interior": {
+    "es": {
+      "qualityRating": 8,
+      "spaceRating": 8,
+      "infotainmentRating": 9,
+      "summary": "El interior del Ioniq 6 N combina deportividad y tecnologia. Asientos N, volante N con levas y pantallas duales dominan el habitaculo.",
+      "frontSeats": {
+        "comfort": "Asientos deportivos N con refuerzo lateral generoso, ajuste electrico y calefaccion.",
+        "adjustment": "Ajuste electrico multiposicion con memoria.",
+        "material": "Revestimiento de ante sintetico premium con costuras N."
+      },
+      "rearSeats": {
+        "legroom": "Generoso para dos adultos gracias a la batalla de 2965 mm.",
+        "headroom": "Adecuado, aunque personas de mas de 1.85 m notaran el techo abatido.",
+        "comfort": "Respaldo abatible con reposabrazos central y portavasos.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 401,
+        "seatsDownCapacity": 1200,
+        "practicality": "Maletero de 401 litros, suficiente para uso diario. Crece hasta 1200 litros con asientos abatidos.",
+        "loadingLip": "Umbral de carga bajo. Porton electrico con apertura manos libres."
+      },
+      "infotainment": {
+        "screenSize": "12.3 pulgadas dual display",
+        "system": "Hyundai ccOS con navigation, OTA",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "Hyundai App",
+          "Bluetooth 5.0",
+          "Wi-Fi"
+        ],
+        "soundSystem": "Bose Premium Audio 12 altavoces",
+        "digitalCluster": true
+      },
+      "cards": [
+        {
+          "id": "interior-quality",
+          "icon": "seat",
+          "category": "materials"
+        },
+        {
+          "id": "infotainment",
+          "icon": "screen",
+          "category": "technology"
+        },
+        {
+          "id": "sound-system",
+          "icon": "sound",
+          "category": "audio"
+        }
+      ]
+    },
+    "en": {
+      "summary": "The Ioniq 6 N interior combines sportiness and technology. N-specific seats, N steering wheel with paddles and dual displays dominate the cabin.",
+      "frontSeats": {
+        "comfort": "N sports seats with generous lateral support, electric adjustment and heating.",
+        "adjustment": "Multi-position electric adjustment with memory.",
+        "material": "Premium faux-suede trim with N stitching."
+      },
+      "rearSeats": {
+        "legroom": "Generous for two adults thanks to the 2965 mm wheelbase.",
+        "headroom": "Adequate, though people over 1.85 m will notice the sloping roof.",
+        "comfort": "Folding backrest with central armrest and cupholders.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 401,
+        "seatsDownCapacity": 1200,
+        "practicality": "401 liter trunk, sufficient for daily use. Grows to 1200 liters with seats folded.",
+        "loadingLip": "Low loading threshold. Electric tailgate with hands-free opening."
+      },
+      "infotainment": {
+        "screenSize": "12.3 inch dual display",
+        "system": "Hyundai ccOS with navigation, OTA updates",
+        "connectivity": [
+          "Wireless Apple CarPlay",
+          "Wireless Android Auto",
+          "Hyundai App",
+          "Bluetooth 5.0",
+          "Wi-Fi"
+        ],
+        "soundSystem": "Bose Premium Audio 12 speakers",
+        "digitalCluster": true
+      }
+    },
+    "fr": {
+      "summary": "L'intérieur de l'Ioniq 6 N combine sportivité et technologie. Sièges N spécifiques, volant N avec palettes et doubles écrans dominent l'habitacle.",
+      "frontSeats": {
+        "comfort": "Sièges sport N avec support latéral généreux, réglage électrique et chauffage.",
+        "adjustment": "Réglage électrique multiposition avec mémoire.",
+        "material": "Habitacle en suède synthétique premium avec surpiqûres N."
+      },
+      "rearSeats": {
+        "legroom": "Généreux pour deux adultes grâce à l'empattement de 2965 mm.",
+        "headroom": "Adéquat, bien que les personnes de plus de 1,85 m remarquent le toit incliné.",
+        "comfort": "Dossier rabattable avec accoudoir central et porte-gobelets.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 401,
+        "seatsDownCapacity": 1200,
+        "practicality": "Coffre de 401 litres, suffisant pour un usage quotidien. Augmente à 1200 litres avec sièges rabattus.",
+        "loadingLip": "Seuil de chargement bas. Hayon électrique avec ouverture mains libres."
+      },
+      "infotainment": {
+        "screenSize": "12,3 pouces double écran",
+        "system": "Hyundai ccOS avec navigation, mises à jour OTA",
+        "connectivity": [
+          "Apple CarPlay sans fil",
+          "Android Auto sans fil",
+          "Application Hyundai",
+          "Bluetooth 5.0",
+          "Wi-Fi"
+        ],
+        "soundSystem": "Bose Premium Audio 12 haut-parleurs",
+        "digitalCluster": true
+      }
+    },
+    "ar": {
+      "summary": "مقصورة أيونيك 6 N تجمع بين الرياضية والتقنية. مقاعد N المخصصة، دركسون N بأعمدة وشاشتان مزدوجتان تسيطران على المقصورة.",
+      "frontSeats": {
+        "comfort": "مقاعد رياضية N بدعم جانبي سخي، تعديل كهربائي وتدفئة.",
+        "adjustment": "تعديل كهربائي متعدد المواضع مع ذاكرة.",
+        "material": "تشطيب جلد شمواه صناعي فاخر بخياطة N."
+      },
+      "rearSeats": {
+        "legroom": "واسع لشخصين بالغين بفضل قاعدة العجلات 2965 مم.",
+        "headroom": "كافٍ، لكن الأشخاص فوق 1.85 م سيلاحظون السقف المائل.",
+        "comfort": "مسند ظهر قابل للطي مع مسند ذراع مركزي وحاملات أكواب.",
+        "seatsDown": true
+      },
+      "boot": {
+        "capacity": 401,
+        "seatsDownCapacity": 1200,
+        "practicality": "صندوق 401 لتر، كافٍ للاستخدام اليومي. يزيد إلى 1200 لتر مع طي المقاعد.",
+        "loadingLip": "عتبة تحميل منخفضة. باب خلفي كهربائي بفتح بدون أيدي."
+      },
+      "infotainment": {
+        "screenSize": "12.3 بوصة شاشة مزدوجة",
+        "system": "نظام هيونداي ccOS مع ملاحة وتحديثات OTA",
+        "connectivity": [
+          "أبل كاربلاي لاسلكي",
+          "أندرويد أوتو لاسلكي",
+          "تطبيق هيونداي",
+          "بلوتوث 5.0",
+          "واي فاي"
+        ],
+        "soundSystem": "بوز بريميوم 12 مكبر",
+        "digitalCluster": true
+      }
+    }
+  },
+  "technology": {
+    "es": {
+      "headUnit": {
+        "screenSize": "12.3 pulgadas dual display",
+        "resolution": "1920 x 720 px",
+        "system": "Hyundai ccOS",
+        "processor": "Hyundai ccOS",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Control de voz natural Hyundai"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Hyundai App",
+        "Bluetooth 5.0"
+      ],
+      "audio": {
+        "system": "Bose Premium",
+        "speakers": 12,
+        "watts": 600
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Pantalla digital de 12.3 pulgadas con modos N especificos",
+        "headUpDisplay": true,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Spotify",
+        "YouTube",
+        "Bluetooth Audio",
+        "USB Media"
+      ]
+    },
+    "en": {
+      "headUnit": {
+        "screenSize": "12.3 inches dual display",
+        "resolution": "1920 x 720 px",
+        "system": "Hyundai ccOS",
+        "processor": "Hyundai ccOS",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Hyundai natural voice control"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Hyundai App",
+        "Bluetooth 5.0"
+      ],
+      "audio": {
+        "system": "Bose Premium",
+        "speakers": 12,
+        "watts": 600
+      },
+      "driverDisplays": {
+        "instrumentCluster": "12.3 inch digital display with N-specific modes",
+        "headUpDisplay": true,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Spotify",
+        "YouTube",
+        "Bluetooth Audio",
+        "USB Media"
+      ]
+    },
+    "fr": {
+      "headUnit": {
+        "screenSize": "12,3 pouces double écran",
+        "resolution": "1920 x 720 px",
+        "system": "Hyundai ccOS",
+        "processor": "Hyundai ccOS",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "Commandes vocales naturelles Hyundai"
+      },
+      "connectivity": [
+        "5G",
+        "Wi-Fi hotspot",
+        "Application Hyundai",
+        "Bluetooth 5.0"
+      ],
+      "audio": {
+        "system": "Bose Premium",
+        "speakers": 12,
+        "watts": 600
+      },
+      "driverDisplays": {
+        "instrumentCluster": "Écran numérique 12,3 pouces avec modes N spécifiques",
+        "headUpDisplay": true,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "Spotify",
+        "YouTube",
+        "Bluetooth Audio",
+        "USB Media"
+      ]
+    },
+    "ar": {
+      "headUnit": {
+        "screenSize": "12.3 بوصة شاشة مزدوجة",
+        "resolution": "1920 × 720 بكسل",
+        "system": "نظام هيونداي ccOS",
+        "processor": "هيونداي ccOS",
+        "wirelessCarPlay": true,
+        "wirelessAndroidAuto": true,
+        "voiceControl": "تحكم صوتي طبيعي هيونداي"
+      },
+      "connectivity": [
+        "5G",
+        "نقطة اتصال واي فاي",
+        "تطبيق هيونداي",
+        "بلوتوث 5.0"
+      ],
+      "audio": {
+        "system": "بوز بريميوم",
+        "speakers": 12,
+        "watts": 600
+      },
+      "driverDisplays": {
+        "instrumentCluster": "شاشة رقمية 12.3 بوصة مع أوضاع N مخصصة",
+        "headUpDisplay": true,
+        "augmentedRealityNav": false
+      },
+      "appIntegration": [
+        "سبوتيفاي",
+        "يوتيوب",
+        "بلوتوث صوت",
+        "USB وسائط"
+      ]
+    }
+  },
+  "ownership": {
+    "es": {
+      "ownerReviews": [
+        {
+          "quote": "El Ioniq 6 N es una bestia electrica. El N Grin Boost te empuja contra el asiento. La autonomia real en autopista ronda los 380 km.",
+          "author": "Carlos M.",
+          "location": "Madrid, Espana",
+          "ownsSince": "2026",
+          "rating": 9
+        },
+        {
+          "quote": "El N e-Shift hace que conducir un EV sea divertido de verdad. Los cambios simulados anaden emocion.",
+          "author": "Laura P.",
+          "location": "Barcelona, Espana",
+          "ownsSince": "2026",
+          "rating": 8.5
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Desgaste rapido de neumaticos traseros en conduccion deportiva",
+          "frequency": "common",
+          "cost": "1200 EUR cada 20000 km"
+        },
+        {
+          "issue": "Consumo elevado en modo N Grin Boost",
+          "frequency": "common",
+          "cost": "Reduccion de autonomia ~30%"
+        }
+      ],
+      "satisfactionRating": 8.8,
+      "dailyUsability": "Excelente como coche diario. 401 litros de maletero suficientes. Conduccion de un pedal comoda en ciudad.",
+      "reliability": "Hyundai ofrece 5 anos de garantia ilimitada y 8 anos/160000 km para la bateria. Motores electricos requieren poco mantenimiento.",
+      "longTrips": "La carga de 350 kW hace los viajes largos viables. Una parada de 18 minutos cada 350 km es suficiente.",
+      "cityDriving": "Manejable para sus 4.94 metros. La aceleracion instantanea facilita incorporaciones. Las camaras ayudan en aparcamiento."
+    },
+    "en": {
+      "ownerReviews": [
+        {
+          "quote": "The Ioniq 6 N is an electric beast. N Grin Boost pushes you into the seat. Real highway range is around 380 km.",
+          "author": "Carlos M.",
+          "location": "Madrid, Spain",
+          "ownsSince": "2026",
+          "rating": 9
+        },
+        {
+          "quote": "N e-Shift makes driving an EV genuinely fun. The simulated shifts add excitement that other EVs lack.",
+          "author": "Laura P.",
+          "location": "Barcelona, Spain",
+          "ownsSince": "2026",
+          "rating": 8.5
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Rapid rear tire wear during sporty driving",
+          "frequency": "common",
+          "cost": "1200 EUR every 20,000 km"
+        },
+        {
+          "issue": "High consumption in N Grin Boost mode",
+          "frequency": "common",
+          "cost": "Range reduction ~30%"
+        }
+      ],
+      "satisfactionRating": 8.8,
+      "dailyUsability": "Excellent as a daily car. 401 liter trunk is sufficient. One-pedal driving is comfortable in the city.",
+      "reliability": "Hyundai offers 5-year unlimited warranty and 8 years/160,000 km for the battery. Electric motors require little maintenance.",
+      "longTrips": "350 kW charging makes long trips viable. An 18-minute stop every 350 km is sufficient.",
+      "cityDriving": "Manageable for its 4.94 meters. Instant acceleration helps with merging. Cameras assist with parking."
+    },
+    "fr": {
+      "ownerReviews": [
+        {
+          "quote": "L'Ioniq 6 N est une bête électrique. Le N Grin Boost vous plaque au siège. L'autonomie réelle sur autoroute tourne autour de 380 km.",
+          "author": "Carlos M.",
+          "location": "Madrid, Espagne",
+          "ownsSince": "2026",
+          "rating": 9
+        },
+        {
+          "quote": "Le N e-Shift rend la conduite d'un EV vraiment amusante. Les rapports simulés ajoutent de l'excitation.",
+          "author": "Laura P.",
+          "location": "Barcelone, Espagne",
+          "ownsSince": "2026",
+          "rating": 8.5
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Usure rapide des pneus arrière en conduite sportive",
+          "frequency": "common",
+          "cost": "1200 EUR tous les 20 000 km"
+        },
+        {
+          "issue": "Consommation élevée en mode N Grin Boost",
+          "frequency": "common",
+          "cost": "Réduction d'autonomie ~30%"
+        }
+      ],
+      "satisfactionRating": 8.8,
+      "dailyUsability": "Excellent au quotidien. Coffre de 401 litres suffisant. Conduite à une pédale confortable en ville.",
+      "reliability": "Hyundai offre 5 ans de garantie illimitée et 8 ans/160 000 km pour la batterie. Les moteurs électriques nécessitent peu d'entretien.",
+      "longTrips": "La charge 350 kW rend les longs trajets viables. Un arrêt de 18 minutes tous les 350 km suffit.",
+      "cityDriving": "Maniable pour ses 4,94 mètres. L'accélération instantanée facilite les insertions. Les caméras aident au stationnement."
+    },
+    "ar": {
+      "ownerReviews": [
+        {
+          "quote": "أيونيك 6 N وحش كهربائي. N Grin Boost يضغطك في المقعد. المدى الحقيقي على الطريق السريع حوالي 380 كم.",
+          "author": "كارلوس",
+          "location": "مدريد، إسبانيا",
+          "ownsSince": "2026",
+          "rating": 9
+        },
+        {
+          "quote": "N e-Shift يجعل قيادة سيارة كهربائية ممتعة حقاً. التروس المحاكية تضيف إثارة تفتقرها السيارات الكهربائية الأخرى.",
+          "author": "لورا",
+          "location": "برشلونة، إسبانيا",
+          "ownsSince": "2026",
+          "rating": 8.5
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "تآكل سريع للإطارات الخلفية في القيادة الرياضية",
+          "frequency": "شائع",
+          "cost": "1200 يورو كل 20000 كم"
+        },
+        {
+          "issue": "استهلاك عالٍ في وضع N Grin Boost",
+          "frequency": "شائع",
+          "cost": "انخفاض المدى ~30%"
+        }
+      ],
+      "satisfactionRating": 8.8,
+      "dailyUsability": "ممتازة كسيارة يومية. صندوق 401 لتر كافٍ. القيادة بدواسة واحدة مريحة في المدينة.",
+      "reliability": "هيونداي تقدم ضمان 5 سنوات غير محدود و 8 سنوات/160000 كم للبطارية. المحركات الكهربائية تتطلب صيانة قليلة.",
+      "longTrips": "شحن 350 كيلوواط يجعل الرحلات الطويلة ممكنة. توقف 18 دقيقة كل 350 كم كافٍ.",
+      "cityDriving": "قابلة للمناورة لطول 4.94 متر. التسارع الفوري يسهل الدمج. الكاميرات تساعد في الركن."
+    }
+  },
+  "content": {
+    "review": "El Hyundai Ioniq 6 N redefine el sedan electrico deportivo. Con 650 PS gracias al N Grin Boost y 770 Nm de par, acelera de 0 a 100 km/h en 3.2 segundos. Su bateria de 84 kWh ofrece 487 km de autonomia WLTP.",
+    "pros": [
+      "Aceleracion de 0-100 en 3.2 segundos con N Launch Control",
+      "Autonomia de 487 km (WLTP)",
+      "N Grin Boost con 650 PS temporales",
+      "N e-Shift simula cambios de marcha",
+      "Carga ultra rapida de 350 kW (10-80% en 18 min)"
+    ],
+    "cons": [
+      "Consumo elevado en conduccion deportiva",
+      "Maletero de 401 litros limitado para el segmento",
+      "Peso de 2201 kg condiciona dinamica en circuito",
+      "Autonomia reducida respecto al Ioniq 6 estandar"
+    ],
+    "verdict": "buy",
+    "timeline": [
+      {
+        "km": 10000,
+        "title": "Revision anual basica",
+        "desc": "Rotacion de neumaticos, liquido limpiaparabrisas, inspeccion de frenos y verificacion del liquido de refrigeracion de bateria.",
+        "cost": {
+          "value": 300,
+          "currency": "EUR"
+        },
+        "titleAr": "الفحص السنوي الأساسي",
+        "descAr": "تدوير الإطارات، سائل مساحات الزجاج، فحص الفرامل والتحقق من سائل تبريد البطارية.",
+        "serviceEn": "Basic annual check",
+        "descriptionEn": "Tire rotation, wiper fluid, brake inspection and battery coolant check.",
+        "serviceFr": "Vérification annuelle de base",
+        "descriptionFr": "Rotation des pneus, liquide lave-glace, inspection des freins et vérification du liquide de refroidissement de batterie.",
+        "serviceAr": "الفحص السنوي الأساسي",
+        "descriptionAr": "تدوير الإطارات، سائل مساحات الزجاج، فحص الفرامل والتحقق من سائل تبريد البطارية.",
+        "service": "Revision anual basica",
+        "description": "Rotacion de neumaticos, liquido limpiaparabrisas, inspeccion de frenos y verificacion del liquido de refrigeracion de bateria."
+      },
+      {
+        "km": 30000,
+        "title": "Servicio intermedio",
+        "desc": "Filtro de habitaculo, liquido de frenos y bateria de 12V.",
+        "cost": {
+          "value": 750,
+          "currency": "EUR"
+        },
+        "titleAr": "الخدمة المتوسطة",
+        "descAr": "فلتر المقصورة، سائل الفرامل وبطارية 12 فولت.",
+        "serviceEn": "Intermediate service",
+        "descriptionEn": "Cabin air filter, brake fluid and 12V battery check.",
+        "serviceFr": "Service intermédiaire",
+        "descriptionFr": "Filtre d'habitacle, liquide de freins et batterie 12V.",
+        "serviceAr": "الخدمة المتوسطة",
+        "descriptionAr": "فلتر المقصورة، سائل الفرامل وبطارية 12 فولت.",
+        "service": "Servicio intermedio",
+        "description": "Filtro de habitaculo, liquido de frenos y bateria de 12V."
+      },
+      {
+        "km": 60000,
+        "title": "Servicio mayor",
+        "desc": "Liquido de frenos, refrigerante de bateria e inspeccion del tren motriz electrico.",
+        "cost": {
+          "value": 1100,
+          "currency": "EUR"
+        },
+        "titleAr": "الخدمة الكبرى",
+        "descAr": "سائل الفرامل، سائل تبريد البطارية وفحص مجموعة الدفع الكهربائية.",
+        "serviceEn": "Major service",
+        "descriptionEn": "Brake fluid, battery coolant and electric drivetrain inspection.",
+        "serviceFr": "Grand service",
+        "descriptionFr": "Liquide de freins, liquide de refroidissement de batterie et inspection du groupe motopropulseur électrique.",
+        "serviceAr": "الخدمة الكبرى",
+        "descriptionAr": "سائل الفرامل، سائل تبريد البطارية وفحص مجموعة الدفع الكهربائية.",
+        "service": "Servicio mayor",
+        "description": "Liquido de frenos, refrigerante de bateria e inspeccion del tren motriz electrico."
+      },
+      {
+        "km": 90000,
+        "title": "Suspension y neumaticos",
+        "desc": "Inspeccion de amortiguadores, bieletas y juego de neumaticos de alto rendimiento.",
+        "cost": {
+          "value": 2000,
+          "currency": "EUR"
+        },
+        "titleAr": "التعليق والإطارات",
+        "descAr": "فحص الممتصات، وصلات التعليق ومجموعة الإطارات الرياضية.",
+        "serviceEn": "Suspension and tires",
+        "descriptionEn": "Shock absorbers, links and high-performance tire set inspection.",
+        "serviceFr": "Suspension et pneus",
+        "descriptionFr": "Inspection des amortisseurs, biellettes et jeu de pneus haute performance.",
+        "serviceAr": "التعليق والإطارات",
+        "descriptionAr": "فحص الممتصات، وصلات التعليق ومجموعة إطارات عالية الأداء.",
+        "service": "Suspension y neumaticos",
+        "description": "Inspeccion de amortiguadores, bieletas y juego de neumaticos de alto rendimiento."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuanta autonomia tiene el Hyundai Ioniq 6 N 2026?",
+        "answer": "El Hyundai Ioniq 6 N 2026 homologa 487 km de autonomia WLTP con su bateria de 84 kWh."
+      },
+      {
+        "question": "¿Cuanto acelera el Ioniq 6 N de 0 a 100 km/h?",
+        "answer": "El Ioniq 6 N acelera de 0 a 100 km/h en 3.2 segundos con N Launch Control."
+      },
+      {
+        "question": "¿Cual es el precio del Hyundai Ioniq 6 N 2026?",
+        "answer": "En Reino Unido el precio parte de 65.800 GBP; en Europa se estima entre 72.000-74.000 EUR."
+      },
+      {
+        "question": "¿Cuantos caballos tiene el Ioniq 6 N?",
+        "answer": "El Ioniq 6 N entrega 650 PS con N Grin Boost y 609 PS en modo normal, con 770 Nm de par."
+      },
+      {
+        "question": "¿Cuanto tarda en cargar el Ioniq 6 N?",
+        "answer": "Con un cargador DC de 350 kW puede recuperar del 10% al 80% en aproximadamente 18 minutos."
+      },
+      {
+        "question": "¿Hyundai Ioniq 6 N o Tesla Model S Plaid?",
+        "answer": "El Model S Plaid gana en aceleracion y autonomia. El Ioniq 6 N ofrece mejor relacion calidad-precio y experiencia mas engaging."
+      },
+      {
+        "question": "¿Vale la pena comprar un Ioniq 6 N de segunda mano?",
+        "answer": "Si, a partir de los 2-3 anos. Revisar historial de software, bateria y estado de neumaticos."
+      }
+    ],
+    "es": {
+      "pros": [
+        "Aceleracion de 0-100 en 3.2 segundos con N Launch Control",
+        "Autonomia de 487 km (WLTP)",
+        "N Grin Boost con 650 PS temporales",
+        "N e-Shift simula cambios de marcha",
+        "Carga ultra rapida de 350 kW (10-80% en 18 min)"
+      ],
+      "cons": [
+        "Consumo elevado en conduccion deportiva",
+        "Maletero de 401 litros limitado para el segmento",
+        "Peso de 2201 kg condiciona dinamica en circuito",
+        "Autonomia reducida respecto al Ioniq 6 estandar"
+      ]
+    },
+    "en": {
+      "pros": [
+        "0-100 acceleration in 3.2 seconds with N Launch Control",
+        "Range of 487 km (WLTP)",
+        "N Grin Boost with temporary 650 PS",
+        "N e-Shift simulates gear shifts",
+        "Ultra-fast 350 kW charging (10-80% in 18 min)"
+      ],
+      "cons": [
+        "High consumption in sporty driving",
+        "401 liter trunk limited for the segment",
+        "2201 kg weight conditions track dynamics",
+        "Reduced range compared to standard Ioniq 6"
+      ]
+    },
+    "fr": {
+      "pros": [
+        "Accélération 0-100 en 3,2 secondes avec N Launch Control",
+        "Autonomie de 487 km (WLTP)",
+        "N Grin Boost avec 650 PS temporaires",
+        "N e-Shift simule les changements de vitesse",
+        "Charge ultra-rapide 350 kW (10-80% en 18 min)"
+      ],
+      "cons": [
+        "Consommation élevée en conduite sportive",
+        "Coffre de 401 litres limité pour le segment",
+        "Poids de 2201 kg conditionne la dynamique sur circuit",
+        "Autonomie réduite par rapport à l'Ioniq 6 standard"
+      ]
+    },
+    "ar": {
+      "pros": [
+        "تسارع 0-100 في 3.2 ثانية مع تحكم انطلاق N",
+        "مدى 487 كم (WLTP)",
+        "N Grin Boost بقوة 650 حصان مؤقتة",
+        "N e-Shift يحاكي تغيير التروس",
+        "شحن فائق السرعة 350 كيلوواط (10-80% في 18 دقيقة)"
+      ],
+      "cons": [
+        "استهلاك عالٍ في القيادة الرياضية",
+        "صندوق 401 لتر محدود للفئة",
+        "وزن 2201 كجم يؤثر على الديناميكيا في الحلبة",
+        "مدى أقل مقارنة بـ أيونيك 6 القياسية"
+      ]
+    }
+  },
+  "runningCosts": {
+    "es": {
+      "insuranceGroups": {
+        "spain": "Grupo 14-16",
+        "uk": "Grupo 42-48",
+        "germany": "TK20-23"
+      },
+      "roadTax": {
+        "spain": "Exento en muchas comunidades",
+        "uk": "£0 VED",
+        "germany": "Exento 10 anos"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 300,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1100,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Electricidad",
+        "tankCapacity": {
+          "value": 84,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 18.7,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 5,
+        "km": 100000,
+        "powertrain": {
+          "years": 8,
+          "km": 160000
+        }
+      }
+    },
+    "en": {
+      "insuranceGroups": {
+        "spain": "Group 14-16",
+        "uk": "Group 42-48",
+        "germany": "TK20-23"
+      },
+      "roadTax": {
+        "spain": "Exempt in many regions",
+        "uk": "£0 VED",
+        "germany": "10-year exempt"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 300,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1100,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Electricity",
+        "tankCapacity": {
+          "value": 84,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 18.7,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 5,
+        "km": 100000,
+        "powertrain": {
+          "years": 8,
+          "km": 160000
+        }
+      }
+    },
+    "fr": {
+      "insuranceGroups": {
+        "spain": "Groupe 14-16",
+        "uk": "Groupe 42-48",
+        "germany": "TK20-23"
+      },
+      "roadTax": {
+        "spain": "Exonéré dans many régions",
+        "uk": "£0 VED",
+        "germany": "Exonéré 10 ans"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 300,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1100,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "Électricité",
+        "tankCapacity": {
+          "value": 84,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 18.7,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 5,
+        "km": 100000,
+        "powertrain": {
+          "years": 8,
+          "km": 160000
+        }
+      }
+    },
+    "ar": {
+      "insuranceGroups": {
+        "spain": "مجموعة 14-16",
+        "uk": "مجموعة 42-48",
+        "germany": "TK20-23"
+      },
+      "roadTax": {
+        "spain": "معفى في مناطق كثيرة",
+        "uk": "£0 VED",
+        "germany": "معفى 10 سنوات"
+      },
+      "servicing": {
+        "intervalKm": 20000,
+        "intervalMonths": 12,
+        "costMinor": {
+          "value": 300,
+          "currency": "EUR"
+        },
+        "costMajor": {
+          "value": 1100,
+          "currency": "EUR"
+        }
+      },
+      "tyres": {
+        "front": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        },
+        "rear": {
+          "size": "275/35 R20",
+          "costPerTyre": {
+            "value": 350,
+            "currency": "EUR"
+          }
+        }
+      },
+      "fuel": {
+        "type": "كهرباء",
+        "tankCapacity": {
+          "value": 84,
+          "unit": "kWh"
+        },
+        "realWorldCombined": {
+          "value": 18.7,
+          "unit": "kWh/100km"
+        }
+      },
+      "warranty": {
+        "years": 5,
+        "km": 100000,
+        "powertrain": {
+          "years": 8,
+          "km": 160000
+        }
+      }
+    }
+  }
+}

@@ -688,12 +688,19 @@
   ],
   "relatedModels": [
     {
-      "name": "VW Passat eHybrid 272",
-      "slug": "vw-passat-ehybrid-272"
+      "name": "BMW 520d xDrive",
+      "slug": "bmw-520d",
+      "nameAr": "520 دي إكس درايف"
     },
     {
-      "name": "VW Passat 2.0 TSI 265 4Motion",
-      "slug": "vw-passat-20-tsi-265"
+      "name": "BMW M5 PHEV Competition",
+      "slug": "bmw-m5",
+      "nameAr": "أم 5 هجينة"
+    },
+    {
+      "name": "Audi RS7",
+      "slug": "rs7",
+      "nameAr": "آر إس 7"
     }
   ],
   "safety": {

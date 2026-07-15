@@ -19,7 +19,8 @@ const modelPageMap = {
     "Porsche 911": "porsche-911.html",
     "Porsche 911 Turbo S": "porsche-911.html",
     "Tesla Model S Plaid": "model-s-plaid.html",
-    "Volkswagen Passat Variant": "vw-passat-variant.html"
+    "Volkswagen Passat Variant": "vw-passat-variant.html",
+    "Hyundai Ioniq 6 N": "ioniq-6n.html"
 };
 
 /* ── Brand logo map (SimpleIcons CDN) ───────────────────── */
@@ -679,6 +680,7 @@ const brandModels = {
             "Hyundai Palisade"
         ],
         "electricos": [
+            "Hyundai Ioniq 6 N",
             "Hyundai Ioniq 5",
             "Hyundai Ioniq 6",
             "Hyundai Kona Electric"

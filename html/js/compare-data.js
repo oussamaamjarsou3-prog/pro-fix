@@ -138,6 +138,21 @@ window.CARSPECIO_COMPARE_INDEX = [
         "image": "/images/volkswagen-passat.2026/passat-hero.webp",
         "modelYear": 2026,
         "generation": "B9"
+    },
+    {
+        "id": "hyundai-ioniq-6n-2026",
+        "name": "Hyundai Ioniq 6 N",
+        "nameAr": "هيونداي أيونيك 6 N",
+        "brandId": "hyundai",
+        "brand": "Hyundai",
+        "categoryId": "electricos",
+        "category": "electricos",
+        "slug": "ioniq-6n",
+        "htmlFile": "ioniq-6n.html",
+        "dataFile": "../system/data/hyundai-ioniq-6n-2026.json",
+        "image": "/images/hyundai-ioniq-6n.hero.2026.webp",
+        "modelYear": 2026,
+        "generation": "NE"
     }
 ];
 
@@ -203,6 +218,16 @@ window.CARSPECIO_COMPARE_PRESETS = [
         "car1": "Volkswagen Passat Variant",
         "car2": "Audi RS7",
         "label": "Volkswagen Passat Variant vs Audi RS7"
+    },
+    {
+        "car1": "Hyundai Ioniq 6 N",
+        "car2": "Tesla Model S Plaid",
+        "label": "Hyundai Ioniq 6 N vs Tesla Model S Plaid"
+    },
+    {
+        "car1": "Hyundai Ioniq 6 N",
+        "car2": "Porsche 911 Turbo S",
+        "label": "Hyundai Ioniq 6 N vs Porsche 911 Turbo S"
     }
 ];
 

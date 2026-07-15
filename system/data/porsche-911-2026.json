@@ -3110,34 +3110,19 @@
   },
   "relatedModels": [
     {
-      "carId": "audi-rs7-2026",
-      "relation": "alternative",
-      "name": {
-        "es": "Audi RS7",
-        "en": "Audi RS7",
-        "fr": "Audi RS7",
-        "ar": "Audi RS7"
-      }
+      "name": "Nissan GT-R NISMO",
+      "slug": "nissan-gtr",
+      "nameAr": "جي تي-آر"
     },
     {
-      "carId": "nissan-gtr-2026",
-      "relation": "rival",
-      "name": {
-        "es": "Nissan GT-R",
-        "en": "Nissan GT-R",
-        "fr": "Nissan GT-R",
-        "ar": "Nissan GT-R"
-      }
+      "name": "Mercedes-AMG GT 63 S E PERFORMANCE",
+      "slug": "mercedes-amg-gt",
+      "nameAr": "أي أم جي جي تي"
     },
     {
-      "carId": "mercedes-amg-gt-2026",
-      "relation": "rival",
-      "name": {
-        "es": "Mercedes-AMG GT",
-        "en": "Mercedes-AMG GT",
-        "fr": "Mercedes-AMG GT",
-        "ar": "Mercedes-AMG GT"
-      }
+      "name": "Audi RS7",
+      "slug": "rs7",
+      "nameAr": "آر إس 7"
     }
   ],
   "drivingExperience": {

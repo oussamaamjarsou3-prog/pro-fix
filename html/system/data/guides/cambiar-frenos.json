@@ -221,7 +221,8 @@
              ],
     "relatedCars":  [
                         "porsche-911-2026",
-                        "nissan-gtr-2026"
+                        "nissan-gtr-2026",
+                        "hyundai-ioniq-6n-2026"
                     ],
     "schemaVersion":  "1.0"
 }

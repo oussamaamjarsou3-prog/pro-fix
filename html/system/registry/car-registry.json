@@ -363,14 +363,57 @@
         "bmw-520d-xdrive-2026",
         "audi-rs7-2026"
       ]
+    },
+    {
+      "id": "hyundai-ioniq-6n-2026",
+      "slug": "ioniq-6n",
+      "brandId": "hyundai",
+      "categoryId": "electricos",
+      "modelYear": 2026,
+      "generation": "NE",
+      "status": "active",
+      "htmlFile": "ioniq-6n.html",
+      "dataFile": "system/data/hyundai-ioniq-6n-2026.json",
+      "images": {
+        "hero": "/images/hyundai-ioniq-6n.hero.2026.webp",
+        "gallery": [
+          "/images/hyundai-ioniq-6n.1.2026.webp",
+          "/images/hyundai-ioniq-6n.2.2026.webp",
+          "/images/hyundai-ioniq-6n.3.2026.webp",
+          "/images/hyundai-ioniq-6n.4.2026.webp"
+        ]
+      },
+      "seo": {
+        "title": "Hyundai Ioniq 6 N 2026 - Review y Comparativa",
+        "description": "El Hyundai Ioniq 6 N 2026 es el sedan electrico deportivo de Hyundai N con 650 PS, 0-100 en 3.2s y 487 km de autonomia WLTP.",
+        "keywords": [
+          "hyundai",
+          "ioniq",
+          "6n",
+          "electrico",
+          "n",
+          "deportivo",
+          "sedan",
+          "ev"
+        ]
+      },
+      "relatedCars": [
+        "tesla-model-s-plaid-2026",
+        "audi-rs7-2026"
+      ],
+      "comparisons": [
+        "tesla-model-s-plaid-2026",
+        "porsche-911-2026"
+      ]
     }
   ],
   "metadata": {
-    "totalCars": 9,
-    "activeCars": 9,
+    "totalCars": 10,
+    "activeCars": 10,
     "brands": [
       "audi",
       "bmw",
+      "hyundai",
       "mercedes-benz",
       "nissan",
       "porsche",
@@ -380,7 +423,8 @@
     "categories": [
       "deportivos",
       "sedan",
-      "familiar"
+      "familiar",
+      "electricos"
     ]
   }
 }

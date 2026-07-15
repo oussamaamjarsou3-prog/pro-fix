@@ -1064,7 +1064,7 @@ const SECTION_RENDERERS = {
             return;
         }
         const renderName = function(m) {
-            if (m.nameAr) return m.nameAr;
+            if (lang === 'ar' && m.nameAr) return m.nameAr;
             if (m.name && typeof m.name === 'object') {
                 const localized = _getLocalized(m.name, lang);
                 if (localized) return localized;
